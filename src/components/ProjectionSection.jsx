@@ -2,11 +2,12 @@ import { STATUS_META, VIEW_TYPES } from '../config.js';
 import useProjections from '../hooks/useProjections.js';
 import useWeeklyProjections from '../hooks/useWeeklyProjections.js';
 import ProjectionTable from './ProjectionTable.jsx';
+import StatTiles from './StatTiles.jsx';
 
 // Shared async-state renderer for one table of model output.
 function SectionBody({ status, data, error }) {
   if (status === 'loading') {
-    return <p className="sport-section__state">Loading projections…</p>;
+    return <p className="sport-section__state">Loading…</p>;
   }
   if (status === 'error') {
     return (
@@ -21,6 +22,7 @@ function SectionBody({ status, data, error }) {
   if (status === 'ready' && data) {
     return (
       <>
+        <StatTiles summary={data.summary} />
         {data.subtitle && <p className="sport-section__meta">{data.subtitle}</p>}
         <ProjectionTable
           columns={data.columns}
@@ -82,6 +84,7 @@ export default function ProjectionSection({ sportId, view }) {
           )}
           {weekly.indexStatus === 'ready' && (
             <>
+              <StatTiles summary={weekly.manifest.summary} />
               <select
                 className="week-select"
                 aria-label="Select week"

@@ -9,9 +9,10 @@
 //                       data/<sportId>/<viewType>/<season>-wNN.json (one per week)
 //
 // Table shape (both layouts):
-//   { subtitle?, updated?, columns: [{ key, label, align?, format? }], rows: [ {…} ] }
+//   { subtitle?, updated?, summary?, groupBy?, columns: [{ key, label, align?, format? }], rows: [ {…} ] }
+//   (a cell is a plain value or { v, tone }; summary feeds StatTiles)
 // Manifest shape:
-//   { season, label?, latest: "<file>", weeks: [{ week, label, file }] }
+//   { season, label?, latest: "<file>", summary?, weeks: [{ week?, label, file }] }
 
 async function loadJson(relPath) {
   // BASE_URL keeps paths correct under the GitHub Pages subpath.

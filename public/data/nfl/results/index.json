@@ -1,0 +1,62 @@
+{
+  "season": 2026,
+  "label": "2026 Season",
+  "latest": "2026-w02.json",
+  "summary": {
+    "title": "2026 season to date \u00b7 32 games graded through Week 2",
+    "stats": [
+      {
+        "label": "Straight up",
+        "value": "21\u201311",
+        "detail": "65.6%",
+        "tone": null
+      },
+      {
+        "label": "Against the spread",
+        "value": "18\u201313",
+        "detail": "58.1%",
+        "tone": "good"
+      },
+      {
+        "label": "Over / under",
+        "value": "16\u201315",
+        "detail": "51.6%",
+        "tone": "bad"
+      },
+      {
+        "label": "\u2605 Spread plays",
+        "value": "11\u20136",
+        "detail": "64.7% \u00b7 +4.0u",
+        "tone": "good"
+      },
+      {
+        "label": "\u2605 Total plays",
+        "value": "4\u20132",
+        "detail": "66.7% \u00b7 +1.6u",
+        "tone": "good"
+      },
+      {
+        "label": "Margin MAE",
+        "value": "11.6",
+        "detail": "avg miss, points"
+      }
+    ],
+    "note": "Graded against the line the model projected against, at -110 (break-even 52.4%). Win % excludes pushes. \u2605 = flagged play; units assume 1u per flagged play."
+  },
+  "weeks": [
+    {
+      "label": "All weeks",
+      "file": "2026-all.json"
+    },
+    {
+      "week": 1,
+      "label": "Week 1",
+      "file": "2026-w01.json"
+    },
+    {
+      "week": 2,
+      "label": "Week 2",
+      "file": "2026-w02.json"
+    }
+  ]
+}

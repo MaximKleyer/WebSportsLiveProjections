@@ -16,15 +16,26 @@ site's JSON. One command refreshes everything:
 
 Then review the diff and commit + push this repo — GitHub Pages redeploys.
 
+The **Results** tab comes from each model's `results_log.csv`, so after
+grading (`python -m nfl_projector_v1 grade --season 2026 --week N`,
+`python -m cfb_model.grade --week N`) the same script refreshes it.
+
 Model repos: `C:\Users\maxim\NFLProjectionModel\nfl_projector_v1` and
 `C:\Users\maxim\CFB_Projection_Model`.
 
 ## Adding a model
 
 Model output is plain static JSON — no backend. Each sport page renders one
-tab per *view* (`games`, `players`, `season`), defined in `src/config.js`.
-A single-file table may add `"groupBy": "<row field>"` (e.g. `"division"`)
-to render one sub-table per distinct value of that field.
+tab per *view* (`games`, `players`, `season`, `results`), defined in
+`src/config.js`. Optional extras any table can use:
+
+- `"groupBy": "<row field>"` (e.g. `"division"`) renders one sub-table per
+  distinct value of that field.
+- A cell may be `{ "v": "★ ATL +6 ✓", "tone": "good" }` instead of a plain
+  value — `tone` is `good` / `bad` / `muted` (hit / miss / push).
+- `"summary": { "title", "stats": [{ "label", "value", "detail", "tone" }], "note" }`
+  renders headline tiles above the table (a weekly manifest may carry one
+  too — the Results tab's season-to-date record lives there).
 
 **Single-file views** (players, season) live at
 `public/data/<sport>/<view>.json`:
@@ -44,7 +55,7 @@ to render one sub-table per distinct value of that field.
 `format` supports `percent` (expects 0–1) and `number`; `align` is `left`
 (default), `right`, or `center`.
 
-**Weekly views** (games — any view with `weekly: true` in `VIEW_TYPES`) live
+**Weekly views** (games, results — any view with `weekly: true` in `VIEW_TYPES`) live
 under `public/data/<sport>/<view>/`: one table file per week plus a manifest
 the week picker reads:
 

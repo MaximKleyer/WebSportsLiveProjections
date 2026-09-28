@@ -1,0 +1,92 @@
+{
+  "subtitle": "2026 \u00b7 record by week",
+  "updated": "2026-09-22",
+  "columns": [
+    {
+      "key": "week",
+      "label": "Week"
+    },
+    {
+      "key": "games",
+      "label": "Games",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "Straight up",
+      "align": "right"
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right"
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right"
+    },
+    {
+      "key": "spreadPlays",
+      "label": "\u2605 Spread",
+      "align": "right"
+    },
+    {
+      "key": "totalPlays",
+      "label": "\u2605 Total",
+      "align": "right"
+    },
+    {
+      "key": "mae",
+      "label": "Margin MAE",
+      "align": "right",
+      "format": "number"
+    }
+  ],
+  "rows": [
+    {
+      "week": "Week 1",
+      "games": 16,
+      "su": "11\u20135 (69%)",
+      "ats": {
+        "v": "11\u20134 (73%)",
+        "tone": "good"
+      },
+      "ou": {
+        "v": "7\u20138 (47%)",
+        "tone": "bad"
+      },
+      "spreadPlays": {
+        "v": "7\u20132 (78%)",
+        "tone": "good"
+      },
+      "totalPlays": {
+        "v": "2\u20130 (100%)",
+        "tone": "good"
+      },
+      "mae": 11.0
+    },
+    {
+      "week": "Week 2",
+      "games": 16,
+      "su": "10\u20136 (62%)",
+      "ats": {
+        "v": "7\u20139 (44%)",
+        "tone": "bad"
+      },
+      "ou": {
+        "v": "9\u20137 (56%)",
+        "tone": "good"
+      },
+      "spreadPlays": {
+        "v": "4\u20134 (50%)",
+        "tone": "bad"
+      },
+      "totalPlays": {
+        "v": "2\u20132 (50%)",
+        "tone": "bad"
+      },
+      "mae": 12.1
+    }
+  ]
+}

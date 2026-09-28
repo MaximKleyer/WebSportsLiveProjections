@@ -1,0 +1,111 @@
+{
+  "subtitle": "2026 \u00b7 record by week",
+  "updated": "2026-09-20",
+  "columns": [
+    {
+      "key": "week",
+      "label": "Week"
+    },
+    {
+      "key": "games",
+      "label": "Games",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "Straight up",
+      "align": "right"
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right"
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right"
+    },
+    {
+      "key": "spreadPlays",
+      "label": "\u2605 Spread",
+      "align": "right"
+    },
+    {
+      "key": "totalPlays",
+      "label": "\u2605 Total",
+      "align": "right"
+    },
+    {
+      "key": "mae",
+      "label": "Margin MAE",
+      "align": "right",
+      "format": "number"
+    }
+  ],
+  "rows": [
+    {
+      "week": "Week 1",
+      "games": 99,
+      "su": "86\u201313 (87%)",
+      "ats": {
+        "v": "39\u201358\u20132 (40%)",
+        "tone": "bad"
+      },
+      "ou": {
+        "v": "60\u201339 (61%)",
+        "tone": "good"
+      },
+      "spreadPlays": {
+        "v": "30\u201336\u20131 (45%)",
+        "tone": "bad"
+      },
+      "totalPlays": null,
+      "mae": 15.6
+    },
+    {
+      "week": "Week 2",
+      "games": 86,
+      "su": "72\u201314 (84%)",
+      "ats": {
+        "v": "46\u201340 (53%)",
+        "tone": "good"
+      },
+      "ou": {
+        "v": "54\u201332 (63%)",
+        "tone": "good"
+      },
+      "spreadPlays": {
+        "v": "19\u201319 (50%)",
+        "tone": "bad"
+      },
+      "totalPlays": {
+        "v": "26\u201318 (59%)",
+        "tone": "good"
+      },
+      "mae": 12.2
+    },
+    {
+      "week": "Week 3",
+      "games": 75,
+      "su": "66\u20139 (88%)",
+      "ats": {
+        "v": "45\u201328\u20131 (62%)",
+        "tone": "good"
+      },
+      "ou": {
+        "v": "45\u201329 (61%)",
+        "tone": "good"
+      },
+      "spreadPlays": {
+        "v": "24\u201312\u20131 (67%)",
+        "tone": "good"
+      },
+      "totalPlays": {
+        "v": "27\u201317 (61%)",
+        "tone": "good"
+      },
+      "mae": 10.2
+    }
+  ]
+}

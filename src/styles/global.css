@@ -17,6 +17,9 @@
   --accent-live: #6ee7a0;
   --accent-dev: #f5c46b;
   --accent-planned: #8a8e98;
+  /* Graded results: hit / miss (pushes use --text-mute) */
+  --good: #6ee7a0;
+  --bad: #f27a7a;
 
   /* Type */
   --font-display: 'Big Shoulders Display', 'Impact', sans-serif;
@@ -787,6 +790,106 @@ button {
 
 .proj-table__cell--center {
   text-align: center;
+}
+
+/* Toned cells ({ v, tone } in the data) — e.g. a graded pick */
+.proj-table__td--good {
+  color: var(--good);
+}
+
+.proj-table__td--bad {
+  color: var(--bad);
+}
+
+.proj-table__td--muted {
+  color: var(--text-mute);
+}
+
+/* Summary tiles above a table (e.g. season-to-date record on Results) */
+.stat-tiles {
+  margin: 0 0 var(--space-6);
+}
+
+.stat-tiles__title {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 var(--space-3);
+}
+
+.stat-tiles__grid {
+  display: grid;
+  /* 130px min keeps two tiles per row on a phone */
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: var(--space-2);
+}
+
+.stat-tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--border-strong);
+}
+
+@media (min-width: 640px) {
+  .stat-tile {
+    padding: var(--space-3) var(--space-4);
+  }
+}
+
+.stat-tile--good {
+  border-left-color: var(--good);
+}
+
+.stat-tile--bad {
+  border-left-color: var(--bad);
+}
+
+.stat-tile__label {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.stat-tile__value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  /* Shrinks on phones so a record like 130–126–3 stays on one line */
+  font-size: clamp(1.5rem, 6vw, 1.9rem);
+  white-space: nowrap;
+  line-height: 1;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-tile__detail {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--text-dim);
+}
+
+.stat-tile--good .stat-tile__detail {
+  color: var(--good);
+}
+
+.stat-tile--bad .stat-tile__detail {
+  color: var(--bad);
+}
+
+.stat-tiles__note {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--text-mute);
+  margin: var(--space-3) 0 0;
 }
 
 /* ============================================================

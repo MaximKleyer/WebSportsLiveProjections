@@ -5,6 +5,12 @@
 // table renders one sub-table per distinct value, in row order, with the
 // value as an accent-colored group header. Rows carry the field; it does not
 // need its own column.
+// A cell is a plain value, or { v, tone } to color it — tone is 'good' |
+// 'bad' | 'muted' (e.g. a graded pick: hit / miss / push).
+
+function splitCell(cell) {
+  return cell !== null && typeof cell === 'object' ? [cell.v, cell.tone] : [cell, null];
+}
 
 function formatCell(value, format) {
   if (value === null || value === undefined || value === '') return '—';
@@ -18,14 +24,19 @@ function formatCell(value, format) {
 export default function ProjectionTable({ columns = [], rows = [], groupBy = null }) {
   const renderRow = (row, i) => (
     <tr key={i} className="proj-table__row">
-      {columns.map((col) => (
-        <td
-          key={col.key}
-          className={`proj-table__td proj-table__cell--${col.align ?? 'left'}`}
-        >
-          {formatCell(row[col.key], col.format)}
-        </td>
-      ))}
+      {columns.map((col) => {
+        const [value, tone] = splitCell(row[col.key]);
+        return (
+          <td
+            key={col.key}
+            className={`proj-table__td proj-table__cell--${col.align ?? 'left'}${
+              tone ? ` proj-table__td--${tone}` : ''
+            }`}
+          >
+            {formatCell(value, col.format)}
+          </td>
+        );
+      })}
     </tr>
   );
 

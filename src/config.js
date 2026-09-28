@@ -55,6 +55,15 @@ export const VIEW_TYPES = {
     blurb:
       'Team standings, playoff odds, and individual award tracking through the season.',
   },
+  results: {
+    label: 'Results & Track Record',
+    short: 'RESULTS',
+    blurb:
+      'Every pick graded against the final score and the betting line — season to date and week by week.',
+    // Same weekly layout as games (manifest + one file per graded week); the
+    // manifest's `summary` holds the season-to-date record tiles.
+    weekly: true,
+  },
 };
 
 // Build the standard three views, defaulting to 'planned' unless overridden.
@@ -85,10 +94,11 @@ export const SPORTS = [
     status: 'live',
     accent: '#c9a55c',
     year: '2026 SEASON',
-    // Players view removed from the site (Sep 2026) — games + season only.
+    // Players view removed from the site (Sep 2026).
     views: [
       { type: 'games', status: 'live' },
       { type: 'season', status: 'live' },
+      { type: 'results', status: 'live' },
     ],
   },
   {
@@ -125,10 +135,11 @@ export const SPORTS = [
     status: 'live',
     accent: '#b34248',
     year: '2026 SEASON',
-    // Players view removed from the site (Sep 2026) — games + season only.
+    // Players view removed from the site (Sep 2026).
     views: [
       { type: 'games', status: 'live' },
       { type: 'season', status: 'live' },
+      { type: 'results', status: 'live' },
     ],
   },
   {
