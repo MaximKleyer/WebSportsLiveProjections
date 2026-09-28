@@ -1,12 +1,15 @@
-import { STATUS_META, VIEW_TYPES } from '../config.js';
+import { STATUS_META, viewMeta } from '../config.js';
 import useProjections from '../hooks/useProjections.js';
-import useWeeklyProjections from '../hooks/useWeeklyProjections.js';
+import useSlates from '../hooks/useSlates.js';
 import ProjectionTable from './ProjectionTable.jsx';
 import StatTiles from './StatTiles.jsx';
 
-// Shared async-state renderer for one table of model output.
+// Shared async-state renderer for one table of model output. While a slate
+// view loads its next table, the previous one stays up (dimmed), so the page
+// doesn't jump and the table keeps its sort / search / filters.
 function SectionBody({ status, data, error }) {
-  if (status === 'loading') {
+  const hasRows = Array.isArray(data?.rows) && data.rows.length > 0;
+  if (status === 'loading' && !hasRows) {
     return <p className="sport-section__state">Loading…</p>;
   }
   if (status === 'error') {
@@ -19,42 +22,45 @@ function SectionBody({ status, data, error }) {
   if (status === 'empty') {
     return <p className="sport-section__state">No projections available yet.</p>;
   }
-  if (status === 'ready' && data) {
+  if ((status === 'ready' || status === 'loading') && hasRows) {
+    const loading = status === 'loading';
     return (
-      <>
+      <div className={`sport-section__data${loading ? ' is-loading' : ''}`} aria-busy={loading}>
         <StatTiles summary={data.summary} />
         {data.subtitle && <p className="sport-section__meta">{data.subtitle}</p>}
         <ProjectionTable
           columns={data.columns}
           rows={data.rows}
           groupBy={data.groupBy}
+          search={data.search}
+          filters={data.filters}
         />
         {data.updated && (
           <p className="sport-section__updated">Updated {data.updated}</p>
         )}
-      </>
+      </div>
     );
   }
   return null;
 }
 
 // One view's tab panel on a sport page. Live views load and render their
-// model's table; weekly views additionally get a week dropdown driven by the
+// model's table; slate views (a week, a day) add a dropdown driven by their
 // manifest. Non-live views show the status badge. This is the single seam a
 // new model plugs into — no per-sport rendering code.
 export default function ProjectionSection({ sportId, view }) {
-  const meta = VIEW_TYPES[view.type] ?? { label: view.type, blurb: '' };
+  const meta = viewMeta(view);
   const isLive = view.status === 'live';
-  const isWeekly = Boolean(meta.weekly);
+  const hasSlates = Boolean(meta.slates);
 
   // Hooks run unconditionally (React rules); null ids keep the idle one inert.
   const single = useProjections(
-    isLive && !isWeekly ? sportId : null,
-    isLive && !isWeekly ? view.type : null
+    isLive && !hasSlates ? sportId : null,
+    isLive && !hasSlates ? view.type : null
   );
-  const weekly = useWeeklyProjections(
-    isLive && isWeekly ? sportId : null,
-    isLive && isWeekly ? view.type : null
+  const slate = useSlates(
+    isLive && hasSlates ? sportId : null,
+    isLive && hasSlates ? view.type : null
   );
 
   return (
@@ -68,46 +74,42 @@ export default function ProjectionSection({ sportId, view }) {
         </span>
       )}
 
-      {isLive && isWeekly && (
+      {isLive && hasSlates && (
         <>
-          {weekly.indexStatus === 'loading' && (
-            <p className="sport-section__state">Loading weeks…</p>
+          {slate.indexStatus === 'loading' && (
+            <p className="sport-section__state">Loading…</p>
           )}
-          {weekly.indexStatus === 'error' && (
+          {slate.indexStatus === 'error' && (
             <p className="sport-section__state sport-section__state--error">
-              Couldn’t load the week list
-              {weekly.indexError?.message ? ` — ${weekly.indexError.message}` : ''}.
+              Couldn’t load this view
+              {slate.indexError?.message ? ` — ${slate.indexError.message}` : ''}.
             </p>
           )}
-          {weekly.indexStatus === 'empty' && (
-            <p className="sport-section__state">No weeks published yet.</p>
+          {slate.indexStatus === 'empty' && (
+            <p className="sport-section__state">Nothing published yet.</p>
           )}
-          {weekly.indexStatus === 'ready' && (
+          {slate.indexStatus === 'ready' && (
             <>
-              <StatTiles summary={weekly.manifest.summary} />
+              <StatTiles summary={slate.manifest.summary} />
               <select
-                className="week-select"
-                aria-label="Select week"
-                value={weekly.selected ?? ''}
-                onChange={(e) => weekly.setSelected(e.target.value)}
+                className="slate-select"
+                aria-label={`Select ${slate.manifest.unit ?? 'week'}`}
+                value={slate.selected ?? ''}
+                onChange={(e) => slate.setSelected(e.target.value)}
               >
-                {weekly.manifest.weeks.map((w) => (
-                  <option key={w.file} value={w.file}>
-                    {w.label}
+                {slate.manifest.slates.map((s) => (
+                  <option key={s.file} value={s.file}>
+                    {s.label}
                   </option>
                 ))}
               </select>
-              <SectionBody
-                status={weekly.weekStatus}
-                data={weekly.data}
-                error={weekly.weekError}
-              />
+              <SectionBody status={slate.status} data={slate.data} error={slate.error} />
             </>
           )}
         </>
       )}
 
-      {isLive && !isWeekly && (
+      {isLive && !hasSlates && (
         <SectionBody status={single.status} data={single.data} error={single.error} />
       )}
     </article>

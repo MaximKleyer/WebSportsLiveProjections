@@ -4,7 +4,8 @@
   "columns": [
     {
       "key": "week",
-      "label": "Week"
+      "label": "Week",
+      "sortable": true
     },
     {
       "key": "games",
@@ -14,76 +15,102 @@
     {
       "key": "su",
       "label": "Straight up",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ats",
       "label": "ATS",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ou",
       "label": "O/U",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "spreadPlays",
       "label": "\u2605 Spread",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "totalPlays",
       "label": "\u2605 Total",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "mae",
       "label": "Margin MAE",
       "align": "right",
-      "format": "number"
+      "format": "number",
+      "sortable": true
     }
   ],
   "rows": [
     {
-      "week": "Week 1",
+      "week": {
+        "v": "Week 1",
+        "sort": 1
+      },
       "games": 16,
-      "su": "11\u20135 (69%)",
+      "su": {
+        "v": "11\u20135 (69%)",
+        "sort": 0.6875
+      },
       "ats": {
         "v": "11\u20134 (73%)",
+        "sort": 0.7333,
         "tone": "good"
       },
       "ou": {
         "v": "7\u20138 (47%)",
+        "sort": 0.4667,
         "tone": "bad"
       },
       "spreadPlays": {
         "v": "7\u20132 (78%)",
+        "sort": 0.7778,
         "tone": "good"
       },
       "totalPlays": {
         "v": "2\u20130 (100%)",
+        "sort": 1.0,
         "tone": "good"
       },
       "mae": 11.0
     },
     {
-      "week": "Week 2",
+      "week": {
+        "v": "Week 2",
+        "sort": 2
+      },
       "games": 16,
-      "su": "10\u20136 (62%)",
+      "su": {
+        "v": "10\u20136 (62%)",
+        "sort": 0.625
+      },
       "ats": {
         "v": "7\u20139 (44%)",
+        "sort": 0.4375,
         "tone": "bad"
       },
       "ou": {
         "v": "9\u20137 (56%)",
+        "sort": 0.5625,
         "tone": "good"
       },
       "spreadPlays": {
         "v": "4\u20134 (50%)",
+        "sort": 0.5,
         "tone": "bad"
       },
       "totalPlays": {
         "v": "2\u20132 (50%)",
+        "sort": 0.5,
         "tone": "bad"
       },
       "mae": 12.1

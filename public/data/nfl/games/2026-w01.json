@@ -31,13 +31,15 @@
       "key": "homeWin",
       "label": "Home Win",
       "align": "right",
-      "format": "percent"
+      "format": "percent",
+      "sortable": true
     },
     {
       "key": "total",
       "label": "Proj. Total",
       "align": "right",
-      "format": "number"
+      "format": "number",
+      "sortable": true
     },
     {
       "key": "su",

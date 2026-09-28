@@ -7,6 +7,8 @@ One command to refresh the site's model data ("call both models").
   .\scripts\update-data.ps1 -Sport cfb -Predict -Week 3  # one sport only
 
 -Predict also refreshes each model's season sim (can take a few minutes).
+Each sport's adapter (scripts\exporters\<sport>.py) runs with that model's own
+venv Python; then every data file is validated (scripts\site_export.py check).
 After it finishes: review the diff, then commit + push this repo to deploy.
 #>
 param(
@@ -33,6 +35,12 @@ function Invoke-Step {
     finally { Pop-Location }
 }
 
+function Get-ExportArgs([string]$SportId) {
+    $exportArgs = @((Join-Path $PSScriptRoot "exporters\$SportId.py"))
+    if ($Week) { $exportArgs += @('--week', $Week) }
+    return $exportArgs
+}
+
 if ($Predict -and -not $Week) { throw '-Predict requires -Week <n>' }
 
 if ($Sport -eq 'nfl' -or $Sport -eq 'all') {
@@ -41,9 +49,7 @@ if ($Sport -eq 'nfl' -or $Sport -eq 'all') {
         Invoke-Step "NFL: predict $Season week $Week" $py @('-m', 'nfl_projector_v1', 'predict', '--season', $Season, '--week', $Week, '--players', '--plain') $NflRepo
         Invoke-Step "NFL: season sim $Season" $py @('-m', 'nfl_projector_v1', 'predict-season', '--season', $Season) $NflRepo
     }
-    $exportArgs = @('scripts\export_web.py')
-    if ($Week) { $exportArgs += @('--week', $Week) }
-    Invoke-Step 'NFL: export to site' $py $exportArgs $NflRepo
+    Invoke-Step 'NFL: export to site' $py (Get-ExportArgs 'nfl') $NflRepo
 }
 
 if ($Sport -eq 'cfb' -or $Sport -eq 'all') {
@@ -52,10 +58,11 @@ if ($Sport -eq 'cfb' -or $Sport -eq 'all') {
         Invoke-Step "CFB: project week $Week" $py @('-m', 'cfb_model.project', '--week', $Week) $CfbRepo
         Invoke-Step 'CFB: season records' $py @('-m', 'cfb_model.season') $CfbRepo
     }
-    $exportArgs = @('scripts\export_web.py')
-    if ($Week) { $exportArgs += @('--week', $Week) }
-    Invoke-Step 'CFB: export to site' $py $exportArgs $CfbRepo
+    Invoke-Step 'CFB: export to site' $py (Get-ExportArgs 'cfb') $CfbRepo
 }
+
+# The toolkit is stdlib-only, so whichever model Python ran last can check it all.
+Invoke-Step 'Check site data' $py @((Join-Path $PSScriptRoot 'site_export.py'), 'check') $PSScriptRoot
 
 Write-Host ""
 Write-Host 'Data updated. Review the diff, then commit + push this repo to deploy.' -ForegroundColor Green

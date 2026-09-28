@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { STATUS_META, VIEW_TYPES } from '../config.js';
+import { STATUS_META, viewMeta } from '../config.js';
 import useDocumentTitle from '../hooks/useDocumentTitle.js';
 import ProjectionSection from '../components/ProjectionSection.jsx';
 
@@ -38,7 +38,7 @@ export default function SportPage({ sport }) {
         <>
           <div className="view-tabs" role="tablist" aria-label="Projection views">
             {viewsList.map((v) => {
-              const meta = VIEW_TYPES[v.type] ?? {};
+              const meta = viewMeta(v);
               const isActive = activeView?.type === v.type;
               return (
                 <button

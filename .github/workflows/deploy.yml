@@ -20,6 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Refuse to deploy model data that breaks the site's data contract.
+      - name: Check model data
+        run: python3 scripts/site_export.py check
       - uses: actions/configure-pages@v5
         with:
           # Enable Pages with the "GitHub Actions" source on first run.

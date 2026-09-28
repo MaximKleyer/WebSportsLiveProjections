@@ -1,10 +1,18 @@
 {
   "subtitle": "2026 \u00b7 Week 1 \u2014 kickoffs ET \u00b7 \u2605 = flagged play",
   "updated": "2026-09-05",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
   "columns": [
     {
       "key": "kickoff",
-      "label": "Kickoff"
+      "label": "Kickoff",
+      "sortable": true
     },
     {
       "key": "awayTeam",
@@ -35,28 +43,35 @@
       "key": "homeWin",
       "label": "Home Win",
       "align": "right",
-      "format": "percent"
+      "format": "percent",
+      "sortable": true
     },
     {
       "key": "total",
       "label": "Proj. Total",
       "align": "right",
-      "format": "number"
+      "format": "number",
+      "sortable": true
     },
     {
       "key": "ats",
       "label": "ATS (edge)",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ou",
       "label": "O/U (edge)",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
     {
-      "kickoff": "Sat 8/29 12:00PM",
+      "kickoff": {
+        "v": "Sat 8/29 12:00PM",
+        "sort": "2026-08-29T16:00:00+00:00"
+      },
       "awayTeam": "North Carolina",
       "awayScore": "22.7",
       "sep": "\u2013",
@@ -64,11 +79,21 @@
       "homeTeam": "TCU",
       "homeWin": 0.7075,
       "total": 52.0,
-      "ats": "North Carolina +0.9",
-      "ou": "OVER +5.5"
+      "ats": {
+        "v": "North Carolina +0.9",
+        "sort": 0.88
+      },
+      "ou": {
+        "v": "OVER +5.5",
+        "sort": 5.49
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 8/29 3:00PM",
+      "kickoff": {
+        "v": "Sat 8/29 3:00PM",
+        "sort": "2026-08-29T19:00:00+00:00"
+      },
       "awayTeam": "San Jos\u00e9 State",
       "awayScore": "9.8",
       "sep": "\u2013",
@@ -76,11 +101,21 @@
       "homeTeam": "USC",
       "homeWin": 0.995,
       "total": 57.8,
-      "ats": "USC +0.7",
-      "ou": "UNDER +3.7"
+      "ats": {
+        "v": "USC +0.7",
+        "sort": 0.65
+      },
+      "ou": {
+        "v": "UNDER +3.7",
+        "sort": 3.74
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 8/29 3:30PM",
+      "kickoff": {
+        "v": "Sat 8/29 3:30PM",
+        "sort": "2026-08-29T19:30:00+00:00"
+      },
       "awayTeam": "NC State",
       "awayScore": "27.3",
       "sep": "\u2013",
@@ -88,11 +123,21 @@
       "homeTeam": "Virginia",
       "homeWin": 0.4908,
       "total": 55.0,
-      "ats": "\u2605 NC State +3.8",
-      "ou": "OVER +4.5"
+      "ats": {
+        "v": "\u2605 NC State +3.8",
+        "sort": 3.75
+      },
+      "ou": {
+        "v": "OVER +4.5",
+        "sort": 4.45
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 8/29 5:30PM",
+      "kickoff": {
+        "v": "Sat 8/29 5:30PM",
+        "sort": "2026-08-29T21:30:00+00:00"
+      },
       "awayTeam": "Jacksonville State",
       "awayScore": "22.5",
       "sep": "\u2013",
@@ -100,11 +145,21 @@
       "homeTeam": "North Dakota State",
       "homeWin": 0.7517,
       "total": 55.2,
-      "ats": "\u2605 North Dakota State +3.6",
-      "ou": "OVER +8.7"
+      "ats": {
+        "v": "\u2605 North Dakota State +3.6",
+        "sort": 3.62
+      },
+      "ou": {
+        "v": "OVER +8.7",
+        "sort": 8.66
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 8/29 6:30PM",
+      "kickoff": {
+        "v": "Sat 8/29 6:30PM",
+        "sort": "2026-08-29T22:30:00+00:00"
+      },
       "awayTeam": "Sacramento State",
       "awayScore": "18.9",
       "sep": "\u2013",
@@ -112,11 +167,21 @@
       "homeTeam": "Eastern Michigan",
       "homeWin": 0.8444,
       "total": 54.9,
-      "ats": "\u2605 Eastern Michigan +8.1",
-      "ou": "OVER +2.4"
+      "ats": {
+        "v": "\u2605 Eastern Michigan +8.1",
+        "sort": 8.14
+      },
+      "ou": {
+        "v": "OVER +2.4",
+        "sort": 2.39
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 8/29 7:00PM",
+      "kickoff": {
+        "v": "Sat 8/29 7:00PM",
+        "sort": "2026-08-29T23:00:00+00:00"
+      },
       "awayTeam": "New Mexico State",
       "awayScore": "11.5",
       "sep": "\u2013",
@@ -124,11 +189,21 @@
       "homeTeam": "Florida State",
       "homeWin": 0.9927,
       "total": 55.7,
-      "ats": "Florida State +1.8",
-      "ou": "OVER +2.2"
+      "ats": {
+        "v": "Florida State +1.8",
+        "sort": 1.79
+      },
+      "ou": {
+        "v": "OVER +2.2",
+        "sort": 2.23
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 8/29 7:00PM",
+      "kickoff": {
+        "v": "Sat 8/29 7:00PM",
+        "sort": "2026-08-29T23:00:00+00:00"
+      },
       "awayTeam": "Hawai'i",
       "awayScore": "24.8",
       "sep": "\u2013",
@@ -136,11 +211,21 @@
       "homeTeam": "Stanford",
       "homeWin": 0.6,
       "total": 53.6,
-      "ats": "Hawai'i +0.4",
-      "ou": "OVER +5.1"
+      "ats": {
+        "v": "Hawai'i +0.4",
+        "sort": 0.43
+      },
+      "ou": {
+        "v": "OVER +5.1",
+        "sort": 5.14
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 8/29 10:00PM",
+      "kickoff": {
+        "v": "Sat 8/29 10:00PM",
+        "sort": "2026-08-30T02:00:00+00:00"
+      },
       "awayTeam": "Memphis",
       "awayScore": "25.4",
       "sep": "\u2013",
@@ -148,11 +233,21 @@
       "homeTeam": "UNLV",
       "homeWin": 0.6,
       "total": 55.4,
-      "ats": "UNLV +0.0",
-      "ou": "UNDER +0.1"
+      "ats": {
+        "v": "UNLV +0.0",
+        "sort": 0.03
+      },
+      "ou": {
+        "v": "UNDER +0.1",
+        "sort": 0.14
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Thu 9/3 6:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 6:00PM",
+        "sort": "2026-09-03T22:00:00+00:00"
+      },
       "awayTeam": "Massachusetts",
       "awayScore": "7.3",
       "sep": "\u2013",
@@ -160,11 +255,21 @@
       "homeTeam": "Rutgers",
       "homeWin": 0.995,
       "total": 57.0,
-      "ats": "\u2605 Rutgers +12.8",
-      "ou": "OVER +2.5"
+      "ats": {
+        "v": "\u2605 Rutgers +12.8",
+        "sort": 12.78
+      },
+      "ou": {
+        "v": "OVER +2.5",
+        "sort": 2.46
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 7:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 7:00PM",
+        "sort": "2026-09-03T23:00:00+00:00"
+      },
       "awayTeam": "Bethune-Cookman",
       "awayScore": "8.7",
       "sep": "\u2013",
@@ -172,11 +277,21 @@
       "homeTeam": "UCF",
       "homeWin": 0.995,
       "total": 57.0,
-      "ats": "\u2605 Bethune-Cookman +3.9",
-      "ou": "UNDER +1.5"
+      "ats": {
+        "v": "\u2605 Bethune-Cookman +3.9",
+        "sort": 3.9
+      },
+      "ou": {
+        "v": "UNDER +1.5",
+        "sort": 1.48
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 7:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 7:00PM",
+        "sort": "2026-09-03T23:00:00+00:00"
+      },
       "awayTeam": "Akron",
       "awayScore": "18.7",
       "sep": "\u2013",
@@ -184,11 +299,21 @@
       "homeTeam": "Wake Forest",
       "homeWin": 0.8444,
       "total": 52.7,
-      "ats": "\u2605 Akron +12.1",
-      "ou": "OVER +2.2"
+      "ats": {
+        "v": "\u2605 Akron +12.1",
+        "sort": 12.13
+      },
+      "ou": {
+        "v": "OVER +2.2",
+        "sort": 2.17
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 7:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 7:00PM",
+        "sort": "2026-09-03T23:00:00+00:00"
+      },
       "awayTeam": "UAlbany",
       "awayScore": "14.4",
       "sep": "\u2013",
@@ -196,11 +321,21 @@
       "homeTeam": "Buffalo",
       "homeWin": 0.9333,
       "total": 53.8,
-      "ats": "\u2605 Buffalo +6.6",
-      "ou": "OVER +6.3"
+      "ats": {
+        "v": "\u2605 Buffalo +6.6",
+        "sort": 6.56
+      },
+      "ou": {
+        "v": "OVER +6.3",
+        "sort": 6.29
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 7:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 7:00PM",
+        "sort": "2026-09-03T23:00:00+00:00"
+      },
       "awayTeam": "West Georgia",
       "awayScore": "20.3",
       "sep": "\u2013",
@@ -208,11 +343,21 @@
       "homeTeam": "Kennesaw State",
       "homeWin": 0.8444,
       "total": 56.2,
-      "ats": "\u2605 West Georgia +7.0",
-      "ou": "OVER +5.7"
+      "ats": {
+        "v": "\u2605 West Georgia +7.0",
+        "sort": 7.04
+      },
+      "ou": {
+        "v": "OVER +5.7",
+        "sort": 5.66
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 7:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 7:00PM",
+        "sort": "2026-09-03T23:00:00+00:00"
+      },
       "awayTeam": "Merrimack",
       "awayScore": "17.2",
       "sep": "\u2013",
@@ -220,11 +365,21 @@
       "homeTeam": "Delaware",
       "homeWin": 0.913,
       "total": 57.1,
-      "ats": "\u2605 Merrimack +8.8",
-      "ou": "OVER +0.6"
+      "ats": {
+        "v": "\u2605 Merrimack +8.8",
+        "sort": 8.81
+      },
+      "ou": {
+        "v": "OVER +0.6",
+        "sort": 0.61
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 8:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 8:00PM",
+        "sort": "2026-09-04T00:00:00+00:00"
+      },
       "awayTeam": "Colorado",
       "awayScore": "22.9",
       "sep": "\u2013",
@@ -232,11 +387,21 @@
       "homeTeam": "Georgia Tech",
       "homeWin": 0.7075,
       "total": 53.0,
-      "ats": "Georgia Tech +0.7",
-      "ou": "UNDER +0.5"
+      "ats": {
+        "v": "Georgia Tech +0.7",
+        "sort": 0.69
+      },
+      "ou": {
+        "v": "UNDER +0.5",
+        "sort": 0.51
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Thu 9/3 8:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 8:00PM",
+        "sort": "2026-09-04T00:00:00+00:00"
+      },
       "awayTeam": "Eastern Illinois",
       "awayScore": "7.5",
       "sep": "\u2013",
@@ -244,11 +409,21 @@
       "homeTeam": "Minnesota",
       "homeWin": 0.995,
       "total": 53.9,
-      "ats": "\u2605 Eastern Illinois +3.7",
-      "ou": "OVER +1.4"
+      "ats": {
+        "v": "\u2605 Eastern Illinois +3.7",
+        "sort": 3.69
+      },
+      "ou": {
+        "v": "OVER +1.4",
+        "sort": 1.38
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 8:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 8:00PM",
+        "sort": "2026-09-04T00:00:00+00:00"
+      },
       "awayTeam": "Arkansas-Pine Bluff",
       "awayScore": "7.0",
       "sep": "\u2013",
@@ -256,11 +431,21 @@
       "homeTeam": "Missouri",
       "homeWin": 0.995,
       "total": 57.3,
-      "ats": "\u2605 Arkansas-Pine Bluff +12.2",
-      "ou": "UNDER +5.2"
+      "ats": {
+        "v": "\u2605 Arkansas-Pine Bluff +12.2",
+        "sort": 12.19
+      },
+      "ou": {
+        "v": "UNDER +5.2",
+        "sort": 5.16
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Thu 9/3 9:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 9:00PM",
+        "sort": "2026-09-04T01:00:00+00:00"
+      },
       "awayTeam": "Idaho",
       "awayScore": "8.9",
       "sep": "\u2013",
@@ -268,11 +453,21 @@
       "homeTeam": "Utah",
       "homeWin": 0.995,
       "total": 57.6,
-      "ats": "Utah +1.8",
-      "ou": "UNDER +2.9"
+      "ats": {
+        "v": "Utah +1.8",
+        "sort": 1.83
+      },
+      "ou": {
+        "v": "UNDER +2.9",
+        "sort": 2.93
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Thu 9/3 9:00PM",
+      "kickoff": {
+        "v": "Thu 9/3 9:00PM",
+        "sort": "2026-09-04T01:00:00+00:00"
+      },
       "awayTeam": "UAB",
       "awayScore": "20.1",
       "sep": "\u2013",
@@ -280,11 +475,21 @@
       "homeTeam": "Illinois",
       "homeWin": 0.8444,
       "total": 55.6,
-      "ats": "\u2605 UAB +10.0",
-      "ou": "OVER +1.1"
+      "ats": {
+        "v": "\u2605 UAB +10.0",
+        "sort": 10.01
+      },
+      "ou": {
+        "v": "OVER +1.1",
+        "sort": 1.09
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Fri 9/4 6:30PM",
+      "kickoff": {
+        "v": "Fri 9/4 6:30PM",
+        "sort": "2026-09-04T22:30:00+00:00"
+      },
       "awayTeam": "San Jos\u00e9 State",
       "awayScore": "23.0",
       "sep": "\u2013",
@@ -292,11 +497,21 @@
       "homeTeam": "Eastern Michigan",
       "homeWin": 0.7281,
       "total": 54.6,
-      "ats": "\u2605 Eastern Michigan +7.2",
-      "ou": "UNDER +0.3"
+      "ats": {
+        "v": "\u2605 Eastern Michigan +7.2",
+        "sort": 7.17
+      },
+      "ou": {
+        "v": "UNDER +0.3",
+        "sort": 0.35
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Fri 9/4 7:00PM",
+      "kickoff": {
+        "v": "Fri 9/4 7:00PM",
+        "sort": "2026-09-04T23:00:00+00:00"
+      },
       "awayTeam": "Indiana State",
       "awayScore": "11.0",
       "sep": "\u2013",
@@ -304,11 +519,21 @@
       "homeTeam": "Purdue",
       "homeWin": 0.995,
       "total": 57.1,
-      "ats": "Indiana State +0.4",
-      "ou": "OVER +1.6"
+      "ats": {
+        "v": "Indiana State +0.4",
+        "sort": 0.39
+      },
+      "ou": {
+        "v": "OVER +1.6",
+        "sort": 1.65
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Fri 9/4 7:00PM",
+      "kickoff": {
+        "v": "Fri 9/4 7:00PM",
+        "sort": "2026-09-04T23:00:00+00:00"
+      },
       "awayTeam": "North Carolina A&T",
       "awayScore": "17.9",
       "sep": "\u2013",
@@ -316,11 +541,21 @@
       "homeTeam": "Georgia State",
       "homeWin": 0.911,
       "total": 56.3,
-      "ats": "\u2605 North Carolina A&T +8.0",
-      "ou": "UNDER +2.2"
+      "ats": {
+        "v": "\u2605 North Carolina A&T +8.0",
+        "sort": 7.95
+      },
+      "ou": {
+        "v": "UNDER +2.2",
+        "sort": 2.23
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Fri 9/4 8:00PM",
+      "kickoff": {
+        "v": "Fri 9/4 8:00PM",
+        "sort": "2026-09-05T00:00:00+00:00"
+      },
       "awayTeam": "Long Island University",
       "awayScore": "7.2",
       "sep": "\u2013",
@@ -328,11 +563,21 @@
       "homeTeam": "Kansas",
       "homeWin": 0.995,
       "total": 57.2,
-      "ats": "Long Island University +1.6",
-      "ou": "UNDER +0.3"
+      "ats": {
+        "v": "Long Island University +1.6",
+        "sort": 1.63
+      },
+      "ou": {
+        "v": "UNDER +0.3",
+        "sort": 0.27
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Fri 9/4 8:00PM",
+      "kickoff": {
+        "v": "Fri 9/4 8:00PM",
+        "sort": "2026-09-05T00:00:00+00:00"
+      },
       "awayTeam": "Toledo",
       "awayScore": "25.1",
       "sep": "\u2013",
@@ -340,11 +585,21 @@
       "homeTeam": "Michigan State",
       "homeWin": 0.5177,
       "total": 52.2,
-      "ats": "\u2605 Toledo +8.1",
-      "ou": "OVER +3.7"
+      "ats": {
+        "v": "\u2605 Toledo +8.1",
+        "sort": 8.07
+      },
+      "ou": {
+        "v": "OVER +3.7",
+        "sort": 3.69
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Fri 9/4 8:00PM",
+      "kickoff": {
+        "v": "Fri 9/4 8:00PM",
+        "sort": "2026-09-05T00:00:00+00:00"
+      },
       "awayTeam": "UTEP",
       "awayScore": "9.3",
       "sep": "\u2013",
@@ -352,11 +607,21 @@
       "homeTeam": "Oklahoma",
       "homeWin": 0.9927,
       "total": 53.3,
-      "ats": "\u2605 UTEP +5.8",
-      "ou": "OVER +1.8"
+      "ats": {
+        "v": "\u2605 UTEP +5.8",
+        "sort": 5.84
+      },
+      "ou": {
+        "v": "OVER +1.8",
+        "sort": 1.82
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Fri 9/4 9:00PM",
+      "kickoff": {
+        "v": "Fri 9/4 9:00PM",
+        "sort": "2026-09-05T01:00:00+00:00"
+      },
       "awayTeam": "Fresno State",
       "awayScore": "14.4",
       "sep": "\u2013",
@@ -364,11 +629,21 @@
       "homeTeam": "USC",
       "homeWin": 0.9333,
       "total": 53.6,
-      "ats": "\u2605 USC +3.3",
-      "ou": "OVER +2.1"
+      "ats": {
+        "v": "\u2605 USC +3.3",
+        "sort": 3.33
+      },
+      "ou": {
+        "v": "OVER +2.1",
+        "sort": 2.11
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Fri 9/4 9:00PM",
+      "kickoff": {
+        "v": "Fri 9/4 9:00PM",
+        "sort": "2026-09-05T01:00:00+00:00"
+      },
       "awayTeam": "Miami",
       "awayScore": "32.8",
       "sep": "\u2013",
@@ -376,11 +651,21 @@
       "homeTeam": "Stanford",
       "homeWin": 0.2159,
       "total": 52.8,
-      "ats": "\u2605 Stanford +11.7",
-      "ou": "OVER +6.2"
+      "ats": {
+        "v": "\u2605 Stanford +11.7",
+        "sort": 11.65
+      },
+      "ou": {
+        "v": "OVER +6.2",
+        "sort": 6.25
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "Lafayette",
       "awayScore": "16.1",
       "sep": "\u2013",
@@ -388,11 +673,21 @@
       "homeTeam": "UConn",
       "homeWin": 0.9474,
       "total": 57.4,
-      "ats": "\u2605 UConn +4.8",
-      "ou": "OVER +5.9"
+      "ats": {
+        "v": "\u2605 UConn +4.8",
+        "sort": 4.77
+      },
+      "ou": {
+        "v": "OVER +5.9",
+        "sort": 5.87
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "New Hampshire",
       "awayScore": "14.0",
       "sep": "\u2013",
@@ -400,11 +695,21 @@
       "homeTeam": "Syracuse",
       "homeWin": 0.9683,
       "total": 57.8,
-      "ats": "\u2605 New Hampshire +5.2",
-      "ou": "OVER +2.3"
+      "ats": {
+        "v": "\u2605 New Hampshire +5.2",
+        "sort": 5.25
+      },
+      "ou": {
+        "v": "OVER +2.3",
+        "sort": 2.26
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "Coastal Carolina",
       "awayScore": "19.3",
       "sep": "\u2013",
@@ -412,11 +717,21 @@
       "homeTeam": "West Virginia",
       "homeWin": 0.8444,
       "total": 55.2,
-      "ats": "\u2605 Coastal Carolina +4.4",
-      "ou": "OVER +0.8"
+      "ats": {
+        "v": "\u2605 Coastal Carolina +4.4",
+        "sort": 4.44
+      },
+      "ou": {
+        "v": "OVER +0.8",
+        "sort": 0.75
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "East Carolina",
       "awayScore": "16.3",
       "sep": "\u2013",
@@ -424,11 +739,21 @@
       "homeTeam": "Alabama",
       "homeWin": 0.925,
       "total": 56.6,
-      "ats": "\u2605 East Carolina +3.7",
-      "ou": "OVER +4.1"
+      "ats": {
+        "v": "\u2605 East Carolina +3.7",
+        "sort": 3.73
+      },
+      "ou": {
+        "v": "OVER +4.1",
+        "sort": 4.09
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "Oregon State",
       "awayScore": "16.6",
       "sep": "\u2013",
@@ -436,11 +761,21 @@
       "homeTeam": "Houston",
       "homeWin": 0.8921,
       "total": 53.0,
-      "ats": "Oregon State +0.9",
-      "ou": "OVER +2.5"
+      "ats": {
+        "v": "Oregon State +0.9",
+        "sort": 0.9
+      },
+      "ou": {
+        "v": "OVER +2.5",
+        "sort": 2.47
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "North Texas",
       "awayScore": "15.4",
       "sep": "\u2013",
@@ -448,11 +783,21 @@
       "homeTeam": "Indiana",
       "homeWin": 0.9683,
       "total": 59.1,
-      "ats": "\u2605 North Texas +12.2",
-      "ou": "OVER +2.9"
+      "ats": {
+        "v": "\u2605 North Texas +12.2",
+        "sort": 12.15
+      },
+      "ou": {
+        "v": "OVER +2.9",
+        "sort": 2.86
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "Bryant",
       "awayScore": "8.8",
       "sep": "\u2013",
@@ -460,11 +805,21 @@
       "homeTeam": "Army",
       "homeWin": 0.995,
       "total": 53.5,
-      "ats": "Bryant +1.3",
-      "ou": "OVER +2.5"
+      "ats": {
+        "v": "Bryant +1.3",
+        "sort": 1.31
+      },
+      "ou": {
+        "v": "OVER +2.5",
+        "sort": 2.55
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "Tarleton State",
       "awayScore": "18.5",
       "sep": "\u2013",
@@ -472,11 +827,21 @@
       "homeTeam": "Bowling Green",
       "homeWin": 0.8444,
       "total": 52.8,
-      "ats": "\u2605 Bowling Green +13.5",
-      "ou": "OVER +4.5"
+      "ats": {
+        "v": "\u2605 Bowling Green +13.5",
+        "sort": 13.52
+      },
+      "ou": {
+        "v": "OVER +4.5",
+        "sort": 4.55
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "Liberty",
       "awayScore": "22.3",
       "sep": "\u2013",
@@ -484,11 +849,21 @@
       "homeTeam": "James Madison",
       "homeWin": 0.7281,
       "total": 54.1,
-      "ats": "\u2605 James Madison +3.5",
-      "ou": "OVER +3.6"
+      "ats": {
+        "v": "\u2605 James Madison +3.5",
+        "sort": 3.55
+      },
+      "ou": {
+        "v": "OVER +3.6",
+        "sort": 3.57
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:00PM",
+        "sort": "2026-09-05T16:00:00+00:00"
+      },
       "awayTeam": "Ohio",
       "awayScore": "19.8",
       "sep": "\u2013",
@@ -496,11 +871,21 @@
       "homeTeam": "Nebraska",
       "homeWin": 0.8252,
       "total": 52.4,
-      "ats": "\u2605 Ohio +11.5",
-      "ou": "OVER +5.9"
+      "ats": {
+        "v": "\u2605 Ohio +11.5",
+        "sort": 11.48
+      },
+      "ou": {
+        "v": "OVER +5.9",
+        "sort": 5.86
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:30PM",
+        "sort": "2026-09-05T16:30:00+00:00"
+      },
       "awayTeam": "Ball State",
       "awayScore": "5.4",
       "sep": "\u2013",
@@ -508,11 +893,21 @@
       "homeTeam": "Ohio State",
       "homeWin": 0.995,
       "total": 53.6,
-      "ats": "\u2605 Ball State +7.8",
-      "ou": "UNDER +2.9"
+      "ats": {
+        "v": "\u2605 Ball State +7.8",
+        "sort": 7.81
+      },
+      "ou": {
+        "v": "UNDER +2.9",
+        "sort": 2.85
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 12:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:30PM",
+        "sort": "2026-09-05T16:30:00+00:00"
+      },
       "awayTeam": "Miami (OH)",
       "awayScore": "18.2",
       "sep": "\u2013",
@@ -520,11 +915,21 @@
       "homeTeam": "Pittsburgh",
       "homeWin": 0.8444,
       "total": 52.4,
-      "ats": "Miami (OH) +0.2",
-      "ou": "OVER +5.2"
+      "ats": {
+        "v": "Miami (OH) +0.2",
+        "sort": 0.16
+      },
+      "ou": {
+        "v": "OVER +5.2",
+        "sort": 5.19
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 12:45PM",
+      "kickoff": {
+        "v": "Sat 9/5 12:45PM",
+        "sort": "2026-09-05T16:45:00+00:00"
+      },
       "awayTeam": "Kent State",
       "awayScore": "9.9",
       "sep": "\u2013",
@@ -532,11 +937,21 @@
       "homeTeam": "South Carolina",
       "homeWin": 0.9927,
       "total": 54.4,
-      "ats": "Kent State +1.4",
-      "ou": "OVER +0.9"
+      "ats": {
+        "v": "Kent State +1.4",
+        "sort": 1.35
+      },
+      "ou": {
+        "v": "OVER +0.9",
+        "sort": 0.91
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 1:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 1:00PM",
+        "sort": "2026-09-05T17:00:00+00:00"
+      },
       "awayTeam": "Southeast Missouri State",
       "awayScore": "7.8",
       "sep": "\u2013",
@@ -544,11 +959,21 @@
       "homeTeam": "Iowa State",
       "homeWin": 0.995,
       "total": 55.2,
-      "ats": "\u2605 Iowa State +9.1",
-      "ou": "OVER +1.7"
+      "ats": {
+        "v": "\u2605 Iowa State +9.1",
+        "sort": 9.12
+      },
+      "ou": {
+        "v": "OVER +1.7",
+        "sort": 1.72
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 1:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 1:00PM",
+        "sort": "2026-09-05T17:00:00+00:00"
+      },
       "awayTeam": "Youngstown State",
       "awayScore": "12.8",
       "sep": "\u2013",
@@ -556,11 +981,21 @@
       "homeTeam": "Kentucky",
       "homeWin": 0.9683,
       "total": 55.3,
-      "ats": "\u2605 Kentucky +7.4",
-      "ou": "UNDER +7.2"
+      "ats": {
+        "v": "\u2605 Kentucky +7.4",
+        "sort": 7.4
+      },
+      "ou": {
+        "v": "UNDER +7.2",
+        "sort": 7.24
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 1:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 1:00PM",
+        "sort": "2026-09-05T17:00:00+00:00"
+      },
       "awayTeam": "Duquesne",
       "awayScore": "13.7",
       "sep": "\u2013",
@@ -568,11 +1003,21 @@
       "homeTeam": "Air Force",
       "homeWin": 0.9683,
       "total": 56.5,
-      "ats": "Duquesne +0.9",
-      "ou": "OVER +0.0"
+      "ats": {
+        "v": "Duquesne +0.9",
+        "sort": 0.95
+      },
+      "ou": {
+        "v": "OVER +0.0",
+        "sort": 0.0
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 2:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 2:00PM",
+        "sort": "2026-09-05T18:00:00+00:00"
+      },
       "awayTeam": "Rhode Island",
       "awayScore": "16.2",
       "sep": "\u2013",
@@ -580,11 +1025,21 @@
       "homeTeam": "Temple",
       "homeWin": 0.925,
       "total": 56.0,
-      "ats": "\u2605 Temple +9.1",
-      "ou": "OVER +4.8"
+      "ats": {
+        "v": "\u2605 Temple +9.1",
+        "sort": 9.13
+      },
+      "ou": {
+        "v": "OVER +4.8",
+        "sort": 4.77
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:00PM",
+        "sort": "2026-09-05T19:00:00+00:00"
+      },
       "awayTeam": "Tennessee State",
       "awayScore": "7.0",
       "sep": "\u2013",
@@ -592,11 +1047,21 @@
       "homeTeam": "Georgia",
       "homeWin": 0.995,
       "total": 57.5,
-      "ats": "\u2605 Tennessee State +3.9",
-      "ou": "OVER +2.5"
+      "ats": {
+        "v": "\u2605 Tennessee State +3.9",
+        "sort": 3.88
+      },
+      "ou": {
+        "v": "OVER +2.5",
+        "sort": 2.55
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Towson",
       "awayScore": "12.6",
       "sep": "\u2013",
@@ -604,11 +1069,21 @@
       "homeTeam": "Navy",
       "homeWin": 0.9903,
       "total": 57.5,
-      "ats": "Navy +1.3",
-      "ou": "OVER +7.0"
+      "ats": {
+        "v": "Navy +1.3",
+        "sort": 1.3
+      },
+      "ou": {
+        "v": "OVER +7.0",
+        "sort": 7.03
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Maine",
       "awayScore": "17.2",
       "sep": "\u2013",
@@ -616,11 +1091,21 @@
       "homeTeam": "App State",
       "homeWin": 0.911,
       "total": 56.0,
-      "ats": "App State +2.1",
-      "ou": "OVER +2.5"
+      "ats": {
+        "v": "App State +2.1",
+        "sort": 2.1
+      },
+      "ou": {
+        "v": "OVER +2.5",
+        "sort": 2.55
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Boise State",
       "awayScore": "15.5",
       "sep": "\u2013",
@@ -628,11 +1113,21 @@
       "homeTeam": "Oregon",
       "homeWin": 0.9474,
       "total": 56.6,
-      "ats": "Oregon +0.8",
-      "ou": "OVER +5.1"
+      "ats": {
+        "v": "Oregon +0.8",
+        "sort": 0.79
+      },
+      "ou": {
+        "v": "OVER +5.1",
+        "sort": 5.1
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "The Citadel",
       "awayScore": "16.7",
       "sep": "\u2013",
@@ -640,11 +1135,21 @@
       "homeTeam": "Charlotte",
       "homeWin": 0.911,
       "total": 53.9,
-      "ats": "Charlotte +0.4",
-      "ou": "OVER +7.4"
+      "ats": {
+        "v": "Charlotte +0.4",
+        "sort": 0.37
+      },
+      "ou": {
+        "v": "OVER +7.4",
+        "sort": 7.44
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Texas State",
       "awayScore": "15.3",
       "sep": "\u2013",
@@ -652,11 +1157,21 @@
       "homeTeam": "Texas",
       "homeWin": 0.963,
       "total": 57.2,
-      "ats": "\u2605 Texas State +2.9",
-      "ou": "UNDER +3.0"
+      "ats": {
+        "v": "\u2605 Texas State +2.9",
+        "sort": 2.85
+      },
+      "ou": {
+        "v": "UNDER +3.0",
+        "sort": 3.01
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Tulane",
       "awayScore": "21.9",
       "sep": "\u2013",
@@ -664,11 +1179,21 @@
       "homeTeam": "Duke",
       "homeWin": 0.791,
       "total": 54.8,
-      "ats": "\u2605 Duke +3.6",
-      "ou": "OVER +3.8"
+      "ats": {
+        "v": "\u2605 Duke +3.6",
+        "sort": 3.61
+      },
+      "ou": {
+        "v": "OVER +3.8",
+        "sort": 3.84
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Baylor",
       "awayScore": "26.0",
       "sep": "\u2013",
@@ -676,11 +1201,21 @@
       "homeTeam": "Auburn",
       "homeWin": 0.5641,
       "total": 55.4,
-      "ats": "\u2605 Baylor +4.0",
-      "ou": "UNDER +4.1"
+      "ats": {
+        "v": "\u2605 Baylor +4.0",
+        "sort": 4.01
+      },
+      "ou": {
+        "v": "UNDER +4.1",
+        "sort": 4.09
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Boston College",
       "awayScore": "20.6",
       "sep": "\u2013",
@@ -688,11 +1223,21 @@
       "homeTeam": "Cincinnati",
       "homeWin": 0.791,
       "total": 53.1,
-      "ats": "\u2605 Cincinnati +4.7",
-      "ou": "OVER +2.9"
+      "ats": {
+        "v": "\u2605 Cincinnati +4.7",
+        "sort": 4.69
+      },
+      "ou": {
+        "v": "OVER +2.9",
+        "sort": 2.87
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Marshall",
       "awayScore": "19.4",
       "sep": "\u2013",
@@ -700,11 +1245,21 @@
       "homeTeam": "Penn State",
       "homeWin": 0.8444,
       "total": 55.6,
-      "ats": "\u2605 Marshall +6.5",
-      "ou": "OVER +3.4"
+      "ats": {
+        "v": "\u2605 Marshall +6.5",
+        "sort": 6.54
+      },
+      "ou": {
+        "v": "OVER +3.4",
+        "sort": 3.35
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "UT Rio Grande Valley",
       "awayScore": "11.9",
       "sep": "\u2013",
@@ -712,11 +1267,21 @@
       "homeTeam": "UTSA",
       "homeWin": 0.9927,
       "total": 58.4,
-      "ats": "\u2605 UTSA +6.2",
-      "ou": "UNDER +1.1"
+      "ats": {
+        "v": "\u2605 UTSA +6.2",
+        "sort": 6.16
+      },
+      "ou": {
+        "v": "UNDER +1.1",
+        "sort": 1.08
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Fordham",
       "awayScore": "9.2",
       "sep": "\u2013",
@@ -724,11 +1289,21 @@
       "homeTeam": "North Dakota State",
       "homeWin": 0.995,
       "total": 57.4,
-      "ats": "\u2605 Fordham +2.5",
-      "ou": "OVER +1.7"
+      "ats": {
+        "v": "\u2605 Fordham +2.5",
+        "sort": 2.55
+      },
+      "ou": {
+        "v": "OVER +1.7",
+        "sort": 1.66
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:30PM",
+        "sort": "2026-09-05T19:30:00+00:00"
+      },
       "awayTeam": "Furman",
       "awayScore": "9.4",
       "sep": "\u2013",
@@ -736,11 +1311,21 @@
       "homeTeam": "Tennessee",
       "homeWin": 0.995,
       "total": 58.4,
-      "ats": "\u2605 Furman +8.7",
-      "ou": "UNDER +8.4"
+      "ats": {
+        "v": "\u2605 Furman +8.7",
+        "sort": 8.69
+      },
+      "ou": {
+        "v": "UNDER +8.4",
+        "sort": 8.37
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 3:45PM",
+      "kickoff": {
+        "v": "Sat 9/5 3:45PM",
+        "sort": "2026-09-05T19:45:00+00:00"
+      },
       "awayTeam": "Oklahoma State",
       "awayScore": "27.5",
       "sep": "\u2013",
@@ -748,11 +1333,21 @@
       "homeTeam": "Tulsa",
       "homeWin": 0.4908,
       "total": 55.0,
-      "ats": "\u2605 Tulsa +13.4",
-      "ou": "UNDER +4.3"
+      "ats": {
+        "v": "\u2605 Tulsa +13.4",
+        "sort": 13.42
+      },
+      "ou": {
+        "v": "UNDER +4.3",
+        "sort": 4.26
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 4:15PM",
+      "kickoff": {
+        "v": "Sat 9/5 4:15PM",
+        "sort": "2026-09-05T20:15:00+00:00"
+      },
       "awayTeam": "Northern Illinois",
       "awayScore": "9.0",
       "sep": "\u2013",
@@ -760,11 +1355,21 @@
       "homeTeam": "Iowa",
       "homeWin": 0.9903,
       "total": 49.3,
-      "ats": "Northern Illinois +0.5",
-      "ou": "OVER +4.8"
+      "ats": {
+        "v": "Northern Illinois +0.5",
+        "sort": 0.46
+      },
+      "ou": {
+        "v": "OVER +4.8",
+        "sort": 4.8
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 4:15PM",
+      "kickoff": {
+        "v": "Sat 9/5 4:15PM",
+        "sort": "2026-09-05T20:15:00+00:00"
+      },
       "awayTeam": "North Alabama",
       "awayScore": "9.8",
       "sep": "\u2013",
@@ -772,11 +1377,21 @@
       "homeTeam": "Arkansas",
       "homeWin": 0.995,
       "total": 58.0,
-      "ats": "\u2605 North Alabama +2.1",
-      "ou": "UNDER +5.2"
+      "ats": {
+        "v": "\u2605 North Alabama +2.1",
+        "sort": 2.12
+      },
+      "ou": {
+        "v": "UNDER +5.2",
+        "sort": 5.25
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 5:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 5:00PM",
+        "sort": "2026-09-05T21:00:00+00:00"
+      },
       "awayTeam": "Alcorn State",
       "awayScore": "14.5",
       "sep": "\u2013",
@@ -784,11 +1399,21 @@
       "homeTeam": "Southern Miss",
       "homeWin": 0.9683,
       "total": 57.0,
-      "ats": "\u2605 Southern Miss +9.1",
-      "ou": "OVER +6.5"
+      "ats": {
+        "v": "\u2605 Southern Miss +9.1",
+        "sort": 9.12
+      },
+      "ou": {
+        "v": "OVER +6.5",
+        "sort": 6.45
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 6:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 6:00PM",
+        "sort": "2026-09-05T22:00:00+00:00"
+      },
       "awayTeam": "Norfolk State",
       "awayScore": "8.6",
       "sep": "\u2013",
@@ -796,11 +1421,21 @@
       "homeTeam": "Old Dominion",
       "homeWin": 0.995,
       "total": 56.2,
-      "ats": "Norfolk State +1.9",
-      "ou": "OVER +3.7"
+      "ats": {
+        "v": "Norfolk State +1.9",
+        "sort": 1.87
+      },
+      "ou": {
+        "v": "OVER +3.7",
+        "sort": 3.67
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 6:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 6:00PM",
+        "sort": "2026-09-05T22:00:00+00:00"
+      },
       "awayTeam": "Wyoming",
       "awayScore": "25.5",
       "sep": "\u2013",
@@ -808,11 +1443,21 @@
       "homeTeam": "Colorado State",
       "homeWin": 0.4908,
       "total": 51.2,
-      "ats": "\u2605 Wyoming +2.9",
-      "ou": "OVER +4.7"
+      "ats": {
+        "v": "\u2605 Wyoming +2.9",
+        "sort": 2.86
+      },
+      "ou": {
+        "v": "OVER +4.7",
+        "sort": 4.7
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Eastern Kentucky",
       "awayScore": "17.0",
       "sep": "\u2013",
@@ -820,11 +1465,21 @@
       "homeTeam": "Jacksonville State",
       "homeWin": 0.925,
       "total": 57.4,
-      "ats": "\u2605 Jacksonville State +2.6",
-      "ou": "OVER +3.9"
+      "ats": {
+        "v": "\u2605 Jacksonville State +2.6",
+        "sort": 2.63
+      },
+      "ou": {
+        "v": "OVER +3.9",
+        "sort": 3.92
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Murray State",
       "awayScore": "16.6",
       "sep": "\u2013",
@@ -832,11 +1487,21 @@
       "homeTeam": "Middle Tennessee",
       "homeWin": 0.913,
       "total": 55.4,
-      "ats": "Middle Tennessee +1.0",
-      "ou": "UNDER +2.1"
+      "ats": {
+        "v": "Middle Tennessee +1.0",
+        "sort": 1.04
+      },
+      "ou": {
+        "v": "UNDER +2.1",
+        "sort": 2.09
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Austin Peay",
       "awayScore": "9.8",
       "sep": "\u2013",
@@ -844,11 +1509,21 @@
       "homeTeam": "Vanderbilt",
       "homeWin": 0.995,
       "total": 57.6,
-      "ats": "\u2605 Vanderbilt +9.4",
-      "ou": "UNDER +2.6"
+      "ats": {
+        "v": "\u2605 Vanderbilt +9.4",
+        "sort": 9.37
+      },
+      "ou": {
+        "v": "UNDER +2.6",
+        "sort": 2.6
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Charleston Southern",
       "awayScore": "15.9",
       "sep": "\u2013",
@@ -856,11 +1531,21 @@
       "homeTeam": "Georgia Southern",
       "homeWin": 0.9333,
       "total": 56.5,
-      "ats": "Charleston Southern +1.2",
-      "ou": "OVER +5.0"
+      "ats": {
+        "v": "Charleston Southern +1.2",
+        "sort": 1.23
+      },
+      "ou": {
+        "v": "OVER +5.0",
+        "sort": 5.05
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Idaho State",
       "awayScore": "17.4",
       "sep": "\u2013",
@@ -868,11 +1553,21 @@
       "homeTeam": "Utah State",
       "homeWin": 0.913,
       "total": 57.6,
-      "ats": "\u2605 Utah State +8.8",
-      "ou": "UNDER +4.6"
+      "ats": {
+        "v": "\u2605 Utah State +8.8",
+        "sort": 8.8
+      },
+      "ou": {
+        "v": "UNDER +4.6",
+        "sort": 4.6
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "SE Louisiana",
       "awayScore": "18.2",
       "sep": "\u2013",
@@ -880,11 +1575,21 @@
       "homeTeam": "South Alabama",
       "homeWin": 0.911,
       "total": 57.8,
-      "ats": "\u2605 South Alabama +8.4",
-      "ou": "OVER +5.3"
+      "ats": {
+        "v": "\u2605 South Alabama +8.4",
+        "sort": 8.36
+      },
+      "ou": {
+        "v": "OVER +5.3",
+        "sort": 5.34
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Houston Christian",
       "awayScore": "14.4",
       "sep": "\u2013",
@@ -892,11 +1597,21 @@
       "homeTeam": "Rice",
       "homeWin": 0.9474,
       "total": 55.1,
-      "ats": "\u2605 Rice +3.9",
-      "ou": "OVER +7.6"
+      "ats": {
+        "v": "\u2605 Rice +3.9",
+        "sort": 3.89
+      },
+      "ou": {
+        "v": "OVER +7.6",
+        "sort": 7.6
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Nicholls",
       "awayScore": "8.7",
       "sep": "\u2013",
@@ -904,11 +1619,21 @@
       "homeTeam": "Kansas State",
       "homeWin": 0.995,
       "total": 56.9,
-      "ats": "Nicholls +1.5",
-      "ou": "OVER +2.4"
+      "ats": {
+        "v": "Nicholls +1.5",
+        "sort": 1.46
+      },
+      "ou": {
+        "v": "OVER +2.4",
+        "sort": 2.41
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Arkansas State",
       "awayScore": "24.9",
       "sep": "\u2013",
@@ -916,11 +1641,21 @@
       "homeTeam": "Memphis",
       "homeWin": 0.687,
       "total": 55.9,
-      "ats": "\u2605 Arkansas State +4.6",
-      "ou": "OVER +2.6"
+      "ats": {
+        "v": "\u2605 Arkansas State +4.6",
+        "sort": 4.56
+      },
+      "ou": {
+        "v": "OVER +2.6",
+        "sort": 2.64
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Abilene Christian",
       "awayScore": "9.2",
       "sep": "\u2013",
@@ -928,11 +1663,21 @@
       "homeTeam": "Texas Tech",
       "homeWin": 0.995,
       "total": 58.1,
-      "ats": "\u2605 Abilene Christian +2.7",
-      "ou": "UNDER +1.4"
+      "ats": {
+        "v": "\u2605 Abilene Christian +2.7",
+        "sort": 2.72
+      },
+      "ou": {
+        "v": "UNDER +1.4",
+        "sort": 1.41
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Sam Houston",
       "awayScore": "21.2",
       "sep": "\u2013",
@@ -940,11 +1685,21 @@
       "homeTeam": "Troy",
       "homeWin": 0.7281,
       "total": 51.9,
-      "ats": "\u2605 Sam Houston +7.0",
-      "ou": "UNDER +1.8"
+      "ats": {
+        "v": "\u2605 Sam Houston +7.0",
+        "sort": 6.96
+      },
+      "ou": {
+        "v": "UNDER +1.8",
+        "sort": 1.84
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Missouri State",
       "awayScore": "9.6",
       "sep": "\u2013",
@@ -952,11 +1707,21 @@
       "homeTeam": "Texas A&M",
       "homeWin": 0.995,
       "total": 56.6,
-      "ats": "\u2605 Missouri State +3.1",
-      "ou": "OVER +3.1"
+      "ats": {
+        "v": "\u2605 Missouri State +3.1",
+        "sort": 3.14
+      },
+      "ou": {
+        "v": "OVER +3.1",
+        "sort": 3.12
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:00PM",
+        "sort": "2026-09-05T23:00:00+00:00"
+      },
       "awayTeam": "Florida International",
       "awayScore": "20.6",
       "sep": "\u2013",
@@ -964,11 +1729,21 @@
       "homeTeam": "South Florida",
       "homeWin": 0.8444,
       "total": 56.3,
-      "ats": "South Florida +0.7",
-      "ou": "OVER +4.6"
+      "ats": {
+        "v": "South Florida +0.7",
+        "sort": 0.71
+      },
+      "ou": {
+        "v": "OVER +4.6",
+        "sort": 4.59
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 7:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:30PM",
+        "sort": "2026-09-05T23:30:00+00:00"
+      },
       "awayTeam": "Western Michigan",
       "awayScore": "16.5",
       "sep": "\u2013",
@@ -976,11 +1751,21 @@
       "homeTeam": "Michigan",
       "homeWin": 0.8444,
       "total": 51.5,
-      "ats": "\u2605 Western Michigan +8.9",
-      "ou": "OVER +2.0"
+      "ats": {
+        "v": "\u2605 Western Michigan +8.9",
+        "sort": 8.93
+      },
+      "ou": {
+        "v": "OVER +2.0",
+        "sort": 1.98
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:30PM",
+        "sort": "2026-09-05T23:30:00+00:00"
+      },
       "awayTeam": "Northwestern State",
       "awayScore": "12.6",
       "sep": "\u2013",
@@ -988,11 +1773,21 @@
       "homeTeam": "Louisiana Tech",
       "homeWin": 0.9903,
       "total": 56.6,
-      "ats": "\u2605 Northwestern State +13.1",
-      "ou": "OVER +1.1"
+      "ats": {
+        "v": "\u2605 Northwestern State +13.1",
+        "sort": 13.11
+      },
+      "ou": {
+        "v": "OVER +1.1",
+        "sort": 1.1
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:30PM",
+        "sort": "2026-09-05T23:30:00+00:00"
+      },
       "awayTeam": "Clemson",
       "awayScore": "25.9",
       "sep": "\u2013",
@@ -1000,11 +1795,21 @@
       "homeTeam": "LSU",
       "homeWin": 0.4908,
       "total": 51.2,
-      "ats": "\u2605 Clemson +10.2",
-      "ou": "OVER +0.7"
+      "ats": {
+        "v": "\u2605 Clemson +10.2",
+        "sort": 10.25
+      },
+      "ou": {
+        "v": "OVER +0.7",
+        "sort": 0.73
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:30PM",
+        "sort": "2026-09-05T23:30:00+00:00"
+      },
       "awayTeam": "VMI",
       "awayScore": "11.1",
       "sep": "\u2013",
@@ -1012,11 +1817,21 @@
       "homeTeam": "Virginia Tech",
       "homeWin": 0.9927,
       "total": 56.8,
-      "ats": "\u2605 VMI +21.0",
-      "ou": "UNDER +5.0"
+      "ats": {
+        "v": "\u2605 VMI +21.0",
+        "sort": 20.97
+      },
+      "ou": {
+        "v": "UNDER +5.0",
+        "sort": 4.97
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 7:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:30PM",
+        "sort": "2026-09-05T23:30:00+00:00"
+      },
       "awayTeam": "UL Monroe",
       "awayScore": "14.3",
       "sep": "\u2013",
@@ -1024,11 +1839,21 @@
       "homeTeam": "Mississippi State",
       "homeWin": 0.9683,
       "total": 55.6,
-      "ats": "UL Monroe +1.5",
-      "ou": "OVER +0.8"
+      "ats": {
+        "v": "UL Monroe +1.5",
+        "sort": 1.49
+      },
+      "ou": {
+        "v": "OVER +0.8",
+        "sort": 0.82
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 7:45PM",
+      "kickoff": {
+        "v": "Sat 9/5 7:45PM",
+        "sort": "2026-09-05T23:45:00+00:00"
+      },
       "awayTeam": "Florida Atlantic",
       "awayScore": "15.7",
       "sep": "\u2013",
@@ -1036,11 +1861,21 @@
       "homeTeam": "Florida",
       "homeWin": 0.9286,
       "total": 55.6,
-      "ats": "\u2605 Florida Atlantic +2.3",
-      "ou": "UNDER +3.9"
+      "ats": {
+        "v": "\u2605 Florida Atlantic +2.3",
+        "sort": 2.26
+      },
+      "ou": {
+        "v": "UNDER +3.9",
+        "sort": 3.86
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 8:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 8:00PM",
+        "sort": "2026-09-06T00:00:00+00:00"
+      },
       "awayTeam": "Hampton",
       "awayScore": "6.5",
       "sep": "\u2013",
@@ -1048,11 +1883,21 @@
       "homeTeam": "Maryland",
       "homeWin": 0.995,
       "total": 56.8,
-      "ats": "Hampton +1.8",
-      "ou": "OVER +1.2"
+      "ats": {
+        "v": "Hampton +1.8",
+        "sort": 1.8
+      },
+      "ou": {
+        "v": "OVER +1.2",
+        "sort": 1.25
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 8:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 8:00PM",
+        "sort": "2026-09-06T00:00:00+00:00"
+      },
       "awayTeam": "Lamar",
       "awayScore": "17.4",
       "sep": "\u2013",
@@ -1060,11 +1905,21 @@
       "homeTeam": "Louisiana",
       "homeWin": 0.911,
       "total": 56.6,
-      "ats": "Louisiana +1.6",
-      "ou": "OVER +8.1"
+      "ats": {
+        "v": "Louisiana +1.6",
+        "sort": 1.64
+      },
+      "ou": {
+        "v": "OVER +8.1",
+        "sort": 8.14
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 8:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 8:00PM",
+        "sort": "2026-09-06T00:00:00+00:00"
+      },
       "awayTeam": "South Dakota State",
       "awayScore": "10.7",
       "sep": "\u2013",
@@ -1072,11 +1927,21 @@
       "homeTeam": "Northwestern",
       "homeWin": 0.9903,
       "total": 54.1,
-      "ats": "\u2605 Northwestern +20.2",
-      "ou": "OVER +7.9"
+      "ats": {
+        "v": "\u2605 Northwestern +20.2",
+        "sort": 20.17
+      },
+      "ou": {
+        "v": "OVER +7.9",
+        "sort": 7.88
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 8:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 8:00PM",
+        "sort": "2026-09-06T00:00:00+00:00"
+      },
       "awayTeam": "Utah Tech",
       "awayScore": "8.4",
       "sep": "\u2013",
@@ -1084,11 +1949,21 @@
       "homeTeam": "BYU",
       "homeWin": 0.995,
       "total": 57.2,
-      "ats": "\u2605 Utah Tech +11.1",
-      "ou": "UNDER +4.1"
+      "ats": {
+        "v": "\u2605 Utah Tech +11.1",
+        "sort": 11.06
+      },
+      "ou": {
+        "v": "UNDER +4.1",
+        "sort": 4.09
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 9:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 9:00PM",
+        "sort": "2026-09-06T01:00:00+00:00"
+      },
       "awayTeam": "Mercyhurst",
       "awayScore": "16.1",
       "sep": "\u2013",
@@ -1096,11 +1971,21 @@
       "homeTeam": "New Mexico State",
       "homeWin": 0.911,
       "total": 53.8,
-      "ats": "\u2605 Mercyhurst +6.9",
-      "ou": "OVER +1.6"
+      "ats": {
+        "v": "\u2605 Mercyhurst +6.9",
+        "sort": 6.93
+      },
+      "ou": {
+        "v": "OVER +1.6",
+        "sort": 1.58
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 9:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 9:30PM",
+        "sort": "2026-09-06T01:30:00+00:00"
+      },
       "awayTeam": "Portland State",
       "awayScore": "8.2",
       "sep": "\u2013",
@@ -1108,11 +1993,21 @@
       "homeTeam": "San Diego State",
       "homeWin": 0.995,
       "total": 54.5,
-      "ats": "\u2605 Portland State +2.4",
-      "ou": "UNDER +7.7"
+      "ats": {
+        "v": "\u2605 Portland State +2.4",
+        "sort": 2.42
+      },
+      "ou": {
+        "v": "UNDER +7.7",
+        "sort": 7.7
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 9:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 9:30PM",
+        "sort": "2026-09-06T01:30:00+00:00"
+      },
       "awayTeam": "Northern Arizona",
       "awayScore": "12.2",
       "sep": "\u2013",
@@ -1120,11 +2015,21 @@
       "homeTeam": "Arizona",
       "homeWin": 0.9927,
       "total": 57.5,
-      "ats": "Arizona +1.6",
-      "ou": "UNDER +0.9"
+      "ats": {
+        "v": "Arizona +1.6",
+        "sort": 1.56
+      },
+      "ou": {
+        "v": "UNDER +0.9",
+        "sort": 0.95
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 10:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 10:00PM",
+        "sort": "2026-09-06T02:00:00+00:00"
+      },
       "awayTeam": "Central Michigan",
       "awayScore": "20.7",
       "sep": "\u2013",
@@ -1132,11 +2037,21 @@
       "homeTeam": "New Mexico",
       "homeWin": 0.7281,
       "total": 50.7,
-      "ats": "Central Michigan +1.2",
-      "ou": "OVER +4.0"
+      "ats": {
+        "v": "Central Michigan +1.2",
+        "sort": 1.21
+      },
+      "ou": {
+        "v": "OVER +4.0",
+        "sort": 3.95
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 10:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 10:00PM",
+        "sort": "2026-09-06T02:00:00+00:00"
+      },
       "awayTeam": "Morgan State",
       "awayScore": "6.2",
       "sep": "\u2013",
@@ -1144,11 +2059,21 @@
       "homeTeam": "Arizona State",
       "homeWin": 0.995,
       "total": 55.4,
-      "ats": "Morgan State +1.7",
-      "ou": "OVER +2.9"
+      "ats": {
+        "v": "Morgan State +1.7",
+        "sort": 1.69
+      },
+      "ou": {
+        "v": "OVER +2.9",
+        "sort": 2.91
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sat 9/5 10:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 10:00PM",
+        "sort": "2026-09-06T02:00:00+00:00"
+      },
       "awayTeam": "UNLV",
       "awayScore": "27.3",
       "sep": "\u2013",
@@ -1156,11 +2081,21 @@
       "homeTeam": "Hawai'i",
       "homeWin": 0.5146,
       "total": 55.4,
-      "ats": "\u2605 Hawai'i +3.7",
-      "ou": "UNDER +0.1"
+      "ats": {
+        "v": "\u2605 Hawai'i +3.7",
+        "sort": 3.69
+      },
+      "ou": {
+        "v": "UNDER +0.1",
+        "sort": 0.12
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 10:00PM",
+      "kickoff": {
+        "v": "Sat 9/5 10:00PM",
+        "sort": "2026-09-06T02:00:00+00:00"
+      },
       "awayTeam": "Mississippi Valley State",
       "awayScore": "16.8",
       "sep": "\u2013",
@@ -1168,11 +2103,21 @@
       "homeTeam": "Sacramento State",
       "homeWin": 0.911,
       "total": 55.3,
-      "ats": "\u2605 Mississippi Valley State +15.8",
-      "ou": "UNDER +1.2"
+      "ats": {
+        "v": "\u2605 Mississippi Valley State +15.8",
+        "sort": 15.78
+      },
+      "ou": {
+        "v": "UNDER +1.2",
+        "sort": 1.17
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 10:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 10:30PM",
+        "sort": "2026-09-06T02:30:00+00:00"
+      },
       "awayTeam": "Western Kentucky",
       "awayScore": "28.2",
       "sep": "\u2013",
@@ -1180,11 +2125,21 @@
       "homeTeam": "Nevada",
       "homeWin": 0.3924,
       "total": 51.9,
-      "ats": "\u2605 Western Kentucky +4.2",
-      "ou": "OVER +0.4"
+      "ats": {
+        "v": "\u2605 Western Kentucky +4.2",
+        "sort": 4.18
+      },
+      "ou": {
+        "v": "OVER +0.4",
+        "sort": 0.4
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sat 9/5 10:30PM",
+      "kickoff": {
+        "v": "Sat 9/5 10:30PM",
+        "sort": "2026-09-06T02:30:00+00:00"
+      },
       "awayTeam": "UCLA",
       "awayScore": "25.7",
       "sep": "\u2013",
@@ -1192,11 +2147,21 @@
       "homeTeam": "California",
       "homeWin": 0.5455,
       "total": 54.5,
-      "ats": "\u2605 California +5.7",
-      "ou": "OVER +1.1"
+      "ats": {
+        "v": "\u2605 California +5.7",
+        "sort": 5.66
+      },
+      "ou": {
+        "v": "OVER +1.1",
+        "sort": 1.05
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sun 9/6 4:00PM",
+      "kickoff": {
+        "v": "Sun 9/6 4:00PM",
+        "sort": "2026-09-06T20:00:00+00:00"
+      },
       "awayTeam": "Washington State",
       "awayScore": "18.3",
       "sep": "\u2013",
@@ -1204,11 +2169,21 @@
       "homeTeam": "Washington",
       "homeWin": 0.8444,
       "total": 51.0,
-      "ats": "\u2605 Washington State +8.9",
-      "ou": "UNDER +0.3"
+      "ats": {
+        "v": "\u2605 Washington State +8.9",
+        "sort": 8.94
+      },
+      "ou": {
+        "v": "UNDER +0.3",
+        "sort": 0.27
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Sun 9/6 7:30PM",
+      "kickoff": {
+        "v": "Sun 9/6 7:30PM",
+        "sort": "2026-09-06T23:30:00+00:00"
+      },
       "awayTeam": "Wisconsin",
       "awayScore": "14.9",
       "sep": "\u2013",
@@ -1216,11 +2191,21 @@
       "homeTeam": "Notre Dame",
       "homeWin": 0.911,
       "total": 50.6,
-      "ats": "Notre Dame +0.3",
-      "ou": "OVER +4.1"
+      "ats": {
+        "v": "Notre Dame +0.3",
+        "sort": 0.32
+      },
+      "ou": {
+        "v": "OVER +4.1",
+        "sort": 4.14
+      },
+      "flagged": false
     },
     {
-      "kickoff": "Sun 9/6 7:30PM",
+      "kickoff": {
+        "v": "Sun 9/6 7:30PM",
+        "sort": "2026-09-06T23:30:00+00:00"
+      },
       "awayTeam": "Louisville",
       "awayScore": "20.5",
       "sep": "\u2013",
@@ -1228,11 +2213,21 @@
       "homeTeam": "Ole Miss",
       "homeWin": 0.8444,
       "total": 54.8,
-      "ats": "\u2605 Ole Miss +7.3",
-      "ou": "OVER +0.0"
+      "ats": {
+        "v": "\u2605 Ole Miss +7.3",
+        "sort": 7.33
+      },
+      "ou": {
+        "v": "OVER +0.0",
+        "sort": 0.03
+      },
+      "flagged": true
     },
     {
-      "kickoff": "Mon 9/7 7:30PM",
+      "kickoff": {
+        "v": "Mon 9/7 7:30PM",
+        "sort": "2026-09-07T23:30:00+00:00"
+      },
       "awayTeam": "SMU",
       "awayScore": "27.7",
       "sep": "\u2013",
@@ -1240,8 +2235,15 @@
       "homeTeam": "Florida State",
       "homeWin": 0.4908,
       "total": 54.5,
-      "ats": "Florida State +2.2",
-      "ou": "OVER +1.7"
+      "ats": {
+        "v": "Florida State +2.2",
+        "sort": 2.18
+      },
+      "ou": {
+        "v": "OVER +1.7",
+        "sort": 1.74
+      },
+      "flagged": false
     }
   ]
 }

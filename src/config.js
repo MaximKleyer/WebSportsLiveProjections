@@ -26,11 +26,11 @@ export const BRAND = {
 // ============================================================
 // Views — the kinds of model output a sport page can show
 // ============================================================
-// Each sport page renders one TAB per view, in this order (`short` is the
-// tab label). The label/blurb live here once; each sport only declares WHICH
-// views it has and the per-view status — so NFL game projections can be live
-// while NFL season is still planned. To ship a model: set a view's status to
-// 'live' and drop its data at public/data/<sportId>/<viewType>.json. (See README.)
+// Each sport page renders one TAB per view, in the order the sport lists them
+// (`short` is the tab label). The label/blurb live here once; each sport only
+// declares WHICH views it has and the per-view status — so NFL game
+// projections can be live while NFL season is still planned. To ship a model:
+// set a view's status to 'live' and export its data. (See README.)
 // ============================================================
 
 export const VIEW_TYPES = {
@@ -39,9 +39,9 @@ export const VIEW_TYPES = {
     short: 'WEEKLY',
     blurb:
       'Score and win-probability projections for every game, week by week.',
-    // Weekly views read data/<sport>/<view>/index.json (the week manifest)
-    // and one data/<sport>/<view>/<season>-wNN.json file per week.
-    weekly: true,
+    // A slate view: data/<sport>/<view>/index.json lists its slates (a
+    // football week, an MLB day) with a dropdown; each slate is one table.
+    slates: true,
   },
   players: {
     label: 'Player Projections',
@@ -60,13 +60,24 @@ export const VIEW_TYPES = {
     short: 'RESULTS',
     blurb:
       'Every pick graded against the final score and the betting line — season to date and week by week.',
-    // Same weekly layout as games (manifest + one file per graded week); the
-    // manifest's `summary` holds the season-to-date record tiles.
-    weekly: true,
+    // A slate view like games (one slate per graded week, plus "All weeks");
+    // the manifest's `summary` holds the season-to-date record tiles.
+    slates: true,
   },
 };
 
-// Build the standard three views, defaulting to 'planned' unless overridden.
+// A view's display text: the VIEW_TYPES defaults, which a sport may override
+// per view — e.g. a daily MLB slate:
+//   { type: 'games', status: 'live', short: 'DAILY', label: 'Daily Game Projections' }
+export function viewMeta(view) {
+  const base = VIEW_TYPES[view.type] ?? { label: view.type, blurb: '' };
+  const overrides = Object.fromEntries(
+    ['label', 'short', 'blurb'].filter((k) => view[k]).map((k) => [k, view[k]])
+  );
+  return { ...base, ...overrides };
+}
+
+// One entry per view type, defaulting to 'planned' unless overridden.
 const views = (overrides = {}) =>
   Object.keys(VIEW_TYPES).map((type) => ({
     type,
@@ -114,10 +125,10 @@ export const SPORTS = [
     id: 'mlb',
     name: 'MLB',
     subtitle: 'Game-level run projections',
-    status: 'live',
+    status: 'in-dev',
     accent: '#d94545',
     year: '2026 SEASON',
-    views: views(),
+    views: views({ games: 'in-dev' }),
   },
   {
     id: 'nhl',
@@ -146,10 +157,10 @@ export const SPORTS = [
     id: 'cbb',
     name: 'COLLEGE BASKETBALL',
     subtitle: 'Barttorvik-based game predictor',
-    status: 'live',
+    status: 'in-dev',
     accent: '#e89c3a',
     year: '2025–26',
-    views: views(),
+    views: views({ games: 'in-dev' }),
   },
 ];
 

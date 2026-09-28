@@ -1,6 +1,13 @@
 {
   "subtitle": "2026 \u00b7 Week 2 \u2014 86 games \u00b7 SU 72\u201314 \u00b7 ATS 46\u201340 \u00b7 O/U 54\u201332 \u00b7 \u2605 plays 45\u201337",
   "updated": "2026-09-20",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
   "columns": [
     {
       "key": "awayTeam",
@@ -35,17 +42,20 @@
     {
       "key": "su",
       "label": "SU Pick",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ats",
       "label": "ATS",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ou",
       "label": "O/U",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
@@ -58,16 +68,20 @@
       "proj": "5.0 \u2013 57.0",
       "su": {
         "v": "Miami \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Florida A&M +59.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 UNDER 66.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Norfolk State",
@@ -78,16 +92,20 @@
       "proj": "5.9 \u2013 56.4",
       "su": {
         "v": "Virginia \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Virginia -47.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 56.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Villanova",
@@ -98,16 +116,20 @@
       "proj": "7.9 \u2013 53.2",
       "su": {
         "v": "Louisville \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Louisville -38.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 56.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Richmond",
@@ -118,16 +140,20 @@
       "proj": "4.7 \u2013 53.6",
       "su": {
         "v": "NC State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "NC State -33.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 50.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Rutgers",
@@ -138,16 +164,20 @@
       "proj": "27.7 \u2013 26.4",
       "su": {
         "v": "Rutgers \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Rutgers +3 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 53.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Missouri",
@@ -158,16 +188,20 @@
       "proj": "29.3 \u2013 24.4",
       "su": {
         "v": "Missouri \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Missouri -4 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 51.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Gardner-Webb",
@@ -178,16 +212,20 @@
       "proj": "13.3 \u2013 46.2",
       "su": {
         "v": "Liberty \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Liberty -28.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 55.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Wagner",
@@ -198,16 +236,20 @@
       "proj": "8.0 \u2013 52.1",
       "su": {
         "v": "James Madison \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Wagner +46.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 56.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Oklahoma",
@@ -218,16 +260,20 @@
       "proj": "23.5 \u2013 24.4",
       "su": {
         "v": "Michigan \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Michigan +5.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 43.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Penn State",
@@ -238,16 +284,20 @@
       "proj": "35.4 \u2013 16.2",
       "su": {
         "v": "Penn State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Temple +23.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 50.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Arizona State",
@@ -258,16 +308,20 @@
       "proj": "18.7 \u2013 34.7",
       "su": {
         "v": "Texas A&M \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Texas A&M -15 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 51.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Old Dominion",
@@ -278,16 +332,20 @@
       "proj": "19.5 \u2013 31.3",
       "su": {
         "v": "Virginia Tech \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Old Dominion +19 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 47.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Howard",
@@ -298,16 +356,20 @@
       "proj": "5.4 \u2013 54.7",
       "su": {
         "v": "Indiana \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Howard +57.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 UNDER 67 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Oregon",
@@ -318,16 +380,20 @@
       "proj": "36.5 \u2013 18.3",
       "su": {
         "v": "Oregon \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Oklahoma State +23.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 54.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Wake Forest",
@@ -338,16 +404,20 @@
       "proj": "25.0 \u2013 28.7",
       "su": {
         "v": "Purdue \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Purdue +3 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 50.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Washington State",
@@ -358,16 +428,20 @@
       "proj": "18.4 \u2013 32.8",
       "su": {
         "v": "Kansas State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Washington State +17.75 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 48.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "East Tennessee State",
@@ -378,16 +452,20 @@
       "proj": "7.2 \u2013 47.0",
       "su": {
         "v": "North Carolina \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "North Carolina -35.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 54.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Wofford",
@@ -398,16 +476,20 @@
       "proj": "18.2 \u2013 35.3",
       "su": {
         "v": "Kent State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Kent State -10.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 46.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "App State",
@@ -418,16 +500,20 @@
       "proj": "27.3 \u2013 27.4",
       "su": {
         "v": "East Carolina \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 App State +6.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 55.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "South Florida",
@@ -438,16 +524,20 @@
       "proj": "23.3 \u2013 29.9",
       "su": {
         "v": "Army \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Army -3.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 45.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Western Kentucky",
@@ -458,16 +548,20 @@
       "proj": "10.4 \u2013 45.4",
       "su": {
         "v": "Georgia \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Western Kentucky +39.75 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 55.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Colgate",
@@ -478,16 +572,20 @@
       "proj": "12.5 \u2013 43.8",
       "su": {
         "v": "Central Michigan \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Central Michigan -19 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 48.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "UT Martin",
@@ -498,16 +596,20 @@
       "proj": "9.8 \u2013 50.4",
       "su": {
         "v": "West Virginia \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "UT Martin +41 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 56.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Holy Cross",
@@ -518,16 +620,20 @@
       "proj": "11.7 \u2013 45.9",
       "su": {
         "v": "Miami (OH) \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Miami (OH) -30.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 47.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Stony Brook",
@@ -538,16 +644,20 @@
       "proj": "18.6 \u2013 36.4",
       "su": {
         "v": "Ball State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Ball State -13.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 53.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "California",
@@ -558,16 +668,20 @@
       "proj": "24.9 \u2013 30.7",
       "su": {
         "v": "Syracuse \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "Syracuse -3.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 56.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Eastern Michigan",
@@ -578,16 +692,20 @@
       "proj": "19.6 \u2013 31.7",
       "su": {
         "v": "Michigan State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Eastern Michigan +17.25 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 49.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Duke",
@@ -598,16 +716,20 @@
       "proj": "20.7 \u2013 30.2",
       "su": {
         "v": "Illinois \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Illinois -6 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 51.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Utah State",
@@ -618,16 +740,20 @@
       "proj": "15.5 \u2013 41.2",
       "su": {
         "v": "Washington \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Utah State +27.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 55.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "UL Monroe",
@@ -638,16 +764,20 @@
       "proj": "19.5 \u2013 33.9",
       "su": {
         "v": "UAB \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 UAB -9.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 54.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "UTSA",
@@ -658,16 +788,20 @@
       "proj": "27.3 \u2013 30.1",
       "su": {
         "v": "Texas State \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "Texas State -2.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 UNDER 66.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Maryland",
@@ -678,16 +812,20 @@
       "proj": "31.7 \u2013 23.7",
       "su": {
         "v": "Maryland \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 UConn +11.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 51.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Rice",
@@ -698,16 +836,20 @@
       "proj": "8.8 \u2013 47.7",
       "su": {
         "v": "Notre Dame \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Rice +45.25 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 55.25 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Weber State",
@@ -718,16 +860,20 @@
       "proj": "9.6 \u2013 48.9",
       "su": {
         "v": "Colorado \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Colorado -38.25 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 57.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Arizona",
@@ -738,16 +884,20 @@
       "proj": "21.1 \u2013 31.9",
       "su": {
         "v": "BYU \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 BYU -7 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 48.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Robert Morris",
@@ -758,16 +908,20 @@
       "proj": "13.8 \u2013 45.1",
       "su": {
         "v": "Akron \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Akron -27.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 46.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Mississippi State",
@@ -778,16 +932,20 @@
       "proj": "23.4 \u2013 28.5",
       "su": {
         "v": "Minnesota \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Minnesota +1.25 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 54.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Sacred Heart",
@@ -798,16 +956,20 @@
       "proj": "18.3 \u2013 38.7",
       "su": {
         "v": "Massachusetts \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Sacred Heart +23.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 53.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Alabama",
@@ -818,16 +980,20 @@
       "proj": "34.0 \u2013 20.3",
       "su": {
         "v": "Alabama \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Alabama -10 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 48.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "UCF",
@@ -838,16 +1004,20 @@
       "proj": "20.6 \u2013 31.8",
       "su": {
         "v": "Pittsburgh \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Pittsburgh -7 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 55.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Central Connecticut",
@@ -858,16 +1028,20 @@
       "proj": "8.0 \u2013 49.7",
       "su": {
         "v": "Toledo \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Toledo -35.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 53.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "UNLV",
@@ -878,16 +1052,20 @@
       "proj": "27.1 \u2013 28.9",
       "su": {
         "v": "North Texas \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 North Texas +3 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 57.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "UC Davis",
@@ -898,16 +1076,20 @@
       "proj": "7.6 \u2013 53.2",
       "su": {
         "v": "SMU \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "SMU -32.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 58.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Northern Colorado",
@@ -918,16 +1100,20 @@
       "proj": "12.6 \u2013 39.0",
       "su": {
         "v": "Wyoming \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Wyoming -23 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 44.25 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Alabama State",
@@ -938,16 +1124,20 @@
       "proj": "13.1 \u2013 46.8",
       "su": {
         "v": "Troy \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Troy -23.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 51.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Mercyhurst",
@@ -958,16 +1148,20 @@
       "proj": "9.8 \u2013 52.2",
       "su": {
         "v": "New Mexico \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "New Mexico -41.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 54 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Delaware",
@@ -978,16 +1172,20 @@
       "proj": "16.2 \u2013 39.4",
       "su": {
         "v": "Vanderbilt \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Vanderbilt -21 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 54.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Campbell",
@@ -998,16 +1196,20 @@
       "proj": "5.1 \u2013 54.7",
       "su": {
         "v": "Florida \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Campbell +50.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 UNDER 66.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Jacksonville State",
@@ -1018,16 +1220,20 @@
       "proj": "25.7 \u2013 28.3",
       "su": {
         "v": "Ohio \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Ohio -2.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 49.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Memphis",
@@ -1038,16 +1244,20 @@
       "proj": "22.3 \u2013 35.6",
       "su": {
         "v": "Boise State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Boise State -9.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 55.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Buffalo",
@@ -1058,16 +1268,20 @@
       "proj": "20.4 \u2013 31.4",
       "su": {
         "v": "Florida International \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Florida International -10 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 47.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Monmouth",
@@ -1078,16 +1292,20 @@
       "proj": "10.1 \u2013 47.3",
       "su": {
         "v": "Western Michigan \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Western Michigan -27.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 53.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Southern",
@@ -1098,16 +1316,20 @@
       "proj": "6.3 \u2013 56.2",
       "su": {
         "v": "Houston \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Southern +51.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 61.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Western Carolina",
@@ -1118,16 +1340,20 @@
       "proj": "8.9 \u2013 49.5",
       "su": {
         "v": "Cincinnati \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Cincinnati -36.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 60.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Tennessee",
@@ -1138,16 +1364,20 @@
       "proj": "32.7 \u2013 22.4",
       "su": {
         "v": "Tennessee \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Georgia Tech +12.25 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 55.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Towson",
@@ -1158,16 +1388,20 @@
       "proj": "8.2 \u2013 51.7",
       "su": {
         "v": "South Carolina \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Towson +44 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 56.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Bowling Green",
@@ -1178,16 +1412,20 @@
       "proj": "11.6 \u2013 39.8",
       "su": {
         "v": "Nebraska \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Bowling Green +30.25 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 49.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Southern Utah",
@@ -1198,16 +1436,20 @@
       "proj": "17.4 \u2013 42.3",
       "su": {
         "v": "Colorado State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Colorado State -20.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 57.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Middle Tennessee",
@@ -1218,16 +1460,20 @@
       "proj": "19.4 \u2013 32.3",
       "su": {
         "v": "Marshall \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Middle Tennessee +13.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 UNDER 56.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Georgia State",
@@ -1238,16 +1484,20 @@
       "proj": "26.4 \u2013 27.9",
       "su": {
         "v": "Kennesaw State \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Georgia State +8.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 54.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Lindenwood",
@@ -1258,16 +1508,20 @@
       "proj": "15.3 \u2013 39.9",
       "su": {
         "v": "Missouri State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Missouri State -16.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 52.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "South Alabama",
@@ -1278,16 +1532,20 @@
       "proj": "20.3 \u2013 30.6",
       "su": {
         "v": "Tulane \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Tulane -9.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 49.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Illinois State",
@@ -1298,16 +1556,20 @@
       "proj": "17.5 \u2013 37.0",
       "su": {
         "v": "Northern Illinois \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Northern Illinois +3 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 48.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Tulsa",
@@ -1318,16 +1580,20 @@
       "proj": "28.9 \u2013 26.1",
       "su": {
         "v": "Tulsa \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Sam Houston +12.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 51 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "West Georgia",
@@ -1338,16 +1604,20 @@
       "proj": "15.5 \u2013 43.4",
       "su": {
         "v": "Arkansas State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "West Georgia +31.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 56.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Western Illinois",
@@ -1358,16 +1628,20 @@
       "proj": "4.5 \u2013 50.1",
       "su": {
         "v": "Wisconsin \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Wisconsin -42.25 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 51.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "San Diego State",
@@ -1378,16 +1652,20 @@
       "proj": "23.9 \u2013 27.6",
       "su": {
         "v": "UCLA \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 San Diego State +13 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 54.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Louisiana Tech",
@@ -1398,16 +1676,20 @@
       "proj": "15.9 \u2013 34.6",
       "su": {
         "v": "LSU \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Louisiana Tech +35.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 UNDER 55.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Navy",
@@ -1418,16 +1700,20 @@
       "proj": "30.3 \u2013 26.9",
       "su": {
         "v": "Navy \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "Florida Atlantic +4 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 59.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Georgia Southern",
@@ -1438,16 +1724,20 @@
       "proj": "17.8 \u2013 36.2",
       "su": {
         "v": "Clemson \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Georgia Southern +19.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 55.25 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Ohio State",
@@ -1458,16 +1748,20 @@
       "proj": "25.0 \u2013 25.7",
       "su": {
         "v": "Texas \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Ohio State +1.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 49.75 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Iowa State",
@@ -1478,16 +1772,20 @@
       "proj": "16.0 \u2013 31.9",
       "su": {
         "v": "Iowa \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Iowa -14 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 41.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Fordham",
@@ -1498,16 +1796,20 @@
       "proj": "12.5 \u2013 48.0",
       "su": {
         "v": "Coastal Carolina \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Coastal Carolina -35.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 53.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Texas Tech",
@@ -1518,16 +1820,20 @@
       "proj": "37.1 \u2013 18.8",
       "su": {
         "v": "Texas Tech \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Oregon State +25.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 53 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Charlotte",
@@ -1538,16 +1844,20 @@
       "proj": "9.2 \u2013 52.5",
       "su": {
         "v": "Ole Miss \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Charlotte +45.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 59.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Southern Miss",
@@ -1558,16 +1868,20 @@
       "proj": "19.9 \u2013 32.4",
       "su": {
         "v": "Auburn \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Southern Miss +32.75 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 UNDER 56.75 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Grambling",
@@ -1578,16 +1892,20 @@
       "proj": "5.3 \u2013 55.6",
       "su": {
         "v": "TCU \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "TCU -43.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 55.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Prairie View A&M",
@@ -1598,16 +1916,20 @@
       "proj": "8.9 \u2013 54.0",
       "su": {
         "v": "Baylor \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Baylor -37.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 55.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Texas Southern",
@@ -1618,16 +1940,20 @@
       "proj": "15.1 \u2013 42.6",
       "su": {
         "v": "UTEP \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "UTEP -26.75 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 53 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Cal Poly",
@@ -1638,16 +1964,20 @@
       "proj": "13.7 \u2013 46.9",
       "su": {
         "v": "San Jos\u00e9 State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 San Jos\u00e9 State -20.75 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 58.25 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "North Dakota State",
@@ -1658,16 +1988,20 @@
       "proj": "24.3 \u2013 25.0",
       "su": {
         "v": "Air Force \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "Air Force +1.75 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 47.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "Arkansas",
@@ -1678,16 +2012,20 @@
       "proj": "19.8 \u2013 38.8",
       "su": {
         "v": "Utah \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Utah -12.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 55.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Sacramento State",
@@ -1698,16 +2036,20 @@
       "proj": "20.8 \u2013 31.8",
       "su": {
         "v": "Fresno State \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 Sacramento State +17.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 44.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Montana State",
@@ -1718,16 +2060,20 @@
       "proj": "14.6 \u2013 41.5",
       "su": {
         "v": "Nevada \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 Nevada +3.75 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 51.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "Louisiana",
@@ -1738,16 +2084,20 @@
       "proj": "12.9 \u2013 43.9",
       "su": {
         "v": "USC \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Louisiana +31.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 59.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "New Mexico State",
@@ -1758,16 +2108,20 @@
       "proj": "22.8 \u2013 30.6",
       "su": {
         "v": "Hawai'i \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "Hawai'i -7.25 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 50.25 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     }
   ]
 }

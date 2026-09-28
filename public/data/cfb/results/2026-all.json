@@ -4,7 +4,8 @@
   "columns": [
     {
       "key": "week",
-      "label": "Week"
+      "label": "Week",
+      "sortable": true
     },
     {
       "key": "games",
@@ -14,95 +15,130 @@
     {
       "key": "su",
       "label": "Straight up",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ats",
       "label": "ATS",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ou",
       "label": "O/U",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "spreadPlays",
       "label": "\u2605 Spread",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "totalPlays",
       "label": "\u2605 Total",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "mae",
       "label": "Margin MAE",
       "align": "right",
-      "format": "number"
+      "format": "number",
+      "sortable": true
     }
   ],
   "rows": [
     {
-      "week": "Week 1",
+      "week": {
+        "v": "Week 1",
+        "sort": 1
+      },
       "games": 99,
-      "su": "86\u201313 (87%)",
+      "su": {
+        "v": "86\u201313 (87%)",
+        "sort": 0.8687
+      },
       "ats": {
         "v": "39\u201358\u20132 (40%)",
+        "sort": 0.4021,
         "tone": "bad"
       },
       "ou": {
         "v": "60\u201339 (61%)",
+        "sort": 0.6061,
         "tone": "good"
       },
       "spreadPlays": {
         "v": "30\u201336\u20131 (45%)",
+        "sort": 0.4545,
         "tone": "bad"
       },
       "totalPlays": null,
       "mae": 15.6
     },
     {
-      "week": "Week 2",
+      "week": {
+        "v": "Week 2",
+        "sort": 2
+      },
       "games": 86,
-      "su": "72\u201314 (84%)",
+      "su": {
+        "v": "72\u201314 (84%)",
+        "sort": 0.8372
+      },
       "ats": {
         "v": "46\u201340 (53%)",
+        "sort": 0.5349,
         "tone": "good"
       },
       "ou": {
         "v": "54\u201332 (63%)",
+        "sort": 0.6279,
         "tone": "good"
       },
       "spreadPlays": {
         "v": "19\u201319 (50%)",
+        "sort": 0.5,
         "tone": "bad"
       },
       "totalPlays": {
         "v": "26\u201318 (59%)",
+        "sort": 0.5909,
         "tone": "good"
       },
       "mae": 12.2
     },
     {
-      "week": "Week 3",
+      "week": {
+        "v": "Week 3",
+        "sort": 3
+      },
       "games": 75,
-      "su": "66\u20139 (88%)",
+      "su": {
+        "v": "66\u20139 (88%)",
+        "sort": 0.88
+      },
       "ats": {
         "v": "45\u201328\u20131 (62%)",
+        "sort": 0.6164,
         "tone": "good"
       },
       "ou": {
         "v": "45\u201329 (61%)",
+        "sort": 0.6081,
         "tone": "good"
       },
       "spreadPlays": {
         "v": "24\u201312\u20131 (67%)",
+        "sort": 0.6667,
         "tone": "good"
       },
       "totalPlays": {
         "v": "27\u201317 (61%)",
+        "sort": 0.6136,
         "tone": "good"
       },
       "mae": 10.2

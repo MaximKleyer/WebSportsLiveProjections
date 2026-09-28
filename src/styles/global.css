@@ -728,8 +728,8 @@ button {
   color: var(--accent-dev);
 }
 
-/* Week dropdown for weekly views (games) */
-.week-select {
+/* Slate dropdown for slate views (a week, a day) */
+.slate-select {
   display: block;
   font-family: var(--font-mono);
   font-size: 0.72rem;
@@ -745,8 +745,127 @@ button {
   cursor: pointer;
 }
 
-.week-select:hover {
+.slate-select:hover {
   border-color: var(--text-dim);
+}
+
+/* The previous slate stays up, dimmed, while the next one loads */
+.sport-section__data {
+  transition: opacity 0.15s ease;
+}
+
+.sport-section__data.is-loading {
+  opacity: 0.5;
+}
+
+/* Table toolbar: search box + filter toggles (declared by the data) */
+.table-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  margin: 0 0 var(--space-3);
+}
+
+.table-tools__search {
+  width: min(100%, 16rem);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: 1px;
+  padding: var(--space-2) var(--space-3);
+}
+
+.table-tools__search::placeholder {
+  color: var(--text-mute);
+}
+
+.table-tools__search:hover {
+  border-color: var(--text-dim);
+}
+
+.table-tools__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--border-strong);
+  border-radius: 1px;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+.table-tools__toggle:hover {
+  color: var(--text);
+}
+
+.table-tools__toggle.is-on {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.table-tools__toggle input {
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.table-tools__count {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--text-mute);
+}
+
+/* Sortable column headers */
+.proj-table__sort {
+  position: relative;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  transition: color 0.18s ease;
+}
+
+.proj-table__sort:hover,
+.proj-table__th[aria-sort] .proj-table__sort {
+  color: var(--text);
+}
+
+/* The arrow hangs in the header's padding, so sortable columns are no wider
+   (right-aligned labels get it on the left, keeping them flush with their numbers) */
+.proj-table__sort-icon {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 3px);
+  transform: translateY(-50%);
+  font-size: 0.9em;
+  color: var(--text-mute);
+}
+
+.proj-table__cell--right .proj-table__sort-icon {
+  left: auto;
+  right: calc(100% + 3px);
+}
+
+.proj-table__th[aria-sort] .proj-table__sort-icon {
+  color: var(--accent);
+}
+
+.proj-table__empty td {
+  padding: var(--space-6) var(--space-3);
+  text-align: center;
+  color: var(--text-mute);
 }
 
 .proj-table__wrap {

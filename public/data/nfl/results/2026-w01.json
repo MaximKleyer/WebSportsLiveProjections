@@ -1,6 +1,12 @@
 {
   "subtitle": "2026 \u00b7 Week 1 \u2014 16 games \u00b7 SU 11\u20135 \u00b7 ATS 11\u20134 \u00b7 O/U 7\u20138 \u00b7 \u2605 plays 9\u20132",
   "updated": "2026-09-22",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
   "columns": [
     {
       "key": "awayTeam",
@@ -35,17 +41,20 @@
     {
       "key": "su",
       "label": "SU Pick",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ats",
       "label": "ATS",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     },
     {
       "key": "ou",
       "label": "O/U",
-      "align": "right"
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
@@ -58,16 +67,20 @@
       "proj": "23.6 \u2013 22.3",
       "su": {
         "v": "NE \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 NE +3.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 44.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "SF",
@@ -78,10 +91,12 @@
       "proj": "23.5 \u2013 27.7",
       "su": {
         "v": "LAR \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": null,
-      "ou": null
+      "ou": null,
+      "flagged": false
     },
     {
       "awayTeam": "CHI",
@@ -92,16 +107,20 @@
       "proj": "22.5 \u2013 19.4",
       "su": {
         "v": "CHI \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "CHI -2.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 44.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "TB",
@@ -112,16 +131,20 @@
       "proj": "26.3 \u2013 29.3",
       "su": {
         "v": "CIN \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "TB +3.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "\u2605 OVER 50.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "NO",
@@ -132,16 +155,20 @@
       "proj": "21.4 \u2013 27.2",
       "su": {
         "v": "DET \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "NO +7 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 48.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "BUF",
@@ -152,16 +179,20 @@
       "proj": "25.4 \u2013 20.6",
       "su": {
         "v": "BUF \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 BUF -1.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 45.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "BAL",
@@ -172,16 +203,20 @@
       "proj": "27.2 \u2013 23.4",
       "su": {
         "v": "BAL \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "BAL -3.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 49.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "CLE",
@@ -192,16 +227,20 @@
       "proj": "15.8 \u2013 23.0",
       "su": {
         "v": "JAX \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "JAX -7 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 40.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
     },
     {
       "awayTeam": "ATL",
@@ -212,16 +251,20 @@
       "proj": "22.1 \u2013 22.1",
       "su": {
         "v": "PIT \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 ATL +3 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 42.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "NYJ",
@@ -232,16 +275,20 @@
       "proj": "17.5 \u2013 24.6",
       "su": {
         "v": "TEN \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 TEN -3 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "OVER 39.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "ARI",
@@ -252,16 +299,20 @@
       "proj": "21.3 \u2013 25.0",
       "su": {
         "v": "LAC \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "\u2605 ARI +11.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 45.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "MIA",
@@ -272,16 +323,20 @@
       "proj": "18.0 \u2013 24.5",
       "su": {
         "v": "LV \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 LV -3 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 41.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "GB",
@@ -292,16 +347,20 @@
       "proj": "21.4 \u2013 26.2",
       "su": {
         "v": "MIN \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 MIN +1.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "\u2605 OVER 44.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "WAS",
@@ -312,16 +371,20 @@
       "proj": "21.2 \u2013 23.8",
       "su": {
         "v": "PHI \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 WAS +5.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "UNDER 46.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "DAL",
@@ -332,16 +395,20 @@
       "proj": "24.8 \u2013 22.2",
       "su": {
         "v": "DAL \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ats": {
         "v": "DAL -2.5 \u2717",
-        "tone": "bad"
+        "tone": "bad",
+        "sort": 0
       },
       "ou": {
         "v": "UNDER 48.5 \u2713",
-        "tone": "good"
-      }
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     },
     {
       "awayTeam": "DEN",
@@ -352,16 +419,20 @@
       "proj": "19.9 \u2013 24.9",
       "su": {
         "v": "KC \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ats": {
         "v": "\u2605 KC -2.5 \u2713",
-        "tone": "good"
+        "tone": "good",
+        "sort": 1
       },
       "ou": {
         "v": "OVER 42.5 \u2717",
-        "tone": "bad"
-      }
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     }
   ]
 }

@@ -1,22 +1,26 @@
 import { useEffect, useState } from 'react';
-import { loadWeeklyIndex, loadWeeklyWeek } from '../data/loadProjections.js';
+import { loadSlate, loadSlateIndex } from '../data/loadProjections.js';
 
-// Weekly model output: load the week manifest, track the selected week
-// (defaulting to the latest published), and load that week's table.
-// Pass null ids to stay idle (e.g. for a view that isn't live/weekly).
+// A slate view's data: load its manifest (index.json), track the selected
+// slate — a football week, an MLB day — defaulting to the manifest's
+// `latest`, and load that slate's table. Pass null ids to stay idle (e.g.
+// for a view that isn't live).
+//
+// While the next slate loads, the previous table stays in `data` (status
+// 'loading') so the page doesn't jump and the table keeps its sort/search.
 //
 // Returns:
 //   indexStatus: 'idle' | 'loading' | 'ready' | 'empty' | 'error'
 //   manifest, indexError
-//   selected (week file), setSelected
-//   weekStatus: 'idle' | 'loading' | 'ready' | 'empty' | 'error'
-//   data, weekError
-export default function useWeeklyProjections(sportId, viewType) {
+//   selected (slate file), setSelected
+//   status: 'idle' | 'loading' | 'ready' | 'empty' | 'error'
+//   data, error
+export default function useSlates(sportId, viewType) {
   const [index, setIndex] = useState({ status: 'idle', manifest: null, error: null });
   const [selected, setSelected] = useState(null);
-  const [week, setWeek] = useState({ status: 'idle', data: null, error: null });
+  const [slate, setSlate] = useState({ status: 'idle', data: null, error: null });
 
-  // Load the manifest, then default the selection to the latest week.
+  // Load the manifest, then default the selection to its latest slate.
   useEffect(() => {
     if (!sportId || !viewType) {
       setIndex({ status: 'idle', manifest: null, error: null });
@@ -28,16 +32,16 @@ export default function useWeeklyProjections(sportId, viewType) {
     setIndex({ status: 'loading', manifest: null, error: null });
     setSelected(null);
 
-    loadWeeklyIndex(sportId, viewType)
+    loadSlateIndex(sportId, viewType)
       .then((manifest) => {
         if (cancelled) return;
-        const weeks = Array.isArray(manifest?.weeks) ? manifest.weeks : [];
-        if (weeks.length === 0) {
+        const slates = Array.isArray(manifest?.slates) ? manifest.slates : [];
+        if (slates.length === 0) {
           setIndex({ status: 'empty', manifest, error: null });
           return;
         }
         setIndex({ status: 'ready', manifest, error: null });
-        setSelected(manifest.latest ?? weeks[weeks.length - 1].file);
+        setSelected(manifest.latest ?? slates[slates.length - 1].file);
       })
       .catch((error) => {
         if (!cancelled) setIndex({ status: 'error', manifest: null, error });
@@ -48,24 +52,24 @@ export default function useWeeklyProjections(sportId, viewType) {
     };
   }, [sportId, viewType]);
 
-  // Load the selected week's table.
+  // Load the selected slate's table.
   useEffect(() => {
     if (!sportId || !viewType || !selected) {
-      setWeek({ status: 'idle', data: null, error: null });
+      setSlate({ status: 'idle', data: null, error: null });
       return;
     }
 
     let cancelled = false;
-    setWeek({ status: 'loading', data: null, error: null });
+    setSlate((prev) => ({ status: 'loading', data: prev.data, error: null }));
 
-    loadWeeklyWeek(sportId, viewType, selected)
+    loadSlate(sportId, viewType, selected)
       .then((data) => {
         if (cancelled) return;
         const isEmpty = !data || !Array.isArray(data.rows) || data.rows.length === 0;
-        setWeek({ status: isEmpty ? 'empty' : 'ready', data, error: null });
+        setSlate({ status: isEmpty ? 'empty' : 'ready', data, error: null });
       })
       .catch((error) => {
-        if (!cancelled) setWeek({ status: 'error', data: null, error });
+        if (!cancelled) setSlate({ status: 'error', data: null, error });
       });
 
     return () => {
@@ -79,8 +83,8 @@ export default function useWeeklyProjections(sportId, viewType) {
     indexError: index.error,
     selected,
     setSelected,
-    weekStatus: week.status,
-    data: week.data,
-    weekError: week.error,
+    status: slate.status,
+    data: slate.data,
+    error: slate.error,
   };
 }

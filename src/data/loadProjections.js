@@ -5,14 +5,12 @@
 //
 // Two layouts:
 //   single-file views:  data/<sportId>/<viewType>.json
-//   weekly views:       data/<sportId>/<viewType>/index.json   (week manifest)
-//                       data/<sportId>/<viewType>/<season>-wNN.json (one per week)
+//   slate views:        data/<sportId>/<viewType>/index.json   (the manifest)
+//                       data/<sportId>/<viewType>/<slate id>.json (one table per
+//                       slate — a football week '2026-w03', an MLB day)
 //
-// Table shape (both layouts):
-//   { subtitle?, updated?, summary?, groupBy?, columns: [{ key, label, align?, format? }], rows: [ {…} ] }
-//   (a cell is a plain value or { v, tone }; summary feeds StatTiles)
-// Manifest shape:
-//   { season, label?, latest: "<file>", summary?, weeks: [{ week?, label, file }] }
+// The full contract (table, cell, manifest, summary shapes) is documented and
+// validated in scripts/site_export.py; every exporter writes through it.
 
 async function loadJson(relPath) {
   // BASE_URL keeps paths correct under the GitHub Pages subpath.
@@ -27,10 +25,10 @@ export function loadProjections(sportId, viewType) {
   return loadJson(`data/${sportId}/${viewType}.json`);
 }
 
-export function loadWeeklyIndex(sportId, viewType) {
+export function loadSlateIndex(sportId, viewType) {
   return loadJson(`data/${sportId}/${viewType}/index.json`);
 }
 
-export function loadWeeklyWeek(sportId, viewType, file) {
+export function loadSlate(sportId, viewType, file) {
   return loadJson(`data/${sportId}/${viewType}/${file}`);
 }

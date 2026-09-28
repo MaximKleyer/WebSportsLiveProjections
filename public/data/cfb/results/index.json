@@ -1,6 +1,7 @@
 {
   "season": 2026,
   "label": "2026 Season",
+  "unit": "week",
   "latest": "2026-w03.json",
   "summary": {
     "title": "2026 season to date \u00b7 260 games graded through Week 3",
@@ -43,23 +44,24 @@
     ],
     "note": "Graded against the line the model projected against, at -110 (break-even 52.4%). Win % excludes pushes. \u2605 = flagged play; units assume 1u per flagged play."
   },
-  "weeks": [
+  "slates": [
     {
+      "id": "2026-all",
       "label": "All weeks",
       "file": "2026-all.json"
     },
     {
-      "week": 1,
+      "id": "2026-w01",
       "label": "Week 1",
       "file": "2026-w01.json"
     },
     {
-      "week": 2,
+      "id": "2026-w02",
       "label": "Week 2",
       "file": "2026-w02.json"
     },
     {
-      "week": 3,
+      "id": "2026-w03",
       "label": "Week 3",
       "file": "2026-w03.json"
     }

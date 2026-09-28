@@ -1,20 +1,21 @@
 {
   "season": 2026,
   "label": "2026 Season",
+  "unit": "week",
   "latest": "2026-w03.json",
-  "weeks": [
+  "slates": [
     {
-      "week": 1,
+      "id": "2026-w01",
       "label": "Week 1",
       "file": "2026-w01.json"
     },
     {
-      "week": 2,
+      "id": "2026-w02",
       "label": "Week 2",
       "file": "2026-w02.json"
     },
     {
-      "week": 3,
+      "id": "2026-w03",
       "label": "Week 3",
       "file": "2026-w03.json"
     }
