@@ -1,7 +1,10 @@
 import SportCard from '../components/SportCard.jsx';
 import { BRAND, SPORTS } from '../config.js';
+import useDocumentTitle from '../hooks/useDocumentTitle.js';
 
 export default function Landing() {
+  useDocumentTitle('Sports Models — Weekly Projections');
+
   return (
     <div className="landing">
       <section className="hero">

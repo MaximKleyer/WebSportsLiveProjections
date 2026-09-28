@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
+import useDocumentTitle from '../hooks/useDocumentTitle.js';
 
 export default function NotFound() {
+  useDocumentTitle('Not Found · Sports Models');
+
   return (
     <div className="not-found">
       <span className="not-found__code">404</span>

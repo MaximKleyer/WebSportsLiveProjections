@@ -1,0 +1,252 @@
+{
+  "subtitle": "2026 \u00b7 Week 3 \u2014 model projections",
+  "updated": "2026-09-27",
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent"
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "format": "number"
+    },
+    {
+      "key": "su",
+      "label": "SU Pick",
+      "align": "right"
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right"
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right"
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "ATL",
+      "awayScore": "20.7",
+      "sep": "\u2013",
+      "homeScore": "26.0",
+      "homeTeam": "GB",
+      "homeWin": 0.644,
+      "total": 46.7,
+      "su": "GB",
+      "ats": "ATL",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "LAC",
+      "awayScore": "19.5",
+      "sep": "\u2013",
+      "homeScore": "28.8",
+      "homeTeam": "BUF",
+      "homeWin": 0.742,
+      "total": 48.3,
+      "su": "BUF",
+      "ats": "BUF",
+      "ou": "UNDER"
+    },
+    {
+      "awayTeam": "CAR",
+      "awayScore": "19.3",
+      "sep": "\u2013",
+      "homeScore": "19.8",
+      "homeTeam": "CLE",
+      "homeWin": 0.513,
+      "total": 39.1,
+      "su": "CLE",
+      "ats": "CLE",
+      "ou": "UNDER"
+    },
+    {
+      "awayTeam": "NYJ",
+      "awayScore": "21.3",
+      "sep": "\u2013",
+      "homeScore": "33.2",
+      "homeTeam": "DET",
+      "homeWin": 0.795,
+      "total": 54.5,
+      "su": "DET",
+      "ats": "DET",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "HOU",
+      "awayScore": "24.8",
+      "sep": "\u2013",
+      "homeScore": "21.2",
+      "homeTeam": "IND",
+      "homeWin": 0.401,
+      "total": 45.9,
+      "su": "HOU",
+      "ats": "HOU",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "NE",
+      "awayScore": "20.7",
+      "sep": "\u2013",
+      "homeScore": "21.2",
+      "homeTeam": "JAX",
+      "homeWin": 0.512,
+      "total": 41.9,
+      "su": "JAX",
+      "ats": "NE",
+      "ou": "UNDER"
+    },
+    {
+      "awayTeam": "KC",
+      "awayScore": "28.6",
+      "sep": "\u2013",
+      "homeScore": "21.6",
+      "homeTeam": "MIA",
+      "homeWin": 0.312,
+      "total": 50.2,
+      "su": "KC",
+      "ats": "MIA",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "TEN",
+      "awayScore": "13.1",
+      "sep": "\u2013",
+      "homeScore": "19.2",
+      "homeTeam": "NYG",
+      "homeWin": 0.666,
+      "total": 32.4,
+      "su": "NYG",
+      "ats": "NYG",
+      "ou": "UNDER"
+    },
+    {
+      "awayTeam": "CIN",
+      "awayScore": "25.9",
+      "sep": "\u2013",
+      "homeScore": "19.1",
+      "homeTeam": "PIT",
+      "homeWin": 0.316,
+      "total": 45.0,
+      "su": "CIN",
+      "ats": "CIN",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "SEA",
+      "awayScore": "24.1",
+      "sep": "\u2013",
+      "homeScore": "18.0",
+      "homeTeam": "WAS",
+      "homeWin": 0.334,
+      "total": 42.1,
+      "su": "SEA",
+      "ats": "WAS",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "ARI",
+      "awayScore": "17.9",
+      "sep": "\u2013",
+      "homeScore": "27.7",
+      "homeTeam": "SF",
+      "homeWin": 0.753,
+      "total": 45.6,
+      "su": "SF",
+      "ats": "SF",
+      "ou": "UNDER"
+    },
+    {
+      "awayTeam": "MIN",
+      "awayScore": "22.4",
+      "sep": "\u2013",
+      "homeScore": "22.6",
+      "homeTeam": "TB",
+      "homeWin": 0.505,
+      "total": 45.1,
+      "su": "TB",
+      "ats": "TB",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "BAL",
+      "awayScore": "32.4",
+      "sep": "\u2013",
+      "homeScore": "23.7",
+      "homeTeam": "DAL",
+      "homeWin": 0.274,
+      "total": 56.1,
+      "su": "BAL",
+      "ats": "BAL",
+      "ou": "OVER"
+    },
+    {
+      "awayTeam": "LV",
+      "awayScore": "18.2",
+      "sep": "\u2013",
+      "homeScore": "24.8",
+      "homeTeam": "NO",
+      "homeWin": 0.678,
+      "total": 43.0,
+      "su": "NO",
+      "ats": "NO",
+      "ou": "UNDER"
+    },
+    {
+      "awayTeam": "LAR",
+      "awayScore": "21.2",
+      "sep": "\u2013",
+      "homeScore": "20.5",
+      "homeTeam": "DEN",
+      "homeWin": 0.48,
+      "total": 41.6,
+      "su": "LAR",
+      "ats": "DEN",
+      "ou": "UNDER"
+    },
+    {
+      "awayTeam": "PHI",
+      "awayScore": "22.7",
+      "sep": "\u2013",
+      "homeScore": "26.2",
+      "homeTeam": "CHI",
+      "homeWin": 0.597,
+      "total": 49.0,
+      "su": "CHI",
+      "ats": "CHI",
+      "ou": "OVER"
+    }
+  ]
+}

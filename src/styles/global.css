@@ -13,7 +13,7 @@
   --border-strong: #2e3340;
   --text: #f1ede4;
   --text-dim: #9aa0ac;
-  --text-mute: #5e6470;
+  --text-mute: #868d99;
   --accent-live: #6ee7a0;
   --accent-dev: #f5c46b;
   --accent-planned: #8a8e98;
@@ -77,6 +77,14 @@ button {
   padding: 0;
 }
 
+/* High-contrast keyboard focus ring (the dark UA default is nearly
+   invisible on --bg). Mouse clicks don't trigger :focus-visible. */
+:focus-visible {
+  outline: 2px solid var(--accent-live);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
 /* ============================================================
    App shell
    ============================================================ */
@@ -122,9 +130,13 @@ button {
   margin: 0 auto;
   padding: var(--space-4) var(--space-6);
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  /* Mobile: brand + github on row 1, nav spans its own row below. */
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    'brand github'
+    'nav nav';
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-3) var(--space-4);
 }
 
 @media (min-width: 768px) {
@@ -133,7 +145,16 @@ button {
   }
 }
 
+@media (min-width: 900px) {
+  .site-header__inner {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 'brand nav github';
+    gap: var(--space-8);
+  }
+}
+
 .brand {
+  grid-area: brand;
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
@@ -156,15 +177,25 @@ button {
 }
 
 .site-nav {
-  display: none;
-  justify-content: center;
+  grid-area: nav;
+  display: flex;
   gap: var(--space-1);
-  flex-wrap: wrap;
+  /* Mobile: horizontally scrollable so every sport stays reachable
+     (no hidden nav / dead-end on phones). */
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.site-nav::-webkit-scrollbar {
+  display: none;
 }
 
 @media (min-width: 900px) {
   .site-nav {
-    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: visible;
   }
 }
 
@@ -178,6 +209,8 @@ button {
   letter-spacing: 0.12em;
   color: var(--text-dim);
   text-transform: uppercase;
+  white-space: nowrap;
+  flex: 0 0 auto;
   transition: color 0.18s ease;
 }
 
@@ -208,6 +241,7 @@ button {
 }
 
 .github-link {
+  grid-area: github;
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
@@ -364,6 +398,16 @@ button {
   background: var(--surface-2);
   border-color: var(--border-strong);
   transform: translateY(-2px);
+}
+
+/* Give keyboard users the same affordance as the hover state. */
+.sport-card:focus-visible {
+  border-color: var(--border-strong);
+  outline-offset: 2px;
+}
+
+.sport-card:focus-visible .sport-card__accent-bar {
+  transform: scaleX(1);
 }
 
 .sport-card__top {
@@ -543,16 +587,58 @@ button {
   margin: 0;
 }
 
-.sport-page__sections {
-  display: grid;
-  gap: var(--space-4);
-  grid-template-columns: 1fr;
+/* Tabs switching between a sport's views (weekly / season / …) */
+.view-tabs {
+  display: flex;
+  gap: var(--space-1);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-6);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-@media (min-width: 768px) {
-  .sport-page__sections {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.view-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.view-tabs__tab {
+  position: relative;
+  padding: var(--space-3) var(--space-4);
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+  flex: 0 0 auto;
+  transition: color 0.18s ease;
+}
+
+.view-tabs__tab::after {
+  content: '';
+  position: absolute;
+  left: var(--space-4);
+  right: var(--space-4);
+  bottom: -1px;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.22s ease;
+}
+
+.view-tabs__tab:hover {
+  color: var(--text);
+}
+
+.view-tabs__tab.is-active {
+  color: var(--text);
+}
+
+.view-tabs__tab.is-active::after {
+  transform: scaleX(1);
 }
 
 .sport-section {
@@ -561,15 +647,6 @@ button {
   background: var(--surface);
   border: 1px solid var(--border);
   border-top: 2px solid var(--accent);
-}
-
-.sport-section__num {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.16em;
-  color: var(--text-mute);
-  display: block;
-  margin-bottom: var(--space-3);
 }
 
 .sport-section__title {
@@ -598,6 +675,118 @@ button {
   color: var(--text-mute);
   padding: var(--space-1) var(--space-2);
   border: 1px solid var(--border);
+}
+
+/* ============================================================
+   Sport page — live model output (table + async states)
+   ============================================================ */
+
+/* Group header rows inside a grouped table (season by division/conference) */
+.proj-table__group td {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: var(--space-6) var(--space-3) var(--space-2);
+  border-bottom: 1px solid var(--border-strong);
+  white-space: nowrap;
+}
+
+.proj-table tbody:first-of-type .proj-table__group td {
+  padding-top: var(--space-2);
+}
+
+.sport-section__meta {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin: 0 0 var(--space-4);
+}
+
+.sport-section__updated {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--text-mute);
+  margin: var(--space-3) 0 0;
+}
+
+.sport-section__state {
+  font-size: 0.92rem;
+  font-weight: 300;
+  color: var(--text-dim);
+  margin: var(--space-2) 0 0;
+}
+
+.sport-section__state--error {
+  color: var(--accent-dev);
+}
+
+/* Week dropdown for weekly views (games) */
+.week-select {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: 1px;
+  padding: var(--space-2) var(--space-3);
+  margin: 0 0 var(--space-4);
+  cursor: pointer;
+}
+
+.week-select:hover {
+  border-color: var(--text-dim);
+}
+
+.proj-table__wrap {
+  overflow-x: auto;
+  margin-top: var(--space-2);
+}
+
+.proj-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.proj-table__th {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border-strong);
+  white-space: nowrap;
+}
+
+.proj-table__td {
+  padding: var(--space-3);
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.proj-table__row:hover .proj-table__td {
+  background: var(--surface-2);
+}
+
+.proj-table__cell--right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.proj-table__cell--center {
+  text-align: center;
 }
 
 /* ============================================================

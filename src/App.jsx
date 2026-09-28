@@ -17,7 +17,7 @@ export default function App() {
             <Route
               key={sport.id}
               path={`/${sport.id}`}
-              element={<SportPage sport={sport} />}
+              element={<SportPage key={sport.id} sport={sport} />}
             />
           ))}
           <Route path="*" element={<NotFound />} />

@@ -1,8 +1,10 @@
 import { Link, NavLink } from 'react-router-dom';
-import { BRAND, SPORTS, GITHUB_USERNAME } from '../config.js';
+import { BRAND, SPORTS, GITHUB_USERNAME, REPO_NAME } from '../config.js';
 
 export default function Header() {
-  const githubUrl = `https://${GITHUB_USERNAME}.github.io/`;
+  // Link to the source repo (never 404s). Swap to the live-site or a
+  // portfolio URL here if you'd rather the header point elsewhere.
+  const repoUrl = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}`;
 
   return (
     <header className="site-header">
@@ -32,12 +34,12 @@ export default function Header() {
         </nav>
 
         <a
-          href={githubUrl}
+          href={repoUrl}
           className="github-link"
           target="_blank"
           rel="noopener noreferrer"
         >
-          GITHUB.IO
+          GITHUB
           <span aria-hidden="true" className="github-link__arrow">↗</span>
         </a>
       </div>

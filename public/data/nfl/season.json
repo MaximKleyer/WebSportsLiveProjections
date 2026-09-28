@@ -1,0 +1,254 @@
+{
+  "subtitle": "2026 projected final standings \u2014 preseason simulation",
+  "updated": "2026-06-02",
+  "groupBy": "division",
+  "columns": [
+    {
+      "key": "team",
+      "label": "Team"
+    },
+    {
+      "key": "record",
+      "label": "Proj. Record",
+      "align": "right"
+    },
+    {
+      "key": "playoff",
+      "label": "Playoff %",
+      "align": "right",
+      "format": "percent"
+    },
+    {
+      "key": "div",
+      "label": "Div Title %",
+      "align": "right",
+      "format": "percent"
+    }
+  ],
+  "rows": [
+    {
+      "team": "BUF",
+      "division": "AFC East",
+      "record": "11.6\u20135.4",
+      "playoff": 0.927,
+      "div": 0.785
+    },
+    {
+      "team": "NE",
+      "division": "AFC East",
+      "record": "9.2\u20137.8",
+      "playoff": 0.571,
+      "div": 0.198
+    },
+    {
+      "team": "MIA",
+      "division": "AFC East",
+      "record": "5.6\u201311.4",
+      "playoff": 0.051,
+      "div": 0.01
+    },
+    {
+      "team": "NYJ",
+      "division": "AFC East",
+      "record": "5.2\u201311.8",
+      "playoff": 0.033,
+      "div": 0.008
+    },
+    {
+      "team": "CIN",
+      "division": "AFC North",
+      "record": "10.7\u20136.3",
+      "playoff": 0.826,
+      "div": 0.574
+    },
+    {
+      "team": "BAL",
+      "division": "AFC North",
+      "record": "9.8\u20137.2",
+      "playoff": 0.686,
+      "div": 0.351
+    },
+    {
+      "team": "CLE",
+      "division": "AFC North",
+      "record": "6.8\u201310.2",
+      "playoff": 0.143,
+      "div": 0.035
+    },
+    {
+      "team": "PIT",
+      "division": "AFC North",
+      "record": "6.8\u201310.2",
+      "playoff": 0.15,
+      "div": 0.039
+    },
+    {
+      "team": "TEN",
+      "division": "AFC South",
+      "record": "9.2\u20137.8",
+      "playoff": 0.588,
+      "div": 0.419
+    },
+    {
+      "team": "JAX",
+      "division": "AFC South",
+      "record": "8.4\u20138.6",
+      "playoff": 0.416,
+      "div": 0.249
+    },
+    {
+      "team": "HOU",
+      "division": "AFC South",
+      "record": "8.1\u20138.9",
+      "playoff": 0.374,
+      "div": 0.224
+    },
+    {
+      "team": "IND",
+      "division": "AFC South",
+      "record": "7.2\u20139.8",
+      "playoff": 0.212,
+      "div": 0.109
+    },
+    {
+      "team": "KC",
+      "division": "AFC West",
+      "record": "10.2\u20136.8",
+      "playoff": 0.749,
+      "div": 0.485
+    },
+    {
+      "team": "DEN",
+      "division": "AFC West",
+      "record": "9.0\u20138.0",
+      "playoff": 0.529,
+      "div": 0.235
+    },
+    {
+      "team": "LAC",
+      "division": "AFC West",
+      "record": "8.6\u20138.4",
+      "playoff": 0.454,
+      "div": 0.183
+    },
+    {
+      "team": "LV",
+      "division": "AFC West",
+      "record": "7.8\u20139.2",
+      "playoff": 0.291,
+      "div": 0.098
+    },
+    {
+      "team": "PHI",
+      "division": "NFC East",
+      "record": "9.6\u20137.4",
+      "playoff": 0.618,
+      "div": 0.419
+    },
+    {
+      "team": "DAL",
+      "division": "NFC East",
+      "record": "9.3\u20137.7",
+      "playoff": 0.557,
+      "div": 0.354
+    },
+    {
+      "team": "WAS",
+      "division": "NFC East",
+      "record": "7.6\u20139.4",
+      "playoff": 0.256,
+      "div": 0.117
+    },
+    {
+      "team": "NYG",
+      "division": "NFC East",
+      "record": "7.5\u20139.5",
+      "playoff": 0.24,
+      "div": 0.11
+    },
+    {
+      "team": "DET",
+      "division": "NFC North",
+      "record": "11.1\u20135.9",
+      "playoff": 0.854,
+      "div": 0.55
+    },
+    {
+      "team": "MIN",
+      "division": "NFC North",
+      "record": "10.2\u20136.8",
+      "playoff": 0.709,
+      "div": 0.312
+    },
+    {
+      "team": "GB",
+      "division": "NFC North",
+      "record": "8.5\u20138.5",
+      "playoff": 0.375,
+      "div": 0.094
+    },
+    {
+      "team": "CHI",
+      "division": "NFC North",
+      "record": "7.5\u20139.5",
+      "playoff": 0.204,
+      "div": 0.043
+    },
+    {
+      "team": "TB",
+      "division": "NFC South",
+      "record": "9.5\u20137.5",
+      "playoff": 0.623,
+      "div": 0.44
+    },
+    {
+      "team": "NO",
+      "division": "NFC South",
+      "record": "9.3\u20137.7",
+      "playoff": 0.576,
+      "div": 0.389
+    },
+    {
+      "team": "ATL",
+      "division": "NFC South",
+      "record": "7.6\u20139.4",
+      "playoff": 0.247,
+      "div": 0.124
+    },
+    {
+      "team": "CAR",
+      "division": "NFC South",
+      "record": "6.4\u201310.6",
+      "playoff": 0.1,
+      "div": 0.046
+    },
+    {
+      "team": "SEA",
+      "division": "NFC West",
+      "record": "9.7\u20137.3",
+      "playoff": 0.651,
+      "div": 0.463
+    },
+    {
+      "team": "SF",
+      "division": "NFC West",
+      "record": "8.7\u20138.3",
+      "playoff": 0.448,
+      "div": 0.254
+    },
+    {
+      "team": "LAR",
+      "division": "NFC West",
+      "record": "8.6\u20138.4",
+      "playoff": 0.424,
+      "div": 0.232
+    },
+    {
+      "team": "ARI",
+      "division": "NFC West",
+      "record": "6.6\u201310.4",
+      "playoff": 0.118,
+      "div": 0.051
+    }
+  ]
+}

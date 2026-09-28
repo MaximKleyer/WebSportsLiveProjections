@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="site-footer__inner">
         <span className="site-footer__byline">{BRAND.byline}</span>
-        <span className="site-footer__meta">© {year} · v0.1</span>
+        <span className="site-footer__meta">© {year} · v{__APP_VERSION__}</span>
       </div>
     </footer>
   );

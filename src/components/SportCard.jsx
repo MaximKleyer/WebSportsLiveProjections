@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { STATUS_META } from '../config.js';
 
 export default function SportCard({ sport, index }) {
-  const status = STATUS_META[sport.status];
+  const status = STATUS_META[sport.status] ?? { label: (sport.status ?? 'unknown').toUpperCase() };
   const isReady = sport.status === 'live';
 
   return (

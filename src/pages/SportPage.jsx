@@ -1,8 +1,19 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { STATUS_META } from '../config.js';
+import { STATUS_META, VIEW_TYPES } from '../config.js';
+import useDocumentTitle from '../hooks/useDocumentTitle.js';
+import ProjectionSection from '../components/ProjectionSection.jsx';
 
 export default function SportPage({ sport }) {
-  const status = STATUS_META[sport.status];
+  const status = STATUS_META[sport.status] ?? { label: (sport.status ?? 'unknown').toUpperCase() };
+  useDocumentTitle(`${sport.name} · Sports Models`);
+
+  // One tab per view; open on the first live one.
+  const viewsList = sport.views ?? [];
+  const defaultType =
+    (viewsList.find((v) => v.status === 'live') ?? viewsList[0])?.type ?? null;
+  const [activeType, setActiveType] = useState(defaultType);
+  const activeView = viewsList.find((v) => v.type === activeType) ?? viewsList[0] ?? null;
 
   return (
     <div className="sport-page" style={{ '--accent': sport.accent }}>
@@ -23,34 +34,38 @@ export default function SportPage({ sport }) {
         <p className="sport-page__subtitle">{sport.subtitle}</p>
       </header>
 
-      <section className="sport-page__sections">
-        <article className="sport-section">
-          <span className="sport-section__num">01</span>
-          <h2 className="sport-section__title">Weekly Game Projections</h2>
-          <p className="sport-section__body">
-            Score and win-probability projections for every scheduled game this week.
-          </p>
-          <span className="sport-section__tag">COMING SOON</span>
-        </article>
+      {viewsList.length > 0 && (
+        <>
+          <div className="view-tabs" role="tablist" aria-label="Projection views">
+            {viewsList.map((v) => {
+              const meta = VIEW_TYPES[v.type] ?? {};
+              const isActive = activeView?.type === v.type;
+              return (
+                <button
+                  key={v.type}
+                  type="button"
+                  role="tab"
+                  aria-selected={isActive}
+                  className={`view-tabs__tab${isActive ? ' is-active' : ''}`}
+                  onClick={() => setActiveType(v.type)}
+                >
+                  {meta.short ?? v.type}
+                </button>
+              );
+            })}
+          </div>
 
-        <article className="sport-section">
-          <span className="sport-section__num">02</span>
-          <h2 className="sport-section__title">Player Projections</h2>
-          <p className="sport-section__body">
-            Per-player stat lines with confidence intervals and matchup adjustments.
-          </p>
-          <span className="sport-section__tag">COMING SOON</span>
-        </article>
-
-        <article className="sport-section">
-          <span className="sport-section__num">03</span>
-          <h2 className="sport-section__title">Full-Season Projections</h2>
-          <p className="sport-section__body">
-            Team standings, playoff odds, and individual award tracking through the season.
-          </p>
-          <span className="sport-section__tag">COMING SOON</span>
-        </article>
-      </section>
+          {activeView && (
+            <div role="tabpanel">
+              <ProjectionSection
+                key={activeView.type}
+                sportId={sport.id}
+                view={activeView}
+              />
+            </div>
+          )}
+        </>
+      )}
     </div>
   );
 }
