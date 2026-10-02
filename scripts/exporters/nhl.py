@@ -181,7 +181,8 @@ def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
 
     note = f" · {skipped} started before the model ran" if skipped else ""
     return {
-        "subtitle": f"{_day_label(day)}, {_season_label(season)} — {len(rows)} games · times ET · "
+        "subtitle": f"{_day_label(day)}, {_season_label(season)} — {len(rows)} game{'s' * (len(rows) != 1)}"
+                    f" · times ET · "
                     f"score = expected goals · fair ML is the home side's{' · ★ = flagged bet' if any_bets else ''}"
                     f"{note}",
         "updated": file_date(path),
@@ -509,7 +510,8 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
                 **({"bet": bet_cells[0]} if bet_cells else {}),
                 "flagged": bool(g["bets"]),
             })
-        line = [f"{r['n']} games", f"straight up {_rec(r['su'])}", f"log loss {r['log_loss']:.3f}"]
+        line = [f"{r['n']} game{'s' * (r['n'] != 1)}", f"straight up {_rec(r['su'])}",
+                f"log loss {r['log_loss']:.3f}"]
         if r["mae"] is not None:
             line.append(f"totals MAE {r['mae']:.2f}")
         slates.append(Slate(day, _day_label(day), {

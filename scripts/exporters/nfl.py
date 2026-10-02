@@ -229,8 +229,9 @@ def main() -> int:
         log = log[log["season"] == season]
     record = None
     if len(log):
+        scheduled = {wk: len(pd.read_csv(p)) for wk, p in games[season].items()}  # games predicted
         record = publish_results(args.site_dir / "results", graded_games(log),
-                                 season=season, updated=file_date(log_path))
+                                 season=season, updated=file_date(log_path), scheduled=scheduled)
         sources.append(log_path)
     else:
         print(f"  [skip] no graded {season} games in results_log.csv")

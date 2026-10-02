@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 projected final records \u2014 all FBS teams",
-  "updated": "2026-09-10",
+  "updated": "2026-10-02",
   "groupBy": "conference",
   "search": "Search teams or conferences",
   "columns": [
@@ -31,757 +31,317 @@
     {
       "team": "Miami",
       "conference": "ACC",
-      "current": "1\u20130",
+      "current": "4\u20130",
       "record": {
-        "v": "9.8\u20132.2",
-        "sort": 9.8
+        "v": "10.2\u20131.8",
+        "sort": 10.2
       },
-      "bowl": 0.999
-    },
-    {
-      "team": "SMU",
-      "conference": "ACC",
-      "current": "1\u20130",
-      "record": {
-        "v": "9.2\u20132.8",
-        "sort": 9.2
-      },
-      "bowl": 0.994
+      "bowl": 1.0
     },
     {
       "team": "Pittsburgh",
       "conference": "ACC",
-      "current": "1\u20130",
+      "current": "4\u20130",
       "record": {
-        "v": "8.1\u20133.9",
-        "sort": 8.1
+        "v": "9.2\u20132.8",
+        "sort": 9.2
       },
-      "bowl": 0.945
+      "bowl": 0.997
     },
     {
-      "team": "Virginia",
+      "team": "SMU",
       "conference": "ACC",
-      "current": "1\u20130",
+      "current": "3\u20131",
       "record": {
-        "v": "7.9\u20134.1",
-        "sort": 7.9
+        "v": "8.3\u20133.7",
+        "sort": 8.3
       },
-      "bowl": 0.933
-    },
-    {
-      "team": "Louisville",
-      "conference": "ACC",
-      "current": "0\u20131",
-      "record": {
-        "v": "7.1\u20134.9",
-        "sort": 7.1
-      },
-      "bowl": 0.828
-    },
-    {
-      "team": "NC State",
-      "conference": "ACC",
-      "current": "0\u20131",
-      "record": {
-        "v": "7.0\u20135.0",
-        "sort": 7.0
-      },
-      "bowl": 0.818
+      "bowl": 0.98
     },
     {
       "team": "Virginia Tech",
       "conference": "ACC",
-      "current": "1\u20130",
+      "current": "4\u20130",
       "record": {
-        "v": "6.9\u20135.1",
-        "sort": 6.9
+        "v": "8.3\u20133.7",
+        "sort": 8.3
       },
-      "bowl": 0.796
-    },
-    {
-      "team": "Clemson",
-      "conference": "ACC",
-      "current": "0\u20131",
-      "record": {
-        "v": "6.5\u20135.5",
-        "sort": 6.5
-      },
-      "bowl": 0.726
+      "bowl": 0.98
     },
     {
       "team": "Duke",
       "conference": "ACC",
-      "current": "1\u20130",
+      "current": "4\u20130",
       "record": {
-        "v": "6.4\u20135.6",
-        "sort": 6.4
+        "v": "8.1\u20133.9",
+        "sort": 8.1
       },
-      "bowl": 0.702
+      "bowl": 0.969
+    },
+    {
+      "team": "Clemson",
+      "conference": "ACC",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.7\u20134.3",
+        "sort": 7.7
+      },
+      "bowl": 0.947
     },
     {
       "team": "Wake Forest",
       "conference": "ACC",
-      "current": "1\u20130",
+      "current": "3\u20131",
       "record": {
-        "v": "6.1\u20135.9",
-        "sort": 6.1
+        "v": "7.5\u20134.5",
+        "sort": 7.5
       },
-      "bowl": 0.643
+      "bowl": 0.935
+    },
+    {
+      "team": "Virginia",
+      "conference": "ACC",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.5\u20134.5",
+        "sort": 7.5
+      },
+      "bowl": 0.904
+    },
+    {
+      "team": "NC State",
+      "conference": "ACC",
+      "current": "2\u20132",
+      "record": {
+        "v": "7.2\u20134.8",
+        "sort": 7.2
+      },
+      "bowl": 0.884
+    },
+    {
+      "team": "Louisville",
+      "conference": "ACC",
+      "current": "2\u20132",
+      "record": {
+        "v": "6.7\u20135.3",
+        "sort": 6.7
+      },
+      "bowl": 0.787
     },
     {
       "team": "North Carolina",
       "conference": "ACC",
-      "current": "1\u20130",
+      "current": "2\u20131",
       "record": {
-        "v": "6.1\u20135.9",
-        "sort": 6.1
+        "v": "5.4\u20136.6",
+        "sort": 5.4
       },
-      "bowl": 0.633
+      "bowl": 0.458
     },
     {
       "team": "Florida State",
       "conference": "ACC",
-      "current": "1\u20131",
+      "current": "2\u20132",
       "record": {
-        "v": "5.8\u20136.2",
-        "sort": 5.8
+        "v": "5.2\u20136.8",
+        "sort": 5.2
       },
-      "bowl": 0.567
-    },
-    {
-      "team": "Georgia Tech",
-      "conference": "ACC",
-      "current": "0\u20131",
-      "record": {
-        "v": "5.3\u20136.7",
-        "sort": 5.3
-      },
-      "bowl": 0.433
-    },
-    {
-      "team": "Syracuse",
-      "conference": "ACC",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.1\u20136.9",
-        "sort": 5.1
-      },
-      "bowl": 0.397
+      "bowl": 0.415
     },
     {
       "team": "California",
       "conference": "ACC",
-      "current": "0\u20131",
+      "current": "2\u20132",
       "record": {
-        "v": "4.8\u20137.2",
-        "sort": 4.8
+        "v": "5.1\u20136.9",
+        "sort": 5.1
       },
-      "bowl": 0.315
+      "bowl": 0.384
     },
     {
       "team": "Stanford",
       "conference": "ACC",
-      "current": "1\u20131",
+      "current": "2\u20132",
+      "record": {
+        "v": "4.3\u20137.7",
+        "sort": 4.3
+      },
+      "bowl": 0.129
+    },
+    {
+      "team": "Syracuse",
+      "conference": "ACC",
+      "current": "1\u20132",
       "record": {
         "v": "4.1\u20137.9",
         "sort": 4.1
       },
-      "bowl": 0.137
+      "bowl": 0.175
+    },
+    {
+      "team": "Georgia Tech",
+      "conference": "ACC",
+      "current": "1\u20133",
+      "record": {
+        "v": "3.6\u20138.4",
+        "sort": 3.6
+      },
+      "bowl": 0.07
     },
     {
       "team": "Boston College",
       "conference": "ACC",
-      "current": "0\u20131",
+      "current": "2\u20132",
       "record": {
-        "v": "4.0\u20138.0",
-        "sort": 4.0
+        "v": "3.5\u20138.5",
+        "sort": 3.5
       },
-      "bowl": 0.149
+      "bowl": 0.044
     },
     {
       "team": "South Florida",
       "conference": "American Athletic",
-      "current": "1\u20130",
+      "current": "4\u20130",
       "record": {
-        "v": "8.1\u20133.9",
-        "sort": 8.1
+        "v": "9.3\u20132.7",
+        "sort": 9.3
       },
-      "bowl": 0.948
-    },
-    {
-      "team": "Army",
-      "conference": "American Athletic",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.1\u20133.9",
-        "sort": 8.1
-      },
-      "bowl": 0.921
-    },
-    {
-      "team": "Memphis",
-      "conference": "American Athletic",
-      "current": "2\u20130",
-      "record": {
-        "v": "8.0\u20134.0",
-        "sort": 8.0
-      },
-      "bowl": 0.952
+      "bowl": 0.997
     },
     {
       "team": "UTSA",
       "conference": "American Athletic",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.6\u20134.4",
-        "sort": 7.6
-      },
-      "bowl": 0.903
-    },
-    {
-      "team": "Tulsa",
-      "conference": "American Athletic",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.4\u20135.6",
-        "sort": 6.4
-      },
-      "bowl": 0.707
-    },
-    {
-      "team": "Tulane",
-      "conference": "American Athletic",
-      "current": "0\u20131",
-      "record": {
-        "v": "6.4\u20135.6",
-        "sort": 6.4
-      },
-      "bowl": 0.707
-    },
-    {
-      "team": "North Texas",
-      "conference": "American Athletic",
-      "current": "0\u20131",
-      "record": {
-        "v": "6.4\u20135.6",
-        "sort": 6.4
-      },
-      "bowl": 0.72
-    },
-    {
-      "team": "East Carolina",
-      "conference": "American Athletic",
-      "current": "0\u20131",
-      "record": {
-        "v": "6.3\u20135.7",
-        "sort": 6.3
-      },
-      "bowl": 0.691
-    },
-    {
-      "team": "Navy",
-      "conference": "American Athletic",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.2\u20135.8",
-        "sort": 6.2
-      },
-      "bowl": 0.649
-    },
-    {
-      "team": "Temple",
-      "conference": "American Athletic",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.4\u20136.6",
-        "sort": 5.4
-      },
-      "bowl": 0.471
-    },
-    {
-      "team": "UAB",
-      "conference": "American Athletic",
-      "current": "0\u20131",
-      "record": {
-        "v": "5.4\u20136.6",
-        "sort": 5.4
-      },
-      "bowl": 0.468
-    },
-    {
-      "team": "Florida Atlantic",
-      "conference": "American Athletic",
-      "current": "0\u20131",
-      "record": {
-        "v": "5.1\u20136.9",
-        "sort": 5.1
-      },
-      "bowl": 0.393
-    },
-    {
-      "team": "Rice",
-      "conference": "American Athletic",
-      "current": "1\u20130",
-      "record": {
-        "v": "4.4\u20137.6",
-        "sort": 4.4
-      },
-      "bowl": 0.247
-    },
-    {
-      "team": "Charlotte",
-      "conference": "American Athletic",
-      "current": "0\u20131",
-      "record": {
-        "v": "2.6\u20139.4",
-        "sort": 2.6
-      },
-      "bowl": 0.032
-    },
-    {
-      "team": "Texas Tech",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "9.7\u20132.3",
-        "sort": 9.7
-      },
-      "bowl": 0.995
-    },
-    {
-      "team": "Kansas State",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.9\u20133.1",
-        "sort": 8.9
-      },
-      "bowl": 0.981
-    },
-    {
-      "team": "Utah",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.9\u20133.1",
-        "sort": 8.9
-      },
-      "bowl": 0.982
-    },
-    {
-      "team": "BYU",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.6\u20133.4",
-        "sort": 8.6
-      },
-      "bowl": 0.973
-    },
-    {
-      "team": "Arizona",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.6\u20134.4",
-        "sort": 7.6
-      },
-      "bowl": 0.906
-    },
-    {
-      "team": "Houston",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.3\u20134.7",
-        "sort": 7.3
-      },
-      "bowl": 0.88
-    },
-    {
-      "team": "UCF",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.7\u20135.3",
-        "sort": 6.7
-      },
-      "bowl": 0.744
-    },
-    {
-      "team": "Arizona State",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.4\u20135.6",
-        "sort": 6.4
-      },
-      "bowl": 0.721
-    },
-    {
-      "team": "Kansas",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.3\u20135.7",
-        "sort": 6.3
-      },
-      "bowl": 0.674
-    },
-    {
-      "team": "Colorado",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.2\u20135.8",
-        "sort": 6.2
-      },
-      "bowl": 0.643
-    },
-    {
-      "team": "TCU",
-      "conference": "Big 12",
-      "current": "0\u20131",
-      "record": {
-        "v": "5.9\u20136.1",
-        "sort": 5.9
-      },
-      "bowl": 0.584
-    },
-    {
-      "team": "Cincinnati",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.8\u20136.2",
-        "sort": 5.8
-      },
-      "bowl": 0.563
-    },
-    {
-      "team": "Baylor",
-      "conference": "Big 12",
-      "current": "0\u20131",
-      "record": {
-        "v": "5.8\u20136.2",
-        "sort": 5.8
-      },
-      "bowl": 0.568
-    },
-    {
-      "team": "West Virginia",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.6\u20136.4",
-        "sort": 5.6
-      },
-      "bowl": 0.513
-    },
-    {
-      "team": "Iowa State",
-      "conference": "Big 12",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.5\u20136.5",
-        "sort": 5.5
-      },
-      "bowl": 0.487
-    },
-    {
-      "team": "Oklahoma State",
-      "conference": "Big 12",
-      "current": "0\u20131",
-      "record": {
-        "v": "3.4\u20138.6",
-        "sort": 3.4
-      },
-      "bowl": 0.088
-    },
-    {
-      "team": "Ohio State",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "9.4\u20132.6",
-        "sort": 9.4
-      },
-      "bowl": 0.996
-    },
-    {
-      "team": "Indiana",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "9.1\u20132.9",
-        "sort": 9.1
-      },
-      "bowl": 0.994
-    },
-    {
-      "team": "Oregon",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "9.0\u20133.0",
-        "sort": 9.0
-      },
-      "bowl": 0.99
-    },
-    {
-      "team": "USC",
-      "conference": "Big Ten",
-      "current": "2\u20130",
+      "current": "3\u20131",
       "record": {
         "v": "8.4\u20133.6",
         "sort": 8.4
       },
-      "bowl": 0.971
+      "bowl": 0.977
     },
     {
-      "team": "Penn State",
-      "conference": "Big Ten",
-      "current": "1\u20130",
+      "team": "North Texas",
+      "conference": "American Athletic",
+      "current": "3\u20132",
       "record": {
-        "v": "8.2\u20133.8",
-        "sort": 8.2
+        "v": "7.7\u20134.3",
+        "sort": 7.7
       },
-      "bowl": 0.957
+      "bowl": 0.973
     },
     {
-      "team": "Iowa",
-      "conference": "Big Ten",
-      "current": "1\u20130",
+      "team": "Army",
+      "conference": "American Athletic",
+      "current": "2\u20131",
       "record": {
-        "v": "8.0\u20134.0",
-        "sort": 8.0
+        "v": "7.7\u20134.3",
+        "sort": 7.7
       },
-      "bowl": 0.94
+      "bowl": 0.908
     },
     {
-      "team": "Washington",
-      "conference": "Big Ten",
-      "current": "1\u20130",
+      "team": "Memphis",
+      "conference": "American Athletic",
+      "current": "3\u20131",
       "record": {
-        "v": "7.5\u20134.5",
-        "sort": 7.5
+        "v": "7.3\u20134.7",
+        "sort": 7.3
       },
-      "bowl": 0.899
+      "bowl": 0.896
     },
     {
-      "team": "Michigan",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.5\u20134.5",
-        "sort": 7.5
-      },
-      "bowl": 0.89
-    },
-    {
-      "team": "Nebraska",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.9\u20135.1",
-        "sort": 6.9
-      },
-      "bowl": 0.819
-    },
-    {
-      "team": "Illinois",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.9\u20135.1",
-        "sort": 6.9
-      },
-      "bowl": 0.805
-    },
-    {
-      "team": "Minnesota",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.9\u20135.1",
-        "sort": 6.9
-      },
-      "bowl": 0.792
-    },
-    {
-      "team": "Maryland",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.7\u20135.3",
-        "sort": 6.7
-      },
-      "bowl": 0.771
-    },
-    {
-      "team": "UCLA",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.7\u20135.3",
-        "sort": 6.7
-      },
-      "bowl": 0.766
-    },
-    {
-      "team": "Northwestern",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.0\u20136.0",
-        "sort": 6.0
-      },
-      "bowl": 0.621
-    },
-    {
-      "team": "Wisconsin",
-      "conference": "Big Ten",
-      "current": "0\u20131",
-      "record": {
-        "v": "5.3\u20136.7",
-        "sort": 5.3
-      },
-      "bowl": 0.454
-    },
-    {
-      "team": "Michigan State",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "4.8\u20137.2",
-        "sort": 4.8
-      },
-      "bowl": 0.331
-    },
-    {
-      "team": "Rutgers",
-      "conference": "Big Ten",
-      "current": "0\u20131",
-      "record": {
-        "v": "4.4\u20137.6",
-        "sort": 4.4
-      },
-      "bowl": 0.237
-    },
-    {
-      "team": "Purdue",
-      "conference": "Big Ten",
-      "current": "1\u20130",
-      "record": {
-        "v": "4.1\u20137.9",
-        "sort": 4.1
-      },
-      "bowl": 0.179
-    },
-    {
-      "team": "Liberty",
-      "conference": "Conference USA",
-      "current": "0\u20131",
-      "record": {
-        "v": "7.1\u20134.9",
-        "sort": 7.1
-      },
-      "bowl": 0.829
-    },
-    {
-      "team": "Jacksonville State",
-      "conference": "Conference USA",
-      "current": "1\u20131",
+      "team": "East Carolina",
+      "conference": "American Athletic",
+      "current": "2\u20132",
       "record": {
         "v": "6.8\u20135.2",
         "sort": 6.8
       },
-      "bowl": 0.788
+      "bowl": 0.817
     },
     {
-      "team": "Florida International",
-      "conference": "Conference USA",
-      "current": "0\u20131",
+      "team": "Florida Atlantic",
+      "conference": "American Athletic",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.8\u20135.2",
+        "sort": 6.8
+      },
+      "bowl": 0.836
+    },
+    {
+      "team": "Tulsa",
+      "conference": "American Athletic",
+      "current": "3\u20132",
       "record": {
         "v": "6.6\u20135.4",
         "sort": 6.6
       },
-      "bowl": 0.748
+      "bowl": 0.788
     },
     {
-      "team": "Western Kentucky",
-      "conference": "Conference USA",
-      "current": "0\u20131",
+      "team": "Tulane",
+      "conference": "American Athletic",
+      "current": "2\u20132",
       "record": {
-        "v": "6.3\u20135.7",
-        "sort": 6.3
+        "v": "6.1\u20135.9",
+        "sort": 6.1
       },
-      "bowl": 0.731
+      "bowl": 0.66
     },
     {
-      "team": "Delaware",
-      "conference": "Conference USA",
-      "current": "1\u20130",
+      "team": "UAB",
+      "conference": "American Athletic",
+      "current": "2\u20132",
       "record": {
-        "v": "6.0\u20136.0",
-        "sort": 6.0
+        "v": "5.8\u20136.2",
+        "sort": 5.8
       },
-      "bowl": 0.63
+      "bowl": 0.586
     },
     {
-      "team": "Kennesaw State",
-      "conference": "Conference USA",
-      "current": "1\u20130",
+      "team": "Temple",
+      "conference": "American Athletic",
+      "current": "1\u20133",
       "record": {
-        "v": "5.6\u20136.4",
-        "sort": 5.6
+        "v": "5.0\u20137.0",
+        "sort": 5.0
       },
-      "bowl": 0.514
+      "bowl": 0.374
     },
     {
-      "team": "New Mexico State",
-      "conference": "Conference USA",
-      "current": "1\u20131",
+      "team": "Navy",
+      "conference": "American Athletic",
+      "current": "1\u20132",
       "record": {
-        "v": "5.1\u20136.9",
-        "sort": 5.1
+        "v": "4.7\u20137.3",
+        "sort": 4.7
       },
-      "bowl": 0.401
+      "bowl": 0.292
     },
     {
-      "team": "Sam Houston",
-      "conference": "Conference USA",
-      "current": "0\u20131",
+      "team": "Rice",
+      "conference": "American Athletic",
+      "current": "1\u20133",
       "record": {
-        "v": "5.1\u20136.9",
-        "sort": 5.1
+        "v": "3.2\u20138.8",
+        "sort": 3.2
       },
-      "bowl": 0.397
+      "bowl": 0.047
     },
     {
-      "team": "Middle Tennessee",
-      "conference": "Conference USA",
-      "current": "1\u20130",
+      "team": "Charlotte",
+      "conference": "American Athletic",
+      "current": "0\u20134",
       "record": {
-        "v": "4.8\u20137.2",
-        "sort": 4.8
+        "v": "1.7\u201310.3",
+        "sort": 1.7
       },
-      "bowl": 0.331
+      "bowl": 0.003
     },
     {
-      "team": "Missouri State",
-      "conference": "Conference USA",
-      "current": "0\u20131",
-      "record": {
-        "v": "3.9\u20138.1",
-        "sort": 3.9
-      },
-      "bowl": 0.14
-    },
-    {
-      "team": "Notre Dame",
-      "conference": "FBS Independents",
-      "current": "1\u20130",
+      "team": "Texas Tech",
+      "conference": "Big 12",
+      "current": "4\u20130",
       "record": {
         "v": "10.3\u20131.7",
         "sort": 10.3
@@ -789,59 +349,99 @@
       "bowl": 1.0
     },
     {
-      "team": "UConn",
-      "conference": "FBS Independents",
-      "current": "1\u20130",
+      "team": "Utah",
+      "conference": "Big 12",
+      "current": "4\u20130",
       "record": {
-        "v": "5.9\u20136.1",
-        "sort": 5.9
+        "v": "9.7\u20132.3",
+        "sort": 9.7
       },
-      "bowl": 0.575
+      "bowl": 0.999
     },
     {
-      "team": "Toledo",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "BYU",
+      "conference": "Big 12",
+      "current": "3\u20130",
       "record": {
-        "v": "8.2\u20133.8",
-        "sort": 8.2
+        "v": "9.3\u20132.7",
+        "sort": 9.3
       },
-      "bowl": 0.963
+      "bowl": 0.996
     },
     {
-      "team": "Western Michigan",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "Houston",
+      "conference": "Big 12",
+      "current": "3\u20131",
       "record": {
-        "v": "7.9\u20134.1",
-        "sort": 7.9
+        "v": "8.5\u20133.5",
+        "sort": 8.5
       },
-      "bowl": 0.935
+      "bowl": 0.982
     },
     {
-      "team": "Ohio",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "Kansas State",
+      "conference": "Big 12",
+      "current": "3\u20131",
       "record": {
-        "v": "6.8\u20135.2",
-        "sort": 6.8
+        "v": "8.4\u20133.6",
+        "sort": 8.4
       },
-      "bowl": 0.784
+      "bowl": 0.978
     },
     {
-      "team": "Miami (OH)",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "Arizona",
+      "conference": "Big 12",
+      "current": "3\u20131",
       "record": {
-        "v": "6.4\u20135.6",
-        "sort": 6.4
+        "v": "7.7\u20134.3",
+        "sort": 7.7
       },
-      "bowl": 0.708
+      "bowl": 0.945
     },
     {
-      "team": "Akron",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "UCF",
+      "conference": "Big 12",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.0\u20135.0",
+        "sort": 7.0
+      },
+      "bowl": 0.835
+    },
+    {
+      "team": "Cincinnati",
+      "conference": "Big 12",
+      "current": "4\u20130",
+      "record": {
+        "v": "6.6\u20135.4",
+        "sort": 6.6
+      },
+      "bowl": 0.787
+    },
+    {
+      "team": "Baylor",
+      "conference": "Big 12",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.2\u20135.8",
+        "sort": 6.2
+      },
+      "bowl": 0.676
+    },
+    {
+      "team": "Oklahoma State",
+      "conference": "Big 12",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.2\u20135.8",
+        "sort": 6.2
+      },
+      "bowl": 0.672
+    },
+    {
+      "team": "Arizona State",
+      "conference": "Big 12",
+      "current": "2\u20131",
       "record": {
         "v": "5.9\u20136.1",
         "sort": 5.9
@@ -849,149 +449,189 @@
       "bowl": 0.602
     },
     {
-      "team": "Massachusetts",
-      "conference": "Mid-American",
-      "current": "1\u20130",
+      "team": "TCU",
+      "conference": "Big 12",
+      "current": "2\u20132",
       "record": {
-        "v": "5.7\u20136.3",
-        "sort": 5.7
+        "v": "5.8\u20136.2",
+        "sort": 5.8
       },
-      "bowl": 0.337
+      "bowl": 0.58
     },
     {
-      "team": "Central Michigan",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "West Virginia",
+      "conference": "Big 12",
+      "current": "3\u20131",
       "record": {
-        "v": "5.6\u20136.4",
-        "sort": 5.6
+        "v": "5.2\u20136.8",
+        "sort": 5.2
       },
-      "bowl": 0.542
+      "bowl": 0.395
     },
     {
-      "team": "Sacramento State",
-      "conference": "Mid-American",
-      "current": "1\u20131",
+      "team": "Iowa State",
+      "conference": "Big 12",
+      "current": "2\u20132",
       "record": {
-        "v": "5.4\u20136.6",
-        "sort": 5.4
+        "v": "5.0\u20137.0",
+        "sort": 5.0
       },
-      "bowl": 0.479
+      "bowl": 0.363
     },
     {
-      "team": "Eastern Michigan",
-      "conference": "Mid-American",
-      "current": "1\u20131",
+      "team": "Kansas",
+      "conference": "Big 12",
+      "current": "1\u20132",
       "record": {
-        "v": "5.4\u20136.6",
-        "sort": 5.4
+        "v": "4.8\u20137.2",
+        "sort": 4.8
       },
-      "bowl": 0.463
+      "bowl": 0.306
     },
     {
-      "team": "Buffalo",
-      "conference": "Mid-American",
-      "current": "1\u20130",
+      "team": "Colorado",
+      "conference": "Big 12",
+      "current": "2\u20132",
       "record": {
-        "v": "5.3\u20136.7",
-        "sort": 5.3
+        "v": "4.6\u20137.4",
+        "sort": 4.6
       },
-      "bowl": 0.21
+      "bowl": 0.262
     },
     {
-      "team": "Ball State",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "Indiana",
+      "conference": "Big Ten",
+      "current": "4\u20130",
       "record": {
-        "v": "4.3\u20137.7",
-        "sort": 4.3
+        "v": "9.5\u20132.5",
+        "sort": 9.5
       },
-      "bowl": 0.212
+      "bowl": 0.999
     },
     {
-      "team": "Bowling Green",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "Oregon",
+      "conference": "Big Ten",
+      "current": "3\u20131",
       "record": {
-        "v": "4.0\u20138.0",
-        "sort": 4.0
+        "v": "9.0\u20133.0",
+        "sort": 9.0
       },
-      "bowl": 0.15
+      "bowl": 0.997
     },
     {
-      "team": "Kent State",
-      "conference": "Mid-American",
-      "current": "0\u20131",
+      "team": "Ohio State",
+      "conference": "Big Ten",
+      "current": "3\u20131",
       "record": {
-        "v": "3.5\u20138.5",
-        "sort": 3.5
+        "v": "9.0\u20133.0",
+        "sort": 9.0
       },
-      "bowl": 0.092
+      "bowl": 0.997
     },
     {
-      "team": "North Dakota State",
-      "conference": "Mountain West",
-      "current": "2\u20130",
+      "team": "UCLA",
+      "conference": "Big Ten",
+      "current": "4\u20130",
       "record": {
-        "v": "7.8\u20134.2",
-        "sort": 7.8
+        "v": "9.0\u20133.0",
+        "sort": 9.0
       },
-      "bowl": 0.93
+      "bowl": 0.995
     },
     {
-      "team": "New Mexico",
-      "conference": "Mountain West",
-      "current": "1\u20130",
+      "team": "Iowa",
+      "conference": "Big Ten",
+      "current": "4\u20130",
       "record": {
-        "v": "7.6\u20134.4",
-        "sort": 7.6
+        "v": "8.7\u20133.3",
+        "sort": 8.7
       },
-      "bowl": 0.901
+      "bowl": 0.986
     },
     {
-      "team": "UNLV",
-      "conference": "Mountain West",
-      "current": "1\u20131",
+      "team": "Nebraska",
+      "conference": "Big Ten",
+      "current": "4\u20130",
       "record": {
-        "v": "7.1\u20134.9",
-        "sort": 7.1
+        "v": "7.9\u20134.1",
+        "sort": 7.9
       },
-      "bowl": 0.838
+      "bowl": 0.962
     },
     {
-      "team": "Air Force",
-      "conference": "Mountain West",
-      "current": "1\u20130",
+      "team": "Penn State",
+      "conference": "Big Ten",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.7\u20134.3",
+        "sort": 7.7
+      },
+      "bowl": 0.942
+    },
+    {
+      "team": "USC",
+      "conference": "Big Ten",
+      "current": "4\u20131",
+      "record": {
+        "v": "7.7\u20134.3",
+        "sort": 7.7
+      },
+      "bowl": 0.953
+    },
+    {
+      "team": "Wisconsin",
+      "conference": "Big Ten",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.3\u20134.7",
+        "sort": 7.3
+      },
+      "bowl": 0.891
+    },
+    {
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "current": "3\u20131",
       "record": {
         "v": "7.0\u20135.0",
         "sort": 7.0
       },
-      "bowl": 0.803
+      "bowl": 0.874
     },
     {
-      "team": "San Jos\u00e9 State",
-      "conference": "Mountain West",
-      "current": "1\u20131",
+      "team": "Northwestern",
+      "conference": "Big Ten",
+      "current": "2\u20131",
       "record": {
-        "v": "6.9\u20136.1",
-        "sort": 6.9
+        "v": "6.7\u20135.3",
+        "sort": 6.7
       },
-      "bowl": 0.8
+      "bowl": 0.813
     },
     {
-      "team": "Nevada",
-      "conference": "Mountain West",
-      "current": "1\u20130",
+      "team": "Minnesota",
+      "conference": "Big Ten",
+      "current": "3\u20131",
       "record": {
-        "v": "6.4\u20135.6",
-        "sort": 6.4
+        "v": "6.5\u20135.5",
+        "sort": 6.5
       },
-      "bowl": 0.706
+      "bowl": 0.758
     },
     {
-      "team": "Wyoming",
-      "conference": "Mountain West",
-      "current": "0\u20131",
+      "team": "Washington",
+      "conference": "Big Ten",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.2\u20135.8",
+        "sort": 6.2
+      },
+      "bowl": 0.676
+    },
+    {
+      "team": "Illinois",
+      "conference": "Big Ten",
+      "current": "2\u20132",
       "record": {
         "v": "5.6\u20136.4",
         "sort": 5.6
@@ -999,414 +639,774 @@
       "bowl": 0.527
     },
     {
-      "team": "Hawai'i",
-      "conference": "Mountain West",
-      "current": "0\u20132",
+      "team": "Maryland",
+      "conference": "Big Ten",
+      "current": "2\u20132",
       "record": {
-        "v": "4.7\u20137.3",
-        "sort": 4.7
+        "v": "4.9\u20137.1",
+        "sort": 4.9
       },
-      "bowl": 0.325
+      "bowl": 0.319
     },
     {
-      "team": "Northern Illinois",
-      "conference": "Mountain West",
-      "current": "0\u20131",
+      "team": "Michigan State",
+      "conference": "Big Ten",
+      "current": "2\u20132",
       "record": {
         "v": "4.6\u20137.4",
         "sort": 4.6
       },
-      "bowl": 0.289
+      "bowl": 0.239
     },
     {
-      "team": "UTEP",
-      "conference": "Mountain West",
-      "current": "0\u20131",
+      "team": "Rutgers",
+      "conference": "Big Ten",
+      "current": "1\u20133",
       "record": {
-        "v": "4.0\u20138.0",
-        "sort": 4.0
+        "v": "3.6\u20138.4",
+        "sort": 3.6
       },
-      "bowl": 0.145
+      "bowl": 0.081
     },
     {
-      "team": "Boise State",
-      "conference": "Pac-12",
-      "current": "0\u20131",
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "current": "1\u20133",
       "record": {
-        "v": "7.0\u20134.0",
-        "sort": 7.0
+        "v": "3.1\u20138.9",
+        "sort": 3.1
       },
-      "bowl": 0.847
+      "bowl": 0.032
     },
     {
-      "team": "San Diego State",
-      "conference": "Pac-12",
-      "current": "1\u20130",
+      "team": "Liberty",
+      "conference": "Conference USA",
+      "current": "3\u20131",
       "record": {
-        "v": "6.5\u20134.5",
-        "sort": 6.5
+        "v": "8.4\u20133.6",
+        "sort": 8.4
       },
-      "bowl": 0.734
+      "bowl": 0.972
     },
     {
-      "team": "Washington State",
-      "conference": "Pac-12",
-      "current": "0\u20131",
+      "team": "Jacksonville State",
+      "conference": "Conference USA",
+      "current": "3\u20132",
       "record": {
-        "v": "6.0\u20135.0",
+        "v": "7.4\u20134.6",
+        "sort": 7.4
+      },
+      "bowl": 0.927
+    },
+    {
+      "team": "Delaware",
+      "conference": "Conference USA",
+      "current": "2\u20132",
+      "record": {
+        "v": "6.0\u20136.0",
         "sort": 6.0
       },
-      "bowl": 0.628
+      "bowl": 0.631
     },
     {
-      "team": "Texas State",
-      "conference": "Pac-12",
-      "current": "0\u20131",
+      "team": "Florida International",
+      "conference": "Conference USA",
+      "current": "2\u20132",
       "record": {
-        "v": "5.8\u20135.2",
-        "sort": 5.8
+        "v": "5.9\u20136.1",
+        "sort": 5.9
       },
-      "bowl": 0.569
+      "bowl": 0.593
     },
     {
-      "team": "Colorado State",
-      "conference": "Pac-12",
-      "current": "1\u20130",
+      "team": "New Mexico State",
+      "conference": "Conference USA",
+      "current": "2\u20133",
       "record": {
-        "v": "5.2\u20135.8",
+        "v": "5.2\u20136.8",
         "sort": 5.2
       },
-      "bowl": 0.401
+      "bowl": 0.419
     },
     {
-      "team": "Oregon State",
-      "conference": "Pac-12",
-      "current": "0\u20131",
+      "team": "Middle Tennessee",
+      "conference": "Conference USA",
+      "current": "2\u20132",
       "record": {
-        "v": "4.9\u20136.1",
+        "v": "5.2\u20136.8",
+        "sort": 5.2
+      },
+      "bowl": 0.415
+    },
+    {
+      "team": "Sam Houston",
+      "conference": "Conference USA",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.9\u20137.1",
         "sort": 4.9
       },
-      "bowl": 0.346
+      "bowl": 0.345
     },
     {
-      "team": "Fresno State",
-      "conference": "Pac-12",
-      "current": "0\u20131",
-      "record": {
-        "v": "4.8\u20136.2",
-        "sort": 4.8
-      },
-      "bowl": 0.342
-    },
-    {
-      "team": "Utah State",
-      "conference": "Pac-12",
-      "current": "0\u20131",
-      "record": {
-        "v": "3.4\u20137.6",
-        "sort": 3.4
-      },
-      "bowl": 0.072
-    },
-    {
-      "team": "Georgia",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "9.3\u20132.7",
-        "sort": 9.3
-      },
-      "bowl": 0.992
-    },
-    {
-      "team": "Alabama",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.6\u20133.4",
-        "sort": 8.6
-      },
-      "bowl": 0.972
-    },
-    {
-      "team": "Texas A&M",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.5\u20133.5",
-        "sort": 8.5
-      },
-      "bowl": 0.972
-    },
-    {
-      "team": "Texas",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.2\u20133.8",
-        "sort": 8.2
-      },
-      "bowl": 0.942
-    },
-    {
-      "team": "Ole Miss",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.2\u20133.8",
-        "sort": 8.2
-      },
-      "bowl": 0.964
-    },
-    {
-      "team": "Tennessee",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.8\u20134.2",
-        "sort": 7.8
-      },
-      "bowl": 0.918
-    },
-    {
-      "team": "South Carolina",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.6\u20134.4",
-        "sort": 7.6
-      },
-      "bowl": 0.902
-    },
-    {
-      "team": "Oklahoma",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.5\u20134.5",
-        "sort": 7.5
-      },
-      "bowl": 0.884
-    },
-    {
-      "team": "LSU",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.3\u20134.7",
-        "sort": 7.3
-      },
-      "bowl": 0.869
-    },
-    {
-      "team": "Florida",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.9\u20135.1",
-        "sort": 6.9
-      },
-      "bowl": 0.797
-    },
-    {
-      "team": "Missouri",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.6\u20135.4",
-        "sort": 6.6
-      },
-      "bowl": 0.736
-    },
-    {
-      "team": "Vanderbilt",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.3\u20135.7",
-        "sort": 6.3
-      },
-      "bowl": 0.686
-    },
-    {
-      "team": "Auburn",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.0\u20136.0",
-        "sort": 6.0
-      },
-      "bowl": 0.633
-    },
-    {
-      "team": "Mississippi State",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.0\u20136.0",
-        "sort": 6.0
-      },
-      "bowl": 0.611
-    },
-    {
-      "team": "Kentucky",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "4.4\u20137.6",
-        "sort": 4.4
-      },
-      "bowl": 0.23
-    },
-    {
-      "team": "Arkansas",
-      "conference": "SEC",
-      "current": "1\u20130",
-      "record": {
-        "v": "4.2\u20137.8",
-        "sort": 4.2
-      },
-      "bowl": 0.185
-    },
-    {
-      "team": "James Madison",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "8.0\u20134.0",
-        "sort": 8.0
-      },
-      "bowl": 0.941
-    },
-    {
-      "team": "Louisiana Tech",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.2\u20134.8",
-        "sort": 7.2
-      },
-      "bowl": 0.84
-    },
-    {
-      "team": "Louisiana",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "7.2\u20134.8",
-        "sort": 7.2
-      },
-      "bowl": 0.842
-    },
-    {
-      "team": "Marshall",
-      "conference": "Sun Belt",
-      "current": "0\u20131",
-      "record": {
-        "v": "7.0\u20135.0",
-        "sort": 7.0
-      },
-      "bowl": 0.834
-    },
-    {
-      "team": "Southern Miss",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.9\u20135.1",
-        "sort": 6.9
-      },
-      "bowl": 0.794
-    },
-    {
-      "team": "App State",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.8\u20135.2",
-        "sort": 6.8
-      },
-      "bowl": 0.768
-    },
-    {
-      "team": "Old Dominion",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.6\u20135.4",
-        "sort": 6.6
-      },
-      "bowl": 0.718
-    },
-    {
-      "team": "Troy",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "6.1\u20135.9",
-        "sort": 6.1
-      },
-      "bowl": 0.63
-    },
-    {
-      "team": "Arkansas State",
-      "conference": "Sun Belt",
-      "current": "0\u20131",
-      "record": {
-        "v": "5.7\u20136.3",
-        "sort": 5.7
-      },
-      "bowl": 0.545
-    },
-    {
-      "team": "South Alabama",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.5\u20136.5",
-        "sort": 5.5
-      },
-      "bowl": 0.484
-    },
-    {
-      "team": "Georgia State",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.3\u20136.7",
-        "sort": 5.3
-      },
-      "bowl": 0.444
-    },
-    {
-      "team": "Georgia Southern",
-      "conference": "Sun Belt",
-      "current": "1\u20130",
-      "record": {
-        "v": "5.3\u20136.7",
-        "sort": 5.3
-      },
-      "bowl": 0.438
-    },
-    {
-      "team": "Coastal Carolina",
-      "conference": "Sun Belt",
-      "current": "0\u20131",
+      "team": "Western Kentucky",
+      "conference": "Conference USA",
+      "current": "1\u20134",
       "record": {
         "v": "4.8\u20137.2",
         "sort": 4.8
       },
-      "bowl": 0.318
+      "bowl": 0.316
     },
     {
-      "team": "UL Monroe",
-      "conference": "Sun Belt",
-      "current": "0\u20131",
+      "team": "Kennesaw State",
+      "conference": "Conference USA",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.6\u20137.4",
+        "sort": 4.6
+      },
+      "bowl": 0.27
+    },
+    {
+      "team": "Missouri State",
+      "conference": "Conference USA",
+      "current": "1\u20133",
+      "record": {
+        "v": "3.7\u20138.3",
+        "sort": 3.7
+      },
+      "bowl": 0.1
+    },
+    {
+      "team": "Notre Dame",
+      "conference": "FBS Independents",
+      "current": "4\u20130",
+      "record": {
+        "v": "10.8\u20131.2",
+        "sort": 10.8
+      },
+      "bowl": 1.0
+    },
+    {
+      "team": "UConn",
+      "conference": "FBS Independents",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.6\u20136.4",
+        "sort": 5.6
+      },
+      "bowl": 0.519
+    },
+    {
+      "team": "Toledo",
+      "conference": "Mid-American",
+      "current": "3\u20131",
+      "record": {
+        "v": "9.4\u20132.6",
+        "sort": 9.4
+      },
+      "bowl": 0.998
+    },
+    {
+      "team": "Massachusetts",
+      "conference": "Mid-American",
+      "current": "4\u20130",
+      "record": {
+        "v": "7.7\u20134.3",
+        "sort": 7.7
+      },
+      "bowl": 0.808
+    },
+    {
+      "team": "Western Michigan",
+      "conference": "Mid-American",
+      "current": "2\u20132",
+      "record": {
+        "v": "7.5\u20134.5",
+        "sort": 7.5
+      },
+      "bowl": 0.928
+    },
+    {
+      "team": "Miami (OH)",
+      "conference": "Mid-American",
+      "current": "2\u20132",
+      "record": {
+        "v": "7.2\u20134.8",
+        "sort": 7.2
+      },
+      "bowl": 0.893
+    },
+    {
+      "team": "Ohio",
+      "conference": "Mid-American",
+      "current": "2\u20132",
+      "record": {
+        "v": "7.1\u20134.9",
+        "sort": 7.1
+      },
+      "bowl": 0.874
+    },
+    {
+      "team": "Central Michigan",
+      "conference": "Mid-American",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.7\u20136.3",
+        "sort": 5.7
+      },
+      "bowl": 0.56
+    },
+    {
+      "team": "Akron",
+      "conference": "Mid-American",
+      "current": "1\u20133",
+      "record": {
+        "v": "5.1\u20136.9",
+        "sort": 5.1
+      },
+      "bowl": 0.395
+    },
+    {
+      "team": "Eastern Michigan",
+      "conference": "Mid-American",
+      "current": "2\u20133",
+      "record": {
+        "v": "4.8\u20137.2",
+        "sort": 4.8
+      },
+      "bowl": 0.299
+    },
+    {
+      "team": "Buffalo",
+      "conference": "Mid-American",
+      "current": "2\u20132",
+      "record": {
+        "v": "4.6\u20137.4",
+        "sort": 4.6
+      },
+      "bowl": 0.084
+    },
+    {
+      "team": "Kent State",
+      "conference": "Mid-American",
+      "current": "2\u20132",
+      "record": {
+        "v": "4.2\u20137.8",
+        "sort": 4.2
+      },
+      "bowl": 0.164
+    },
+    {
+      "team": "Sacramento State",
+      "conference": "Mid-American",
+      "current": "1\u20134",
+      "record": {
+        "v": "3.6\u20138.4",
+        "sort": 3.6
+      },
+      "bowl": 0.087
+    },
+    {
+      "team": "Ball State",
+      "conference": "Mid-American",
+      "current": "1\u20133",
+      "record": {
+        "v": "3.6\u20138.4",
+        "sort": 3.6
+      },
+      "bowl": 0.073
+    },
+    {
+      "team": "Bowling Green",
+      "conference": "Mid-American",
+      "current": "0\u20134",
+      "record": {
+        "v": "3.0\u20139.0",
+        "sort": 3.0
+      },
+      "bowl": 0.029
+    },
+    {
+      "team": "North Dakota State",
+      "conference": "Mountain West",
+      "current": "4\u20130",
+      "record": {
+        "v": "9.3\u20132.7",
+        "sort": 9.3
+      },
+      "bowl": 0.998
+    },
+    {
+      "team": "New Mexico",
+      "conference": "Mountain West",
+      "current": "3\u20131",
+      "record": {
+        "v": "8.9\u20133.1",
+        "sort": 8.9
+      },
+      "bowl": 0.993
+    },
+    {
+      "team": "Air Force",
+      "conference": "Mountain West",
+      "current": "2\u20131",
+      "record": {
+        "v": "7.3\u20134.7",
+        "sort": 7.3
+      },
+      "bowl": 0.89
+    },
+    {
+      "team": "UNLV",
+      "conference": "Mountain West",
+      "current": "2\u20132",
+      "record": {
+        "v": "6.9\u20135.1",
+        "sort": 6.9
+      },
+      "bowl": 0.854
+    },
+    {
+      "team": "San Jos\u00e9 State",
+      "conference": "Mountain West",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.8\u20137.2",
+        "sort": 5.8
+      },
+      "bowl": 0.574
+    },
+    {
+      "team": "Wyoming",
+      "conference": "Mountain West",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.4\u20136.6",
+        "sort": 5.4
+      },
+      "bowl": 0.475
+    },
+    {
+      "team": "Hawai'i",
+      "conference": "Mountain West",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.6\u20137.4",
+        "sort": 4.6
+      },
+      "bowl": 0.276
+    },
+    {
+      "team": "Nevada",
+      "conference": "Mountain West",
+      "current": "1\u20133",
+      "record": {
+        "v": "3.7\u20138.3",
+        "sort": 3.7
+      },
+      "bowl": 0.087
+    },
+    {
+      "team": "UTEP",
+      "conference": "Mountain West",
+      "current": "1\u20133",
       "record": {
         "v": "3.5\u20138.5",
         "sort": 3.5
       },
-      "bowl": 0.106
+      "bowl": 0.066
+    },
+    {
+      "team": "Northern Illinois",
+      "conference": "Mountain West",
+      "current": "0\u20134",
+      "record": {
+        "v": "2.9\u20139.1",
+        "sort": 2.9
+      },
+      "bowl": 0.026
+    },
+    {
+      "team": "Boise State",
+      "conference": "Pac-12",
+      "current": "3\u20131",
+      "record": {
+        "v": "8.2\u20132.8",
+        "sort": 8.2
+      },
+      "bowl": 0.981
+    },
+    {
+      "team": "Fresno State",
+      "conference": "Pac-12",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.1\u20134.9",
+        "sort": 6.1
+      },
+      "bowl": 0.664
+    },
+    {
+      "team": "Texas State",
+      "conference": "Pac-12",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.8\u20135.2",
+        "sort": 5.8
+      },
+      "bowl": 0.596
+    },
+    {
+      "team": "Oregon State",
+      "conference": "Pac-12",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.5\u20135.5",
+        "sort": 5.5
+      },
+      "bowl": 0.516
+    },
+    {
+      "team": "Washington State",
+      "conference": "Pac-12",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.9\u20136.1",
+        "sort": 4.9
+      },
+      "bowl": 0.328
+    },
+    {
+      "team": "San Diego State",
+      "conference": "Pac-12",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.4\u20136.6",
+        "sort": 4.4
+      },
+      "bowl": 0.228
+    },
+    {
+      "team": "Colorado State",
+      "conference": "Pac-12",
+      "current": "2\u20132",
+      "record": {
+        "v": "4.4\u20136.6",
+        "sort": 4.4
+      },
+      "bowl": 0.201
+    },
+    {
+      "team": "Utah State",
+      "conference": "Pac-12",
+      "current": "1\u20133",
+      "record": {
+        "v": "3.7\u20137.3",
+        "sort": 3.7
+      },
+      "bowl": 0.09
+    },
+    {
+      "team": "Georgia",
+      "conference": "SEC",
+      "current": "4\u20130",
+      "record": {
+        "v": "10.2\u20131.8",
+        "sort": 10.2
+      },
+      "bowl": 1.0
+    },
+    {
+      "team": "Alabama",
+      "conference": "SEC",
+      "current": "4\u20130",
+      "record": {
+        "v": "9.7\u20132.3",
+        "sort": 9.7
+      },
+      "bowl": 1.0
+    },
+    {
+      "team": "Texas",
+      "conference": "SEC",
+      "current": "4\u20130",
+      "record": {
+        "v": "9.5\u20132.5",
+        "sort": 9.5
+      },
+      "bowl": 0.998
+    },
+    {
+      "team": "Mississippi State",
+      "conference": "SEC",
+      "current": "4\u20130",
+      "record": {
+        "v": "8.5\u20133.5",
+        "sort": 8.5
+      },
+      "bowl": 0.992
+    },
+    {
+      "team": "Florida",
+      "conference": "SEC",
+      "current": "4\u20130",
+      "record": {
+        "v": "8.3\u20133.7",
+        "sort": 8.3
+      },
+      "bowl": 0.98
+    },
+    {
+      "team": "LSU",
+      "conference": "SEC",
+      "current": "3\u20131",
+      "record": {
+        "v": "8.3\u20133.7",
+        "sort": 8.3
+      },
+      "bowl": 0.979
+    },
+    {
+      "team": "Tennessee",
+      "conference": "SEC",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.8\u20134.2",
+        "sort": 7.8
+      },
+      "bowl": 0.943
+    },
+    {
+      "team": "Ole Miss",
+      "conference": "SEC",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.5\u20134.5",
+        "sort": 7.5
+      },
+      "bowl": 0.94
+    },
+    {
+      "team": "Missouri",
+      "conference": "SEC",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.8\u20135.2",
+        "sort": 6.8
+      },
+      "bowl": 0.817
+    },
+    {
+      "team": "Oklahoma",
+      "conference": "SEC",
+      "current": "2\u20132",
+      "record": {
+        "v": "6.6\u20135.4",
+        "sort": 6.6
+      },
+      "bowl": 0.774
+    },
+    {
+      "team": "Texas A&M",
+      "conference": "SEC",
+      "current": "2\u20132",
+      "record": {
+        "v": "6.4\u20135.6",
+        "sort": 6.4
+      },
+      "bowl": 0.753
+    },
+    {
+      "team": "Auburn",
+      "conference": "SEC",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.1\u20135.9",
+        "sort": 6.1
+      },
+      "bowl": 0.665
+    },
+    {
+      "team": "Kentucky",
+      "conference": "SEC",
+      "current": "3\u20131",
+      "record": {
+        "v": "5.8\u20136.2",
+        "sort": 5.8
+      },
+      "bowl": 0.557
+    },
+    {
+      "team": "Vanderbilt",
+      "conference": "SEC",
+      "current": "3\u20131",
+      "record": {
+        "v": "5.8\u20136.2",
+        "sort": 5.8
+      },
+      "bowl": 0.56
+    },
+    {
+      "team": "South Carolina",
+      "conference": "SEC",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.5\u20136.5",
+        "sort": 5.5
+      },
+      "bowl": 0.501
+    },
+    {
+      "team": "Arkansas",
+      "conference": "SEC",
+      "current": "2\u20132",
+      "record": {
+        "v": "3.8\u20138.2",
+        "sort": 3.8
+      },
+      "bowl": 0.09
+    },
+    {
+      "team": "James Madison",
+      "conference": "Sun Belt",
+      "current": "4\u20130",
+      "record": {
+        "v": "10.7\u20131.3",
+        "sort": 10.7
+      },
+      "bowl": 1.0
+    },
+    {
+      "team": "Louisiana",
+      "conference": "Sun Belt",
+      "current": "3\u20131",
+      "record": {
+        "v": "8.7\u20133.3",
+        "sort": 8.7
+      },
+      "bowl": 0.988
+    },
+    {
+      "team": "App State",
+      "conference": "Sun Belt",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.5\u20134.5",
+        "sort": 7.5
+      },
+      "bowl": 0.918
+    },
+    {
+      "team": "Georgia State",
+      "conference": "Sun Belt",
+      "current": "3\u20131",
+      "record": {
+        "v": "7.1\u20134.9",
+        "sort": 7.1
+      },
+      "bowl": 0.87
+    },
+    {
+      "team": "Marshall",
+      "conference": "Sun Belt",
+      "current": "3\u20131",
+      "record": {
+        "v": "6.6\u20135.4",
+        "sort": 6.6
+      },
+      "bowl": 0.77
+    },
+    {
+      "team": "Louisiana Tech",
+      "conference": "Sun Belt",
+      "current": "1\u20132",
+      "record": {
+        "v": "6.5\u20135.5",
+        "sort": 6.5
+      },
+      "bowl": 0.749
+    },
+    {
+      "team": "Arkansas State",
+      "conference": "Sun Belt",
+      "current": "2\u20132",
+      "record": {
+        "v": "6.1\u20135.9",
+        "sort": 6.1
+      },
+      "bowl": 0.658
+    },
+    {
+      "team": "South Alabama",
+      "conference": "Sun Belt",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.9\u20136.1",
+        "sort": 5.9
+      },
+      "bowl": 0.612
+    },
+    {
+      "team": "Troy",
+      "conference": "Sun Belt",
+      "current": "2\u20132",
+      "record": {
+        "v": "5.7\u20136.3",
+        "sort": 5.7
+      },
+      "bowl": 0.539
+    },
+    {
+      "team": "Southern Miss",
+      "conference": "Sun Belt",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.8\u20137.2",
+        "sort": 4.8
+      },
+      "bowl": 0.312
+    },
+    {
+      "team": "Old Dominion",
+      "conference": "Sun Belt",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.7\u20137.3",
+        "sort": 4.7
+      },
+      "bowl": 0.298
+    },
+    {
+      "team": "Georgia Southern",
+      "conference": "Sun Belt",
+      "current": "1\u20133",
+      "record": {
+        "v": "4.6\u20137.4",
+        "sort": 4.6
+      },
+      "bowl": 0.28
+    },
+    {
+      "team": "Coastal Carolina",
+      "conference": "Sun Belt",
+      "current": "1\u20133",
+      "record": {
+        "v": "3.1\u20138.9",
+        "sort": 3.1
+      },
+      "bowl": 0.036
+    },
+    {
+      "team": "UL Monroe",
+      "conference": "Sun Belt",
+      "current": "0\u20134",
+      "record": {
+        "v": "1.5\u201310.5",
+        "sort": 1.5
+      },
+      "bowl": 0.002
     }
   ]
 }

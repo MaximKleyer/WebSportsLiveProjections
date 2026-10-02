@@ -15,16 +15,21 @@ command refreshes everything:
 .\scripts\update-data.ps1                          # re-export whatever the models last produced
 .\scripts\update-data.ps1 -Predict -Week 3         # run every model (football for week 3), then export
 .\scripts\update-data.ps1 -Sport nhl -Predict      # NHL: next game day, season sim, power rankings
+.\scripts\update-data.ps1 -Grade -Predict -Week 5  # weekly football routine: grade, project week 5, export
 ```
+
+`-Grade` runs each football model's own grader over every saved week before
+anything is predicted (re-grading a finished week reproduces it; a week in
+progress counts the games played so far).
 
 It runs each adapter with that model's own venv Python, then validates every
 data file (`python scripts/site_export.py check` — CI runs the same check
 before deploying). Then review the diff and commit + push this repo — GitHub
 Pages redeploys.
 
-The **Results** tab comes from each football model's `results_log.csv`, so
-after grading (`python -m nfl_projector_v1 grade --season 2026 --week N`,
-`python -m cfb_model.grade --week N`) the same script refreshes it. The NHL
+The **Results** tab comes from each football model's `results_log.csv`, which
+`-Grade` brings up to date (or grade by hand: `python -m nfl_projector_v1 grade
+--season 2026 --week N`, `python -m cfb_model.grade --week N`). The NHL
 needs no grading step: its adapter scores the published daily predictions
 against the final scores (and settled bets) in the model's database, which
 each `nhl daily` run brings up to date.

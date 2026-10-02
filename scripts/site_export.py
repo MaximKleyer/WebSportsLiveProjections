@@ -488,17 +488,23 @@ def card_stats(record: dict) -> list[dict]:
 
 
 def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: str,
-                    search: str | None = None) -> dict:
+                    search: str | None = None, scheduled: dict[int, int] | None = None) -> dict:
     """Write a results view: the season record (manifest summary tiles), an
     'All weeks' record-by-week table, and one slate per graded week.
+    `scheduled` ({week: games projected}) marks a week graded mid-way as in
+    progress; the view then opens on the latest complete week.
     Returns the season record, for card_stats."""
     if not games:
         raise ContractError(f"{view_dir}: no graded games to publish")
     games = sorted((_clean(g) for g in games), key=lambda g: (int(g["week"]), g["order"]))
     total = _records(games)
+    counts = {wk: len(list(gs)) for wk, gs in groupby(games, key=lambda g: int(g["week"]))}
+    partial = {wk for wk, n in counts.items() if scheduled and n < scheduled.get(wk, 0)}
+    complete = [wk for wk in counts if wk not in partial]
     summary = {
-        "title": f"{season} season to date · {total['n']} games graded "
-                 f"through Week {int(games[-1]['week'])}",
+        "title": f"{season} season to date · {total['n']} games graded"
+                 + (f" through Week {complete[-1]}" if complete else "")
+                 + "".join(f" · Week {wk} in progress" for wk in sorted(partial)),
         "stats": [
             _stat("Straight up", total["su"], judged=False),
             _stat("Against the spread", total["ats"]),
@@ -535,8 +541,9 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
                 "ou": graded_cell(g["ou_label"], g["ou_res"], g["ou_play"]),
                 "flagged": g["ats_play"] or g["ou_play"],
             })
-        line = [f"{r['n']} games", f"SU {_rec(r['su'])}", f"ATS {_rec(r['ats'])}",
-                f"O/U {_rec(r['ou'])}"]
+        games_text = (f"{r['n']} of {scheduled[wk]} games graded so far" if wk in partial
+                      else f"{r['n']} game{'s' * (r['n'] != 1)}")
+        line = [games_text, f"SU {_rec(r['su'])}", f"ATS {_rec(r['ats'])}", f"O/U {_rec(r['ou'])}"]
         plays = tuple(a + b for a, b in zip(r["spread_plays"], r["total_plays"]))
         if sum(plays):
             line.append(f"★ plays {_rec(plays)}")
@@ -548,9 +555,10 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
             "columns": game_cols,
             "rows": rows,
         }
-        slates.append(Slate(week_id(season, wk), f"Week {wk}", table))
+        label = f"Week {wk}" + (" (in progress)" if wk in partial else "")
+        slates.append(Slate(week_id(season, wk), label, table))
         by_week.append({
-            "week": {"v": f"Week {wk}", "sort": wk},
+            "week": {"v": label, "sort": wk},
             "games": r["n"],
             "su": _rec_cell(r["su"], judged=False),
             "ats": _rec_cell(r["ats"]),
@@ -576,9 +584,10 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
         ],
         "rows": by_week,
     }
-    # "All weeks" first in the dropdown; the view opens on the latest graded week.
+    # "All weeks" first in the dropdown; the view opens on the latest complete week.
+    opens = week_id(season, complete[-1]) if complete else slates[-1].id
     publish_slates(view_dir, [Slate(f"{season}-all", "All weeks", overview), *slates],
-                   season=season, latest=slates[-1].id, summary=summary)
+                   season=season, latest=opens, summary=summary)
     return total
 
 

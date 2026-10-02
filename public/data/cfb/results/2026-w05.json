@@ -1,0 +1,111 @@
+{
+  "subtitle": "2026 \u00b7 Week 5 \u2014 2 of 59 games graded so far \u00b7 SU 1\u20131 \u00b7 ATS 0\u20132 \u00b7 O/U 0\u20132 \u00b7 \u2605 plays 0\u20131",
+  "updated": "2026-10-02",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "SU Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "Western Kentucky",
+      "awayScore": "13",
+      "sep": "\u2013",
+      "homeScore": "34",
+      "homeTeam": "New Mexico State",
+      "proj": "29.8 \u2013 27.3",
+      "su": {
+        "v": "Western Kentucky \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Western Kentucky +1.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 55.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "North Texas",
+      "awayScore": "45",
+      "sep": "\u2013",
+      "homeScore": "44",
+      "homeTeam": "Tulsa",
+      "proj": "30.1 \u2013 26.5",
+      "su": {
+        "v": "North Texas \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "North Texas -2 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "UNDER 56.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    }
+  ]
+}

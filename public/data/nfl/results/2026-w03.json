@@ -1,0 +1,446 @@
+{
+  "subtitle": "2026 \u00b7 Week 3 \u2014 16 games \u00b7 SU 9\u20137 \u00b7 ATS 8\u20137\u20131 \u00b7 O/U 9\u20137 \u00b7 \u2605 plays 11\u20137\u20131",
+  "updated": "2026-10-02",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "SU Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "ATL",
+      "awayScore": "35",
+      "sep": "\u2013",
+      "homeScore": "14",
+      "homeTeam": "GB",
+      "proj": "20.7 \u2013 26.0",
+      "su": {
+        "v": "GB \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "ATL +6 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 43.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "LAC",
+      "awayScore": "16",
+      "sep": "\u2013",
+      "homeScore": "24",
+      "homeTeam": "BUF",
+      "proj": "19.5 \u2013 28.8",
+      "su": {
+        "v": "BUF \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 BUF -7 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "UNDER 50.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "CAR",
+      "awayScore": "18",
+      "sep": "\u2013",
+      "homeScore": "21",
+      "homeTeam": "CLE",
+      "proj": "19.3 \u2013 19.8",
+      "su": {
+        "v": "CLE \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 CLE +2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 UNDER 42.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "NYJ",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "31",
+      "homeTeam": "DET",
+      "proj": "21.3 \u2013 33.2",
+      "su": {
+        "v": "DET \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 DET -6.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 48.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "HOU",
+      "awayScore": "17",
+      "sep": "\u2013",
+      "homeScore": "19",
+      "homeTeam": "IND",
+      "proj": "24.8 \u2013 21.2",
+      "su": {
+        "v": "HOU \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "HOU -2.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 43.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "NE",
+      "awayScore": "6",
+      "sep": "\u2013",
+      "homeScore": "35",
+      "homeTeam": "JAX",
+      "proj": "20.7 \u2013 21.2",
+      "su": {
+        "v": "JAX \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 NE +3 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 UNDER 45.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "KC",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "10",
+      "homeTeam": "MIA",
+      "proj": "28.6 \u2013 21.6",
+      "su": {
+        "v": "KC \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 MIA +11.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 46.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "TEN",
+      "awayScore": "7",
+      "sep": "\u2013",
+      "homeScore": "12",
+      "homeTeam": "NYG",
+      "proj": "13.1 \u2013 19.2",
+      "su": {
+        "v": "NYG \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 NYG -3.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 UNDER 40.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "CIN",
+      "awayScore": "27",
+      "sep": "\u2013",
+      "homeScore": "30",
+      "homeTeam": "PIT",
+      "proj": "25.9 \u2013 19.1",
+      "su": {
+        "v": "CIN \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 CIN -3.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 42.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "SEA",
+      "awayScore": "31",
+      "sep": "\u2013",
+      "homeScore": "33",
+      "homeTeam": "WAS",
+      "proj": "24.1 \u2013 18.0",
+      "su": {
+        "v": "SEA \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "WAS +7 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 40.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "ARI",
+      "awayScore": "30",
+      "sep": "\u2013",
+      "homeScore": "36",
+      "homeTeam": "SF",
+      "proj": "17.9 \u2013 27.7",
+      "su": {
+        "v": "SF \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "SF -8.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "UNDER 47.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "MIN",
+      "awayScore": "23",
+      "sep": "\u2013",
+      "homeScore": "16",
+      "homeTeam": "TB",
+      "proj": "22.4 \u2013 22.6",
+      "su": {
+        "v": "TB \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "TB +1.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 42.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "BAL",
+      "awayScore": "34",
+      "sep": "\u2013",
+      "homeScore": "31",
+      "homeTeam": "DAL",
+      "proj": "32.4 \u2013 23.7",
+      "su": {
+        "v": "BAL \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 BAL -3 (push)",
+        "tone": "muted",
+        "sort": 0.5
+      },
+      "ou": {
+        "v": "\u2605 OVER 52.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "LV",
+      "awayScore": "35",
+      "sep": "\u2013",
+      "homeScore": "27",
+      "homeTeam": "NO",
+      "proj": "18.2 \u2013 24.8",
+      "su": {
+        "v": "NO \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 NO -3 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "UNDER 43.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "LAR",
+      "awayScore": "26",
+      "sep": "\u2013",
+      "homeScore": "30",
+      "homeTeam": "DEN",
+      "proj": "21.2 \u2013 20.5",
+      "su": {
+        "v": "LAR \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "DEN +2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 UNDER 45.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "PHI",
+      "awayScore": "7",
+      "sep": "\u2013",
+      "homeScore": "27",
+      "homeTeam": "CHI",
+      "proj": "22.7 \u2013 26.2",
+      "su": {
+        "v": "CHI \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 CHI +3 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 44.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    }
+  ]
+}

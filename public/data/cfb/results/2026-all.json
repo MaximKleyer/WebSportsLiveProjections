@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 \u00b7 record by week",
-  "updated": "2026-09-20",
+  "updated": "2026-10-02",
   "columns": [
     {
       "key": "week",
@@ -142,6 +142,66 @@
         "tone": "good"
       },
       "mae": 10.2
+    },
+    {
+      "week": {
+        "v": "Week 4",
+        "sort": 4
+      },
+      "games": 71,
+      "su": {
+        "v": "57\u201314 (80%)",
+        "sort": 0.8028
+      },
+      "ats": {
+        "v": "35\u201336 (49%)",
+        "sort": 0.493,
+        "tone": "bad"
+      },
+      "ou": {
+        "v": "32\u201339 (45%)",
+        "sort": 0.4507,
+        "tone": "bad"
+      },
+      "spreadPlays": {
+        "v": "15\u201320 (43%)",
+        "sort": 0.4286,
+        "tone": "bad"
+      },
+      "totalPlays": {
+        "v": "15\u201321 (42%)",
+        "sort": 0.4167,
+        "tone": "bad"
+      },
+      "mae": 12.7
+    },
+    {
+      "week": {
+        "v": "Week 5 (in progress)",
+        "sort": 5
+      },
+      "games": 2,
+      "su": {
+        "v": "1\u20131 (50%)",
+        "sort": 0.5
+      },
+      "ats": {
+        "v": "0\u20132 (0%)",
+        "sort": 0.0,
+        "tone": "bad"
+      },
+      "ou": {
+        "v": "0\u20132 (0%)",
+        "sort": 0.0,
+        "tone": "bad"
+      },
+      "spreadPlays": {
+        "v": "0\u20131 (0%)",
+        "sort": 0.0,
+        "tone": "bad"
+      },
+      "totalPlays": null,
+      "mae": 13.0
     }
   ]
 }
