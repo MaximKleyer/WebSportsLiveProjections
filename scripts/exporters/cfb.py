@@ -22,9 +22,9 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from site_export import (  # noqa: E402  (the site's shared export toolkit)
-    FLAGGED_FILTER, SITE_DATA, Slate, file_date, flag, index_files, num, pick_weeks,
-    publish_results, publish_slates, scoreboard, scoreboard_columns, spread, text, week_id,
-    write_table,
+    FLAGGED_FILTER, SITE_DATA, Slate, card_stats, file_date, flag, index_files, num,
+    pick_weeks, publish_results, publish_slates, scoreboard, scoreboard_columns, spread, text,
+    week_id, write_card, write_table,
 )
 
 MODEL_OUT = Path(r"C:\Users\maxim\CFB_Projection_Model\output")
@@ -237,9 +237,12 @@ def main() -> int:
         latest=week_id(season, opens),
     )
 
+    sources = [games[season][wk] for wk in publish]  # every model file this export read
+
     records = args.model_out / f"season_{season}_projected_records.csv"
     if records.exists():
         write_table(args.site_dir / "season.json", build_season(records, season))
+        sources.append(records)
     else:
         print(f"  [skip] no {records.name}")
 
@@ -247,12 +250,18 @@ def main() -> int:
     log = pd.read_csv(log_path) if log_path.exists() else pd.DataFrame()
     if "season" in log:
         log = log[log["season"] == season]
+    record = None
     if len(log):
-        publish_results(args.site_dir / "results",
-                        graded_games(log, _kickoffs(args.model_out, season)),
-                        season=season, updated=file_date(log_path), search=SEARCH)
+        record = publish_results(args.site_dir / "results",
+                                 graded_games(log, _kickoffs(args.model_out, season)),
+                                 season=season, updated=file_date(log_path), search=SEARCH)
+        sources.append(log_path)
     else:
         print(f"  [skip] no graded {season} games in results_log.csv")
+
+    write_card(args.site_dir, headline=f"Week {opens}",
+               updated=max(file_date(p) for p in sources),
+               stats=card_stats(record) if record else None)
     return 0
 
 

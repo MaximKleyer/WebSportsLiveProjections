@@ -95,10 +95,10 @@ export default function ProjectionSection({ sportId, view }) {
                 className="slate-select"
                 aria-label={`Select ${slate.manifest.unit ?? 'week'}`}
                 value={slate.selected ?? ''}
-                onChange={(e) => slate.setSelected(e.target.value)}
+                onChange={(e) => slate.select(e.target.value)}
               >
                 {slate.manifest.slates.map((s) => (
-                  <option key={s.file} value={s.file}>
+                  <option key={s.id} value={s.id}>
                     {s.label}
                   </option>
                 ))}

@@ -1,0 +1,317 @@
+{
+  "subtitle": "Thu Oct 1, 2026\u201327 \u2014 8 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
+  "updated": "2026-10-01",
+  "search": "Search teams or goalies",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "puck",
+      "label": "Fav -1.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "p_over_5.5",
+      "label": "Over 5.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "p_over_6.5",
+      "label": "Over 6.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-01T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "PHI",
+        "sub": "J. Woll 91%"
+      },
+      "awayScore": "2.7",
+      "sep": "\u2013",
+      "homeScore": "3.2",
+      "homeTeam": {
+        "v": "NJD",
+        "sub": "J. Allen 88%"
+      },
+      "homeWin": 0.5722,
+      "fair": "-134",
+      "puck": {
+        "v": "NJD 36%",
+        "sort": 0.3586
+      },
+      "total": {
+        "v": "5.87",
+        "sort": 5.87
+      },
+      "p_over_5.5": 0.5028,
+      "p_over_6.5": 0.3944,
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-01T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "TBL",
+        "sub": "A. Vasilevskiy 84%"
+      },
+      "awayScore": "3.0",
+      "sep": "\u2013",
+      "homeScore": "2.8",
+      "homeTeam": {
+        "v": "NYR",
+        "sub": "I. Shesterkin 68%"
+      },
+      "homeWin": 0.4652,
+      "fair": "+115",
+      "puck": {
+        "v": "TBL 33%",
+        "sort": 0.3278
+      },
+      "total": {
+        "v": "5.87",
+        "sort": 5.87
+      },
+      "p_over_5.5": 0.5025,
+      "p_over_6.5": 0.3947,
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-01T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "BUF",
+        "sub": "U. Luukkonen 52%"
+      },
+      "awayScore": "3.1",
+      "sep": "\u2013",
+      "homeScore": "3.1",
+      "homeTeam": {
+        "v": "CBJ",
+        "sub": "J. Greaves 69%"
+      },
+      "homeWin": 0.5077,
+      "fair": "-103",
+      "puck": {
+        "v": "CBJ 31%",
+        "sort": 0.3114
+      },
+      "total": {
+        "v": "6.22",
+        "sort": 6.22
+      },
+      "p_over_5.5": 0.5608,
+      "p_over_6.5": 0.453,
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-02T00:00:00Z"
+      },
+      "awayTeam": {
+        "v": "MIN",
+        "sub": "J. Wallstedt 86%"
+      },
+      "awayScore": "3.3",
+      "sep": "\u2013",
+      "homeScore": "3.1",
+      "homeTeam": {
+        "v": "NSH",
+        "sub": "J. Saros 66%"
+      },
+      "homeWin": 0.4678,
+      "fair": "+114",
+      "puck": {
+        "v": "MIN 33%",
+        "sort": 0.3332
+      },
+      "total": {
+        "v": "6.33",
+        "sort": 6.33
+      },
+      "p_over_5.5": 0.5785,
+      "p_over_6.5": 0.471,
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "9:00 PM",
+        "sort": "2026-10-02T01:00:00Z"
+      },
+      "awayTeam": {
+        "v": "SEA",
+        "sub": "J. Daccord 58%"
+      },
+      "awayScore": "3.0",
+      "sep": "\u2013",
+      "homeScore": "3.1",
+      "homeTeam": {
+        "v": "CGY",
+        "sub": "D. Wolf 62%"
+      },
+      "homeWin": 0.5171,
+      "fair": "-107",
+      "puck": {
+        "v": "CGY 32%",
+        "sort": 0.3166
+      },
+      "total": {
+        "v": "6.08",
+        "sort": 6.08
+      },
+      "p_over_5.5": 0.5373,
+      "p_over_6.5": 0.4293,
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "9:30 PM",
+        "sort": "2026-10-02T01:30:00Z"
+      },
+      "awayTeam": {
+        "v": "CHI",
+        "sub": "S. Knight 70%"
+      },
+      "awayScore": "2.8",
+      "sep": "\u2013",
+      "homeScore": "3.5",
+      "homeTeam": {
+        "v": "UTA",
+        "sub": "K. Vejmelka 100%"
+      },
+      "homeWin": 0.6272,
+      "fair": "-168",
+      "puck": {
+        "v": "UTA 41%",
+        "sort": 0.4147
+      },
+      "total": {
+        "v": "6.31",
+        "sort": 6.31
+      },
+      "p_over_5.5": 0.5774,
+      "p_over_6.5": 0.4677,
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-02T02:00:00Z"
+      },
+      "awayTeam": {
+        "v": "EDM",
+        "sub": "F. Andersen 66%"
+      },
+      "awayScore": "3.6",
+      "sep": "\u2013",
+      "homeScore": "2.9",
+      "homeTeam": {
+        "v": "VAN",
+        "sub": "K. Lankinen 82%"
+      },
+      "homeWin": 0.3822,
+      "fair": "+162",
+      "puck": {
+        "v": "EDM 41%",
+        "sort": 0.4099
+      },
+      "total": {
+        "v": "6.54",
+        "sort": 6.54
+      },
+      "p_over_5.5": 0.6123,
+      "p_over_6.5": 0.5045,
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-02T02:00:00Z"
+      },
+      "awayTeam": {
+        "v": "FLA",
+        "sub": "A. Schmid 79%"
+      },
+      "awayScore": "3.3",
+      "sep": "\u2013",
+      "homeScore": "3.0",
+      "homeTeam": {
+        "v": "SJS",
+        "sub": "Y. Askarov 51%"
+      },
+      "homeWin": 0.4509,
+      "fair": "+122",
+      "puck": {
+        "v": "FLA 35%",
+        "sort": 0.3456
+      },
+      "total": {
+        "v": "6.23",
+        "sort": 6.23
+      },
+      "p_over_5.5": 0.5624,
+      "p_over_6.5": 0.4543,
+      "flagged": false
+    }
+  ]
+}

@@ -479,6 +479,70 @@ button {
   margin: 0;
 }
 
+/* Live line on a live sport's card (data/<sport>/card.json): what's out
+   now, when the model last ran, and its season record */
+.sport-card__live {
+  min-height: 6.7rem; /* its loaded height, reserved while card.json loads so the grid doesn't jump */
+  padding-top: var(--space-4);
+  border-top: 1px dashed var(--border);
+}
+
+.sport-card__headline {
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.sport-card__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-8);
+  margin: 0;
+}
+
+.sport-card__stat dt {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.sport-card__stat dd {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: var(--space-1) 0 0;
+}
+
+.sport-card__stat-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.sport-card__stat-detail {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+.sport-card__stat--good .sport-card__stat-detail {
+  color: var(--good);
+}
+
+.sport-card__stat--bad .sport-card__stat-detail {
+  color: var(--bad);
+}
+
 .sport-card__cta {
   display: flex;
   justify-content: space-between;
@@ -896,6 +960,17 @@ button {
   border-bottom: 1px solid var(--border);
   color: var(--text);
   white-space: nowrap;
+  /* First lines line up across a row when a cell carries a second (sub) line */
+  vertical-align: baseline;
+}
+
+/* A cell's second, smaller line — e.g. a team's likely starting goalie */
+.proj-table__sub {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.72rem;
+  font-weight: 300;
+  color: var(--text-mute);
 }
 
 .proj-table__row:hover .proj-table__td {

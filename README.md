@@ -4,7 +4,7 @@ Weekly sports projections and models across NFL, NBA, MLB, NHL, College Football
 
 **Live:** https://maximkleyer.github.io/WebSportsLiveProjections/
 
-## Updating the data (NFL + CFB are wired up)
+## Updating the data (NFL, CFB and NHL are wired up)
 
 The models stay pure: each one just writes its CSVs. This repo holds a thin
 adapter per model (`scripts/exporters/<sport>.py`) that turns those CSVs into
@@ -12,8 +12,9 @@ the site's JSON through a shared toolkit (`scripts/site_export.py`). One
 command refreshes everything:
 
 ```powershell
-.\scripts\update-data.ps1                   # re-export whatever the models last produced
-.\scripts\update-data.ps1 -Predict -Week 3  # run both models for week 3, then export
+.\scripts\update-data.ps1                          # re-export whatever the models last produced
+.\scripts\update-data.ps1 -Predict -Week 3         # run every model (football for week 3), then export
+.\scripts\update-data.ps1 -Sport nhl -Predict      # NHL: next game day, season sim, power rankings
 ```
 
 It runs each adapter with that model's own venv Python, then validates every
@@ -25,8 +26,10 @@ The **Results** tab comes from each model's `results_log.csv`, so after
 grading (`python -m nfl_projector_v1 grade --season 2026 --week N`,
 `python -m cfb_model.grade --week N`) the same script refreshes it.
 
-Model repos: `C:\Users\maxim\NFLProjectionModel\nfl_projector_v1` and
-`C:\Users\maxim\CFB_Projection_Model`.
+Model repos: `C:\Users\maxim\NFLProjectionModel\nfl_projector_v1`,
+`C:\Users\maxim\CFB_Projection_Model` and `C:\Users\maxim\NHL_Projection_Model`
+(the NHL adapter also reads goalie names from the game-centre pages that
+model caches under `data/raw/`).
 
 ## Adding a model
 
@@ -47,7 +50,7 @@ loading / empty / error states. No per-sport rendering code.
 Model output is plain static JSON under `public/data/<sport>/` — no backend.
 `scripts/site_export.py` documents and enforces it.
 
-**Tables** — single-file views (`season.json`) and every slate:
+**Tables** — single-file views (`season.json`, `rankings.json`) and every slate:
 
 ```json
 {
@@ -69,9 +72,10 @@ Model output is plain static JSON under `public/data/<sport>/` — no backend.
 
 - `format`: `percent` (expects 0–1) or `number`; `align`: `left` (default),
   `right`, `center`; `sortable: true` makes the header clickable.
-- A cell is a plain value or `{ "v", "tone"?, "sort"? }` — `tone` is `good` /
-  `bad` / `muted` (hit / miss / push); `sort` is what the column orders by
-  when the shown text isn't (a kickoff time, an edge size).
+- A cell is a plain value or `{ "v", "tone"?, "sort"?, "sub"? }` — `tone` is
+  `good` / `bad` / `muted` (hit / miss / push); `sort` is what the column
+  orders by when the shown text isn't (a kickoff time, an edge size); `sub` is
+  a second, smaller line under the value (the NHL's likely starting goalie).
 - `search` (placeholder text) adds a search box; `filters` add toggles that
   keep rows whose `row[field]` is truthy. Rows may carry such extra fields.
 - `"groupBy": "<row field>"` (e.g. `"division"`) renders one sub-table per
@@ -98,3 +102,19 @@ per *slate* — a football week, an MLB day — plus a manifest the dropdown rea
 
 A manifest may carry a `summary` too — the Results tab's season-to-date
 record lives there.
+
+**Landing card** — each live sport's card shows a live line from
+`public/data/<sport>/card.json` (written by its adapter via `write_card`):
+
+```json
+{ "headline": "Week 4", "updated": "2026-09-25",
+  "stats": [{ "label": "Season ATS", "value": "130–126–3", "detail": "50.8%", "tone": "bad" }] }
+```
+
+## Links
+
+Every view has a shareable URL: the open tab and slate live in the address,
+e.g. `#/cfb?tab=results&week=2026-w03` or `#/nhl?day=2026-10-01` (`tab` is
+the view type — `games`, `season`, `results`, `rankings`; the slate parameter
+is the manifest's `unit`). A missing or unknown value falls back to the
+default tab / latest slate.

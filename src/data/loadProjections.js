@@ -25,6 +25,11 @@ export function loadProjections(sportId, viewType) {
   return loadJson(`data/${sportId}/${viewType}.json`);
 }
 
+// The live line on a sport's landing card: data/<sportId>/card.json.
+export function loadCard(sportId) {
+  return loadJson(`data/${sportId}/card.json`);
+}
+
 export function loadSlateIndex(sportId, viewType) {
   return loadJson(`data/${sportId}/${viewType}/index.json`);
 }

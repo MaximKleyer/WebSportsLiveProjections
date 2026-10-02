@@ -4,10 +4,11 @@ import { useState } from 'react';
 // through this one component so the six sports never drift in look/behavior.
 //   columns  [{ key, label, align?: 'left'|'right'|'center',
 //              format?: 'percent'|'number', sortable? }]
-//   rows     [{ <key>: cell }] — a cell is a plain value, or { v, tone?, sort? }:
+//   rows     [{ <key>: cell }] — a cell is a plain value, or { v, tone?, sort?, sub? }:
 //            tone ('good' | 'bad' | 'muted') colors it (a graded pick: hit /
 //            miss / push); sort is what the column orders by when the shown
-//            text isn't (a kickoff time, an edge size)
+//            text isn't (a kickoff time, an edge size); sub is a second, smaller
+//            line under the value (a team's likely goalie)
 //   groupBy  a row field (e.g. "division") — one sub-table per distinct value,
 //            in row order, under an accent-colored header; rows carry the
 //            field, it needs no column
@@ -19,7 +20,9 @@ import { useState } from 'react';
 // then back to the model's own order. Grouped tables sort within each group.
 
 function splitCell(cell) {
-  return cell !== null && typeof cell === 'object' ? [cell.v, cell.tone] : [cell, null];
+  return cell !== null && typeof cell === 'object'
+    ? { value: cell.v, tone: cell.tone, sub: cell.sub }
+    : { value: cell, tone: null, sub: null };
 }
 
 function formatCell(value, format) {
@@ -62,7 +65,10 @@ function sortRows(rows, key, dir) {
 }
 
 function searchText(row, columns, groupBy) {
-  const parts = columns.map((c) => splitCell(row[c.key])[0]);
+  const parts = columns.flatMap((c) => {
+    const { value, sub } = splitCell(row[c.key]);
+    return [value, sub];
+  });
   if (groupBy) parts.push(row[groupBy]);
   return parts.filter((p) => !isBlank(p)).join(' ').toLowerCase();
 }
@@ -105,7 +111,7 @@ export default function ProjectionTable({
   const renderRow = (row) => (
     <tr key={rowIndex.get(row)} className="proj-table__row">
       {columns.map((col) => {
-        const [value, tone] = splitCell(row[col.key]);
+        const { value, tone, sub } = splitCell(row[col.key]);
         return (
           <td
             key={col.key}
@@ -114,6 +120,7 @@ export default function ProjectionTable({
             }`}
           >
             {formatCell(value, col.format)}
+            {sub && <span className="proj-table__sub">{sub}</span>}
           </td>
         );
       })}

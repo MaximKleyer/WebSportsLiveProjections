@@ -64,6 +64,12 @@ export const VIEW_TYPES = {
     // the manifest's `summary` holds the season-to-date record tiles.
     slates: true,
   },
+  rankings: {
+    label: 'Power Rankings',
+    short: 'RANKINGS',
+    blurb:
+      'Every team ranked by the model’s current ratings, with the components behind them.',
+  },
 };
 
 // A view's display text: the VIEW_TYPES defaults, which a sport may override
@@ -134,10 +140,22 @@ export const SPORTS = [
     id: 'nhl',
     name: 'NHL',
     subtitle: 'Lines + GSAX-driven model',
-    status: 'in-dev',
+    status: 'live',
     accent: '#6bb6e8',
-    year: '2025–26',
-    views: views({ games: 'in-dev' }),
+    year: '2026–27',
+    // Hockey plays every day, so its games view is a daily slate.
+    views: [
+      {
+        type: 'games',
+        status: 'live',
+        short: 'DAILY',
+        label: 'Daily Game Projections',
+        blurb:
+          'Expected score, win probability, puck line and totals for every game, day by day — with each side’s likely starting goalie.',
+      },
+      { type: 'season', status: 'live' },
+      { type: 'rankings', status: 'live' },
+    ],
   },
   {
     id: 'cfb',

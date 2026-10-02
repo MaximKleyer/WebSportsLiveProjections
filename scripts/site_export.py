@@ -9,10 +9,13 @@ Stdlib only, so CI can run the check below without the models' packages.
               columns: [{ key, label, align?, format?, sortable? }],
               rows: [{ <column key or row field>: cell }] }
             cell: a plain value (str / number / bool / null) or
-                  { v, tone?: good|bad|muted, sort?: number|str }
+                  { v, tone?: good|bad|muted, sort?: number|str, sub?: str }
+                  (sub: a second, smaller line - e.g. a team's likely goalie)
   manifest  { season, label, unit, latest, summary?,
               slates: [{ id, label, file }] }      the index.json of a slate view
   summary   { title?, stats: [{ label, value, detail?, tone? }], note? }
+  card      { headline, updated?, stats?: [...] }  <sport>/card.json - the live
+                                                    line on its landing card
 
 A "slate" is one selectable table in a view: a football week, an MLB day.
 Every write is validated, so a bad export fails here instead of on the site.
@@ -140,7 +143,7 @@ def _check_cell(cell, where):
         return
     if "v" not in cell:
         raise ContractError(f"{where}: an object cell needs a 'v'")
-    extra = set(cell) - {"v", "tone", "sort"}
+    extra = set(cell) - {"v", "tone", "sort", "sub"}
     if extra:
         raise ContractError(f"{where}: unknown cell field(s) {sorted(extra)}")
     if cell.get("tone") is not None and cell["tone"] not in TONES:
@@ -148,6 +151,7 @@ def _check_cell(cell, where):
     _check_scalar(cell["v"], where)
     if "sort" in cell:
         _check_scalar(cell["sort"], f"{where} (sort)")
+    _check_str(cell, "sub", where)
 
 
 def _check_str(obj: dict, key: str, where: str, required=False):
@@ -158,6 +162,16 @@ def _check_str(obj: dict, key: str, where: str, required=False):
         raise ContractError(f"{where}: '{key}' must be a string")
 
 
+def _check_stat(stat, where):
+    if not isinstance(stat, dict):
+        raise ContractError(f"{where}: not an object")
+    _check_str(stat, "label", where, required=True)
+    _check_str(stat, "value", where, required=True)
+    _check_str(stat, "detail", where)
+    if stat.get("tone") is not None and stat["tone"] not in TONES:
+        raise ContractError(f"{where}: tone {stat['tone']!r} is not one of {sorted(TONES)}")
+
+
 def check_summary(s, where="summary"):
     stats = s.get("stats") if isinstance(s, dict) else None
     if not isinstance(stats, list) or not stats:
@@ -165,14 +179,19 @@ def check_summary(s, where="summary"):
     for key in ("title", "note"):
         _check_str(s, key, where)
     for i, stat in enumerate(stats):
-        sw = f"{where} stat {i}"
-        if not isinstance(stat, dict):
-            raise ContractError(f"{sw}: not an object")
-        _check_str(stat, "label", sw, required=True)
-        _check_str(stat, "value", sw, required=True)
-        _check_str(stat, "detail", sw)
-        if stat.get("tone") is not None and stat["tone"] not in TONES:
-            raise ContractError(f"{sw}: tone {stat['tone']!r} is not one of {sorted(TONES)}")
+        _check_stat(stat, f"{where} stat {i}")
+
+
+def check_card(c, where="card.json"):
+    if not isinstance(c, dict):
+        raise ContractError(f"{where}: not an object")
+    _check_str(c, "headline", where, required=True)
+    _check_str(c, "updated", where)
+    stats = c.get("stats", [])
+    if not isinstance(stats, list):
+        raise ContractError(f"{where}: 'stats' must be a list")
+    for i, stat in enumerate(stats):
+        _check_stat(stat, f"{where} stat {i}")
 
 
 def check_table(t, where="table"):
@@ -274,6 +293,18 @@ def write_table(path: Path, table: dict):
     print(f"  wrote {_rel(path):24s} ({len(table['rows'])} rows)")
 
 
+def write_card(site_dir: Path, *, headline: str, updated: str | None = None,
+               stats: list[dict] | None = None):
+    """The live line on the sport's landing card (<sport>/card.json): what's
+    out now, when the model last ran, and its record (card_stats)."""
+    card = {"headline": headline, **({"updated": updated} if updated else {}),
+            **({"stats": stats} if stats else {})}
+    path = site_dir / "card.json"
+    check_card(card, _rel(path))
+    _dump(path, card)
+    print(f"  wrote {_rel(path):24s} ({headline}{f', updated {updated}' if updated else ''})")
+
+
 class Slate(NamedTuple):
     """One selectable table in a slate view: a football week, an MLB day."""
 
@@ -283,16 +314,16 @@ class Slate(NamedTuple):
 
 
 def publish_slates(view_dir: Path, slates: list[Slate], *, season: int, latest: str,
-                   unit: str = "week", summary: dict | None = None):
+                   unit: str = "week", label: str | None = None, summary: dict | None = None):
     """Write each slate's table and the view's index.json (opening on slate
     `latest`), then delete any table the manifest no longer lists - the
-    directory belongs to this view."""
+    directory belongs to this view. `label` defaults to '<season> Season'."""
     view_dir.mkdir(parents=True, exist_ok=True)
     for s in slates:
         write_table(view_dir / f"{s.id}.json", s.table)
     manifest = {
         "season": season,
-        "label": f"{season} Season",
+        "label": label or f"{season} Season",
         "unit": unit,
         "latest": f"{latest}.json",
         **({"summary": summary} if summary else {}),
@@ -448,10 +479,19 @@ def graded_cell(label, result, play=False):
     return shown
 
 
+def card_stats(record: dict) -> list[dict]:
+    """A sport's landing-card numbers from its season record (what
+    publish_results returns): ATS, and every flagged play with units won."""
+    plays = tuple(a + b for a, b in zip(record["spread_plays"], record["total_plays"]))
+    return [_stat("Season ATS", record["ats"])] + (
+        [_stat("★ Plays", plays, units=True)] if sum(plays) else [])
+
+
 def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: str,
-                    search: str | None = None):
+                    search: str | None = None) -> dict:
     """Write a results view: the season record (manifest summary tiles), an
-    'All weeks' record-by-week table, and one slate per graded week."""
+    'All weeks' record-by-week table, and one slate per graded week.
+    Returns the season record, for card_stats."""
     if not games:
         raise ContractError(f"{view_dir}: no graded games to publish")
     games = sorted((_clean(g) for g in games), key=lambda g: (int(g["week"]), g["order"]))
@@ -539,6 +579,7 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
     # "All weeks" first in the dropdown; the view opens on the latest graded week.
     publish_slates(view_dir, [Slate(f"{season}-all", "All weeks", overview), *slates],
                    season=season, latest=slates[-1].id, summary=summary)
+    return total
 
 
 # --------------------------------------------------------------------------
@@ -554,6 +595,8 @@ def check_all(data_dir: Path = SITE_DATA) -> int:
             payload = json.loads(path.read_text(encoding="utf-8-sig"))
             if path.name == "index.json":
                 check_manifest(payload, rel, path.parent)
+            elif path.name == "card.json":
+                check_card(payload, rel)
             else:
                 check_table(payload, rel)
             checked += 1
