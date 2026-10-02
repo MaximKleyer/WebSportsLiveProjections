@@ -8,6 +8,8 @@ it caches under data/raw/ - and writes public/data/nhl/:
                                                 (+ <date>_bets.csv: flagged bets)
     season.json     standings + playoff odds    outputs/season_sim.csv
     rankings.json   power rankings              outputs/power_rankings.csv
+    results/        those daily predictions     final scores + settled bets from the
+                    graded, one slate per day   model's database (data/nhl.sqlite, read-only)
     card.json       the landing card's line
 
 scripts/update-data.ps1 runs this with the model's own venv Python (pandas):
@@ -19,9 +21,12 @@ from __future__ import annotations
 import argparse
 import gzip
 import json
+import math
 import re
+import sqlite3
 import sys
 from datetime import date
+from itertools import groupby
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -29,7 +34,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from site_export import (  # noqa: E402  (the site's shared export toolkit)
-    FLAGGED_FILTER, SITE_DATA, Slate, file_date, num, publish_slates, scoreboard,
+    FLAGGED_FILTER, SITE_DATA, Slate, file_date, graded_cell, num, publish_slates, scoreboard,
     scoreboard_columns, text, write_card, write_table,
 )
 
@@ -282,6 +287,274 @@ def build_rankings(path: Path, season: int, trend_days: int | None) -> dict:
     }
 
 
+# --------------------------------------------------------------------------
+# results: the published daily predictions graded against final scores
+# --------------------------------------------------------------------------
+# Graded the way the model grades itself (core/eval/metrics.py): accuracy (the
+# side given over 50% won; exactly 50% scores half), log loss and Brier on the
+# calibrated win probability, and totals MAE (expected goals in the final
+# score - OT/SO winner +1 - against the actual total). With no betting line to
+# pick against, totals are also graded as leans: the side of 5.5 / 6.5 the
+# model gives over 50%. Settled bets (`nhl settle`) are added once there are any.
+COIN_FLIP = {"log_loss": math.log(2), "brier": 0.25}
+LEAN_LINES = (5.5, 6.5)
+BET_RESULT = {"win": "W", "loss": "L", "push": "P"}
+
+
+def read_results(model: Path, season: int) -> tuple[dict[int, tuple], dict[int, list[dict]]]:
+    """From the model's database (opened read-only): game_id -> (away goals,
+    home goals, REG/OT/SO) for the season's finished games, and pred_id -> its
+    settled bets."""
+    path = model / "data" / "nhl.sqlite"
+    if not path.exists():
+        return {}, {}
+    con = sqlite3.connect(f"{path.as_uri()}?mode=ro", uri=True)
+    con.row_factory = sqlite3.Row
+    try:
+        finals = {r["game_id"]: (r["away_score"], r["home_score"], r["end_type"]) for r in con.execute(
+            "SELECT game_id, away_score, home_score, end_type FROM games "
+            "WHERE season = ? AND home_score IS NOT NULL", (season * 10000 + season + 1,))}
+        bets: dict[int, list[dict]] = {}
+        for r in con.execute("SELECT pred_id, market, side, line, price, stake, result, clv FROM bets "
+                             "WHERE result IS NOT NULL"):
+            bets.setdefault(r["pred_id"], []).append(dict(r))
+    finally:
+        con.close()
+    return finals, bets
+
+
+def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
+                 bets: dict) -> list[dict]:
+    """Every published prediction whose game has finished, each pick graded."""
+    games = []
+    for day in days:
+        for d in frames[day].to_dict("records"):
+            p = num(d.get("p_home_win"), 6)
+            final = finals.get(int(d["game_id"]))
+            if p is None or final is None:
+                continue  # no pre-game prediction, or not played yet
+            away_goals, home_goals, end = final
+            away, home = text(d.get("away")), text(d.get("home"))
+            home_won, y = home_goals > away_goals, float(home_goals > away_goals)
+            pick = None if p == 0.5 else (home if p > 0.5 else away)
+            q = min(max(p, 1e-15), 1 - 1e-15)  # keeps log() finite, as the model's metric does
+            total, expected = away_goals + home_goals, num(d.get("expected_total"), 4)
+            leans = {}
+            for line in LEAN_LINES:
+                p_over = num(d.get(f"p_over_{line:g}"), 4)
+                if p_over is None or p_over == 0.5:
+                    continue
+                over = p_over > 0.5
+                result = "P" if total == line else ("W" if (total > line) == over else "L")
+                leans[line] = (f"{'OVER' if over else 'UNDER'} {max(p_over, 1 - p_over):.0%}", result)
+            games.append({
+                "day": day,
+                "order": text(d.get("start_ts")) or "",
+                "away": away,
+                "home": home,
+                "away_goals": away_goals,
+                "home_goals": home_goals,
+                "end": end,
+                "proj_away": num(d.get("away_goals")),
+                "proj_home": num(d.get("home_goals")),
+                "pick": pick,
+                "pick_p": max(p, 1 - p),
+                "pick_res": None if pick is None else ("W" if (pick == home) == home_won else "L"),
+                "accuracy": 0.5 if pick is None else float((pick == home) == home_won),
+                "log_loss": -(y * math.log(q) + (1 - y) * math.log(1 - q)),
+                "brier": (p - y) ** 2,
+                "total": total,
+                "expected_total": expected,
+                "total_err": None if expected is None else expected - total,
+                "leans": leans,
+                "bets": [(b, BET_RESULT.get(text(b.get("result")))) for b in bets.get(d.get("pred_id"), [])],
+            })
+    return games
+
+
+def _tally(results) -> tuple[int, int, int]:
+    results = list(results)
+    return results.count("W"), results.count("L"), results.count("P")
+
+
+def _rec(t) -> str:
+    w, l, p = t
+    return f"{w}–{l}" + (f"–{p}" if p else "")
+
+
+def _profit(bet: dict, result: str | None) -> float:
+    """A settled bet's profit, in the stake's units, at its American price."""
+    stake, price = num(bet.get("stake"), 6) or 0.0, num(bet.get("price"), 0)
+    if result == "W" and price:
+        return stake * (price / 100 if price > 0 else 100 / -price)
+    return -stake if result == "L" else 0.0
+
+
+def _numbers(games: list[dict]) -> dict:
+    """The model's own metrics, plus lean and bet records, for a set of graded games."""
+    n = len(games)
+    errs = [g["total_err"] for g in games if g["total_err"] is not None]
+    settled = [(b, res) for g in games for b, res in g["bets"] if res]
+    staked = sum(num(b.get("stake"), 6) or 0.0 for b, _ in settled)
+    clvs = [c for b, _ in settled if (c := num(b.get("clv"), 6)) is not None]
+    return {
+        "n": n,
+        "su": _tally(g["pick_res"] for g in games),
+        "accuracy": sum(g["accuracy"] for g in games) / n,
+        "log_loss": sum(g["log_loss"] for g in games) / n,
+        "brier": sum(g["brier"] for g in games) / n,
+        "mae": sum(abs(e) for e in errs) / len(errs) if errs else None,
+        "leans": {line: _tally(g["leans"][line][1] for g in games if line in g["leans"])
+                  for line in LEAN_LINES},
+        "bets": _tally(res for _, res in settled),
+        "roi": sum(_profit(b, res) for b, res in settled) / staked if staked else None,
+        "clv": sum(clvs) / len(clvs) if clvs else None,
+    }
+
+
+def _vs_half(t, rate=None) -> dict | None:
+    """'5–3 (63%)' toned against picking at random; None when nothing was picked."""
+    w, l, _ = t
+    if rate is None:
+        rate = w / (w + l) if (w + l) else None
+    if rate is None:
+        return None
+    cell = {"v": f"{_rec(t)} ({rate:.0%})", "sort": round(rate, 4)}
+    if rate != 0.5:
+        cell["tone"] = "good" if rate > 0.5 else "bad"
+    return cell
+
+
+def _lower_better(value: float, metric: str, digits: int = 3) -> dict:
+    """A log loss / Brier score toned against a coin flip (lower is better)."""
+    return {"v": f"{value:.{digits}f}", "sort": round(value, 6),
+            "tone": "good" if value < COIN_FLIP[metric] else "bad"}
+
+
+def _backtest(model: Path) -> dict | None:
+    """The model's walk-forward backtest (the 'Model' row of 'All scored seasons'
+    in outputs/backtest_report.md): what live results should look like."""
+    try:
+        report = (model / "outputs" / "backtest_report.md").read_text(encoding="utf-8")
+    except OSError:
+        return None
+    m = re.search(r"^\| Model \| [\d,]+ \| ([\d.]+) \| ([\d.]+) \| ([\d.]+)% \| [^|]+\| [^|]+\| ([\d.]+) \|",
+                  report, re.M)
+    return None if not m else {"log_loss": float(m[1]), "brier": float(m[2]),
+                               "accuracy": float(m[3]) / 100, "mae": float(m[4])}
+
+
+def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: str,
+                    backtest: dict | None) -> dict:
+    """Write the NHL results view - season-to-date tiles, an 'All days' table,
+    one slate per day - and return the season's numbers (for the card)."""
+    games = sorted(games, key=lambda g: (g["day"], g["order"]))
+    total = _numbers(games)
+    stats = [
+        {"label": "Straight up", "value": _rec(total["su"]), "detail": f"{total['accuracy']:.1%}",
+         **({"tone": "good" if total["accuracy"] > 0.5 else "bad"} if total["accuracy"] != 0.5 else {})},
+        {"label": "Log loss", "value": f"{total['log_loss']:.3f}", "detail": "coin flip 0.693",
+         "tone": "good" if total["log_loss"] < COIN_FLIP["log_loss"] else "bad"},
+        {"label": "Brier score", "value": f"{total['brier']:.3f}", "detail": "coin flip 0.250",
+         "tone": "good" if total["brier"] < COIN_FLIP["brier"] else "bad"},
+        {"label": "Totals MAE", "value": "—" if total["mae"] is None else f"{total['mae']:.2f}",
+         "detail": "avg miss, goals"},
+    ]
+    if sum(total["bets"]):
+        roi, clv = total["roi"], total["clv"]
+        stats.append({"label": "★ Bets", "value": _rec(total["bets"]),
+                      "detail": " · ".join(x for x in (
+                          None if roi is None else f"ROI {roi:+.1%}",
+                          None if clv is None else f"CLV {clv:+.1%}") if x) or "—",
+                      **({"tone": "good" if roi > 0 else "bad"} if roi else {})})
+    bt = "" if not backtest else (
+        f" Backtest, 2022–23 to 2025–26: {backtest['accuracy']:.1%} straight up, log loss "
+        f"{backtest['log_loss']:.3f}, Brier {backtest['brier']:.3f}, totals MAE {backtest['mae']:.2f}.")
+    summary = {
+        "title": f"{_season_label(season)} season to date · {total['n']} games graded",
+        "stats": stats,
+        "note": "Graded the way the model grades itself: straight up is the side given over 50%; log "
+                "loss and Brier score the win probability (lower is better); totals compare the "
+                "expected goals in the final score (OT/SO winner +1) with the actual total. O/U leans "
+                "are the side of 5.5 / 6.5 the model gives over 50%." + bt,
+    }
+
+    any_bets = any(g["bets"] for g in games)
+    lean_key = {line: f"ou{line:g}".replace(".", "") for line in LEAN_LINES}  # 5.5 -> 'ou55'
+    game_cols = scoreboard_columns("Final") + [
+        {"key": "proj", "label": "Proj.", "align": "right"},
+        {"key": "pick", "label": "Win Pick", "align": "right", "sortable": True},
+        {"key": "total", "label": "Total: proj → final", "align": "right", "sortable": True},
+        *({"key": lean_key[line], "label": f"O/U {line:g}", "align": "right", "sortable": True}
+          for line in LEAN_LINES),
+        *([{"key": "bet", "label": "Bet", "align": "right", "sortable": True}] if any_bets else []),
+    ]
+    slates, by_day = [], []
+    for day, day_games in groupby(games, key=lambda g: g["day"]):
+        day_games = list(day_games)
+        r = _numbers(day_games)
+        rows = []
+        for g in day_games:
+            pa, ph, err = g["proj_away"], g["proj_home"], g["total_err"]
+            bet_cells = [graded_cell(f"★ {_bet_label(b, g['away'], g['home'])}", res) for b, res in g["bets"]]
+            rows.append({
+                **scoreboard(g["away"], g["home"], g["away_goals"], g["home_goals"], digits=0),
+                "sep": g["end"] if g["end"] in ("OT", "SO") else "–",
+                "proj": None if pa is None or ph is None else f"{pa:.1f} – {ph:.1f}",
+                "pick": None if g["pick"] is None else graded_cell(f"{g['pick']} {g['pick_p']:.0%}",
+                                                                   g["pick_res"]),
+                "total": None if err is None else {"v": f"{g['expected_total']:.2f} → {g['total']}",
+                                                   "sort": round(abs(err), 4)},
+                **{lean_key[line]: graded_cell(*g["leans"][line]) for line in g["leans"]},
+                **({"bet": bet_cells[0]} if bet_cells else {}),
+                "flagged": bool(g["bets"]),
+            })
+        line = [f"{r['n']} games", f"straight up {_rec(r['su'])}", f"log loss {r['log_loss']:.3f}"]
+        if r["mae"] is not None:
+            line.append(f"totals MAE {r['mae']:.2f}")
+        slates.append(Slate(day, _day_label(day), {
+            "subtitle": f"{_day_label(day)}, {_season_label(season)} — " + " · ".join(line),
+            "updated": updated,
+            "search": "Search teams",
+            **({"filters": [{**FLAGGED_FILTER, "label": "★ bets only"}]}
+               if any(row["flagged"] for row in rows) else {}),
+            "columns": game_cols,
+            "rows": rows,
+        }))
+        by_day.append({
+            "day": {"v": _day_label(day), "sort": day},
+            "games": r["n"],
+            "su": _vs_half(r["su"], r["accuracy"]),
+            "logLoss": _lower_better(r["log_loss"], "log_loss"),
+            "brier": _lower_better(r["brier"], "brier"),
+            "mae": None if r["mae"] is None else {"v": f"{r['mae']:.2f}", "sort": round(r["mae"], 4)},
+            **{lean_key[line]: _vs_half(r["leans"][line]) for line in LEAN_LINES},
+            **({"bets": _vs_half(r["bets"])} if any_bets else {}),
+        })
+
+    overview = {
+        "subtitle": f"{_season_label(season)} · record by day",
+        "updated": updated,
+        "columns": [
+            {"key": "day", "label": "Day", "sortable": True},
+            {"key": "games", "label": "Games", "align": "right"},
+            {"key": "su", "label": "Straight up", "align": "right", "sortable": True},
+            {"key": "logLoss", "label": "Log loss", "align": "right", "sortable": True},
+            {"key": "brier", "label": "Brier", "align": "right", "sortable": True},
+            {"key": "mae", "label": "Totals MAE", "align": "right", "sortable": True},
+            *({"key": lean_key[line], "label": f"O/U {line:g}", "align": "right", "sortable": True}
+              for line in LEAN_LINES),
+            *([{"key": "bets", "label": "★ Bets", "align": "right", "sortable": True}] if any_bets else []),
+        ],
+        "rows": by_day,
+    }
+    # "All days" first in the dropdown; the view opens on the latest graded day.
+    publish_slates(view_dir, [Slate(f"{season}-all", "All days", overview), *slates],
+                   season=season, label=f"{_season_label(season)} Season", unit="day",
+                   latest=slates[-1].id, summary=summary)
+    return total
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--day", help="day the site opens on, YYYY-MM-DD (default: latest predicted)")
@@ -335,9 +608,24 @@ def main() -> int:
     else:
         print(f"  [skip] no {power.name}")
 
+    finals, bets = read_results(args.model, season)
+    graded = graded_games(frames, publish, finals, bets)
+    record = None
+    if graded:
+        db = args.model / "data" / "nhl.sqlite"
+        record = publish_results(args.site_dir / "results", graded, season=season,
+                                 updated=file_date(db), backtest=_backtest(args.model))
+        sources.append(db)
+    else:
+        print("  [skip] no finished game with a published prediction yet")
+
+    # The card leads with the model's record once games are graded, else its #1 team.
+    straight_up = None if record is None else {
+        "label": "Straight up", "value": _rec(record["su"]), "detail": f"{record['accuracy']:.1%}",
+        **({"tone": "good" if record["accuracy"] > 0.5 else "bad"} if record["accuracy"] != 0.5 else {})}
     write_card(args.site_dir, headline=_day_label(opens),
                updated=max(file_date(p) for p in sources),
-               stats=[s for s in (cup_favorite, top_power) if s])
+               stats=[s for s in (straight_up or top_power, cup_favorite) if s])
     return 0
 
 

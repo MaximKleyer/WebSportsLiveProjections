@@ -1,0 +1,90 @@
+{
+  "subtitle": "2026\u201327 \u00b7 record by day",
+  "updated": "2026-10-02",
+  "columns": [
+    {
+      "key": "day",
+      "label": "Day",
+      "sortable": true
+    },
+    {
+      "key": "games",
+      "label": "Games",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "Straight up",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "logLoss",
+      "label": "Log loss",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "brier",
+      "label": "Brier",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "mae",
+      "label": "Totals MAE",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou55",
+      "label": "O/U 5.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou65",
+      "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "day": {
+        "v": "Thu Oct 1",
+        "sort": "2026-10-01"
+      },
+      "games": 8,
+      "su": {
+        "v": "5\u20133 (62%)",
+        "sort": 0.625,
+        "tone": "good"
+      },
+      "logLoss": {
+        "v": "0.638",
+        "sort": 0.638069,
+        "tone": "good"
+      },
+      "brier": {
+        "v": "0.223",
+        "sort": 0.223014,
+        "tone": "good"
+      },
+      "mae": {
+        "v": "2.20",
+        "sort": 2.1975
+      },
+      "ou55": {
+        "v": "6\u20132 (75%)",
+        "sort": 0.75,
+        "tone": "good"
+      },
+      "ou65": {
+        "v": "5\u20133 (62%)",
+        "sort": 0.625,
+        "tone": "good"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "season": 2026,
+  "label": "2026\u201327 Season",
+  "unit": "day",
+  "latest": "2026-10-01.json",
+  "summary": {
+    "title": "2026\u201327 season to date \u00b7 8 games graded",
+    "stats": [
+      {
+        "label": "Straight up",
+        "value": "5\u20133",
+        "detail": "62.5%",
+        "tone": "good"
+      },
+      {
+        "label": "Log loss",
+        "value": "0.638",
+        "detail": "coin flip 0.693",
+        "tone": "good"
+      },
+      {
+        "label": "Brier score",
+        "value": "0.223",
+        "detail": "coin flip 0.250",
+        "tone": "good"
+      },
+      {
+        "label": "Totals MAE",
+        "value": "2.20",
+        "detail": "avg miss, goals"
+      }
+    ],
+    "note": "Graded the way the model grades itself: straight up is the side given over 50%; log loss and Brier score the win probability (lower is better); totals compare the expected goals in the final score (OT/SO winner +1) with the actual total. O/U leans are the side of 5.5 / 6.5 the model gives over 50%. Backtest, 2022\u201323 to 2025\u201326: 58.5% straight up, log loss 0.667, Brier 0.237, totals MAE 1.84."
+  },
+  "slates": [
+    {
+      "id": "2026-all",
+      "label": "All days",
+      "file": "2026-all.json"
+    },
+    {
+      "id": "2026-10-01",
+      "label": "Thu Oct 1",
+      "file": "2026-10-01.json"
+    }
+  ]
+}

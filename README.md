@@ -22,9 +22,12 @@ data file (`python scripts/site_export.py check` — CI runs the same check
 before deploying). Then review the diff and commit + push this repo — GitHub
 Pages redeploys.
 
-The **Results** tab comes from each model's `results_log.csv`, so after
-grading (`python -m nfl_projector_v1 grade --season 2026 --week N`,
-`python -m cfb_model.grade --week N`) the same script refreshes it.
+The **Results** tab comes from each football model's `results_log.csv`, so
+after grading (`python -m nfl_projector_v1 grade --season 2026 --week N`,
+`python -m cfb_model.grade --week N`) the same script refreshes it. The NHL
+needs no grading step: its adapter scores the published daily predictions
+against the final scores (and settled bets) in the model's database, which
+each `nhl daily` run brings up to date.
 
 Model repos: `C:\Users\maxim\NFLProjectionModel\nfl_projector_v1`,
 `C:\Users\maxim\CFB_Projection_Model` and `C:\Users\maxim\NHL_Projection_Model`

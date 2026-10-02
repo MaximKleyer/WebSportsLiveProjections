@@ -154,6 +154,12 @@ export const SPORTS = [
           'Expected score, win probability, puck line and totals for every game, day by day — with each side’s likely starting goalie.',
       },
       { type: 'season', status: 'live' },
+      {
+        type: 'results',
+        status: 'live',
+        blurb:
+          'Every published prediction graded against the final score — win picks, probability accuracy and totals, day by day.',
+      },
       { type: 'rankings', status: 'live' },
     ],
   },
