@@ -121,11 +121,29 @@ export const SPORTS = [
   {
     id: 'nba',
     name: 'NBA',
-    subtitle: 'Player & team scoring model',
-    status: 'in-dev',
+    subtitle: 'Player ratings × projected minutes',
+    status: 'live',
     accent: '#e8833a',
-    year: '2025–26',
-    views: views({ games: 'in-dev' }),
+    year: '2026–27',
+    // Basketball plays most days, so like hockey its games view is a daily slate.
+    views: [
+      {
+        type: 'games',
+        status: 'live',
+        short: 'DAILY',
+        label: 'Daily Game Projections',
+        blurb:
+          'Expected score, win probability, spread and total for every game, day by day — with each side’s rotation players on the injury report.',
+      },
+      { type: 'season', status: 'live' },
+      {
+        type: 'results',
+        status: 'live',
+        blurb:
+          'Every published prediction graded against the final score — win picks, probability accuracy and the model’s side of the spread and total, day by day.',
+      },
+      { type: 'rankings', status: 'live' },
+    ],
   },
   {
     id: 'mlb',

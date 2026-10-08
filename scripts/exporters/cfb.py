@@ -27,7 +27,7 @@ from site_export import (  # noqa: E402  (the site's shared export toolkit)
     week_id, write_card, write_table,
 )
 
-MODEL_OUT = Path(r"C:\Users\maxim\CFB_Projection_Model\output")
+MODEL_OUT = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\cfb\output")
 EASTERN = ZoneInfo("America/New_York")
 SEARCH = "Search teams"
 

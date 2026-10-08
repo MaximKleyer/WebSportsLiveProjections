@@ -13,6 +13,7 @@ Stdlib only, so CI can run the check below without the models' packages.
                   (sub: a second, smaller line - e.g. a team's likely goalie)
   manifest  { season, label, unit, latest, summary?,
               slates: [{ id, label, file }] }      the index.json of a slate view
+            (no slates and latest null: nothing published yet)
   summary   { title?, stats: [{ label, value, detail?, tone? }], note? }
   card      { headline, updated?, stats?: [...] }  <sport>/card.json - the live
                                                     line on its landing card
@@ -251,8 +252,12 @@ def check_manifest(m, where="index.json", view_dir: Path | None = None):
     if not isinstance(m, dict):
         raise ContractError(f"{where}: not an object")
     slates = m.get("slates")
-    if not isinstance(slates, list) or not slates:
-        raise ContractError(f"{where}: needs a non-empty 'slates' list")
+    if not isinstance(slates, list):
+        raise ContractError(f"{where}: needs a 'slates' list")
+    if not slates:  # nothing published yet (a season before its first game): the site says so
+        if m.get("latest") is not None or "summary" in m:
+            raise ContractError(f"{where}: with no slates there is no 'latest' or 'summary'")
+        return
     files: list[str] = []
     for i, s in enumerate(slates):
         sw = f"{where} slate {i}"
@@ -313,11 +318,13 @@ class Slate(NamedTuple):
     table: dict
 
 
-def publish_slates(view_dir: Path, slates: list[Slate], *, season: int, latest: str,
+def publish_slates(view_dir: Path, slates: list[Slate], *, season: int, latest: str | None,
                    unit: str = "week", label: str | None = None, summary: dict | None = None):
     """Write each slate's table and the view's index.json (opening on slate
     `latest`), then delete any table the manifest no longer lists - the
-    directory belongs to this view. `label` defaults to '<season> Season'."""
+    directory belongs to this view. `label` defaults to '<season> Season'.
+    No slates (latest None): an empty index, which the site shows as nothing
+    published yet."""
     view_dir.mkdir(parents=True, exist_ok=True)
     for s in slates:
         write_table(view_dir / f"{s.id}.json", s.table)
@@ -325,13 +332,14 @@ def publish_slates(view_dir: Path, slates: list[Slate], *, season: int, latest: 
         "season": season,
         "label": label or f"{season} Season",
         "unit": unit,
-        "latest": f"{latest}.json",
-        **({"summary": summary} if summary else {}),
+        "latest": f"{latest}.json" if slates else None,
+        **({"summary": summary} if summary and slates else {}),
         "slates": [{"id": s.id, "label": s.label, "file": f"{s.id}.json"} for s in slates],
     }
     check_manifest(manifest, _rel(view_dir / "index.json"), view_dir)
     _dump(view_dir / "index.json", manifest)
-    print(f"  wrote {_rel(view_dir / 'index.json'):24s} ({len(slates)} slates, opens on {latest})")
+    print(f"  wrote {_rel(view_dir / 'index.json'):24s} "
+          + (f"({len(slates)} slates, opens on {latest})" if slates else "(nothing published yet)"))
 
     keep = {"index.json"} | {f"{s.id}.json" for s in slates}
     for p in sorted(view_dir.glob("*.json")):

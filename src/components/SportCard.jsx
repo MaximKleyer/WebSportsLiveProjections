@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { STATUS_META } from '../config.js';
+import RunLine from '../desktop/RunLine.jsx';
 import useSportCard from '../hooks/useSportCard.js';
 
 // 'Sep 25' from '2026-09-25', read as a local date (no UTC day shift).
@@ -65,6 +66,9 @@ export default function SportCard({ sport, index }) {
           )}
         </div>
       )}
+
+      {/* Desktop app only: what its model is doing */}
+      {isReady && <RunLine sportId={sport.id} className="sport-card__run" />}
 
       <div className="sport-card__cta">
         <span>{isReady ? 'OPEN MODEL' : 'PREVIEW'}</span>

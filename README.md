@@ -4,6 +4,18 @@ Weekly sports projections and models across NFL, NBA, MLB, NHL, College Football
 
 **Live:** https://maximkleyer.github.io/WebSportsLiveProjections/
 
+## Desktop app
+
+Double-click **Sports Models** on the desktop (`.\desktop\install-shortcut.ps1`
+creates the shortcut): a window opens on the latest results while every model
+that's due runs in the background, and the landing page's Model desk shows
+what ran, what was skipped and why. Each step is protected by a kickoff
+freeze — a game that started before the run keeps its earlier projection, so
+the graded record stays honest. A scheduled task (`.\desktop\install-schedule.ps1`)
+runs the same thing hourly, 9 AM–11 PM, with no window, so predictions exist
+before games start even when the app isn't open. Details in
+[desktop/README.md](desktop/README.md).
+
 ## Updating the data (NFL, CFB and NHL are wired up)
 
 The models stay pure: each one just writes its CSVs. This repo holds a thin
@@ -22,7 +34,9 @@ command refreshes everything:
 anything is predicted (re-grading a finished week reproduces it; a week in
 progress counts the games played so far).
 
-It runs each adapter with that model's own venv Python, then validates every
+Model commands go through the desktop app's protected steps
+(`desktop/sports/<sport>.py step …`: the kickoff freeze, a backup, output
+checks). It runs each adapter with that model's own venv Python, then validates every
 data file (`python scripts/site_export.py check` — CI runs the same check
 before deploying). Then review the diff and commit + push this repo — GitHub
 Pages redeploys.
@@ -34,10 +48,15 @@ needs no grading step: its adapter scores the published daily predictions
 against the final scores (and settled bets) in the model's database, which
 each `nhl daily` run brings up to date.
 
-Model repos: `C:\Users\maxim\NFLProjectionModel\nfl_projector_v1`,
-`C:\Users\maxim\CFB_Projection_Model` and `C:\Users\maxim\NHL_Projection_Model`
-(the NHL adapter also reads goalie names from the game-centre pages that
-model caches under `data/raw/`).
+The models live beside this repo in the hub's `models\` folder —
+`C:\Users\maxim\WebSportsLiveProjections\models\nfl`, `cfb`, `nhl` and `nba` —
+each with its own venv (and, except CFB, its own git repo). The NHL adapter
+also reads goalie names from the game-centre pages that model caches under
+`data/raw/`. The NBA's day files come from that model's own "NBA gameday"
+scheduled task (it predicts on the model's clock through each game day), so
+for the NBA the app and `-Predict` only refresh the season sim and power
+rankings; its adapter publishes only the live model version's predictions
+(the one `outputs/model_state.json` was fitted for).
 
 ## Adding a model
 

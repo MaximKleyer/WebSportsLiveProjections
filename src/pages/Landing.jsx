@@ -1,5 +1,6 @@
 import SportCard from '../components/SportCard.jsx';
 import { BRAND, SPORTS } from '../config.js';
+import ModelDesk from '../desktop/ModelDesk.jsx';
 import useDocumentTitle from '../hooks/useDocumentTitle.js';
 
 export default function Landing() {
@@ -20,6 +21,9 @@ export default function Landing() {
           One desk, every league.
         </p>
       </section>
+
+      {/* Desktop app only: what the models ran and why */}
+      <ModelDesk />
 
       <section className="grid-section" aria-label="Sports">
         <div className="grid-section__head">

@@ -1,0 +1,36 @@
+# The models the desktop app runs, in the order the app lists them.
+#
+# Adding one:
+#   1. an entry here (its folder and its venv's Python),
+#   2. desktop/sports/<id>.py   - what to run and when (see nhl.py for a short one),
+#   3. scripts/exporters/<id>.py - its CSVs -> the site's JSON (see the README),
+#   4. its views in src/config.js.
+# Each model keeps its own folder and venv; the app only runs commands in it.
+# The models live beside this repo, in the hub's models\ folder.
+
+[[model]]
+id = "nfl"
+name = "NFL"
+folder = 'C:\Users\maxim\WebSportsLiveProjections\models\nfl'
+python = '.venv\Scripts\python.exe'   # relative to folder
+
+[[model]]
+id = "cfb"
+name = "College Football"
+folder = 'C:\Users\maxim\WebSportsLiveProjections\models\cfb'
+python = '.venv\Scripts\python.exe'
+
+[[model]]
+id = "nhl"
+name = "NHL"
+folder = 'C:\Users\maxim\WebSportsLiveProjections\models\nhl'
+python = '.venv\Scripts\python.exe'
+# paid_odds = true   # let `nhl daily` use ODDS_API_KEY (The Odds API: 3 credits a run); off by default
+
+[[model]]
+id = "nba"
+name = "NBA"
+folder = 'C:\Users\maxim\WebSportsLiveProjections\models\nba'
+python = '.venv\Scripts\python.exe'
+# The day's predictions are the model's own "NBA gameday" scheduled task's; the app runs
+# the season sim and power rankings and exports (desktop/sports/nba.py).

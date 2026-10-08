@@ -1157,6 +1157,345 @@ button {
 }
 
 /* ============================================================
+   Desktop app (src/desktop/) — only ever rendered inside the app
+   ============================================================ */
+
+/* The model desk: what each model ran, skipped, and why */
+.model-desk {
+  margin-bottom: var(--space-12);
+}
+
+.model-desk__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3) var(--space-6);
+  margin: calc(-1 * var(--space-4)) 0 var(--space-4);
+}
+
+.model-desk__note {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+
+.model-desk__note--bad {
+  color: var(--bad);
+}
+
+.desk-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.desk-btn {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: var(--accent-live);
+  border: 1px solid var(--accent-live);
+  border-radius: 1px;
+  padding: var(--space-2) var(--space-4);
+  white-space: nowrap;
+  transition: opacity 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+
+.desk-btn:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+.desk-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.desk-btn--ghost {
+  color: var(--text-dim);
+  background: transparent;
+  border-color: var(--border-strong);
+}
+
+.desk-btn--ghost:hover:not(:disabled) {
+  color: var(--text);
+  border-color: var(--text-dim);
+  opacity: 1;
+}
+
+.desk-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.desk-row {
+  --accent: #f4f1ea;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-3) var(--space-6);
+  padding: var(--space-4) var(--space-6);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+}
+
+.desk-row__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2) var(--space-4);
+}
+
+.desk-row__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.desk-row__label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.desk-row__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-6);
+  margin-top: var(--space-3);
+}
+
+.desk-row__buttons {
+  display: flex;
+  gap: var(--space-2);
+  align-items: flex-start;
+}
+
+.desk-stat {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.desk-stat__label {
+  margin-right: var(--space-2);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.desk-stat__detail {
+  margin-left: var(--space-2);
+  color: var(--text-mute);
+}
+
+.desk-stat--bad {
+  color: var(--bad);
+}
+
+.desk-steps,
+.desk-earlier {
+  grid-column: 1 / -1;
+  list-style: none;
+  margin: 0;
+  padding: var(--space-3) 0 0;
+  border-top: 1px dashed var(--border);
+  display: grid;
+  gap: var(--space-1);
+}
+
+.desk-step {
+  display: grid;
+  grid-template-columns: 1.2rem minmax(10rem, max-content) 1fr;
+  gap: 0 var(--space-3);
+  align-items: baseline;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.desk-step__mark {
+  font-family: var(--font-mono);
+  text-align: center;
+  color: var(--text-mute);
+}
+
+.desk-step__detail,
+.desk-earlier {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
+}
+
+.desk-step__warn {
+  grid-column: 3;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent-dev);
+}
+
+.desk-step--done .desk-step__mark {
+  color: var(--good);
+}
+
+.desk-step--failed .desk-step__mark,
+.desk-step--failed .desk-step__detail {
+  color: var(--bad);
+}
+
+.desk-step--running .desk-step__mark {
+  color: var(--accent-live);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+.desk-step--skipped .desk-step__label,
+.desk-step--pending .desk-step__label {
+  color: var(--text-dim);
+}
+
+.desk-row__note,
+.desk-row__error {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.desk-row__note {
+  color: var(--accent-dev);
+}
+
+.desk-row__error {
+  color: var(--bad);
+}
+
+@media (max-width: 640px) {
+  .desk-row {
+    grid-template-columns: 1fr;
+    padding: var(--space-4);
+  }
+
+  .desk-step {
+    grid-template-columns: 1.2rem 1fr;
+  }
+
+  .desk-step__detail,
+  .desk-step__warn {
+    grid-column: 2;
+  }
+}
+
+/* One line on what a model is doing (desk rows, landing cards, sport pages) */
+.run-line {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+
+.run-line__dot {
+  flex: none;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.run-line--busy {
+  color: var(--accent-live);
+}
+
+.run-line--busy .run-line__dot {
+  box-shadow: 0 0 6px currentColor;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+.run-line--good {
+  color: var(--good);
+}
+
+.run-line--bad {
+  color: var(--bad);
+}
+
+.sport-page__run {
+  margin-top: var(--space-4);
+}
+
+/* A model's run log */
+.log-dialog {
+  width: min(1100px, 92vw);
+  height: min(80vh, 900px);
+  padding: 0;
+  color: var(--text);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+}
+
+.log-dialog[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-dialog::backdrop {
+  background: rgba(5, 6, 9, 0.72);
+}
+
+.log-dialog__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.log-dialog__live {
+  color: var(--accent-live);
+}
+
+.log-dialog__body {
+  flex: 1;
+  margin: 0;
+  padding: var(--space-4);
+  overflow: auto;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  line-height: 1.5;
+  color: var(--text-dim);
+  white-space: pre;
+}
+
+/* ============================================================
    Selection
    ============================================================ */
 

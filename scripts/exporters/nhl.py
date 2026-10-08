@@ -5,7 +5,9 @@ Reads the model's outputs/ - plus, for goalie names, the NHL game-centre pages
 it caches under data/raw/ - and writes public/data/nhl/:
 
     games/          one slate per DAY           outputs/daily/<date>_predictions.csv
-                                                (+ <date>_bets.csv: flagged bets)
+                                                (+ <date>_bets.csv: flagged bets;
+                                                 <date>_rebuilt.csv: games no run predicted
+                                                 before puck drop - greyed out, never graded)
     season.json     standings + playoff odds    outputs/season_sim.csv
     rankings.json   power rankings              outputs/power_rankings.csv
     results/        those daily predictions     final scores + settled bets from the
@@ -38,7 +40,7 @@ from site_export import (  # noqa: E402  (the site's shared export toolkit)
     scoreboard_columns, text, write_card, write_table,
 )
 
-MODEL = Path(r"C:\Users\maxim\NHL_Projection_Model")
+MODEL = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\nhl")
 EASTERN = ZoneInfo("America/New_York")
 DAILY = re.compile(r"(?P<day>\d{4}-\d{2}-\d{2})_predictions\.csv$")
 GOALIE_ID = re.compile(r"\b\d{7}\b")
@@ -89,6 +91,33 @@ def goalie_names(model: Path, game_ids) -> dict[int, str]:
     return names
 
 
+def fill_goalie_names(model: Path, names: dict[int, str], wanted: set[int]) -> None:
+    """Names for goalies the day's own pages don't list (a game no run fetched before puck drop,
+    a goalie back from last season): from the box score of each one's latest game in the model's
+    database (read-only), which the model caches for every game it ingested."""
+    missing = wanted - names.keys()
+    path = model / "data" / "nhl.sqlite"
+    if not missing or not path.exists():
+        return
+    con = sqlite3.connect(f"{path.as_uri()}?mode=ro", uri=True)
+    try:
+        latest = dict(con.execute(
+            f"SELECT goalie_id, max(game_id) FROM goalie_games WHERE goalie_id IN ({','.join('?' * len(missing))})"
+            " GROUP BY goalie_id", sorted(missing)).fetchall())
+    finally:
+        con.close()
+    for goalie, game_id in latest.items():
+        page = model / "data" / "raw" / "api-web.nhle.com" / "v1" / "gamecenter" / str(game_id) / "boxscore.json.gz"
+        try:
+            box = json.loads(gzip.decompress(page.read_bytes()))
+        except (OSError, EOFError, ValueError):
+            continue
+        for side in ("awayTeam", "homeTeam"):
+            for player in box.get("playerByGameStats", {}).get(side, {}).get("goalies", []):
+                if player.get("playerId") == goalie:
+                    names[goalie] = player["name"]["default"]
+
+
 def _starter(starters, names: dict[int, str]):
     """The model's starter text - '8476914 91%, 8478048 9%', '8476914 (confirmed)'
     or 'team mix' - as the likeliest starter by name: 'J. Korpisalo 91%'."""
@@ -110,6 +139,13 @@ def _bet_label(bet: dict, away: str, home: str) -> str:
     return f"{(side or '').upper()} {'' if line is None else f'{line:g}'}".strip()
 
 
+def _muted(cell):
+    """A rebuilt game's cell, greyed out (its numbers were made after puck drop)."""
+    if cell is None or cell == "":
+        return cell
+    return {**cell, "tone": "muted"} if isinstance(cell, dict) else {"v": cell, "tone": "muted"}
+
+
 def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
     df = pd.read_csv(path)
     bets_path = path.with_name(f"{day}_bets.csv")
@@ -117,16 +153,21 @@ def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
     bets_by_game: dict = {}
     for b in bets.to_dict("records"):
         bets_by_game.setdefault(b.get("game_id"), []).append(b)
+    # Games that started before any run predicted them, with numbers rebuilt afterwards
+    # (desktop/sports/nhl.py rebuild): shown greyed out, never graded (graded_games reads
+    # only the predictions file).
+    rebuilt_path = path.with_name(f"{day}_rebuilt.csv")
+    rebuilt = pd.read_csv(rebuilt_path) if rebuilt_path.exists() else pd.DataFrame(columns=["game_id"])
 
     puck = next((c.removeprefix("p_home_minus_") for c in df.columns if c.startswith("p_home_minus_")), "1.5")
     overs = [c for c in df.columns if re.fullmatch(r"p_over_\d+(\.\d+)?", c)]
     predicted = df[df["p_home_win"].notna()] if "p_home_win" in df else df.iloc[0:0]
+    late = rebuilt[rebuilt["game_id"].isin(set(df["game_id"]) - set(predicted["game_id"]))]
     skipped = len(df) - len(predicted)
     has_market = any(predicted.get(c, pd.Series(dtype=float)).notna().any()
                      for c in ("market_p_home_win", "market_total_line"))
 
-    rows = []
-    for d in predicted.sort_values("start_ts").to_dict("records"):
+    def game_row(d: dict, is_rebuilt: bool) -> dict:
         away, home = text(d.get("away")), text(d.get("home"))
         p_home = num(d.get("p_home_win"), 4)
         total = num(d.get("expected_total"), 2)
@@ -153,6 +194,11 @@ def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
             row["mktHome"] = num(d.get("market_p_home_win"), 4)
             row["mktTotal"] = None if line is None or p_over is None else {
                 "v": f"{line:g}: over {p_over:.0%}", "sort": p_over}
+        if is_rebuilt:
+            row = {key: _muted(cell) for key, cell in row.items()}
+            row["start"] = {**row["start"], "sub": "rebuilt · not graded"} if row["start"] else None
+            row["flagged"] = False
+            return row
         game_bets = bets_by_game.get(d.get("game_id"), [])
         if game_bets:
             best = max(game_bets, key=lambda b: num(b.get("edge"), 4) or 0)
@@ -160,7 +206,10 @@ def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
             more = f" +{len(game_bets) - 1}" if len(game_bets) > 1 else ""
             row["bet"] = {"v": f"★ {_bet_label(best, away, home)} ({edge:+.1%}){more}", "sort": edge}
         row["flagged"] = bool(game_bets)
-        rows.append(row)
+        return row
+
+    games = [(d, False) for d in predicted.to_dict("records")] + [(d, True) for d in late.to_dict("records")]
+    rows = [game_row(d, is_rebuilt) for d, is_rebuilt in sorted(games, key=lambda g: text(g[0].get("start_ts")) or "")]
 
     columns = [{"key": "start", "label": "Time (ET)", "sortable": True}] + scoreboard_columns() + [
         {"key": "homeWin", "label": "Home Win", "align": "right", "format": "percent", "sortable": True},
@@ -180,6 +229,9 @@ def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
         columns.append({"key": "bet", "label": "Bet (edge)", "align": "right", "sortable": True})
 
     note = f" · {skipped} started before the model ran" if skipped else ""
+    if len(late):
+        note += (f" ({'all' if len(late) == skipped else len(late)} shown greyed out with numbers"
+                 " rebuilt afterwards, not graded)")
     return {
         "subtitle": f"{_day_label(day)}, {_season_label(season)} — {len(rows)} game{'s' * (len(rows) != 1)}"
                     f" · times ET · "
@@ -578,6 +630,12 @@ def main() -> int:
 
     print(f"Exporting NHL {_season_label(season)} (opens on {opens})\n  from: {outputs}\n  to:   {args.site_dir}")
     names = goalie_names(args.model, pd.concat(frames[d]["game_id"] for d in publish).unique())
+    # The likeliest starters the tables will show, rebuilt games included.
+    shown = [frames[d] for d in publish]
+    shown += [pd.read_csv(p) for d in publish if (p := outputs / "daily" / f"{d}_rebuilt.csv").exists()]
+    starters = pd.concat([f.reindex(columns=["away_starter", "home_starter"]) for f in shown]).stack()
+    wanted = {int(m.group()) for s in starters if isinstance(s, str) and (m := GOALIE_ID.search(s))}
+    fill_goalie_names(args.model, names, wanted)
     publish_slates(
         args.site_dir / "games",
         [Slate(day, _day_label(day), build_day(days[day], day, names, season)) for day in publish],

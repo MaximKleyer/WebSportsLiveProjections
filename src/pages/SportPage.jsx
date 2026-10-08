@@ -1,5 +1,6 @@
 import { Link, useSearchParams } from 'react-router-dom';
 import { STATUS_META, viewMeta } from '../config.js';
+import RunLine from '../desktop/RunLine.jsx';
 import useDocumentTitle from '../hooks/useDocumentTitle.js';
 import ProjectionSection from '../components/ProjectionSection.jsx';
 
@@ -35,6 +36,8 @@ export default function SportPage({ sport }) {
         </div>
         <h1 className="sport-page__title">{sport.name}</h1>
         <p className="sport-page__subtitle">{sport.subtitle}</p>
+        {/* Desktop app only: what its model is doing */}
+        <RunLine sportId={sport.id} className="sport-page__run" long />
       </header>
 
       {viewsList.length > 0 && (

@@ -12,3 +12,6 @@ __pycache__
 *.njsproj
 *.sln
 *.sw?
+
+# Desktop app runtime: run history, logs, backups of model outputs
+desktop/.state/

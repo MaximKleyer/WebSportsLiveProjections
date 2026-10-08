@@ -26,7 +26,7 @@ from site_export import (  # noqa: E402  (the site's shared export toolkit)
     write_card, write_table,
 )
 
-MODEL_OUT = Path(r"C:\Users\maxim\NFLProjectionModel\nfl_projector_v1\data\processed\v2")
+MODEL_OUT = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\nfl\data\processed\v2")
 
 SKILL_POSITIONS = {"QB", "RB", "WR", "TE"}
 PLAYER_LIMIT = 50
