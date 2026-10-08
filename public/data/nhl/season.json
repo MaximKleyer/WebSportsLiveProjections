@@ -1,6 +1,6 @@
 {
   "subtitle": "2026\u201327 projected standings \u2014 season simulation with playoff odds",
-  "updated": "2026-10-01",
+  "updated": "2026-10-08",
   "groupBy": "division",
   "search": "Search teams or divisions",
   "columns": [
@@ -63,482 +63,482 @@
     {
       "team": "Tampa Bay Lightning",
       "division": "Atlantic",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "2\u20131\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "45\u201329\u201310",
-        "sort": 100.5
+        "v": "47\u201328\u20139",
+        "sort": 103.3
       },
-      "projPoints": 100.5,
-      "range": "83\u2013117",
-      "playoffs": 0.6506,
-      "divTitle": 0.1977,
-      "cup": 0.0501
+      "projPoints": 103.3,
+      "range": "87\u2013119",
+      "playoffs": 0.7482,
+      "divTitle": 0.2821,
+      "cup": 0.0709
     },
     {
       "team": "Ottawa Senators",
       "division": "Atlantic",
-      "record": "0\u20130\u20130",
-      "points": 0,
-      "projRecord": {
-        "v": "45\u201329\u201310",
-        "sort": 100.2
-      },
-      "projPoints": 100.2,
-      "range": "83\u2013117",
-      "playoffs": 0.6466,
-      "divTitle": 0.1921,
-      "cup": 0.057
-    },
-    {
-      "team": "Montr\u00e9al Canadiens",
-      "division": "Atlantic",
-      "record": "1\u20130\u20130",
-      "points": 2,
+      "record": "2\u20131\u20130",
+      "points": 4,
       "projRecord": {
         "v": "45\u201330\u20139",
         "sort": 99.4
       },
       "projPoints": 99.4,
       "range": "83\u2013116",
-      "playoffs": 0.6205,
-      "divTitle": 0.1711,
-      "cup": 0.0381
+      "playoffs": 0.642,
+      "divTitle": 0.182,
+      "cup": 0.0453
     },
     {
       "team": "Buffalo Sabres",
       "division": "Atlantic",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "2\u20131\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "44\u201331\u20139",
-        "sort": 98.1
+        "v": "45\u201330\u20139",
+        "sort": 98.0
       },
-      "projPoints": 98.1,
-      "range": "81\u2013115",
-      "playoffs": 0.5802,
-      "divTitle": 0.1577,
-      "cup": 0.0395
+      "projPoints": 98.0,
+      "range": "81\u2013114",
+      "playoffs": 0.598,
+      "divTitle": 0.1567,
+      "cup": 0.0364
     },
     {
-      "team": "Boston Bruins",
+      "team": "Montr\u00e9al Canadiens",
       "division": "Atlantic",
-      "record": "1\u20130\u20130",
-      "points": 2,
+      "record": "1\u20131\u20131",
+      "points": 3,
       "projRecord": {
-        "v": "44\u201330\u201310",
-        "sort": 96.8
+        "v": "43\u201331\u201310",
+        "sort": 95.9
       },
-      "projPoints": 96.8,
-      "range": "80\u2013114",
-      "playoffs": 0.5429,
-      "divTitle": 0.1305,
-      "cup": 0.0317
+      "projPoints": 95.9,
+      "range": "79\u2013113",
+      "playoffs": 0.5239,
+      "divTitle": 0.1249,
+      "cup": 0.0252
     },
     {
       "team": "Florida Panthers",
       "division": "Atlantic",
-      "record": "1\u20130\u20130",
-      "points": 2,
+      "record": "2\u20130\u20132",
+      "points": 6,
       "projRecord": {
-        "v": "41\u201333\u201310",
+        "v": "42\u201331\u201311",
+        "sort": 95.6
+      },
+      "projPoints": 95.6,
+      "range": "79\u2013112",
+      "playoffs": 0.5081,
+      "divTitle": 0.1149,
+      "cup": 0.0223
+    },
+    {
+      "team": "Boston Bruins",
+      "division": "Atlantic",
+      "record": "2\u20132\u20130",
+      "points": 4,
+      "projRecord": {
+        "v": "42\u201333\u20139",
         "sort": 92.7
       },
       "projPoints": 92.7,
-      "range": "75\u2013110",
-      "playoffs": 0.4213,
-      "divTitle": 0.0783,
-      "cup": 0.0178
+      "range": "76\u2013109",
+      "playoffs": 0.4275,
+      "divTitle": 0.0749,
+      "cup": 0.0186
     },
     {
       "team": "Detroit Red Wings",
       "division": "Atlantic",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "1\u20132\u20130",
+      "points": 2,
       "projRecord": {
-        "v": "39\u201335\u201310",
-        "sort": 88.4
+        "v": "39\u201336\u20139",
+        "sort": 88.2
       },
-      "projPoints": 88.4,
-      "range": "71\u2013106",
-      "playoffs": 0.3045,
-      "divTitle": 0.0427,
+      "projPoints": 88.2,
+      "range": "71\u2013105",
+      "playoffs": 0.3004,
+      "divTitle": 0.0411,
       "cup": 0.0111
     },
     {
       "team": "Toronto Maple Leafs",
       "division": "Atlantic",
-      "record": "1\u20131\u20130",
-      "points": 2,
+      "record": "2\u20132\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "38\u201336\u201310",
-        "sort": 86.3
+        "v": "38\u201337\u20139",
+        "sort": 85.2
       },
-      "projPoints": 86.3,
-      "range": "69\u2013103",
-      "playoffs": 0.2441,
-      "divTitle": 0.0299,
-      "cup": 0.0068
+      "projPoints": 85.2,
+      "range": "69\u2013101",
+      "playoffs": 0.2216,
+      "divTitle": 0.0234,
+      "cup": 0.0048
     },
     {
       "team": "Carolina Hurricanes",
       "division": "Metropolitan",
-      "record": "0\u20130\u20131",
-      "points": 1,
+      "record": "2\u20131\u20131",
+      "points": 5,
       "projRecord": {
-        "v": "47\u201327\u201310",
-        "sort": 104.9
+        "v": "48\u201327\u20139",
+        "sort": 104.3
       },
-      "projPoints": 104.9,
-      "range": "88\u2013121",
-      "playoffs": 0.7669,
-      "divTitle": 0.2974,
-      "cup": 0.0885
-    },
-    {
-      "team": "Pittsburgh Penguins",
-      "division": "Metropolitan",
-      "record": "1\u20130\u20130",
-      "points": 2,
-      "projRecord": {
-        "v": "47\u201328\u20139",
-        "sort": 102.6
-      },
-      "projPoints": 102.6,
-      "range": "86\u2013119",
-      "playoffs": 0.712,
-      "divTitle": 0.2398,
-      "cup": 0.0596
-    },
-    {
-      "team": "Columbus Blue Jackets",
-      "division": "Metropolitan",
-      "record": "0\u20130\u20130",
-      "points": 0,
-      "projRecord": {
-        "v": "43\u201331\u201310",
-        "sort": 96.2
-      },
-      "projPoints": 96.2,
-      "range": "79\u2013113",
-      "playoffs": 0.5291,
-      "divTitle": 0.1143,
-      "cup": 0.0296
-    },
-    {
-      "team": "Washington Capitals",
-      "division": "Metropolitan",
-      "record": "0\u20130\u20130",
-      "points": 0,
-      "projRecord": {
-        "v": "43\u201331\u201310",
-        "sort": 95.6
-      },
-      "projPoints": 95.6,
-      "range": "78\u2013113",
-      "playoffs": 0.5104,
-      "divTitle": 0.1094,
-      "cup": 0.0298
+      "projPoints": 104.3,
+      "range": "88\u2013120",
+      "playoffs": 0.7777,
+      "divTitle": 0.2815,
+      "cup": 0.0749
     },
     {
       "team": "New York Rangers",
       "division": "Metropolitan",
-      "record": "0\u20131\u20130",
-      "points": 0,
+      "record": "4\u20131\u20130",
+      "points": 8,
       "projRecord": {
-        "v": "43\u201331\u201310",
-        "sort": 94.9
+        "v": "46\u201329\u20139",
+        "sort": 100.7
       },
-      "projPoints": 94.9,
-      "range": "78\u2013112",
-      "playoffs": 0.4899,
-      "divTitle": 0.0908,
-      "cup": 0.0262
+      "projPoints": 100.7,
+      "range": "85\u2013116",
+      "playoffs": 0.6839,
+      "divTitle": 0.1863,
+      "cup": 0.0389
+    },
+    {
+      "team": "Washington Capitals",
+      "division": "Metropolitan",
+      "record": "2\u20131\u20130",
+      "points": 4,
+      "projRecord": {
+        "v": "45\u201330\u20139",
+        "sort": 98.8
+      },
+      "projPoints": 98.8,
+      "range": "82\u2013115",
+      "playoffs": 0.6185,
+      "divTitle": 0.1548,
+      "cup": 0.0381
+    },
+    {
+      "team": "Columbus Blue Jackets",
+      "division": "Metropolitan",
+      "record": "1\u20131\u20130",
+      "points": 2,
+      "projRecord": {
+        "v": "44\u201331\u20139",
+        "sort": 97.6
+      },
+      "projPoints": 97.6,
+      "range": "81\u2013114",
+      "playoffs": 0.5847,
+      "divTitle": 0.1376,
+      "cup": 0.0381
+    },
+    {
+      "team": "Pittsburgh Penguins",
+      "division": "Metropolitan",
+      "record": "2\u20132\u20130",
+      "points": 4,
+      "projRecord": {
+        "v": "45\u201331\u20138",
+        "sort": 97.4
+      },
+      "projPoints": 97.4,
+      "range": "81\u2013113",
+      "playoffs": 0.5773,
+      "divTitle": 0.1294,
+      "cup": 0.0385
     },
     {
       "team": "New York Islanders",
       "division": "Metropolitan",
-      "record": "0\u20131\u20130",
-      "points": 0,
+      "record": "1\u20132\u20130",
+      "points": 2,
       "projRecord": {
-        "v": "41\u201333\u201310",
-        "sort": 91.6
+        "v": "42\u201333\u20139",
+        "sort": 92.6
       },
-      "projPoints": 91.6,
-      "range": "75\u2013109",
-      "playoffs": 0.3892,
-      "divTitle": 0.062,
-      "cup": 0.0162
+      "projPoints": 92.6,
+      "range": "76\u2013109",
+      "playoffs": 0.422,
+      "divTitle": 0.0728,
+      "cup": 0.0187
     },
     {
       "team": "New Jersey Devils",
       "division": "Metropolitan",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "1\u20132\u20130",
+      "points": 2,
       "projRecord": {
-        "v": "40\u201334\u201310",
-        "sort": 90.2
+        "v": "38\u201337\u20139",
+        "sort": 85.7
       },
-      "projPoints": 90.2,
-      "range": "73\u2013108",
-      "playoffs": 0.3558,
-      "divTitle": 0.0567,
-      "cup": 0.013
+      "projPoints": 85.7,
+      "range": "69\u2013102",
+      "playoffs": 0.2326,
+      "divTitle": 0.0265,
+      "cup": 0.0073
     },
     {
       "team": "Philadelphia Flyers",
       "division": "Metropolitan",
-      "record": "0\u20131\u20130",
-      "points": 0,
+      "record": "0\u20132\u20132",
+      "points": 2,
       "projRecord": {
-        "v": "38\u201336\u201310",
-        "sort": 85.8
+        "v": "35\u201337\u201312",
+        "sort": 81.0
       },
-      "projPoints": 85.8,
-      "range": "69\u2013103",
-      "playoffs": 0.236,
-      "divTitle": 0.0296,
-      "cup": 0.0079
+      "projPoints": 81.0,
+      "range": "65\u201397",
+      "playoffs": 0.1336,
+      "divTitle": 0.0111,
+      "cup": 0.0031
     },
     {
       "team": "Colorado Avalanche",
       "division": "Central",
-      "record": "1\u20130\u20130",
-      "points": 2,
+      "record": "2\u20131\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "50\u201325\u20139",
-        "sort": 109.1
+        "v": "51\u201325\u20138",
+        "sort": 110.7
       },
-      "projPoints": 109.1,
-      "range": "93\u2013125",
-      "playoffs": 0.8953,
-      "divTitle": 0.411,
-      "cup": 0.1199
-    },
-    {
-      "team": "Dallas Stars",
-      "division": "Central",
-      "record": "0\u20130\u20130",
-      "points": 0,
-      "projRecord": {
-        "v": "45\u201329\u201310",
-        "sort": 100.0
-      },
-      "projPoints": 100.0,
-      "range": "83\u2013117",
-      "playoffs": 0.7008,
-      "divTitle": 0.1566,
-      "cup": 0.0525
-    },
-    {
-      "team": "Minnesota Wild",
-      "division": "Central",
-      "record": "0\u20130\u20130",
-      "points": 0,
-      "projRecord": {
-        "v": "44\u201330\u201310",
-        "sort": 98.0
-      },
-      "projPoints": 98.0,
-      "range": "81\u2013115",
-      "playoffs": 0.6445,
-      "divTitle": 0.1258,
-      "cup": 0.0431
+      "projPoints": 110.7,
+      "range": "95\u2013126",
+      "playoffs": 0.919,
+      "divTitle": 0.4148,
+      "cup": 0.1365
     },
     {
       "team": "Utah Mammoth",
       "division": "Central",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "3\u20131\u20130",
+      "points": 6,
       "projRecord": {
-        "v": "44\u201330\u201310",
-        "sort": 96.6
+        "v": "48\u201328\u20138",
+        "sort": 104.9
       },
-      "projPoints": 96.6,
-      "range": "79\u2013114",
-      "playoffs": 0.6089,
-      "divTitle": 0.1099,
-      "cup": 0.0366
+      "projPoints": 104.9,
+      "range": "89\u2013120",
+      "playoffs": 0.8269,
+      "divTitle": 0.2172,
+      "cup": 0.0744
+    },
+    {
+      "team": "Minnesota Wild",
+      "division": "Central",
+      "record": "2\u20130\u20131",
+      "points": 5,
+      "projRecord": {
+        "v": "45\u201329\u201310",
+        "sort": 100.5
+      },
+      "projPoints": 100.5,
+      "range": "84\u2013117",
+      "playoffs": 0.7183,
+      "divTitle": 0.1339,
+      "cup": 0.0399
+    },
+    {
+      "team": "Dallas Stars",
+      "division": "Central",
+      "record": "1\u20132\u20130",
+      "points": 2,
+      "projRecord": {
+        "v": "45\u201330\u20139",
+        "sort": 99.3
+      },
+      "projPoints": 99.3,
+      "range": "83\u2013115",
+      "playoffs": 0.6913,
+      "divTitle": 0.1086,
+      "cup": 0.0465
     },
     {
       "team": "St. Louis Blues",
       "division": "Central",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "1\u20132\u20130",
+      "points": 2,
       "projRecord": {
-        "v": "43\u201331\u201310",
-        "sort": 95.7
+        "v": "42\u201333\u20139",
+        "sort": 92.9
       },
-      "projPoints": 95.7,
-      "range": "78\u2013113",
-      "playoffs": 0.5795,
-      "divTitle": 0.0951,
-      "cup": 0.0288
-    },
-    {
-      "team": "Nashville Predators",
-      "division": "Central",
-      "record": "0\u20130\u20130",
-      "points": 0,
-      "projRecord": {
-        "v": "40\u201334\u201310",
-        "sort": 90.3
-      },
-      "projPoints": 90.3,
-      "range": "73\u2013108",
-      "playoffs": 0.4206,
-      "divTitle": 0.0471,
-      "cup": 0.0136
+      "projPoints": 92.9,
+      "range": "76\u2013110",
+      "playoffs": 0.4869,
+      "divTitle": 0.0522,
+      "cup": 0.019
     },
     {
       "team": "Winnipeg Jets",
       "division": "Central",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "3\u20130\u20131",
+      "points": 7,
       "projRecord": {
-        "v": "40\u201334\u201310",
-        "sort": 89.7
+        "v": "41\u201333\u201310",
+        "sort": 92.7
       },
-      "projPoints": 89.7,
-      "range": "72\u2013107",
-      "playoffs": 0.3959,
-      "divTitle": 0.0461,
-      "cup": 0.0139
+      "projPoints": 92.7,
+      "range": "76\u2013109",
+      "playoffs": 0.4802,
+      "divTitle": 0.0446,
+      "cup": 0.0115
+    },
+    {
+      "team": "Nashville Predators",
+      "division": "Central",
+      "record": "1\u20131\u20131",
+      "points": 3,
+      "projRecord": {
+        "v": "39\u201335\u201310",
+        "sort": 89.1
+      },
+      "projPoints": 89.1,
+      "range": "72\u2013106",
+      "playoffs": 0.3716,
+      "divTitle": 0.027,
+      "cup": 0.0124
     },
     {
       "team": "Chicago Blackhawks",
       "division": "Central",
-      "record": "0\u20131\u20130",
-      "points": 0,
+      "record": "1\u20133\u20130",
+      "points": 2,
       "projRecord": {
-        "v": "35\u201339\u201310",
-        "sort": 79.9
+        "v": "32\u201342\u201310",
+        "sort": 72.9
       },
-      "projPoints": 79.9,
-      "range": "63\u201397",
-      "playoffs": 0.1547,
-      "divTitle": 0.0084,
-      "cup": 0.0024
+      "projPoints": 72.9,
+      "range": "57\u201389",
+      "playoffs": 0.054,
+      "divTitle": 0.0017,
+      "cup": 0.0003
     },
     {
       "team": "Vegas Golden Knights",
       "division": "Pacific",
-      "record": "1\u20130\u20130",
-      "points": 2,
+      "record": "3\u20131\u20130",
+      "points": 6,
       "projRecord": {
-        "v": "47\u201328\u20139",
-        "sort": 103.7
+        "v": "49\u201327\u20138",
+        "sort": 106.2
       },
-      "projPoints": 103.7,
-      "range": "87\u2013120",
-      "playoffs": 0.8186,
-      "divTitle": 0.401,
-      "cup": 0.0739
+      "projPoints": 106.2,
+      "range": "90\u2013122",
+      "playoffs": 0.8872,
+      "divTitle": 0.4814,
+      "cup": 0.0844
     },
     {
       "team": "Edmonton Oilers",
       "division": "Pacific",
-      "record": "0\u20130\u20131",
-      "points": 1,
+      "record": "3\u20130\u20131",
+      "points": 7,
       "projRecord": {
-        "v": "42\u201332\u201310",
-        "sort": 93.6
+        "v": "45\u201329\u201310",
+        "sort": 98.7
       },
-      "projPoints": 93.6,
-      "range": "76\u2013111",
-      "playoffs": 0.5619,
-      "divTitle": 0.144,
-      "cup": 0.0273
+      "projPoints": 98.7,
+      "range": "82\u2013115",
+      "playoffs": 0.7267,
+      "divTitle": 0.2249,
+      "cup": 0.0346
     },
     {
       "team": "Anaheim Ducks",
       "division": "Pacific",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "2\u20131\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "42\u201332\u201310",
-        "sort": 93.0
+        "v": "42\u201333\u20139",
+        "sort": 92.8
       },
-      "projPoints": 93.0,
-      "range": "75\u2013110",
-      "playoffs": 0.5374,
-      "divTitle": 0.1351,
-      "cup": 0.0191
+      "projPoints": 92.8,
+      "range": "76\u2013109",
+      "playoffs": 0.5518,
+      "divTitle": 0.1128,
+      "cup": 0.0149
     },
     {
       "team": "Los Angeles Kings",
       "division": "Pacific",
-      "record": "0\u20131\u20130",
-      "points": 0,
+      "record": "0\u20132\u20131",
+      "points": 1,
       "projRecord": {
-        "v": "41\u201333\u201310",
-        "sort": 92.5
+        "v": "40\u201334\u201310",
+        "sort": 90.4
       },
-      "projPoints": 92.5,
-      "range": "76\u2013109",
-      "playoffs": 0.5248,
-      "divTitle": 0.1255,
-      "cup": 0.0217
-    },
-    {
-      "team": "Calgary Flames",
-      "division": "Pacific",
-      "record": "0\u20130\u20130",
-      "points": 0,
-      "projRecord": {
-        "v": "39\u201335\u201310",
-        "sort": 87.4
-      },
-      "projPoints": 87.4,
-      "range": "70\u2013105",
-      "playoffs": 0.3688,
-      "divTitle": 0.0692,
-      "cup": 0.0085
+      "projPoints": 90.4,
+      "range": "74\u2013107",
+      "playoffs": 0.472,
+      "divTitle": 0.0885,
+      "cup": 0.019
     },
     {
       "team": "Seattle Kraken",
       "division": "Pacific",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "2\u20132\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "38\u201336\u201310",
-        "sort": 85.9
+        "v": "39\u201336\u20139",
+        "sort": 88.2
       },
-      "projPoints": 85.9,
-      "range": "68\u2013103",
-      "playoffs": 0.3285,
-      "divTitle": 0.0582,
-      "cup": 0.008
+      "projPoints": 88.2,
+      "range": "72\u2013104",
+      "playoffs": 0.4079,
+      "divTitle": 0.0577,
+      "cup": 0.0094
     },
     {
       "team": "San Jose Sharks",
       "division": "Pacific",
-      "record": "0\u20130\u20130",
-      "points": 0,
+      "record": "2\u20131\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "38\u201336\u201310",
-        "sort": 85.4
+        "v": "35\u201339\u201310",
+        "sort": 80.0
       },
-      "projPoints": 85.4,
-      "range": "68\u2013103",
-      "playoffs": 0.3175,
-      "divTitle": 0.0509,
-      "cup": 0.0063
+      "projPoints": 80.0,
+      "range": "64\u201397",
+      "playoffs": 0.1863,
+      "divTitle": 0.0196,
+      "cup": 0.0031
     },
     {
       "team": "Vancouver Canucks",
       "division": "Pacific",
-      "record": "1\u20130\u20130",
-      "points": 2,
+      "record": "2\u20132\u20130",
+      "points": 4,
       "projRecord": {
-        "v": "34\u201340\u201310",
-        "sort": 77.6
+        "v": "33\u201342\u20139",
+        "sort": 75.7
       },
-      "projPoints": 77.6,
-      "range": "61\u201395",
-      "playoffs": 0.1423,
-      "divTitle": 0.0161,
-      "cup": 0.0015
+      "projPoints": 75.7,
+      "range": "60\u201392",
+      "playoffs": 0.1093,
+      "divTitle": 0.007,
+      "cup": 0.0006
+    },
+    {
+      "team": "Calgary Flames",
+      "division": "Pacific",
+      "record": "0\u20133\u20130",
+      "points": 0,
+      "projRecord": {
+        "v": "33\u201341\u201310",
+        "sort": 75.5
+      },
+      "projPoints": 75.5,
+      "range": "59\u201392",
+      "playoffs": 0.1106,
+      "divTitle": 0.0081,
+      "cup": 0.0013
     }
   ]
 }

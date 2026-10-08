@@ -1,0 +1,492 @@
+{
+  "subtitle": "Thu Oct 8, 2026\u201327 \u2014 10 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's \u00b7 \u2605 = flagged bet",
+  "updated": "2026-10-08",
+  "search": "Search teams or goalies",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "puck",
+      "label": "Fav -1.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "p_over_5.5",
+      "label": "Over 5.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "p_over_6.5",
+      "label": "Over 6.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktTotal",
+      "label": "Mkt Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet (edge)",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-08T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "UTA",
+        "sub": "K. Vejmelka 95%"
+      },
+      "awayScore": "3.2",
+      "sep": "\u2013",
+      "homeScore": "2.9",
+      "homeTeam": {
+        "v": "BOS",
+        "sub": "J. Swayman 94%"
+      },
+      "homeWin": 0.4545,
+      "fair": "+120",
+      "puck": {
+        "v": "UTA 34%",
+        "sort": 0.3411
+      },
+      "total": {
+        "v": "6.14",
+        "sort": 6.14
+      },
+      "p_over_5.5": 0.5474,
+      "p_over_6.5": 0.4392,
+      "mktHome": 0.4635,
+      "mktTotal": {
+        "v": "6: over 44%",
+        "sort": 0.4392
+      },
+      "bet": {
+        "v": "\u2605 UTA -1.5 (+3.3%)",
+        "sort": 0.0334
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-08T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "DAL",
+        "sub": "J. Oettinger 70%"
+      },
+      "awayScore": "3.0",
+      "sep": "\u2013",
+      "homeScore": "3.0",
+      "homeTeam": {
+        "v": "BUF",
+        "sub": "U. Luukkonen 75%"
+      },
+      "homeWin": 0.4976,
+      "fair": "+101",
+      "puck": {
+        "v": "DAL 30%",
+        "sort": 0.3042
+      },
+      "total": {
+        "v": "6.00",
+        "sort": 6.0
+      },
+      "p_over_5.5": 0.5249,
+      "p_over_6.5": 0.4169,
+      "mktHome": 0.4772,
+      "mktTotal": {
+        "v": "6: over 42%",
+        "sort": 0.4169
+      },
+      "bet": {
+        "v": "\u2605 UNDER 6 (+5.0%) +1",
+        "sort": 0.05
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-08T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "NSH",
+        "sub": "J. Saros 71%"
+      },
+      "awayScore": "2.9",
+      "sep": "\u2013",
+      "homeScore": "3.3",
+      "homeTeam": {
+        "v": "MTL",
+        "sub": "J. Dobes 87%"
+      },
+      "homeWin": 0.5573,
+      "fair": "-126",
+      "puck": {
+        "v": "MTL 35%",
+        "sort": 0.3515
+      },
+      "total": {
+        "v": "6.20",
+        "sort": 6.2
+      },
+      "p_over_5.5": 0.5571,
+      "p_over_6.5": 0.4488,
+      "mktHome": 0.6146,
+      "mktTotal": {
+        "v": "6: over 45%",
+        "sort": 0.4488
+      },
+      "bet": {
+        "v": "\u2605 NSH ML (+5.9%) +1",
+        "sort": 0.0591
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-08T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "PHI",
+        "sub": "D. Vladar 89%"
+      },
+      "awayScore": "2.5",
+      "sep": "\u2013",
+      "homeScore": "3.3",
+      "homeTeam": {
+        "v": "OTT",
+        "sub": "L. Ullmark 90%"
+      },
+      "homeWin": 0.6392,
+      "fair": "-177",
+      "puck": {
+        "v": "OTT 42%",
+        "sort": 0.4157
+      },
+      "total": {
+        "v": "5.76",
+        "sort": 5.76
+      },
+      "p_over_5.5": 0.4845,
+      "p_over_6.5": 0.3745,
+      "mktHome": 0.5822,
+      "mktTotal": {
+        "v": "5.5: over 48%",
+        "sort": 0.4845
+      },
+      "bet": {
+        "v": "\u2605 OTT ML (+7.4%) +2",
+        "sort": 0.0743
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-08T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "MIN",
+        "sub": "J. Wallstedt 89%"
+      },
+      "awayScore": "2.8",
+      "sep": "\u2013",
+      "homeScore": "3.1",
+      "homeTeam": {
+        "v": "TBL",
+        "sub": "A. Vasilevskiy 86%"
+      },
+      "homeWin": 0.5424,
+      "fair": "-119",
+      "puck": {
+        "v": "TBL 33%",
+        "sort": 0.3335
+      },
+      "total": {
+        "v": "5.87",
+        "sort": 5.87
+      },
+      "p_over_5.5": 0.5013,
+      "p_over_6.5": 0.3934,
+      "mktHome": 0.5752,
+      "mktTotal": {
+        "v": "6: over 39%",
+        "sort": 0.3934
+      },
+      "bet": {
+        "v": "\u2605 UNDER 5.5 (+5.1%) +2",
+        "sort": 0.0509
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-08T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "VAN",
+        "sub": "K. Lankinen 91%"
+      },
+      "awayScore": "2.7",
+      "sep": "\u2013",
+      "homeScore": "3.9",
+      "homeTeam": {
+        "v": "CAR",
+        "sub": "B. Bussi 86%"
+      },
+      "homeWin": 0.6885,
+      "fair": "-221",
+      "puck": {
+        "v": "CAR 48%",
+        "sort": 0.4775
+      },
+      "total": {
+        "v": "6.59",
+        "sort": 6.59
+      },
+      "p_over_5.5": 0.622,
+      "p_over_6.5": 0.5116,
+      "mktHome": 0.7438,
+      "mktTotal": {
+        "v": "6.5: over 51%",
+        "sort": 0.5116
+      },
+      "bet": {
+        "v": "\u2605 VAN +1.5 (+7.0%) +2",
+        "sort": 0.0701
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "7:30 PM",
+        "sort": "2026-10-08T23:30:00Z"
+      },
+      "awayTeam": {
+        "v": "CHI",
+        "sub": "S. Knight 70%"
+      },
+      "awayScore": "2.6",
+      "sep": "\u2013",
+      "homeScore": "3.5",
+      "homeTeam": {
+        "v": "NYI",
+        "sub": "I. Sorokin 94%"
+      },
+      "homeWin": 0.6443,
+      "fair": "-181",
+      "puck": {
+        "v": "NYI 43%",
+        "sort": 0.426
+      },
+      "total": {
+        "v": "6.06",
+        "sort": 6.06
+      },
+      "p_over_5.5": 0.5358,
+      "p_over_6.5": 0.4248,
+      "mktHome": 0.6212,
+      "mktTotal": {
+        "v": "5.5: over 54%",
+        "sort": 0.5358
+      },
+      "bet": {
+        "v": "\u2605 NYI ML (+4.0%) +1",
+        "sort": 0.0395
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-09T00:00:00Z"
+      },
+      "awayTeam": {
+        "v": "SJS",
+        "sub": "Y. Askarov 58%"
+      },
+      "awayScore": "2.8",
+      "sep": "\u2013",
+      "homeScore": "3.4",
+      "homeTeam": {
+        "v": "STL",
+        "sub": "J. Hofer 59%"
+      },
+      "homeWin": 0.6025,
+      "fair": "-152",
+      "puck": {
+        "v": "STL 39%",
+        "sort": 0.3898
+      },
+      "total": {
+        "v": "6.16",
+        "sort": 6.16
+      },
+      "p_over_5.5": 0.5515,
+      "p_over_6.5": 0.4421,
+      "mktHome": 0.5802,
+      "mktTotal": {
+        "v": "5.5: over 55%",
+        "sort": 0.5515
+      },
+      "bet": {
+        "v": "\u2605 STL -1.5 (+4.7%) +2",
+        "sort": 0.0472
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "9:00 PM",
+        "sort": "2026-10-09T01:00:00Z"
+      },
+      "awayTeam": {
+        "v": "COL",
+        "sub": "S. Wedgewood 91%"
+      },
+      "awayScore": "3.6",
+      "sep": "\u2013",
+      "homeScore": "2.7",
+      "homeTeam": {
+        "v": "CGY",
+        "sub": "D. Wolf 63%"
+      },
+      "homeWin": 0.3591,
+      "fair": "+178",
+      "puck": {
+        "v": "COL 43%",
+        "sort": 0.4269
+      },
+      "total": {
+        "v": "6.29",
+        "sort": 6.29
+      },
+      "p_over_5.5": 0.5735,
+      "p_over_6.5": 0.4632,
+      "mktHome": 0.3217,
+      "mktTotal": {
+        "v": "6: over 46%",
+        "sort": 0.4632
+      },
+      "bet": {
+        "v": "\u2605 CGY +1.5 (+5.1%) +1",
+        "sort": 0.0514
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-09T02:00:00Z"
+      },
+      "awayTeam": {
+        "v": "TOR",
+        "sub": "A. Stolarz 78%"
+      },
+      "awayScore": "2.8",
+      "sep": "\u2013",
+      "homeScore": "3.4",
+      "homeTeam": {
+        "v": "VGK",
+        "sub": "C. Hart 71%"
+      },
+      "homeWin": 0.6103,
+      "fair": "-157",
+      "puck": {
+        "v": "VGK 40%",
+        "sort": 0.3971
+      },
+      "total": {
+        "v": "6.18",
+        "sort": 6.18
+      },
+      "p_over_5.5": 0.5546,
+      "p_over_6.5": 0.445,
+      "mktHome": 0.6022,
+      "mktTotal": {
+        "v": "6.5: over 44%",
+        "sort": 0.445
+      },
+      "bet": {
+        "v": "\u2605 UNDER 6.5 (+4.4%)",
+        "sort": 0.0442
+      },
+      "flagged": true
+    }
+  ]
+}

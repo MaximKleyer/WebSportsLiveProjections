@@ -1,0 +1,220 @@
+{
+  "subtitle": "Sun Oct 4, 2026\u201327 \u2014 5 games \u00b7 straight up 4\u20131 \u00b7 log loss 0.584 \u00b7 totals MAE 0.97",
+  "updated": "2026-10-08",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou55",
+      "label": "O/U 5.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou65",
+      "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "WPG",
+      "awayScore": "3",
+      "sep": "\u2013",
+      "homeScore": "2",
+      "homeTeam": "DET",
+      "proj": "3.0 \u2013 3.0",
+      "pick": {
+        "v": "DET 50% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "total": {
+        "v": "5.98 \u2192 5",
+        "sort": 0.9809
+      },
+      "ou55": {
+        "v": "OVER 52% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 59% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "UTA",
+      "awayScore": "2",
+      "sep": "\u2013",
+      "homeScore": "4",
+      "homeTeam": "NYR",
+      "proj": "2.8 \u2013 3.0",
+      "pick": {
+        "v": "NYR 54% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.88 \u2192 6",
+        "sort": 0.1151
+      },
+      "ou55": {
+        "v": "OVER 50% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 60% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "bet": {
+        "v": "\u2605 UNDER 5.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "FLA",
+      "awayScore": "2",
+      "sep": "OT",
+      "homeScore": "3",
+      "homeTeam": "ANA",
+      "proj": "3.1 \u2013 3.2",
+      "pick": {
+        "v": "ANA 51% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.25 \u2192 5",
+        "sort": 1.2465
+      },
+      "ou55": {
+        "v": "OVER 57% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 54% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "CGY",
+      "awayScore": "1",
+      "sep": "\u2013",
+      "homeScore": "6",
+      "homeTeam": "SEA",
+      "proj": "2.8 \u2013 3.2",
+      "pick": {
+        "v": "SEA 58% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.96 \u2192 7",
+        "sort": 1.0352
+      },
+      "ou55": {
+        "v": "OVER 52% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 59% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "VGK",
+      "awayScore": "3",
+      "sep": "\u2013",
+      "homeScore": "2",
+      "homeTeam": "VAN",
+      "proj": "3.8 \u2013 2.6",
+      "pick": {
+        "v": "VGK 69% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.46 \u2192 5",
+        "sort": 1.4575
+      },
+      "ou55": {
+        "v": "OVER 60% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 51% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    }
+  ]
+}

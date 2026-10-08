@@ -1,6 +1,6 @@
 {
   "subtitle": "2026\u201327 \u00b7 record by day",
-  "updated": "2026-10-02",
+  "updated": "2026-10-08",
   "columns": [
     {
       "key": "day",
@@ -47,6 +47,12 @@
       "label": "O/U 6.5",
       "align": "right",
       "sortable": true
+    },
+    {
+      "key": "bets",
+      "label": "\u2605 Bets",
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
@@ -84,7 +90,237 @@
         "v": "5\u20133 (62%)",
         "sort": 0.625,
         "tone": "good"
+      },
+      "bets": null
+    },
+    {
+      "day": {
+        "v": "Fri Oct 2",
+        "sort": "2026-10-02"
+      },
+      "games": 5,
+      "su": {
+        "v": "1\u20134 (20%)",
+        "sort": 0.2,
+        "tone": "bad"
+      },
+      "logLoss": {
+        "v": "0.782",
+        "sort": 0.781667,
+        "tone": "bad"
+      },
+      "brier": {
+        "v": "0.294",
+        "sort": 0.293938,
+        "tone": "bad"
+      },
+      "mae": {
+        "v": "1.73",
+        "sort": 1.7315
+      },
+      "ou55": {
+        "v": "3\u20132 (60%)",
+        "sort": 0.6,
+        "tone": "good"
+      },
+      "ou65": {
+        "v": "2\u20133 (40%)",
+        "sort": 0.4,
+        "tone": "bad"
+      },
+      "bets": null
+    },
+    {
+      "day": {
+        "v": "Sat Oct 3",
+        "sort": "2026-10-03"
+      },
+      "games": 6,
+      "su": {
+        "v": "4\u20132 (67%)",
+        "sort": 0.6667,
+        "tone": "good"
+      },
+      "logLoss": {
+        "v": "0.635",
+        "sort": 0.634694,
+        "tone": "good"
+      },
+      "brier": {
+        "v": "0.221",
+        "sort": 0.221495,
+        "tone": "good"
+      },
+      "mae": {
+        "v": "1.52",
+        "sort": 1.5235
+      },
+      "ou55": {
+        "v": "3\u20133 (50%)",
+        "sort": 0.5
+      },
+      "ou65": {
+        "v": "4\u20132 (67%)",
+        "sort": 0.6667,
+        "tone": "good"
+      },
+      "bets": null
+    },
+    {
+      "day": {
+        "v": "Sun Oct 4",
+        "sort": "2026-10-04"
+      },
+      "games": 5,
+      "su": {
+        "v": "4\u20131 (80%)",
+        "sort": 0.8,
+        "tone": "good"
+      },
+      "logLoss": {
+        "v": "0.584",
+        "sort": 0.584072,
+        "tone": "good"
+      },
+      "brier": {
+        "v": "0.197",
+        "sort": 0.196912,
+        "tone": "good"
+      },
+      "mae": {
+        "v": "0.97",
+        "sort": 0.967
+      },
+      "ou55": {
+        "v": "2\u20133 (40%)",
+        "sort": 0.4,
+        "tone": "bad"
+      },
+      "ou65": {
+        "v": "4\u20131 (80%)",
+        "sort": 0.8,
+        "tone": "good"
+      },
+      "bets": {
+        "v": "0\u20131 (0%)",
+        "sort": 0.0,
+        "tone": "bad"
       }
+    },
+    {
+      "day": {
+        "v": "Mon Oct 5",
+        "sort": "2026-10-05"
+      },
+      "games": 4,
+      "su": {
+        "v": "3\u20131 (75%)",
+        "sort": 0.75,
+        "tone": "good"
+      },
+      "logLoss": {
+        "v": "0.686",
+        "sort": 0.686403,
+        "tone": "good"
+      },
+      "brier": {
+        "v": "0.246",
+        "sort": 0.245669,
+        "tone": "good"
+      },
+      "mae": {
+        "v": "1.02",
+        "sort": 1.0223
+      },
+      "ou55": {
+        "v": "1\u20133 (25%)",
+        "sort": 0.25,
+        "tone": "bad"
+      },
+      "ou65": {
+        "v": "4\u20130 (100%)",
+        "sort": 1.0,
+        "tone": "good"
+      },
+      "bets": null
+    },
+    {
+      "day": {
+        "v": "Tue Oct 6",
+        "sort": "2026-10-06"
+      },
+      "games": 9,
+      "su": {
+        "v": "5\u20134 (56%)",
+        "sort": 0.5556,
+        "tone": "good"
+      },
+      "logLoss": {
+        "v": "0.684",
+        "sort": 0.684189,
+        "tone": "good"
+      },
+      "brier": {
+        "v": "0.245",
+        "sort": 0.245427,
+        "tone": "good"
+      },
+      "mae": {
+        "v": "2.00",
+        "sort": 1.9963
+      },
+      "ou55": {
+        "v": "6\u20133 (67%)",
+        "sort": 0.6667,
+        "tone": "good"
+      },
+      "ou65": {
+        "v": "3\u20136 (33%)",
+        "sort": 0.3333,
+        "tone": "bad"
+      },
+      "bets": {
+        "v": "0\u20131 (0%)",
+        "sort": 0.0,
+        "tone": "bad"
+      }
+    },
+    {
+      "day": {
+        "v": "Wed Oct 7",
+        "sort": "2026-10-07"
+      },
+      "games": 3,
+      "su": {
+        "v": "1\u20132 (33%)",
+        "sort": 0.3333,
+        "tone": "bad"
+      },
+      "logLoss": {
+        "v": "0.786",
+        "sort": 0.78584,
+        "tone": "bad"
+      },
+      "brier": {
+        "v": "0.295",
+        "sort": 0.29531,
+        "tone": "bad"
+      },
+      "mae": {
+        "v": "0.99",
+        "sort": 0.9889
+      },
+      "ou55": {
+        "v": "2\u20131 (67%)",
+        "sort": 0.6667,
+        "tone": "good"
+      },
+      "ou65": {
+        "v": "3\u20130 (100%)",
+        "sort": 1.0,
+        "tone": "good"
+      },
+      "bets": null
     }
   ]
 }

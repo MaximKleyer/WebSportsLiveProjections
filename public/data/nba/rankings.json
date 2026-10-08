@@ -1,0 +1,721 @@
+{
+  "subtitle": "2026\u201327 \u2014 scores 0\u2013100 are percentiles among the team-seasons of earlier seasons (50 = average). Overall = the model's net rating (offense + defense, points per 100 possessions vs an average team), the one its predictions use; shooting, turnovers, rebounding and free throws are the Four Factors, for context. Trend = change in overall over the last 14 days.",
+  "updated": "2026-10-08",
+  "columns": [
+    {
+      "key": "rank",
+      "label": "#",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "team",
+      "label": "Team"
+    },
+    {
+      "key": "record",
+      "label": "W\u2013L",
+      "align": "right"
+    },
+    {
+      "key": "overall",
+      "label": "Overall",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "net",
+      "label": "Net /100",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "winPct",
+      "label": "Win % vs avg",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "offense",
+      "label": "Offense",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "defense",
+      "label": "Defense",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "shooting",
+      "label": "Shooting",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "turnovers",
+      "label": "Turnovers",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "rebounding",
+      "label": "Rebounding",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "free_throws",
+      "label": "Free Throws",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "trend",
+      "label": "Trend",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "rank": 1,
+      "team": "Oklahoma City Thunder",
+      "record": "0\u20130",
+      "net": {
+        "v": "+6.9",
+        "sort": 6.93
+      },
+      "winPct": 0.7004,
+      "overall": 95.0,
+      "offense": 82.0,
+      "defense": 97.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 2,
+      "team": "Los Angeles Lakers",
+      "record": "0\u20130",
+      "net": {
+        "v": "+5.3",
+        "sort": 5.29
+      },
+      "winPct": 0.6552,
+      "overall": 90.0,
+      "offense": 95.0,
+      "defense": 62.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 3,
+      "team": "Denver Nuggets",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.8",
+        "sort": 4.76
+      },
+      "winPct": 0.6405,
+      "overall": 87.0,
+      "offense": 99.0,
+      "defense": 26.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 4,
+      "team": "Boston Celtics",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.2",
+        "sort": 4.17
+      },
+      "winPct": 0.6217,
+      "overall": 84.0,
+      "offense": 80.0,
+      "defense": 78.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 5,
+      "team": "Cleveland Cavaliers",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.5",
+        "sort": 3.53
+      },
+      "winPct": 0.606,
+      "overall": 80.0,
+      "offense": 85.0,
+      "defense": 61.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 6,
+      "team": "San Antonio Spurs",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.5",
+        "sort": 3.51
+      },
+      "winPct": 0.6055,
+      "overall": 80.0,
+      "offense": 68.0,
+      "defense": 84.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 7,
+      "team": "Toronto Raptors",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.4",
+        "sort": 3.37
+      },
+      "winPct": 0.6007,
+      "overall": 79.0,
+      "offense": 70.0,
+      "defense": 79.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 8,
+      "team": "Golden State Warriors",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.0",
+        "sort": 3.05
+      },
+      "winPct": 0.5914,
+      "overall": 77.0,
+      "offense": 77.0,
+      "defense": 66.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 9,
+      "team": "Houston Rockets",
+      "record": "0\u20130",
+      "net": {
+        "v": "+2.5",
+        "sort": 2.54
+      },
+      "winPct": 0.5754,
+      "overall": 73.0,
+      "offense": 57.0,
+      "defense": 82.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 10,
+      "team": "Philadelphia 76ers",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.9",
+        "sort": 1.91
+      },
+      "winPct": 0.5577,
+      "overall": 68.0,
+      "offense": 69.0,
+      "defense": 58.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 11,
+      "team": "Detroit Pistons",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.4",
+        "sort": 1.37
+      },
+      "winPct": 0.5414,
+      "overall": 63.0,
+      "offense": 60.0,
+      "defense": 62.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 12,
+      "team": "Minnesota Timberwolves",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.1",
+        "sort": 1.06
+      },
+      "winPct": 0.5324,
+      "overall": 60.0,
+      "offense": 57.0,
+      "defense": 60.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 13,
+      "team": "Portland Trail Blazers",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.0",
+        "sort": 0.96
+      },
+      "winPct": 0.5292,
+      "overall": 59.0,
+      "offense": 70.0,
+      "defense": 41.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 14,
+      "team": "Orlando Magic",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.8",
+        "sort": 0.77
+      },
+      "winPct": 0.5234,
+      "overall": 57.0,
+      "offense": 41.0,
+      "defense": 73.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 15,
+      "team": "Charlotte Hornets",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.7",
+        "sort": 0.65
+      },
+      "winPct": 0.5195,
+      "overall": 56.0,
+      "offense": 61.0,
+      "defense": 48.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 16,
+      "team": "New York Knicks",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.1",
+        "sort": 0.09
+      },
+      "winPct": 0.5027,
+      "overall": 51.0,
+      "offense": 52.0,
+      "defense": 50.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 17,
+      "team": "Phoenix Suns",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.7",
+        "sort": -0.73
+      },
+      "winPct": 0.4782,
+      "overall": 43.0,
+      "offense": 45.0,
+      "defense": 43.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 18,
+      "team": "Miami Heat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.1",
+        "sort": -1.13
+      },
+      "winPct": 0.465,
+      "overall": 39.0,
+      "offense": 42.0,
+      "defense": 40.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 19,
+      "team": "Atlanta Hawks",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.4",
+        "sort": -1.37
+      },
+      "winPct": 0.4581,
+      "overall": 37.0,
+      "offense": 24.0,
+      "defense": 61.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 20,
+      "team": "New Orleans Pelicans",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.0",
+        "sort": -2.03
+      },
+      "winPct": 0.4383,
+      "overall": 31.0,
+      "offense": 44.0,
+      "defense": 24.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 21,
+      "team": "Chicago Bulls",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.1",
+        "sort": -2.15
+      },
+      "winPct": 0.4341,
+      "overall": 30.0,
+      "offense": 30.0,
+      "defense": 39.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 22,
+      "team": "Dallas Mavericks",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.3",
+        "sort": -2.34
+      },
+      "winPct": 0.4286,
+      "overall": 29.0,
+      "offense": 19.0,
+      "defense": 54.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 23,
+      "team": "Indiana Pacers",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.8",
+        "sort": -2.78
+      },
+      "winPct": 0.4155,
+      "overall": 25.0,
+      "offense": 29.0,
+      "defense": 30.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 24,
+      "team": "Memphis Grizzlies",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.8",
+        "sort": -2.79
+      },
+      "winPct": 0.4151,
+      "overall": 25.0,
+      "offense": 31.0,
+      "defense": 27.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 25,
+      "team": "Milwaukee Bucks",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.9",
+        "sort": -2.87
+      },
+      "winPct": 0.4145,
+      "overall": 25.0,
+      "offense": 19.0,
+      "defense": 44.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 26,
+      "team": "Utah Jazz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.9",
+        "sort": -2.88
+      },
+      "winPct": 0.4121,
+      "overall": 25.0,
+      "offense": 45.0,
+      "defense": 13.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 27,
+      "team": "Washington Wizards",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.2",
+        "sort": -4.15
+      },
+      "winPct": 0.3752,
+      "overall": 16.0,
+      "offense": 14.0,
+      "defense": 32.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 28,
+      "team": "LA Clippers",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.9",
+        "sort": -5.92
+      },
+      "winPct": 0.3288,
+      "overall": 8.0,
+      "offense": 8.0,
+      "defense": 21.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 29,
+      "team": "Brooklyn Nets",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.9",
+        "sort": -5.93
+      },
+      "winPct": 0.3279,
+      "overall": 8.0,
+      "offense": 8.0,
+      "defense": 19.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 30,
+      "team": "Sacramento Kings",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.9",
+        "sort": -6.87
+      },
+      "winPct": 0.301,
+      "overall": 5.0,
+      "offense": 7.0,
+      "defense": 12.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    }
+  ]
+}

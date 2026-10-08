@@ -1,6 +1,6 @@
 {
   "subtitle": "Thu Oct 1, 2026\u201327 \u2014 8 games \u00b7 straight up 5\u20133 \u00b7 log loss 0.638 \u00b7 totals MAE 2.20",
-  "updated": "2026-10-02",
+  "updated": "2026-10-08",
   "search": "Search teams",
   "columns": [
     {
@@ -54,6 +54,12 @@
     {
       "key": "ou65",
       "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
       "align": "right",
       "sortable": true
     }

@@ -1,0 +1,135 @@
+{
+  "subtitle": "2026 \u00b7 Week 6 \u2014 3 of 58 games graded so far \u00b7 SU 3\u20130 \u00b7 ATS 1\u20132 \u00b7 O/U 2\u20131 \u00b7 \u2605 plays 1\u20132",
+  "updated": "2026-10-08",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "SU Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "Southern Miss",
+      "awayScore": "34",
+      "sep": "\u2013",
+      "homeScore": "55",
+      "homeTeam": "Troy",
+      "proj": "26.4 \u2013 26.9",
+      "su": {
+        "v": "Troy \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Southern Miss +9.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 49.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Jacksonville State",
+      "awayScore": "27",
+      "sep": "\u2013",
+      "homeScore": "26",
+      "homeTeam": "Kennesaw State",
+      "proj": "26.7 \u2013 22.9",
+      "su": {
+        "v": "Jacksonville State \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Jacksonville State -2.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 49.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "New Mexico State",
+      "awayScore": "3",
+      "sep": "\u2013",
+      "homeScore": "22",
+      "homeTeam": "Florida International",
+      "proj": "22.6 \u2013 28.4",
+      "su": {
+        "v": "Florida International \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Florida International -4.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 47 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    }
+  ]
+}
