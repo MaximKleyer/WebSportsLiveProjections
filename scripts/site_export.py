@@ -17,6 +17,18 @@ Stdlib only, so CI can run the check below without the models' packages.
   summary   { title?, stats: [{ label, value, detail?, tone? }], note? }
   card      { headline, updated?, stats?: [...] }  <sport>/card.json - the live
                                                     line on its landing card
+  details   { games: { <row id>: game } }          <slate id>.details.json beside a
+            slate's table, which names it in `details`; its rows carry `id`s, and
+            clicking one opens that game's card on the site
+  game      { title, subtitle?, away: team, home: team,
+              score?: { away, home, label? }, win?: { away, home, note? },
+              sections: [{ title, note?, kind, ... }] }
+            team: { name, abbr?, note? }; win: probabilities that sum to ~1
+            kind  notes    items: [str]
+                  compare  rows: [{ label, away, home, max?, awayText?, homeText?,
+                                    lower?: true when lower is better }]
+                           (values >= 0 drawn as paired bars, away left, home right)
+                  table    columns: [str], rows: [[cell, ...]]
 
 A "slate" is one selectable table in a view: a football week, an MLB day.
 Every write is validated, so a bad export fails here instead of on the site.
@@ -242,10 +254,106 @@ def check_table(t, where="table"):
             raise ContractError(f"{fw}: not an object")
         _check_str(f, "field", fw, required=True)
         _check_str(f, "label", fw, required=True)
-    for key in ("subtitle", "updated", "search"):
+    for key in ("subtitle", "updated", "search", "details"):
         _check_str(t, key, where)
+    for i, r in enumerate(rows):
+        if "id" in r and not isinstance(r["id"], str):
+            raise ContractError(f"{where} row {i}: 'id' must be a string")
     if "summary" in t:
         check_summary(t["summary"], f"{where} summary")
+
+
+SECTION_KINDS = {"notes", "compare", "table"}
+
+
+def _check_number(v, where, minimum=None):
+    if isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v) \
+            or (minimum is not None and v < minimum):
+        raise ContractError(f"{where}: {v!r} is not a number{'' if minimum is None else f' >= {minimum}'}")
+
+
+def _check_section(s, where):
+    if not isinstance(s, dict):
+        raise ContractError(f"{where}: not an object")
+    _check_str(s, "title", where, required=True)
+    _check_str(s, "note", where)
+    kind = s.get("kind")
+    if kind not in SECTION_KINDS:
+        raise ContractError(f"{where}: kind {kind!r} is not one of {sorted(SECTION_KINDS)}")
+    if kind == "notes":
+        items = s.get("items")
+        if not isinstance(items, list) or not items or not all(isinstance(x, str) and x for x in items):
+            raise ContractError(f"{where}: notes need a non-empty 'items' list of strings")
+    elif kind == "compare":
+        rows = s.get("rows")
+        if not isinstance(rows, list) or not rows:
+            raise ContractError(f"{where}: compare needs a non-empty 'rows' list")
+        for i, r in enumerate(rows):
+            rw = f"{where} row {i}"
+            if not isinstance(r, dict):
+                raise ContractError(f"{rw}: not an object")
+            _check_str(r, "label", rw, required=True)
+            for side in ("away", "home"):
+                _check_number(r.get(side), f"{rw} {side}", minimum=0)
+                _check_str(r, f"{side}Text", rw)
+            if "max" in r:
+                _check_number(r["max"], f"{rw} max", minimum=0)
+            if not isinstance(r.get("lower", False), bool):
+                raise ContractError(f"{rw}: 'lower' must be true/false")
+    else:
+        columns, rows = s.get("columns"), s.get("rows")
+        if not isinstance(columns, list) or not columns or not all(isinstance(c, str) for c in columns):
+            raise ContractError(f"{where}: a table needs a non-empty 'columns' list of strings")
+        if not isinstance(rows, list) or not rows:
+            raise ContractError(f"{where}: a table needs a non-empty 'rows' list")
+        for i, r in enumerate(rows):
+            if not isinstance(r, list) or len(r) != len(columns):
+                raise ContractError(f"{where} row {i}: needs one cell per column ({len(columns)})")
+            for j, cell in enumerate(r):
+                _check_cell(cell, f"{where} row {i} [{columns[j]}]")
+
+
+def check_details(d, where="details.json", row_ids: set[str] | None = None):
+    """A slate's game cards. `row_ids`: the ids its table's rows carry - every card needs one."""
+    games = d.get("games") if isinstance(d, dict) else None
+    if not isinstance(games, dict) or not games:
+        raise ContractError(f"{where}: needs a non-empty 'games' object")
+    for gid, game in games.items():
+        gw = f"{where} [{gid}]"
+        if not isinstance(game, dict):
+            raise ContractError(f"{gw}: not an object")
+        _check_str(game, "title", gw, required=True)
+        _check_str(game, "subtitle", gw)
+        for side in ("away", "home"):
+            team = game.get(side)
+            if not isinstance(team, dict):
+                raise ContractError(f"{gw}: needs an '{side}' team")
+            _check_str(team, "name", f"{gw} {side}", required=True)
+            for key in ("abbr", "note"):
+                _check_str(team, key, f"{gw} {side}")
+        score = game.get("score")
+        if score is not None:
+            if not isinstance(score, dict):
+                raise ContractError(f"{gw}: 'score' must be an object")
+            for key in ("away", "home"):
+                _check_str(score, key, f"{gw} score", required=True)
+            _check_str(score, "label", f"{gw} score")
+        win = game.get("win")
+        if win is not None:
+            if not isinstance(win, dict):
+                raise ContractError(f"{gw}: 'win' must be an object")
+            for key in ("away", "home"):
+                _check_number(win.get(key), f"{gw} win {key}", minimum=0)
+            if not 0.98 <= win["away"] + win["home"] <= 1.02:
+                raise ContractError(f"{gw}: win probabilities sum to {win['away'] + win['home']:.3f}, not 1")
+            _check_str(win, "note", f"{gw} win")
+        sections = game.get("sections", [])
+        if not isinstance(sections, list):
+            raise ContractError(f"{gw}: 'sections' must be a list")
+        for i, s in enumerate(sections):
+            _check_section(s, f"{gw} section {i}")
+    if row_ids is not None and (unknown := set(games) - row_ids):
+        raise ContractError(f"{where}: cards for games the table has no row for: {sorted(unknown)[:5]}")
 
 
 def check_manifest(m, where="index.json", view_dir: Path | None = None):
@@ -316,6 +424,7 @@ class Slate(NamedTuple):
     id: str      # also the file name: '2026-w03' -> 2026-w03.json
     label: str   # what the dropdown shows: 'Week 3'
     table: dict
+    details: dict | None = None  # {row id: game card} -> <id>.details.json (see `details`)
 
 
 def publish_slates(view_dir: Path, slates: list[Slate], *, season: int, latest: str | None,
@@ -327,7 +436,15 @@ def publish_slates(view_dir: Path, slates: list[Slate], *, season: int, latest: 
     published yet."""
     view_dir.mkdir(parents=True, exist_ok=True)
     for s in slates:
-        write_table(view_dir / f"{s.id}.json", s.table)
+        table = s.table
+        if s.details:
+            path = view_dir / f"{s.id}.details.json"
+            payload = {"games": s.details}
+            check_details(payload, _rel(path), {r["id"] for r in table["rows"] if "id" in r})
+            _dump(path, payload)
+            table = {**table, "details": path.name}
+            print(f"  wrote {_rel(path):24s} ({len(s.details)} game cards)")
+        write_table(view_dir / f"{s.id}.json", table)
     manifest = {
         "season": season,
         "label": label or f"{season} Season",
@@ -341,7 +458,7 @@ def publish_slates(view_dir: Path, slates: list[Slate], *, season: int, latest: 
     print(f"  wrote {_rel(view_dir / 'index.json'):24s} "
           + (f"({len(slates)} slates, opens on {latest})" if slates else "(nothing published yet)"))
 
-    keep = {"index.json"} | {f"{s.id}.json" for s in slates}
+    keep = {"index.json"} | {f"{s.id}.json" for s in slates} | {f"{s.id}.details.json" for s in slates if s.details}
     for p in sorted(view_dir.glob("*.json")):
         if p.name not in keep:
             p.unlink()
@@ -614,8 +731,14 @@ def check_all(data_dir: Path = SITE_DATA) -> int:
                 check_manifest(payload, rel, path.parent)
             elif path.name == "card.json":
                 check_card(payload, rel)
+            elif path.name.endswith(".details.json"):
+                table = json.loads(path.with_name(path.name.replace(".details.json", ".json"))
+                                   .read_text(encoding="utf-8-sig"))
+                check_details(payload, rel, {r["id"] for r in table.get("rows", []) if "id" in r})
             else:
                 check_table(payload, rel)
+                if payload.get("details") and not (path.parent / payload["details"]).is_file():
+                    raise ContractError(f"{rel}: its details file {payload['details']} does not exist")
             checked += 1
         except ValueError as exc:  # ContractError, or JSONDecodeError
             problems += 1

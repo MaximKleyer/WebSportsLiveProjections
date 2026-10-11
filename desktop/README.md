@@ -22,6 +22,12 @@ app. If the app is open, the run happens there instead (you see it); if you
 open the app mid-run, the window joins it. A run missed while the PC was off
 or asleep happens as soon as it's back.
 
+**Staying awake mid-run.** While any model runs, the app asks Windows not to
+idle into sleep or Modern Standby (`SetThreadExecutionState`, system required —
+the screen can still turn off; the lid and power button still sleep the PC), and
+lets go when the last one finishes: asleep, Windows freezes the models mid-run
+(on 2026-10-10 a run started at 1:06 PM sat frozen until 8:09 the next morning).
+
 No install: the app is the standard library on the system Python (3.11+), the
 window is Microsoft Edge in app mode with its own profile
 (`%LOCALAPPDATA%\SportsModels`), and it serves the built site from `dist/`

@@ -1496,6 +1496,440 @@ button {
 }
 
 /* ============================================================
+   Game card (GameCard.jsx): a game's detail, opened from its row.
+   Away is blue and home orange on every card - the pair passes the
+   colorblind checks against this surface - and each value is printed
+   in text colors beside its mark, so color never works alone.
+   ============================================================ */
+
+.proj-table__row--opens {
+  cursor: pointer;
+}
+
+.proj-table__row--opens:focus-visible {
+  outline: 2px solid var(--accent, var(--text));
+  outline-offset: -2px;
+}
+
+.proj-table__row--opens:focus-visible .proj-table__td {
+  background: var(--surface-2);
+}
+
+.game-card {
+  --away: #3987e5;
+  --home: #d95926;
+  width: min(760px, 94vw);
+  max-width: 94vw;
+  max-height: min(88vh, 960px);
+  padding: 0;
+  color: var(--text);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-top: 2px solid var(--accent, var(--border-strong));
+  border-radius: 2px;
+}
+
+.game-card::backdrop {
+  background: rgba(5, 6, 9, 0.72);
+}
+
+.game-card__inner {
+  display: flex;
+  flex-direction: column;
+  max-height: min(88vh, 960px);
+}
+
+.game-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.game-card__close {
+  flex: 0 0 auto;
+  padding: var(--space-1) var(--space-3);
+  font: inherit;
+  color: var(--text-dim);
+  background: none;
+  border: 1px solid var(--border-strong);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+.game-card__close:hover,
+.game-card__close:focus-visible {
+  color: var(--text);
+  border-color: var(--text-dim);
+}
+
+.game-card__body {
+  overflow: auto;
+  padding: var(--space-4) var(--space-4) var(--space-6);
+}
+
+@media (min-width: 640px) {
+  .game-card__body {
+    padding: var(--space-6);
+  }
+}
+
+.game-card__state {
+  margin: var(--space-8) 0;
+  text-align: center;
+  color: var(--text-mute);
+}
+
+.game-card__state--error {
+  color: var(--bad);
+}
+
+.game-card__matchup {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: end;
+  gap: var(--space-3);
+}
+
+.game-card__team {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  min-width: 0;
+}
+
+.game-card__team--home {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.game-card__abbr {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 7vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  border-bottom: 3px solid var(--away);
+}
+
+.game-card__team--home .game-card__abbr {
+  border-bottom-color: var(--home);
+}
+
+/* A name rather than an abbreviation (a college): smaller, and free to wrap */
+.game-card__abbr--long {
+  font-size: clamp(1.15rem, 4.2vw, 1.6rem);
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.game-card__name {
+  margin-top: var(--space-1);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.game-card__team-note {
+  font-size: 0.75rem;
+  color: var(--text-mute);
+}
+
+.game-card__score {
+  padding-bottom: var(--space-2);
+  text-align: center;
+}
+
+.game-card__score-nums {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 6vw, 2.3rem);
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.game-card__dash {
+  color: var(--text-mute);
+}
+
+.game-card__score-label {
+  display: block;
+  margin-top: var(--space-1);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+
+.game-card__win {
+  margin-top: var(--space-6);
+}
+
+.win-bar__labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.win-bar__labels strong {
+  font-weight: 600;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.win-bar__title {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+
+.win-bar {
+  display: flex;
+  gap: 2px; /* a surface gap between the two fills */
+  height: 10px;
+}
+
+.win-bar__seg {
+  flex: 1 1 0;
+  min-width: 2px;
+}
+
+.win-bar__seg--away {
+  background: var(--away);
+  border-radius: 4px 0 0 4px;
+}
+
+.win-bar__seg--home {
+  background: var(--home);
+  border-radius: 0 4px 4px 0;
+}
+
+.game-card__fine {
+  margin: var(--space-2) 0 0;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: var(--text-mute);
+}
+
+.game-card__section {
+  margin-top: var(--space-6);
+}
+
+.game-card__section-title {
+  margin: 0 0 var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.game-card__notes {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.game-card__notes li::marker {
+  color: var(--accent, var(--text-mute));
+}
+
+/* Paired bars: each row's away value grows left from the label, home right */
+.compare {
+  display: grid;
+  gap: 7px;
+}
+
+.compare__legend {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.compare__key {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  vertical-align: -1px;
+}
+
+.compare__key--away {
+  background: var(--away);
+}
+
+.compare__key--home {
+  background: var(--home);
+}
+
+.compare__row {
+  display: grid;
+  grid-template-columns: 3.2rem minmax(0, 1fr) minmax(5.8rem, auto) minmax(0, 1fr) 3.2rem;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.compare__val {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.compare__val--away {
+  text-align: right;
+}
+
+.compare__val.is-better {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.compare__label {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.compare__bar {
+  display: flex;
+  height: 8px;
+  background: var(--surface-2);
+}
+
+.compare__bar--away {
+  justify-content: flex-end;
+  border-radius: 4px 0 0 4px;
+}
+
+.compare__bar--home {
+  border-radius: 0 4px 4px 0;
+}
+
+.compare__fill {
+  display: block;
+  height: 100%;
+  min-width: 2px;
+}
+
+.compare__bar--away .compare__fill {
+  background: var(--away);
+  border-radius: 4px 0 0 4px;
+}
+
+.compare__bar--home .compare__fill {
+  background: var(--home);
+  border-radius: 0 4px 4px 0;
+}
+
+.game-card__table-wrap {
+  overflow-x: auto;
+}
+
+.game-card__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.game-card__table th {
+  padding: 6px var(--space-2);
+  border-bottom: 1px solid var(--border-strong);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  white-space: nowrap;
+}
+
+.game-card__table td {
+  padding: 6px var(--space-2);
+  border-bottom: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.game-card__table th:first-child,
+.game-card__table td:first-child {
+  padding-left: 0;
+}
+
+.game-card__table td.is-good {
+  color: var(--good);
+}
+
+.game-card__table td.is-bad {
+  color: var(--bad);
+}
+
+.game-card__table td.is-muted {
+  color: var(--text-mute);
+}
+
+/* A phone gets the card as a full-screen sheet */
+@media (max-width: 560px) {
+  .game-card {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100dvh;
+    max-height: 100dvh;
+    margin: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .game-card__inner {
+    height: 100%;
+    max-height: 100dvh;
+  }
+
+  .compare__row {
+    grid-template-columns: 2.5rem minmax(0, 1fr) 4.8rem minmax(0, 1fr) 2.5rem;
+    gap: 6px;
+  }
+
+  .compare__label {
+    font-size: 0.56rem;
+    white-space: normal;
+  }
+}
+
+/* ============================================================
    Selection
    ============================================================ */
 

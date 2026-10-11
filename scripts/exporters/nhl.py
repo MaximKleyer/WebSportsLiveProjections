@@ -199,6 +199,7 @@ def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
             row["start"] = {**row["start"], "sub": "rebuilt · not graded"} if row["start"] else None
             row["flagged"] = False
             return row
+        row["id"] = str(d.get("game_id"))  # opens the game's card
         game_bets = bets_by_game.get(d.get("game_id"), [])
         if game_bets:
             best = max(game_bets, key=lambda b: num(b.get("edge"), 4) or 0)
@@ -243,6 +244,195 @@ def build_day(path: Path, day: str, names: dict[int, str], season: int) -> dict:
         "columns": columns,
         "rows": rows,
     }
+
+
+# --------------------------------------------------------------------------
+# game cards: one game's detail, opened from its row
+# --------------------------------------------------------------------------
+# The model rates a team by offense, defense (skaters) and goaltending, against
+# a league-average team (power_rankings.csv); 5v5 play, the power play, the
+# penalty kill and discipline are context it doesn't use. Scores are
+# percentiles among earlier team-seasons, 50 = average.
+MODEL_RATINGS = [("overall", "Overall"), ("offense", "Offense"), ("defense", "Defense"), ("goalies", "Goaltending")]
+CONTEXT_RATINGS = [("five", "5v5 play"), ("pp", "Power play"), ("pk", "Penalty kill"), ("discipline", "Discipline")]
+
+
+BOOKS = {"draftkings": "DraftKings", "fanduel": "FanDuel", "betmgm": "BetMGM", "betrivers": "BetRivers",
+         "bovada": "Bovada", "betonlineag": "BetOnline", "mybookieag": "MyBookie", "betus": "BetUS",
+         "lowvig": "LowVig", "williamhill_us": "Caesars", "espnbet": "ESPN BET", "pinnacle": "Pinnacle"}
+
+
+def _starter_parts(starter: str | None) -> tuple[str, str] | None:
+    """'J. Korpisalo 91%' -> ('J. Korpisalo', '91% to start'); a confirmed starter says so."""
+    if not starter:
+        return None
+    m = re.fullmatch(r"(.*?)\s+(\d+%)", starter)
+    if m:
+        return m.group(1), f"{m.group(2)} to start"
+    name = starter.replace("(confirmed)", "").strip()
+    return name, "confirmed" if "confirmed" in starter else "likely"
+
+
+def _by_abbrev(path: Path) -> dict[str, dict]:
+    """A team table's rows (power rankings, season sim) by team abbreviation."""
+    return {text(r["abbrev"]): r for r in pd.read_csv(path).to_dict("records")} if path.exists() else {}
+
+
+def _pct(p) -> str:
+    return "—" if p is None else f"{p:.0%}"
+
+
+def _record(team: dict) -> str | None:
+    if not team:
+        return None
+    return f"{int(team.get('wins') or 0)}–{int(team.get('losses') or 0)}–{int(team.get('ot_losses') or 0)}"
+
+
+def _scores(rating: dict, keys) -> dict[str, float | None]:
+    return {key: num(rating.get(f"{key}_score"), 0) for key, _ in keys}
+
+
+def _compare_rows(away: dict, home: dict, keys) -> list[dict]:
+    return [{"label": label, "away": away[key], "home": home[key], "max": 100,
+             "awayText": f"{away[key]:.0f}", "homeText": f"{home[key]:.0f}"}
+            for key, label in keys if away.get(key) is not None and home.get(key) is not None]
+
+
+def game_card(d: dict, game_bets: list[dict], names: dict[int, str], power: dict, sim: dict, day: str,
+              current: bool) -> dict:
+    """The card for one predicted game (a row of <day>_predictions.csv). `current`: today's or a later
+    day, whose card can show today's ratings and season outlook - an earlier day's keeps to what was
+    fixed before puck drop (the ratings at the time aren't kept)."""
+    away, home = text(d.get("away")), text(d.get("home"))
+    pa, ph = (power.get(away, {}), power.get(home, {})) if current else ({}, {})
+    sa, sh = sim.get(away, {}), sim.get(home, {})
+    p_home = num(d.get("p_home_win"), 4)
+    p_away = num(d.get("p_away_win"), 4) or (None if p_home is None else round(1 - p_home, 4))
+    goalie = {side: _starter_parts(_starter(d.get(f"{side}_starter"), names)) for side in ("away", "home")}
+    ra, rh = _scores(pa, MODEL_RATINGS + CONTEXT_RATINGS), _scores(ph, MODEL_RATINGS + CONTEXT_RATINGS)
+    mkt = num(d.get("market_p_home_win"), 4)
+
+    def team(abbr, season, side):
+        record = _record(season) if current else None
+        in_net = goalie[side] and f"In net: {goalie[side][0]} ({goalie[side][1]})"
+        note = " · ".join(x for x in (record, in_net) if x)
+        name = text(season.get("name")) or text(power.get(abbr, {}).get("name")) or abbr
+        return {"name": name, "abbr": abbr, **({"note": note} if note else {})}
+
+    notes = []
+    la, lh = num(d.get("lambda_away"), 2), num(d.get("lambda_home"), 2)
+    if la is not None and lh is not None and p_home is not None:
+        fav, p_fav = (home, p_home) if p_home >= 0.5 else (away, p_away)
+        notes.append(f"In regulation the model expects {away} {la:.2f} goals to {home}'s {lh:.2f}. With overtime "
+                     f"and the shootout that makes {fav} {p_fav:.0%} to win.")
+    if all(x is not None for x in (ra["offense"], rh["defense"], rh["offense"], ra["defense"])):
+        notes.append(f"{away}'s offense rates {ra['offense']:.0f} against {home}'s defense at {rh['defense']:.0f}; "
+                     f"{home}'s offense rates {rh['offense']:.0f} against {away}'s defense at {ra['defense']:.0f} "
+                     "(percentiles: 50 = an average team).")
+    if goalie["away"] or goalie["home"]:
+        who = [f"{g[0]} for {t} ({g[1]})" if g else f"no starter known for {t}"
+               for g, t in ((goalie["away"], away), (goalie["home"], home))]
+        rated = (f" Goaltending rates {ra['goalies']:.0f} for {away} and {rh['goalies']:.0f} for {home}."
+                 if ra["goalies"] is not None and rh["goalies"] is not None else "")
+        notes.append(f"In net: {who[0]}, {who[1]}.{rated}")
+    gaps = [(abs(ra[k] - rh[k]), label, k) for k, label in CONTEXT_RATINGS if ra[k] is not None and rh[k] is not None]
+    if gaps:
+        _, label, k = max(gaps)
+        better, worse = (away, home) if ra[k] > rh[k] else (home, away)
+        notes.append(f"The widest gap in what the model leaves out: {label.lower()}, {better} "
+                     f"{max(ra[k], rh[k]):.0f} to {worse} {min(ra[k], rh[k]):.0f}.")
+    if mkt is not None and p_home is not None:
+        books = int(num(d.get("books"), 0) or 0)
+        among = f" ({books} book{'s' * (books != 1)}, margin removed)" if books else ""
+        notes.append(f"The market{among} gives {home} {mkt:.0%} to win; the model {p_home:.0%}.")
+    if pa and ph:
+        played = min(int(num(pa.get("games"), 0) or 0), int(num(ph.get("games"), 0) or 0))
+        if played < 10:
+            notes.append(f"Early season: with {played} game{'s' * (played != 1)} played, the ratings still lean on "
+                         "last season.")
+    if not current:
+        notes.append("Ratings as they stood on game day aren't kept, so this card shows only what the "
+                     "prediction itself recorded.")
+
+    sections = []
+    if notes:
+        sections.append({"title": "What drives the projection", "kind": "notes", "items": notes})
+    if model_rows := _compare_rows(ra, rh, MODEL_RATINGS):
+        sections.append({"title": "The model's ratings", "kind": "compare", "rows": model_rows,
+                         "note": "Percentiles among every team-season since 2021–22 (50 = average): offense, "
+                                 "defense and goaltending add up to the overall rating the predictions use."})
+    if context_rows := _compare_rows(ra, rh, CONTEXT_RATINGS):
+        sections.append({"title": "Context", "kind": "compare", "rows": context_rows,
+                         "note": "Shown for context: the model doesn't use these."})
+
+    puck = next((str(c).removeprefix("p_home_minus_") for c in d if str(c).startswith("p_home_minus_")), "1.5")
+    probs = [
+        [f"{away} to win", _pct(p_away), _pct(None if mkt is None else 1 - mkt)],
+        [f"{home} to win", _pct(p_home), _pct(mkt)],
+        [f"{away} −{puck}", _pct(num(d.get(f"p_away_minus_{puck}"), 4)), "—"],
+        [f"{home} −{puck}", _pct(num(d.get(f"p_home_minus_{puck}"), 4)), "—"],
+    ]
+    overs = sorted((str(c) for c in d if re.fullmatch(r"p_over_\d+(\.\d+)?", str(c))), key=lambda c: float(c[7:]))
+    probs += [[f"Over {c.removeprefix('p_over_')}", _pct(num(d.get(c), 4)), "—"] for c in overs]
+    line = num(d.get("market_total_line"))
+    if line is not None and f"p_over_{line:g}" not in overs:
+        probs.append([f"Over {line:g} (the market's line)", _pct(num(d.get("p_over_market_line"), 4)), "—"])
+    total = num(d.get("expected_total"), 2)
+    sections.append({"title": "Probabilities", "kind": "table", "columns": ["", "Model", "Market"], "rows": probs,
+                     **({"note": f"Expected total: {total:.2f} goals."} if total is not None else {})})
+
+    if game_bets:
+        sections.append({"title": "Flagged bets", "kind": "table",
+                         "columns": ["Bet", "Price", "Book", "Model", "Market", "Edge"],
+                         "rows": [[f"★ {_bet_label(b, away, home)}", f"{int(num(b.get('price'), 0)):+d}",
+                                   BOOKS.get(text(b.get("book")) or "", text(b.get("book")) or "—"),
+                                   _pct(num(b.get("model_probability"), 4)),
+                                   _pct(num(b.get("market_probability"), 4)),
+                                   {"v": f"{num(b.get('edge'), 4):+.1%}", "tone": "good"}]
+                                  for b in sorted(game_bets, key=lambda b: -(num(b.get("edge"), 4) or 0))]})
+
+    if current:
+        outlook = []
+        for label, key, digits in (("Proj. points", "points_mean", 1), ("Playoffs", "playoffs", 4),
+                                   ("Stanley Cup", "series_4", 4)):
+            a, h = num(sa.get(key), digits), num(sh.get(key), digits)
+            if a is None or h is None:
+                continue
+            shown = (f"{a:.0f}", f"{h:.0f}") if key == "points_mean" else (_pct(a), _pct(h))
+            outlook.append({"label": label, "away": a, "home": h, "awayText": shown[0], "homeText": shown[1],
+                            **({"max": 1} if key == "playoffs" else {})})
+        if outlook:
+            sections.append({"title": "Season outlook", "kind": "compare", "rows": outlook,
+                             "note": "From the season simulation: the rest of the season played out 10,000 times."})
+
+    start = _start(d.get("start_ts"))
+    win = None if p_home is None else {
+        "away": p_away, "home": p_home,
+        "note": f"Fair odds: {away} {_fair_odds(p_away)}, {home} {_fair_odds(p_home)} (no margin)."}
+    goals = (num(d.get("away_goals"), 2), num(d.get("home_goals"), 2))
+    return {
+        "title": f"{away} @ {home}",
+        "subtitle": " · ".join(x for x in (_day_label(day), start and f"{start['v']} ET") if x),
+        "away": team(away, sa, "away"),
+        "home": team(home, sh, "home"),
+        **({"score": {"away": f"{goals[0]:.2f}", "home": f"{goals[1]:.2f}", "label": "Expected goals"}}
+           if None not in goals else {}),
+        **({"win": win} if win else {}),
+        "sections": sections,
+    }
+
+
+def build_cards(path: Path, day: str, names: dict[int, str], power: dict, sim: dict) -> dict[str, dict]:
+    """Cards for the day's predicted games, by game id (their rows' ids)."""
+    df = pd.read_csv(path)
+    bets_path = path.with_name(f"{day}_bets.csv")
+    bets = pd.read_csv(bets_path).to_dict("records") if bets_path.exists() else []
+    current = date.fromisoformat(day) >= pd.Timestamp.now(tz=EASTERN).date()
+    cards = {}
+    for d in df[df["p_home_win"].notna()].to_dict("records") if "p_home_win" in df else []:
+        game_bets = [b for b in bets if b.get("game_id") == d.get("game_id")]
+        cards[str(d["game_id"])] = game_card(d, game_bets, names, power, sim, day, current)
+    return cards
 
 
 def build_season(path: Path, season: int) -> dict:
@@ -636,9 +826,11 @@ def main() -> int:
     starters = pd.concat([f.reindex(columns=["away_starter", "home_starter"]) for f in shown]).stack()
     wanted = {int(m.group()) for s in starters if isinstance(s, str) and (m := GOALIE_ID.search(s))}
     fill_goalie_names(args.model, names, wanted)
+    power_by_team, sim_by_team = _by_abbrev(outputs / "power_rankings.csv"), _by_abbrev(outputs / "season_sim.csv")
     publish_slates(
         args.site_dir / "games",
-        [Slate(day, _day_label(day), build_day(days[day], day, names, season)) for day in publish],
+        [Slate(day, _day_label(day), build_day(days[day], day, names, season),
+               build_cards(days[day], day, names, power_by_team, sim_by_team) or None) for day in publish],
         season=season,
         label=f"{_season_label(season)} Season",
         unit="day",

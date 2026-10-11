@@ -193,6 +193,7 @@ def build_day(df: pd.DataFrame, bets: pd.DataFrame, day: str, season: int, updat
             row["mktHome"] = num(d.get("market_home"), 4)
             for key, lean in (("ats", _ats(d, away, home)), ("ou", _ou(d))):
                 row[key] = None if lean is None else {"v": f"{lean[0]} · {lean[1]:.0%}", "sort": round(lean[1], 4)}
+        row["id"] = text(d.get("game_id"))  # opens the game's card
         game_bets = bets_by_game.get(text(d.get("game_id")), [])
         if game_bets:
             best = max(game_bets, key=lambda b: num(b.get("edge"), 4) or 0)
@@ -235,6 +236,187 @@ def build_day(df: pd.DataFrame, bets: pd.DataFrame, day: str, season: int, updat
         "columns": columns,
         "rows": rows,
     }
+
+
+# --------------------------------------------------------------------------
+# game cards: one game's detail, opened from its row
+# --------------------------------------------------------------------------
+# The model's team strength is offense and defense in points per 100
+# possessions against an average team (the player-based prior blended with
+# this season's results), adding up to the overall (net) rating; pace sets the
+# possessions. The Four Factors are context it doesn't use. Scores are
+# percentiles among earlier team-seasons, 50 = average (power_rankings.csv).
+MODEL_RATINGS = [("overall", "Overall"), ("offense", "Offense"), ("defense", "Defense")]
+FOUR_FACTORS = [("shooting", "Shooting"), ("turnovers", "Turnovers"), ("rebounding", "Rebounding"),
+                ("free_throws", "Free throws")]
+BOOKS = {"draftkings": "DraftKings", "fanduel": "FanDuel", "betmgm": "BetMGM", "pinnacle": "Pinnacle",
+         "betrivers": "BetRivers", "bovada": "Bovada", "williamhill_us": "Caesars"}
+
+
+def _by_team(path: Path | None, key: str) -> dict[str, dict]:
+    """A team table's rows (power rankings, season forecast) by team abbreviation."""
+    return {text(r[key]): r for r in pd.read_csv(path).to_dict("records")} if path and path.exists() else {}
+
+
+def _pct(p) -> str:
+    return "—" if p is None else f"{p:.0%}"
+
+
+def _played(team: dict) -> int:
+    return int(num(team.get("wins"), 0) or 0) + int(num(team.get("losses"), 0) or 0)
+
+
+def _rating_rows(a: dict, h: dict, keys) -> list[dict]:
+    rows = []
+    for key, label in keys:
+        x, y = num(a.get(f"{key}_score"), 0), num(h.get(f"{key}_score"), 0)
+        if x is not None and y is not None:
+            rows.append({"label": label, "away": x, "home": y, "max": 100, "awayText": f"{x:.0f}", "homeText": f"{y:.0f}"})
+    return rows
+
+
+def game_card(d: dict, game_bets: list[dict], power: dict, sim: dict, day: str, current: bool) -> dict:
+    """The card for one predicted game (a row of <day>_predictions.csv). `current`: today's or a
+    later day, whose card can show today's ratings and season forecast - an earlier day's keeps to
+    what the prediction recorded (the ratings at the time aren't kept)."""
+    away, home = text(d.get("away")), text(d.get("home"))
+    pa, ph = (power.get(away, {}), power.get(home, {})) if current else ({}, {})
+    sa, sh = sim.get(away, {}), sim.get(home, {})
+    am, hm = num(d.get("away_mean"), 2), num(d.get("home_mean"), 2)
+    p_home = num(d.get("p_home_win"), 4)
+    p_away = None if p_home is None else round(1 - p_home, 4)
+    kind = GAME_TYPES.get(text(d.get("game_type")) or "")
+    listed = {side: [p.strip() for p in (text(d.get(f"{side}_listed")) or "").split(",") if p.strip()]
+              for side in ("away", "home")}
+
+    def team(abbr, rating, season, side):
+        record = f"{int(rating.get('wins') or 0)}–{int(rating.get('losses') or 0)}" if rating else None
+        report = f"{len(listed[side])} on the injury report" if listed[side] else None
+        note = " · ".join(x for x in (record, report) if x)
+        name = text(rating.get("name")) or text(season.get("name")) or text(power.get(abbr, {}).get("name")) or abbr
+        return {"name": name, "abbr": abbr, **({"note": note} if note else {})}
+
+    notes = []
+    if am is not None and hm is not None and p_home is not None:
+        fav, p_fav = (home, p_home) if p_home >= 0.5 else (away, p_away)
+        margin = abs(hm - am)
+        notes.append(f"The model expects {away} {am:.1f} – {home} {hm:.1f}: "
+                     + (f"{home if hm > am else away} by {margin:.1f}" if margin >= 0.05 else "even")
+                     + f", {am + hm:.1f} points in all. That makes {fav} {p_fav:.0%} to win.")
+    if pa and ph:
+        pos = (num(pa.get("possessions"), 1), num(ph.get("possessions"), 1))
+        if None not in pos:
+            notes.append(f"Pace: {away} plays about {pos[0]:.1f} possessions a game against an average team, "
+                         f"{home} {pos[1]:.1f}.")
+        vals = [num(x.get(k), 1) for x, k in ((pa, "off"), (ph, "def"), (ph, "off"), (pa, "def"))]
+        if None not in vals:
+            notes.append(f"{away}'s offense is {vals[0]:+.1f} points per 100 possessions against an average team, "
+                         f"meeting {home}'s defense at {vals[1]:+.1f}; {home}'s offense {vals[2]:+.1f} meets "
+                         f"{away}'s defense at {vals[3]:+.1f} (+ is better than average).")
+    if listed["away"] or listed["home"]:
+        who = "; ".join(f"{t}: {', '.join(listed[s]) or 'nobody'}" for s, t in (("away", away), ("home", home)))
+        notes.append(f"On the injury report — {who}. Each plays with his status's chance, and the minutes he may "
+                     "miss go to his teammates.")
+    line, cover = num(d.get("spread_line")), num(d.get("p_home_cover"), 4)
+    if line is not None and cover is not None and am is not None and hm is not None:
+        own = hm - am
+        model_line = "even" if abs(own) < 0.05 else f"{home if own > 0 else away} {-abs(own):.1f}"
+        side, p = (f"{home} {spread(line)}", cover) if cover >= 0.5 else (f"{away} {spread(-line)}", 1 - cover)
+        notes.append(f"The market has {home} {spread(line)}; the model's line is {model_line}, so it gives "
+                     f"{side} {p:.0%} to cover.")
+    tl, p_over = num(d.get("total_line")), num(d.get("p_over"), 4)
+    if tl is not None and p_over is not None and am is not None and hm is not None:
+        side, p = ("over", p_over) if p_over >= 0.5 else ("under", 1 - p_over)
+        notes.append(f"The market's total is {tl:g} against the model's {am + hm:.1f}: the {side}, {p:.0%}.")
+    mkt = num(d.get("market_home"), 4)
+    if mkt is not None and p_home is not None:
+        notes.append(f"The market (margin removed) gives {home} {mkt:.0%} to win; the model {p_home:.0%}.")
+    if kind == "preseason":
+        notes.append("A preseason game: rotations are a guess, and the model never bets or grades these.")
+    if pa and ph and _played(pa) == 0 and _played(ph) == 0:
+        notes.append("No games played yet: each team's rating is its players' ratings times their projected minutes.")
+    if not current:
+        notes.append("Ratings as they stood on game day aren't kept, so this card shows only what the "
+                     "prediction itself recorded.")
+
+    sections = []
+    if notes:
+        sections.append({"title": "What drives the projection", "kind": "notes", "items": notes})
+    if rows := _rating_rows(pa, ph, MODEL_RATINGS):
+        sections.append({"title": "The model's ratings", "kind": "compare", "rows": rows,
+                         "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points "
+                                 "per 100 possessions against an average team, add up to the overall rating the "
+                                 "predictions use."})
+    if pa and ph and _played(pa) and _played(ph) and (rows := _rating_rows(pa, ph, FOUR_FACTORS)):
+        sections.append({"title": "The Four Factors", "kind": "compare", "rows": rows,
+                         "note": "This season's margins over opponents, shown for context: the model doesn't use them."})
+    if pa and ph:
+        pace = []
+        for label, key, lower in (("Possessions", "possessions", False), ("Points scored", "scores", False),
+                                  ("Points allowed", "allows", True)):
+            x, y = num(pa.get(key), 1), num(ph.get(key), 1)
+            if x is not None and y is not None:
+                pace.append({"label": label, "away": x, "home": y, "awayText": f"{x:.1f}", "homeText": f"{y:.1f}",
+                             **({"lower": True} if lower else {})})
+        if pace:
+            sections.append({"title": "Pace and scoring", "kind": "compare", "rows": pace,
+                             "note": "A game against an average team on a neutral floor."})
+
+    probs = [[f"{away} to win", _pct(p_away), _pct(None if mkt is None else 1 - mkt)],
+             [f"{home} to win", _pct(p_home), _pct(mkt)]]
+    if line is not None and cover is not None:
+        probs += [[f"{home} {spread(line)}", _pct(cover), "—"], [f"{away} {spread(-line)}", _pct(1 - cover), "—"]]
+    if tl is not None and p_over is not None:
+        probs += [[f"Over {tl:g}", _pct(p_over), "—"], [f"Under {tl:g}", _pct(1 - p_over), "—"]]
+    sections.append({"title": "Probabilities", "kind": "table", "columns": ["", "Model", "Market"], "rows": probs,
+                     "note": "Covers and overs leave pushes out."})
+
+    if game_bets:
+        sections.append({"title": "Flagged bets", "kind": "table",
+                         "columns": ["Bet", "Price", "Book", "Model", "Market", "Edge"],
+                         "rows": [[f"★ {_bet_label(b, away, home)}", f"{int(num(b.get('price'), 0)):+d}",
+                                   BOOKS.get(text(b.get("book")) or "", text(b.get("book")) or "—"),
+                                   _pct(num(b.get("model_p"), 4)), _pct(num(b.get("market_p"), 4)),
+                                   {"v": f"{num(b.get('edge'), 4):+.1%}", "tone": "good"}]
+                                  for b in sorted(game_bets, key=lambda b: -(num(b.get("edge"), 4) or 0))]})
+
+    if current:
+        outlook = []
+        for label, key, is_pct in (("Proj. wins", "wins_mean", False), ("Playoffs", "p_playoffs", True),
+                                   ("Title", "p_champion", True)):
+            x, y = num(sa.get(key), 4), num(sh.get(key), 4)
+            if x is None or y is None:
+                continue
+            outlook.append({"label": label, "away": x, "home": y,
+                            "awayText": _pct(x) if is_pct else f"{x:.0f}", "homeText": _pct(y) if is_pct else f"{y:.0f}",
+                            **({"max": 1} if key == "p_playoffs" else {})})
+        if outlook:
+            sections.append({"title": "Season outlook", "kind": "compare", "rows": outlook,
+                             "note": "From the season forecast: the rest of the season played out 10,000 times."})
+
+    start = _start(d.get("start_ts"), None)
+    return {
+        "title": f"{away} @ {home}",
+        "subtitle": " · ".join(x for x in (_day_label(day), start and f"{start['v']} ET", kind) if x),
+        "away": team(away, pa, sa, "away"),
+        "home": team(home, ph, sh, "home"),
+        **({"score": {"away": f"{am:.1f}", "home": f"{hm:.1f}", "label": "Expected points"}}
+           if am is not None and hm is not None else {}),
+        **({"win": {"away": p_away, "home": p_home,
+                    "note": f"Fair odds: {away} {_fair_odds(p_away)}, {home} {_fair_odds(p_home)} (no margin)."}}
+           if p_home is not None else {}),
+        "sections": sections,
+    }
+
+
+def build_cards(df: pd.DataFrame, bets: pd.DataFrame, day: str, power: dict, sim: dict) -> dict[str, dict]:
+    """Cards for the day's games, by game id (their rows' ids)."""
+    current = date.fromisoformat(day) >= pd.Timestamp.now(tz=EASTERN).date()
+    by_game: dict = {}
+    for b in bets.to_dict("records"):
+        by_game.setdefault(text(b.get("game_id")), []).append(b)
+    return {text(d["game_id"]): game_card(d, by_game.get(text(d["game_id"]), []), power, sim, day, current)
+            for d in df.to_dict("records")}
 
 
 # --------------------------------------------------------------------------
@@ -667,11 +849,14 @@ def main() -> int:
 
     print(f"Exporting NBA {_season_label(season)} (model {version or 'unknown'}"
           f"{f', opens on {opens}' if opens else ', no day predicted yet'})\n  from: {outputs}\n  to:   {args.site_dir}")
+    power_by_team = _by_team(outputs / "power_rankings.csv", "abbrev")
+    sim_by_team = _by_team(newest_sim(outputs, season), "team")
     slates = []
     for day in publish:
         bets_path = paths[day].with_name(f"{day}_bets.csv")
         bets = read_csv_stable(bets_path) if bets_path.exists() else pd.DataFrame(columns=["game_id"])
-        slates.append(Slate(day, _day_label(day), build_day(frames[day], bets, day, season, file_date(paths[day]))))
+        slates.append(Slate(day, _day_label(day), build_day(frames[day], bets, day, season, file_date(paths[day])),
+                            build_cards(frames[day], bets, day, power_by_team, sim_by_team) or None))
     publish_slates(args.site_dir / "games", slates, season=season, label=f"{_season_label(season)} Season",
                    unit="day", latest=opens)
     sources = [paths[day] for day in publish]

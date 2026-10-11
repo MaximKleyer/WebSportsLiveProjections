@@ -1,13 +1,17 @@
 import { STATUS_META, viewMeta } from '../config.js';
+import useGameCards from '../hooks/useGameCards.js';
 import useProjections from '../hooks/useProjections.js';
 import useSlates from '../hooks/useSlates.js';
+import GameCard from './GameCard.jsx';
 import ProjectionTable from './ProjectionTable.jsx';
 import StatTiles from './StatTiles.jsx';
 
 // Shared async-state renderer for one table of model output. While a slate
 // view loads its next table, the previous one stays up (dimmed), so the page
-// doesn't jump and the table keeps its sort / search / filters.
-function SectionBody({ status, data, error }) {
+// doesn't jump and the table keeps its sort / search / filters. A table that
+// names a `details` file opens a game's card when its row is clicked.
+function SectionBody({ status, data, error, sportId, viewType }) {
+  const cards = useGameCards(sportId, viewType, data?.details ?? null);
   const hasRows = Array.isArray(data?.rows) && data.rows.length > 0;
   if (status === 'loading' && !hasRows) {
     return <p className="sport-section__state">Loading…</p>;
@@ -34,10 +38,15 @@ function SectionBody({ status, data, error }) {
           groupBy={data.groupBy}
           search={data.search}
           filters={data.filters}
+          onRowClick={data.details ? (row) => cards.show(row.id) : null}
         />
         {data.updated && (
-          <p className="sport-section__updated">Updated {data.updated}</p>
+          <p className="sport-section__updated">
+            Updated {data.updated}
+            {data.details && ' · click a game for its card'}
+          </p>
         )}
+        {cards.open && <GameCard key={cards.open.id} {...cards.open} onClose={cards.close} />}
       </div>
     );
   }
@@ -103,14 +112,26 @@ export default function ProjectionSection({ sportId, view }) {
                   </option>
                 ))}
               </select>
-              <SectionBody status={slate.status} data={slate.data} error={slate.error} />
+              <SectionBody
+                status={slate.status}
+                data={slate.data}
+                error={slate.error}
+                sportId={sportId}
+                viewType={view.type}
+              />
             </>
           )}
         </>
       )}
 
       {isLive && !hasSlates && (
-        <SectionBody status={single.status} data={single.data} error={single.error} />
+        <SectionBody
+          status={single.status}
+          data={single.data}
+          error={single.error}
+          sportId={sportId}
+          viewType={view.type}
+        />
       )}
     </article>
   );

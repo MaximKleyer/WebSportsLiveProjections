@@ -77,6 +77,7 @@ def build_games(path: Path, season: int, week: int) -> dict:
     for d in df.to_dict("records"):
         home, away = text(d.get("home_team")), text(d.get("away_team"))
         rows.append({
+            **({"id": str(int(d["game_id"]))} if num(d.get("game_id"), 0) is not None else {}),  # opens its card
             "kickoff": _kickoff(d.get("start_date")),
             **scoreboard(away, home, d.get("away_proj"), d.get("home_proj")),
             "homeWin": num(d.get("win_prob"), 4),
@@ -104,6 +105,142 @@ def build_games(path: Path, season: int, week: int) -> dict:
         "columns": columns,
         "rows": rows,
     }
+
+
+# --------------------------------------------------------------------------
+# game cards: one game's detail, opened from its row
+# --------------------------------------------------------------------------
+# market_margin and pred_margin are the home side's expected margin (market's
+# and the model's); a *_edge is the model's number minus the market's, *_ev the
+# expected return of a unit on the pick, *_play the model's flag.
+def _pct(p) -> str:
+    return "—" if p is None else f"{p:.0%}"
+
+
+def _fair_odds(p):
+    """A win probability as American odds without a margin: 0.54 -> '-117'."""
+    if p is None or not 0 < p < 1:
+        return None
+    return f"{(-100 * p / (1 - p) if p >= 0.5 else 100 * (1 - p) / p):+.0f}"
+
+
+def _ranked(name: str, rank) -> str:
+    r = num(rank, 0)
+    return f"No. {r:.0f} {name}" if r else name
+
+
+def game_card(d: dict, records: dict, week: int, current: bool) -> dict:
+    """The card for one projected game (a row of projections_*_week_N.csv). `current`: the latest
+    projected week, whose card can show the season projections as they are now."""
+    home, away = text(d.get("home_team")), text(d.get("away_team"))
+    hp, ap = num(d.get("home_proj"), 1), num(d.get("away_proj"), 1)
+    p_home = num(d.get("win_prob"), 4)
+    p_away = None if p_home is None else round(1 - p_home, 4)
+    pm, mm = num(d.get("pred_margin"), 2), num(d.get("market_margin"), 2)
+    pt, mt = num(d.get("pred_total"), 2), num(d.get("market_total"), 2)
+    neutral = flag(d.get("neutral_site"))
+
+    def team(name, side):
+        r = records.get(name, {}) if current else {}
+        rank = num(d.get(f"{side}_rank"), 0)
+        parts = [f"No. {rank:.0f}" if rank else None]
+        if r:
+            parts.append(f"{int(num(r.get('played_w'), 0) or 0)}–{int(num(r.get('played_l'), 0) or 0)}")
+            parts.append(text(r.get("conference")))
+        note = " · ".join(x for x in parts if x)
+        return {"name": name, **({"note": note} if note else {})}
+
+    def side_of(pick):
+        return {"HOME": home, "AWAY": away}.get((text(pick) or "").upper())
+
+    notes = []
+    if hp is not None and ap is not None and p_home is not None:
+        fav, p_fav = (home, p_home) if p_home >= 0.5 else (away, p_away)
+        lead = "even" if abs(hp - ap) < 0.05 else f"{home if hp > ap else away} by {abs(hp - ap):.1f}"
+        notes.append(f"The model projects {away} {ap:.1f} – {home} {hp:.1f}: {lead}"
+                     + (" on a neutral field" if neutral else "") + f". That makes {fav} {p_fav:.0%} to win.")
+    if mm is not None and pm is not None:
+        market = "a pick'em" if abs(mm) < 0.05 else f"{home if mm > 0 else away} by {abs(mm):.1f}"
+        model = "a pick'em" if abs(pm) < 0.05 else f"{home if pm > 0 else away} by {abs(pm):.1f}"
+        line = f"The market expects {market}, the model {model}."
+        pick, prob, ev = side_of(d.get("spread_pick")), num(d.get("spread_pick_prob"), 4), num(d.get("spread_ev"), 2)
+        if pick and prob is not None:
+            points = -mm if pick == home else mm  # the pick's own line (a consensus: not always a half point)
+            line += (f" Against the spread it takes {pick} {spread(points)} ({prob:.0%} to cover"
+                     + (f", expected return {ev:+.2f} a unit" if ev is not None else "") + ")"
+                     + (" — a flagged play." if flag(d.get("spread_play")) else "."))
+        notes.append(line)
+    if mt is not None and pt is not None:
+        pick, prob, ev = text(d.get("total_pick")), num(d.get("total_pick_prob"), 4), num(d.get("total_ev"), 2)
+        line = f"The market's total is {mt:g} against the model's {pt:.1f}"
+        if pick and prob is not None:
+            line += (f": the {pick.lower()} ({prob:.0%}" + (f", expected return {ev:+.2f}" if ev is not None else "")
+                     + ")" + (" — a flagged play." if flag(d.get("total_play")) else "."))
+        notes.append(line if line.endswith(".") else line + ".")
+    books, spread_books, move = num(d.get("n_books"), 0), num(d.get("book_dispersion"), 2), num(d.get("line_movement"), 2)
+    if books:
+        notes.append(f"Market: {books:.0f} book{'s' * (books != 1)}"
+                     + (f", {spread_books:g} points apart" if spread_books else ", in agreement")
+                     + (f"; the line has moved {move:+g} since it opened." if move else "; the line hasn't moved."))
+
+    sections = []
+    if notes:
+        sections.append({"title": "What drives the projection", "kind": "notes", "items": notes})
+    def gap(value, play):
+        """The model-vs-market gap, toned when the model flags a play on it."""
+        return {"v": f"{value:+.1f} ★", "tone": "good"} if flag(play) else f"{value:+.1f}"
+
+    vs = []
+    if pm is not None and mm is not None:
+        vs.append([f"{home} margin", f"{pm:+.1f}", f"{mm:+.2f}".rstrip("0").rstrip("."), gap(pm - mm, d.get("spread_play"))])
+    if pt is not None and mt is not None:
+        vs.append(["Total", f"{pt:.1f}", f"{mt:g}", gap(pt - mt, d.get("total_play"))])
+    if vs:
+        sections.append({"title": "Model vs market", "kind": "table", "columns": ["", "Model", "Market", "Gap"],
+                         "rows": vs, "note": "Margins are the home side's: + means a home win by that many."})
+    probs = [[f"{away} to win", _pct(p_away)], [f"{home} to win", _pct(p_home)]]
+    pick, prob = side_of(d.get("spread_pick")), num(d.get("spread_pick_prob"), 4)
+    if pick and prob is not None and mm is not None:
+        probs.append([f"{'★ ' if flag(d.get('spread_play')) else ''}{pick} {spread(-mm if pick == home else mm)}",
+                      _pct(prob)])
+    tpick, tprob = text(d.get("total_pick")), num(d.get("total_pick_prob"), 4)
+    if tpick and tprob is not None and mt is not None:
+        probs.append([f"{'★ ' if flag(d.get('total_play')) else ''}{tpick.title()} {mt:g}", _pct(tprob)])
+    sections.append({"title": "Probabilities", "kind": "table", "columns": ["", "Model"], "rows": probs})
+
+    ra, rh = (records.get(away, {}), records.get(home, {})) if current else ({}, {})
+    if ra and rh:
+        outlook = []
+        for label, key, is_pct in (("Proj. wins", "exp_w", False), ("Conf. wins", "conf_exp_w", False),
+                                   ("Bowl", "p_bowl", True)):
+            x, y = num(ra.get(key), 3), num(rh.get(key), 3)
+            if x is None or y is None:
+                continue
+            outlook.append({"label": label, "away": x, "home": y, "awayText": _pct(x) if is_pct else f"{x:.1f}",
+                            "homeText": _pct(y) if is_pct else f"{y:.1f}", **({"max": 1} if is_pct else {})})
+        if outlook:
+            sections.append({"title": "Season outlook", "kind": "compare", "rows": outlook,
+                             "note": "From the season simulation of the remaining schedule."})
+
+    kick = _kickoff(d.get("start_date"))
+    return {
+        "title": f"{_ranked(away, d.get('away_rank'))} {'vs' if neutral else '@'} {_ranked(home, d.get('home_rank'))}",
+        "subtitle": " · ".join(x for x in (f"Week {week}", kick and f"{kick['v']} ET", neutral and "neutral site") if x),
+        "away": team(away, "away"),
+        "home": team(home, "home"),
+        **({"score": {"away": f"{ap:.1f}", "home": f"{hp:.1f}", "label": "Projected score"}}
+           if hp is not None and ap is not None else {}),
+        **({"win": {"away": p_away, "home": p_home,
+                    "note": f"Fair odds: {away} {_fair_odds(p_away)}, {home} {_fair_odds(p_home)} (no margin)."}}
+           if p_home is not None else {}),
+        "sections": sections,
+    }
+
+
+def build_cards(path: Path, records: dict, week: int, current: bool) -> dict[str, dict]:
+    """Cards for the week's games, by game id (their rows' ids)."""
+    return {str(int(d["game_id"])): game_card(d, records, week, current)
+            for d in pd.read_csv(path).to_dict("records") if num(d.get("game_id"), 0) is not None}
 
 
 def build_season(path: Path, season: int) -> dict:
@@ -229,9 +366,13 @@ def main() -> int:
     opens = week if week in publish else publish[-1]
 
     print(f"Exporting CFB {season} (opens on week {opens})\n  from: {args.model_out}\n  to:   {args.site_dir}")
+    records_path = args.model_out / f"season_{season}_projected_records.csv"
+    by_team = ({text(r["team"]): r for r in pd.read_csv(records_path).to_dict("records")}
+               if records_path.exists() else {})
     publish_slates(
         args.site_dir / "games",
-        [Slate(week_id(season, wk), f"Week {wk}", build_games(games[season][wk], season, wk))
+        [Slate(week_id(season, wk), f"Week {wk}", build_games(games[season][wk], season, wk),
+               build_cards(games[season][wk], by_team, wk, current=wk == max(publish)) or None)
          for wk in publish],
         season=season,
         latest=week_id(season, opens),

@@ -16,7 +16,7 @@ runs the same thing hourly, 9 AM–11 PM, with no window, so predictions exist
 before games start even when the app isn't open. Details in
 [desktop/README.md](desktop/README.md).
 
-## Updating the data (NFL, CFB and NHL are wired up)
+## Updating the data (NFL, CFB, NHL and NBA are wired up)
 
 The models stay pure: each one just writes its CSVs. This repo holds a thin
 adapter per model (`scripts/exporters/<sport>.py`) that turns those CSVs into
@@ -128,7 +128,37 @@ per *slate* — a football week, an MLB day — plus a manifest the dropdown rea
 ```
 
 A manifest may carry a `summary` too — the Results tab's season-to-date
-record lives there.
+record lives there. A manifest with no slates yet (`"slates": []`,
+`"latest": null`) shows as "Nothing published yet" — the NBA before its first
+game day.
+
+**Game cards** — click a game's row to open its card. A slate's table names a
+`details` file beside it, and each row it opens carries an `"id"`; adapters
+pass the cards to `publish_slates` as the `Slate`'s `details`
+(`{ <row id>: game }`), which writes `<slate id>.details.json`:
+
+```json
+{ "games": { "2026020056": {
+  "title": "UTA @ BOS", "subtitle": "Thu Oct 8 · 7:00 PM ET",
+  "away": { "name": "Utah Mammoth", "abbr": "UTA", "note": "3–1–0" },
+  "home": { "name": "Boston Bruins", "abbr": "BOS" },
+  "score": { "away": "3.20", "home": "2.93", "label": "Expected goals" },
+  "win": { "away": 0.55, "home": 0.45, "note": "Fair odds: UTA -120, BOS +120" },
+  "sections": [
+    { "title": "What drives the projection", "kind": "notes", "items": ["…"] },
+    { "title": "The model's ratings", "kind": "compare",
+      "rows": [{ "label": "Offense", "away": 83, "home": 41, "max": 100 }] },
+    { "title": "Probabilities", "kind": "table", "columns": ["", "Model", "Market"],
+      "rows": [["UTA to win", "55%", "54%"]] }
+  ] } } }
+```
+
+- `compare` rows draw paired bars (away left, home right; values ≥ 0, scaled
+  to `max` or to the larger of the two); `awayText` / `homeText` replace the
+  shown numbers and `"lower": true` marks a row where less is better (goals
+  allowed). Table cells are plain values or `{ "v", "tone" }`.
+- A card for an earlier day or week keeps to what that prediction recorded:
+  team ratings and season odds are today's, so only current slates show them.
 
 **Landing card** — each live sport's card shows a live line from
 `public/data/<sport>/card.json` (written by its adapter via `write_card`):

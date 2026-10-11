@@ -15,6 +15,7 @@ this runs on the system Python, each model's code on its own venv's.
 from __future__ import annotations
 
 import json
+import logging
 import os
 import subprocess
 import sys
@@ -37,6 +38,20 @@ SITE_EXPORT = REPO / "scripts" / "site_export.py"
 KEEP_LOGS = 60  # per model
 
 NO_WINDOW = getattr(subprocess, "CREATE_NO_WINDOW", 0)  # no console flashing up per command
+log = logging.getLogger("app")
+_ES_CONTINUOUS, _ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001  # SetThreadExecutionState flags
+
+
+def _hold_awake(on: bool) -> bool:
+    """Ask Windows to keep running instead of idling into sleep or Modern Standby - the display
+    may still turn off, and the lid or power button still sleep it - or (`on` False) drop the
+    ask. It belongs to the calling thread, and lapses with it. False if it couldn't be asked."""
+    if os.name != "nt":
+        return False
+    import ctypes
+
+    state = _ES_CONTINUOUS | (_ES_SYSTEM_REQUIRED if on else 0)
+    return bool(ctypes.windll.kernel32.SetThreadExecutionState(state))
 
 
 def load_models() -> list[dict]:
@@ -196,6 +211,7 @@ class Runner:
         self.sports = {m["id"]: SportRun(m, self.store.model(m["id"])) for m in load_models()}
         self.threads: dict[str, threading.Thread] = {}
         self.checker: threading.Thread | None = None
+        self.awake: threading.Thread | None = None  # keeps the PC from sleeping while a pass runs
         self.check = {"state": None, "summary": "", "at": None}
         self.lock = threading.Lock()
 
@@ -217,7 +233,28 @@ class Runner:
             if started and not (self.checker and self.checker.is_alive()):
                 self.checker = threading.Thread(target=self._check_when_done, daemon=True, name="check")
                 self.checker.start()
+            if started and self.awake is None:
+                self.awake = threading.Thread(target=self._stay_awake, daemon=True, name="awake")
+                self.awake.start()
         return started
+
+    def _stay_awake(self) -> None:
+        """While any pass runs, keep the PC from dozing off: asleep, or in Modern Standby with the
+        screen off, Windows freezes the models mid-run until it wakes (a 2-minute run once sat 19
+        hours). Ends - and lets it sleep again - with the last pass."""
+        held = _hold_awake(True)
+        log.info("keeping the PC awake while the models run" if held else "couldn't ask Windows to stay awake")
+        try:
+            while True:
+                time.sleep(2)
+                with self.lock:  # start() checks `awake` under the same lock: no pass slips past
+                    if not self.busy():
+                        self.awake = None
+                        return
+        finally:
+            _hold_awake(False)
+            if held:
+                log.info("the PC may sleep again")
 
     def busy(self) -> bool:
         return any(self._alive(sid) for sid in self.sports) or bool(self.checker and self.checker.is_alive())

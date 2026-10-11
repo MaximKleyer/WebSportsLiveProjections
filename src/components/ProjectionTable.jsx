@@ -16,6 +16,8 @@ import { useState } from 'react';
 //            or group name
 //   filters  [{ field, label }] — toggles keeping rows whose row[field] is
 //            truthy (e.g. ★ plays only)
+//   onRowClick  called with a row that has an `id` when it's clicked (or
+//            Enter / Space on it): opens that game's card
 // Sortable headers cycle: best first (high numbers / A→Z text), reversed,
 // then back to the model's own order. Grouped tables sort within each group.
 
@@ -79,6 +81,7 @@ export default function ProjectionTable({
   groupBy = null,
   search = null,
   filters = [],
+  onRowClick = null,
 }) {
   const [sort, setSort] = useState(null); // { key, dir }, or null = the model's order
   const [query, setQuery] = useState('');
@@ -108,8 +111,23 @@ export default function ProjectionTable({
     });
   };
 
+  const opens = (row) => Boolean(onRowClick && row.id);
   const renderRow = (row) => (
-    <tr key={rowIndex.get(row)} className="proj-table__row">
+    <tr
+      key={rowIndex.get(row)}
+      className={`proj-table__row${opens(row) ? ' proj-table__row--opens' : ''}`}
+      {...(opens(row) && {
+        tabIndex: 0,
+        'aria-haspopup': 'dialog',
+        onClick: () => onRowClick(row),
+        onKeyDown: (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            onRowClick(row);
+          }
+        },
+      })}
+    >
       {columns.map((col) => {
         const { value, tone, sub } = splitCell(row[col.key]);
         return (

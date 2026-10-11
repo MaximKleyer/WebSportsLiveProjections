@@ -37,3 +37,9 @@ export function loadSlateIndex(sportId, viewType) {
 export function loadSlate(sportId, viewType, file) {
   return loadJson(`data/${sportId}/${viewType}/${file}`);
 }
+
+// A slate's game cards ({ games: { <row id>: game } }), the file its table
+// names in `details` — fetched when a row is first clicked.
+export function loadDetails(sportId, viewType, file) {
+  return loadJson(`data/${sportId}/${viewType}/${file}`);
+}
