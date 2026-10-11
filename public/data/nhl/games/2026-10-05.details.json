@@ -1,0 +1,316 @@
+{
+  "games": {
+    "2026020040": {
+      "title": "PHI @ TBL",
+      "subtitle": "Mon Oct 5 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Philadelphia Flyers",
+        "abbr": "PHI",
+        "note": "In net: D. Vladar (88% to start)"
+      },
+      "home": {
+        "name": "Tampa Bay Lightning",
+        "abbr": "TBL",
+        "note": "In net: A. Vasilevskiy (85% to start)"
+      },
+      "score": {
+        "away": "2.50",
+        "home": "3.18",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3848,
+        "home": 0.6152,
+        "note": "Fair odds: PHI +160, TBL -160 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects PHI 2.27 goals to TBL's 2.81. With overtime and the shootout that makes TBL 62% to win.",
+            "In net: D. Vladar for PHI (88% to start), A. Vasilevskiy for TBL (85% to start).",
+            "The market (9 books, margin removed) gives TBL 66% to win; the model 62%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "PHI to win",
+              "38%",
+              "34%"
+            ],
+            [
+              "TBL to win",
+              "62%",
+              "66%"
+            ],
+            [
+              "PHI \u22121.5",
+              "21%",
+              "\u2014"
+            ],
+            [
+              "TBL \u22121.5",
+              "39%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "47%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "36%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.68 goals."
+        }
+      ]
+    },
+    "2026020041": {
+      "title": "OTT @ BOS",
+      "subtitle": "Mon Oct 5 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "Ottawa Senators",
+        "abbr": "OTT",
+        "note": "In net: L. Ullmark (72% to start)"
+      },
+      "home": {
+        "name": "Boston Bruins",
+        "abbr": "BOS",
+        "note": "In net: J. Swayman (94% to start)"
+      },
+      "score": {
+        "away": "2.99",
+        "home": "2.91",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5135,
+        "home": 0.4865,
+        "note": "Fair odds: OTT -106, BOS +106 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects OTT 2.67 goals to BOS's 2.62. With overtime and the shootout that makes OTT 51% to win.",
+            "In net: L. Ullmark for OTT (72% to start), J. Swayman for BOS (94% to start).",
+            "The market (9 books, margin removed) gives BOS 49% to win; the model 49%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "OTT to win",
+              "51%",
+              "51%"
+            ],
+            [
+              "BOS to win",
+              "49%",
+              "49%"
+            ],
+            [
+              "OTT \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "BOS \u22121.5",
+              "29%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "51%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "40%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.90 goals."
+        }
+      ]
+    },
+    "2026020042": {
+      "title": "WPG @ PIT",
+      "subtitle": "Mon Oct 5 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "Winnipeg Jets",
+        "abbr": "WPG",
+        "note": "In net: C. Stevenson (91% to start)"
+      },
+      "home": {
+        "name": "Pittsburgh Penguins",
+        "abbr": "PIT",
+        "note": "In net: A. Silovs (96% to start)"
+      },
+      "score": {
+        "away": "2.76",
+        "home": "3.73",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.346,
+        "home": 0.654,
+        "note": "Fair odds: WPG +189, PIT -189 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects WPG 2.57 goals to PIT's 3.35. With overtime and the shootout that makes PIT 65% to win.",
+            "In net: C. Stevenson for WPG (91% to start), A. Silovs for PIT (96% to start).",
+            "The market (9 books, margin removed) gives PIT 62% to win; the model 65%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "WPG to win",
+              "35%",
+              "38%"
+            ],
+            [
+              "PIT to win",
+              "65%",
+              "62%"
+            ],
+            [
+              "WPG \u22121.5",
+              "20%",
+              "\u2014"
+            ],
+            [
+              "PIT \u22121.5",
+              "44%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "61%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "50%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.49 goals."
+        }
+      ]
+    },
+    "2026020043": {
+      "title": "SJS @ DAL",
+      "subtitle": "Mon Oct 5 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "San Jose Sharks",
+        "abbr": "SJS",
+        "note": "In net: Y. Askarov (55% to start)"
+      },
+      "home": {
+        "name": "Dallas Stars",
+        "abbr": "DAL",
+        "note": "In net: J. Oettinger (68% to start)"
+      },
+      "score": {
+        "away": "2.75",
+        "home": "3.27",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4125,
+        "home": 0.5875,
+        "note": "Fair odds: SJS +142, DAL -142 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects SJS 2.50 goals to DAL's 2.92. With overtime and the shootout that makes DAL 59% to win.",
+            "In net: Y. Askarov for SJS (55% to start), J. Oettinger for DAL (68% to start).",
+            "The market (9 books, margin removed) gives DAL 64% to win; the model 59%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "SJS to win",
+              "41%",
+              "36%"
+            ],
+            [
+              "DAL to win",
+              "59%",
+              "64%"
+            ],
+            [
+              "SJS \u22121.5",
+              "24%",
+              "\u2014"
+            ],
+            [
+              "DAL \u22121.5",
+              "37%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "53%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "42%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.02 goals."
+        }
+      ]
+    }
+  }
+}

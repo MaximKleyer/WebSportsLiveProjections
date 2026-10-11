@@ -1,0 +1,3492 @@
+{
+  "games": {
+    "TB@DAL": {
+      "title": "TB @ DAL",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Tampa Bay Buccaneers",
+        "abbr": "TB",
+        "note": "Proj. 8.4\u20138.6"
+      },
+      "home": {
+        "name": "Dallas Cowboys",
+        "abbr": "DAL",
+        "note": "Proj. 7.5\u20139.5"
+      },
+      "score": {
+        "away": "26.4",
+        "home": "25.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.537,
+        "home": 0.463,
+        "note": "Fair odds: TB -116, DAL +116 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects TB 26.4 \u2013 DAL 25.1: TB by 1.3, 51.5 points in all. That makes TB 54% to win.",
+            "The market line: DAL -9.5, total 47.5. Against the spread the model takes TB +9.5 (78% to cover); on the total, the over (61%).",
+            "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors TB against the spread.",
+            "Under center: Jalon Daniels projects 246 passing yards for TB, Dak Prescott 218 for DAL.",
+            "On the ground: TB 108 yards on 22 carries, DAL 88 on 22."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 245.5,
+              "home": 218.2,
+              "awayText": "246",
+              "homeText": "218"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 108.2,
+              "home": 88.1,
+              "awayText": "108",
+              "homeText": "88"
+            },
+            {
+              "label": "Total yards",
+              "away": 353.7,
+              "home": 306.3,
+              "awayText": "354",
+              "homeText": "306"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 32.7,
+              "home": 31.0,
+              "awayText": "33",
+              "homeText": "31"
+            },
+            {
+              "label": "Carries",
+              "away": 21.8,
+              "home": 22.5,
+              "awayText": "22",
+              "homeText": "22"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.0,
+              "home": 1.0,
+              "awayText": "2.0",
+              "homeText": "1.0",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.66,
+              "home": 0.41,
+              "awayText": "0.7",
+              "homeText": "0.4",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "TB",
+              "Jalon Daniels",
+              "QB",
+              "246 pass yds \u00b7 24/33 \u00b7 0.7 INT"
+            ],
+            [
+              "TB",
+              "Bucky Irving",
+              "RB",
+              "84 rush yds on 16.7 carries \u00b7 3.4 rec, 21 yds"
+            ],
+            [
+              "TB",
+              "Kenny Gainwell",
+              "RB",
+              "13 rush yds on 5.1 carries \u00b7 2.3 rec, 8 yds"
+            ],
+            [
+              "TB",
+              "Cade Otton",
+              "TE",
+              "4.7 rec, 51 yds \u00b7 20% of targets"
+            ],
+            [
+              "TB",
+              "Ted Hurst III",
+              "WR",
+              "2.4 rec, 43 yds \u00b7 13% of targets"
+            ],
+            [
+              "TB",
+              "Emeka Egbuka",
+              "WR",
+              "3.7 rec, 42 yds \u00b7 20% of targets"
+            ],
+            [
+              "DAL",
+              "Dak Prescott",
+              "QB",
+              "218 pass yds \u00b7 22/31 \u00b7 0.4 INT"
+            ],
+            [
+              "DAL",
+              "Javonte Williams",
+              "RB",
+              "36 rush yds on 10.9 carries \u00b7 2.8 rec, 12 yds"
+            ],
+            [
+              "DAL",
+              "Malik Davis",
+              "RB",
+              "22 rush yds on 7.0 carries \u00b7 0.7 rec, 2 yds"
+            ],
+            [
+              "DAL",
+              "CeeDee Lamb",
+              "WR",
+              "5.3 rec, 65 yds \u00b7 21% of targets"
+            ],
+            [
+              "DAL",
+              "George Pickens",
+              "WR",
+              "3.8 rec, 42 yds \u00b7 20% of targets"
+            ],
+            [
+              "DAL",
+              "Ryan Flournoy",
+              "WR",
+              "3.3 rec, 28 yds \u00b7 16% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "TB to win",
+              "54%"
+            ],
+            [
+              "DAL to win",
+              "46%"
+            ],
+            [
+              "TB +9.5",
+              "78%"
+            ],
+            [
+              "Over 47.5",
+              "61%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.4,
+              "home": 7.5,
+              "awayText": "8.4",
+              "homeText": "7.5"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.384,
+              "home": 0.24,
+              "awayText": "38%",
+              "homeText": "24%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.256,
+              "home": 0.163,
+              "awayText": "26%",
+              "homeText": "16%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "PHI@JAX": {
+      "title": "PHI @ JAX",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Philadelphia Eagles",
+        "abbr": "PHI",
+        "note": "Proj. 9.1\u20137.9"
+      },
+      "home": {
+        "name": "Jacksonville Jaguars",
+        "abbr": "JAX",
+        "note": "Proj. 9.5\u20137.5"
+      },
+      "score": {
+        "away": "19.8",
+        "home": "23.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.409,
+        "home": 0.591,
+        "note": "Fair odds: PHI +144, JAX -144 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects PHI 19.8 \u2013 JAX 23.1: JAX by 3.3, 43.0 points in all. That makes JAX 59% to win.",
+            "The market line: JAX -3, total 44.5. Against the spread the model takes JAX -3 (51% to cover); on the total, the under (54%).",
+            "Under center: Jalen Hurts projects 236 passing yards for PHI, Trevor Lawrence 231 for JAX.",
+            "On the ground: PHI 91 yards on 22 carries, JAX 105 on 22."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 236.2,
+              "home": 230.8,
+              "awayText": "236",
+              "homeText": "231"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 90.7,
+              "home": 104.9,
+              "awayText": "91",
+              "homeText": "105"
+            },
+            {
+              "label": "Total yards",
+              "away": 326.9,
+              "home": 335.7,
+              "awayText": "327",
+              "homeText": "336"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 30.1,
+              "home": 29.5,
+              "awayText": "30",
+              "homeText": "30"
+            },
+            {
+              "label": "Carries",
+              "away": 21.8,
+              "home": 22.0,
+              "awayText": "22",
+              "homeText": "22"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.1,
+              "home": 1.3,
+              "awayText": "2.1",
+              "homeText": "1.3",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.58,
+              "home": 0.89,
+              "awayText": "0.6",
+              "homeText": "0.9",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "PHI",
+              "Jalen Hurts",
+              "QB",
+              "236 pass yds \u00b7 21/30 \u00b7 0.6 INT"
+            ],
+            [
+              "PHI",
+              "Saquon Barkley",
+              "RB",
+              "62 rush yds on 16.7 carries \u00b7 2.0 rec, 10 yds"
+            ],
+            [
+              "PHI",
+              "Will Shipley",
+              "RB",
+              "12 rush yds on 5.1 carries \u00b7 1.2 rec, 7 yds"
+            ],
+            [
+              "PHI",
+              "DeVonta Smith",
+              "WR",
+              "6.3 rec, 77 yds \u00b7 27% of targets"
+            ],
+            [
+              "PHI",
+              "Dontayvion Wicks",
+              "WR",
+              "3.0 rec, 43 yds \u00b7 14% of targets"
+            ],
+            [
+              "PHI",
+              "Zach Ertz",
+              "TE",
+              "3.4 rec, 34 yds \u00b7 17% of targets"
+            ],
+            [
+              "JAX",
+              "Trevor Lawrence",
+              "QB",
+              "231 pass yds \u00b7 18/30 \u00b7 0.9 INT"
+            ],
+            [
+              "JAX",
+              "Bhayshul Tuten",
+              "RB",
+              "65 rush yds on 12.2 carries \u00b7 1.1 rec, 7 yds"
+            ],
+            [
+              "JAX",
+              "Chris Rodriguez Jr.",
+              "RB",
+              "33 rush yds on 9.8 carries \u00b7 0.3 rec, 4 yds"
+            ],
+            [
+              "JAX",
+              "Parker Washington",
+              "WR",
+              "4.6 rec, 61 yds \u00b7 25% of targets"
+            ],
+            [
+              "JAX",
+              "Jakobi Meyers",
+              "WR",
+              "3.1 rec, 53 yds \u00b7 16% of targets"
+            ],
+            [
+              "JAX",
+              "Travis Hunter",
+              "WR",
+              "2.6 rec, 36 yds \u00b7 14% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "PHI to win",
+              "41%"
+            ],
+            [
+              "JAX to win",
+              "59%"
+            ],
+            [
+              "JAX -3",
+              "51%"
+            ],
+            [
+              "Under 44.5",
+              "54%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.1,
+              "home": 9.5,
+              "awayText": "9.1",
+              "homeText": "9.5"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.544,
+              "home": 0.684,
+              "awayText": "54%",
+              "homeText": "68%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.436,
+              "home": 0.505,
+              "awayText": "44%",
+              "homeText": "50%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "CHI@GB": {
+      "title": "CHI @ GB",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Chicago Bears",
+        "abbr": "CHI",
+        "note": "Proj. 8.7\u20138.3"
+      },
+      "home": {
+        "name": "Green Bay Packers",
+        "abbr": "GB",
+        "note": "Proj. 9.0\u20138.0"
+      },
+      "score": {
+        "away": "24.3",
+        "home": "25.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.459,
+        "home": 0.541,
+        "note": "Fair odds: CHI +118, GB -118 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects CHI 24.3 \u2013 GB 25.7: GB by 1.4, 50.0 points in all. That makes GB 54% to win.",
+            "The market line: GB -2.5, total 45.5. Against the spread the model takes CHI +2.5 (53% to cover); on the total, the over (62%).",
+            "Under center: Caleb Williams projects 258 passing yards for CHI, Jordan Love 276 for GB.",
+            "On the ground: CHI 136 yards on 28 carries, GB 86 on 20."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 258.3,
+              "home": 275.5,
+              "awayText": "258",
+              "homeText": "276"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 136.0,
+              "home": 85.9,
+              "awayText": "136",
+              "homeText": "86"
+            },
+            {
+              "label": "Total yards",
+              "away": 394.3,
+              "home": 361.4,
+              "awayText": "394",
+              "homeText": "361"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 35.4,
+              "home": 38.8,
+              "awayText": "35",
+              "homeText": "39"
+            },
+            {
+              "label": "Carries",
+              "away": 28.1,
+              "home": 20.1,
+              "awayText": "28",
+              "homeText": "20"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 1.6,
+              "home": 2.2,
+              "awayText": "1.6",
+              "homeText": "2.2",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 1.14,
+              "home": 0.55,
+              "awayText": "1.1",
+              "homeText": "0.6",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "CHI",
+              "Caleb Williams",
+              "QB",
+              "258 pass yds \u00b7 20/35 \u00b7 1.1 INT"
+            ],
+            [
+              "CHI",
+              "D'Andre Swift",
+              "RB",
+              "60 rush yds on 15.5 carries \u00b7 2.5 rec, 16 yds"
+            ],
+            [
+              "CHI",
+              "Kyle Monangai",
+              "RB",
+              "42 rush yds on 9.8 carries \u00b7 1.8 rec, 15 yds"
+            ],
+            [
+              "CHI",
+              "Kalif Raymond",
+              "WR",
+              "5.1 rec, 62 yds \u00b7 15% of targets"
+            ],
+            [
+              "CHI",
+              "Rome Odunze",
+              "WR",
+              "3.0 rec, 52 yds \u00b7 15% of targets"
+            ],
+            [
+              "CHI",
+              "Luther Burden III",
+              "WR",
+              "4.6 rec, 50 yds \u00b7 19% of targets"
+            ],
+            [
+              "GB",
+              "Jordan Love",
+              "QB",
+              "276 pass yds \u00b7 19/39 \u00b7 0.6 INT"
+            ],
+            [
+              "GB",
+              "Josh Jacobs",
+              "RB",
+              "35 rush yds on 9.0 carries \u00b7 2.5 rec, 13 yds"
+            ],
+            [
+              "GB",
+              "Chris Brooks",
+              "RB",
+              "26 rush yds on 3.7 carries \u00b7 1.0 rec, 7 yds"
+            ],
+            [
+              "GB",
+              "Christian Watson",
+              "WR",
+              "5.0 rec, 81 yds \u00b7 20% of targets"
+            ],
+            [
+              "GB",
+              "Matthew Golden",
+              "WR",
+              "4.6 rec, 72 yds \u00b7 18% of targets"
+            ],
+            [
+              "GB",
+              "Tucker Kraft",
+              "TE",
+              "3.2 rec, 35 yds \u00b7 12% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "CHI to win",
+              "46%"
+            ],
+            [
+              "GB to win",
+              "54%"
+            ],
+            [
+              "CHI +2.5",
+              "53%"
+            ],
+            [
+              "Over 45.5",
+              "62%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.7,
+              "home": 9.0,
+              "awayText": "8.7",
+              "homeText": "9.0"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.39,
+              "home": 0.456,
+              "awayText": "39%",
+              "homeText": "46%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.134,
+              "home": 0.17,
+              "awayText": "13%",
+              "homeText": "17%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "CIN@MIA": {
+      "title": "CIN @ MIA",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Cincinnati Bengals",
+        "abbr": "CIN",
+        "note": "Proj. 9.4\u20137.6"
+      },
+      "home": {
+        "name": "Miami Dolphins",
+        "abbr": "MIA",
+        "note": "Proj. 6.5\u201310.5"
+      },
+      "score": {
+        "away": "27.4",
+        "home": "25.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.562,
+        "home": 0.438,
+        "note": "Fair odds: CIN -128, MIA +128 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects CIN 27.4 \u2013 MIA 25.2: CIN by 2.2, 52.6 points in all. That makes CIN 56% to win.",
+            "The market line: MIA +8.5, total 46.5. Against the spread the model takes MIA +8.5 (67% to cover); on the total, the over (67%).",
+            "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors MIA against the spread.",
+            "Under center: Joe Burrow projects 291 passing yards for CIN, Malik Willis 210 for MIA.",
+            "On the ground: CIN 92 yards on 19 carries, MIA 119 on 24."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 291.0,
+              "home": 209.9,
+              "awayText": "291",
+              "homeText": "210"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 91.5,
+              "home": 118.8,
+              "awayText": "92",
+              "homeText": "119"
+            },
+            {
+              "label": "Total yards",
+              "away": 382.5,
+              "home": 328.7,
+              "awayText": "382",
+              "homeText": "329"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 35.7,
+              "home": 23.9,
+              "awayText": "36",
+              "homeText": "24"
+            },
+            {
+              "label": "Carries",
+              "away": 19.1,
+              "home": 23.6,
+              "awayText": "19",
+              "homeText": "24"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.1,
+              "home": 2.9,
+              "awayText": "2.1",
+              "homeText": "2.9",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.47,
+              "home": 0.48,
+              "awayText": "0.5",
+              "homeText": "0.5",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "CIN",
+              "Joe Burrow",
+              "QB",
+              "291 pass yds \u00b7 29/36 \u00b7 0.5 INT"
+            ],
+            [
+              "CIN",
+              "Chase Brown",
+              "RB",
+              "66 rush yds on 14.6 carries \u00b7 4.0 rec, 17 yds"
+            ],
+            [
+              "CIN",
+              "Samaje Perine",
+              "RB",
+              "18 rush yds on 4.5 carries \u00b7 2.3 rec, 21 yds"
+            ],
+            [
+              "CIN",
+              "Tee Higgins",
+              "WR",
+              "5.6 rec, 85 yds \u00b7 21% of targets"
+            ],
+            [
+              "CIN",
+              "Ja'Marr Chase",
+              "WR",
+              "7.0 rec, 79 yds \u00b7 25% of targets"
+            ],
+            [
+              "CIN",
+              "Mike Gesicki",
+              "TE",
+              "3.1 rec, 33 yds \u00b7 9% of targets"
+            ],
+            [
+              "MIA",
+              "Malik Willis",
+              "QB",
+              "210 pass yds \u00b7 15/24 \u00b7 0.5 INT"
+            ],
+            [
+              "MIA",
+              "De'Von Achane",
+              "RB",
+              "61 rush yds on 12.0 carries \u00b7 3.1 rec, 24 yds"
+            ],
+            [
+              "MIA",
+              "DJ Herman",
+              "RB",
+              "12 rush yds on 2.6 carries \u00b7 0.5 rec, 8 yds"
+            ],
+            [
+              "MIA",
+              "Caleb Douglas",
+              "WR",
+              "3.4 rec, 48 yds \u00b7 15% of targets"
+            ],
+            [
+              "MIA",
+              "Malik Washington",
+              "WR",
+              "4.1 rec, 35 yds \u00b7 20% of targets"
+            ],
+            [
+              "MIA",
+              "Greg Dulcich",
+              "TE",
+              "3.2 rec, 30 yds \u00b7 13% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "CIN to win",
+              "56%"
+            ],
+            [
+              "MIA to win",
+              "44%"
+            ],
+            [
+              "MIA +8.5",
+              "67%"
+            ],
+            [
+              "Over 46.5",
+              "67%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.4,
+              "home": 6.5,
+              "awayText": "9.4",
+              "homeText": "6.5"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.631,
+              "home": 0.133,
+              "awayText": "63%",
+              "homeText": "13%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.243,
+              "home": 0.043,
+              "awayText": "24%",
+              "homeText": "4%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "LV@NE": {
+      "title": "LV @ NE",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Las Vegas Raiders",
+        "abbr": "LV",
+        "note": "Proj. 7.7\u20139.3"
+      },
+      "home": {
+        "name": "New England Patriots",
+        "abbr": "NE",
+        "note": "Proj. 9.0\u20138.0"
+      },
+      "score": {
+        "away": "18.6",
+        "home": "23.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.376,
+        "home": 0.624,
+        "note": "Fair odds: LV +166, NE -166 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects LV 18.6 \u2013 NE 23.1: NE by 4.5, 41.7 points in all. That makes NE 62% to win.",
+            "The market line: NE -3.5, total 44.5. Against the spread the model takes NE -3.5 (53% to cover); on the total, the under (58%).",
+            "Under center: Kirk Cousins projects 190 passing yards for LV, Drake Maye 207 for NE.",
+            "On the ground: LV 107 yards on 26 carries, NE 109 on 23."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 190.3,
+              "home": 206.8,
+              "awayText": "190",
+              "homeText": "207"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 107.1,
+              "home": 109.4,
+              "awayText": "107",
+              "homeText": "109"
+            },
+            {
+              "label": "Total yards",
+              "away": 297.4,
+              "home": 316.2,
+              "awayText": "297",
+              "homeText": "316"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 32.0,
+              "home": 30.1,
+              "awayText": "32",
+              "homeText": "30"
+            },
+            {
+              "label": "Carries",
+              "away": 26.5,
+              "home": 23.3,
+              "awayText": "26",
+              "homeText": "23"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 1.8,
+              "home": 4.1,
+              "awayText": "1.8",
+              "homeText": "4.1",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 1.05,
+              "home": 1.78,
+              "awayText": "1.1",
+              "homeText": "1.8",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "LV",
+              "Kirk Cousins",
+              "QB",
+              "190 pass yds \u00b7 20/32 \u00b7 1.1 INT"
+            ],
+            [
+              "LV",
+              "Ashton Jeanty",
+              "RB",
+              "69 rush yds on 20.5 carries \u00b7 3.6 rec, 26 yds"
+            ],
+            [
+              "LV",
+              "Mike Washington Jr.",
+              "RB",
+              "32 rush yds on 5.0 carries"
+            ],
+            [
+              "LV",
+              "Brock Bowers",
+              "TE",
+              "5.6 rec, 52 yds \u00b7 25% of targets"
+            ],
+            [
+              "LV",
+              "Tre Tucker",
+              "WR",
+              "2.9 rec, 41 yds \u00b7 16% of targets"
+            ],
+            [
+              "LV",
+              "Michael Mayer",
+              "TE",
+              "3.0 rec, 28 yds \u00b7 14% of targets"
+            ],
+            [
+              "NE",
+              "Drake Maye",
+              "QB",
+              "207 pass yds \u00b7 18/30 \u00b7 1.8 INT"
+            ],
+            [
+              "NE",
+              "Rhamondre Stevenson",
+              "RB",
+              "42 rush yds on 10.2 carries \u00b7 2.6 rec, 17 yds"
+            ],
+            [
+              "NE",
+              "TreVeyon Henderson",
+              "RB",
+              "30 rush yds on 8.8 carries \u00b7 1.1 rec, 6 yds"
+            ],
+            [
+              "NE",
+              "Romeo Doubs",
+              "WR",
+              "2.5 rec, 47 yds \u00b7 16% of targets"
+            ],
+            [
+              "NE",
+              "Mack Hollins",
+              "WR",
+              "3.0 rec, 36 yds \u00b7 15% of targets"
+            ],
+            [
+              "NE",
+              "A.J. Brown",
+              "WR",
+              "2.8 rec, 32 yds \u00b7 16% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "LV to win",
+              "38%"
+            ],
+            [
+              "NE to win",
+              "62%"
+            ],
+            [
+              "NE -3.5",
+              "53%"
+            ],
+            [
+              "Under 44.5",
+              "58%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 7.7,
+              "home": 9.0,
+              "awayText": "7.7",
+              "homeText": "9.0"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.306,
+              "home": 0.57,
+              "awayText": "31%",
+              "homeText": "57%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.087,
+              "home": 0.308,
+              "awayText": "9%",
+              "homeText": "31%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "MIN@NO": {
+      "title": "MIN @ NO",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Minnesota Vikings",
+        "abbr": "MIN",
+        "note": "Proj. 8.7\u20138.3"
+      },
+      "home": {
+        "name": "New Orleans Saints",
+        "abbr": "NO",
+        "note": "Proj. 9.2\u20137.8"
+      },
+      "score": {
+        "away": "19.5",
+        "home": "21.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.435,
+        "home": 0.565,
+        "note": "Fair odds: MIN +130, NO -130 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects MIN 19.5 \u2013 NO 21.8: NO by 2.3, 41.3 points in all. That makes NO 56% to win.",
+            "The market line: NO +2.5, total 44.5. Against the spread the model takes NO +2.5 (63% to cover); on the total, the under (59%).",
+            "Under center: Kyler Murray projects 151 passing yards for MIN, Tyler Shough 242 for NO.",
+            "On the ground: MIN 114 yards on 26 carries, NO 101 on 26."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 151.4,
+              "home": 242.1,
+              "awayText": "151",
+              "homeText": "242"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 113.8,
+              "home": 100.5,
+              "awayText": "114",
+              "homeText": "101"
+            },
+            {
+              "label": "Total yards",
+              "away": 265.2,
+              "home": 342.6,
+              "awayText": "265",
+              "homeText": "343"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 28.6,
+              "home": 39.8,
+              "awayText": "29",
+              "homeText": "40"
+            },
+            {
+              "label": "Carries",
+              "away": 26.2,
+              "home": 26.3,
+              "awayText": "26",
+              "homeText": "26"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.7,
+              "home": 3.9,
+              "awayText": "2.7",
+              "homeText": "3.9",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.99,
+              "home": 1.04,
+              "awayText": "1.0",
+              "homeText": "1.0",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "MIN",
+              "Kyler Murray",
+              "QB",
+              "151 pass yds \u00b7 18/29 \u00b7 1.0 INT"
+            ],
+            [
+              "MIN",
+              "Aaron Jones Sr.",
+              "RB",
+              "58 rush yds on 16.2 carries \u00b7 1.5 rec, 9 yds"
+            ],
+            [
+              "MIN",
+              "Jordan Mason",
+              "RB",
+              "29 rush yds on 7.2 carries \u00b7 0.4 rec, 2 yds"
+            ],
+            [
+              "MIN",
+              "Justin Jefferson",
+              "WR",
+              "4.1 rec, 58 yds \u00b7 27% of targets"
+            ],
+            [
+              "MIN",
+              "Jordan Addison",
+              "WR",
+              "1.5 rec, 20 yds \u00b7 18% of targets"
+            ],
+            [
+              "MIN",
+              "T.J. Hockenson",
+              "TE",
+              "2.4 rec, 18 yds \u00b7 15% of targets"
+            ],
+            [
+              "NO",
+              "Tyler Shough",
+              "QB",
+              "242 pass yds \u00b7 23/40 \u00b7 1.0 INT"
+            ],
+            [
+              "NO",
+              "Travis Etienne Jr.",
+              "RB",
+              "38 rush yds on 9.6 carries \u00b7 2.7 rec, 17 yds"
+            ],
+            [
+              "NO",
+              "Alvin Kamara",
+              "RB",
+              "30 rush yds on 10.5 carries \u00b7 2.9 rec, 16 yds"
+            ],
+            [
+              "NO",
+              "Chris Olave",
+              "WR",
+              "6.1 rec, 82 yds \u00b7 28% of targets"
+            ],
+            [
+              "NO",
+              "Juwan Johnson",
+              "TE",
+              "3.0 rec, 39 yds \u00b7 13% of targets"
+            ],
+            [
+              "NO",
+              "Devaughn Vele",
+              "WR",
+              "3.1 rec, 35 yds \u00b7 15% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "MIN to win",
+              "44%"
+            ],
+            [
+              "NO to win",
+              "56%"
+            ],
+            [
+              "NO +2.5",
+              "63%"
+            ],
+            [
+              "Under 44.5",
+              "59%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.7,
+              "home": 9.2,
+              "awayText": "8.7",
+              "homeText": "9.2"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.40299999999999997,
+              "home": 0.545,
+              "awayText": "40%",
+              "homeText": "55%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.138,
+              "home": 0.408,
+              "awayText": "14%",
+              "homeText": "41%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "CLE@NYJ": {
+      "title": "CLE @ NYJ",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Cleveland Browns",
+        "abbr": "CLE",
+        "note": "Proj. 6.7\u201310.3"
+      },
+      "home": {
+        "name": "New York Jets",
+        "abbr": "NYJ",
+        "note": "Proj. 7.2\u20139.8"
+      },
+      "score": {
+        "away": "9.1",
+        "home": "14.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.352,
+        "home": 0.648,
+        "note": "Fair odds: CLE +184, NYJ -184 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects CLE 9.1 \u2013 NYJ 14.5: NYJ by 5.4, 23.6 points in all. That makes NYJ 65% to win.",
+            "The market line: NYJ -1.5, total 40.5. Against the spread the model takes NYJ -1.5 (61% to cover); on the total, the under (88%).",
+            "Under center: Deshaun Watson projects 171 passing yards for CLE, Geno Smith 237 for NYJ.",
+            "On the ground: CLE 81 yards on 19 carries, NYJ 146 on 27."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 171.3,
+              "home": 237.3,
+              "awayText": "171",
+              "homeText": "237"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 81.4,
+              "home": 145.8,
+              "awayText": "81",
+              "homeText": "146"
+            },
+            {
+              "label": "Total yards",
+              "away": 252.7,
+              "home": 383.1,
+              "awayText": "253",
+              "homeText": "383"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 26.1,
+              "home": 32.5,
+              "awayText": "26",
+              "homeText": "32"
+            },
+            {
+              "label": "Carries",
+              "away": 18.9,
+              "home": 26.7,
+              "awayText": "19",
+              "homeText": "27"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 3.1,
+              "home": 2.5,
+              "awayText": "3.1",
+              "homeText": "2.5",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.38,
+              "home": 0.59,
+              "awayText": "0.4",
+              "homeText": "0.6",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "CLE",
+              "Deshaun Watson",
+              "QB",
+              "171 pass yds \u00b7 19/26 \u00b7 0.4 INT"
+            ],
+            [
+              "CLE",
+              "Quinshon Judkins",
+              "RB",
+              "33 rush yds on 10.8 carries \u00b7 2.1 rec, 12 yds"
+            ],
+            [
+              "CLE",
+              "Dylan Sampson",
+              "RB",
+              "16 rush yds on 4.8 carries \u00b7 1.6 rec, 8 yds"
+            ],
+            [
+              "CLE",
+              "Denzel Boston",
+              "WR",
+              "2.1 rec, 46 yds \u00b7 18% of targets"
+            ],
+            [
+              "CLE",
+              "Harold Fannin Jr.",
+              "TE",
+              "2.9 rec, 32 yds \u00b7 18% of targets"
+            ],
+            [
+              "CLE",
+              "KC Concepcion",
+              "WR",
+              "3.2 rec, 23 yds \u00b7 21% of targets"
+            ],
+            [
+              "NYJ",
+              "Geno Smith",
+              "QB",
+              "237 pass yds \u00b7 25/32 \u00b7 0.6 INT"
+            ],
+            [
+              "NYJ",
+              "Breece Hall",
+              "RB",
+              "72 rush yds on 14.8 carries \u00b7 3.1 rec, 29 yds"
+            ],
+            [
+              "NYJ",
+              "Isaiah Davis",
+              "RB",
+              "25 rush yds on 3.8 carries \u00b7 1.5 rec, 10 yds"
+            ],
+            [
+              "NYJ",
+              "Garrett Wilson",
+              "WR",
+              "6.3 rec, 60 yds \u00b7 26% of targets"
+            ],
+            [
+              "NYJ",
+              "Kenyon Sadiq",
+              "TE",
+              "4.2 rec, 42 yds \u00b7 13% of targets"
+            ],
+            [
+              "NYJ",
+              "Adonai Mitchell",
+              "WR",
+              "2.9 rec, 33 yds \u00b7 14% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "CLE to win",
+              "35%"
+            ],
+            [
+              "NYJ to win",
+              "65%"
+            ],
+            [
+              "NYJ -1.5",
+              "61%"
+            ],
+            [
+              "Under 40.5",
+              "88%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.7,
+              "home": 7.2,
+              "awayText": "6.7",
+              "homeText": "7.2"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.15,
+              "home": 0.226,
+              "awayText": "15%",
+              "homeText": "23%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.031,
+              "home": 0.09,
+              "awayText": "3%",
+              "homeText": "9%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "IND@PIT": {
+      "title": "IND @ PIT",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Indianapolis Colts",
+        "abbr": "IND",
+        "note": "Proj. 7.0\u201310.0"
+      },
+      "home": {
+        "name": "Pittsburgh Steelers",
+        "abbr": "PIT",
+        "note": "Proj. 6.7\u201310.3"
+      },
+      "score": {
+        "away": "17.5",
+        "home": "20.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.432,
+        "home": 0.568,
+        "note": "Fair odds: IND +131, PIT -131 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects IND 17.5 \u2013 PIT 20.0: PIT by 2.5, 37.5 points in all. That makes PIT 57% to win.",
+            "Under center: Daniel Jones projects 206 passing yards for IND, Aaron Rodgers 252 for PIT.",
+            "On the ground: IND 102 yards on 22 carries, PIT 95 on 20."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 206.1,
+              "home": 252.2,
+              "awayText": "206",
+              "homeText": "252"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 102.0,
+              "home": 94.6,
+              "awayText": "102",
+              "homeText": "95"
+            },
+            {
+              "label": "Total yards",
+              "away": 308.1,
+              "home": 346.8,
+              "awayText": "308",
+              "homeText": "347"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 27.6,
+              "home": 35.4,
+              "awayText": "28",
+              "homeText": "35"
+            },
+            {
+              "label": "Carries",
+              "away": 22.0,
+              "home": 20.5,
+              "awayText": "22",
+              "homeText": "20"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.1,
+              "home": 2.5,
+              "awayText": "2.1",
+              "homeText": "2.5",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.8,
+              "home": 0.58,
+              "awayText": "0.8",
+              "homeText": "0.6",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "IND",
+              "Daniel Jones",
+              "QB",
+              "206 pass yds \u00b7 19/28 \u00b7 0.8 INT"
+            ],
+            [
+              "IND",
+              "Jonathan Taylor",
+              "RB",
+              "92 rush yds on 22.0 carries \u00b7 2.3 rec, 16 yds"
+            ],
+            [
+              "IND",
+              "Josh Downs",
+              "WR",
+              "4.0 rec, 54 yds \u00b7 20% of targets"
+            ],
+            [
+              "IND",
+              "Alec Pierce",
+              "WR",
+              "2.3 rec, 32 yds \u00b7 12% of targets"
+            ],
+            [
+              "IND",
+              "Keenan Allen",
+              "WR",
+              "3.7 rec, 31 yds \u00b7 22% of targets"
+            ],
+            [
+              "PIT",
+              "Aaron Rodgers",
+              "QB",
+              "252 pass yds \u00b7 20/35 \u00b7 0.6 INT"
+            ],
+            [
+              "PIT",
+              "Jaylen Warren",
+              "RB",
+              "58 rush yds on 11.4 carries \u00b7 3.2 rec, 28 yds"
+            ],
+            [
+              "PIT",
+              "Rico Dowdle",
+              "RB",
+              "20 rush yds on 6.3 carries \u00b7 1.6 rec, 13 yds"
+            ],
+            [
+              "PIT",
+              "DK Metcalf",
+              "WR",
+              "4.2 rec, 54 yds \u00b7 20% of targets"
+            ],
+            [
+              "PIT",
+              "Michael Pittman Jr.",
+              "WR",
+              "3.9 rec, 46 yds \u00b7 15% of targets"
+            ],
+            [
+              "PIT",
+              "Pat Freiermuth",
+              "TE",
+              "3.4 rec, 36 yds \u00b7 12% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "IND to win",
+              "43%"
+            ],
+            [
+              "PIT to win",
+              "57%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 7.0,
+              "home": 6.7,
+              "awayText": "7.0",
+              "homeText": "6.7"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.19899999999999998,
+              "home": 0.157,
+              "awayText": "20%",
+              "homeText": "16%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.09300000000000001,
+              "home": 0.03,
+              "awayText": "9%",
+              "homeText": "3%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "HOU@TEN": {
+      "title": "HOU @ TEN",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Houston Texans",
+        "abbr": "HOU",
+        "note": "Proj. 8.7\u20138.3"
+      },
+      "home": {
+        "name": "Tennessee Titans",
+        "abbr": "TEN",
+        "note": "Proj. 6.7\u201310.3"
+      },
+      "score": {
+        "away": "20.9",
+        "home": "19.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.55,
+        "home": 0.45,
+        "note": "Fair odds: HOU -122, TEN +122 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects HOU 20.9 \u2013 TEN 19.1: HOU by 1.8, 40.0 points in all. That makes HOU 55% to win.",
+            "The market line: TEN +6.5, total 39.5. Against the spread the model takes TEN +6.5 (63% to cover); on the total, the over (52%).",
+            "Under center: C.J. Stroud projects 264 passing yards for HOU, Cam Ward 216 for TEN.",
+            "On the ground: HOU 84 yards on 25 carries, TEN 90 on 22."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 264.4,
+              "home": 215.7,
+              "awayText": "264",
+              "homeText": "216"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 84.0,
+              "home": 90.2,
+              "awayText": "84",
+              "homeText": "90"
+            },
+            {
+              "label": "Total yards",
+              "away": 348.4,
+              "home": 305.9,
+              "awayText": "348",
+              "homeText": "306"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 38.9,
+              "home": 32.3,
+              "awayText": "39",
+              "homeText": "32"
+            },
+            {
+              "label": "Carries",
+              "away": 24.9,
+              "home": 21.6,
+              "awayText": "25",
+              "homeText": "22"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.6,
+              "home": 2.9,
+              "awayText": "2.6",
+              "homeText": "2.9",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.82,
+              "home": 0.27,
+              "awayText": "0.8",
+              "homeText": "0.3",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "HOU",
+              "C.J. Stroud",
+              "QB",
+              "264 pass yds \u00b7 25/39 \u00b7 0.8 INT"
+            ],
+            [
+              "HOU",
+              "David Montgomery",
+              "RB",
+              "35 rush yds on 11.8 carries \u00b7 1.6 rec, 13 yds"
+            ],
+            [
+              "HOU",
+              "Woody Marks",
+              "RB",
+              "33 rush yds on 10.7 carries \u00b7 1.4 rec, 7 yds"
+            ],
+            [
+              "HOU",
+              "Dalton Schultz",
+              "TE",
+              "3.4 rec, 45 yds \u00b7 16% of targets"
+            ],
+            [
+              "HOU",
+              "Tank Dell",
+              "WR",
+              "2.6 rec, 42 yds \u00b7 14% of targets"
+            ],
+            [
+              "HOU",
+              "Jayden Higgins",
+              "WR",
+              "2.5 rec, 41 yds \u00b7 15% of targets"
+            ],
+            [
+              "TEN",
+              "Cam Ward",
+              "QB",
+              "216 pass yds \u00b7 19/32 \u00b7 0.3 INT"
+            ],
+            [
+              "TEN",
+              "Tony Pollard",
+              "RB",
+              "40 rush yds on 10.6 carries \u00b7 1.9 rec, 8 yds"
+            ],
+            [
+              "TEN",
+              "Michael Carter",
+              "RB",
+              "26 rush yds on 7.3 carries \u00b7 2.0 rec, 12 yds"
+            ],
+            [
+              "TEN",
+              "Wan'Dale Robinson",
+              "WR",
+              "5.1 rec, 45 yds \u00b7 23% of targets"
+            ],
+            [
+              "TEN",
+              "Carnell Tate",
+              "WR",
+              "4.0 rec, 38 yds \u00b7 23% of targets"
+            ],
+            [
+              "TEN",
+              "Elic Ayomanor",
+              "WR",
+              "1.9 rec, 36 yds \u00b7 16% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "HOU to win",
+              "55%"
+            ],
+            [
+              "TEN to win",
+              "45%"
+            ],
+            [
+              "TEN +6.5",
+              "63%"
+            ],
+            [
+              "Over 39.5",
+              "52%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.7,
+              "home": 6.7,
+              "awayText": "8.7",
+              "homeText": "6.7"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.532,
+              "home": 0.174,
+              "awayText": "53%",
+              "homeText": "17%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.321,
+              "home": 0.081,
+              "awayText": "32%",
+              "homeText": "8%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "NYG@WAS": {
+      "title": "NYG @ WAS",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "New York Giants",
+        "abbr": "NYG",
+        "note": "Proj. 8.2\u20138.8"
+      },
+      "home": {
+        "name": "Washington Commanders",
+        "abbr": "WAS",
+        "note": "Proj. 7.3\u20139.7"
+      },
+      "score": {
+        "away": "11.5",
+        "home": "12.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.476,
+        "home": 0.524,
+        "note": "Fair odds: NYG +110, WAS -110 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects NYG 11.5 \u2013 WAS 12.3: WAS by 0.8, 23.8 points in all. That makes WAS 52% to win.",
+            "Under center: Jameis Winston projects 221 passing yards for NYG, Jayden Daniels 126 for WAS.",
+            "On the ground: NYG 114 yards on 30 carries, WAS 139 on 32."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 221.1,
+              "home": 125.6,
+              "awayText": "221",
+              "homeText": "126"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 114.4,
+              "home": 139.1,
+              "awayText": "114",
+              "homeText": "139"
+            },
+            {
+              "label": "Total yards",
+              "away": 335.5,
+              "home": 264.7,
+              "awayText": "336",
+              "homeText": "265"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 28.3,
+              "home": 25.2,
+              "awayText": "28",
+              "homeText": "25"
+            },
+            {
+              "label": "Carries",
+              "away": 30.3,
+              "home": 32.4,
+              "awayText": "30",
+              "homeText": "32"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.2,
+              "home": 1.5,
+              "awayText": "2.2",
+              "homeText": "1.5",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 1.06,
+              "home": 0.56,
+              "awayText": "1.1",
+              "homeText": "0.6",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "NYG",
+              "Jameis Winston",
+              "QB",
+              "221 pass yds \u00b7 17/28 \u00b7 1.1 INT"
+            ],
+            [
+              "NYG",
+              "Cam Skattebo",
+              "RB",
+              "47 rush yds on 14.1 carries \u00b7 2.0 rec, 24 yds"
+            ],
+            [
+              "NYG",
+              "Tyrone Tracy Jr.",
+              "RB",
+              "39 rush yds on 9.4 carries \u00b7 2.9 rec, 15 yds"
+            ],
+            [
+              "NYG",
+              "Malik Nabers",
+              "WR",
+              "4.4 rec, 41 yds \u00b7 25% of targets"
+            ],
+            [
+              "NYG",
+              "Isaiah Likely",
+              "TE",
+              "3.8 rec, 40 yds \u00b7 17% of targets"
+            ],
+            [
+              "NYG",
+              "Darnell Mooney",
+              "WR",
+              "2.9 rec, 37 yds \u00b7 16% of targets"
+            ],
+            [
+              "WAS",
+              "Jayden Daniels",
+              "QB",
+              "126 pass yds \u00b7 15/25 \u00b7 0.6 INT"
+            ],
+            [
+              "WAS",
+              "Jacory Croskey-Merritt",
+              "RB",
+              "41 rush yds on 13.5 carries \u00b7 0.4 rec, 1 yds"
+            ],
+            [
+              "WAS",
+              "Rachaad White",
+              "RB",
+              "30 rush yds on 7.9 carries \u00b7 1.4 rec, 8 yds"
+            ],
+            [
+              "WAS",
+              "Terry McLaurin",
+              "WR",
+              "2.1 rec, 28 yds \u00b7 21% of targets"
+            ],
+            [
+              "WAS",
+              "Stefon Diggs",
+              "WR",
+              "2.2 rec, 25 yds \u00b7 20% of targets"
+            ],
+            [
+              "WAS",
+              "Luke McCaffrey",
+              "WR",
+              "0.8 rec, 14 yds \u00b7 6% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "NYG to win",
+              "48%"
+            ],
+            [
+              "WAS to win",
+              "52%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.2,
+              "home": 7.3,
+              "awayText": "8.2",
+              "homeText": "7.3"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.36200000000000004,
+              "home": 0.20800000000000002,
+              "awayText": "36%",
+              "homeText": "21%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.259,
+              "home": 0.142,
+              "awayText": "26%",
+              "homeText": "14%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "DEN@LAC": {
+      "title": "DEN @ LAC",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Denver Broncos",
+        "abbr": "DEN",
+        "note": "Proj. 8.6\u20138.4"
+      },
+      "home": {
+        "name": "Los Angeles Chargers",
+        "abbr": "LAC",
+        "note": "Proj. 7.0\u201310.0"
+      },
+      "score": {
+        "away": "22.6",
+        "home": "21.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.519,
+        "home": 0.481,
+        "note": "Fair odds: DEN -108, LAC +108 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects DEN 22.6 \u2013 LAC 21.9: DEN by 0.7, 44.4 points in all. That makes DEN 52% to win.",
+            "The market line: LAC +2.5, total 43.5. Against the spread the model takes LAC +2.5 (55% to cover); on the total, the over (53%).",
+            "Under center: Bo Nix projects 256 passing yards for DEN, Justin Herbert 184 for LAC.",
+            "On the ground: DEN 82 yards on 21 carries, LAC 109 on 24."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 255.9,
+              "home": 183.9,
+              "awayText": "256",
+              "homeText": "184"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 82.2,
+              "home": 109.3,
+              "awayText": "82",
+              "homeText": "109"
+            },
+            {
+              "label": "Total yards",
+              "away": 338.1,
+              "home": 293.2,
+              "awayText": "338",
+              "homeText": "293"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 34.6,
+              "home": 31.4,
+              "awayText": "35",
+              "homeText": "31"
+            },
+            {
+              "label": "Carries",
+              "away": 20.9,
+              "home": 24.0,
+              "awayText": "21",
+              "homeText": "24"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 1.5,
+              "home": 3.7,
+              "awayText": "1.5",
+              "homeText": "3.7",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.77,
+              "home": 1.03,
+              "awayText": "0.8",
+              "homeText": "1.0",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "DEN",
+              "Bo Nix",
+              "QB",
+              "256 pass yds \u00b7 21/35 \u00b7 0.8 INT"
+            ],
+            [
+              "DEN",
+              "J.K. Dobbins",
+              "RB",
+              "35 rush yds on 9.3 carries \u00b7 1.2 rec, 6 yds"
+            ],
+            [
+              "DEN",
+              "RJ Harvey",
+              "RB",
+              "18 rush yds on 5.7 carries \u00b7 5.0 rec, 34 yds"
+            ],
+            [
+              "DEN",
+              "Jaylen Waddle",
+              "WR",
+              "3.8 rec, 39 yds \u00b7 18% of targets"
+            ],
+            [
+              "DEN",
+              "Courtland Sutton",
+              "WR",
+              "3.9 rec, 38 yds \u00b7 17% of targets"
+            ],
+            [
+              "DEN",
+              "Evan Engram",
+              "TE",
+              "2.8 rec, 32 yds \u00b7 10% of targets"
+            ],
+            [
+              "LAC",
+              "Justin Herbert",
+              "QB",
+              "184 pass yds \u00b7 16/31 \u00b7 1.0 INT"
+            ],
+            [
+              "LAC",
+              "Omarion Hampton",
+              "RB",
+              "40 rush yds on 12.3 carries \u00b7 2.3 rec, 16 yds"
+            ],
+            [
+              "LAC",
+              "Kimani Vidal",
+              "RB",
+              "24 rush yds on 5.9 carries \u00b7 0.7 rec, 7 yds"
+            ],
+            [
+              "LAC",
+              "Ladd McConkey",
+              "WR",
+              "3.9 rec, 54 yds \u00b7 18% of targets"
+            ],
+            [
+              "LAC",
+              "Tre' Harris",
+              "WR",
+              "2.5 rec, 35 yds \u00b7 14% of targets"
+            ],
+            [
+              "LAC",
+              "Quentin Johnston",
+              "WR",
+              "2.3 rec, 23 yds \u00b7 16% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "DEN to win",
+              "52%"
+            ],
+            [
+              "LAC to win",
+              "48%"
+            ],
+            [
+              "LAC +2.5",
+              "55%"
+            ],
+            [
+              "Over 43.5",
+              "53%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.6,
+              "home": 7.0,
+              "awayText": "8.6",
+              "homeText": "7.0"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.495,
+              "home": 0.195,
+              "awayText": "50%",
+              "homeText": "20%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.177,
+              "home": 0.047,
+              "awayText": "18%",
+              "homeText": "5%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "DET@ARI": {
+      "title": "DET @ ARI",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Detroit Lions",
+        "abbr": "DET",
+        "note": "Proj. 11.0\u20136.0"
+      },
+      "home": {
+        "name": "Arizona Cardinals",
+        "abbr": "ARI",
+        "note": "Proj. 5.4\u201311.6"
+      },
+      "score": {
+        "away": "36.3",
+        "home": "23.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.808,
+        "home": 0.192,
+        "note": "Fair odds: DET -421, ARI +421 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects DET 36.3 \u2013 ARI 23.8: DET by 12.5, 60.1 points in all. That makes DET 81% to win.",
+            "The market line: ARI +5.5, total 52.5. Against the spread the model takes DET -5.5 (69% to cover); on the total, the over (70%).",
+            "Under center: Jared Goff projects 323 passing yards for DET, Jacoby Brissett 239 for ARI.",
+            "On the ground: DET 148 yards on 30 carries, ARI 86 on 24."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 322.6,
+              "home": 239.4,
+              "awayText": "323",
+              "homeText": "239"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 148.3,
+              "home": 86.1,
+              "awayText": "148",
+              "homeText": "86"
+            },
+            {
+              "label": "Total yards",
+              "away": 470.9,
+              "home": 325.5,
+              "awayText": "471",
+              "homeText": "326"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 36.7,
+              "home": 36.2,
+              "awayText": "37",
+              "homeText": "36"
+            },
+            {
+              "label": "Carries",
+              "away": 30.2,
+              "home": 23.7,
+              "awayText": "30",
+              "homeText": "24"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 1.8,
+              "home": 2.6,
+              "awayText": "1.8",
+              "homeText": "2.6",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.28,
+              "home": 0.47,
+              "awayText": "0.3",
+              "homeText": "0.5",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "DET",
+              "Jared Goff",
+              "QB",
+              "323 pass yds \u00b7 25/37 \u00b7 0.3 INT"
+            ],
+            [
+              "DET",
+              "Jahmyr Gibbs",
+              "RB",
+              "93 rush yds on 18.2 carries \u00b7 5.3 rec, 46 yds"
+            ],
+            [
+              "DET",
+              "Isiah Pacheco",
+              "RB",
+              "37 rush yds on 9.6 carries \u00b7 2.4 rec, 6 yds"
+            ],
+            [
+              "DET",
+              "Amon-Ra St. Brown",
+              "WR",
+              "8.4 rec, 88 yds \u00b7 29% of targets"
+            ],
+            [
+              "DET",
+              "Sam LaPorta",
+              "TE",
+              "5.4 rec, 60 yds \u00b7 16% of targets"
+            ],
+            [
+              "DET",
+              "Jameson Williams",
+              "WR",
+              "4.2 rec, 56 yds \u00b7 15% of targets"
+            ],
+            [
+              "ARI",
+              "Jacoby Brissett",
+              "QB",
+              "239 pass yds \u00b7 26/36 \u00b7 0.5 INT"
+            ],
+            [
+              "ARI",
+              "Jeremiyah Love",
+              "RB",
+              "28 rush yds on 8.2 carries \u00b7 2.9 rec, 13 yds"
+            ],
+            [
+              "ARI",
+              "Trey Benson",
+              "RB",
+              "21 rush yds on 4.1 carries \u00b7 2.9 rec, 14 yds"
+            ],
+            [
+              "ARI",
+              "Trey McBride",
+              "TE",
+              "7.4 rec, 62 yds \u00b7 25% of targets"
+            ],
+            [
+              "ARI",
+              "Michael Wilson",
+              "WR",
+              "4.6 rec, 57 yds \u00b7 22% of targets"
+            ],
+            [
+              "ARI",
+              "Kendrick Bourne",
+              "WR",
+              "3.0 rec, 24 yds \u00b7 11% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "DET to win",
+              "81%"
+            ],
+            [
+              "ARI to win",
+              "19%"
+            ],
+            [
+              "DET -5.5",
+              "69%"
+            ],
+            [
+              "Over 52.5",
+              "70%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 11.0,
+              "home": 5.4,
+              "awayText": "11.0",
+              "homeText": "5.4"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.812,
+              "home": 0.027999999999999997,
+              "awayText": "81%",
+              "homeText": "3%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.5579999999999999,
+              "home": 0.005,
+              "awayText": "56%",
+              "homeText": "0%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "SF@SEA": {
+      "title": "SF @ SEA",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "San Francisco 49ers",
+        "abbr": "SF",
+        "note": "Proj. 9.7\u20137.3"
+      },
+      "home": {
+        "name": "Seattle Seahawks",
+        "abbr": "SEA",
+        "note": "Proj. 10.6\u20136.4"
+      },
+      "score": {
+        "away": "19.4",
+        "home": "24.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.366,
+        "home": 0.634,
+        "note": "Fair odds: SF +173, SEA -173 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects SF 19.4 \u2013 SEA 24.3: SEA by 4.9, 43.7 points in all. That makes SEA 63% to win.",
+            "The market line: SEA -3, total 47.5. Against the spread the model takes SEA -3 (55% to cover); on the total, the under (61%).",
+            "Under center: Brock Purdy projects 208 passing yards for SF, Sam Darnold 241 for SEA.",
+            "On the ground: SF 97 yards on 24 carries, SEA 122 on 31."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 208.4,
+              "home": 240.7,
+              "awayText": "208",
+              "homeText": "241"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 96.8,
+              "home": 122.3,
+              "awayText": "97",
+              "homeText": "122"
+            },
+            {
+              "label": "Total yards",
+              "away": 305.2,
+              "home": 363.0,
+              "awayText": "305",
+              "homeText": "363"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 28.0,
+              "home": 32.9,
+              "awayText": "28",
+              "homeText": "33"
+            },
+            {
+              "label": "Carries",
+              "away": 23.6,
+              "home": 31.3,
+              "awayText": "24",
+              "homeText": "31"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 0.9,
+              "home": 1.7,
+              "awayText": "0.9",
+              "homeText": "1.7",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.66,
+              "home": 0.61,
+              "awayText": "0.7",
+              "homeText": "0.6",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "SF",
+              "Brock Purdy",
+              "QB",
+              "208 pass yds \u00b7 19/28 \u00b7 0.7 INT"
+            ],
+            [
+              "SF",
+              "Christian McCaffrey",
+              "RB",
+              "37 rush yds on 9.9 carries \u00b7 2.9 rec, 25 yds"
+            ],
+            [
+              "SF",
+              "Isaac Guerendo",
+              "RB",
+              "23 rush yds on 6.8 carries \u00b7 1.1 rec, 11 yds"
+            ],
+            [
+              "SF",
+              "Mike Evans",
+              "WR",
+              "2.5 rec, 35 yds \u00b7 18% of targets"
+            ],
+            [
+              "SF",
+              "Brandon Aiyuk",
+              "WR",
+              "2.0 rec, 34 yds \u00b7 20% of targets"
+            ],
+            [
+              "SF",
+              "George Kittle",
+              "TE",
+              "2.2 rec, 29 yds \u00b7 17% of targets"
+            ],
+            [
+              "SEA",
+              "Sam Darnold",
+              "QB",
+              "241 pass yds \u00b7 22/33 \u00b7 0.6 INT"
+            ],
+            [
+              "SEA",
+              "Zach Charbonnet",
+              "RB",
+              "47 rush yds on 11.1 carries \u00b7 2.1 rec, 10 yds"
+            ],
+            [
+              "SEA",
+              "Jadarian Price",
+              "RB",
+              "35 rush yds on 8.8 carries \u00b7 1.3 rec, 7 yds"
+            ],
+            [
+              "SEA",
+              "Jaxon Smith-Njigba",
+              "WR",
+              "6.5 rec, 86 yds \u00b7 32% of targets"
+            ],
+            [
+              "SEA",
+              "Cooper Kupp",
+              "WR",
+              "3.8 rec, 46 yds \u00b7 18% of targets"
+            ],
+            [
+              "SEA",
+              "AJ Barner",
+              "TE",
+              "2.6 rec, 25 yds \u00b7 10% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "SF to win",
+              "37%"
+            ],
+            [
+              "SEA to win",
+              "63%"
+            ],
+            [
+              "SEA -3",
+              "55%"
+            ],
+            [
+              "Under 47.5",
+              "61%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.7,
+              "home": 10.6,
+              "awayText": "9.7",
+              "homeText": "10.6"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.591,
+              "home": 0.7490000000000001,
+              "awayText": "59%",
+              "homeText": "75%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.22899999999999998,
+              "home": 0.39899999999999997,
+              "awayText": "23%",
+              "homeText": "40%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "BAL@ATL": {
+      "title": "BAL @ ATL",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Baltimore Ravens",
+        "abbr": "BAL",
+        "note": "Proj. 11.2\u20135.8"
+      },
+      "home": {
+        "name": "Atlanta Falcons",
+        "abbr": "ATL",
+        "note": "Proj. 7.8\u20139.2"
+      },
+      "score": {
+        "away": "27.3",
+        "home": "23.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.595,
+        "home": 0.405,
+        "note": "Fair odds: BAL -147, ATL +147 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects BAL 27.3 \u2013 ATL 23.8: BAL by 3.5, 51.1 points in all. That makes BAL 60% to win.",
+            "The market line: ATL +6, total 49.5. Against the spread the model takes ATL +6 (57% to cover); on the total, the over (55%).",
+            "Under center: Lamar Jackson projects 234 passing yards for BAL, Michael Penix Jr. 206 for ATL.",
+            "On the ground: BAL 131 yards on 30 carries, ATL 144 on 33."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 234.3,
+              "home": 205.5,
+              "awayText": "234",
+              "homeText": "206"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 131.4,
+              "home": 143.7,
+              "awayText": "131",
+              "homeText": "144"
+            },
+            {
+              "label": "Total yards",
+              "away": 365.7,
+              "home": 349.2,
+              "awayText": "366",
+              "homeText": "349"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 24.9,
+              "home": 27.8,
+              "awayText": "25",
+              "homeText": "28"
+            },
+            {
+              "label": "Carries",
+              "away": 29.5,
+              "home": 33.3,
+              "awayText": "30",
+              "homeText": "33"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 1.8,
+              "home": 0.9,
+              "awayText": "1.8",
+              "homeText": "0.9",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.56,
+              "home": 0.37,
+              "awayText": "0.6",
+              "homeText": "0.4",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "BAL",
+              "Lamar Jackson",
+              "QB",
+              "234 pass yds \u00b7 16/25 \u00b7 0.6 INT"
+            ],
+            [
+              "BAL",
+              "Derrick Henry",
+              "RB",
+              "88 rush yds on 21.0 carries \u00b7 1.2 rec, 8 yds"
+            ],
+            [
+              "BAL",
+              "Justice Hill",
+              "RB",
+              "12 rush yds on 3.7 carries \u00b7 1.0 rec, 5 yds"
+            ],
+            [
+              "BAL",
+              "Zay Flowers",
+              "WR",
+              "5.1 rec, 99 yds \u00b7 27% of targets"
+            ],
+            [
+              "BAL",
+              "Mark Andrews",
+              "TE",
+              "3.8 rec, 36 yds \u00b7 20% of targets"
+            ],
+            [
+              "BAL",
+              "Rashod Bateman",
+              "WR",
+              "2.0 rec, 24 yds \u00b7 13% of targets"
+            ],
+            [
+              "ATL",
+              "Michael Penix Jr.",
+              "QB",
+              "206 pass yds \u00b7 18/28 \u00b7 0.4 INT"
+            ],
+            [
+              "ATL",
+              "Bijan Robinson",
+              "RB",
+              "82 rush yds on 19.0 carries \u00b7 5.1 rec, 36 yds"
+            ],
+            [
+              "ATL",
+              "Brian Robinson Jr.",
+              "RB",
+              "38 rush yds on 9.1 carries \u00b7 0.9 rec, 5 yds"
+            ],
+            [
+              "ATL",
+              "Drake London",
+              "WR",
+              "5.6 rec, 89 yds \u00b7 24% of targets"
+            ],
+            [
+              "ATL",
+              "Kyle Pitts Sr.",
+              "TE",
+              "2.1 rec, 22 yds \u00b7 14% of targets"
+            ],
+            [
+              "ATL",
+              "Jahan Dotson",
+              "WR",
+              "1.6 rec, 14 yds \u00b7 10% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "BAL to win",
+              "60%"
+            ],
+            [
+              "ATL to win",
+              "40%"
+            ],
+            [
+              "ATL +6",
+              "57%"
+            ],
+            [
+              "Over 49.5",
+              "55%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 11.2,
+              "home": 7.8,
+              "awayText": "11.2",
+              "homeText": "7.8"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.898,
+              "home": 0.264,
+              "awayText": "90%",
+              "homeText": "26%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.696,
+              "home": 0.16,
+              "awayText": "70%",
+              "homeText": "16%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    },
+    "BUF@LAR": {
+      "title": "BUF @ LAR",
+      "subtitle": "Week 5",
+      "away": {
+        "name": "Buffalo Bills",
+        "abbr": "BUF",
+        "note": "Proj. 10.1\u20136.9"
+      },
+      "home": {
+        "name": "Los Angeles Rams",
+        "abbr": "LAR",
+        "note": "Proj. 10.5\u20136.5"
+      },
+      "score": {
+        "away": "25.5",
+        "home": "28.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.419,
+        "home": 0.581,
+        "note": "Fair odds: BUF +139, LAR -139 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects BUF 25.5 \u2013 LAR 28.5: LAR by 3.0, 54.0 points in all. That makes LAR 58% to win.",
+            "The market line: LAR -2.5, total 52.5. Against the spread the model takes LAR -2.5 (51% to cover); on the total, the over (54%).",
+            "Under center: Josh Allen projects 253 passing yards for BUF, Matthew Stafford 288 for LAR.",
+            "On the ground: BUF 113 yards on 22 carries, LAR 101 on 24."
+          ]
+        },
+        {
+          "title": "Projected offense",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Passing yards",
+              "away": 252.9,
+              "home": 287.8,
+              "awayText": "253",
+              "homeText": "288"
+            },
+            {
+              "label": "Rushing yards",
+              "away": 113.3,
+              "home": 100.6,
+              "awayText": "113",
+              "homeText": "101"
+            },
+            {
+              "label": "Total yards",
+              "away": 366.2,
+              "home": 388.4,
+              "awayText": "366",
+              "homeText": "388"
+            },
+            {
+              "label": "Pass attempts",
+              "away": 31.8,
+              "home": 37.9,
+              "awayText": "32",
+              "homeText": "38"
+            },
+            {
+              "label": "Carries",
+              "away": 22.5,
+              "home": 24.3,
+              "awayText": "22",
+              "homeText": "24"
+            },
+            {
+              "label": "Sacks taken",
+              "away": 2.1,
+              "home": 2.1,
+              "awayText": "2.1",
+              "homeText": "2.1",
+              "lower": true
+            },
+            {
+              "label": "Interceptions",
+              "away": 0.97,
+              "home": 0.73,
+              "awayText": "1.0",
+              "homeText": "0.7",
+              "lower": true
+            }
+          ],
+          "note": "The players' projected lines added up: rushing includes the quarterback's scrambles."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Projection"
+          ],
+          "rows": [
+            [
+              "BUF",
+              "Josh Allen",
+              "QB",
+              "253 pass yds \u00b7 20/32 \u00b7 1.0 INT"
+            ],
+            [
+              "BUF",
+              "James Cook III",
+              "RB",
+              "61 rush yds on 13.2 carries \u00b7 1.3 rec, 10 yds"
+            ],
+            [
+              "BUF",
+              "Ray Davis",
+              "RB",
+              "20 rush yds on 5.0 carries \u00b7 0.5 rec, 6 yds"
+            ],
+            [
+              "BUF",
+              "Dalton Kincaid",
+              "TE",
+              "4.1 rec, 65 yds \u00b7 18% of targets"
+            ],
+            [
+              "BUF",
+              "DJ Moore",
+              "WR",
+              "3.9 rec, 52 yds \u00b7 21% of targets"
+            ],
+            [
+              "BUF",
+              "Khalil Shakir",
+              "WR",
+              "3.1 rec, 34 yds \u00b7 17% of targets"
+            ],
+            [
+              "LAR",
+              "Matthew Stafford",
+              "QB",
+              "288 pass yds \u00b7 22/38 \u00b7 0.7 INT"
+            ],
+            [
+              "LAR",
+              "Kyren Williams",
+              "RB",
+              "53 rush yds on 13.2 carries \u00b7 4.0 rec, 34 yds"
+            ],
+            [
+              "LAR",
+              "Blake Corum",
+              "RB",
+              "33 rush yds on 8.3 carries \u00b7 1.3 rec, 4 yds"
+            ],
+            [
+              "LAR",
+              "Puka Nacua",
+              "WR",
+              "7.0 rec, 93 yds \u00b7 23% of targets"
+            ],
+            [
+              "LAR",
+              "Davante Adams",
+              "WR",
+              "5.6 rec, 85 yds \u00b7 21% of targets"
+            ],
+            [
+              "LAR",
+              "Colby Parkinson",
+              "TE",
+              "2.2 rec, 27 yds \u00b7 9% of targets"
+            ]
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "BUF to win",
+              "42%"
+            ],
+            [
+              "LAR to win",
+              "58%"
+            ],
+            [
+              "LAR -2.5",
+              "51%"
+            ],
+            [
+              "Over 52.5",
+              "54%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 10.1,
+              "home": 10.5,
+              "awayText": "10.1",
+              "homeText": "10.5"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.768,
+              "home": 0.7440000000000001,
+              "awayText": "77%",
+              "homeText": "74%",
+              "max": 1
+            },
+            {
+              "label": "Division",
+              "away": 0.5579999999999999,
+              "home": 0.36700000000000005,
+              "awayText": "56%",
+              "homeText": "37%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation: 10,000 seasons from the latest projections."
+        }
+      ]
+    }
+  }
+}

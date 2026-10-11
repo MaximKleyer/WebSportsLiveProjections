@@ -1,6 +1,6 @@
 {
-  "subtitle": "2026 \u00b7 Week 6 \u2014 3 of 58 games graded so far \u00b7 SU 3\u20130 \u00b7 ATS 1\u20132 \u00b7 O/U 2\u20131 \u00b7 \u2605 plays 1\u20132",
-  "updated": "2026-10-08",
+  "subtitle": "2026 \u00b7 Week 6 \u2014 58 games \u00b7 SU 37\u201321 \u00b7 ATS 29\u201328\u20131 \u00b7 O/U 30\u201328 \u00b7 \u2605 plays 33\u201340",
+  "updated": "2026-10-11",
   "search": "Search teams",
   "filters": [
     {
@@ -126,6 +126,1326 @@
       },
       "ou": {
         "v": "\u2605 OVER 47 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Missouri State",
+      "awayScore": "13",
+      "sep": "\u2013",
+      "homeScore": "34",
+      "homeTeam": "Western Kentucky",
+      "proj": "20.7 \u2013 32.6",
+      "su": {
+        "v": "Western Kentucky \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Western Kentucky -1.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 UNDER 56.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Sam Houston",
+      "awayScore": "3",
+      "sep": "\u2013",
+      "homeScore": "35",
+      "homeTeam": "Liberty",
+      "proj": "24.3 \u2013 31.7",
+      "su": {
+        "v": "Liberty \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Sam Houston +13.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 52.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "South Florida",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "31",
+      "homeTeam": "UTSA",
+      "proj": "21.2 \u2013 29.2",
+      "su": {
+        "v": "UTSA \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "UTSA -6.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 49.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "South Alabama",
+      "awayScore": "56",
+      "sep": "\u2013",
+      "homeScore": "49",
+      "homeTeam": "Arkansas State",
+      "proj": "24.4 \u2013 30.5",
+      "su": {
+        "v": "Arkansas State \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Arkansas State -2.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 UNDER 60.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Florida State",
+      "awayScore": "20",
+      "sep": "\u2013",
+      "homeScore": "44",
+      "homeTeam": "Louisville",
+      "proj": "26.5 \u2013 28.5",
+      "su": {
+        "v": "Louisville \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Florida State +3.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 UNDER 59.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Wyoming",
+      "awayScore": "16",
+      "sep": "\u2013",
+      "homeScore": "13",
+      "homeTeam": "San Jos\u00e9 State",
+      "proj": "18.7 \u2013 24.4",
+      "su": {
+        "v": "San Jos\u00e9 State \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Wyoming +6 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 42.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Iowa",
+      "awayScore": "41",
+      "sep": "\u2013",
+      "homeScore": "24",
+      "homeTeam": "Washington",
+      "proj": "21.7 \u2013 22.9",
+      "su": {
+        "v": "Washington \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Iowa +3 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 41.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Washington State",
+      "awayScore": "16",
+      "sep": "\u2013",
+      "homeScore": "17",
+      "homeTeam": "Utah State",
+      "proj": "25.0 \u2013 22.3",
+      "su": {
+        "v": "Washington State \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Washington State +5.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 44.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Iowa State",
+      "awayScore": "10",
+      "sep": "\u2013",
+      "homeScore": "24",
+      "homeTeam": "BYU",
+      "proj": "16.9 \u2013 36.1",
+      "su": {
+        "v": "BYU \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 BYU -10 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 46.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "North Carolina",
+      "awayScore": "21",
+      "sep": "\u2013",
+      "homeScore": "17",
+      "homeTeam": "Pittsburgh",
+      "proj": "19.1 \u2013 32.0",
+      "su": {
+        "v": "Pittsburgh \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Pittsburgh -4 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 47.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Wake Forest",
+      "awayScore": "38",
+      "sep": "\u2013",
+      "homeScore": "14",
+      "homeTeam": "NC State",
+      "proj": "26.8 \u2013 26.8",
+      "su": {
+        "v": "Wake Forest \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 NC State +3.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 UNDER 59.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "UCF",
+      "awayScore": "28",
+      "sep": "\u2013",
+      "homeScore": "42",
+      "homeTeam": "Oklahoma State",
+      "proj": "29.1 \u2013 25.6",
+      "su": {
+        "v": "UCF \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 UCF +10.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 53.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Texas A&M",
+      "awayScore": "6",
+      "sep": "\u2013",
+      "homeScore": "27",
+      "homeTeam": "Missouri",
+      "proj": "25.9 \u2013 27.1",
+      "su": {
+        "v": "Missouri \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Texas A&M +3.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 48.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Indiana",
+      "awayScore": "20",
+      "sep": "\u2013",
+      "homeScore": "17",
+      "homeTeam": "Nebraska",
+      "proj": "29.3 \u2013 24.6",
+      "su": {
+        "v": "Indiana \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Nebraska +7.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 48.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Sacramento State",
+      "awayScore": "10",
+      "sep": "\u2013",
+      "homeScore": "38",
+      "homeTeam": "Bowling Green",
+      "proj": "23.1 \u2013 27.2",
+      "su": {
+        "v": "Bowling Green \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Sacramento State +7.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 43.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Arizona",
+      "awayScore": "52",
+      "sep": "\u2013",
+      "homeScore": "31",
+      "homeTeam": "West Virginia",
+      "proj": "32.2 \u2013 25.1",
+      "su": {
+        "v": "Arizona \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Arizona -3 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 UNDER 61.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Tulane",
+      "awayScore": "17",
+      "sep": "\u2013",
+      "homeScore": "20",
+      "homeTeam": "Army",
+      "proj": "21.7 \u2013 25.9",
+      "su": {
+        "v": "Army \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Army -3 (push)",
+        "tone": "muted",
+        "sort": 0.5
+      },
+      "ou": {
+        "v": "UNDER 48.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Ball State",
+      "awayScore": "14",
+      "sep": "\u2013",
+      "homeScore": "45",
+      "homeTeam": "Northwestern",
+      "proj": "11.7 \u2013 44.4",
+      "su": {
+        "v": "Northwestern \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Ball State +36.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 52.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "South Carolina",
+      "awayScore": "38",
+      "sep": "\u2013",
+      "homeScore": "19",
+      "homeTeam": "Florida",
+      "proj": "25.3 \u2013 32.6",
+      "su": {
+        "v": "Florida \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 South Carolina +11.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "UNDER 59.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Old Dominion",
+      "awayScore": "10",
+      "sep": "\u2013",
+      "homeScore": "3",
+      "homeTeam": "App State",
+      "proj": "22.4 \u2013 31.3",
+      "su": {
+        "v": "App State \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Old Dominion +9.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 48.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Miami (OH)",
+      "awayScore": "20",
+      "sep": "\u2013",
+      "homeScore": "19",
+      "homeTeam": "Massachusetts",
+      "proj": "29.2 \u2013 20.1",
+      "su": {
+        "v": "Miami (OH) \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Miami (OH) -6.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 44.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Eastern Michigan",
+      "awayScore": "25",
+      "sep": "\u2013",
+      "homeScore": "23",
+      "homeTeam": "Akron",
+      "proj": "26.7 \u2013 26.3",
+      "su": {
+        "v": "Eastern Michigan \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Akron +5.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 51.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "UCLA",
+      "awayScore": "17",
+      "sep": "\u2013",
+      "homeScore": "15",
+      "homeTeam": "Oregon",
+      "proj": "25.1 \u2013 36.5",
+      "su": {
+        "v": "Oregon \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Oregon -10.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 57.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Central Michigan",
+      "awayScore": "14",
+      "sep": "\u2013",
+      "homeScore": "31",
+      "homeTeam": "Ohio",
+      "proj": "20.2 \u2013 28.8",
+      "su": {
+        "v": "Ohio \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Ohio -2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 45.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Tulsa",
+      "awayScore": "26",
+      "sep": "\u2013",
+      "homeScore": "34",
+      "homeTeam": "Navy",
+      "proj": "26.3 \u2013 26.5",
+      "su": {
+        "v": "Navy \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Tulsa +3 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 47.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Houston",
+      "awayScore": "35",
+      "sep": "\u2013",
+      "homeScore": "16",
+      "homeTeam": "Kansas State",
+      "proj": "28.4 \u2013 28.8",
+      "su": {
+        "v": "Kansas State \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Houston +2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 54.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Ole Miss",
+      "awayScore": "52",
+      "sep": "\u2013",
+      "homeScore": "17",
+      "homeTeam": "Vanderbilt",
+      "proj": "32.2 \u2013 23.6",
+      "su": {
+        "v": "Ole Miss \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Vanderbilt +9.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 54.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Texas",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "27",
+      "homeTeam": "Oklahoma",
+      "proj": "25.3 \u2013 18.5",
+      "su": {
+        "v": "Texas \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Oklahoma +7.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 41.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Virginia Tech",
+      "awayScore": "20",
+      "sep": "\u2013",
+      "homeScore": "25",
+      "homeTeam": "California",
+      "proj": "30.4 \u2013 27.6",
+      "su": {
+        "v": "Virginia Tech \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 California +10 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 53.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Illinois",
+      "awayScore": "38",
+      "sep": "\u2013",
+      "homeScore": "37",
+      "homeTeam": "Michigan State",
+      "proj": "24.5 \u2013 24.8",
+      "su": {
+        "v": "Michigan State \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Michigan State +2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 48.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Kent State",
+      "awayScore": "7",
+      "sep": "\u2013",
+      "homeScore": "38",
+      "homeTeam": "Western Michigan",
+      "proj": "15.6 \u2013 33.9",
+      "su": {
+        "v": "Western Michigan \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Western Michigan -14 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 43.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Duke",
+      "awayScore": "25",
+      "sep": "\u2013",
+      "homeScore": "28",
+      "homeTeam": "Georgia Tech",
+      "proj": "31.0 \u2013 24.7",
+      "su": {
+        "v": "Duke \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Duke -4.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 45.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Stanford",
+      "awayScore": "7",
+      "sep": "\u2013",
+      "homeScore": "58",
+      "homeTeam": "Notre Dame",
+      "proj": "10.2 \u2013 49.9",
+      "su": {
+        "v": "Notre Dame \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Stanford +40 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 55.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Charlotte",
+      "awayScore": "10",
+      "sep": "\u2013",
+      "homeScore": "50",
+      "homeTeam": "North Texas",
+      "proj": "16.8 \u2013 45.8",
+      "su": {
+        "v": "North Texas \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "North Texas -28.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 57.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Buffalo",
+      "awayScore": "23",
+      "sep": "\u2013",
+      "homeScore": "8",
+      "homeTeam": "Toledo",
+      "proj": "17.8 \u2013 41.0",
+      "su": {
+        "v": "Toledo \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Toledo -18.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 55.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "UConn",
+      "awayScore": "34",
+      "sep": "\u2013",
+      "homeScore": "20",
+      "homeTeam": "Temple",
+      "proj": "23.8 \u2013 29.5",
+      "su": {
+        "v": "Temple \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Temple -3.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "UNDER 55.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Rice",
+      "awayScore": "12",
+      "sep": "\u2013",
+      "homeScore": "28",
+      "homeTeam": "East Carolina",
+      "proj": "20.1 \u2013 31.4",
+      "su": {
+        "v": "East Carolina \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "East Carolina -10 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 47.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Maryland",
+      "awayScore": "16",
+      "sep": "\u2013",
+      "homeScore": "45",
+      "homeTeam": "Ohio State",
+      "proj": "12.5 \u2013 45.7",
+      "su": {
+        "v": "Ohio State \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Ohio State -33 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 56.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Tennessee",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "17",
+      "homeTeam": "Arkansas",
+      "proj": "32.7 \u2013 20.8",
+      "su": {
+        "v": "Tennessee \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Arkansas +13.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 51.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "San Diego State",
+      "awayScore": "14",
+      "sep": "\u2013",
+      "homeScore": "66",
+      "homeTeam": "Oregon State",
+      "proj": "25.4 \u2013 28.7",
+      "su": {
+        "v": "Oregon State \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 San Diego State +16.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 52.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "UAB",
+      "awayScore": "13",
+      "sep": "\u2013",
+      "homeScore": "38",
+      "homeTeam": "Memphis",
+      "proj": "23.0 \u2013 33.8",
+      "su": {
+        "v": "Memphis \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 UAB +15 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "OVER 54.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "North Dakota State",
+      "awayScore": "7",
+      "sep": "\u2013",
+      "homeScore": "13",
+      "homeTeam": "UNLV",
+      "proj": "26.3 \u2013 27.9",
+      "su": {
+        "v": "UNLV \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 UNLV +2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 47.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "LSU",
+      "awayScore": "34",
+      "sep": "\u2013",
+      "homeScore": "35",
+      "homeTeam": "Kentucky",
+      "proj": "33.9 \u2013 24.2",
+      "su": {
+        "v": "LSU \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "LSU -9 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 50.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Nevada",
+      "awayScore": "30",
+      "sep": "\u2013",
+      "homeScore": "13",
+      "homeTeam": "UTEP",
+      "proj": "27.2 \u2013 24.5",
+      "su": {
+        "v": "Nevada \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 UTEP +10 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 47.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Coastal Carolina",
+      "awayScore": "27",
+      "sep": "\u2013",
+      "homeScore": "21",
+      "homeTeam": "Marshall",
+      "proj": "21.4 \u2013 32.6",
+      "su": {
+        "v": "Marshall \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Marshall -4.25 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 UNDER 57.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Air Force",
+      "awayScore": "28",
+      "sep": "\u2013",
+      "homeScore": "7",
+      "homeTeam": "Northern Illinois",
+      "proj": "26.3 \u2013 21.9",
+      "su": {
+        "v": "Air Force \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Northern Illinois +7 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "UNDER 48.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "James Madison",
+      "awayScore": "27",
+      "sep": "\u2013",
+      "homeScore": "24",
+      "homeTeam": "Georgia Southern",
+      "proj": "34.8 \u2013 23.1",
+      "su": {
+        "v": "James Madison \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 James Madison -7.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 51.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "USC",
+      "awayScore": "31",
+      "sep": "\u2013",
+      "homeScore": "23",
+      "homeTeam": "Penn State",
+      "proj": "28.1 \u2013 28.3",
+      "su": {
+        "v": "Penn State \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "USC +1.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 54.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Syracuse",
+      "awayScore": "25",
+      "sep": "\u2013",
+      "homeScore": "28",
+      "homeTeam": "Virginia",
+      "proj": "28.1 \u2013 31.1",
+      "su": {
+        "v": "Virginia \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Syracuse +13.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 49.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Georgia",
+      "awayScore": "20",
+      "sep": "\u2013",
+      "homeScore": "17",
+      "homeTeam": "Alabama",
+      "proj": "28.9 \u2013 31.8",
+      "su": {
+        "v": "Alabama \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Alabama -2.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 51.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Louisiana",
+      "awayScore": "31",
+      "sep": "\u2013",
+      "homeScore": "32",
+      "homeTeam": "Louisiana Tech",
+      "proj": "26.5 \u2013 26.6",
+      "su": {
+        "v": "Louisiana Tech \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Louisiana +3 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 48.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Kansas",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "41",
+      "homeTeam": "Utah",
+      "proj": "19.8 \u2013 35.3",
+      "su": {
+        "v": "Utah \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Utah -15.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 49.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Minnesota",
+      "awayScore": "13",
+      "sep": "\u2013",
+      "homeScore": "41",
+      "homeTeam": "Purdue",
+      "proj": "31.1 \u2013 24.5",
+      "su": {
+        "v": "Minnesota \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Minnesota -2.75 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 49.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Boise State",
+      "awayScore": "38",
+      "sep": "\u2013",
+      "homeScore": "31",
+      "homeTeam": "Fresno State",
+      "proj": "28.1 \u2013 23.2",
+      "su": {
+        "v": "Boise State \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Fresno State +8 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 48.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Hawai'i",
+      "awayScore": "12",
+      "sep": "\u2013",
+      "homeScore": "30",
+      "homeTeam": "Arizona State",
+      "proj": "18.8 \u2013 35.4",
+      "su": {
+        "v": "Arizona State \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Hawai'i +20.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 50.5 \u2717",
         "tone": "bad",
         "sort": 0
       },

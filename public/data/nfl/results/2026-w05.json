@@ -1,0 +1,86 @@
+{
+  "subtitle": "2026 \u00b7 Week 5 \u2014 1 of 15 games graded so far \u00b7 SU 1\u20130 \u00b7 ATS 1\u20130 \u00b7 O/U 0\u20131 \u00b7 \u2605 plays 1\u20131",
+  "updated": "2026-10-10",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "SU Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "TB",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "16",
+      "homeTeam": "DAL",
+      "proj": "26.4 \u2013 25.1",
+      "su": {
+        "v": "TB \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 TB +9.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 47.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    }
+  ]
+}

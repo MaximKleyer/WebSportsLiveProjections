@@ -1,0 +1,479 @@
+{
+  "subtitle": "Sat Oct 10, 2026\u201327 \u2014 13 games \u00b7 straight up 10\u20133 \u00b7 log loss 0.619 \u00b7 totals MAE 2.08",
+  "updated": "2026-10-11",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou55",
+      "label": "O/U 5.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou65",
+      "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "VAN",
+      "awayScore": "1",
+      "sep": "\u2013",
+      "homeScore": "4",
+      "homeTeam": "NJD",
+      "proj": "2.9 \u2013 3.7",
+      "pick": {
+        "v": "NJD 62% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.61 \u2192 5",
+        "sort": 1.6134
+      },
+      "ou55": {
+        "v": "OVER 62% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "OVER 52% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "bet": {
+        "v": "\u2605 VAN ML \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "EDM",
+      "awayScore": "3",
+      "sep": "\u2013",
+      "homeScore": "1",
+      "homeTeam": "SJS",
+      "proj": "3.6 \u2013 3.1",
+      "pick": {
+        "v": "EDM 58% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.66 \u2192 4",
+        "sort": 2.6604
+      },
+      "ou55": {
+        "v": "OVER 63% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "OVER 52% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "MIN",
+      "awayScore": "4",
+      "sep": "\u2013",
+      "homeScore": "1",
+      "homeTeam": "FLA",
+      "proj": "2.9 \u2013 3.0",
+      "pick": {
+        "v": "FLA 51% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "total": {
+        "v": "5.87 \u2192 5",
+        "sort": 0.8703
+      },
+      "ou55": {
+        "v": "OVER 50% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 61% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "bet": {
+        "v": "\u2605 MIN ML \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "UTA",
+      "awayScore": "4",
+      "sep": "\u2013",
+      "homeScore": "1",
+      "homeTeam": "BUF",
+      "proj": "3.3 \u2013 3.2",
+      "pick": {
+        "v": "UTA 52% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.44 \u2192 5",
+        "sort": 1.4406
+      },
+      "ou55": {
+        "v": "OVER 60% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 51% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "DET",
+      "awayScore": "0",
+      "sep": "SO",
+      "homeScore": "1",
+      "homeTeam": "MTL",
+      "proj": "2.7 \u2013 3.5",
+      "pick": {
+        "v": "MTL 63% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.22 \u2192 1",
+        "sort": 5.2208
+      },
+      "ou55": {
+        "v": "OVER 56% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 55% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "NSH",
+      "awayScore": "2",
+      "sep": "SO",
+      "homeScore": "3",
+      "homeTeam": "OTT",
+      "proj": "2.7 \u2013 3.3",
+      "pick": {
+        "v": "OTT 60% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.93 \u2192 5",
+        "sort": 0.9298
+      },
+      "ou55": {
+        "v": "OVER 51% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 60% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "bet": {
+        "v": "\u2605 UNDER 5.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "DAL",
+      "awayScore": "1",
+      "sep": "SO",
+      "homeScore": "2",
+      "homeTeam": "PIT",
+      "proj": "3.3 \u2013 2.9",
+      "pick": {
+        "v": "DAL 57% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "total": {
+        "v": "6.23 \u2192 3",
+        "sort": 3.2277
+      },
+      "ou55": {
+        "v": "OVER 56% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 55% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "bet": {
+        "v": "\u2605 PIT ML \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "CAR",
+      "awayScore": "5",
+      "sep": "\u2013",
+      "homeScore": "2",
+      "homeTeam": "CHI",
+      "proj": "3.8 \u2013 2.5",
+      "pick": {
+        "v": "CAR 70% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.28 \u2192 7",
+        "sort": 0.7192
+      },
+      "ou55": {
+        "v": "OVER 57% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 54% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "CBJ",
+      "awayScore": "3",
+      "sep": "\u2013",
+      "homeScore": "5",
+      "homeTeam": "STL",
+      "proj": "2.8 \u2013 3.0",
+      "pick": {
+        "v": "STL 53% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.85 \u2192 8",
+        "sort": 2.1522
+      },
+      "ou55": {
+        "v": "UNDER 50% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 61% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "bet": {
+        "v": "\u2605 UNDER 5.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "TOR",
+      "awayScore": "6",
+      "sep": "\u2013",
+      "homeScore": "3",
+      "homeTeam": "COL",
+      "proj": "2.7 \u2013 3.7",
+      "pick": {
+        "v": "COL 66% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "total": {
+        "v": "6.40 \u2192 9",
+        "sort": 2.5992
+      },
+      "ou55": {
+        "v": "OVER 59% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 52% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "bet": {
+        "v": "\u2605 UNDER 6.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "TBL",
+      "awayScore": "5",
+      "sep": "\u2013",
+      "homeScore": "3",
+      "homeTeam": "NYI",
+      "proj": "3.0 \u2013 2.8",
+      "pick": {
+        "v": "TBL 54% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.78 \u2192 8",
+        "sort": 2.2242
+      },
+      "ou55": {
+        "v": "UNDER 51% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 62% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "bet": {
+        "v": "\u2605 NYI ML \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "ANA",
+      "awayScore": "4",
+      "sep": "\u2013",
+      "homeScore": "2",
+      "homeTeam": "CGY",
+      "proj": "3.3 \u2013 3.1",
+      "pick": {
+        "v": "ANA 52% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.38 \u2192 6",
+        "sort": 0.3814
+      },
+      "ou55": {
+        "v": "OVER 59% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 52% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "LAK",
+      "awayScore": "1",
+      "sep": "OT",
+      "homeScore": "2",
+      "homeTeam": "VGK",
+      "proj": "2.7 \u2013 3.3",
+      "pick": {
+        "v": "VGK 60% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.04 \u2192 3",
+        "sort": 3.0429
+      },
+      "ou55": {
+        "v": "OVER 53% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 58% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "bet": {
+        "v": "\u2605 UNDER 6.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    }
+  ]
+}

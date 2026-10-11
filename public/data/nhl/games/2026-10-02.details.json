@@ -1,0 +1,389 @@
+{
+  "games": {
+    "2026020017": {
+      "title": "NYR @ DET",
+      "subtitle": "Fri Oct 2 \u00b7 6:30 PM ET",
+      "away": {
+        "name": "New York Rangers",
+        "abbr": "NYR",
+        "note": "In net: J. Korpisalo (91% to start)"
+      },
+      "home": {
+        "name": "Detroit Red Wings",
+        "abbr": "DET",
+        "note": "In net: J. Gibson (63% to start)"
+      },
+      "score": {
+        "away": "2.95",
+        "home": "3.19",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4603,
+        "home": 0.5397,
+        "note": "Fair odds: NYR +117, DET -117 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects NYR 2.67 goals to DET's 2.87. With overtime and the shootout that makes DET 54% to win.",
+            "In net: J. Korpisalo for NYR (91% to start), J. Gibson for DET (63% to start).",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "NYR to win",
+              "46%",
+              "\u2014"
+            ],
+            [
+              "DET to win",
+              "54%",
+              "\u2014"
+            ],
+            [
+              "NYR \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "DET \u22121.5",
+              "34%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "55%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "44%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.13 goals."
+        }
+      ]
+    },
+    "2026020018": {
+      "title": "WSH @ CAR",
+      "subtitle": "Fri Oct 2 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Washington Capitals",
+        "abbr": "WSH",
+        "note": "In net: L. Thompson (78% to start)"
+      },
+      "home": {
+        "name": "Carolina Hurricanes",
+        "abbr": "CAR",
+        "note": "In net: B. Bussi (92% to start)"
+      },
+      "score": {
+        "away": "2.83",
+        "home": "3.29",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4247,
+        "home": 0.5753,
+        "note": "Fair odds: WSH +135, CAR -135 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects WSH 2.58 goals to CAR's 2.95. With overtime and the shootout that makes CAR 58% to win.",
+            "In net: L. Thompson for WSH (78% to start), B. Bussi for CAR (92% to start).",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "WSH to win",
+              "42%",
+              "\u2014"
+            ],
+            [
+              "CAR to win",
+              "58%",
+              "\u2014"
+            ],
+            [
+              "WSH \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "CAR \u22121.5",
+              "37%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "55%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "44%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.12 goals."
+        }
+      ]
+    },
+    "2026020019": {
+      "title": "BOS @ WPG",
+      "subtitle": "Fri Oct 2 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Boston Bruins",
+        "abbr": "BOS",
+        "note": "In net: J. Swayman (100% to start)"
+      },
+      "home": {
+        "name": "Winnipeg Jets",
+        "abbr": "WPG",
+        "note": "In net: S. Skinner (85% to start)"
+      },
+      "score": {
+        "away": "3.11",
+        "home": "2.88",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5397,
+        "home": 0.4603,
+        "note": "Fair odds: BOS -117, WPG +117 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects BOS 2.78 goals to WPG's 2.61. With overtime and the shootout that makes BOS 54% to win.",
+            "In net: J. Swayman for BOS (100% to start), S. Skinner for WPG (85% to start).",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "BOS to win",
+              "54%",
+              "\u2014"
+            ],
+            [
+              "WPG to win",
+              "46%",
+              "\u2014"
+            ],
+            [
+              "BOS \u22121.5",
+              "33%",
+              "\u2014"
+            ],
+            [
+              "WPG \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.99 goals."
+        }
+      ]
+    },
+    "2026020020": {
+      "title": "STL @ DAL",
+      "subtitle": "Fri Oct 2 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "St. Louis Blues",
+        "abbr": "STL",
+        "note": "In net: J. Hofer (57% to start)"
+      },
+      "home": {
+        "name": "Dallas Stars",
+        "abbr": "DAL",
+        "note": "In net: J. Oettinger (70% to start)"
+      },
+      "score": {
+        "away": "2.86",
+        "home": "3.13",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4547,
+        "home": 0.5453,
+        "note": "Fair odds: STL +120, DAL -120 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects STL 2.58 goals to DAL's 2.80. With overtime and the shootout that makes DAL 55% to win.",
+            "In net: J. Hofer for STL (57% to start), J. Oettinger for DAL (70% to start).",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "STL to win",
+              "45%",
+              "\u2014"
+            ],
+            [
+              "DAL to win",
+              "55%",
+              "\u2014"
+            ],
+            [
+              "STL \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "DAL \u22121.5",
+              "34%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.98 goals."
+        }
+      ]
+    },
+    "2026020021": {
+      "title": "ANA @ VGK",
+      "subtitle": "Fri Oct 2 \u00b7 10:00 PM ET",
+      "away": {
+        "name": "Anaheim Ducks",
+        "abbr": "ANA",
+        "note": "In net: L. Dostal (77% to start)"
+      },
+      "home": {
+        "name": "Vegas Golden Knights",
+        "abbr": "VGK",
+        "note": "In net: C. Hart (72% to start)"
+      },
+      "score": {
+        "away": "2.92",
+        "home": "3.42",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4185,
+        "home": 0.5815,
+        "note": "Fair odds: ANA +139, VGK -139 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects ANA 2.68 goals to VGK's 3.08. With overtime and the shootout that makes VGK 58% to win.",
+            "In net: L. Dostal for ANA (77% to start), C. Hart for VGK (72% to start).",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "ANA to win",
+              "42%",
+              "\u2014"
+            ],
+            [
+              "VGK to win",
+              "58%",
+              "\u2014"
+            ],
+            [
+              "ANA \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "VGK \u22121.5",
+              "37%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "58%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "47%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.35 goals."
+        }
+      ]
+    }
+  }
+}

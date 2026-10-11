@@ -1,13 +1,7 @@
 {
-  "subtitle": "Thu Oct 8, 2026\u201327 \u2014 10 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's \u00b7 \u2605 = flagged bet",
+  "subtitle": "Thu Oct 8, 2026\u201327 \u2014 10 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
   "updated": "2026-10-08",
   "search": "Search teams or goalies",
-  "filters": [
-    {
-      "field": "flagged",
-      "label": "\u2605 bets only"
-    }
-  ],
   "columns": [
     {
       "key": "start",
@@ -89,12 +83,6 @@
       "label": "Mkt Total",
       "align": "right",
       "sortable": true
-    },
-    {
-      "key": "bet",
-      "label": "Bet (edge)",
-      "align": "right",
-      "sortable": true
     }
   ],
   "rows": [
@@ -126,16 +114,13 @@
       },
       "p_over_5.5": 0.5474,
       "p_over_6.5": 0.4392,
-      "mktHome": 0.4635,
+      "mktHome": 0.4624,
       "mktTotal": {
         "v": "6: over 44%",
         "sort": 0.4392
       },
-      "bet": {
-        "v": "\u2605 UTA -1.5 (+3.3%)",
-        "sort": 0.0334
-      },
-      "flagged": true
+      "id": "2026020056",
+      "flagged": false
     },
     {
       "start": {
@@ -170,11 +155,8 @@
         "v": "6: over 42%",
         "sort": 0.4169
       },
-      "bet": {
-        "v": "\u2605 UNDER 6 (+5.0%) +1",
-        "sort": 0.05
-      },
-      "flagged": true
+      "id": "2026020057",
+      "flagged": false
     },
     {
       "start": {
@@ -204,16 +186,13 @@
       },
       "p_over_5.5": 0.5571,
       "p_over_6.5": 0.4488,
-      "mktHome": 0.6146,
+      "mktHome": 0.6127,
       "mktTotal": {
         "v": "6: over 45%",
         "sort": 0.4488
       },
-      "bet": {
-        "v": "\u2605 NSH ML (+5.9%) +1",
-        "sort": 0.0591
-      },
-      "flagged": true
+      "id": "2026020058",
+      "flagged": false
     },
     {
       "start": {
@@ -248,11 +227,8 @@
         "v": "5.5: over 48%",
         "sort": 0.4845
       },
-      "bet": {
-        "v": "\u2605 OTT ML (+7.4%) +2",
-        "sort": 0.0743
-      },
-      "flagged": true
+      "id": "2026020059",
+      "flagged": false
     },
     {
       "start": {
@@ -287,11 +263,8 @@
         "v": "6: over 39%",
         "sort": 0.3934
       },
-      "bet": {
-        "v": "\u2605 UNDER 5.5 (+5.1%) +2",
-        "sort": 0.0509
-      },
-      "flagged": true
+      "id": "2026020060",
+      "flagged": false
     },
     {
       "start": {
@@ -326,11 +299,8 @@
         "v": "6.5: over 51%",
         "sort": 0.5116
       },
-      "bet": {
-        "v": "\u2605 VAN +1.5 (+7.0%) +2",
-        "sort": 0.0701
-      },
-      "flagged": true
+      "id": "2026020061",
+      "flagged": false
     },
     {
       "start": {
@@ -365,11 +335,8 @@
         "v": "5.5: over 54%",
         "sort": 0.5358
       },
-      "bet": {
-        "v": "\u2605 NYI ML (+4.0%) +1",
-        "sort": 0.0395
-      },
-      "flagged": true
+      "id": "2026020062",
+      "flagged": false
     },
     {
       "start": {
@@ -399,16 +366,13 @@
       },
       "p_over_5.5": 0.5515,
       "p_over_6.5": 0.4421,
-      "mktHome": 0.5802,
+      "mktHome": 0.5811,
       "mktTotal": {
         "v": "5.5: over 55%",
         "sort": 0.5515
       },
-      "bet": {
-        "v": "\u2605 STL -1.5 (+4.7%) +2",
-        "sort": 0.0472
-      },
-      "flagged": true
+      "id": "2026020063",
+      "flagged": false
     },
     {
       "start": {
@@ -443,11 +407,8 @@
         "v": "6: over 46%",
         "sort": 0.4632
       },
-      "bet": {
-        "v": "\u2605 CGY +1.5 (+5.1%) +1",
-        "sort": 0.0514
-      },
-      "flagged": true
+      "id": "2026020064",
+      "flagged": false
     },
     {
       "start": {
@@ -482,11 +443,9 @@
         "v": "6.5: over 44%",
         "sort": 0.445
       },
-      "bet": {
-        "v": "\u2605 UNDER 6.5 (+4.4%)",
-        "sort": 0.0442
-      },
-      "flagged": true
+      "id": "2026020065",
+      "flagged": false
     }
-  ]
+  ],
+  "details": "2026-10-08.details.json"
 }

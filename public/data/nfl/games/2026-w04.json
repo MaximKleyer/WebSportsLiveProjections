@@ -59,6 +59,7 @@
   ],
   "rows": [
     {
+      "id": "PIT@CLE",
       "awayTeam": "PIT",
       "awayScore": "17.4",
       "sep": "\u2013",
@@ -71,6 +72,7 @@
       "ou": null
     },
     {
+      "id": "IND@WAS",
       "awayTeam": "IND",
       "awayScore": "23.0",
       "sep": "\u2013",
@@ -83,6 +85,7 @@
       "ou": null
     },
     {
+      "id": "TEN@BAL",
       "awayTeam": "TEN",
       "awayScore": "18.1",
       "sep": "\u2013",
@@ -95,6 +98,7 @@
       "ou": "OVER"
     },
     {
+      "id": "NE@BUF",
       "awayTeam": "NE",
       "awayScore": "19.7",
       "sep": "\u2013",
@@ -107,6 +111,7 @@
       "ou": "UNDER"
     },
     {
+      "id": "NYJ@CHI",
       "awayTeam": "NYJ",
       "awayScore": "20.3",
       "sep": "\u2013",
@@ -119,6 +124,7 @@
       "ou": "UNDER"
     },
     {
+      "id": "JAX@CIN",
       "awayTeam": "JAX",
       "awayScore": "24.8",
       "sep": "\u2013",
@@ -131,6 +137,7 @@
       "ou": "OVER"
     },
     {
+      "id": "DAL@HOU",
       "awayTeam": "DAL",
       "awayScore": "22.6",
       "sep": "\u2013",
@@ -143,6 +150,7 @@
       "ou": "OVER"
     },
     {
+      "id": "ARI@NYG",
       "awayTeam": "ARI",
       "awayScore": "19.4",
       "sep": "\u2013",
@@ -155,6 +163,7 @@
       "ou": "OVER"
     },
     {
+      "id": "LAR@PHI",
       "awayTeam": "LAR",
       "awayScore": "25.4",
       "sep": "\u2013",
@@ -167,6 +176,7 @@
       "ou": "OVER"
     },
     {
+      "id": "GB@TB",
       "awayTeam": "GB",
       "awayScore": "25.3",
       "sep": "\u2013",
@@ -179,6 +189,7 @@
       "ou": "OVER"
     },
     {
+      "id": "MIA@MIN",
       "awayTeam": "MIA",
       "awayScore": "18.5",
       "sep": "\u2013",
@@ -191,6 +202,7 @@
       "ou": "OVER"
     },
     {
+      "id": "KC@LV",
       "awayTeam": "KC",
       "awayScore": "26.2",
       "sep": "\u2013",
@@ -203,6 +215,7 @@
       "ou": "UNDER"
     },
     {
+      "id": "LAC@SEA",
       "awayTeam": "LAC",
       "awayScore": "18.7",
       "sep": "\u2013",
@@ -215,6 +228,7 @@
       "ou": "OVER"
     },
     {
+      "id": "DEN@SF",
       "awayTeam": "DEN",
       "awayScore": "20.5",
       "sep": "\u2013",
@@ -227,6 +241,7 @@
       "ou": "UNDER"
     },
     {
+      "id": "DET@CAR",
       "awayTeam": "DET",
       "awayScore": "31.2",
       "sep": "\u2013",
@@ -239,6 +254,7 @@
       "ou": "OVER"
     },
     {
+      "id": "ATL@NO",
       "awayTeam": "ATL",
       "awayScore": "21.6",
       "sep": "\u2013",
@@ -250,5 +266,6 @@
       "ats": "NO",
       "ou": "UNDER"
     }
-  ]
+  ],
+  "details": "2026-w04.details.json"
 }

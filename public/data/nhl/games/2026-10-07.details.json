@@ -1,0 +1,238 @@
+{
+  "games": {
+    "2026020053": {
+      "title": "PIT @ WSH",
+      "subtitle": "Wed Oct 7 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "Pittsburgh Penguins",
+        "abbr": "PIT",
+        "note": "In net: A. Silovs (88% to start)"
+      },
+      "home": {
+        "name": "Washington Capitals",
+        "abbr": "WSH",
+        "note": "In net: L. Thompson (75% to start)"
+      },
+      "score": {
+        "away": "3.27",
+        "home": "3.25",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5043,
+        "home": 0.4957,
+        "note": "Fair odds: PIT -102, WSH +102 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects PIT 2.97 goals to WSH's 2.96. With overtime and the shootout that makes PIT 50% to win.",
+            "In net: A. Silovs for PIT (88% to start), L. Thompson for WSH (75% to start).",
+            "The market (9 books, margin removed) gives WSH 59% to win; the model 50%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "PIT to win",
+              "50%",
+              "41%"
+            ],
+            [
+              "WSH to win",
+              "50%",
+              "59%"
+            ],
+            [
+              "PIT \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "WSH \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "61%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "50%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.52 goals."
+        }
+      ]
+    },
+    "2026020054": {
+      "title": "COL @ WPG",
+      "subtitle": "Wed Oct 7 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "Colorado Avalanche",
+        "abbr": "COL",
+        "note": "In net: S. Wedgewood (50% to start)"
+      },
+      "home": {
+        "name": "Winnipeg Jets",
+        "abbr": "WPG",
+        "note": "In net: S. Skinner (66% to start)"
+      },
+      "score": {
+        "away": "3.51",
+        "home": "2.75",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.6237,
+        "home": 0.3763,
+        "note": "Fair odds: COL -166, WPG +166 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects COL 3.13 goals to WPG's 2.54. With overtime and the shootout that makes COL 62% to win.",
+            "In net: S. Wedgewood for COL (50% to start), S. Skinner for WPG (66% to start).",
+            "The market (9 books, margin removed) gives WPG 37% to win; the model 38%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "COL to win",
+              "62%",
+              "63%"
+            ],
+            [
+              "WPG to win",
+              "38%",
+              "37%"
+            ],
+            [
+              "COL \u22121.5",
+              "41%",
+              "\u2014"
+            ],
+            [
+              "WPG \u22121.5",
+              "21%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "57%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "46%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.26 goals."
+        }
+      ]
+    },
+    "2026020055": {
+      "title": "EDM @ ANA",
+      "subtitle": "Wed Oct 7 \u00b7 10:00 PM ET",
+      "away": {
+        "name": "Edmonton Oilers",
+        "abbr": "EDM",
+        "note": "In net: T. Jarry (74% to start)"
+      },
+      "home": {
+        "name": "Anaheim Ducks",
+        "abbr": "ANA",
+        "note": "In net: L. Dostal (79% to start)"
+      },
+      "score": {
+        "away": "3.41",
+        "home": "3.36",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5075,
+        "home": 0.4925,
+        "note": "Fair odds: EDM -103, ANA +103 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects EDM 3.11 goals to ANA's 3.08. With overtime and the shootout that makes EDM 51% to win.",
+            "In net: T. Jarry for EDM (74% to start), L. Dostal for ANA (79% to start).",
+            "The market (9 books, margin removed) gives ANA 45% to win; the model 49%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "EDM to win",
+              "51%",
+              "55%"
+            ],
+            [
+              "ANA to win",
+              "49%",
+              "45%"
+            ],
+            [
+              "EDM \u22121.5",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "ANA \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "65%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "54%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.77 goals."
+        }
+      ]
+    }
+  }
+}

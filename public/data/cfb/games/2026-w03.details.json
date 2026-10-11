@@ -1,0 +1,6436 @@
+{
+  "games": {
+    "401858225": {
+      "title": "Syracuse @ Pittsburgh",
+      "subtitle": "Week 3 \u00b7 Thu 9/17 7:30PM ET",
+      "away": {
+        "name": "Syracuse"
+      },
+      "home": {
+        "name": "Pittsburgh"
+      },
+      "score": {
+        "away": "22.7",
+        "home": "34.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2068,
+        "home": 0.7932,
+        "note": "Fair odds: Syracuse +384, Pittsburgh -384 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Syracuse 22.7 \u2013 Pittsburgh 34.1: Pittsburgh by 11.4. That makes Pittsburgh 79% to win.",
+            "The market expects Pittsburgh by 10.5, the model Pittsburgh by 11.3. Against the spread it takes Pittsburgh -10.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 51.5 against the model's 56.8: the over (59%, expected return +0.12) \u2014 a flagged play.",
+            "Market: 3 books, 0.24 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Pittsburgh margin",
+              "+11.3",
+              "+10.5",
+              "+0.8"
+            ],
+            [
+              "Total",
+              "56.8",
+              "51.5",
+              {
+                "v": "+5.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Syracuse to win",
+              "21%"
+            ],
+            [
+              "Pittsburgh to win",
+              "79%"
+            ],
+            [
+              "Pittsburgh -10.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 51.5",
+              "59%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858226": {
+      "title": "Miami @ Wake Forest",
+      "subtitle": "Week 3 \u00b7 Fri 9/18 7:30PM ET",
+      "away": {
+        "name": "Miami"
+      },
+      "home": {
+        "name": "Wake Forest"
+      },
+      "score": {
+        "away": "36.4",
+        "home": "18.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.8529,
+        "home": 0.1471,
+        "note": "Fair odds: Miami -580, Wake Forest +580 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Miami 36.4 \u2013 Wake Forest 18.8: Miami by 17.6. That makes Miami 85% to win.",
+            "The market expects Miami by 20.5, the model Miami by 17.5. Against the spread it takes Wake Forest +20.5 (54% to cover, expected return +0.04 a unit) \u2014 a flagged play.",
+            "The market's total is 55.25 against the model's 55.2: the under (54%, expected return +0.03).",
+            "Market: 2 books, in agreement; the line has moved +0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Wake Forest margin",
+              "-17.5",
+              "-20.5",
+              {
+                "v": "+3.0 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.2",
+              "55.25",
+              "-0.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Miami to win",
+              "85%"
+            ],
+            [
+              "Wake Forest to win",
+              "15%"
+            ],
+            [
+              "\u2605 Wake Forest +20.5",
+              "54%"
+            ],
+            [
+              "Under 55.25",
+              "54%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856811": {
+      "title": "Houston @ Texas Tech",
+      "subtitle": "Week 3 \u00b7 Fri 9/18 8:00PM ET",
+      "away": {
+        "name": "Houston"
+      },
+      "home": {
+        "name": "Texas Tech"
+      },
+      "score": {
+        "away": "24.2",
+        "home": "31.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2953,
+        "home": 0.7047,
+        "note": "Fair odds: Houston +239, Texas Tech -239 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Houston 24.2 \u2013 Texas Tech 31.3: Texas Tech by 7.1. That makes Texas Tech 70% to win.",
+            "The market expects Texas Tech by 7.5, the model Texas Tech by 7.1. Against the spread it takes Houston +7.5 (51% to cover, expected return -0.03 a unit).",
+            "The market's total is 52.5 against the model's 55.4: the over (53%, expected return +0.01).",
+            "Market: 2 books, in agreement; the line has moved +3.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Texas Tech margin",
+              "+7.1",
+              "+7.5",
+              "-0.4"
+            ],
+            [
+              "Total",
+              "55.4",
+              "52.5",
+              "+2.9"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Houston to win",
+              "30%"
+            ],
+            [
+              "Texas Tech to win",
+              "70%"
+            ],
+            [
+              "Houston +7.5",
+              "51%"
+            ],
+            [
+              "Over 52.5",
+              "53%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858455": {
+      "title": "Portland State @ Oregon",
+      "subtitle": "Week 3 \u00b7 Fri 9/18 10:30PM ET",
+      "away": {
+        "name": "Portland State"
+      },
+      "home": {
+        "name": "Oregon"
+      },
+      "score": {
+        "away": "6.6",
+        "home": "55.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Portland State +19900, Oregon -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Portland State 6.6 \u2013 Oregon 55.4: Oregon by 48.8. That makes Oregon 100% to win.",
+            "The market expects Oregon by 57.5, the model Oregon by 48.8. Against the spread it takes Portland State +57.5 (68% to cover, expected return +0.30 a unit).",
+            "The market's total is 67.5 against the model's 62.0: the under (66%, expected return +0.27) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Oregon margin",
+              "+48.8",
+              "+57.5",
+              "-8.7"
+            ],
+            [
+              "Total",
+              "62.0",
+              "67.5",
+              {
+                "v": "-5.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Portland State to win",
+              "0%"
+            ],
+            [
+              "Oregon to win",
+              "100%"
+            ],
+            [
+              "Portland State +57.5",
+              "68%"
+            ],
+            [
+              "\u2605 Under 67.5",
+              "66%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401869940": {
+      "title": "Coastal Carolina @ Delaware",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 11:30AM ET",
+      "away": {
+        "name": "Coastal Carolina"
+      },
+      "home": {
+        "name": "Delaware"
+      },
+      "score": {
+        "away": "24.7",
+        "home": "33.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2734,
+        "home": 0.7266,
+        "note": "Fair odds: Coastal Carolina +266, Delaware -266 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Coastal Carolina 24.7 \u2013 Delaware 33.2: Delaware by 8.5. That makes Delaware 73% to win.",
+            "The market expects Delaware by 4.8, the model Delaware by 8.5. Against the spread it takes Delaware -4.75 (60% to cover, expected return +0.14 a unit) \u2014 a flagged play.",
+            "The market's total is 57.25 against the model's 57.9: the over (47%, expected return -0.09).",
+            "Market: 2 books, 0.25 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Delaware margin",
+              "+8.5",
+              "+4.75",
+              {
+                "v": "+3.8 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "57.9",
+              "57.25",
+              "+0.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Coastal Carolina to win",
+              "27%"
+            ],
+            [
+              "Delaware to win",
+              "73%"
+            ],
+            [
+              "\u2605 Delaware -4.75",
+              "60%"
+            ],
+            [
+              "Over 57.25",
+              "47%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858456": {
+      "title": "Buffalo @ Penn State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "Buffalo"
+      },
+      "home": {
+        "name": "Penn State"
+      },
+      "score": {
+        "away": "10.5",
+        "home": "42.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0095,
+        "home": 0.9905,
+        "note": "Fair odds: Buffalo +10426, Penn State -10426 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Buffalo 10.5 \u2013 Penn State 42.1: Penn State by 31.6. That makes Penn State 99% to win.",
+            "The market expects Penn State by 40.8, the model Penn State by 31.6. Against the spread it takes Buffalo +40.75 (68% to cover, expected return +0.30 a unit).",
+            "The market's total is 49.5 against the model's 52.6: the over (53%, expected return +0.02) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -1.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Penn State margin",
+              "+31.6",
+              "+40.75",
+              "-9.1"
+            ],
+            [
+              "Total",
+              "52.6",
+              "49.5",
+              {
+                "v": "+3.1 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Buffalo to win",
+              "1%"
+            ],
+            [
+              "Penn State to win",
+              "99%"
+            ],
+            [
+              "Buffalo +40.75",
+              "68%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "53%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858451": {
+      "title": "Akron @ Minnesota",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "Akron"
+      },
+      "home": {
+        "name": "Minnesota"
+      },
+      "score": {
+        "away": "19.0",
+        "home": "32.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: Akron +546, Minnesota -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Akron 19.0 \u2013 Minnesota 32.5: Minnesota by 13.5. That makes Minnesota 85% to win.",
+            "The market expects Minnesota by 23.5, the model Minnesota by 13.4. Against the spread it takes Akron +23.5 (68% to cover, expected return +0.30 a unit) \u2014 a flagged play.",
+            "The market's total is 48.75 against the model's 51.5: the over (53%, expected return +0.00).",
+            "Market: 2 books, in agreement; the line has moved +3 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Minnesota margin",
+              "+13.4",
+              "+23.5",
+              {
+                "v": "-10.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "51.5",
+              "48.75",
+              "+2.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Akron to win",
+              "15%"
+            ],
+            [
+              "Minnesota to win",
+              "85%"
+            ],
+            [
+              "\u2605 Akron +23.5",
+              "68%"
+            ],
+            [
+              "Over 48.75",
+              "53%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858229": {
+      "title": "North Carolina @ Clemson",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "North Carolina"
+      },
+      "home": {
+        "name": "Clemson"
+      },
+      "score": {
+        "away": "22.9",
+        "home": "27.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4035,
+        "home": 0.5965,
+        "note": "Fair odds: North Carolina +148, Clemson -148 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects North Carolina 22.9 \u2013 Clemson 27.2: Clemson by 4.3. That makes Clemson 60% to win.",
+            "The market expects Clemson by 3.0, the model Clemson by 4.2. Against the spread it takes Clemson -3 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 44.25 against the model's 50.1: the over (60%, expected return +0.15) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +3.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Clemson margin",
+              "+4.2",
+              "+3",
+              "+1.2"
+            ],
+            [
+              "Total",
+              "50.1",
+              "44.25",
+              {
+                "v": "+5.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "North Carolina to win",
+              "40%"
+            ],
+            [
+              "Clemson to win",
+              "60%"
+            ],
+            [
+              "Clemson -3",
+              "52%"
+            ],
+            [
+              "\u2605 Over 44.25",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858228": {
+      "title": "Mercer @ Georgia Tech",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "Mercer"
+      },
+      "home": {
+        "name": "Georgia Tech"
+      },
+      "score": {
+        "away": "13.1",
+        "home": "47.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.007,
+        "home": 0.993,
+        "note": "Fair odds: Mercer +14186, Georgia Tech -14186 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Mercer 13.1 \u2013 Georgia Tech 47.6: Georgia Tech by 34.5. That makes Georgia Tech 99% to win.",
+            "The market expects Georgia Tech by 38.5, the model Georgia Tech by 34.4. Against the spread it takes Mercer +38.5 (60% to cover, expected return +0.15 a unit).",
+            "The market's total is 58.5 against the model's 60.7: the over (51%, expected return -0.02).",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Georgia Tech margin",
+              "+34.4",
+              "+38.5",
+              "-4.1"
+            ],
+            [
+              "Total",
+              "60.7",
+              "58.5",
+              "+2.2"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Mercer to win",
+              "1%"
+            ],
+            [
+              "Georgia Tech to win",
+              "99%"
+            ],
+            [
+              "Mercer +38.5",
+              "60%"
+            ],
+            [
+              "Over 58.5",
+              "51%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856798": {
+      "title": "Bowling Green @ Iowa State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "Bowling Green"
+      },
+      "home": {
+        "name": "Iowa State"
+      },
+      "score": {
+        "away": "13.8",
+        "home": "35.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.086,
+        "home": 0.914,
+        "note": "Fair odds: Bowling Green +1063, Iowa State -1063 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Bowling Green 13.8 \u2013 Iowa State 35.9: Iowa State by 22.1. That makes Iowa State 91% to win.",
+            "The market expects Iowa State by 23.5, the model Iowa State by 22.1. Against the spread it takes Bowling Green +23.5 (55% to cover, expected return +0.05 a unit).",
+            "The market's total is 43.5 against the model's 49.7: the over (61%, expected return +0.16) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Iowa State margin",
+              "+22.1",
+              "+23.5",
+              "-1.4"
+            ],
+            [
+              "Total",
+              "49.7",
+              "43.5",
+              {
+                "v": "+6.2 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Bowling Green to win",
+              "9%"
+            ],
+            [
+              "Iowa State to win",
+              "91%"
+            ],
+            [
+              "Bowling Green +23.5",
+              "55%"
+            ],
+            [
+              "\u2605 Over 43.5",
+              "61%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856686": {
+      "title": "Georgia @ Arkansas",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "Georgia"
+      },
+      "home": {
+        "name": "Arkansas"
+      },
+      "score": {
+        "away": "37.1",
+        "home": "18.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.8529,
+        "home": 0.1471,
+        "note": "Fair odds: Georgia -580, Arkansas +580 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Georgia 37.1 \u2013 Arkansas 18.5: Georgia by 18.6. That makes Georgia 85% to win.",
+            "The market expects Georgia by 24.5, the model Georgia by 18.6. Against the spread it takes Arkansas +24.5 (69% to cover, expected return +0.32 a unit) \u2014 a flagged play.",
+            "The market's total is 54.25 against the model's 55.6: the over (49%, expected return -0.06).",
+            "Market: 2 books, in agreement; the line has moved +3.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Arkansas margin",
+              "-18.6",
+              "-24.5",
+              {
+                "v": "+5.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.6",
+              "54.25",
+              "+1.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Georgia to win",
+              "85%"
+            ],
+            [
+              "Arkansas to win",
+              "15%"
+            ],
+            [
+              "\u2605 Arkansas +24.5",
+              "69%"
+            ],
+            [
+              "Over 54.25",
+              "49%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858454": {
+      "title": "Kent State @ Ohio State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "Kent State"
+      },
+      "home": {
+        "name": "Ohio State"
+      },
+      "score": {
+        "away": "6.6",
+        "home": "49.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Kent State +19900, Ohio State -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Kent State 6.6 \u2013 Ohio State 49.1: Ohio State by 42.5. That makes Ohio State 100% to win.",
+            "The market expects Ohio State by 52.8, the model Ohio State by 42.5. Against the spread it takes Kent State +52.75 (68% to cover, expected return +0.30 a unit).",
+            "The market's total is 58.5 against the model's 55.7: the under (60%, expected return +0.15).",
+            "Market: 2 books, 0.25 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Ohio State margin",
+              "+42.5",
+              "+52.75",
+              "-10.3"
+            ],
+            [
+              "Total",
+              "55.7",
+              "58.5",
+              "-2.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Kent State to win",
+              "0%"
+            ],
+            [
+              "Ohio State to win",
+              "100%"
+            ],
+            [
+              "Kent State +52.75",
+              "68%"
+            ],
+            [
+              "Under 58.5",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401860889": {
+      "title": "North Texas @ Texas State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "North Texas"
+      },
+      "home": {
+        "name": "Texas State"
+      },
+      "score": {
+        "away": "30.0",
+        "home": "34.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4035,
+        "home": 0.5965,
+        "note": "Fair odds: North Texas +148, Texas State -148 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects North Texas 30.0 \u2013 Texas State 34.1: Texas State by 4.1. That makes Texas State 60% to win.",
+            "The market expects Texas State by 2.5, the model Texas State by 4.1. Against the spread it takes Texas State -2.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 62.5 against the model's 64.1: the over (50%, expected return -0.05).",
+            "Market: 2 books, in agreement; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Texas State margin",
+              "+4.1",
+              "+2.5",
+              "+1.6"
+            ],
+            [
+              "Total",
+              "64.1",
+              "62.5",
+              "+1.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "North Texas to win",
+              "40%"
+            ],
+            [
+              "Texas State to win",
+              "60%"
+            ],
+            [
+              "Texas State -2.5",
+              "52%"
+            ],
+            [
+              "Over 62.5",
+              "50%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856812": {
+      "title": "Arizona State vs Kansas",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET \u00b7 neutral site",
+      "away": {
+        "name": "Arizona State"
+      },
+      "home": {
+        "name": "Kansas"
+      },
+      "score": {
+        "away": "29.5",
+        "home": "25.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6029,
+        "home": 0.3971,
+        "note": "Fair odds: Arizona State -152, Kansas +152 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Arizona State 29.5 \u2013 Kansas 25.4: Arizona State by 4.1 on a neutral field. That makes Arizona State 60% to win.",
+            "The market expects Arizona State by 5.5, the model Arizona State by 4.1. Against the spread it takes Kansas +5.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 50.5 against the model's 55.0: the over (57%, expected return +0.08) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Kansas margin",
+              "-4.1",
+              "-5.5",
+              "+1.4"
+            ],
+            [
+              "Total",
+              "55.0",
+              "50.5",
+              {
+                "v": "+4.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Arizona State to win",
+              "60%"
+            ],
+            [
+              "Kansas to win",
+              "40%"
+            ],
+            [
+              "Kansas +5.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 50.5",
+              "57%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856792": {
+      "title": "Tulane @ Kansas State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:00PM ET",
+      "away": {
+        "name": "Tulane"
+      },
+      "home": {
+        "name": "Kansas State"
+      },
+      "score": {
+        "away": "13.7",
+        "home": "36.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.084,
+        "home": 0.916,
+        "note": "Fair odds: Tulane +1090, Kansas State -1090 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Tulane 13.7 \u2013 Kansas State 36.6: Kansas State by 22.9. That makes Kansas State 92% to win.",
+            "The market expects Kansas State by 20.5, the model Kansas State by 22.9. Against the spread it takes Kansas State -20.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 49.5 against the model's 50.3: the over (48%, expected return -0.09).",
+            "Market: 2 books, in agreement; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Kansas State margin",
+              "+22.9",
+              "+20.5",
+              "+2.4"
+            ],
+            [
+              "Total",
+              "50.3",
+              "49.5",
+              "+0.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Tulane to win",
+              "8%"
+            ],
+            [
+              "Kansas State to win",
+              "92%"
+            ],
+            [
+              "Kansas State -20.5",
+              "52%"
+            ],
+            [
+              "Over 49.5",
+              "48%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858460": {
+      "title": "Eastern Michigan @ Wisconsin",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:30PM ET",
+      "away": {
+        "name": "Eastern Michigan"
+      },
+      "home": {
+        "name": "Wisconsin"
+      },
+      "score": {
+        "away": "15.4",
+        "home": "31.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: Eastern Michigan +546, Wisconsin -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Eastern Michigan 15.4 \u2013 Wisconsin 31.7: Wisconsin by 16.3. That makes Wisconsin 85% to win.",
+            "The market expects Wisconsin by 23.5, the model Wisconsin by 16.3. Against the spread it takes Eastern Michigan +23.5 (68% to cover, expected return +0.30 a unit) \u2014 a flagged play.",
+            "The market's total is 44.75 against the model's 47.1: the over (52%, expected return -0.01).",
+            "Market: 2 books, in agreement; the line has moved +1 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Wisconsin margin",
+              "+16.3",
+              "+23.5",
+              {
+                "v": "-7.2 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "47.1",
+              "44.75",
+              "+2.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Eastern Michigan to win",
+              "15%"
+            ],
+            [
+              "Wisconsin to win",
+              "85%"
+            ],
+            [
+              "\u2605 Eastern Michigan +23.5",
+              "68%"
+            ],
+            [
+              "Over 44.75",
+              "52%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856695": {
+      "title": "NC State @ Vanderbilt",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 12:45PM ET",
+      "away": {
+        "name": "NC State"
+      },
+      "home": {
+        "name": "Vanderbilt"
+      },
+      "score": {
+        "away": "27.2",
+        "home": "27.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.5092,
+        "home": 0.4908,
+        "note": "Fair odds: NC State -104, Vanderbilt +104 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects NC State 27.2 \u2013 Vanderbilt 27.2: even. That makes NC State 51% to win.",
+            "The market expects Vanderbilt by 3.0, the model Vanderbilt by 0.1. Against the spread it takes NC State +3 (56% to cover, expected return +0.07 a unit) \u2014 a flagged play.",
+            "The market's total is 50.5 against the model's 54.4: the over (55%, expected return +0.06) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +1 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Vanderbilt margin",
+              "+0.1",
+              "+3",
+              {
+                "v": "-2.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "54.4",
+              "50.5",
+              {
+                "v": "+3.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "NC State to win",
+              "51%"
+            ],
+            [
+              "Vanderbilt to win",
+              "49%"
+            ],
+            [
+              "\u2605 NC State +3",
+              "56%"
+            ],
+            [
+              "\u2605 Over 50.5",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401864508": {
+      "title": "Wyoming @ Central Michigan",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 1:00PM ET",
+      "away": {
+        "name": "Wyoming"
+      },
+      "home": {
+        "name": "Central Michigan"
+      },
+      "score": {
+        "away": "19.7",
+        "home": "24.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.3987,
+        "home": 0.6013,
+        "note": "Fair odds: Wyoming +151, Central Michigan -151 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Wyoming 19.7 \u2013 Central Michigan 24.5: Central Michigan by 4.8. That makes Central Michigan 60% to win.",
+            "The market expects Wyoming by 1.2, the model Central Michigan by 4.8. Against the spread it takes Central Michigan +1.25 (69% to cover, expected return +0.32 a unit) \u2014 a flagged play.",
+            "The market's total is 38.75 against the model's 44.2: the over (59%, expected return +0.13) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +3.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Central Michigan margin",
+              "+4.8",
+              "-1.25",
+              {
+                "v": "+6.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "44.2",
+              "38.75",
+              {
+                "v": "+5.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Wyoming to win",
+              "40%"
+            ],
+            [
+              "Central Michigan to win",
+              "60%"
+            ],
+            [
+              "\u2605 Central Michigan +1.25",
+              "69%"
+            ],
+            [
+              "\u2605 Over 38.75",
+              "59%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858448": {
+      "title": "Southern Illinois @ Illinois",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 2:00PM ET",
+      "away": {
+        "name": "Southern Illinois"
+      },
+      "home": {
+        "name": "Illinois"
+      },
+      "score": {
+        "away": "9.4",
+        "home": "49.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Southern Illinois +19900, Illinois -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Southern Illinois 9.4 \u2013 Illinois 49.7: Illinois by 40.3. That makes Illinois 100% to win.",
+            "The market expects Illinois by 38.5, the model Illinois by 40.3. Against the spread it takes Illinois -38.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 54.5 against the model's 59.2: the over (57%, expected return +0.09) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line has moved +3 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Illinois margin",
+              "+40.3",
+              "+38.5",
+              "+1.8"
+            ],
+            [
+              "Total",
+              "59.2",
+              "54.5",
+              {
+                "v": "+4.7 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Southern Illinois to win",
+              "0%"
+            ],
+            [
+              "Illinois to win",
+              "100%"
+            ],
+            [
+              "Illinois -38.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 54.5",
+              "57%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858227": {
+      "title": "Maine @ Boston College",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 2:00PM ET",
+      "away": {
+        "name": "Maine"
+      },
+      "home": {
+        "name": "Boston College"
+      },
+      "score": {
+        "away": "9.0",
+        "home": "51.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Maine +19900, Boston College -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Maine 9.0 \u2013 Boston College 51.6: Boston College by 42.6. That makes Boston College 100% to win.",
+            "The market expects Boston College by 38.5, the model Boston College by 42.6. Against the spread it takes Boston College -38.5 (60% to cover, expected return +0.14 a unit).",
+            "The market's total is 53.5 against the model's 60.7: the over (63%, expected return +0.20) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Boston College margin",
+              "+42.6",
+              "+38.5",
+              "+4.1"
+            ],
+            [
+              "Total",
+              "60.7",
+              "53.5",
+              {
+                "v": "+7.2 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Maine to win",
+              "0%"
+            ],
+            [
+              "Boston College to win",
+              "100%"
+            ],
+            [
+              "Boston College -38.5",
+              "60%"
+            ],
+            [
+              "\u2605 Over 53.5",
+              "63%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862774": {
+      "title": "Temple @ Toledo",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:00PM ET",
+      "away": {
+        "name": "Temple"
+      },
+      "home": {
+        "name": "Toledo"
+      },
+      "score": {
+        "away": "18.7",
+        "home": "33.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: Temple +546, Toledo -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Temple 18.7 \u2013 Toledo 33.4: Toledo by 14.7. That makes Toledo 85% to win.",
+            "The market expects Toledo by 5.8, the model Toledo by 14.7. Against the spread it takes Toledo -5.75 (73% to cover, expected return +0.39 a unit) \u2014 a flagged play.",
+            "The market's total is 49.5 against the model's 52.1: the over (52%, expected return -0.00).",
+            "Market: 2 books, 0.25 points apart; the line has moved -1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Toledo margin",
+              "+14.7",
+              "+5.75",
+              {
+                "v": "+8.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "52.1",
+              "49.5",
+              "+2.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Temple to win",
+              "15%"
+            ],
+            [
+              "Toledo to win",
+              "85%"
+            ],
+            [
+              "\u2605 Toledo -5.75",
+              "73%"
+            ],
+            [
+              "Over 49.5",
+              "52%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401866424": {
+      "title": "Stonehill @ Massachusetts",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "Stonehill"
+      },
+      "home": {
+        "name": "Massachusetts"
+      },
+      "score": {
+        "away": "19.0",
+        "home": "38.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: Stonehill +546, Massachusetts -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Stonehill 19.0 \u2013 Massachusetts 38.0: Massachusetts by 19.0. That makes Massachusetts 85% to win.",
+            "The market expects Massachusetts by 33.5, the model Massachusetts by 19.0. Against the spread it takes Stonehill +33.5 (79% to cover, expected return +0.50 a unit).",
+            "The market's total is 49.5 against the model's 57.1: the over (64%, expected return +0.22) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Massachusetts margin",
+              "+19.0",
+              "+33.5",
+              "-14.5"
+            ],
+            [
+              "Total",
+              "57.1",
+              "49.5",
+              {
+                "v": "+7.6 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Stonehill to win",
+              "15%"
+            ],
+            [
+              "Massachusetts to win",
+              "85%"
+            ],
+            [
+              "Stonehill +33.5",
+              "79%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "64%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858457": {
+      "title": "USC @ Rutgers",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "USC"
+      },
+      "home": {
+        "name": "Rutgers"
+      },
+      "score": {
+        "away": "33.1",
+        "home": "22.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.7237,
+        "home": 0.2763,
+        "note": "Fair odds: USC -262, Rutgers +262 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects USC 33.1 \u2013 Rutgers 22.4: USC by 10.7. That makes USC 72% to win.",
+            "The market expects USC by 21.8, the model USC by 10.8. Against the spread it takes Rutgers +21.75 (79% to cover, expected return +0.51 a unit) \u2014 a flagged play.",
+            "The market's total is 58.5 against the model's 55.5: the under (61%, expected return +0.16).",
+            "Market: 2 books, 0.25 points apart; the line has moved -2.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Rutgers margin",
+              "-10.8",
+              "-21.75",
+              {
+                "v": "+11.0 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.5",
+              "58.5",
+              "-3.0"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "USC to win",
+              "72%"
+            ],
+            [
+              "Rutgers to win",
+              "28%"
+            ],
+            [
+              "\u2605 Rutgers +21.75",
+              "79%"
+            ],
+            [
+              "Under 58.5",
+              "61%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856685": {
+      "title": "Florida State @ Alabama",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "Florida State"
+      },
+      "home": {
+        "name": "Alabama"
+      },
+      "score": {
+        "away": "20.0",
+        "home": "35.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: Florida State +546, Alabama -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Florida State 20.0 \u2013 Alabama 35.4: Alabama by 15.4. That makes Alabama 85% to win.",
+            "The market expects Alabama by 19.5, the model Alabama by 15.4. Against the spread it takes Florida State +19.5 (60% to cover, expected return +0.15 a unit) \u2014 a flagged play.",
+            "The market's total is 48.75 against the model's 55.4: the over (62%, expected return +0.18) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Alabama margin",
+              "+15.4",
+              "+19.5",
+              {
+                "v": "-4.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.4",
+              "48.75",
+              {
+                "v": "+6.7 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Florida State to win",
+              "15%"
+            ],
+            [
+              "Alabama to win",
+              "85%"
+            ],
+            [
+              "\u2605 Florida State +19.5",
+              "60%"
+            ],
+            [
+              "\u2605 Over 48.75",
+              "62%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858233": {
+      "title": "Wagner @ California",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "Wagner"
+      },
+      "home": {
+        "name": "California"
+      },
+      "score": {
+        "away": "7.6",
+        "home": "54.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Wagner +19900, California -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Wagner 7.6 \u2013 California 54.3: California by 46.7. That makes California 100% to win."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Wagner to win",
+              "0%"
+            ],
+            [
+              "California to win",
+              "100%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856801": {
+      "title": "Utah State @ Utah",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "Utah State"
+      },
+      "home": {
+        "name": "Utah"
+      },
+      "score": {
+        "away": "16.3",
+        "home": "43.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0343,
+        "home": 0.9657,
+        "note": "Fair odds: Utah State +2815, Utah -2815 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Utah State 16.3 \u2013 Utah 43.0: Utah by 26.7. That makes Utah 97% to win.",
+            "The market expects Utah by 27.8, the model Utah by 26.7. Against the spread it takes Utah State +27.75 (55% to cover, expected return +0.05 a unit).",
+            "The market's total is 56.75 against the model's 59.3: the over (52%, expected return -0.00).",
+            "Market: 2 books, 0.25 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Utah margin",
+              "+26.7",
+              "+27.75",
+              "-1.1"
+            ],
+            [
+              "Total",
+              "59.3",
+              "56.75",
+              "+2.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Utah State to win",
+              "3%"
+            ],
+            [
+              "Utah to win",
+              "97%"
+            ],
+            [
+              "Utah State +27.75",
+              "55%"
+            ],
+            [
+              "Over 56.75",
+              "52%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858450": {
+      "title": "UTEP @ Michigan",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "UTEP"
+      },
+      "home": {
+        "name": "Michigan"
+      },
+      "score": {
+        "away": "9.6",
+        "home": "42.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.007,
+        "home": 0.993,
+        "note": "Fair odds: UTEP +14186, Michigan -14186 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects UTEP 9.6 \u2013 Michigan 42.6: Michigan by 33.0. That makes Michigan 99% to win.",
+            "The market expects Michigan by 34.8, the model Michigan by 33.1. Against the spread it takes UTEP +34.75 (55% to cover, expected return +0.05 a unit).",
+            "The market's total is 48.5 against the model's 52.2: the over (55%, expected return +0.05) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +2 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Michigan margin",
+              "+33.1",
+              "+34.75",
+              "-1.7"
+            ],
+            [
+              "Total",
+              "52.2",
+              "48.5",
+              {
+                "v": "+3.7 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "UTEP to win",
+              "1%"
+            ],
+            [
+              "Michigan to win",
+              "99%"
+            ],
+            [
+              "UTEP +34.75",
+              "55%"
+            ],
+            [
+              "\u2605 Over 48.5",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856797": {
+      "title": "Miami (OH) @ Cincinnati",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "Miami (OH)"
+      },
+      "home": {
+        "name": "Cincinnati"
+      },
+      "score": {
+        "away": "21.0",
+        "home": "31.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2068,
+        "home": 0.7932,
+        "note": "Fair odds: Miami (OH) +384, Cincinnati -384 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Miami (OH) 21.0 \u2013 Cincinnati 31.7: Cincinnati by 10.7. That makes Cincinnati 79% to win.",
+            "The market expects Cincinnati by 15.5, the model Cincinnati by 10.7. Against the spread it takes Miami (OH) +15.5 (61% to cover, expected return +0.16 a unit) \u2014 a flagged play.",
+            "The market's total is 49.5 against the model's 52.8: the over (54%, expected return +0.03) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Cincinnati margin",
+              "+10.7",
+              "+15.5",
+              {
+                "v": "-4.8 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "52.8",
+              "49.5",
+              {
+                "v": "+3.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Miami (OH) to win",
+              "21%"
+            ],
+            [
+              "Cincinnati to win",
+              "79%"
+            ],
+            [
+              "\u2605 Miami (OH) +15.5",
+              "61%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "54%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858230": {
+      "title": "SMU @ Louisville",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "SMU"
+      },
+      "home": {
+        "name": "Louisville"
+      },
+      "score": {
+        "away": "27.3",
+        "home": "26.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.5333,
+        "home": 0.4667,
+        "note": "Fair odds: SMU -114, Louisville +114 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects SMU 27.3 \u2013 Louisville 26.4: SMU by 0.9. That makes SMU 53% to win.",
+            "The market expects Louisville by 1.5, the model SMU by 1.0. Against the spread it takes SMU +1.5 (56% to cover, expected return +0.07 a unit) \u2014 a flagged play.",
+            "The market's total is 58.5 against the model's 53.7: the under (65%, expected return +0.24) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Louisville margin",
+              "-1.0",
+              "+1.5",
+              {
+                "v": "-2.5 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "53.7",
+              "58.5",
+              {
+                "v": "-4.8 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "SMU to win",
+              "53%"
+            ],
+            [
+              "Louisville to win",
+              "47%"
+            ],
+            [
+              "\u2605 SMU +1.5",
+              "56%"
+            ],
+            [
+              "\u2605 Under 58.5",
+              "65%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856694": {
+      "title": "Kentucky @ Texas A&M",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "Kentucky"
+      },
+      "home": {
+        "name": "Texas A&M"
+      },
+      "score": {
+        "away": "17.6",
+        "home": "38.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0881,
+        "home": 0.9119,
+        "note": "Fair odds: Kentucky +1035, Texas A&M -1035 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Kentucky 17.6 \u2013 Texas A&M 38.2: Texas A&M by 20.6. That makes Texas A&M 91% to win.",
+            "The market expects Texas A&M by 17.2, the model Texas A&M by 20.6. Against the spread it takes Texas A&M -17.25 (54% to cover, expected return +0.04 a unit) \u2014 a flagged play.",
+            "The market's total is 49.75 against the model's 55.8: the over (60%, expected return +0.15) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Texas A&M margin",
+              "+20.6",
+              "+17.25",
+              {
+                "v": "+3.4 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.8",
+              "49.75",
+              {
+                "v": "+6.0 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Kentucky to win",
+              "9%"
+            ],
+            [
+              "Texas A&M to win",
+              "91%"
+            ],
+            [
+              "\u2605 Texas A&M -17.25",
+              "54%"
+            ],
+            [
+              "\u2605 Over 49.75",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401860890": {
+      "title": "Duquesne @ Washington State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 3:30PM ET",
+      "away": {
+        "name": "Duquesne"
+      },
+      "home": {
+        "name": "Washington State"
+      },
+      "score": {
+        "away": "7.0",
+        "home": "51.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Duquesne +19900, Washington State -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Duquesne 7.0 \u2013 Washington State 51.5: Washington State by 44.5. That makes Washington State 100% to win.",
+            "The market expects Washington State by 37.5, the model Washington State by 44.6. Against the spread it takes Washington State -37.5 (70% to cover, expected return +0.35 a unit).",
+            "The market's total is 53.5 against the model's 58.5: the over (58%, expected return +0.11) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Washington State margin",
+              "+44.6",
+              "+37.5",
+              "+7.1"
+            ],
+            [
+              "Total",
+              "58.5",
+              "53.5",
+              {
+                "v": "+5.0 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Duquesne to win",
+              "0%"
+            ],
+            [
+              "Washington State to win",
+              "100%"
+            ],
+            [
+              "Washington State -37.5",
+              "70%"
+            ],
+            [
+              "\u2605 Over 53.5",
+              "58%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401867804": {
+      "title": "Louisiana Tech @ Baylor",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 4:00PM ET",
+      "away": {
+        "name": "Louisiana Tech"
+      },
+      "home": {
+        "name": "Baylor"
+      },
+      "score": {
+        "away": "22.0",
+        "home": "36.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: Louisiana Tech +546, Baylor -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Louisiana Tech 22.0 \u2013 Baylor 36.2: Baylor by 14.2. That makes Baylor 85% to win.",
+            "The market expects Baylor by 20.2, the model Baylor by 14.3. Against the spread it takes Louisiana Tech +20.25 (62% to cover, expected return +0.18 a unit) \u2014 a flagged play.",
+            "The market's total is 49.5 against the model's 58.2: the over (67%, expected return +0.27) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -2 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Baylor margin",
+              "+14.3",
+              "+20.25",
+              {
+                "v": "-6.0 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "58.2",
+              "49.5",
+              {
+                "v": "+8.7 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Louisiana Tech to win",
+              "15%"
+            ],
+            [
+              "Baylor to win",
+              "85%"
+            ],
+            [
+              "\u2605 Louisiana Tech +20.25",
+              "62%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "67%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858231": {
+      "title": "Stanford @ Duke",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 4:00PM ET",
+      "away": {
+        "name": "Stanford"
+      },
+      "home": {
+        "name": "Duke"
+      },
+      "score": {
+        "away": "21.3",
+        "home": "32.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2068,
+        "home": 0.7932,
+        "note": "Fair odds: Stanford +384, Duke -384 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Stanford 21.3 \u2013 Duke 32.8: Duke by 11.5. That makes Duke 79% to win.",
+            "The market expects Duke by 10.0, the model Duke by 11.5. Against the spread it takes Duke -10 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 50.75 against the model's 54.1: the over (54%, expected return +0.03) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Duke margin",
+              "+11.5",
+              "+10",
+              "+1.5"
+            ],
+            [
+              "Total",
+              "54.1",
+              "50.75",
+              {
+                "v": "+3.4 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Stanford to win",
+              "21%"
+            ],
+            [
+              "Duke to win",
+              "79%"
+            ],
+            [
+              "Duke -10",
+              "52%"
+            ],
+            [
+              "\u2605 Over 50.75",
+              "54%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858449": {
+      "title": "Western Kentucky @ Indiana",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 4:00PM ET",
+      "away": {
+        "name": "Western Kentucky"
+      },
+      "home": {
+        "name": "Indiana"
+      },
+      "score": {
+        "away": "12.4",
+        "home": "45.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0095,
+        "home": 0.9905,
+        "note": "Fair odds: Western Kentucky +10426, Indiana -10426 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Western Kentucky 12.4 \u2013 Indiana 45.1: Indiana by 32.7. That makes Indiana 99% to win.",
+            "The market expects Indiana by 44.5, the model Indiana by 32.7. Against the spread it takes Western Kentucky +44.5 (77% to cover, expected return +0.47 a unit).",
+            "The market's total is 60.75 against the model's 57.4: the under (62%, expected return +0.18) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Indiana margin",
+              "+32.7",
+              "+44.5",
+              "-11.8"
+            ],
+            [
+              "Total",
+              "57.4",
+              "60.75",
+              {
+                "v": "-3.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Western Kentucky to win",
+              "1%"
+            ],
+            [
+              "Indiana to win",
+              "99%"
+            ],
+            [
+              "Western Kentucky +44.5",
+              "77%"
+            ],
+            [
+              "\u2605 Under 60.75",
+              "62%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858471": {
+      "title": "Northern Iowa @ Iowa",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 4:00PM ET",
+      "away": {
+        "name": "Northern Iowa"
+      },
+      "home": {
+        "name": "Iowa"
+      },
+      "score": {
+        "away": "7.5",
+        "home": "49.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Northern Iowa +19900, Iowa -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Northern Iowa 7.5 \u2013 Iowa 49.9: Iowa by 42.4. That makes Iowa 100% to win.",
+            "The market expects Iowa by 40.5, the model Iowa by 42.5. Against the spread it takes Iowa -40.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 49.5 against the model's 57.4: the over (65%, expected return +0.24) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Iowa margin",
+              "+42.5",
+              "+40.5",
+              "+2.0"
+            ],
+            [
+              "Total",
+              "57.4",
+              "49.5",
+              {
+                "v": "+7.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Northern Iowa to win",
+              "0%"
+            ],
+            [
+              "Iowa to win",
+              "100%"
+            ],
+            [
+              "Iowa -40.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "65%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401866422": {
+      "title": "Ball State @ Liberty",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 4:00PM ET",
+      "away": {
+        "name": "Ball State"
+      },
+      "home": {
+        "name": "Liberty"
+      },
+      "score": {
+        "away": "20.0",
+        "home": "30.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2068,
+        "home": 0.7932,
+        "note": "Fair odds: Ball State +384, Liberty -384 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Ball State 20.0 \u2013 Liberty 30.6: Liberty by 10.6. That makes Liberty 79% to win.",
+            "The market expects Liberty by 14.5, the model Liberty by 10.6. Against the spread it takes Ball State +14.5 (60% to cover, expected return +0.15 a unit) \u2014 a flagged play.",
+            "The market's total is 49.5 against the model's 50.6: the over (49%, expected return -0.07).",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Liberty margin",
+              "+10.6",
+              "+14.5",
+              {
+                "v": "-3.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "50.6",
+              "49.5",
+              "+1.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Ball State to win",
+              "21%"
+            ],
+            [
+              "Liberty to win",
+              "79%"
+            ],
+            [
+              "\u2605 Ball State +14.5",
+              "60%"
+            ],
+            [
+              "Over 49.5",
+              "49%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856691": {
+      "title": "Mississippi State @ South Carolina",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 4:15PM ET",
+      "away": {
+        "name": "Mississippi State"
+      },
+      "home": {
+        "name": "South Carolina"
+      },
+      "score": {
+        "away": "25.3",
+        "home": "28.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4553,
+        "home": 0.5447,
+        "note": "Fair odds: Mississippi State +120, South Carolina -120 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Mississippi State 25.3 \u2013 South Carolina 28.5: South Carolina by 3.2. That makes South Carolina 54% to win.",
+            "The market expects South Carolina by 3.8, the model South Carolina by 3.2. Against the spread it takes Mississippi State +3.75 (51% to cover, expected return -0.03 a unit).",
+            "The market's total is 58.75 against the model's 53.8: the under (65%, expected return +0.24) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +1.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "South Carolina margin",
+              "+3.2",
+              "+3.75",
+              "-0.6"
+            ],
+            [
+              "Total",
+              "53.8",
+              "58.75",
+              {
+                "v": "-4.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Mississippi State to win",
+              "46%"
+            ],
+            [
+              "South Carolina to win",
+              "54%"
+            ],
+            [
+              "Mississippi State +3.75",
+              "51%"
+            ],
+            [
+              "\u2605 Under 58.75",
+              "65%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401868317": {
+      "title": "SE Louisiana @ UL Monroe",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 4:30PM ET",
+      "away": {
+        "name": "SE Louisiana"
+      },
+      "home": {
+        "name": "UL Monroe"
+      },
+      "score": {
+        "away": "16.7",
+        "home": "39.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0781,
+        "home": 0.9219,
+        "note": "Fair odds: SE Louisiana +1180, UL Monroe -1180 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects SE Louisiana 16.7 \u2013 UL Monroe 39.9: UL Monroe by 23.2. That makes UL Monroe 92% to win.",
+            "The market expects UL Monroe by 10.5, the model UL Monroe by 23.2. Against the spread it takes UL Monroe -10.5 (83% to cover, expected return +0.58 a unit) \u2014 a flagged play.",
+            "The market's total is 48.5 against the model's 56.5: the over (65%, expected return +0.24) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "UL Monroe margin",
+              "+23.2",
+              "+10.5",
+              {
+                "v": "+12.7 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "56.5",
+              "48.5",
+              {
+                "v": "+8.0 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "SE Louisiana to win",
+              "8%"
+            ],
+            [
+              "UL Monroe to win",
+              "92%"
+            ],
+            [
+              "\u2605 UL Monroe -10.5",
+              "83%"
+            ],
+            [
+              "\u2605 Over 48.5",
+              "65%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862771": {
+      "title": "Florida International @ Florida Atlantic",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 6:00PM ET",
+      "away": {
+        "name": "Florida International"
+      },
+      "home": {
+        "name": "Florida Atlantic"
+      },
+      "score": {
+        "away": "28.9",
+        "home": "33.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.3987,
+        "home": 0.6013,
+        "note": "Fair odds: Florida International +151, Florida Atlantic -151 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Florida International 28.9 \u2013 Florida Atlantic 33.9: Florida Atlantic by 5.0. That makes Florida Atlantic 60% to win.",
+            "The market expects Florida Atlantic by 6.5, the model Florida Atlantic by 5.0. Against the spread it takes Florida International +6.5 (55% to cover, expected return +0.05 a unit).",
+            "The market's total is 62.25 against the model's 62.8: the over (47%, expected return -0.10).",
+            "Market: 2 books, in agreement; the line has moved +0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Florida Atlantic margin",
+              "+5.0",
+              "+6.5",
+              "-1.5"
+            ],
+            [
+              "Total",
+              "62.8",
+              "62.25",
+              "+0.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Florida International to win",
+              "40%"
+            ],
+            [
+              "Florida Atlantic to win",
+              "60%"
+            ],
+            [
+              "Florida International +6.5",
+              "55%"
+            ],
+            [
+              "Over 62.25",
+              "47%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862710": {
+      "title": "East Carolina @ Old Dominion",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 6:00PM ET",
+      "away": {
+        "name": "East Carolina"
+      },
+      "home": {
+        "name": "Old Dominion"
+      },
+      "score": {
+        "away": "25.8",
+        "home": "27.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.482,
+        "home": 0.518,
+        "note": "Fair odds: East Carolina +107, Old Dominion -107 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects East Carolina 25.8 \u2013 Old Dominion 27.3: Old Dominion by 1.5. That makes Old Dominion 52% to win.",
+            "The market expects Old Dominion by 3.0, the model Old Dominion by 1.5. Against the spread it takes East Carolina +3 (55% to cover, expected return +0.05 a unit).",
+            "The market's total is 48.75 against the model's 53.1: the over (56%, expected return +0.07) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Old Dominion margin",
+              "+1.5",
+              "+3",
+              "-1.5"
+            ],
+            [
+              "Total",
+              "53.1",
+              "48.75",
+              {
+                "v": "+4.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "East Carolina to win",
+              "48%"
+            ],
+            [
+              "Old Dominion to win",
+              "52%"
+            ],
+            [
+              "East Carolina +3",
+              "55%"
+            ],
+            [
+              "\u2605 Over 48.75",
+              "56%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401864574": {
+      "title": "Charlotte @ App State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 6:00PM ET",
+      "away": {
+        "name": "Charlotte"
+      },
+      "home": {
+        "name": "App State"
+      },
+      "score": {
+        "away": "21.5",
+        "home": "34.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1731,
+        "home": 0.8269,
+        "note": "Fair odds: Charlotte +478, App State -478 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Charlotte 21.5 \u2013 App State 34.7: App State by 13.2. That makes App State 83% to win.",
+            "The market expects App State by 17.2, the model App State by 13.2. Against the spread it takes Charlotte +17.25 (60% to cover, expected return +0.15 a unit) \u2014 a flagged play.",
+            "The market's total is 51.75 against the model's 56.3: the over (57%, expected return +0.08) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +2.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "App State margin",
+              "+13.2",
+              "+17.25",
+              {
+                "v": "-4.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "56.3",
+              "51.75",
+              {
+                "v": "+4.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Charlotte to win",
+              "17%"
+            ],
+            [
+              "App State to win",
+              "83%"
+            ],
+            [
+              "\u2605 Charlotte +17.25",
+              "60%"
+            ],
+            [
+              "\u2605 Over 51.75",
+              "57%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401871047": {
+      "title": "Marshall @ Missouri State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 6:30PM ET",
+      "away": {
+        "name": "Marshall"
+      },
+      "home": {
+        "name": "Missouri State"
+      },
+      "score": {
+        "away": "30.2",
+        "home": "24.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6163,
+        "home": 0.3837,
+        "note": "Fair odds: Marshall -161, Missouri State +161 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Marshall 30.2 \u2013 Missouri State 24.0: Marshall by 6.2. That makes Marshall 62% to win.",
+            "The market expects Marshall by 4.0, the model Marshall by 6.1. Against the spread it takes Marshall -4 (55% to cover, expected return +0.05 a unit) \u2014 a flagged play.",
+            "The market's total is 53.25 against the model's 54.2: the over (48%, expected return -0.08).",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Missouri State margin",
+              "-6.1",
+              "-4",
+              {
+                "v": "-2.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "54.2",
+              "53.25",
+              "+1.0"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Marshall to win",
+              "62%"
+            ],
+            [
+              "Missouri State to win",
+              "38%"
+            ],
+            [
+              "\u2605 Marshall -4",
+              "55%"
+            ],
+            [
+              "Over 53.25",
+              "48%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856803": {
+      "title": "Murray State @ Oklahoma State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Murray State"
+      },
+      "home": {
+        "name": "Oklahoma State"
+      },
+      "score": {
+        "away": "12.7",
+        "home": "46.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.007,
+        "home": 0.993,
+        "note": "Fair odds: Murray State +14186, Oklahoma State -14186 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Murray State 12.7 \u2013 Oklahoma State 46.9: Oklahoma State by 34.2. That makes Oklahoma State 99% to win.",
+            "The market expects Oklahoma State by 56.5, the model Oklahoma State by 34.1. Against the spread it takes Murray State +56.5 (88% to cover, expected return +0.68 a unit).",
+            "The market's total is 70.5 against the model's 59.6: the under (77%, expected return +0.47) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Oklahoma State margin",
+              "+34.1",
+              "+56.5",
+              "-22.4"
+            ],
+            [
+              "Total",
+              "59.6",
+              "70.5",
+              {
+                "v": "-10.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Murray State to win",
+              "1%"
+            ],
+            [
+              "Oklahoma State to win",
+              "99%"
+            ],
+            [
+              "Murray State +56.5",
+              "88%"
+            ],
+            [
+              "\u2605 Under 70.5",
+              "77%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401869948": {
+      "title": "Georgia Southern @ Jacksonville State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Georgia Southern"
+      },
+      "home": {
+        "name": "Jacksonville State"
+      },
+      "score": {
+        "away": "22.2",
+        "home": "30.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2734,
+        "home": 0.7266,
+        "note": "Fair odds: Georgia Southern +266, Jacksonville State -266 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Georgia Southern 22.2 \u2013 Jacksonville State 30.4: Jacksonville State by 8.2. That makes Jacksonville State 73% to win.",
+            "The market expects Jacksonville State by 3.2, the model Jacksonville State by 8.2. Against the spread it takes Jacksonville State -3.25 (60% to cover, expected return +0.15 a unit) \u2014 a flagged play.",
+            "The market's total is 52.75 against the model's 52.5: the under (55%, expected return +0.04).",
+            "Market: 2 books, 0.25 points apart; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Jacksonville State margin",
+              "+8.2",
+              "+3.25",
+              {
+                "v": "+4.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "52.5",
+              "52.75",
+              "-0.2"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Georgia Southern to win",
+              "27%"
+            ],
+            [
+              "Jacksonville State to win",
+              "73%"
+            ],
+            [
+              "\u2605 Jacksonville State -3.25",
+              "60%"
+            ],
+            [
+              "Under 52.75",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401864443": {
+      "title": "Nevada @ Middle Tennessee",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Nevada"
+      },
+      "home": {
+        "name": "Middle Tennessee"
+      },
+      "score": {
+        "away": "23.4",
+        "home": "27.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4035,
+        "home": 0.5965,
+        "note": "Fair odds: Nevada +148, Middle Tennessee -148 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Nevada 23.4 \u2013 Middle Tennessee 27.3: Middle Tennessee by 3.9. That makes Middle Tennessee 60% to win.",
+            "The market expects Nevada by 3.8, the model Middle Tennessee by 3.9. Against the spread it takes Middle Tennessee +3.75 (73% to cover, expected return +0.39 a unit) \u2014 a flagged play.",
+            "The market's total is 50.5 against the model's 50.8: the over (47%, expected return -0.11).",
+            "Market: 2 books, 0.25 points apart; the line has moved -2.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Middle Tennessee margin",
+              "+3.9",
+              "-3.75",
+              {
+                "v": "+7.6 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "50.8",
+              "50.5",
+              "+0.3"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Nevada to win",
+              "40%"
+            ],
+            [
+              "Middle Tennessee to win",
+              "60%"
+            ],
+            [
+              "\u2605 Middle Tennessee +3.75",
+              "73%"
+            ],
+            [
+              "Over 50.5",
+              "47%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862777": {
+      "title": "Delaware State @ South Florida",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Delaware State"
+      },
+      "home": {
+        "name": "South Florida"
+      },
+      "score": {
+        "away": "8.7",
+        "home": "54.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Delaware State +19900, South Florida -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Delaware State 8.7 \u2013 South Florida 54.2: South Florida by 45.5. That makes South Florida 100% to win.",
+            "The market expects South Florida by 36.5, the model South Florida by 45.5. Against the spread it takes South Florida -36.5 (73% to cover, expected return +0.39 a unit).",
+            "The market's total is 61.5 against the model's 62.9: the over (49%, expected return -0.06).",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "South Florida margin",
+              "+45.5",
+              "+36.5",
+              "+9.0"
+            ],
+            [
+              "Total",
+              "62.9",
+              "61.5",
+              "+1.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Delaware State to win",
+              "0%"
+            ],
+            [
+              "South Florida to win",
+              "100%"
+            ],
+            [
+              "South Florida -36.5",
+              "73%"
+            ],
+            [
+              "Over 61.5",
+              "49%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862773": {
+      "title": "Western Michigan @ Rice",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Western Michigan"
+      },
+      "home": {
+        "name": "Rice"
+      },
+      "score": {
+        "away": "29.7",
+        "home": "23.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6163,
+        "home": 0.3837,
+        "note": "Fair odds: Western Michigan -161, Rice +161 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Western Michigan 29.7 \u2013 Rice 23.2: Western Michigan by 6.5. That makes Western Michigan 62% to win.",
+            "The market expects Western Michigan by 9.5, the model Western Michigan by 6.5. Against the spread it takes Rice +9.5 (54% to cover, expected return +0.04 a unit) \u2014 a flagged play.",
+            "The market's total is 43.5 against the model's 53.0: the over (68%, expected return +0.30) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -2.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Rice margin",
+              "-6.5",
+              "-9.5",
+              {
+                "v": "+3.0 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "53.0",
+              "43.5",
+              {
+                "v": "+9.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Western Michigan to win",
+              "62%"
+            ],
+            [
+              "Rice to win",
+              "38%"
+            ],
+            [
+              "\u2605 Rice +9.5",
+              "54%"
+            ],
+            [
+              "\u2605 Over 43.5",
+              "68%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862772": {
+      "title": "UT Martin @ Memphis",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "UT Martin"
+      },
+      "home": {
+        "name": "Memphis"
+      },
+      "score": {
+        "away": "11.1",
+        "home": "49.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: UT Martin +19900, Memphis -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects UT Martin 11.1 \u2013 Memphis 49.7: Memphis by 38.6. That makes Memphis 100% to win.",
+            "The market expects Memphis by 34.5, the model Memphis by 38.6. Against the spread it takes Memphis -34.5 (60% to cover, expected return +0.14 a unit).",
+            "The market's total is 57.5 against the model's 60.8: the over (54%, expected return +0.03) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Memphis margin",
+              "+38.6",
+              "+34.5",
+              "+4.1"
+            ],
+            [
+              "Total",
+              "60.8",
+              "57.5",
+              {
+                "v": "+3.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "UT Martin to win",
+              "0%"
+            ],
+            [
+              "Memphis to win",
+              "100%"
+            ],
+            [
+              "Memphis -34.5",
+              "60%"
+            ],
+            [
+              "\u2605 Over 57.5",
+              "54%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856689": {
+      "title": "Troy @ Missouri",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Troy"
+      },
+      "home": {
+        "name": "Missouri"
+      },
+      "score": {
+        "away": "15.1",
+        "home": "39.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0635,
+        "home": 0.9365,
+        "note": "Fair odds: Troy +1475, Missouri -1475 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Troy 15.1 \u2013 Missouri 39.8: Missouri by 24.7. That makes Missouri 94% to win.",
+            "The market expects Missouri by 27.2, the model Missouri by 24.7. Against the spread it takes Troy +27.25 (56% to cover, expected return +0.07 a unit) \u2014 a flagged play.",
+            "The market's total is 50.5 against the model's 54.9: the over (57%, expected return +0.08) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Missouri margin",
+              "+24.7",
+              "+27.25",
+              {
+                "v": "-2.6 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "54.9",
+              "50.5",
+              {
+                "v": "+4.4 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Troy to win",
+              "6%"
+            ],
+            [
+              "Missouri to win",
+              "94%"
+            ],
+            [
+              "\u2605 Troy +27.25",
+              "56%"
+            ],
+            [
+              "\u2605 Over 50.5",
+              "57%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856687": {
+      "title": "Florida @ Auburn",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Florida"
+      },
+      "home": {
+        "name": "Auburn"
+      },
+      "score": {
+        "away": "27.0",
+        "home": "25.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.5478,
+        "home": 0.4522,
+        "note": "Fair odds: Florida -121, Auburn +121 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Florida 27.0 \u2013 Auburn 25.5: Florida by 1.5. That makes Florida 55% to win.",
+            "The market expects Florida by 2.2, the model Florida by 1.5. Against the spread it takes Auburn +2.25 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 53.25 against the model's 52.5: the under (56%, expected return +0.07).",
+            "Market: 2 books, 0.25 points apart; the line has moved +1.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Auburn margin",
+              "-1.5",
+              "-2.25",
+              "+0.8"
+            ],
+            [
+              "Total",
+              "52.5",
+              "53.25",
+              "-0.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Florida to win",
+              "55%"
+            ],
+            [
+              "Auburn to win",
+              "45%"
+            ],
+            [
+              "Auburn +2.25",
+              "52%"
+            ],
+            [
+              "Under 53.25",
+              "56%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856800": {
+      "title": "Georgia State @ UCF",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Georgia State"
+      },
+      "home": {
+        "name": "UCF"
+      },
+      "score": {
+        "away": "20.4",
+        "home": "34.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: Georgia State +546, UCF -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Georgia State 20.4 \u2013 UCF 34.6: UCF by 14.2. That makes UCF 85% to win.",
+            "The market expects UCF by 17.5, the model UCF by 14.2. Against the spread it takes Georgia State +17.5 (59% to cover, expected return +0.12 a unit) \u2014 a flagged play.",
+            "The market's total is 49.75 against the model's 55.0: the over (59%, expected return +0.12) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +3.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "UCF margin",
+              "+14.2",
+              "+17.5",
+              {
+                "v": "-3.3 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.0",
+              "49.75",
+              {
+                "v": "+5.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Georgia State to win",
+              "15%"
+            ],
+            [
+              "UCF to win",
+              "85%"
+            ],
+            [
+              "\u2605 Georgia State +17.5",
+              "59%"
+            ],
+            [
+              "\u2605 Over 49.75",
+              "59%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401866423": {
+      "title": "Ohio @ South Alabama",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Ohio"
+      },
+      "home": {
+        "name": "South Alabama"
+      },
+      "score": {
+        "away": "25.7",
+        "home": "29.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4035,
+        "home": 0.5965,
+        "note": "Fair odds: Ohio +148, South Alabama -148 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Ohio 25.7 \u2013 South Alabama 29.8: South Alabama by 4.1. That makes South Alabama 60% to win.",
+            "The market expects South Alabama by 6.8, the model South Alabama by 4.1. Against the spread it takes Ohio +6.75 (56% to cover, expected return +0.07 a unit) \u2014 a flagged play.",
+            "The market's total is 49 against the model's 55.5: the over (61%, expected return +0.17) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -3 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "South Alabama margin",
+              "+4.1",
+              "+6.75",
+              {
+                "v": "-2.6 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.5",
+              "49",
+              {
+                "v": "+6.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Ohio to win",
+              "40%"
+            ],
+            [
+              "South Alabama to win",
+              "60%"
+            ],
+            [
+              "\u2605 Ohio +6.75",
+              "56%"
+            ],
+            [
+              "\u2605 Over 49",
+              "61%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401870764": {
+      "title": "Nicholls @ Sam Houston",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "Nicholls"
+      },
+      "home": {
+        "name": "Sam Houston"
+      },
+      "score": {
+        "away": "17.5",
+        "home": "42.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0635,
+        "home": 0.9365,
+        "note": "Fair odds: Nicholls +1475, Sam Houston -1475 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Nicholls 17.5 \u2013 Sam Houston 42.1: Sam Houston by 24.6. That makes Sam Houston 94% to win.",
+            "The market expects Sam Houston by 17.5, the model Sam Houston by 24.6. Against the spread it takes Sam Houston -17.5 (70% to cover, expected return +0.35 a unit) \u2014 a flagged play.",
+            "The market's total is 49.5 against the model's 59.6: the over (70%, expected return +0.33) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Sam Houston margin",
+              "+24.6",
+              "+17.5",
+              {
+                "v": "+7.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "59.6",
+              "49.5",
+              {
+                "v": "+10.1 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Nicholls to win",
+              "6%"
+            ],
+            [
+              "Sam Houston to win",
+              "94%"
+            ],
+            [
+              "\u2605 Sam Houston -17.5",
+              "70%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "70%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401861963": {
+      "title": "UConn @ Southern Miss",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:00PM ET",
+      "away": {
+        "name": "UConn"
+      },
+      "home": {
+        "name": "Southern Miss"
+      },
+      "score": {
+        "away": "24.8",
+        "home": "33.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2734,
+        "home": 0.7266,
+        "note": "Fair odds: UConn +266, Southern Miss -266 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects UConn 24.8 \u2013 Southern Miss 33.8: Southern Miss by 9.0. That makes Southern Miss 73% to win.",
+            "The market expects UConn by 3.0, the model Southern Miss by 9.0. Against the spread it takes Southern Miss +3 (79% to cover, expected return +0.51 a unit) \u2014 a flagged play.",
+            "The market's total is 54.5 against the model's 58.6: the over (56%, expected return +0.06) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Southern Miss margin",
+              "+9.0",
+              "-3",
+              {
+                "v": "+12.0 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "58.6",
+              "54.5",
+              {
+                "v": "+4.1 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "UConn to win",
+              "27%"
+            ],
+            [
+              "Southern Miss to win",
+              "73%"
+            ],
+            [
+              "\u2605 Southern Miss +3",
+              "79%"
+            ],
+            [
+              "\u2605 Over 54.5",
+              "56%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858459": {
+      "title": "Eastern Washington @ Washington",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:15PM ET",
+      "away": {
+        "name": "Eastern Washington"
+      },
+      "home": {
+        "name": "Washington"
+      },
+      "score": {
+        "away": "8.0",
+        "home": "52.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: Eastern Washington +19900, Washington -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Eastern Washington 8.0 \u2013 Washington 52.4: Washington by 44.4. That makes Washington 100% to win.",
+            "The market expects Washington by 42.5, the model Washington by 44.4. Against the spread it takes Washington -42.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 56.5 against the model's 60.4: the over (55%, expected return +0.05) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Washington margin",
+              "+44.4",
+              "+42.5",
+              "+1.9"
+            ],
+            [
+              "Total",
+              "60.4",
+              "56.5",
+              {
+                "v": "+3.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Eastern Washington to win",
+              "0%"
+            ],
+            [
+              "Washington to win",
+              "100%"
+            ],
+            [
+              "Washington -42.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 56.5",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858452": {
+      "title": "North Dakota @ Nebraska",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:15PM ET",
+      "away": {
+        "name": "North Dakota"
+      },
+      "home": {
+        "name": "Nebraska"
+      },
+      "score": {
+        "away": "13.2",
+        "home": "48.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: North Dakota +19900, Nebraska -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects North Dakota 13.2 \u2013 Nebraska 48.6: Nebraska by 35.4. That makes Nebraska 100% to win.",
+            "The market expects Nebraska by 24.5, the model Nebraska by 35.4. Against the spread it takes Nebraska -24.5 (79% to cover, expected return +0.51 a unit) \u2014 a flagged play.",
+            "The market's total is 51.5 against the model's 61.8: the over (70%, expected return +0.34) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Nebraska margin",
+              "+35.4",
+              "+24.5",
+              {
+                "v": "+10.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "61.8",
+              "51.5",
+              {
+                "v": "+10.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "North Dakota to win",
+              "0%"
+            ],
+            [
+              "Nebraska to win",
+              "100%"
+            ],
+            [
+              "\u2605 Nebraska -24.5",
+              "79%"
+            ],
+            [
+              "\u2605 Over 51.5",
+              "70%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858453": {
+      "title": "Michigan State @ Notre Dame",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:30PM ET",
+      "away": {
+        "name": "Michigan State"
+      },
+      "home": {
+        "name": "Notre Dame"
+      },
+      "score": {
+        "away": "17.4",
+        "home": "40.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0854,
+        "home": 0.9146,
+        "note": "Fair odds: Michigan State +1071, Notre Dame -1071 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Michigan State 17.4 \u2013 Notre Dame 40.3: Notre Dame by 22.9. That makes Notre Dame 91% to win.",
+            "The market expects Notre Dame by 29.8, the model Notre Dame by 22.9. Against the spread it takes Michigan State +29.75 (62% to cover, expected return +0.18 a unit).",
+            "The market's total is 51.75 against the model's 57.8: the over (60%, expected return +0.15) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Notre Dame margin",
+              "+22.9",
+              "+29.75",
+              "-6.9"
+            ],
+            [
+              "Total",
+              "57.8",
+              "51.75",
+              {
+                "v": "+6.0 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Michigan State to win",
+              "9%"
+            ],
+            [
+              "Notre Dame to win",
+              "91%"
+            ],
+            [
+              "Michigan State +29.75",
+              "62%"
+            ],
+            [
+              "\u2605 Over 51.75",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856796": {
+      "title": "Colorado @ Northwestern",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:30PM ET",
+      "away": {
+        "name": "Colorado"
+      },
+      "home": {
+        "name": "Northwestern"
+      },
+      "score": {
+        "away": "20.5",
+        "home": "29.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2734,
+        "home": 0.7266,
+        "note": "Fair odds: Colorado +266, Northwestern -266 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Colorado 20.5 \u2013 Northwestern 29.1: Northwestern by 8.6. That makes Northwestern 73% to win.",
+            "The market expects Northwestern by 3.5, the model Northwestern by 8.6. Against the spread it takes Northwestern -3.5 (60% to cover, expected return +0.15 a unit) \u2014 a flagged play.",
+            "The market's total is 47.75 against the model's 49.6: the over (50%, expected return -0.04).",
+            "Market: 2 books, in agreement; the line has moved +1 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Northwestern margin",
+              "+8.6",
+              "+3.5",
+              {
+                "v": "+5.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "49.6",
+              "47.75",
+              "+1.9"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Colorado to win",
+              "27%"
+            ],
+            [
+              "Northwestern to win",
+              "73%"
+            ],
+            [
+              "\u2605 Northwestern -3.5",
+              "60%"
+            ],
+            [
+              "Over 47.75",
+              "50%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858232": {
+      "title": "Virginia Tech @ Maryland",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:30PM ET",
+      "away": {
+        "name": "Virginia Tech"
+      },
+      "home": {
+        "name": "Maryland"
+      },
+      "score": {
+        "away": "22.6",
+        "home": "31.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2734,
+        "home": 0.7266,
+        "note": "Fair odds: Virginia Tech +266, Maryland -266 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Virginia Tech 22.6 \u2013 Maryland 31.8: Maryland by 9.2. That makes Maryland 73% to win.",
+            "The market expects Virginia Tech by 3.0, the model Maryland by 9.2. Against the spread it takes Maryland +3 (79% to cover, expected return +0.51 a unit) \u2014 a flagged play.",
+            "The market's total is 53.5 against the model's 54.4: the over (48%, expected return -0.08).",
+            "Market: 2 books, in agreement; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Maryland margin",
+              "+9.2",
+              "-3",
+              {
+                "v": "+12.2 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "54.4",
+              "53.5",
+              "+0.9"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Virginia Tech to win",
+              "27%"
+            ],
+            [
+              "Maryland to win",
+              "73%"
+            ],
+            [
+              "\u2605 Maryland +3",
+              "79%"
+            ],
+            [
+              "Over 53.5",
+              "48%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856688": {
+      "title": "LSU @ Ole Miss",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:30PM ET",
+      "away": {
+        "name": "LSU"
+      },
+      "home": {
+        "name": "Ole Miss"
+      },
+      "score": {
+        "away": "25.6",
+        "home": "33.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2734,
+        "home": 0.7266,
+        "note": "Fair odds: LSU +266, Ole Miss -266 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects LSU 25.6 \u2013 Ole Miss 33.3: Ole Miss by 7.7. That makes Ole Miss 73% to win.",
+            "The market expects LSU by 3.0, the model Ole Miss by 7.7. Against the spread it takes Ole Miss +3 (79% to cover, expected return +0.51 a unit) \u2014 a flagged play.",
+            "The market's total is 58.5 against the model's 58.9: the over (47%, expected return -0.10).",
+            "Market: 2 books, in agreement; the line has moved +2.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Ole Miss margin",
+              "+7.7",
+              "-3",
+              {
+                "v": "+10.7 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "58.9",
+              "58.5",
+              "+0.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "LSU to win",
+              "27%"
+            ],
+            [
+              "Ole Miss to win",
+              "73%"
+            ],
+            [
+              "\u2605 Ole Miss +3",
+              "79%"
+            ],
+            [
+              "Over 58.5",
+              "47%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856795": {
+      "title": "BYU @ Colorado State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:30PM ET",
+      "away": {
+        "name": "BYU"
+      },
+      "home": {
+        "name": "Colorado State"
+      },
+      "score": {
+        "away": "37.0",
+        "home": "19.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.8529,
+        "home": 0.1471,
+        "note": "Fair odds: BYU -580, Colorado State +580 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects BYU 37.0 \u2013 Colorado State 19.5: BYU by 17.5. That makes BYU 85% to win.",
+            "The market expects BYU by 17.5, the model BYU by 17.5. Against the spread it takes Colorado State +17.5 (49% to cover, expected return -0.06 a unit).",
+            "The market's total is 52.5 against the model's 56.6: the over (56%, expected return +0.06) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -2 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Colorado State margin",
+              "-17.5",
+              "-17.5",
+              "+0.0"
+            ],
+            [
+              "Total",
+              "56.6",
+              "52.5",
+              {
+                "v": "+4.1 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "BYU to win",
+              "85%"
+            ],
+            [
+              "Colorado State to win",
+              "15%"
+            ],
+            [
+              "Colorado State +17.5",
+              "49%"
+            ],
+            [
+              "\u2605 Over 52.5",
+              "56%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856690": {
+      "title": "New Mexico @ Oklahoma",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:30PM ET",
+      "away": {
+        "name": "New Mexico"
+      },
+      "home": {
+        "name": "Oklahoma"
+      },
+      "score": {
+        "away": "17.5",
+        "home": "36.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1549,
+        "home": 0.8451,
+        "note": "Fair odds: New Mexico +546, Oklahoma -546 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects New Mexico 17.5 \u2013 Oklahoma 36.1: Oklahoma by 18.6. That makes Oklahoma 85% to win.",
+            "The market expects Oklahoma by 21.8, the model Oklahoma by 18.6. Against the spread it takes New Mexico +21.75 (59% to cover, expected return +0.12 a unit) \u2014 a flagged play.",
+            "The market's total is 46 against the model's 53.5: the over (64%, expected return +0.22) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +1.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Oklahoma margin",
+              "+18.6",
+              "+21.75",
+              {
+                "v": "-3.2 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "53.5",
+              "46",
+              {
+                "v": "+7.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "New Mexico to win",
+              "15%"
+            ],
+            [
+              "Oklahoma to win",
+              "85%"
+            ],
+            [
+              "\u2605 New Mexico +21.75",
+              "59%"
+            ],
+            [
+              "\u2605 Over 46",
+              "64%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856802": {
+      "title": "West Virginia vs Virginia",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:30PM ET \u00b7 neutral site",
+      "away": {
+        "name": "West Virginia"
+      },
+      "home": {
+        "name": "Virginia"
+      },
+      "score": {
+        "away": "25.9",
+        "home": "31.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.3462,
+        "home": 0.6538,
+        "note": "Fair odds: West Virginia +189, Virginia -189 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects West Virginia 25.9 \u2013 Virginia 31.4: Virginia by 5.5 on a neutral field. That makes Virginia 65% to win.",
+            "The market expects Virginia by 10.5, the model Virginia by 5.6. Against the spread it takes West Virginia +10.5 (62% to cover, expected return +0.18 a unit) \u2014 a flagged play.",
+            "The market's total is 53.5 against the model's 57.3: the over (55%, expected return +0.05) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Virginia margin",
+              "+5.6",
+              "+10.5",
+              {
+                "v": "-4.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "57.3",
+              "53.5",
+              {
+                "v": "+3.8 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "West Virginia to win",
+              "35%"
+            ],
+            [
+              "Virginia to win",
+              "65%"
+            ],
+            [
+              "\u2605 West Virginia +10.5",
+              "62%"
+            ],
+            [
+              "\u2605 Over 53.5",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856692": {
+      "title": "Kennesaw State @ Tennessee",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 7:45PM ET",
+      "away": {
+        "name": "Kennesaw State"
+      },
+      "home": {
+        "name": "Tennessee"
+      },
+      "score": {
+        "away": "13.6",
+        "home": "44.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0311,
+        "home": 0.9689,
+        "note": "Fair odds: Kennesaw State +3115, Tennessee -3115 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Kennesaw State 13.6 \u2013 Tennessee 44.5: Tennessee by 30.9. That makes Tennessee 97% to win.",
+            "The market expects Tennessee by 35.5, the model Tennessee by 30.9. Against the spread it takes Kennesaw State +35.5 (61% to cover, expected return +0.16 a unit).",
+            "The market's total is 60.25 against the model's 58.1: the under (59%, expected return +0.13).",
+            "Market: 2 books, in agreement; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Tennessee margin",
+              "+30.9",
+              "+35.5",
+              "-4.6"
+            ],
+            [
+              "Total",
+              "58.1",
+              "60.25",
+              "-2.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Kennesaw State to win",
+              "3%"
+            ],
+            [
+              "Tennessee to win",
+              "97%"
+            ],
+            [
+              "Kennesaw State +35.5",
+              "61%"
+            ],
+            [
+              "Under 60.25",
+              "59%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856693": {
+      "title": "UTSA @ Texas",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 8:00PM ET",
+      "away": {
+        "name": "UTSA"
+      },
+      "home": {
+        "name": "Texas"
+      },
+      "score": {
+        "away": "16.8",
+        "home": "38.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0881,
+        "home": 0.9119,
+        "note": "Fair odds: UTSA +1035, Texas -1035 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects UTSA 16.8 \u2013 Texas 38.6: Texas by 21.8. That makes Texas 91% to win.",
+            "The market expects Texas by 30.2, the model Texas by 21.8. Against the spread it takes UTSA +30.25 (68% to cover, expected return +0.30 a unit).",
+            "The market's total is 58.25 against the model's 55.5: the under (60%, expected return +0.15).",
+            "Market: 2 books, 0.25 points apart; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Texas margin",
+              "+21.8",
+              "+30.25",
+              "-8.5"
+            ],
+            [
+              "Total",
+              "55.5",
+              "58.25",
+              "-2.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "UTSA to win",
+              "9%"
+            ],
+            [
+              "Texas to win",
+              "91%"
+            ],
+            [
+              "UTSA +30.25",
+              "68%"
+            ],
+            [
+              "Under 58.25",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862775": {
+      "title": "East Texas A&M @ Tulsa",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 8:00PM ET",
+      "away": {
+        "name": "East Texas A&M"
+      },
+      "home": {
+        "name": "Tulsa"
+      },
+      "score": {
+        "away": "12.0",
+        "home": "48.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: East Texas A&M +19900, Tulsa -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects East Texas A&M 12.0 \u2013 Tulsa 48.5: Tulsa by 36.5. That makes Tulsa 100% to win.",
+            "The market expects Tulsa by 42.5, the model Tulsa by 36.5. Against the spread it takes East Texas A&M +42.5 (62% to cover, expected return +0.18 a unit).",
+            "The market's total is 56.5 against the model's 60.4: the over (55%, expected return +0.06) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Tulsa margin",
+              "+36.5",
+              "+42.5",
+              "-6.0"
+            ],
+            [
+              "Total",
+              "60.4",
+              "56.5",
+              {
+                "v": "+3.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "East Texas A&M to win",
+              "0%"
+            ],
+            [
+              "Tulsa to win",
+              "100%"
+            ],
+            [
+              "East Texas A&M +42.5",
+              "62%"
+            ],
+            [
+              "\u2605 Over 56.5",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401862776": {
+      "title": "UAB @ Louisiana",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 8:00PM ET",
+      "away": {
+        "name": "UAB"
+      },
+      "home": {
+        "name": "Louisiana"
+      },
+      "score": {
+        "away": "22.9",
+        "home": "31.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2734,
+        "home": 0.7266,
+        "note": "Fair odds: UAB +266, Louisiana -266 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects UAB 22.9 \u2013 Louisiana 31.4: Louisiana by 8.5. That makes Louisiana 73% to win.",
+            "The market expects Louisiana by 7.5, the model Louisiana by 8.5. Against the spread it takes Louisiana -7.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 55.25 against the model's 54.2: the under (56%, expected return +0.08).",
+            "Market: 2 books, in agreement; the line has moved +1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Louisiana margin",
+              "+8.5",
+              "+7.5",
+              "+1.0"
+            ],
+            [
+              "Total",
+              "54.2",
+              "55.25",
+              "-1.0"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "UAB to win",
+              "27%"
+            ],
+            [
+              "Louisiana to win",
+              "73%"
+            ],
+            [
+              "Louisiana -7.5",
+              "52%"
+            ],
+            [
+              "Under 55.25",
+              "56%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856799": {
+      "title": "Arkansas State @ TCU",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 8:00PM ET",
+      "away": {
+        "name": "Arkansas State"
+      },
+      "home": {
+        "name": "TCU"
+      },
+      "score": {
+        "away": "17.7",
+        "home": "37.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1135,
+        "home": 0.8865,
+        "note": "Fair odds: Arkansas State +781, TCU -781 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Arkansas State 17.7 \u2013 TCU 37.8: TCU by 20.1. That makes TCU 89% to win.",
+            "The market expects TCU by 18.8, the model TCU by 20.1. Against the spread it takes TCU -18.75 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 55.75 against the model's 55.5: the under (55%, expected return +0.04).",
+            "Market: 2 books, 0.25 points apart; the line has moved +1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "TCU margin",
+              "+20.1",
+              "+18.75",
+              "+1.4"
+            ],
+            [
+              "Total",
+              "55.5",
+              "55.75",
+              "-0.3"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Arkansas State to win",
+              "11%"
+            ],
+            [
+              "TCU to win",
+              "89%"
+            ],
+            [
+              "TCU -18.75",
+              "52%"
+            ],
+            [
+              "Under 55.75",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401860885": {
+      "title": "South Dakota @ Boise State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 10:00PM ET",
+      "away": {
+        "name": "South Dakota"
+      },
+      "home": {
+        "name": "Boise State"
+      },
+      "score": {
+        "away": "11.3",
+        "home": "50.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.005,
+        "home": 0.995,
+        "note": "Fair odds: South Dakota +19900, Boise State -19900 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects South Dakota 11.3 \u2013 Boise State 50.6: Boise State by 39.3. That makes Boise State 100% to win.",
+            "The market expects Boise State by 23.5, the model Boise State by 39.4. Against the spread it takes Boise State -23.5 (85% to cover, expected return +0.61 a unit) \u2014 a flagged play.",
+            "The market's total is 56.5 against the model's 61.9: the over (59%, expected return +0.13) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Boise State margin",
+              "+39.4",
+              "+23.5",
+              {
+                "v": "+15.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "61.9",
+              "56.5",
+              {
+                "v": "+5.4 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "South Dakota to win",
+              "0%"
+            ],
+            [
+              "Boise State to win",
+              "100%"
+            ],
+            [
+              "\u2605 Boise State -23.5",
+              "85%"
+            ],
+            [
+              "\u2605 Over 56.5",
+              "59%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401860887": {
+      "title": "James Madison @ San Diego State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 10:00PM ET",
+      "away": {
+        "name": "James Madison"
+      },
+      "home": {
+        "name": "San Diego State"
+      },
+      "score": {
+        "away": "27.2",
+        "home": "28.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.482,
+        "home": 0.518,
+        "note": "Fair odds: James Madison +107, San Diego State -107 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects James Madison 27.2 \u2013 San Diego State 28.3: San Diego State by 1.1. That makes San Diego State 52% to win.",
+            "The market expects San Diego State by 1.5, the model San Diego State by 1.0. Against the spread it takes James Madison +1.5 (51% to cover, expected return -0.03 a unit).",
+            "The market's total is 46.25 against the model's 55.5: the over (68%, expected return +0.29) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "San Diego State margin",
+              "+1.0",
+              "+1.5",
+              "-0.5"
+            ],
+            [
+              "Total",
+              "55.5",
+              "46.25",
+              {
+                "v": "+9.2 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "James Madison to win",
+              "48%"
+            ],
+            [
+              "San Diego State to win",
+              "52%"
+            ],
+            [
+              "James Madison +1.5",
+              "51%"
+            ],
+            [
+              "\u2605 Over 46.25",
+              "68%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401864507": {
+      "title": "North Dakota State @ Sacramento State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 10:30PM ET",
+      "away": {
+        "name": "North Dakota State"
+      },
+      "home": {
+        "name": "Sacramento State"
+      },
+      "score": {
+        "away": "30.5",
+        "home": "24.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6163,
+        "home": 0.3837,
+        "note": "Fair odds: North Dakota State -161, Sacramento State +161 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects North Dakota State 30.5 \u2013 Sacramento State 24.8: North Dakota State by 5.7. That makes North Dakota State 62% to win.",
+            "The market expects North Dakota State by 27.0, the model North Dakota State by 5.6. Against the spread it takes Sacramento State +27 (91% to cover, expected return +0.74 a unit) \u2014 a flagged play.",
+            "The market's total is 51 against the model's 55.3: the over (56%, expected return +0.08) \u2014 a flagged play.",
+            "Market: 2 books, 0.5 points apart; the line has moved +1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Sacramento State margin",
+              "-5.6",
+              "-27",
+              {
+                "v": "+21.4 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.3",
+              "51",
+              {
+                "v": "+4.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "North Dakota State to win",
+              "62%"
+            ],
+            [
+              "Sacramento State to win",
+              "38%"
+            ],
+            [
+              "\u2605 Sacramento State +27",
+              "91%"
+            ],
+            [
+              "\u2605 Over 51",
+              "56%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401856793": {
+      "title": "Northern Illinois @ Arizona",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 10:30PM ET",
+      "away": {
+        "name": "Northern Illinois"
+      },
+      "home": {
+        "name": "Arizona"
+      },
+      "score": {
+        "away": "11.8",
+        "home": "41.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0311,
+        "home": 0.9689,
+        "note": "Fair odds: Northern Illinois +3115, Arizona -3115 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Northern Illinois 11.8 \u2013 Arizona 41.0: Arizona by 29.2. That makes Arizona 97% to win.",
+            "The market expects Arizona by 33.8, the model Arizona by 29.2. Against the spread it takes Northern Illinois +33.75 (61% to cover, expected return +0.16 a unit).",
+            "The market's total is 50.25 against the model's 52.8: the over (52%, expected return -0.01).",
+            "Market: 2 books, 0.25 points apart; the line has moved +1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Arizona margin",
+              "+29.2",
+              "+33.75",
+              "-4.5"
+            ],
+            [
+              "Total",
+              "52.8",
+              "50.25",
+              "+2.5"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Northern Illinois to win",
+              "3%"
+            ],
+            [
+              "Arizona to win",
+              "97%"
+            ],
+            [
+              "Northern Illinois +33.75",
+              "61%"
+            ],
+            [
+              "Over 50.25",
+              "52%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401860886": {
+      "title": "Montana @ Oregon State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 11:00PM ET",
+      "away": {
+        "name": "Montana"
+      },
+      "home": {
+        "name": "Oregon State"
+      },
+      "score": {
+        "away": "15.7",
+        "home": "44.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.0311,
+        "home": 0.9689,
+        "note": "Fair odds: Montana +3115, Oregon State -3115 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Montana 15.7 \u2013 Oregon State 44.9: Oregon State by 29.2. That makes Oregon State 97% to win.",
+            "The market expects Oregon State by 17.5, the model Oregon State by 29.2. Against the spread it takes Oregon State -17.5 (79% to cover, expected return +0.51 a unit) \u2014 a flagged play.",
+            "The market's total is 52.5 against the model's 60.6: the over (65%, expected return +0.25) \u2014 a flagged play.",
+            "Market: 1 book, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Oregon State margin",
+              "+29.2",
+              "+17.5",
+              {
+                "v": "+11.7 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "60.6",
+              "52.5",
+              {
+                "v": "+8.1 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Montana to win",
+              "3%"
+            ],
+            [
+              "Oregon State to win",
+              "97%"
+            ],
+            [
+              "\u2605 Oregon State -17.5",
+              "79%"
+            ],
+            [
+              "\u2605 Over 52.5",
+              "65%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401858458": {
+      "title": "Purdue @ UCLA",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 11:00PM ET",
+      "away": {
+        "name": "Purdue"
+      },
+      "home": {
+        "name": "UCLA"
+      },
+      "score": {
+        "away": "21.2",
+        "home": "32.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2068,
+        "home": 0.7932,
+        "note": "Fair odds: Purdue +384, UCLA -384 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Purdue 21.2 \u2013 UCLA 32.1: UCLA by 10.9. That makes UCLA 79% to win.",
+            "The market expects UCLA by 14.0, the model UCLA by 10.9. Against the spread it takes Purdue +14 (59% to cover, expected return +0.12 a unit) \u2014 a flagged play.",
+            "The market's total is 52.5 against the model's 53.4: the over (48%, expected return -0.08).",
+            "Market: 2 books, in agreement; the line has moved +0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "UCLA margin",
+              "+10.9",
+              "+14",
+              {
+                "v": "-3.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "53.4",
+              "52.5",
+              "+0.9"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Purdue to win",
+              "21%"
+            ],
+            [
+              "UCLA to win",
+              "79%"
+            ],
+            [
+              "\u2605 Purdue +14",
+              "59%"
+            ],
+            [
+              "Over 52.5",
+              "48%"
+            ]
+          ]
+        }
+      ]
+    },
+    "401860888": {
+      "title": "Fresno State @ San Jos\u00e9 State",
+      "subtitle": "Week 3 \u00b7 Sat 9/19 11:00PM ET",
+      "away": {
+        "name": "Fresno State"
+      },
+      "home": {
+        "name": "San Jos\u00e9 State"
+      },
+      "score": {
+        "away": "30.7",
+        "home": "21.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6801,
+        "home": 0.3199,
+        "note": "Fair odds: Fresno State -213, San Jos\u00e9 State +213 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Fresno State 30.7 \u2013 San Jos\u00e9 State 21.9: Fresno State by 8.8. That makes Fresno State 68% to win.",
+            "The market expects Fresno State by 6.5, the model Fresno State by 8.8. Against the spread it takes Fresno State -6.5 (56% to cover, expected return +0.07 a unit) \u2014 a flagged play.",
+            "The market's total is 50.25 against the model's 52.7: the over (52%, expected return -0.01).",
+            "Market: 2 books, in agreement; the line has moved -0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "San Jos\u00e9 State margin",
+              "-8.8",
+              "-6.5",
+              {
+                "v": "-2.3 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "52.7",
+              "50.25",
+              "+2.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Fresno State to win",
+              "68%"
+            ],
+            [
+              "San Jos\u00e9 State to win",
+              "32%"
+            ],
+            [
+              "\u2605 Fresno State -6.5",
+              "56%"
+            ],
+            [
+              "Over 50.25",
+              "52%"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,935 @@
+{
+  "games": {
+    "ATL@GB": {
+      "title": "ATL @ GB",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Atlanta Falcons",
+        "abbr": "ATL"
+      },
+      "home": {
+        "name": "Green Bay Packers",
+        "abbr": "GB"
+      },
+      "score": {
+        "away": "20.7",
+        "home": "26.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.356,
+        "home": 0.644,
+        "note": "Fair odds: ATL +181, GB -181 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects ATL 20.7 \u2013 GB 26.0: GB by 5.3, 46.7 points in all. That makes GB 64% to win.",
+            "The market line: GB -6, total 43.5. Against the spread the model takes ATL +6 (52% to cover); on the total, the over (59%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "ATL to win",
+              "36%"
+            ],
+            [
+              "GB to win",
+              "64%"
+            ],
+            [
+              "ATL +6",
+              "52%"
+            ],
+            [
+              "Over 43.5",
+              "59%"
+            ]
+          ]
+        }
+      ]
+    },
+    "LAC@BUF": {
+      "title": "LAC @ BUF",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Los Angeles Chargers",
+        "abbr": "LAC"
+      },
+      "home": {
+        "name": "Buffalo Bills",
+        "abbr": "BUF"
+      },
+      "score": {
+        "away": "19.5",
+        "home": "28.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.258,
+        "home": 0.742,
+        "note": "Fair odds: LAC +288, BUF -288 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects LAC 19.5 \u2013 BUF 28.8: BUF by 9.3, 48.3 points in all. That makes BUF 74% to win.",
+            "The market line: BUF -7, total 50.5. Against the spread the model takes BUF -7 (56% to cover); on the total, the under (56%).",
+            "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors LAC against the spread."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "LAC to win",
+              "26%"
+            ],
+            [
+              "BUF to win",
+              "74%"
+            ],
+            [
+              "BUF -7",
+              "56%"
+            ],
+            [
+              "Under 50.5",
+              "56%"
+            ]
+          ]
+        }
+      ]
+    },
+    "CAR@CLE": {
+      "title": "CAR @ CLE",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Carolina Panthers",
+        "abbr": "CAR"
+      },
+      "home": {
+        "name": "Cleveland Browns",
+        "abbr": "CLE"
+      },
+      "score": {
+        "away": "19.3",
+        "home": "19.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.487,
+        "home": 0.513,
+        "note": "Fair odds: CAR +105, CLE -105 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects CAR 19.3 \u2013 CLE 19.8: CLE by 0.5, 39.1 points in all. That makes CLE 51% to win.",
+            "The market line: CLE +2.5, total 42.5. Against the spread the model takes CLE +2.5 (58% to cover); on the total, the under (60%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "CAR to win",
+              "49%"
+            ],
+            [
+              "CLE to win",
+              "51%"
+            ],
+            [
+              "CLE +2.5",
+              "58%"
+            ],
+            [
+              "Under 42.5",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "NYJ@DET": {
+      "title": "NYJ @ DET",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "New York Jets",
+        "abbr": "NYJ"
+      },
+      "home": {
+        "name": "Detroit Lions",
+        "abbr": "DET"
+      },
+      "score": {
+        "away": "21.3",
+        "home": "33.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.205,
+        "home": 0.795,
+        "note": "Fair odds: NYJ +388, DET -388 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects NYJ 21.3 \u2013 DET 33.2: DET by 11.9, 54.5 points in all. That makes DET 80% to win.",
+            "The market line: DET -6.5, total 48.5. Against the spread the model takes DET -6.5 (64% to cover); on the total, the over (67%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "NYJ to win",
+              "20%"
+            ],
+            [
+              "DET to win",
+              "80%"
+            ],
+            [
+              "DET -6.5",
+              "64%"
+            ],
+            [
+              "Over 48.5",
+              "67%"
+            ]
+          ]
+        }
+      ]
+    },
+    "HOU@IND": {
+      "title": "HOU @ IND",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Houston Texans",
+        "abbr": "HOU"
+      },
+      "home": {
+        "name": "Indianapolis Colts",
+        "abbr": "IND"
+      },
+      "score": {
+        "away": "24.8",
+        "home": "21.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.599,
+        "home": 0.401,
+        "note": "Fair odds: HOU -149, IND +149 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects HOU 24.8 \u2013 IND 21.2: HOU by 3.6, 45.9 points in all. That makes HOU 60% to win.",
+            "The market line: IND +2.5, total 43.5. Against the spread the model takes HOU -2.5 (53% to cover); on the total, the over (57%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "HOU to win",
+              "60%"
+            ],
+            [
+              "IND to win",
+              "40%"
+            ],
+            [
+              "HOU -2.5",
+              "53%"
+            ],
+            [
+              "Over 43.5",
+              "57%"
+            ]
+          ]
+        }
+      ]
+    },
+    "NE@JAX": {
+      "title": "NE @ JAX",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "New England Patriots",
+        "abbr": "NE"
+      },
+      "home": {
+        "name": "Jacksonville Jaguars",
+        "abbr": "JAX"
+      },
+      "score": {
+        "away": "20.7",
+        "home": "21.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.488,
+        "home": 0.512,
+        "note": "Fair odds: NE +105, JAX -105 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects NE 20.7 \u2013 JAX 21.2: JAX by 0.5, 41.9 points in all. That makes JAX 51% to win.",
+            "The market line: JAX -3, total 45.5. Against the spread the model takes NE +3 (57% to cover); on the total, the under (60%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "NE to win",
+              "49%"
+            ],
+            [
+              "JAX to win",
+              "51%"
+            ],
+            [
+              "NE +3",
+              "57%"
+            ],
+            [
+              "Under 45.5",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "KC@MIA": {
+      "title": "KC @ MIA",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Kansas City Chiefs",
+        "abbr": "KC"
+      },
+      "home": {
+        "name": "Miami Dolphins",
+        "abbr": "MIA"
+      },
+      "score": {
+        "away": "28.6",
+        "home": "21.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.688,
+        "home": 0.312,
+        "note": "Fair odds: KC -221, MIA +221 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects KC 28.6 \u2013 MIA 21.6: KC by 7.0, 50.2 points in all. That makes KC 69% to win.",
+            "The market line: MIA +11.5, total 46.5. Against the spread the model takes MIA +11.5 (62% to cover); on the total, the over (60%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "KC to win",
+              "69%"
+            ],
+            [
+              "MIA to win",
+              "31%"
+            ],
+            [
+              "MIA +11.5",
+              "62%"
+            ],
+            [
+              "Over 46.5",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "TEN@NYG": {
+      "title": "TEN @ NYG",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Tennessee Titans",
+        "abbr": "TEN"
+      },
+      "home": {
+        "name": "New York Giants",
+        "abbr": "NYG"
+      },
+      "score": {
+        "away": "13.1",
+        "home": "19.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.334,
+        "home": 0.666,
+        "note": "Fair odds: TEN +199, NYG -199 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects TEN 13.1 \u2013 NYG 19.2: NYG by 6.1, 32.4 points in all. That makes NYG 67% to win.",
+            "The market line: NYG -3.5, total 40.5. Against the spread the model takes NYG -3.5 (57% to cover); on the total, the under (72%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "TEN to win",
+              "33%"
+            ],
+            [
+              "NYG to win",
+              "67%"
+            ],
+            [
+              "NYG -3.5",
+              "57%"
+            ],
+            [
+              "Under 40.5",
+              "72%"
+            ]
+          ]
+        }
+      ]
+    },
+    "CIN@PIT": {
+      "title": "CIN @ PIT",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Cincinnati Bengals",
+        "abbr": "CIN"
+      },
+      "home": {
+        "name": "Pittsburgh Steelers",
+        "abbr": "PIT"
+      },
+      "score": {
+        "away": "25.9",
+        "home": "19.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.684,
+        "home": 0.316,
+        "note": "Fair odds: CIN -216, PIT +216 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects CIN 25.9 \u2013 PIT 19.1: CIN by 6.8, 45.0 points in all. That makes CIN 68% to win.",
+            "The market line: PIT +3.5, total 42.5. Against the spread the model takes CIN -3.5 (59% to cover); on the total, the over (57%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "CIN to win",
+              "68%"
+            ],
+            [
+              "PIT to win",
+              "32%"
+            ],
+            [
+              "CIN -3.5",
+              "59%"
+            ],
+            [
+              "Over 42.5",
+              "57%"
+            ]
+          ]
+        }
+      ]
+    },
+    "SEA@WAS": {
+      "title": "SEA @ WAS",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Seattle Seahawks",
+        "abbr": "SEA"
+      },
+      "home": {
+        "name": "Washington Commanders",
+        "abbr": "WAS"
+      },
+      "score": {
+        "away": "24.1",
+        "home": "18.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.666,
+        "home": 0.334,
+        "note": "Fair odds: SEA -199, WAS +199 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects SEA 24.1 \u2013 WAS 18.0: SEA by 6.1, 42.1 points in all. That makes SEA 67% to win.",
+            "The market line: WAS +7, total 40.5. Against the spread the model takes WAS +7 (52% to cover); on the total, the over (54%).",
+            "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors WAS against the spread."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "SEA to win",
+              "67%"
+            ],
+            [
+              "WAS to win",
+              "33%"
+            ],
+            [
+              "WAS +7",
+              "52%"
+            ],
+            [
+              "Over 40.5",
+              "54%"
+            ]
+          ]
+        }
+      ]
+    },
+    "ARI@SF": {
+      "title": "ARI @ SF",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Arizona Cardinals",
+        "abbr": "ARI"
+      },
+      "home": {
+        "name": "San Francisco 49ers",
+        "abbr": "SF"
+      },
+      "score": {
+        "away": "17.9",
+        "home": "27.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.247,
+        "home": 0.753,
+        "note": "Fair odds: ARI +305, SF -305 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects ARI 17.9 \u2013 SF 27.7: SF by 9.8, 45.6 points in all. That makes SF 75% to win.",
+            "The market line: SF -8.5, total 47.5. Against the spread the model takes SF -8.5 (54% to cover); on the total, the under (55%).",
+            "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors ARI against the spread."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "ARI to win",
+              "25%"
+            ],
+            [
+              "SF to win",
+              "75%"
+            ],
+            [
+              "SF -8.5",
+              "54%"
+            ],
+            [
+              "Under 47.5",
+              "55%"
+            ]
+          ]
+        }
+      ]
+    },
+    "MIN@TB": {
+      "title": "MIN @ TB",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Minnesota Vikings",
+        "abbr": "MIN"
+      },
+      "home": {
+        "name": "Tampa Bay Buccaneers",
+        "abbr": "TB"
+      },
+      "score": {
+        "away": "22.4",
+        "home": "22.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.495,
+        "home": 0.505,
+        "note": "Fair odds: MIN +102, TB -102 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects MIN 22.4 \u2013 TB 22.6: TB by 0.2, 45.1 points in all. That makes TB 50% to win.",
+            "The market line: TB +1.5, total 42.5. Against the spread the model takes TB +1.5 (55% to cover); on the total, the over (57%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "MIN to win",
+              "50%"
+            ],
+            [
+              "TB to win",
+              "50%"
+            ],
+            [
+              "TB +1.5",
+              "55%"
+            ],
+            [
+              "Over 42.5",
+              "57%"
+            ]
+          ]
+        }
+      ]
+    },
+    "BAL@DAL": {
+      "title": "BAL @ DAL",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Baltimore Ravens",
+        "abbr": "BAL"
+      },
+      "home": {
+        "name": "Dallas Cowboys",
+        "abbr": "DAL"
+      },
+      "score": {
+        "away": "32.4",
+        "home": "23.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.726,
+        "home": 0.274,
+        "note": "Fair odds: BAL -265, DAL +265 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects BAL 32.4 \u2013 DAL 23.7: BAL by 8.7, 56.1 points in all. That makes BAL 73% to win.",
+            "The market line: DAL +3, total 52.5. Against the spread the model takes BAL -3 (65% to cover); on the total, the over (60%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "BAL to win",
+              "73%"
+            ],
+            [
+              "DAL to win",
+              "27%"
+            ],
+            [
+              "BAL -3",
+              "65%"
+            ],
+            [
+              "Over 52.5",
+              "60%"
+            ]
+          ]
+        }
+      ]
+    },
+    "LV@NO": {
+      "title": "LV @ NO",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Las Vegas Raiders",
+        "abbr": "LV"
+      },
+      "home": {
+        "name": "New Orleans Saints",
+        "abbr": "NO"
+      },
+      "score": {
+        "away": "18.2",
+        "home": "24.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.322,
+        "home": 0.678,
+        "note": "Fair odds: LV +211, NO -211 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects LV 18.2 \u2013 NO 24.8: NO by 6.6, 43.0 points in all. That makes NO 68% to win.",
+            "The market line: NO -3, total 43.5. Against the spread the model takes NO -3 (60% to cover); on the total, the under (52%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "LV to win",
+              "32%"
+            ],
+            [
+              "NO to win",
+              "68%"
+            ],
+            [
+              "NO -3",
+              "60%"
+            ],
+            [
+              "Under 43.5",
+              "52%"
+            ]
+          ]
+        }
+      ]
+    },
+    "LAR@DEN": {
+      "title": "LAR @ DEN",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Los Angeles Rams",
+        "abbr": "LAR"
+      },
+      "home": {
+        "name": "Denver Broncos",
+        "abbr": "DEN"
+      },
+      "score": {
+        "away": "21.2",
+        "home": "20.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.52,
+        "home": 0.48,
+        "note": "Fair odds: LAR -108, DEN +108 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects LAR 21.2 \u2013 DEN 20.5: LAR by 0.7, 41.6 points in all. That makes LAR 52% to win.",
+            "The market line: DEN +2.5, total 45.5. Against the spread the model takes DEN +2.5 (55% to cover); on the total, the under (61%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "LAR to win",
+              "52%"
+            ],
+            [
+              "DEN to win",
+              "48%"
+            ],
+            [
+              "DEN +2.5",
+              "55%"
+            ],
+            [
+              "Under 45.5",
+              "61%"
+            ]
+          ]
+        }
+      ]
+    },
+    "PHI@CHI": {
+      "title": "PHI @ CHI",
+      "subtitle": "Week 3",
+      "away": {
+        "name": "Philadelphia Eagles",
+        "abbr": "PHI"
+      },
+      "home": {
+        "name": "Chicago Bears",
+        "abbr": "CHI"
+      },
+      "score": {
+        "away": "22.7",
+        "home": "26.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.403,
+        "home": 0.597,
+        "note": "Fair odds: PHI +148, CHI -148 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects PHI 22.7 \u2013 CHI 26.2: CHI by 3.5, 49.0 points in all. That makes CHI 60% to win.",
+            "The market line: CHI +3, total 44.5. Against the spread the model takes CHI +3 (68% to cover); on the total, the over (62%)."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "PHI to win",
+              "40%"
+            ],
+            [
+              "CHI to win",
+              "60%"
+            ],
+            [
+              "CHI +3",
+              "68%"
+            ],
+            [
+              "Over 44.5",
+              "62%"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

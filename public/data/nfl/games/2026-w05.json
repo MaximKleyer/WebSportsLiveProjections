@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 \u00b7 Week 5 \u2014 model projections",
-  "updated": "2026-10-08",
+  "updated": "2026-10-11",
   "columns": [
     {
       "key": "awayTeam",
@@ -59,66 +59,72 @@
   ],
   "rows": [
     {
+      "id": "TB@DAL",
       "awayTeam": "TB",
-      "awayScore": "25.8",
+      "awayScore": "26.4",
       "sep": "\u2013",
       "homeScore": "25.1",
       "homeTeam": "DAL",
-      "homeWin": 0.479,
-      "total": 50.9,
+      "homeWin": 0.463,
+      "total": 51.5,
       "su": "TB",
       "ats": "TB",
       "ou": "OVER"
     },
     {
+      "id": "PHI@JAX",
       "awayTeam": "PHI",
-      "awayScore": "19.7",
+      "awayScore": "19.8",
       "sep": "\u2013",
-      "homeScore": "23.0",
+      "homeScore": "23.1",
       "homeTeam": "JAX",
       "homeWin": 0.591,
-      "total": 42.7,
+      "total": 43.0,
       "su": "JAX",
       "ats": "JAX",
       "ou": "UNDER"
     },
     {
+      "id": "CHI@GB",
       "awayTeam": "CHI",
-      "awayScore": "25.4",
+      "awayScore": "24.3",
       "sep": "\u2013",
-      "homeScore": "26.9",
+      "homeScore": "25.7",
       "homeTeam": "GB",
       "homeWin": 0.541,
-      "total": 52.3,
+      "total": 50.0,
       "su": "GB",
       "ats": "CHI",
       "ou": "OVER"
     },
     {
+      "id": "CIN@MIA",
       "awayTeam": "CIN",
-      "awayScore": "28.0",
+      "awayScore": "27.4",
       "sep": "\u2013",
-      "homeScore": "25.7",
+      "homeScore": "25.2",
       "homeTeam": "MIA",
       "homeWin": 0.438,
-      "total": 53.7,
+      "total": 52.6,
       "su": "CIN",
       "ats": "MIA",
       "ou": "OVER"
     },
     {
+      "id": "LV@NE",
       "awayTeam": "LV",
-      "awayScore": "18.5",
+      "awayScore": "18.6",
       "sep": "\u2013",
-      "homeScore": "23.0",
+      "homeScore": "23.1",
       "homeTeam": "NE",
       "homeWin": 0.624,
-      "total": 41.6,
+      "total": 41.7,
       "su": "NE",
       "ats": "NE",
       "ou": "UNDER"
     },
     {
+      "id": "MIN@NO",
       "awayTeam": "MIN",
       "awayScore": "19.5",
       "sep": "\u2013",
@@ -131,54 +137,59 @@
       "ou": "UNDER"
     },
     {
+      "id": "CLE@NYJ",
       "awayTeam": "CLE",
-      "awayScore": "17.0",
+      "awayScore": "9.1",
       "sep": "\u2013",
-      "homeScore": "22.4",
+      "homeScore": "14.5",
       "homeTeam": "NYJ",
       "homeWin": 0.648,
-      "total": 39.4,
+      "total": 23.6,
       "su": "NYJ",
       "ats": "NYJ",
       "ou": "UNDER"
     },
     {
+      "id": "IND@PIT",
       "awayTeam": "IND",
-      "awayScore": "16.4",
+      "awayScore": "17.5",
       "sep": "\u2013",
-      "homeScore": "18.8",
+      "homeScore": "20.0",
       "homeTeam": "PIT",
       "homeWin": 0.568,
-      "total": 35.2,
+      "total": 37.5,
       "su": "PIT",
       "ats": null,
       "ou": null
     },
     {
+      "id": "HOU@TEN",
       "awayTeam": "HOU",
-      "awayScore": "20.4",
+      "awayScore": "20.9",
       "sep": "\u2013",
-      "homeScore": "18.6",
+      "homeScore": "19.1",
       "homeTeam": "TEN",
       "homeWin": 0.45,
-      "total": 38.9,
+      "total": 40.0,
       "su": "HOU",
       "ats": "TEN",
-      "ou": "UNDER"
+      "ou": "OVER"
     },
     {
+      "id": "NYG@WAS",
       "awayTeam": "NYG",
-      "awayScore": "11.4",
+      "awayScore": "11.5",
       "sep": "\u2013",
       "homeScore": "12.3",
       "homeTeam": "WAS",
       "homeWin": 0.524,
-      "total": 23.7,
+      "total": 23.8,
       "su": "WAS",
       "ats": null,
       "ou": null
     },
     {
+      "id": "DEN@LAC",
       "awayTeam": "DEN",
       "awayScore": "22.6",
       "sep": "\u2013",
@@ -191,6 +202,7 @@
       "ou": "OVER"
     },
     {
+      "id": "DET@ARI",
       "awayTeam": "DET",
       "awayScore": "36.3",
       "sep": "\u2013",
@@ -203,18 +215,20 @@
       "ou": "OVER"
     },
     {
+      "id": "SF@SEA",
       "awayTeam": "SF",
-      "awayScore": "21.0",
+      "awayScore": "19.4",
       "sep": "\u2013",
-      "homeScore": "25.9",
+      "homeScore": "24.3",
       "homeTeam": "SEA",
       "homeWin": 0.634,
-      "total": 46.9,
+      "total": 43.7,
       "su": "SEA",
       "ats": "SEA",
       "ou": "UNDER"
     },
     {
+      "id": "BAL@ATL",
       "awayTeam": "BAL",
       "awayScore": "27.3",
       "sep": "\u2013",
@@ -227,6 +241,7 @@
       "ou": "OVER"
     },
     {
+      "id": "BUF@LAR",
       "awayTeam": "BUF",
       "awayScore": "25.5",
       "sep": "\u2013",
@@ -238,5 +253,6 @@
       "ats": "LAR",
       "ou": "OVER"
     }
-  ]
+  ],
+  "details": "2026-w05.details.json"
 }
