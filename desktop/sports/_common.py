@@ -106,6 +106,22 @@ def span(delta: timedelta) -> str:
     return f"{round(s / 86400)} days"
 
 
+def next_morning(now: datetime, hour: int = 6) -> datetime:
+    """The next `hour` o'clock Eastern after `now`: when a daily reminder comes back."""
+    local = now.astimezone(ET)
+    morning = local.replace(hour=hour, minute=0, second=0, microsecond=0)
+    return morning if morning > local else morning + timedelta(days=1)
+
+
+def last_weekday(now: datetime, weekday: int, hour: int = 6) -> datetime:
+    """The latest `weekday` (Monday = 0) at `hour` Eastern at or before `now` - e.g. the Tuesday
+    morning a football week's data is complete, from which a weekly input is due again."""
+    local = now.astimezone(ET)
+    start = (local - timedelta(days=(local.weekday() - weekday) % 7)).replace(
+        hour=hour, minute=0, second=0, microsecond=0)
+    return start - timedelta(days=7) if start > local else start
+
+
 def et_day(when: datetime) -> str:
     """'Sat Oct 3' for a moment, in Eastern time."""
     d = when.astimezone(ET)
@@ -143,6 +159,7 @@ class Plan:
     steps: list = field(default_factory=list)
     info: list = field(default_factory=list)
     notes: list = field(default_factory=list)
+    inputs: list = field(default_factory=list)
 
     def step(self, id: str, label: str, args: list, *, due: bool, reason: str,
              requires: tuple = ()) -> None:
@@ -153,6 +170,22 @@ class Plan:
 
     def stat(self, label: str, value: str, detail: str = "", tone: str | None = None) -> None:
         self.info.append({"label": label, "value": value, "detail": detail, "tone": tone})
+
+    def need(self, id: str, label: str, when: str, *, detail: str = "", how: str = "",
+             last: datetime | None = None, due: bool | None = None, check: bool | None = None,
+             again: datetime | None = None, problem: str = "") -> None:
+        """Something only the user can give the model, for the app's checklist: `due` True or
+        False when the app can tell from the model's files (`last` = when it was last given),
+        None for a reminder it can't check. `check`: whether the app can verify it from those
+        files (by default, when `due` is known) - it shows Check for those, which drop off the
+        list once done, and Done for the rest, which come back at `again` (next morning if None).
+        `problem`: what's wrong with what was given so far (a misnamed file), shown as a warning."""
+        self.inputs.append({"id": id, "label": label, "when": when, "detail": detail, "how": how,
+                            "problem": problem,
+                            "state": "manual" if due is None else ("due" if due else "ok"),
+                            "check": due is not None if check is None else check,
+                            "last": None if last is None else int(last.timestamp() * 1000),
+                            "again": int((again or next_morning(utcnow())).timestamp() * 1000)})
 
     def emit(self) -> int:
         print("@@plan " + json.dumps(asdict(self)), flush=True)

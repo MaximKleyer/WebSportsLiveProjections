@@ -22,6 +22,30 @@ app. If the app is open, the run happens there instead (you see it); if you
 open the app mid-run, the window joins it. A run missed while the PC was off
 or asleep happens as soon as it's back.
 
+**Your inputs.** Each model's row lists what only you can give it (its plan's
+`inputs`, from `Plan.need` in `desktop/sports/<id>.py`), and a line above the
+desk names whatever is due. Where the model's files can tell, an item checks
+itself: NFL's weekly FantasyPoints exports (all five files in
+`data\raw\<season>\week_NN\` for every finished week), the injury report (from
+the Friday before the week's Sunday games) and the warehouse rebuild (due while
+any export is newer than `warehouse.duckdb`); CFB's retrain (every 3 weeks,
+`models\current\metadata.json`) and last week's injury adjustments
+(`config.yaml` `overrides`, stale from Monday); NBA's backtest (its model state
+against `nba version`). The rest are reminders. A list refreshes with each run,
+and on its own: **Check** re-reads that model's files at once (its plan alone,
+`POST /api/check`; no model work), and an input found in place drops off the
+list. A file there under a near-miss name (`advanced_recieving_player.csv`) gets
+a ⚠ line naming it and the name it needs — the model reads files by their exact
+names and skips the rest without a word. NFL's exports are read too, every
+finished week each time: one that covers more than a week (`G` above 1, a
+season-to-date export the build would count twice) or is the wrong view (a
+player view under a defense name — player views have `POS` — or a rushing view
+as receiving: `CMP`, `YPC`, `TGT`) keeps its week on the list with a ⚠ line until
+it's replaced, and puts a ⚠ on the rebuild meanwhile. **Done** clears a
+reminder the app can't verify until it's due again (the plan's `again`: next
+Tuesday for QB changes, next Monday for CFB's adjustments, next morning for the
+daily ones), kept in `.state/state.json` `dismissed`.
+
 **Staying awake mid-run.** While any model runs, the app asks Windows not to
 idle into sleep or Modern Standby (`SetThreadExecutionState`, system required —
 the screen can still turn off; the lid and power button still sleep the PC), and

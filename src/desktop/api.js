@@ -24,6 +24,19 @@ export async function startRun({ sports, force = false } = {}) {
   return res.json();
 }
 
+// Re-check one model's inputs against its files now (runs only its plan): its fresh checklist.
+export async function checkInputs(sport) {
+  const res = await fetch('/api/check', { method: 'POST', headers: HEADERS, body: JSON.stringify({ sport }) });
+  if (!res.ok) throw new Error((await res.text()) || `The app answered HTTP ${res.status}`);
+  return (await res.json()).inputs;
+}
+
+// Mark a reminder Done: hidden until it's due back.
+export async function dismissInput(sport, id) {
+  const res = await fetch('/api/dismiss', { method: 'POST', headers: HEADERS, body: JSON.stringify({ sport, id }) });
+  if (!res.ok) throw new Error((await res.text()) || `The app answered HTTP ${res.status}`);
+}
+
 export async function getLog(sportId) {
   const res = await fetch(`/api/log?sport=${encodeURIComponent(sportId)}`, { cache: 'no-store' });
   return res.ok ? res.text() : '';

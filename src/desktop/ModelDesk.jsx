@@ -10,6 +10,14 @@ import { ago, clock, elapsed, runHeadline } from './format.js';
 // sport's plan (desktop/sports/<id>.py).
 
 const MARKS = { done: '✓', failed: '✕', running: '●', skipped: '–', pending: '○' };
+// Inputs only you can give a model (desktop/sports/<id>.py `inputs`): due, or a reminder; done
+// ones ('ok', and reminders marked Done until they're due back) drop off the list.
+const INPUT_MARKS = { due: '!', manual: '•' };
+
+// A model's checklist, as the app has it (its latest plan, else its last pass's).
+function inputsOf(model) {
+  return model.inputs ?? [];
+}
 
 export default function ModelDesk() {
   const desktop = useDesktop();
@@ -45,6 +53,9 @@ export default function ModelDesk() {
   } else headline = 'All up to date';
 
   const logModel = models.find((m) => m.id === logFor);
+  const due = models
+    .map((m) => ({ name: sportName(m), items: inputsOf(m).filter((i) => i.state === 'due') }))
+    .filter((m) => m.items.length);
 
   return (
     <section className="model-desk" aria-label="Model runs">
@@ -52,6 +63,19 @@ export default function ModelDesk() {
         <span className="grid-section__label">Model desk</span>
         <span className="grid-section__count">{headline}</span>
       </div>
+
+      {due.length > 0 && (
+        <p className="desk-reminder" role="status">
+          <span className="desk-reminder__mark" aria-hidden="true">!</span>
+          Inputs due —{' '}
+          {due.map((m, i) => (
+            <span key={m.name}>
+              {i > 0 && '; '}
+              <strong>{m.name}</strong>: {m.items.map((item) => item.label).join(', ')}
+            </span>
+          ))}
+        </p>
+      )}
 
       <div className="model-desk__bar">
         <div className="desk-actions">
@@ -187,6 +211,7 @@ function DeskRow({ model, now, disabled, onRun, onLog }) {
           ))}
         </ul>
       )}
+      <InputList model={model} now={now} />
       {model.notes?.map((note) => (
         <p key={note} className="desk-row__note">
           {note}
@@ -194,6 +219,82 @@ function DeskRow({ model, now, disabled, onRun, onLog }) {
       ))}
       {model.error && <p className="desk-row__error">{model.error}</p>}
     </li>
+  );
+}
+
+// What only you can give the model: each input, when it's wanted, when it was last given (when
+// the app can tell from its files), and where it goes. Check re-reads the model's files for one
+// the app can verify; Done clears a reminder it can't. Either way, a done input drops off.
+function InputList({ model, now }) {
+  const desktop = useDesktop();
+  const [busy, setBusy] = useState(null); // the input being checked or marked done
+  const [notes, setNotes] = useState({}); // input id -> a word after a check that found nothing
+  const inputs = inputsOf(model);
+  if (!inputs.length) return null;
+
+  const open = inputs.filter((item) => item.state !== 'ok' && !item.hidden);
+  const note = (id, text) => {
+    setNotes((all) => ({ ...all, [id]: text }));
+    setTimeout(() => setNotes(({ [id]: _, ...rest }) => rest), 5000);
+  };
+  const act = async (item) => {
+    setBusy(item.id);
+    try {
+      if (item.check) {
+        const fresh = await desktop.check(model.id);
+        const still = fresh.find((i) => i.id === item.id);
+        if (still && still.state !== 'ok') note(item.id, 'not found yet');
+      } else {
+        await desktop.dismiss(model.id, item.id);
+      }
+    } catch (err) {
+      note(item.id, `couldn’t ${item.check ? 'check' : 'save'}: ${err.message}`);
+    } finally {
+      setBusy(null);
+    }
+  };
+
+  return (
+    <div className="desk-inputs">
+      <p className="desk-inputs__head">
+        Your inputs
+        {inputs.length > open.length && (
+          <span className="desk-inputs__done"> · {inputs.length - open.length} done</span>
+        )}
+      </p>
+      {open.length === 0 ? (
+        <p className="desk-inputs__clear">✓ All in for now</p>
+      ) : (
+        <ul className="desk-inputs__list">
+          {open.map((item) => (
+            <li key={item.id} className={`desk-input desk-input--${item.state}`}>
+              <span className="desk-input__mark" aria-hidden="true">
+                {INPUT_MARKS[item.state] ?? '•'}
+              </span>
+              <span className="desk-input__label">{item.label}</span>
+              <span className="desk-input__when">
+                {item.when}
+                {item.last ? ` · last ${ago(item.last, now)}` : item.check ? ' · not yet' : ''}
+                {item.state === 'due' && ' · due'}
+                {notes[item.id] && <span className="desk-input__note"> · {notes[item.id]}</span>}
+              </span>
+              <button
+                type="button"
+                className="desk-btn desk-btn--ghost desk-input__btn"
+                disabled={busy !== null}
+                title={item.check ? 'Look for it in the model’s files now' : 'Clear this reminder until it’s due again'}
+                onClick={() => act(item)}
+              >
+                {busy === item.id ? (item.check ? 'Checking…' : 'Saving…') : item.check ? 'Check' : 'Done'}
+              </button>
+              {item.problem && <span className="desk-input__problem">⚠ {item.problem}</span>}
+              {item.detail && <span className="desk-input__detail">{item.detail}</span>}
+              {item.how && <code className="desk-input__how">{item.how}</code>}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 }
 

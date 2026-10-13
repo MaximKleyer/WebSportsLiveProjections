@@ -110,6 +110,30 @@ class Store:
     def model(self, sport: str) -> dict | None:
         return self.data["models"].get(sport)
 
+    def record_inputs(self, sport: str, inputs: list[dict]) -> None:
+        """A model's checklist as just re-checked (shown after a restart, before its next pass)."""
+        with self.lock:
+            self.data["models"].setdefault(sport, {})["inputs"] = inputs
+            self._save()
+
+    def dismissed(self) -> dict[str, int]:
+        """'<sport>.<input id>' -> until when (epoch ms) a reminder marked Done stays hidden."""
+        with self.lock:
+            return dict(self.data.get("dismissed", {}))
+
+    def dismiss(self, key: str, until: int | None) -> None:
+        """Hide a reminder until `until` (None: show it again now)."""
+        with self.lock:
+            dismissed = self.data.setdefault("dismissed", {})
+            if until is None:
+                dismissed.pop(key, None)
+            else:
+                dismissed[key] = until
+            now = ms(time.time())
+            for old in [k for k, when in dismissed.items() if when <= now]:
+                del dismissed[old]
+            self._save()
+
     def _save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         tmp = self.path.with_suffix(".tmp")
@@ -145,6 +169,7 @@ class SportRun:
         self.id, self.name = model["id"], model["name"]
         self.state = "idle"  # idle | planning | running | exporting | done | failed
         self.label, self.info, self.notes, self.steps = "", [], [], []
+        self.inputs: list[dict] = []  # what only the user can give the model (the plan's `inputs`)
         self.error = ""
         self.forced = False
         self.current: str | None = None
@@ -189,7 +214,7 @@ class SportRun:
         if self._log:
             self._log.close()
             self._log = None
-        self.last = {"state": self.state, "label": self.label, "error": self.error,
+        self.last = {"state": self.state, "label": self.label, "error": self.error, "inputs": self.inputs,
                      "ended": ms(self.ended), "seconds": round(self.ended - self.started, 1),
                      "ran": [s.label for s in self.steps if s.state == "done"],
                      "summaries": [s.summary for s in self.steps if s.state in ("done", "failed")],
@@ -199,7 +224,8 @@ class SportRun:
     def snapshot(self) -> dict:
         with self.lock:
             return {"id": self.id, "name": self.name, "state": self.state, "label": self.label,
-                    "info": self.info, "notes": self.notes, "error": self.error, "forced": self.forced,
+                    "info": self.info, "notes": self.notes, "inputs": self.inputs, "error": self.error,
+                    "forced": self.forced,
                     "current": self.current, "started": ms(self.started), "ended": ms(self.ended),
                     "steps": [s.snapshot() for s in self.steps], "dataVersion": self.data_version,
                     "last": self.last}
@@ -268,8 +294,43 @@ class Runner:
         return bool(thread and thread.is_alive())
 
     def status(self) -> dict:
-        return {"models": [run.snapshot() for run in self.sports.values()],
+        return {"models": [{**run.snapshot(), "inputs": self.inputs_of(run)} for run in self.sports.values()],
                 "busy": self.busy(), "check": dict(self.check)}
+
+    # --- the user's inputs ----------------------------------------------------------------------
+
+    def inputs_of(self, run: SportRun) -> list[dict]:
+        """A model's checklist - from its latest plan, else as its last pass left it - with each
+        reminder marked Done (and not yet due back) flagged `hidden`."""
+        items = run.inputs or (run.last or {}).get("inputs") or []
+        now, dismissed = ms(time.time()), self.store.dismissed()
+        return [{**item, "hidden": dismissed.get(f"{run.id}.{item['id']}", 0) > now} for item in items]
+
+    def check_inputs(self, sid: str) -> list[dict]:
+        """Re-check one model's inputs against its files now: its plan, run on its own (nothing
+        else runs, and nothing goes in its log)."""
+        run = self.sports[sid]
+        cmd = [str(run.model["python"]), str(SPORTS / f"{sid}.py"), "plan", "--state", str(STATE_FILE)]
+        proc = subprocess.run(cmd, cwd=SPORTS, capture_output=True, text=True, encoding="utf-8",
+                              errors="replace", timeout=120, creationflags=NO_WINDOW,
+                              env={**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUTF8": "1"})
+        plan = next((json.loads(line[7:]) for line in proc.stdout.splitlines() if line.startswith("@@plan ")), None)
+        if plan is None:
+            last = [line for line in (proc.stdout + proc.stderr).splitlines() if line.strip()]
+            raise RuntimeError(last[-1] if last else f"exit code {proc.returncode}")
+        with run.lock:
+            run.inputs = plan.get("inputs", [])
+        self.store.record_inputs(sid, run.inputs)
+        return self.inputs_of(run)
+
+    def dismiss_input(self, sid: str, item_id: str, undo: bool = False) -> None:
+        """Mark a reminder Done: hidden until it's due back (the plan's `again`), or show it again."""
+        run = self.sports[sid]
+        item = next((i for i in self.inputs_of(run) if i["id"] == item_id), None)
+        if item is None:
+            raise KeyError(item_id)
+        until = None if undo else item.get("again") or ms(time.time() + 86400)
+        self.store.dismiss(f"{sid}.{item_id}", until)
 
     def log(self, sid: str, limit: int = 400_000) -> str:
         run = self.sports.get(sid)
@@ -285,6 +346,7 @@ class Runner:
             plan = self._plan(run, force)
             with run.lock:
                 run.label, run.info, run.notes = plan["label"], plan["info"], plan["notes"]
+                run.inputs = plan.get("inputs", [])
                 run.steps = [Step(s["id"], s["label"], s["args"], s["due"], s["reason"], s["requires"])
                              for s in plan["steps"]]
                 for step in run.steps:

@@ -98,6 +98,12 @@ def plan(history: History, force: bool) -> Plan:
     p.stat("Betting lines", "On" if free or odds else "Off",
            "ESPN (DraftKings), free" if free else "The Odds API" if odds else
            "no ODDS_API_KEY" if PAID_ODDS else "paid odds off (models.toml)")
+    # Everything else (schedule, results, goalie lists, odds) is pulled each run.
+    p.need("starters", "Starting goalies (optional)", "game days, once announced",
+           detail="Without them each side's two likeliest goalies are mixed by their chances, which the "
+                  "backtest found nearly as good: a CSV of game_id,side,goalie_id,status (projected or "
+                  "confirmed),snapshot_ts (UTC); the next run uses it",
+           how="uv run nhl starters import <file.csv>")
     return p
 
 

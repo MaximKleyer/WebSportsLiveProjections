@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { IS_DESKTOP, bye, getStatus, ping, startRun } from './api.js';
+import { IS_DESKTOP, bye, checkInputs, dismissInput, getStatus, ping, startRun } from './api.js';
 
 // Inside the desktop app, the run status every page can read: what each
 // model is doing, and a per-sport data version that ticks each time its data
@@ -63,7 +63,26 @@ function LiveDesktop({ children }) {
     [refresh]
   );
 
-  const value = useMemo(() => ({ status, error, run }), [status, error, run]);
+  // A model's inputs re-checked now, or a reminder marked Done; the desk updates either way.
+  const check = useCallback(
+    async (sport) => {
+      try {
+        return await checkInputs(sport);
+      } finally {
+        await refresh();
+      }
+    },
+    [refresh]
+  );
+  const dismiss = useCallback(
+    async (sport, id) => {
+      await dismissInput(sport, id);
+      await refresh();
+    },
+    [refresh]
+  );
+
+  const value = useMemo(() => ({ status, error, run, check, dismiss }), [status, error, run, check, dismiss]);
   return <DesktopContext.Provider value={value}>{children}</DesktopContext.Provider>;
 }
 

@@ -75,6 +75,31 @@ def gameday_task() -> tuple[str, str]:
     return state, "predicts each game day" + (f"; next run {nxt}" if nxt and nxt != "N/A" else "")
 
 
+def need_inputs(p: Plan) -> None:
+    """The checklist of what only the user can do for the model (the app's "Your inputs"): injury
+    reports, rosters and odds are all pulled by the gameday task."""
+    try:
+        live = json.loads((OUT / "model_state.json").read_text(encoding="utf-8"))["model_version"]
+    except (OSError, ValueError, KeyError):
+        live = None
+    try:
+        out = subprocess.run([str(NBA), "version"], cwd=FOLDER, capture_output=True, text=True, timeout=60,
+                             creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        lines = out.stdout.strip().splitlines()
+        code = lines[-1].strip() if out.returncode == 0 and lines else None
+    except (OSError, subprocess.SubprocessError):
+        code = None
+    stale = code is not None and live is not None and (code != live or "dirty" in code)
+    p.need("backtest", "Backtest after a model change", "after any code or config change",
+           detail=(f"The model state is for {live}, the code is {code}. " if stale else "")
+           + "Commit first (nba version must not say +dirty), then the backtest (~20 min), the preseason sim and "
+             "the launch check (RUNBOOK)",
+           how="uv run nba backtest; uv run nba preseason; uv run nba launch-check --date <next game day>",
+           last=file_time(OUT / "model_state.json"), due=None if code is None or live is None else stale)
+    p.need("awake", "Game days: plugged in, lid open", "each game day",
+           detail=f'The "{TASK}" task wakes the PC at 9 AM to predict the day; wake timers only work on AC power')
+
+
 def plan(history: History, force: bool) -> Plan:
     now = utcnow()
     p = Plan("nba")
@@ -91,6 +116,7 @@ def plan(history: History, force: bool) -> Plan:
 
     state, detail = gameday_task()
     p.stat("Gameday task", state, detail, tone=None if state in ("Ready", "Running") else "bad")
+    need_inputs(p)
     return p
 
 

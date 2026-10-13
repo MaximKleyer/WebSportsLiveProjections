@@ -7,6 +7,8 @@ a small API for the app's run panel:
   GET  /api/status         every model's pass: plan, steps, progress
   GET  /api/log?sport=nfl  that model's latest run log (text)
   POST /api/run            {"sports": ["nfl"], "force": true} - start a pass
+  POST /api/check          {"sport": "nfl"} - re-check that model's inputs now (its plan only)
+  POST /api/dismiss        {"sport": "nfl", "id": "qbs", "undo"?: true} - a reminder marked Done
   POST /api/ping           a window is still open
   POST /api/bye            a window is closing (sent as a beacon)
 
@@ -114,6 +116,19 @@ class Handler(BaseHTTPRequestHandler):
             sports = body.get("sports") or None
             started = self.app.runner.start(sports, force=bool(body.get("force")))
             return self._json({"started": started})
+        if path in ("/api/check", "/api/dismiss"):
+            body = self._body()
+            sport = str(body.get("sport"))
+            if sport not in self.app.runner.sports:
+                return self._send(HTTPStatus.NOT_FOUND, b"No such model", "text/plain")
+            try:
+                if path == "/api/check":
+                    return self._json({"inputs": self.app.runner.check_inputs(sport)})
+                self.app.runner.dismiss_input(sport, str(body.get("id")), undo=bool(body.get("undo")))
+                return self._json({"ok": True})
+            except Exception as error:  # a check that failed, an unknown item: say so, keep serving
+                return self._send(HTTPStatus.INTERNAL_SERVER_ERROR, str(error).encode("utf-8"),
+                                  "text/plain; charset=utf-8")
         self._send(HTTPStatus.NOT_FOUND, b"Not found", "text/plain")
 
     # --- helpers --------------------------------------------------------------------------------

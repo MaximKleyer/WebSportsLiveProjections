@@ -22,7 +22,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from _common import (Freeze, History, Plan, ago, cli, file_time, finish, freeze_notes, model_entry,
+from _common import (Freeze, History, Plan, ago, cli, file_time, finish, freeze_notes, last_weekday, model_entry,
                      plural, read_rows, run, span, to_utc, utcnow, written_since)
 
 MODEL = model_entry("cfb")
@@ -154,7 +154,45 @@ def plan(history: History, force: bool) -> Plan:
            requires=("project",) if due else ())
     if left < 150:
         p.notes.append(f"Only {left} CollegeFootballData calls left this month.")
+    need_inputs(p, year, week, now)
     return p
+
+
+RETRAIN_EVERY = timedelta(days=21)  # "every few weeks is plenty" (README)
+
+
+def need_inputs(p: Plan, year: int, week: int, now: datetime) -> None:
+    """The checklist of what only the user can give the model (the app's "Your inputs")."""
+    import yaml  # the model's own dependency, for config.yaml
+
+    overrides = (yaml.safe_load(CONFIG.read_text(encoding="utf-8")) or {}).get("overrides") or {}
+    edited = file_time(CONFIG)
+    week_began = last_weekday(now, 0)  # Monday morning: last week's adjustments are stale by then
+    p.need("overrides", "Injury and news adjustments", "Thu–Sat, before kickoff",
+           detail=("CFBD has no injury data: in config.yaml, overrides: {Team: points}, e.g. Alabama: -4.5 for a "
+                   "starting QB out; then Run now on College Football. Clear them each week."
+                   + (f" Now set: {', '.join(f'{team} {value:+g}' for team, value in overrides.items())}."
+                      if overrides else "")),
+           last=edited if overrides else None,
+           due=(edited is not None and edited < week_began) if overrides else None,
+           again=week_began + timedelta(days=7))  # Done (none needed this week): back next Monday
+
+    trained = None
+    try:
+        trained = to_utc(json.loads((FOLDER / "models" / "current" / "metadata.json").read_text())["saved_at"])
+    except (OSError, ValueError, KeyError):
+        pass
+    p.need("retrain", "Retrain the model", "every few weeks",
+           detail="Folds this season's results into the model (a few API calls)",
+           how=".venv\\Scripts\\python -m cfb_model.backtest --train --rebuild",
+           last=trained, due=trained is None or now - trained >= RETRAIN_EVERY)
+
+    imported = FOLDER / "data" / "fantasydata" / f"{year}_week_{week}_games.csv"
+    p.need("fantasydata", f"FantasyData projections, week {week} (optional)", "before the week's games",
+           detail="QB, RB, WR, TE projection CSVs from FantasyData; they only drive the QB alerts, never the model",
+           how=".venv\\Scripts\\python -m cfb_model.fantasy <folder with the CSVs>",
+           last=file_time(imported), due=False if imported.exists() else None,
+           again=week_began + timedelta(days=7))
 
 
 # --- Steps ----------------------------------------------------------------------------------------
