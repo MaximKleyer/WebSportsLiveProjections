@@ -2,7 +2,7 @@
   "season": 2026,
   "label": "2026\u201327 Season",
   "unit": "day",
-  "latest": "2026-10-11.json",
+  "latest": "2026-10-13.json",
   "slates": [
     {
       "id": "2026-10-01",
@@ -53,6 +53,16 @@
       "id": "2026-10-11",
       "label": "Sun Oct 11",
       "file": "2026-10-11.json"
+    },
+    {
+      "id": "2026-10-12",
+      "label": "Mon Oct 12",
+      "file": "2026-10-12.json"
+    },
+    {
+      "id": "2026-10-13",
+      "label": "Tue Oct 13",
+      "file": "2026-10-13.json"
     }
   ]
 }

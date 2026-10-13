@@ -5,13 +5,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Tampa Bay Buccaneers",
-        "abbr": "TB",
-        "note": "Proj. 8.4\u20138.6"
+        "abbr": "TB"
       },
       "home": {
         "name": "Dallas Cowboys",
-        "abbr": "DAL",
-        "note": "Proj. 7.5\u20139.5"
+        "abbr": "DAL"
       },
       "score": {
         "away": "26.4",
@@ -202,36 +200,6 @@
               "61%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.4,
-              "home": 7.5,
-              "awayText": "8.4",
-              "homeText": "7.5"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.384,
-              "home": 0.24,
-              "awayText": "38%",
-              "homeText": "24%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.256,
-              "home": 0.163,
-              "awayText": "26%",
-              "homeText": "16%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -240,13 +208,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Philadelphia Eagles",
-        "abbr": "PHI",
-        "note": "Proj. 9.1\u20137.9"
+        "abbr": "PHI"
       },
       "home": {
         "name": "Jacksonville Jaguars",
-        "abbr": "JAX",
-        "note": "Proj. 9.5\u20137.5"
+        "abbr": "JAX"
       },
       "score": {
         "away": "19.8",
@@ -436,36 +402,6 @@
               "54%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 9.1,
-              "home": 9.5,
-              "awayText": "9.1",
-              "homeText": "9.5"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.544,
-              "home": 0.684,
-              "awayText": "54%",
-              "homeText": "68%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.436,
-              "home": 0.505,
-              "awayText": "44%",
-              "homeText": "50%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -474,13 +410,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Chicago Bears",
-        "abbr": "CHI",
-        "note": "Proj. 8.7\u20138.3"
+        "abbr": "CHI"
       },
       "home": {
         "name": "Green Bay Packers",
-        "abbr": "GB",
-        "note": "Proj. 9.0\u20138.0"
+        "abbr": "GB"
       },
       "score": {
         "away": "24.3",
@@ -499,8 +433,8 @@
           "items": [
             "The model projects CHI 24.3 \u2013 GB 25.7: GB by 1.4, 50.0 points in all. That makes GB 54% to win.",
             "The market line: GB -2.5, total 45.5. Against the spread the model takes CHI +2.5 (53% to cover); on the total, the over (62%).",
-            "Under center: Caleb Williams projects 258 passing yards for CHI, Jordan Love 276 for GB.",
-            "On the ground: CHI 136 yards on 28 carries, GB 86 on 20."
+            "Under center: Tyson Bagent projects 160 passing yards for CHI, Jordan Love 276 for GB.",
+            "On the ground: CHI 132 yards on 28 carries, GB 86 on 20."
           ]
         },
         {
@@ -509,30 +443,30 @@
           "rows": [
             {
               "label": "Passing yards",
-              "away": 258.3,
+              "away": 160.4,
               "home": 275.5,
-              "awayText": "258",
+              "awayText": "160",
               "homeText": "276"
             },
             {
               "label": "Rushing yards",
-              "away": 136.0,
+              "away": 131.5,
               "home": 85.9,
-              "awayText": "136",
+              "awayText": "132",
               "homeText": "86"
             },
             {
               "label": "Total yards",
-              "away": 394.3,
+              "away": 291.9,
               "home": 361.4,
-              "awayText": "394",
+              "awayText": "292",
               "homeText": "361"
             },
             {
               "label": "Pass attempts",
-              "away": 35.4,
+              "away": 26.3,
               "home": 38.8,
-              "awayText": "35",
+              "awayText": "26",
               "homeText": "39"
             },
             {
@@ -544,17 +478,17 @@
             },
             {
               "label": "Sacks taken",
-              "away": 1.6,
+              "away": 0.7,
               "home": 2.2,
-              "awayText": "1.6",
+              "awayText": "0.7",
               "homeText": "2.2",
               "lower": true
             },
             {
               "label": "Interceptions",
-              "away": 1.14,
+              "away": 0.74,
               "home": 0.55,
-              "awayText": "1.1",
+              "awayText": "0.7",
               "homeText": "0.6",
               "lower": true
             }
@@ -573,39 +507,39 @@
           "rows": [
             [
               "CHI",
-              "Caleb Williams",
+              "Tyson Bagent",
               "QB",
-              "258 pass yds \u00b7 20/35 \u00b7 1.1 INT"
+              "160 pass yds \u00b7 15/26 \u00b7 0.7 INT"
             ],
             [
               "CHI",
               "D'Andre Swift",
               "RB",
-              "60 rush yds on 15.5 carries \u00b7 2.5 rec, 16 yds"
+              "60 rush yds on 15.5 carries \u00b7 1.5 rec, 10 yds"
             ],
             [
               "CHI",
               "Kyle Monangai",
               "RB",
-              "42 rush yds on 9.8 carries \u00b7 1.8 rec, 15 yds"
+              "42 rush yds on 9.8 carries \u00b7 1.1 rec, 10 yds"
             ],
             [
               "CHI",
               "Kalif Raymond",
               "WR",
-              "5.1 rec, 62 yds \u00b7 15% of targets"
+              "3.2 rec, 39 yds \u00b7 15% of targets"
             ],
             [
               "CHI",
               "Rome Odunze",
               "WR",
-              "3.0 rec, 52 yds \u00b7 15% of targets"
+              "1.8 rec, 32 yds \u00b7 15% of targets"
             ],
             [
               "CHI",
               "Luther Burden III",
               "WR",
-              "4.6 rec, 50 yds \u00b7 19% of targets"
+              "2.9 rec, 31 yds \u00b7 19% of targets"
             ],
             [
               "GB",
@@ -670,36 +604,6 @@
               "62%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.7,
-              "home": 9.0,
-              "awayText": "8.7",
-              "homeText": "9.0"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.39,
-              "home": 0.456,
-              "awayText": "39%",
-              "homeText": "46%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.134,
-              "home": 0.17,
-              "awayText": "13%",
-              "homeText": "17%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -708,13 +612,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Cincinnati Bengals",
-        "abbr": "CIN",
-        "note": "Proj. 9.4\u20137.6"
+        "abbr": "CIN"
       },
       "home": {
         "name": "Miami Dolphins",
-        "abbr": "MIA",
-        "note": "Proj. 6.5\u201310.5"
+        "abbr": "MIA"
       },
       "score": {
         "away": "27.4",
@@ -905,36 +807,6 @@
               "67%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 9.4,
-              "home": 6.5,
-              "awayText": "9.4",
-              "homeText": "6.5"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.631,
-              "home": 0.133,
-              "awayText": "63%",
-              "homeText": "13%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.243,
-              "home": 0.043,
-              "awayText": "24%",
-              "homeText": "4%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -943,13 +815,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Las Vegas Raiders",
-        "abbr": "LV",
-        "note": "Proj. 7.7\u20139.3"
+        "abbr": "LV"
       },
       "home": {
         "name": "New England Patriots",
-        "abbr": "NE",
-        "note": "Proj. 9.0\u20138.0"
+        "abbr": "NE"
       },
       "score": {
         "away": "18.6",
@@ -1139,36 +1009,6 @@
               "58%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 7.7,
-              "home": 9.0,
-              "awayText": "7.7",
-              "homeText": "9.0"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.306,
-              "home": 0.57,
-              "awayText": "31%",
-              "homeText": "57%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.087,
-              "home": 0.308,
-              "awayText": "9%",
-              "homeText": "31%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1177,13 +1017,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Minnesota Vikings",
-        "abbr": "MIN",
-        "note": "Proj. 8.7\u20138.3"
+        "abbr": "MIN"
       },
       "home": {
         "name": "New Orleans Saints",
-        "abbr": "NO",
-        "note": "Proj. 9.2\u20137.8"
+        "abbr": "NO"
       },
       "score": {
         "away": "19.5",
@@ -1373,36 +1211,6 @@
               "59%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.7,
-              "home": 9.2,
-              "awayText": "8.7",
-              "homeText": "9.2"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.40299999999999997,
-              "home": 0.545,
-              "awayText": "40%",
-              "homeText": "55%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.138,
-              "home": 0.408,
-              "awayText": "14%",
-              "homeText": "41%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1411,13 +1219,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Cleveland Browns",
-        "abbr": "CLE",
-        "note": "Proj. 6.7\u201310.3"
+        "abbr": "CLE"
       },
       "home": {
         "name": "New York Jets",
-        "abbr": "NYJ",
-        "note": "Proj. 7.2\u20139.8"
+        "abbr": "NYJ"
       },
       "score": {
         "away": "9.1",
@@ -1607,36 +1413,6 @@
               "88%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 6.7,
-              "home": 7.2,
-              "awayText": "6.7",
-              "homeText": "7.2"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.15,
-              "home": 0.226,
-              "awayText": "15%",
-              "homeText": "23%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.031,
-              "home": 0.09,
-              "awayText": "3%",
-              "homeText": "9%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1645,13 +1421,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Indianapolis Colts",
-        "abbr": "IND",
-        "note": "Proj. 7.0\u201310.0"
+        "abbr": "IND"
       },
       "home": {
         "name": "Pittsburgh Steelers",
-        "abbr": "PIT",
-        "note": "Proj. 6.7\u201310.3"
+        "abbr": "PIT"
       },
       "score": {
         "away": "17.5",
@@ -1826,36 +1600,6 @@
               "57%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 7.0,
-              "home": 6.7,
-              "awayText": "7.0",
-              "homeText": "6.7"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.19899999999999998,
-              "home": 0.157,
-              "awayText": "20%",
-              "homeText": "16%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.09300000000000001,
-              "home": 0.03,
-              "awayText": "9%",
-              "homeText": "3%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1864,13 +1608,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Houston Texans",
-        "abbr": "HOU",
-        "note": "Proj. 8.7\u20138.3"
+        "abbr": "HOU"
       },
       "home": {
         "name": "Tennessee Titans",
-        "abbr": "TEN",
-        "note": "Proj. 6.7\u201310.3"
+        "abbr": "TEN"
       },
       "score": {
         "away": "20.9",
@@ -2060,36 +1802,6 @@
               "52%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.7,
-              "home": 6.7,
-              "awayText": "8.7",
-              "homeText": "6.7"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.532,
-              "home": 0.174,
-              "awayText": "53%",
-              "homeText": "17%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.321,
-              "home": 0.081,
-              "awayText": "32%",
-              "homeText": "8%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2098,13 +1810,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "New York Giants",
-        "abbr": "NYG",
-        "note": "Proj. 8.2\u20138.8"
+        "abbr": "NYG"
       },
       "home": {
         "name": "Washington Commanders",
-        "abbr": "WAS",
-        "note": "Proj. 7.3\u20139.7"
+        "abbr": "WAS"
       },
       "score": {
         "away": "11.5",
@@ -2285,36 +1995,6 @@
               "52%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.2,
-              "home": 7.3,
-              "awayText": "8.2",
-              "homeText": "7.3"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.36200000000000004,
-              "home": 0.20800000000000002,
-              "awayText": "36%",
-              "homeText": "21%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.259,
-              "home": 0.142,
-              "awayText": "26%",
-              "homeText": "14%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2323,13 +2003,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Denver Broncos",
-        "abbr": "DEN",
-        "note": "Proj. 8.6\u20138.4"
+        "abbr": "DEN"
       },
       "home": {
         "name": "Los Angeles Chargers",
-        "abbr": "LAC",
-        "note": "Proj. 7.0\u201310.0"
+        "abbr": "LAC"
       },
       "score": {
         "away": "22.6",
@@ -2519,36 +2197,6 @@
               "53%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.6,
-              "home": 7.0,
-              "awayText": "8.6",
-              "homeText": "7.0"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.495,
-              "home": 0.195,
-              "awayText": "50%",
-              "homeText": "20%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.177,
-              "home": 0.047,
-              "awayText": "18%",
-              "homeText": "5%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2557,13 +2205,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Detroit Lions",
-        "abbr": "DET",
-        "note": "Proj. 11.0\u20136.0"
+        "abbr": "DET"
       },
       "home": {
         "name": "Arizona Cardinals",
-        "abbr": "ARI",
-        "note": "Proj. 5.4\u201311.6"
+        "abbr": "ARI"
       },
       "score": {
         "away": "36.3",
@@ -2753,36 +2399,6 @@
               "70%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 11.0,
-              "home": 5.4,
-              "awayText": "11.0",
-              "homeText": "5.4"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.812,
-              "home": 0.027999999999999997,
-              "awayText": "81%",
-              "homeText": "3%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.5579999999999999,
-              "home": 0.005,
-              "awayText": "56%",
-              "homeText": "0%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2791,13 +2407,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "San Francisco 49ers",
-        "abbr": "SF",
-        "note": "Proj. 9.7\u20137.3"
+        "abbr": "SF"
       },
       "home": {
         "name": "Seattle Seahawks",
-        "abbr": "SEA",
-        "note": "Proj. 10.6\u20136.4"
+        "abbr": "SEA"
       },
       "score": {
         "away": "19.4",
@@ -2987,36 +2601,6 @@
               "61%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 9.7,
-              "home": 10.6,
-              "awayText": "9.7",
-              "homeText": "10.6"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.591,
-              "home": 0.7490000000000001,
-              "awayText": "59%",
-              "homeText": "75%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.22899999999999998,
-              "home": 0.39899999999999997,
-              "awayText": "23%",
-              "homeText": "40%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -3025,13 +2609,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Baltimore Ravens",
-        "abbr": "BAL",
-        "note": "Proj. 11.2\u20135.8"
+        "abbr": "BAL"
       },
       "home": {
         "name": "Atlanta Falcons",
-        "abbr": "ATL",
-        "note": "Proj. 7.8\u20139.2"
+        "abbr": "ATL"
       },
       "score": {
         "away": "27.3",
@@ -3221,36 +2803,6 @@
               "55%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 11.2,
-              "home": 7.8,
-              "awayText": "11.2",
-              "homeText": "7.8"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.898,
-              "home": 0.264,
-              "awayText": "90%",
-              "homeText": "26%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.696,
-              "home": 0.16,
-              "awayText": "70%",
-              "homeText": "16%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -3259,13 +2811,11 @@
       "subtitle": "Week 5",
       "away": {
         "name": "Buffalo Bills",
-        "abbr": "BUF",
-        "note": "Proj. 10.1\u20136.9"
+        "abbr": "BUF"
       },
       "home": {
         "name": "Los Angeles Rams",
-        "abbr": "LAR",
-        "note": "Proj. 10.5\u20136.5"
+        "abbr": "LAR"
       },
       "score": {
         "away": "25.5",
@@ -3455,36 +3005,6 @@
               "54%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 10.1,
-              "home": 10.5,
-              "awayText": "10.1",
-              "homeText": "10.5"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.768,
-              "home": 0.7440000000000001,
-              "awayText": "77%",
-              "homeText": "74%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.5579999999999999,
-              "home": 0.36700000000000005,
-              "awayText": "56%",
-              "homeText": "37%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     }

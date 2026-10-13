@@ -1,0 +1,2996 @@
+{
+  "games": {
+    "2026020090": {
+      "title": "NJD @ DET",
+      "subtitle": "Tue Oct 13 \u00b7 6:00 PM ET",
+      "away": {
+        "name": "New Jersey Devils",
+        "abbr": "NJD",
+        "note": "2\u20133\u20130 \u00b7 In net: J. Allen (91% to start)"
+      },
+      "home": {
+        "name": "Detroit Red Wings",
+        "abbr": "DET",
+        "note": "1\u20133\u20131 \u00b7 In net: J. Gibson (92% to start)"
+      },
+      "score": {
+        "away": "2.85",
+        "home": "3.23",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4356,
+        "home": 0.5644,
+        "note": "Fair odds: NJD +130, DET -130 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects NJD 2.58 goals to DET's 2.90. With overtime and the shootout that makes DET 56% to win.",
+            "NJD's offense rates 43 against DET's defense at 51; DET's offense rates 31 against NJD's defense at 39 (percentiles: 50 = an average team).",
+            "In net: J. Allen for NJD (91% to start), J. Gibson for DET (92% to start). Goaltending rates 40 for NJD and 34 for DET.",
+            "The widest gap in what the model leaves out: discipline, NJD 43 to DET 24.",
+            "The market (1 book, margin removed) gives DET 51% to win; the model 56%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 38.0,
+              "home": 37.0,
+              "max": 100,
+              "awayText": "38",
+              "homeText": "37"
+            },
+            {
+              "label": "Offense",
+              "away": 43.0,
+              "home": 31.0,
+              "max": 100,
+              "awayText": "43",
+              "homeText": "31"
+            },
+            {
+              "label": "Defense",
+              "away": 39.0,
+              "home": 51.0,
+              "max": 100,
+              "awayText": "39",
+              "homeText": "51"
+            },
+            {
+              "label": "Goaltending",
+              "away": 40.0,
+              "home": 34.0,
+              "max": 100,
+              "awayText": "40",
+              "homeText": "34"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 86.0,
+              "home": 72.0,
+              "max": 100,
+              "awayText": "86",
+              "homeText": "72"
+            },
+            {
+              "label": "Power play",
+              "away": 48.0,
+              "home": 50.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "50"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 37.0,
+              "home": 36.0,
+              "max": 100,
+              "awayText": "37",
+              "homeText": "36"
+            },
+            {
+              "label": "Discipline",
+              "away": 43.0,
+              "home": 24.0,
+              "max": 100,
+              "awayText": "43",
+              "homeText": "24"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "NJD to win",
+              "44%",
+              "49%"
+            ],
+            [
+              "DET to win",
+              "56%",
+              "51%"
+            ],
+            [
+              "NJD \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "DET \u22121.5",
+              "36%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "54%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "43%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.08 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 86.6,
+              "home": 85.4,
+              "awayText": "87",
+              "homeText": "85"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.2398,
+              "home": 0.2136,
+              "awayText": "24%",
+              "homeText": "21%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0064,
+              "home": 0.0053,
+              "awayText": "1%",
+              "homeText": "1%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020091": {
+      "title": "FLA @ CBJ",
+      "subtitle": "Tue Oct 13 \u00b7 6:15 PM ET",
+      "away": {
+        "name": "Florida Panthers",
+        "abbr": "FLA",
+        "note": "2\u20132\u20132 \u00b7 In net: J. Markstrom (91% to start)"
+      },
+      "home": {
+        "name": "Columbus Blue Jackets",
+        "abbr": "CBJ",
+        "note": "2\u20132\u20130 \u00b7 In net: J. Greaves (94% to start)"
+      },
+      "score": {
+        "away": "2.61",
+        "home": "3.25",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3917,
+        "home": 0.6083,
+        "note": "Fair odds: FLA +155, CBJ -155 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects FLA 2.37 goals to CBJ's 2.89. With overtime and the shootout that makes CBJ 61% to win.",
+            "FLA's offense rates 28 against CBJ's defense at 51; CBJ's offense rates 57 against FLA's defense at 67 (percentiles: 50 = an average team).",
+            "In net: J. Markstrom for FLA (91% to start), J. Greaves for CBJ (94% to start). Goaltending rates 40 for FLA and 89 for CBJ.",
+            "The widest gap in what the model leaves out: discipline, CBJ 48 to FLA 12.",
+            "The market (1 book, margin removed) gives CBJ 53% to win; the model 61%.",
+            "Early season: with 4 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 45.0,
+              "home": 62.0,
+              "max": 100,
+              "awayText": "45",
+              "homeText": "62"
+            },
+            {
+              "label": "Offense",
+              "away": 28.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "28",
+              "homeText": "57"
+            },
+            {
+              "label": "Defense",
+              "away": 67.0,
+              "home": 51.0,
+              "max": 100,
+              "awayText": "67",
+              "homeText": "51"
+            },
+            {
+              "label": "Goaltending",
+              "away": 40.0,
+              "home": 89.0,
+              "max": 100,
+              "awayText": "40",
+              "homeText": "89"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 69.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "69",
+              "homeText": "56"
+            },
+            {
+              "label": "Power play",
+              "away": 22.0,
+              "home": 49.0,
+              "max": 100,
+              "awayText": "22",
+              "homeText": "49"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 40.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "40",
+              "homeText": "46"
+            },
+            {
+              "label": "Discipline",
+              "away": 12.0,
+              "home": 48.0,
+              "max": 100,
+              "awayText": "12",
+              "homeText": "48"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "FLA to win",
+              "39%",
+              "47%"
+            ],
+            [
+              "CBJ to win",
+              "61%",
+              "53%"
+            ],
+            [
+              "FLA \u22121.5",
+              "22%",
+              "\u2014"
+            ],
+            [
+              "CBJ \u22121.5",
+              "39%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "50%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "39%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.86 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 90.3,
+              "home": 95.9,
+              "awayText": "90",
+              "homeText": "96"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.3369,
+              "home": 0.5182,
+              "awayText": "34%",
+              "homeText": "52%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0103,
+              "home": 0.0261,
+              "awayText": "1%",
+              "homeText": "3%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020092": {
+      "title": "BUF @ MTL",
+      "subtitle": "Tue Oct 13 \u00b7 6:30 PM ET",
+      "away": {
+        "name": "Buffalo Sabres",
+        "abbr": "BUF",
+        "note": "3\u20133\u20130 \u00b7 In net: C. Ellis (91% to start)"
+      },
+      "home": {
+        "name": "Montr\u00e9al Canadiens",
+        "abbr": "MTL",
+        "note": "2\u20132\u20131 \u00b7 In net: J. Dobes (76% to start)"
+      },
+      "score": {
+        "away": "2.89",
+        "home": "3.33",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4268,
+        "home": 0.5732,
+        "note": "Fair odds: BUF +134, MTL -134 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects BUF 2.63 goals to MTL's 2.99. With overtime and the shootout that makes MTL 57% to win.",
+            "BUF's offense rates 68 against MTL's defense at 50; MTL's offense rates 55 against BUF's defense at 48 (percentiles: 50 = an average team).",
+            "In net: C. Ellis for BUF (91% to start), J. Dobes for MTL (76% to start). Goaltending rates 29 for BUF and 88 for MTL.",
+            "The widest gap in what the model leaves out: penalty kill, MTL 46 to BUF 22.",
+            "The market (1 book, margin removed) gives MTL 58% to win; the model 57%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 55.0,
+              "home": 60.0,
+              "max": 100,
+              "awayText": "55",
+              "homeText": "60"
+            },
+            {
+              "label": "Offense",
+              "away": 68.0,
+              "home": 55.0,
+              "max": 100,
+              "awayText": "68",
+              "homeText": "55"
+            },
+            {
+              "label": "Defense",
+              "away": 48.0,
+              "home": 50.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "50"
+            },
+            {
+              "label": "Goaltending",
+              "away": 29.0,
+              "home": 88.0,
+              "max": 100,
+              "awayText": "29",
+              "homeText": "88"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 77.0,
+              "home": 55.0,
+              "max": 100,
+              "awayText": "77",
+              "homeText": "55"
+            },
+            {
+              "label": "Power play",
+              "away": 37.0,
+              "home": 29.0,
+              "max": 100,
+              "awayText": "37",
+              "homeText": "29"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 22.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "22",
+              "homeText": "46"
+            },
+            {
+              "label": "Discipline",
+              "away": 38.0,
+              "home": 21.0,
+              "max": 100,
+              "awayText": "38",
+              "homeText": "21"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "BUF to win",
+              "43%",
+              "42%"
+            ],
+            [
+              "MTL to win",
+              "57%",
+              "58%"
+            ],
+            [
+              "BUF \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "MTL \u22121.5",
+              "37%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "56%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "45%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.22 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 93.4,
+              "home": 96.5,
+              "awayText": "93",
+              "homeText": "96"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.4477,
+              "home": 0.5409,
+              "awayText": "45%",
+              "homeText": "54%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.019,
+              "home": 0.0262,
+              "awayText": "2%",
+              "homeText": "3%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020093": {
+      "title": "WSH @ CAR",
+      "subtitle": "Tue Oct 13 \u00b7 6:45 PM ET",
+      "away": {
+        "name": "Washington Capitals",
+        "abbr": "WSH",
+        "note": "3\u20132\u20130 \u00b7 In net: L. Thompson (78% to start)"
+      },
+      "home": {
+        "name": "Carolina Hurricanes",
+        "abbr": "CAR",
+        "note": "5\u20131\u20131 \u00b7 In net: B. Bussi (75% to start)"
+      },
+      "score": {
+        "away": "2.85",
+        "home": "3.47",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3998,
+        "home": 0.6002,
+        "note": "Fair odds: WSH +150, CAR -150 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects WSH 2.62 goals to CAR's 3.12. With overtime and the shootout that makes CAR 60% to win.",
+            "WSH's offense rates 66 against CAR's defense at 79; CAR's offense rates 92 against WSH's defense at 44 (percentiles: 50 = an average team).",
+            "In net: L. Thompson for WSH (78% to start), B. Bussi for CAR (75% to start). Goaltending rates 90 for WSH and 45 for CAR.",
+            "The widest gap in what the model leaves out: 5v5 play, CAR 97 to WSH 49.",
+            "The market (1 book, margin removed) gives CAR 59% to win; the model 60%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 64.0,
+              "home": 89.0,
+              "max": 100,
+              "awayText": "64",
+              "homeText": "89"
+            },
+            {
+              "label": "Offense",
+              "away": 66.0,
+              "home": 92.0,
+              "max": 100,
+              "awayText": "66",
+              "homeText": "92"
+            },
+            {
+              "label": "Defense",
+              "away": 44.0,
+              "home": 79.0,
+              "max": 100,
+              "awayText": "44",
+              "homeText": "79"
+            },
+            {
+              "label": "Goaltending",
+              "away": 90.0,
+              "home": 45.0,
+              "max": 100,
+              "awayText": "90",
+              "homeText": "45"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 49.0,
+              "home": 97.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "97"
+            },
+            {
+              "label": "Power play",
+              "away": 44.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "44",
+              "homeText": "56"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 63.0,
+              "home": 78.0,
+              "max": 100,
+              "awayText": "63",
+              "homeText": "78"
+            },
+            {
+              "label": "Discipline",
+              "away": 38.0,
+              "home": 18.0,
+              "max": 100,
+              "awayText": "38",
+              "homeText": "18"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "WSH to win",
+              "40%",
+              "41%"
+            ],
+            [
+              "CAR to win",
+              "60%",
+              "59%"
+            ],
+            [
+              "WSH \u22121.5",
+              "23%",
+              "\u2014"
+            ],
+            [
+              "CAR \u22121.5",
+              "39%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "58%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "47%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.32 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 98.6,
+              "home": 111.9,
+              "awayText": "99",
+              "homeText": "112"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.6097,
+              "home": 0.9211,
+              "awayText": "61%",
+              "homeText": "92%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0313,
+              "home": 0.1413,
+              "awayText": "3%",
+              "homeText": "14%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020094": {
+      "title": "SEA @ PHI",
+      "subtitle": "Tue Oct 13 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Seattle Kraken",
+        "abbr": "SEA",
+        "note": "4\u20132\u20130 \u00b7 In net: J. Daccord (59% to start)"
+      },
+      "home": {
+        "name": "Philadelphia Flyers",
+        "abbr": "PHI",
+        "note": "0\u20135\u20132 \u00b7 In net: D. Vladar (80% to start)"
+      },
+      "score": {
+        "away": "3.22",
+        "home": "2.79",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.571,
+        "home": 0.429,
+        "note": "Fair odds: SEA -133, PHI +133 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects SEA 2.87 goals to PHI's 2.54. With overtime and the shootout that makes SEA 57% to win.",
+            "SEA's offense rates 61 against PHI's defense at 43; PHI's offense rates 5 against SEA's defense at 32 (percentiles: 50 = an average team).",
+            "In net: J. Daccord for SEA (59% to start), D. Vladar for PHI (80% to start). Goaltending rates 37 for SEA and 31 for PHI.",
+            "The widest gap in what the model leaves out: discipline, SEA 57 to PHI 25.",
+            "The market (1 book, margin removed) gives PHI 53% to win; the model 43%.",
+            "Early season: with 6 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 43.0,
+              "home": 14.0,
+              "max": 100,
+              "awayText": "43",
+              "homeText": "14"
+            },
+            {
+              "label": "Offense",
+              "away": 61.0,
+              "home": 5.0,
+              "max": 100,
+              "awayText": "61",
+              "homeText": "5"
+            },
+            {
+              "label": "Defense",
+              "away": 32.0,
+              "home": 43.0,
+              "max": 100,
+              "awayText": "32",
+              "homeText": "43"
+            },
+            {
+              "label": "Goaltending",
+              "away": 37.0,
+              "home": 31.0,
+              "max": 100,
+              "awayText": "37",
+              "homeText": "31"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 31.0,
+              "home": 0.0,
+              "max": 100,
+              "awayText": "31",
+              "homeText": "0"
+            },
+            {
+              "label": "Power play",
+              "away": 54.0,
+              "home": 30.0,
+              "max": 100,
+              "awayText": "54",
+              "homeText": "30"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 45.0,
+              "home": 54.0,
+              "max": 100,
+              "awayText": "45",
+              "homeText": "54"
+            },
+            {
+              "label": "Discipline",
+              "away": 57.0,
+              "home": 25.0,
+              "max": 100,
+              "awayText": "57",
+              "homeText": "25"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "SEA to win",
+              "57%",
+              "47%"
+            ],
+            [
+              "PHI to win",
+              "43%",
+              "53%"
+            ],
+            [
+              "SEA \u22121.5",
+              "36%",
+              "\u2014"
+            ],
+            [
+              "PHI \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "53%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "42%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.01 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 92.2,
+              "home": 74.0,
+              "awayText": "92",
+              "homeText": "74"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.5133,
+              "home": 0.0401,
+              "awayText": "51%",
+              "homeText": "4%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0145,
+              "home": 0.001,
+              "awayText": "1%",
+              "homeText": "0%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020095": {
+      "title": "TBL @ NYR",
+      "subtitle": "Tue Oct 13 \u00b7 7:15 PM ET",
+      "away": {
+        "name": "Tampa Bay Lightning",
+        "abbr": "TBL",
+        "note": "4\u20131\u20130 \u00b7 In net: A. Vasilevskiy (95% to start)"
+      },
+      "home": {
+        "name": "New York Rangers",
+        "abbr": "NYR",
+        "note": "5\u20132\u20130 \u00b7 In net: I. Shesterkin (80% to start)"
+      },
+      "score": {
+        "away": "2.89",
+        "home": "2.81",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5139,
+        "home": 0.4861,
+        "note": "Fair odds: TBL -106, NYR +106 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects TBL 2.57 goals to NYR's 2.51. With overtime and the shootout that makes TBL 51% to win.",
+            "TBL's offense rates 63 against NYR's defense at 69; NYR's offense rates 42 against TBL's defense at 79 (percentiles: 50 = an average team).",
+            "In net: A. Vasilevskiy for TBL (95% to start), I. Shesterkin for NYR (80% to start). Goaltending rates 77 for TBL and 95 for NYR.",
+            "The widest gap in what the model leaves out: 5v5 play, TBL 84 to NYR 48.",
+            "The market (1 book, margin removed) gives NYR 41% to win; the model 49%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 77.0,
+              "home": 67.0,
+              "max": 100,
+              "awayText": "77",
+              "homeText": "67"
+            },
+            {
+              "label": "Offense",
+              "away": 63.0,
+              "home": 42.0,
+              "max": 100,
+              "awayText": "63",
+              "homeText": "42"
+            },
+            {
+              "label": "Defense",
+              "away": 79.0,
+              "home": 69.0,
+              "max": 100,
+              "awayText": "79",
+              "homeText": "69"
+            },
+            {
+              "label": "Goaltending",
+              "away": 77.0,
+              "home": 95.0,
+              "max": 100,
+              "awayText": "77",
+              "homeText": "95"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 84.0,
+              "home": 48.0,
+              "max": 100,
+              "awayText": "84",
+              "homeText": "48"
+            },
+            {
+              "label": "Power play",
+              "away": 32.0,
+              "home": 59.0,
+              "max": 100,
+              "awayText": "32",
+              "homeText": "59"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 44.0,
+              "home": 68.0,
+              "max": 100,
+              "awayText": "44",
+              "homeText": "68"
+            },
+            {
+              "label": "Discipline",
+              "away": 67.0,
+              "home": 52.0,
+              "max": 100,
+              "awayText": "67",
+              "homeText": "52"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "TBL to win",
+              "51%",
+              "59%"
+            ],
+            [
+              "NYR to win",
+              "49%",
+              "41%"
+            ],
+            [
+              "TBL \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "NYR \u22121.5",
+              "29%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "47%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "36%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.69 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 105.5,
+              "home": 100.9,
+              "awayText": "106",
+              "homeText": "101"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.7992,
+              "home": 0.6901,
+              "awayText": "80%",
+              "homeText": "69%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0677,
+              "home": 0.0357,
+              "awayText": "7%",
+              "homeText": "4%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020096": {
+      "title": "STL @ OTT",
+      "subtitle": "Tue Oct 13 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "St. Louis Blues",
+        "abbr": "STL",
+        "note": "2\u20132\u20131 \u00b7 In net: J. Hofer (58% to start)"
+      },
+      "home": {
+        "name": "Ottawa Senators",
+        "abbr": "OTT",
+        "note": "5\u20131\u20130 \u00b7 In net: S. Ersson (91% to start)"
+      },
+      "score": {
+        "away": "3.02",
+        "home": "2.89",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5221,
+        "home": 0.4779,
+        "note": "Fair odds: STL -109, OTT +109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects STL 2.69 goals to OTT's 2.60. With overtime and the shootout that makes STL 52% to win.",
+            "STL's offense rates 40 against OTT's defense at 81; OTT's offense rates 50 against STL's defense at 64 (percentiles: 50 = an average team).",
+            "In net: J. Hofer for STL (58% to start), S. Ersson for OTT (91% to start). Goaltending rates 43 for STL and 79 for OTT.",
+            "The widest gap in what the model leaves out: discipline, STL 48 to OTT 18.",
+            "The market (1 book, margin removed) gives OTT 51% to win; the model 48%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 51.0,
+              "home": 73.0,
+              "max": 100,
+              "awayText": "51",
+              "homeText": "73"
+            },
+            {
+              "label": "Offense",
+              "away": 40.0,
+              "home": 50.0,
+              "max": 100,
+              "awayText": "40",
+              "homeText": "50"
+            },
+            {
+              "label": "Defense",
+              "away": 64.0,
+              "home": 81.0,
+              "max": 100,
+              "awayText": "64",
+              "homeText": "81"
+            },
+            {
+              "label": "Goaltending",
+              "away": 43.0,
+              "home": 79.0,
+              "max": 100,
+              "awayText": "43",
+              "homeText": "79"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 61.0,
+              "home": 36.0,
+              "max": 100,
+              "awayText": "61",
+              "homeText": "36"
+            },
+            {
+              "label": "Power play",
+              "away": 39.0,
+              "home": 33.0,
+              "max": 100,
+              "awayText": "39",
+              "homeText": "33"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 67.0,
+              "home": 52.0,
+              "max": 100,
+              "awayText": "67",
+              "homeText": "52"
+            },
+            {
+              "label": "Discipline",
+              "away": 48.0,
+              "home": 18.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "18"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "STL to win",
+              "52%",
+              "49%"
+            ],
+            [
+              "OTT to win",
+              "48%",
+              "51%"
+            ],
+            [
+              "STL \u22121.5",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "OTT \u22121.5",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "51%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "40%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.90 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 94.0,
+              "home": 102.8,
+              "awayText": "94",
+              "homeText": "103"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.512,
+              "home": 0.7392,
+              "awayText": "51%",
+              "homeText": "74%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.018,
+              "home": 0.0473,
+              "awayText": "2%",
+              "homeText": "5%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020097": {
+      "title": "VAN @ NYI",
+      "subtitle": "Tue Oct 13 \u00b7 7:45 PM ET",
+      "away": {
+        "name": "Vancouver Canucks",
+        "abbr": "VAN",
+        "note": "2\u20135\u20130 \u00b7 In net: K. Lankinen (84% to start)"
+      },
+      "home": {
+        "name": "New York Islanders",
+        "abbr": "NYI",
+        "note": "2\u20133\u20130 \u00b7 In net: I. Sorokin (94% to start)"
+      },
+      "score": {
+        "away": "2.62",
+        "home": "3.78",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3158,
+        "home": 0.6842,
+        "note": "Fair odds: VAN +217, NYI -217 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects VAN 2.45 goals to NYI's 3.39. With overtime and the shootout that makes NYI 68% to win.",
+            "VAN's offense rates 24 against NYI's defense at 51; NYI's offense rates 42 against VAN's defense at 3 (percentiles: 50 = an average team).",
+            "In net: K. Lankinen for VAN (84% to start), I. Sorokin for NYI (94% to start). Goaltending rates 11 for VAN and 93 for NYI.",
+            "The widest gap in what the model leaves out: penalty kill, NYI 58 to VAN 9.",
+            "The market (1 book, margin removed) gives NYI 66% to win; the model 68%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 5.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "5",
+              "homeText": "56"
+            },
+            {
+              "label": "Offense",
+              "away": 24.0,
+              "home": 42.0,
+              "max": 100,
+              "awayText": "24",
+              "homeText": "42"
+            },
+            {
+              "label": "Defense",
+              "away": 3.0,
+              "home": 51.0,
+              "max": 100,
+              "awayText": "3",
+              "homeText": "51"
+            },
+            {
+              "label": "Goaltending",
+              "away": 11.0,
+              "home": 93.0,
+              "max": 100,
+              "awayText": "11",
+              "homeText": "93"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 4.0,
+              "home": 41.0,
+              "max": 100,
+              "awayText": "4",
+              "homeText": "41"
+            },
+            {
+              "label": "Power play",
+              "away": 47.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "47",
+              "homeText": "56"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 9.0,
+              "home": 58.0,
+              "max": 100,
+              "awayText": "9",
+              "homeText": "58"
+            },
+            {
+              "label": "Discipline",
+              "away": 29.0,
+              "home": 29.0,
+              "max": 100,
+              "awayText": "29",
+              "homeText": "29"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "VAN to win",
+              "32%",
+              "34%"
+            ],
+            [
+              "NYI to win",
+              "68%",
+              "66%"
+            ],
+            [
+              "VAN \u22121.5",
+              "18%",
+              "\u2014"
+            ],
+            [
+              "NYI \u22121.5",
+              "47%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "59%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "48%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.40 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 66.9,
+              "home": 92.6,
+              "awayText": "67",
+              "homeText": "93"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.0211,
+              "home": 0.4149,
+              "awayText": "2%",
+              "homeText": "41%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0,
+              "home": 0.0182,
+              "awayText": "0%",
+              "homeText": "2%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020098": {
+      "title": "PIT @ CHI",
+      "subtitle": "Tue Oct 13 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Pittsburgh Penguins",
+        "abbr": "PIT",
+        "note": "3\u20132\u20131 \u00b7 In net: A. Silovs (83% to start)"
+      },
+      "home": {
+        "name": "Chicago Blackhawks",
+        "abbr": "CHI",
+        "note": "1\u20135\u20130 \u00b7 In net: S. Knight (68% to start)"
+      },
+      "score": {
+        "away": "3.82",
+        "home": "2.78",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.6641,
+        "home": 0.3359,
+        "note": "Fair odds: PIT -198, CHI +198 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects PIT 3.43 goals to CHI's 2.61. With overtime and the shootout that makes PIT 66% to win.",
+            "PIT's offense rates 84 against CHI's defense at 11; CHI's offense rates 12 against PIT's defense at 49 (percentiles: 50 = an average team).",
+            "In net: A. Silovs for PIT (83% to start), S. Knight for CHI (68% to start). Goaltending rates 15 for PIT and 32 for CHI.",
+            "The widest gap in what the model leaves out: 5v5 play, PIT 76 to CHI 6.",
+            "The market (1 book, margin removed) gives CHI 43% to win; the model 34%.",
+            "Early season: with 6 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 64.0,
+              "home": 8.0,
+              "max": 100,
+              "awayText": "64",
+              "homeText": "8"
+            },
+            {
+              "label": "Offense",
+              "away": 84.0,
+              "home": 12.0,
+              "max": 100,
+              "awayText": "84",
+              "homeText": "12"
+            },
+            {
+              "label": "Defense",
+              "away": 49.0,
+              "home": 11.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "11"
+            },
+            {
+              "label": "Goaltending",
+              "away": 15.0,
+              "home": 32.0,
+              "max": 100,
+              "awayText": "15",
+              "homeText": "32"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 76.0,
+              "home": 6.0,
+              "max": 100,
+              "awayText": "76",
+              "homeText": "6"
+            },
+            {
+              "label": "Power play",
+              "away": 48.0,
+              "home": 33.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "33"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 70.0,
+              "home": 37.0,
+              "max": 100,
+              "awayText": "70",
+              "homeText": "37"
+            },
+            {
+              "label": "Discipline",
+              "away": 52.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "52",
+              "homeText": "57"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "PIT to win",
+              "66%",
+              "57%"
+            ],
+            [
+              "CHI to win",
+              "34%",
+              "43%"
+            ],
+            [
+              "PIT \u22121.5",
+              "45%",
+              "\u2014"
+            ],
+            [
+              "CHI \u22121.5",
+              "19%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "62%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "51%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.60 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 98.3,
+              "home": 69.3,
+              "awayText": "98",
+              "homeText": "69"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.5907,
+              "home": 0.0265,
+              "awayText": "59%",
+              "homeText": "3%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0293,
+              "home": 0.0001,
+              "awayText": "3%",
+              "homeText": "0%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020099": {
+      "title": "MIN @ WPG",
+      "subtitle": "Tue Oct 13 \u00b7 8:15 PM ET",
+      "away": {
+        "name": "Minnesota Wild",
+        "abbr": "MIN",
+        "note": "4\u20131\u20131 \u00b7 In net: C. Pickard (91% to start)"
+      },
+      "home": {
+        "name": "Winnipeg Jets",
+        "abbr": "WPG",
+        "note": "3\u20131\u20131 \u00b7 In net: S. Skinner (59% to start)"
+      },
+      "score": {
+        "away": "3.04",
+        "home": "3.03",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5019,
+        "home": 0.4981,
+        "note": "Fair odds: MIN -101, WPG +101 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects MIN 2.74 goals to WPG's 2.74. With overtime and the shootout that makes MIN 50% to win.",
+            "MIN's offense rates 61 against WPG's defense at 41; WPG's offense rates 31 against MIN's defense at 70 (percentiles: 50 = an average team).",
+            "In net: C. Pickard for MIN (91% to start), S. Skinner for WPG (59% to start). Goaltending rates 63 for MIN and 56 for WPG.",
+            "The widest gap in what the model leaves out: discipline, WPG 67 to MIN 29.",
+            "The market (1 book, margin removed) gives WPG 51% to win; the model 50%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 69.0,
+              "home": 35.0,
+              "max": 100,
+              "awayText": "69",
+              "homeText": "35"
+            },
+            {
+              "label": "Offense",
+              "away": 61.0,
+              "home": 31.0,
+              "max": 100,
+              "awayText": "61",
+              "homeText": "31"
+            },
+            {
+              "label": "Defense",
+              "away": 70.0,
+              "home": 41.0,
+              "max": 100,
+              "awayText": "70",
+              "homeText": "41"
+            },
+            {
+              "label": "Goaltending",
+              "away": 63.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "63",
+              "homeText": "56"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 42.0,
+              "home": 19.0,
+              "max": 100,
+              "awayText": "42",
+              "homeText": "19"
+            },
+            {
+              "label": "Power play",
+              "away": 78.0,
+              "home": 60.0,
+              "max": 100,
+              "awayText": "78",
+              "homeText": "60"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 77.0,
+              "home": 61.0,
+              "max": 100,
+              "awayText": "77",
+              "homeText": "61"
+            },
+            {
+              "label": "Discipline",
+              "away": 29.0,
+              "home": 67.0,
+              "max": 100,
+              "awayText": "29",
+              "homeText": "67"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "MIN to win",
+              "50%",
+              "49%"
+            ],
+            [
+              "WPG to win",
+              "50%",
+              "51%"
+            ],
+            [
+              "MIN \u22121.5",
+              "30%",
+              "\u2014"
+            ],
+            [
+              "WPG \u22121.5",
+              "30%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "54%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "43%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.08 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 103.2,
+              "home": 89.2,
+              "awayText": "103",
+              "homeText": "89"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.7883,
+              "home": 0.3537,
+              "awayText": "79%",
+              "homeText": "35%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0477,
+              "home": 0.0079,
+              "awayText": "5%",
+              "homeText": "1%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020100": {
+      "title": "COL @ DAL",
+      "subtitle": "Tue Oct 13 \u00b7 8:30 PM ET",
+      "away": {
+        "name": "Colorado Avalanche",
+        "abbr": "COL",
+        "note": "3\u20132\u20130 \u00b7 In net: M. Blackwood (52% to start)"
+      },
+      "home": {
+        "name": "Dallas Stars",
+        "abbr": "DAL",
+        "note": "2\u20132\u20131 \u00b7 In net: J. Oettinger (72% to start)"
+      },
+      "score": {
+        "away": "3.09",
+        "home": "2.92",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.529,
+        "home": 0.471,
+        "note": "Fair odds: COL -112, DAL +112 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects COL 2.77 goals to DAL's 2.64. With overtime and the shootout that makes COL 53% to win.",
+            "COL's offense rates 92 against DAL's defense at 87; DAL's offense rates 38 against COL's defense at 63 (percentiles: 50 = an average team).",
+            "In net: M. Blackwood for COL (52% to start), J. Oettinger for DAL (72% to start). Goaltending rates 63 for COL and 75 for DAL.",
+            "The widest gap in what the model leaves out: 5v5 play, COL 71 to DAL 46.",
+            "The market (1 book, margin removed) gives DAL 49% to win; the model 47%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 85.0,
+              "home": 72.0,
+              "max": 100,
+              "awayText": "85",
+              "homeText": "72"
+            },
+            {
+              "label": "Offense",
+              "away": 92.0,
+              "home": 38.0,
+              "max": 100,
+              "awayText": "92",
+              "homeText": "38"
+            },
+            {
+              "label": "Defense",
+              "away": 63.0,
+              "home": 87.0,
+              "max": 100,
+              "awayText": "63",
+              "homeText": "87"
+            },
+            {
+              "label": "Goaltending",
+              "away": 63.0,
+              "home": 75.0,
+              "max": 100,
+              "awayText": "63",
+              "homeText": "75"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 71.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "71",
+              "homeText": "46"
+            },
+            {
+              "label": "Power play",
+              "away": 52.0,
+              "home": 35.0,
+              "max": 100,
+              "awayText": "52",
+              "homeText": "35"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 58.0,
+              "home": 63.0,
+              "max": 100,
+              "awayText": "58",
+              "homeText": "63"
+            },
+            {
+              "label": "Discipline",
+              "away": 53.0,
+              "home": 38.0,
+              "max": 100,
+              "awayText": "53",
+              "homeText": "38"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "COL to win",
+              "53%",
+              "51%"
+            ],
+            [
+              "DAL to win",
+              "47%",
+              "49%"
+            ],
+            [
+              "COL \u22121.5",
+              "33%",
+              "\u2014"
+            ],
+            [
+              "DAL \u22121.5",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "53%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "42%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.02 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 108.6,
+              "home": 101.2,
+              "awayText": "109",
+              "homeText": "101"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.8889,
+              "home": 0.7368,
+              "awayText": "89%",
+              "homeText": "74%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.1123,
+              "home": 0.0518,
+              "awayText": "11%",
+              "homeText": "5%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020101": {
+      "title": "VGK @ NSH",
+      "subtitle": "Tue Oct 13 \u00b7 8:45 PM ET",
+      "away": {
+        "name": "Vegas Golden Knights",
+        "abbr": "VGK",
+        "note": "5\u20132\u20130 \u00b7 In net: A. Hill (91% to start)"
+      },
+      "home": {
+        "name": "Nashville Predators",
+        "abbr": "NSH",
+        "note": "2\u20131\u20132 \u00b7 In net: J. Saros (94% to start)"
+      },
+      "score": {
+        "away": "3.06",
+        "home": "2.90",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5276,
+        "home": 0.4724,
+        "note": "Fair odds: VGK -112, NSH +112 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects VGK 2.74 goals to NSH's 2.62. With overtime and the shootout that makes VGK 53% to win.",
+            "VGK's offense rates 68 against NSH's defense at 44; NSH's offense rates 35 against VGK's defense at 81 (percentiles: 50 = an average team).",
+            "In net: A. Hill for VGK (91% to start), J. Saros for NSH (94% to start). Goaltending rates 42 for VGK and 56 for NSH.",
+            "The widest gap in what the model leaves out: 5v5 play, VGK 91 to NSH 21.",
+            "The market (1 book, margin removed) gives NSH 47% to win; the model 47%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 76.0,
+              "home": 39.0,
+              "max": 100,
+              "awayText": "76",
+              "homeText": "39"
+            },
+            {
+              "label": "Offense",
+              "away": 68.0,
+              "home": 35.0,
+              "max": 100,
+              "awayText": "68",
+              "homeText": "35"
+            },
+            {
+              "label": "Defense",
+              "away": 81.0,
+              "home": 44.0,
+              "max": 100,
+              "awayText": "81",
+              "homeText": "44"
+            },
+            {
+              "label": "Goaltending",
+              "away": 42.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "42",
+              "homeText": "56"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 91.0,
+              "home": 21.0,
+              "max": 100,
+              "awayText": "91",
+              "homeText": "21"
+            },
+            {
+              "label": "Power play",
+              "away": 59.0,
+              "home": 67.0,
+              "max": 100,
+              "awayText": "59",
+              "homeText": "67"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 47.0,
+              "home": 55.0,
+              "max": 100,
+              "awayText": "47",
+              "homeText": "55"
+            },
+            {
+              "label": "Discipline",
+              "away": 66.0,
+              "home": 38.0,
+              "max": 100,
+              "awayText": "66",
+              "homeText": "38"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "VGK to win",
+              "53%",
+              "53%"
+            ],
+            [
+              "NSH to win",
+              "47%",
+              "47%"
+            ],
+            [
+              "VGK \u22121.5",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "NSH \u22121.5",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.96 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 106.3,
+              "home": 90.1,
+              "awayText": "106",
+              "homeText": "90"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.887,
+              "home": 0.3863,
+              "awayText": "89%",
+              "homeText": "39%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0816,
+              "home": 0.0079,
+              "awayText": "8%",
+              "homeText": "1%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020102": {
+      "title": "TOR @ UTA",
+      "subtitle": "Tue Oct 13 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "Toronto Maple Leafs",
+        "abbr": "TOR",
+        "note": "3\u20132\u20131 \u00b7 In net: A. Stolarz (63% to start)"
+      },
+      "home": {
+        "name": "Utah Mammoth",
+        "abbr": "UTA",
+        "note": "4\u20132\u20130 \u00b7 In net: K. Vejmelka (93% to start)"
+      },
+      "score": {
+        "away": "2.85",
+        "home": "3.68",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3667,
+        "home": 0.6333,
+        "note": "Fair odds: TOR +173, UTA -173 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects TOR 2.64 goals to UTA's 3.32. With overtime and the shootout that makes UTA 63% to win.",
+            "TOR's offense rates 49 against UTA's defense at 63; UTA's offense rates 87 against TOR's defense at 23 (percentiles: 50 = an average team).",
+            "In net: A. Stolarz for TOR (63% to start), K. Vejmelka for UTA (93% to start). Goaltending rates 82 for TOR and 53 for UTA.",
+            "The widest gap in what the model leaves out: 5v5 play, UTA 94 to TOR 40.",
+            "The market (1 book, margin removed) gives UTA 58% to win; the model 63%.",
+            "Early season: with 6 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 39.0,
+              "home": 79.0,
+              "max": 100,
+              "awayText": "39",
+              "homeText": "79"
+            },
+            {
+              "label": "Offense",
+              "away": 49.0,
+              "home": 87.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "87"
+            },
+            {
+              "label": "Defense",
+              "away": 23.0,
+              "home": 63.0,
+              "max": 100,
+              "awayText": "23",
+              "homeText": "63"
+            },
+            {
+              "label": "Goaltending",
+              "away": 82.0,
+              "home": 53.0,
+              "max": 100,
+              "awayText": "82",
+              "homeText": "53"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 40.0,
+              "home": 94.0,
+              "max": 100,
+              "awayText": "40",
+              "homeText": "94"
+            },
+            {
+              "label": "Power play",
+              "away": 59.0,
+              "home": 84.0,
+              "max": 100,
+              "awayText": "59",
+              "homeText": "84"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 75.0,
+              "home": 47.0,
+              "max": 100,
+              "awayText": "75",
+              "homeText": "47"
+            },
+            {
+              "label": "Discipline",
+              "away": 38.0,
+              "home": 29.0,
+              "max": 100,
+              "awayText": "38",
+              "homeText": "29"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "TOR to win",
+              "37%",
+              "42%"
+            ],
+            [
+              "UTA to win",
+              "63%",
+              "58%"
+            ],
+            [
+              "TOR \u22121.5",
+              "21%",
+              "\u2014"
+            ],
+            [
+              "UTA \u22121.5",
+              "42%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "61%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "50%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.53 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 87.6,
+              "home": 105.9,
+              "awayText": "88",
+              "homeText": "106"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.2547,
+              "home": 0.8443,
+              "awayText": "25%",
+              "homeText": "84%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0062,
+              "home": 0.077,
+              "awayText": "1%",
+              "homeText": "8%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020103": {
+      "title": "CGY @ ANA",
+      "subtitle": "Tue Oct 13 \u00b7 9:45 PM ET",
+      "away": {
+        "name": "Calgary Flames",
+        "abbr": "CGY",
+        "note": "0\u20135\u20130 \u00b7 In net: D. Wolf (62% to start)"
+      },
+      "home": {
+        "name": "Anaheim Ducks",
+        "abbr": "ANA",
+        "note": "4\u20131\u20130 \u00b7 In net: L. Dostal (77% to start)"
+      },
+      "score": {
+        "away": "2.82",
+        "home": "3.62",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3715,
+        "home": 0.6285,
+        "note": "Fair odds: CGY +169, ANA -169 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects CGY 2.61 goals to ANA's 3.25. With overtime and the shootout that makes ANA 63% to win.",
+            "CGY's offense rates 18 against ANA's defense at 42; ANA's offense rates 62 against CGY's defense at 13 (percentiles: 50 = an average team).",
+            "In net: D. Wolf for CGY (62% to start), L. Dostal for ANA (77% to start). Goaltending rates 40 for CGY and 35 for ANA.",
+            "The widest gap in what the model leaves out: power play, ANA 72 to CGY 49.",
+            "The market (1 book, margin removed) gives ANA 64% to win; the model 63%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 12.0,
+              "home": 49.0,
+              "max": 100,
+              "awayText": "12",
+              "homeText": "49"
+            },
+            {
+              "label": "Offense",
+              "away": 18.0,
+              "home": 62.0,
+              "max": 100,
+              "awayText": "18",
+              "homeText": "62"
+            },
+            {
+              "label": "Defense",
+              "away": 13.0,
+              "home": 42.0,
+              "max": 100,
+              "awayText": "13",
+              "homeText": "42"
+            },
+            {
+              "label": "Goaltending",
+              "away": 40.0,
+              "home": 35.0,
+              "max": 100,
+              "awayText": "40",
+              "homeText": "35"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 42.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "42",
+              "homeText": "46"
+            },
+            {
+              "label": "Power play",
+              "away": 49.0,
+              "home": 72.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "72"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 60.0,
+              "home": 65.0,
+              "max": 100,
+              "awayText": "60",
+              "homeText": "65"
+            },
+            {
+              "label": "Discipline",
+              "away": 48.0,
+              "home": 33.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "33"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "CGY to win",
+              "37%",
+              "36%"
+            ],
+            [
+              "ANA to win",
+              "63%",
+              "64%"
+            ],
+            [
+              "CGY \u22121.5",
+              "21%",
+              "\u2014"
+            ],
+            [
+              "ANA \u22121.5",
+              "42%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "60%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "49%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.44 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 71.6,
+              "home": 97.0,
+              "awayText": "72",
+              "homeText": "97"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.0533,
+              "home": 0.6562,
+              "awayText": "5%",
+              "homeText": "66%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0003,
+              "home": 0.0172,
+              "awayText": "0%",
+              "homeText": "2%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020104": {
+      "title": "EDM @ LAK",
+      "subtitle": "Tue Oct 13 \u00b7 10:30 PM ET",
+      "away": {
+        "name": "Edmonton Oilers",
+        "abbr": "EDM",
+        "note": "4\u20130\u20131 \u00b7 In net: T. Jarry (69% to start)"
+      },
+      "home": {
+        "name": "Los Angeles Kings",
+        "abbr": "LAK",
+        "note": "0\u20132\u20132 \u00b7 In net: D. Kuemper (54% to start)"
+      },
+      "score": {
+        "away": "3.22",
+        "home": "3.04",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5295,
+        "home": 0.4705,
+        "note": "Fair odds: EDM -113, LAK +113 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects EDM 2.90 goals to LAK's 2.77. With overtime and the shootout that makes EDM 53% to win.",
+            "EDM's offense rates 79 against LAK's defense at 61; LAK's offense rates 29 against EDM's defense at 47 (percentiles: 50 = an average team).",
+            "In net: T. Jarry for EDM (69% to start), D. Kuemper for LAK (54% to start). Goaltending rates 20 for EDM and 41 for LAK.",
+            "The widest gap in what the model leaves out: 5v5 play, EDM 77 to LAK 43.",
+            "The market (1 book, margin removed) gives LAK 46% to win; the model 47%.",
+            "Early season: with 4 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 61.0,
+              "home": 43.0,
+              "max": 100,
+              "awayText": "61",
+              "homeText": "43"
+            },
+            {
+              "label": "Offense",
+              "away": 79.0,
+              "home": 29.0,
+              "max": 100,
+              "awayText": "79",
+              "homeText": "29"
+            },
+            {
+              "label": "Defense",
+              "away": 47.0,
+              "home": 61.0,
+              "max": 100,
+              "awayText": "47",
+              "homeText": "61"
+            },
+            {
+              "label": "Goaltending",
+              "away": 20.0,
+              "home": 41.0,
+              "max": 100,
+              "awayText": "20",
+              "homeText": "41"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 77.0,
+              "home": 43.0,
+              "max": 100,
+              "awayText": "77",
+              "homeText": "43"
+            },
+            {
+              "label": "Power play",
+              "away": 52.0,
+              "home": 49.0,
+              "max": 100,
+              "awayText": "52",
+              "homeText": "49"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 35.0,
+              "home": 23.0,
+              "max": 100,
+              "awayText": "35",
+              "homeText": "23"
+            },
+            {
+              "label": "Discipline",
+              "away": 48.0,
+              "home": 29.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "29"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "EDM to win",
+              "53%",
+              "54%"
+            ],
+            [
+              "LAK to win",
+              "47%",
+              "46%"
+            ],
+            [
+              "EDM \u22121.5",
+              "33%",
+              "\u2014"
+            ],
+            [
+              "LAK \u22121.5",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "57%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "46%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.26 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 100.6,
+              "home": 90.0,
+              "awayText": "101",
+              "homeText": "90"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.7604,
+              "home": 0.4355,
+              "awayText": "76%",
+              "homeText": "44%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0395,
+              "home": 0.0133,
+              "awayText": "4%",
+              "homeText": "1%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020105": {
+      "title": "BOS @ SJS",
+      "subtitle": "Tue Oct 13 \u00b7 11:00 PM ET",
+      "away": {
+        "name": "Boston Bruins",
+        "abbr": "BOS",
+        "note": "4\u20132\u20130 \u00b7 In net: J. Swayman (95% to start)"
+      },
+      "home": {
+        "name": "San Jose Sharks",
+        "abbr": "SJS",
+        "note": "3\u20132\u20130 \u00b7 In net: Y. Askarov (57% to start)"
+      },
+      "score": {
+        "away": "3.54",
+        "home": "2.68",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.641,
+        "home": 0.359,
+        "note": "Fair odds: BOS -179, SJS +179 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects BOS 3.16 goals to SJS's 2.48. With overtime and the shootout that makes BOS 64% to win.",
+            "BOS's offense rates 61 against SJS's defense at 24; SJS's offense rates 22 against BOS's defense at 58 (percentiles: 50 = an average team).",
+            "In net: J. Swayman for BOS (95% to start), Y. Askarov for SJS (57% to start). Goaltending rates 89 for BOS and 11 for SJS.",
+            "The widest gap in what the model leaves out: 5v5 play, BOS 67 to SJS 5.",
+            "The market (1 book, margin removed) gives SJS 50% to win; the model 36%.",
+            "Early season: with 5 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 68.0,
+              "home": 15.0,
+              "max": 100,
+              "awayText": "68",
+              "homeText": "15"
+            },
+            {
+              "label": "Offense",
+              "away": 61.0,
+              "home": 22.0,
+              "max": 100,
+              "awayText": "61",
+              "homeText": "22"
+            },
+            {
+              "label": "Defense",
+              "away": 58.0,
+              "home": 24.0,
+              "max": 100,
+              "awayText": "58",
+              "homeText": "24"
+            },
+            {
+              "label": "Goaltending",
+              "away": 89.0,
+              "home": 11.0,
+              "max": 100,
+              "awayText": "89",
+              "homeText": "11"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 67.0,
+              "home": 5.0,
+              "max": 100,
+              "awayText": "67",
+              "homeText": "5"
+            },
+            {
+              "label": "Power play",
+              "away": 47.0,
+              "home": 44.0,
+              "max": 100,
+              "awayText": "47",
+              "homeText": "44"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 54.0,
+              "home": 53.0,
+              "max": 100,
+              "awayText": "54",
+              "homeText": "53"
+            },
+            {
+              "label": "Discipline",
+              "away": 33.0,
+              "home": 43.0,
+              "max": 100,
+              "awayText": "33",
+              "homeText": "43"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "BOS to win",
+              "64%",
+              "50%"
+            ],
+            [
+              "SJS to win",
+              "36%",
+              "50%"
+            ],
+            [
+              "BOS \u22121.5",
+              "43%",
+              "\u2014"
+            ],
+            [
+              "SJS \u22121.5",
+              "20%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "56%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "45%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.22 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 99.7,
+              "home": 79.0,
+              "awayText": "100",
+              "homeText": "79"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.6432,
+              "home": 0.1364,
+              "awayText": "64%",
+              "homeText": "14%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0381,
+              "home": 0.0015,
+              "awayText": "4%",
+              "homeText": "0%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    }
+  }
+}

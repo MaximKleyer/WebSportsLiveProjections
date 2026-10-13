@@ -2,31 +2,31 @@
   "season": 2026,
   "label": "2026\u201327 Season",
   "unit": "day",
-  "latest": "2026-10-10.json",
+  "latest": "2026-10-12.json",
   "summary": {
-    "title": "2026\u201327 season to date \u00b7 63 games graded",
+    "title": "2026\u201327 season to date \u00b7 69 games graded",
     "stats": [
       {
         "label": "Straight up",
-        "value": "40\u201323",
-        "detail": "63.5%",
+        "value": "44\u201325",
+        "detail": "63.8%",
         "tone": "good"
       },
       {
         "label": "Log loss",
-        "value": "0.652",
+        "value": "0.647",
         "detail": "coin flip 0.693",
         "tone": "good"
       },
       {
         "label": "Brier score",
-        "value": "0.230",
+        "value": "0.228",
         "detail": "coin flip 0.250",
         "tone": "good"
       },
       {
         "label": "Totals MAE",
-        "value": "1.73",
+        "value": "1.69",
         "detail": "avg miss, goals"
       },
       {
@@ -88,6 +88,16 @@
       "id": "2026-10-10",
       "label": "Sat Oct 10",
       "file": "2026-10-10.json"
+    },
+    {
+      "id": "2026-10-11",
+      "label": "Sun Oct 11",
+      "file": "2026-10-11.json"
+    },
+    {
+      "id": "2026-10-12",
+      "label": "Mon Oct 12",
+      "file": "2026-10-12.json"
     }
   ]
 }

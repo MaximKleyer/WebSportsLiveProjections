@@ -1,0 +1,238 @@
+{
+  "games": {
+    "2026020087": {
+      "title": "FLA @ BUF",
+      "subtitle": "Mon Oct 12 \u00b7 1:00 PM ET",
+      "away": {
+        "name": "Florida Panthers",
+        "abbr": "FLA",
+        "note": "In net: J. Markstrom (81% to start)"
+      },
+      "home": {
+        "name": "Buffalo Sabres",
+        "abbr": "BUF",
+        "note": "In net: U. Luukkonen (72% to start)"
+      },
+      "score": {
+        "away": "2.94",
+        "home": "3.03",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4856,
+        "home": 0.5144,
+        "note": "Fair odds: FLA +106, BUF -106 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects FLA 2.65 goals to BUF's 2.72. With overtime and the shootout that makes BUF 51% to win.",
+            "In net: J. Markstrom for FLA (81% to start), U. Luukkonen for BUF (72% to start).",
+            "The market (1 book, margin removed) gives BUF 50% to win; the model 51%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "FLA to win",
+              "49%",
+              "50%"
+            ],
+            [
+              "BUF to win",
+              "51%",
+              "50%"
+            ],
+            [
+              "FLA \u22121.5",
+              "29%",
+              "\u2014"
+            ],
+            [
+              "BUF \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.97 goals."
+        }
+      ]
+    },
+    "2026020088": {
+      "title": "OTT @ NJD",
+      "subtitle": "Mon Oct 12 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Ottawa Senators",
+        "abbr": "OTT",
+        "note": "In net: L. Ullmark (91% to start)"
+      },
+      "home": {
+        "name": "New Jersey Devils",
+        "abbr": "NJD",
+        "note": "In net: J. Allen (84% to start)"
+      },
+      "score": {
+        "away": "3.17",
+        "home": "2.77",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5679,
+        "home": 0.4321,
+        "note": "Fair odds: OTT -131, NJD +131 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects OTT 2.82 goals to NJD's 2.51. With overtime and the shootout that makes OTT 57% to win.",
+            "In net: L. Ullmark for OTT (91% to start), J. Allen for NJD (84% to start).",
+            "The market (1 book, margin removed) gives NJD 53% to win; the model 43%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "OTT to win",
+              "57%",
+              "47%"
+            ],
+            [
+              "NJD to win",
+              "43%",
+              "53%"
+            ],
+            [
+              "OTT \u22121.5",
+              "36%",
+              "\u2014"
+            ],
+            [
+              "NJD \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "51%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.94 goals."
+        }
+      ]
+    },
+    "2026020089": {
+      "title": "VGK @ MIN",
+      "subtitle": "Mon Oct 12 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Vegas Golden Knights",
+        "abbr": "VGK",
+        "note": "In net: C. Hart (69% to start)"
+      },
+      "home": {
+        "name": "Minnesota Wild",
+        "abbr": "MIN",
+        "note": "In net: J. Wallstedt (90% to start)"
+      },
+      "score": {
+        "away": "3.05",
+        "home": "2.90",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5265,
+        "home": 0.4735,
+        "note": "Fair odds: VGK -111, MIN +111 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects VGK 2.73 goals to MIN's 2.62. With overtime and the shootout that makes VGK 53% to win.",
+            "In net: C. Hart for VGK (69% to start), J. Wallstedt for MIN (90% to start).",
+            "The market (1 book, margin removed) gives MIN 50% to win; the model 47%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "VGK to win",
+              "53%",
+              "50%"
+            ],
+            [
+              "MIN to win",
+              "47%",
+              "50%"
+            ],
+            [
+              "VGK \u22121.5",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "MIN \u22121.5",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.95 goals."
+        }
+      ]
+    }
+  }
+}

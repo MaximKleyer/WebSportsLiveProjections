@@ -1,0 +1,199 @@
+{
+  "subtitle": "Mon Oct 12, 2026\u201327 \u2014 3 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
+  "updated": "2026-10-12",
+  "search": "Search teams or goalies",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "puck",
+      "label": "Fav -1.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "p_over_5.5",
+      "label": "Over 5.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "p_over_6.5",
+      "label": "Over 6.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktTotal",
+      "label": "Mkt Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "1:00 PM",
+        "sort": "2026-10-12T17:00:00Z"
+      },
+      "awayTeam": {
+        "v": "FLA",
+        "sub": "J. Markstrom 81%"
+      },
+      "awayScore": "2.9",
+      "sep": "\u2013",
+      "homeScore": "3.0",
+      "homeTeam": {
+        "v": "BUF",
+        "sub": "U. Luukkonen 72%"
+      },
+      "homeWin": 0.5144,
+      "fair": "-106",
+      "puck": {
+        "v": "BUF 31%",
+        "sort": 0.3127
+      },
+      "total": {
+        "v": "5.97",
+        "sort": 5.97
+      },
+      "p_over_5.5": 0.5196,
+      "p_over_6.5": 0.4116,
+      "mktHome": 0.4957,
+      "mktTotal": {
+        "v": "5.5: over 52%",
+        "sort": 0.5196
+      },
+      "id": "2026020087",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-12T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "OTT",
+        "sub": "L. Ullmark 91%"
+      },
+      "awayScore": "3.2",
+      "sep": "\u2013",
+      "homeScore": "2.8",
+      "homeTeam": {
+        "v": "NJD",
+        "sub": "J. Allen 84%"
+      },
+      "homeWin": 0.4321,
+      "fair": "+131",
+      "puck": {
+        "v": "OTT 36%",
+        "sort": 0.3563
+      },
+      "total": {
+        "v": "5.94",
+        "sort": 5.94
+      },
+      "p_over_5.5": 0.5136,
+      "p_over_6.5": 0.4052,
+      "mktHome": 0.5261,
+      "mktTotal": {
+        "v": "5.5: over 51%",
+        "sort": 0.5136
+      },
+      "id": "2026020088",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-13T00:00:00Z"
+      },
+      "awayTeam": {
+        "v": "VGK",
+        "sub": "C. Hart 69%"
+      },
+      "awayScore": "3.1",
+      "sep": "\u2013",
+      "homeScore": "2.9",
+      "homeTeam": {
+        "v": "MIN",
+        "sub": "J. Wallstedt 90%"
+      },
+      "homeWin": 0.4735,
+      "fair": "+111",
+      "puck": {
+        "v": "VGK 32%",
+        "sort": 0.3224
+      },
+      "total": {
+        "v": "5.95",
+        "sort": 5.95
+      },
+      "p_over_5.5": 0.5155,
+      "p_over_6.5": 0.4076,
+      "mktHome": 0.5043,
+      "mktTotal": {
+        "v": "5.5: over 52%",
+        "sort": 0.5155
+      },
+      "id": "2026020089",
+      "flagged": false
+    }
+  ],
+  "details": "2026-10-12.details.json"
+}

@@ -1,0 +1,153 @@
+{
+  "subtitle": "Sun Oct 11, 2026\u201327 \u2014 3 games \u00b7 straight up 2\u20131 \u00b7 log loss 0.536 \u00b7 totals MAE 1.51",
+  "updated": "2026-10-13",
+  "search": "Search teams",
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou55",
+      "label": "O/U 5.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou65",
+      "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "SEA",
+      "awayScore": "5",
+      "sep": "\u2013",
+      "homeScore": "3",
+      "homeTeam": "WSH",
+      "proj": "2.9 \u2013 3.4",
+      "pick": {
+        "v": "WSH 59% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "total": {
+        "v": "6.23 \u2192 8",
+        "sort": 1.7704
+      },
+      "ou55": {
+        "v": "OVER 56% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 55% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "VAN",
+      "awayScore": "2",
+      "sep": "\u2013",
+      "homeScore": "6",
+      "homeTeam": "NYR",
+      "proj": "2.4 \u2013 3.8",
+      "pick": {
+        "v": "NYR 73% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.17 \u2192 8",
+        "sort": 1.8292
+      },
+      "ou55": {
+        "v": "OVER 56% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 56% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "CAR",
+      "awayScore": "4",
+      "sep": "\u2013",
+      "homeScore": "1",
+      "homeTeam": "PHI",
+      "proj": "3.5 \u2013 2.5",
+      "pick": {
+        "v": "CAR 67% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.94 \u2192 5",
+        "sort": 0.9354
+      },
+      "ou55": {
+        "v": "OVER 52% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 60% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 \u00b7 record by week",
-  "updated": "2026-10-10",
+  "updated": "2026-10-13",
   "columns": [
     {
       "key": "week",
@@ -181,35 +181,35 @@
     },
     {
       "week": {
-        "v": "Week 5 (in progress)",
+        "v": "Week 5",
         "sort": 5
       },
-      "games": 1,
+      "games": 15,
       "su": {
-        "v": "1\u20130 (100%)",
-        "sort": 1.0
+        "v": "11\u20133\u20131 (79%)",
+        "sort": 0.7857
       },
       "ats": {
-        "v": "1\u20130 (100%)",
-        "sort": 1.0,
-        "tone": "good"
-      },
-      "ou": {
-        "v": "0\u20131 (0%)",
-        "sort": 0.0,
+        "v": "5\u20138 (38%)",
+        "sort": 0.3846,
         "tone": "bad"
       },
+      "ou": {
+        "v": "7\u20136 (54%)",
+        "sort": 0.5385,
+        "tone": "good"
+      },
       "spreadPlays": {
-        "v": "1\u20130 (100%)",
-        "sort": 1.0,
+        "v": "4\u20133 (57%)",
+        "sort": 0.5714,
         "tone": "good"
       },
       "totalPlays": {
-        "v": "0\u20131 (0%)",
-        "sort": 0.0,
-        "tone": "bad"
+        "v": "4\u20133 (57%)",
+        "sort": 0.5714,
+        "tone": "good"
       },
-      "mae": 6.7
+      "mae": 9.2
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "subtitle": "2026\u201327 \u2014 scores 0\u2013100 are percentiles among every team-season since 2021\u201322 (50 = average). Overall = offense + defense + goalies; 5v5, PP, PK and discipline are context. Trend = change in overall over the last 14 days.",
-  "updated": "2026-10-11",
+  "updated": "2026-10-13",
   "columns": [
     {
       "key": "rank",
@@ -86,18 +86,18 @@
     {
       "rank": 1,
       "team": "Carolina Hurricanes",
-      "winPct": 0.6087,
-      "overall": 86.0,
-      "offense": 91.0,
-      "defense": 76.0,
+      "winPct": 0.6183,
+      "overall": 89.0,
+      "offense": 92.0,
+      "defense": 79.0,
       "goalies": 45.0,
-      "five": 96.0,
-      "pp": 63.0,
-      "pk": 75.0,
+      "five": 97.0,
+      "pp": 56.0,
+      "pk": 78.0,
       "discipline": 18.0,
       "trend": {
-        "v": "+4",
-        "sort": 3.57,
+        "v": "+6",
+        "sort": 5.71,
         "tone": "good"
       }
     },
@@ -106,7 +106,7 @@
       "team": "Colorado Avalanche",
       "winPct": 0.603,
       "overall": 85.0,
-      "offense": 93.0,
+      "offense": 92.0,
       "defense": 63.0,
       "goalies": 63.0,
       "five": 71.0,
@@ -122,10 +122,10 @@
     {
       "rank": 3,
       "team": "Utah Mammoth",
-      "winPct": 0.5805,
+      "winPct": 0.5813,
       "overall": 79.0,
       "offense": 87.0,
-      "defense": 61.0,
+      "defense": 63.0,
       "goalies": 53.0,
       "five": 94.0,
       "pp": 84.0,
@@ -133,35 +133,17 @@
       "discipline": 29.0,
       "trend": {
         "v": "+20",
-        "sort": 20.13,
+        "sort": 20.41,
         "tone": "good"
       }
     },
     {
       "rank": 4,
-      "team": "Vegas Golden Knights",
-      "winPct": 0.578,
-      "overall": 79.0,
-      "offense": 71.0,
-      "defense": 83.0,
-      "goalies": 42.0,
-      "five": 95.0,
-      "pp": 68.0,
-      "pk": 53.0,
-      "discipline": 57.0,
-      "trend": {
-        "v": "+10",
-        "sort": 9.82,
-        "tone": "good"
-      }
-    },
-    {
-      "rank": 5,
       "team": "Tampa Bay Lightning",
-      "winPct": 0.572,
+      "winPct": 0.5719,
       "overall": 77.0,
-      "offense": 64.0,
-      "defense": 78.0,
+      "offense": 63.0,
+      "defense": 79.0,
       "goalies": 77.0,
       "five": 84.0,
       "pp": 32.0,
@@ -174,28 +156,46 @@
       }
     },
     {
+      "rank": 5,
+      "team": "Vegas Golden Knights",
+      "winPct": 0.5706,
+      "overall": 76.0,
+      "offense": 68.0,
+      "defense": 81.0,
+      "goalies": 42.0,
+      "five": 91.0,
+      "pp": 59.0,
+      "pk": 47.0,
+      "discipline": 66.0,
+      "trend": {
+        "v": "+7",
+        "sort": 7.46,
+        "tone": "good"
+      }
+    },
+    {
       "rank": 6,
       "team": "Ottawa Senators",
-      "winPct": 0.5578,
-      "overall": 72.0,
-      "offense": 52.0,
-      "defense": 79.0,
-      "goalies": 77.0,
-      "five": 43.0,
+      "winPct": 0.5595,
+      "overall": 73.0,
+      "offense": 50.0,
+      "defense": 81.0,
+      "goalies": 79.0,
+      "five": 36.0,
       "pp": 33.0,
-      "pk": 49.0,
-      "discipline": 14.0,
+      "pk": 52.0,
+      "discipline": 18.0,
       "trend": {
         "v": "+1",
-        "sort": 0.76,
+        "sort": 1.44,
         "tone": "good"
       }
     },
     {
       "rank": 7,
       "team": "Dallas Stars",
-      "winPct": 0.5545,
-      "overall": 71.0,
+      "winPct": 0.5549,
+      "overall": 72.0,
       "offense": 38.0,
       "defense": 87.0,
       "goalies": 75.0,
@@ -204,18 +204,36 @@
       "pk": 63.0,
       "discipline": 38.0,
       "trend": {
-        "v": "+6",
-        "sort": 6.34,
+        "v": "+7",
+        "sort": 6.51,
         "tone": "good"
       }
     },
     {
       "rank": 8,
+      "team": "Minnesota Wild",
+      "winPct": 0.5501,
+      "overall": 69.0,
+      "offense": 61.0,
+      "defense": 70.0,
+      "goalies": 63.0,
+      "five": 42.0,
+      "pp": 78.0,
+      "pk": 77.0,
+      "discipline": 29.0,
+      "trend": {
+        "v": "+8",
+        "sort": 7.99,
+        "tone": "good"
+      }
+    },
+    {
+      "rank": 9,
       "team": "Boston Bruins",
-      "winPct": 0.5458,
+      "winPct": 0.5461,
       "overall": 68.0,
-      "offense": 62.0,
-      "defense": 57.0,
+      "offense": 61.0,
+      "defense": 58.0,
       "goalies": 89.0,
       "five": 67.0,
       "pp": 47.0,
@@ -223,52 +241,34 @@
       "discipline": 33.0,
       "trend": {
         "v": "+16",
-        "sort": 15.69,
-        "tone": "good"
-      }
-    },
-    {
-      "rank": 9,
-      "team": "Washington Capitals",
-      "winPct": 0.5454,
-      "overall": 67.0,
-      "offense": 64.0,
-      "defense": 54.0,
-      "goalies": 90.0,
-      "five": 49.0,
-      "pp": 47.0,
-      "pk": 60.0,
-      "discipline": 33.0,
-      "trend": {
-        "v": "+10",
-        "sort": 10.3,
+        "sort": 15.82,
         "tone": "good"
       }
     },
     {
       "rank": 10,
-      "team": "Minnesota Wild",
-      "winPct": 0.5417,
-      "overall": 66.0,
-      "offense": 59.0,
-      "defense": 67.0,
-      "goalies": 61.0,
-      "five": 34.0,
-      "pp": 72.0,
-      "pk": 70.0,
-      "discipline": 38.0,
+      "team": "New York Rangers",
+      "winPct": 0.5422,
+      "overall": 67.0,
+      "offense": 42.0,
+      "defense": 69.0,
+      "goalies": 95.0,
+      "five": 48.0,
+      "pp": 59.0,
+      "pk": 68.0,
+      "discipline": 52.0,
       "trend": {
-        "v": "+5",
-        "sort": 4.83,
+        "v": "+13",
+        "sort": 13.49,
         "tone": "good"
       }
     },
     {
       "rank": 11,
       "team": "Pittsburgh Penguins",
-      "winPct": 0.5396,
-      "overall": 65.0,
-      "offense": 85.0,
+      "winPct": 0.539,
+      "overall": 64.0,
+      "offense": 84.0,
       "defense": 49.0,
       "goalies": 15.0,
       "five": 76.0,
@@ -277,14 +277,32 @@
       "discipline": 52.0,
       "trend": {
         "v": "+4",
-        "sort": 4.03,
+        "sort": 3.81,
         "tone": "good"
       }
     },
     {
       "rank": 12,
+      "team": "Washington Capitals",
+      "winPct": 0.5356,
+      "overall": 64.0,
+      "offense": 66.0,
+      "defense": 44.0,
+      "goalies": 90.0,
+      "five": 49.0,
+      "pp": 44.0,
+      "pk": 63.0,
+      "discipline": 38.0,
+      "trend": {
+        "v": "+6",
+        "sort": 6.44,
+        "tone": "good"
+      }
+    },
+    {
+      "rank": 13,
       "team": "Columbus Blue Jackets",
-      "winPct": 0.5319,
+      "winPct": 0.5324,
       "overall": 62.0,
       "offense": 57.0,
       "defense": 51.0,
@@ -295,34 +313,16 @@
       "discipline": 48.0,
       "trend": {
         "v": "+3",
-        "sort": 2.9,
-        "tone": "good"
-      }
-    },
-    {
-      "rank": 13,
-      "team": "New York Rangers",
-      "winPct": 0.531,
-      "overall": 62.0,
-      "offense": 35.0,
-      "defense": 68.0,
-      "goalies": 95.0,
-      "five": 40.0,
-      "pp": 54.0,
-      "pk": 66.0,
-      "discipline": 43.0,
-      "trend": {
-        "v": "+9",
-        "sort": 9.09,
+        "sort": 3.09,
         "tone": "good"
       }
     },
     {
       "rank": 14,
       "team": "Edmonton Oilers",
-      "winPct": 0.5292,
+      "winPct": 0.5286,
       "overall": 61.0,
-      "offense": 80.0,
+      "offense": 79.0,
       "defense": 47.0,
       "goalies": 20.0,
       "five": 77.0,
@@ -331,17 +331,17 @@
       "discipline": 48.0,
       "trend": {
         "v": "+8",
-        "sort": 7.82,
+        "sort": 7.61,
         "tone": "good"
       }
     },
     {
       "rank": 15,
       "team": "Montr\u00e9al Canadiens",
-      "winPct": 0.526,
+      "winPct": 0.5264,
       "overall": 60.0,
       "offense": 55.0,
-      "defense": 49.0,
+      "defense": 50.0,
       "goalies": 88.0,
       "five": 55.0,
       "pp": 29.0,
@@ -349,17 +349,17 @@
       "discipline": 21.0,
       "trend": {
         "v": "-2",
-        "sort": -1.8,
+        "sort": -1.64,
         "tone": "bad"
       }
     },
     {
       "rank": 16,
       "team": "New York Islanders",
-      "winPct": 0.5153,
+      "winPct": 0.5157,
       "overall": 56.0,
       "offense": 42.0,
-      "defense": 50.0,
+      "defense": 51.0,
       "goalies": 93.0,
       "five": 41.0,
       "pp": 56.0,
@@ -367,17 +367,35 @@
       "discipline": 29.0,
       "trend": {
         "v": "+8",
-        "sort": 7.84,
+        "sort": 7.99,
         "tone": "good"
       }
     },
     {
       "rank": 17,
+      "team": "Buffalo Sabres",
+      "winPct": 0.5153,
+      "overall": 55.0,
+      "offense": 68.0,
+      "defense": 48.0,
+      "goalies": 29.0,
+      "five": 77.0,
+      "pp": 37.0,
+      "pk": 22.0,
+      "discipline": 38.0,
+      "trend": {
+        "v": "-9",
+        "sort": -8.74,
+        "tone": "bad"
+      }
+    },
+    {
+      "rank": 18,
       "team": "St. Louis Blues",
-      "winPct": 0.5042,
+      "winPct": 0.5043,
       "overall": 51.0,
       "offense": 40.0,
-      "defense": 63.0,
+      "defense": 64.0,
       "goalies": 43.0,
       "five": 61.0,
       "pp": 39.0,
@@ -385,53 +403,17 @@
       "discipline": 48.0,
       "trend": {
         "v": "-2",
-        "sort": -1.85,
+        "sort": -1.83,
         "tone": "bad"
-      }
-    },
-    {
-      "rank": 18,
-      "team": "Florida Panthers",
-      "winPct": 0.5024,
-      "overall": 50.0,
-      "offense": 30.0,
-      "defense": 73.0,
-      "goalies": 40.0,
-      "five": 82.0,
-      "pp": 15.0,
-      "pk": 47.0,
-      "discipline": 17.0,
-      "trend": {
-        "v": "+9",
-        "sort": 8.58,
-        "tone": "good"
       }
     },
     {
       "rank": 19,
-      "team": "Buffalo Sabres",
-      "winPct": 0.5023,
-      "overall": 50.0,
-      "offense": 61.0,
-      "defense": 46.0,
-      "goalies": 29.0,
-      "five": 68.0,
-      "pp": 29.0,
-      "pk": 30.0,
-      "discipline": 43.0,
-      "trend": {
-        "v": "-14",
-        "sort": -13.95,
-        "tone": "bad"
-      }
-    },
-    {
-      "rank": 20,
       "team": "Anaheim Ducks",
-      "winPct": 0.5012,
-      "overall": 50.0,
-      "offense": 63.0,
-      "defense": 41.0,
+      "winPct": 0.5005,
+      "overall": 49.0,
+      "offense": 62.0,
+      "defense": 42.0,
       "goalies": 35.0,
       "five": 46.0,
       "pp": 72.0,
@@ -439,17 +421,53 @@
       "discipline": 33.0,
       "trend": {
         "v": "+4",
-        "sort": 4.46,
+        "sort": 4.18,
+        "tone": "good"
+      }
+    },
+    {
+      "rank": 20,
+      "team": "Florida Panthers",
+      "winPct": 0.4902,
+      "overall": 45.0,
+      "offense": 28.0,
+      "defense": 67.0,
+      "goalies": 40.0,
+      "five": 69.0,
+      "pp": 22.0,
+      "pk": 40.0,
+      "discipline": 12.0,
+      "trend": {
+        "v": "+3",
+        "sort": 3.47,
         "tone": "good"
       }
     },
     {
       "rank": 21,
-      "team": "Los Angeles Kings",
-      "winPct": 0.4845,
+      "team": "Seattle Kraken",
+      "winPct": 0.4853,
       "overall": 43.0,
-      "offense": 30.0,
-      "defense": 60.0,
+      "offense": 61.0,
+      "defense": 32.0,
+      "goalies": 37.0,
+      "five": 31.0,
+      "pp": 54.0,
+      "pk": 45.0,
+      "discipline": 57.0,
+      "trend": {
+        "v": "+13",
+        "sort": 13.02,
+        "tone": "good"
+      }
+    },
+    {
+      "rank": 22,
+      "team": "Los Angeles Kings",
+      "winPct": 0.4838,
+      "overall": 43.0,
+      "offense": 29.0,
+      "defense": 61.0,
       "goalies": 41.0,
       "five": 43.0,
       "pp": 49.0,
@@ -457,53 +475,35 @@
       "discipline": 29.0,
       "trend": {
         "v": "-8",
-        "sort": -7.68,
-        "tone": "bad"
-      }
-    },
-    {
-      "rank": 22,
-      "team": "New Jersey Devils",
-      "winPct": 0.4761,
-      "overall": 40.0,
-      "offense": 47.0,
-      "defense": 37.0,
-      "goalies": 41.0,
-      "five": 82.0,
-      "pp": 52.0,
-      "pk": 36.0,
-      "discipline": 53.0,
-      "trend": {
-        "v": "-2",
-        "sort": -1.94,
+        "sort": -7.98,
         "tone": "bad"
       }
     },
     {
       "rank": 23,
-      "team": "Seattle Kraken",
+      "team": "Nashville Predators",
       "winPct": 0.4753,
       "overall": 39.0,
-      "offense": 52.0,
-      "defense": 34.0,
-      "goalies": 36.0,
-      "five": 29.0,
-      "pp": 58.0,
-      "pk": 42.0,
-      "discipline": 53.0,
+      "offense": 35.0,
+      "defense": 44.0,
+      "goalies": 56.0,
+      "five": 21.0,
+      "pp": 67.0,
+      "pk": 55.0,
+      "discipline": 38.0,
       "trend": {
-        "v": "+9",
-        "sort": 9.02,
-        "tone": "good"
+        "v": "-2",
+        "sort": -2.12,
+        "tone": "bad"
       }
     },
     {
       "rank": 24,
       "team": "Toronto Maple Leafs",
-      "winPct": 0.4745,
+      "winPct": 0.4744,
       "overall": 39.0,
-      "offense": 50.0,
-      "defense": 22.0,
+      "offense": 49.0,
+      "defense": 23.0,
       "goalies": 82.0,
       "five": 40.0,
       "pp": 59.0,
@@ -511,44 +511,43 @@
       "discipline": 38.0,
       "trend": {
         "v": "+7",
-        "sort": 7.34,
+        "sort": 7.27,
         "tone": "good"
       }
     },
     {
       "rank": 25,
-      "team": "Nashville Predators",
-      "winPct": 0.4742,
-      "overall": 39.0,
-      "offense": 35.0,
-      "defense": 43.0,
-      "goalies": 54.0,
-      "five": 21.0,
-      "pp": 67.0,
-      "pk": 55.0,
-      "discipline": 38.0,
+      "team": "New Jersey Devils",
+      "winPct": 0.4733,
+      "overall": 38.0,
+      "offense": 43.0,
+      "defense": 39.0,
+      "goalies": 40.0,
+      "five": 86.0,
+      "pp": 48.0,
+      "pk": 37.0,
+      "discipline": 43.0,
       "trend": {
         "v": "-3",
-        "sort": -2.55,
+        "sort": -3.06,
         "tone": "bad"
       }
     },
     {
       "rank": 26,
       "team": "Detroit Red Wings",
-      "winPct": 0.4699,
+      "winPct": 0.4707,
       "overall": 37.0,
-      "offense": 32.0,
-      "defense": 50.0,
+      "offense": 31.0,
+      "defense": 51.0,
       "goalies": 34.0,
       "five": 72.0,
       "pp": 50.0,
       "pk": 36.0,
       "discipline": 24.0,
       "trend": {
-        "v": "-1",
-        "sort": -0.66,
-        "tone": "bad"
+        "v": "0",
+        "sort": -0.35
       }
     },
     {
@@ -556,9 +555,9 @@
       "team": "Winnipeg Jets",
       "winPct": 0.4653,
       "overall": 35.0,
-      "offense": 32.0,
-      "defense": 40.0,
-      "goalies": 55.0,
+      "offense": 31.0,
+      "defense": 41.0,
+      "goalies": 56.0,
       "five": 19.0,
       "pp": 60.0,
       "pk": 61.0,
@@ -571,29 +570,11 @@
     },
     {
       "rank": 28,
-      "team": "Philadelphia Flyers",
-      "winPct": 0.4138,
-      "overall": 17.0,
-      "offense": 7.0,
-      "defense": 47.0,
-      "goalies": 30.0,
-      "five": 0.0,
-      "pp": 35.0,
-      "pk": 47.0,
-      "discipline": 29.0,
-      "trend": {
-        "v": "-33",
-        "sort": -32.66,
-        "tone": "bad"
-      }
-    },
-    {
-      "rank": 29,
       "team": "San Jose Sharks",
-      "winPct": 0.4029,
+      "winPct": 0.4025,
       "overall": 15.0,
       "offense": 22.0,
-      "defense": 23.0,
+      "defense": 24.0,
       "goalies": 11.0,
       "five": 5.0,
       "pp": 44.0,
@@ -601,16 +582,34 @@
       "discipline": 43.0,
       "trend": {
         "v": "-14",
-        "sort": -14.09,
+        "sort": -14.21,
+        "tone": "bad"
+      }
+    },
+    {
+      "rank": 29,
+      "team": "Philadelphia Flyers",
+      "winPct": 0.4029,
+      "overall": 14.0,
+      "offense": 5.0,
+      "defense": 43.0,
+      "goalies": 31.0,
+      "five": 0.0,
+      "pp": 30.0,
+      "pk": 54.0,
+      "discipline": 25.0,
+      "trend": {
+        "v": "-36",
+        "sort": -35.56,
         "tone": "bad"
       }
     },
     {
       "rank": 30,
       "team": "Calgary Flames",
-      "winPct": 0.3903,
+      "winPct": 0.3907,
       "overall": 12.0,
-      "offense": 19.0,
+      "offense": 18.0,
       "defense": 13.0,
       "goalies": 40.0,
       "five": 42.0,
@@ -619,14 +618,14 @@
       "discipline": 48.0,
       "trend": {
         "v": "-19",
-        "sort": -18.95,
+        "sort": -18.91,
         "tone": "bad"
       }
     },
     {
       "rank": 31,
       "team": "Chicago Blackhawks",
-      "winPct": 0.3671,
+      "winPct": 0.3677,
       "overall": 8.0,
       "offense": 12.0,
       "defense": 11.0,
@@ -637,25 +636,25 @@
       "discipline": 57.0,
       "trend": {
         "v": "-11",
-        "sort": -10.88,
+        "sort": -10.79,
         "tone": "bad"
       }
     },
     {
       "rank": 32,
       "team": "Vancouver Canucks",
-      "winPct": 0.3551,
-      "overall": 7.0,
-      "offense": 25.0,
-      "defense": 4.0,
-      "goalies": 13.0,
-      "five": 5.0,
-      "pp": 48.0,
-      "pk": 11.0,
-      "discipline": 25.0,
+      "winPct": 0.3439,
+      "overall": 5.0,
+      "offense": 24.0,
+      "defense": 3.0,
+      "goalies": 11.0,
+      "five": 4.0,
+      "pp": 47.0,
+      "pk": 9.0,
+      "discipline": 29.0,
       "trend": {
-        "v": "-7",
-        "sort": -6.6,
+        "v": "-8",
+        "sort": -7.97,
         "tone": "bad"
       }
     }

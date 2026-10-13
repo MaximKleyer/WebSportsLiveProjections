@@ -2,43 +2,43 @@
   "season": 2026,
   "label": "2026 Season",
   "unit": "week",
-  "latest": "2026-w04.json",
+  "latest": "2026-w05.json",
   "summary": {
-    "title": "2026 season to date \u00b7 65 games graded through Week 4 \u00b7 Week 5 in progress",
+    "title": "2026 season to date \u00b7 79 games graded through Week 5",
     "stats": [
       {
         "label": "Straight up",
-        "value": "40\u201325",
-        "detail": "61.5%",
+        "value": "50\u201328\u20131",
+        "detail": "64.1%",
         "tone": null
       },
       {
         "label": "Against the spread",
-        "value": "33\u201326\u20133",
-        "detail": "55.9%",
-        "tone": "good"
-      },
-      {
-        "label": "Over / under",
-        "value": "32\u201330",
-        "detail": "51.6%",
+        "value": "37\u201334\u20133",
+        "detail": "52.1%",
         "tone": "bad"
       },
       {
+        "label": "Over / under",
+        "value": "39\u201335",
+        "detail": "52.7%",
+        "tone": "good"
+      },
+      {
         "label": "\u2605 Spread plays",
-        "value": "20\u201311\u20132",
-        "detail": "64.5% \u00b7 +7.2u",
+        "value": "23\u201314\u20132",
+        "detail": "62.2% \u00b7 +6.9u",
         "tone": "good"
       },
       {
         "label": "\u2605 Total plays",
-        "value": "14\u201310",
-        "detail": "58.3% \u00b7 +2.7u",
+        "value": "18\u201312",
+        "detail": "60.0% \u00b7 +4.4u",
         "tone": "good"
       },
       {
         "label": "Margin MAE",
-        "value": "9.8",
+        "value": "9.7",
         "detail": "avg miss, points"
       }
     ],
@@ -72,7 +72,7 @@
     },
     {
       "id": "2026-w05",
-      "label": "Week 5 (in progress)",
+      "label": "Week 5",
       "file": "2026-w05.json"
     }
   ]

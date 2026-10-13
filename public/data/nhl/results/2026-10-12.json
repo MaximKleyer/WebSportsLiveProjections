@@ -1,0 +1,153 @@
+{
+  "subtitle": "Mon Oct 12, 2026\u201327 \u2014 3 games \u00b7 straight up 2\u20131 \u00b7 log loss 0.659 \u00b7 totals MAE 1.00",
+  "updated": "2026-10-13",
+  "search": "Search teams",
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou55",
+      "label": "O/U 5.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou65",
+      "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "FLA",
+      "awayScore": "3",
+      "sep": "\u2013",
+      "homeScore": "5",
+      "homeTeam": "BUF",
+      "proj": "2.9 \u2013 3.0",
+      "pick": {
+        "v": "BUF 51% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.97 \u2192 8",
+        "sort": 2.0265
+      },
+      "ou55": {
+        "v": "OVER 52% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 59% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "OTT",
+      "awayScore": "4",
+      "sep": "\u2013",
+      "homeScore": "1",
+      "homeTeam": "NJD",
+      "proj": "3.2 \u2013 2.8",
+      "pick": {
+        "v": "OTT 57% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "5.94 \u2192 5",
+        "sort": 0.9371
+      },
+      "ou55": {
+        "v": "OVER 51% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 59% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "VGK",
+      "awayScore": "2",
+      "sep": "\u2013",
+      "homeScore": "4",
+      "homeTeam": "MIN",
+      "proj": "3.1 \u2013 2.9",
+      "pick": {
+        "v": "VGK 53% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "total": {
+        "v": "5.95 \u2192 6",
+        "sort": 0.0503
+      },
+      "ou55": {
+        "v": "OVER 52% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 59% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    }
+  ]
+}

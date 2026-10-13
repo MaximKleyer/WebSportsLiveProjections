@@ -1,13 +1,7 @@
 {
-  "subtitle": "Sun Oct 11, 2026\u201327 \u2014 3 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's \u00b7 \u2605 = flagged bet",
+  "subtitle": "Sun Oct 11, 2026\u201327 \u2014 3 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
   "updated": "2026-10-11",
   "search": "Search teams or goalies",
-  "filters": [
-    {
-      "field": "flagged",
-      "label": "\u2605 bets only"
-    }
-  ],
   "columns": [
     {
       "key": "start",
@@ -89,12 +83,6 @@
       "label": "Mkt Total",
       "align": "right",
       "sortable": true
-    },
-    {
-      "key": "bet",
-      "label": "Bet (edge)",
-      "align": "right",
-      "sortable": true
     }
   ],
   "rows": [
@@ -132,11 +120,7 @@
         "sort": 0.4542
       },
       "id": "2026020084",
-      "bet": {
-        "v": "\u2605 SEA ML (+7.1%) +1",
-        "sort": 0.0713
-      },
-      "flagged": true
+      "flagged": false
     },
     {
       "start": {
@@ -208,11 +192,7 @@
         "sort": 0.5151
       },
       "id": "2026020086",
-      "bet": {
-        "v": "\u2605 CAR -1.5 (+2.8%)",
-        "sort": 0.0278
-      },
-      "flagged": true
+      "flagged": false
     }
   ],
   "details": "2026-10-11.details.json"
