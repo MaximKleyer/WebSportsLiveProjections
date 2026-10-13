@@ -216,7 +216,7 @@
             {
               "label": "Playoffs",
               "away": 0.7390000000000001,
-              "home": 0.46399999999999997,
+              "home": 0.46299999999999997,
               "awayText": "74%",
               "homeText": "46%",
               "max": 1
@@ -450,7 +450,7 @@
             {
               "label": "Playoffs",
               "away": 0.594,
-              "home": 0.649,
+              "home": 0.648,
               "awayText": "59%",
               "homeText": "65%",
               "max": 1
@@ -474,32 +474,32 @@
       "away": {
         "name": "Chicago Bears",
         "abbr": "CHI",
-        "note": "Proj. 8.4\u20138.6"
+        "note": "Proj. 8.3\u20138.7"
       },
       "home": {
         "name": "Atlanta Falcons",
         "abbr": "ATL",
-        "note": "Proj. 8.5\u20138.5"
+        "note": "Proj. 8.6\u20138.4"
       },
       "score": {
-        "away": "24.3",
-        "home": "27.5",
+        "away": "19.9",
+        "home": "25.9",
         "label": "Projected score"
       },
       "win": {
-        "away": 0.412,
-        "home": 0.588,
-        "note": "Fair odds: CHI +143, ATL -143 (no margin)."
+        "away": 0.339,
+        "home": 0.661,
+        "note": "Fair odds: CHI +195, ATL -195 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects CHI 24.3 \u2013 ATL 27.5: ATL by 3.2, 51.8 points in all. That makes ATL 59% to win.",
-            "The market line: ATL +3, total 49.5. Against the spread the model takes ATL +3 (67% to cover); on the total, the over (56%).",
-            "Under center: Caleb Williams projects 224 passing yards for CHI, Michael Penix Jr. 271 for ATL.",
-            "On the ground: CHI 134 yards on 28 carries, ATL 172 on 35."
+            "The model projects CHI 19.9 \u2013 ATL 25.9: ATL by 6.0, 45.7 points in all. That makes ATL 66% to win.",
+            "The market line: ATL +3, total 49.5. Against the spread the model takes ATL +3 (73% to cover); on the total, the under (61%).",
+            "Under center: Tyson Bagent projects 132 passing yards for CHI, Tua Tagovailoa 224 for ATL.",
+            "On the ground: CHI 123 yards on 28 carries, ATL 171 on 35."
           ]
         },
         {
@@ -508,31 +508,31 @@
           "rows": [
             {
               "label": "Passing yards",
-              "away": 224.3,
-              "home": 271.3,
-              "awayText": "224",
-              "homeText": "271"
+              "away": 131.6,
+              "home": 224.5,
+              "awayText": "132",
+              "homeText": "224"
             },
             {
               "label": "Rushing yards",
-              "away": 133.8,
-              "home": 171.6,
-              "awayText": "134",
-              "homeText": "172"
+              "away": 122.7,
+              "home": 171.1,
+              "awayText": "123",
+              "homeText": "171"
             },
             {
               "label": "Total yards",
-              "away": 358.1,
-              "home": 442.9,
-              "awayText": "358",
-              "homeText": "443"
+              "away": 254.3,
+              "home": 395.6,
+              "awayText": "254",
+              "homeText": "396"
             },
             {
               "label": "Pass attempts",
-              "away": 35.4,
-              "home": 25.3,
-              "awayText": "35",
-              "homeText": "25"
+              "away": 25.0,
+              "home": 25.6,
+              "awayText": "25",
+              "homeText": "26"
             },
             {
               "label": "Carries",
@@ -543,18 +543,18 @@
             },
             {
               "label": "Sacks taken",
-              "away": 1.6,
-              "home": 1.3,
-              "awayText": "1.6",
-              "homeText": "1.3",
+              "away": 0.8,
+              "home": 3.0,
+              "awayText": "0.8",
+              "homeText": "3.0",
               "lower": true
             },
             {
               "label": "Interceptions",
-              "away": 1.31,
-              "home": 0.27,
-              "awayText": "1.3",
-              "homeText": "0.3",
+              "away": 0.9,
+              "home": 0.51,
+              "awayText": "0.9",
+              "homeText": "0.5",
               "lower": true
             }
           ],
@@ -572,75 +572,75 @@
           "rows": [
             [
               "CHI",
-              "Caleb Williams",
+              "Tyson Bagent",
               "QB",
-              "224 pass yds \u00b7 21/35 \u00b7 1.3 INT"
+              "132 pass yds \u00b7 15/25 \u00b7 0.9 INT"
             ],
             [
               "CHI",
               "Kyle Monangai",
               "RB",
-              "62 rush yds on 13.9 carries \u00b7 1.4 rec, 10 yds"
+              "62 rush yds on 13.9 carries \u00b7 0.8 rec, 6 yds"
             ],
             [
               "CHI",
               "D'Andre Swift",
               "RB",
-              "49 rush yds on 14.3 carries \u00b7 3.2 rec, 24 yds"
+              "49 rush yds on 14.3 carries \u00b7 1.9 rec, 14 yds"
             ],
             [
               "CHI",
               "Rome Odunze",
               "WR",
-              "3.8 rec, 56 yds \u00b7 18% of targets"
+              "2.3 rec, 33 yds \u00b7 18% of targets"
             ],
             [
               "CHI",
               "Luther Burden III",
               "WR",
-              "4.4 rec, 52 yds \u00b7 19% of targets"
+              "2.6 rec, 30 yds \u00b7 19% of targets"
             ],
             [
               "CHI",
               "Kalif Raymond",
               "WR",
-              "3.7 rec, 30 yds \u00b7 11% of targets"
+              "2.1 rec, 18 yds \u00b7 11% of targets"
             ],
             [
               "ATL",
-              "Michael Penix Jr.",
+              "Tua Tagovailoa",
               "QB",
-              "271 pass yds \u00b7 17/25 \u00b7 0.3 INT"
+              "224 pass yds \u00b7 16/26 \u00b7 0.5 INT"
             ],
             [
               "ATL",
               "Bijan Robinson",
               "RB",
-              "104 rush yds on 19.0 carries \u00b7 3.6 rec, 23 yds"
+              "104 rush yds on 19.0 carries \u00b7 3.0 rec, 19 yds"
             ],
             [
               "ATL",
               "Brian Robinson Jr.",
               "RB",
-              "44 rush yds on 10.9 carries \u00b7 1.0 rec, 6 yds"
+              "44 rush yds on 10.9 carries \u00b7 0.8 rec, 5 yds"
             ],
             [
               "ATL",
               "Drake London",
               "WR",
-              "7.4 rec, 122 yds \u00b7 27% of targets"
+              "6.1 rec, 101 yds \u00b7 27% of targets"
             ],
             [
               "ATL",
               "Kyle Pitts Sr.",
               "TE",
-              "3.3 rec, 38 yds \u00b7 14% of targets"
+              "2.7 rec, 31 yds \u00b7 14% of targets"
             ],
             [
               "ATL",
               "Jahan Dotson",
               "WR",
-              "2.3 rec, 36 yds \u00b7 12% of targets"
+              "1.9 rec, 29 yds \u00b7 12% of targets"
             ]
           ]
         },
@@ -654,19 +654,19 @@
           "rows": [
             [
               "CHI to win",
-              "41%"
+              "34%"
             ],
             [
               "ATL to win",
-              "59%"
+              "66%"
             ],
             [
               "ATL +3",
-              "67%"
+              "73%"
             ],
             [
-              "Over 49.5",
-              "56%"
+              "Under 49.5",
+              "61%"
             ]
           ]
         },
@@ -676,25 +676,25 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 8.4,
-              "home": 8.5,
-              "awayText": "8.4",
-              "homeText": "8.5"
+              "away": 8.3,
+              "home": 8.6,
+              "awayText": "8.3",
+              "homeText": "8.6"
             },
             {
               "label": "Playoffs",
-              "away": 0.341,
-              "home": 0.41200000000000003,
-              "awayText": "34%",
-              "homeText": "41%",
+              "away": 0.327,
+              "home": 0.425,
+              "awayText": "33%",
+              "homeText": "42%",
               "max": 1
             },
             {
               "label": "Division",
-              "away": 0.113,
-              "home": 0.303,
+              "away": 0.10800000000000001,
+              "home": 0.314,
               "awayText": "11%",
-              "homeText": "30%",
+              "homeText": "31%",
               "max": 1
             }
           ],
@@ -917,15 +917,15 @@
             },
             {
               "label": "Playoffs",
-              "away": 0.805,
-              "home": 0.263,
+              "away": 0.804,
+              "home": 0.262,
               "awayText": "80%",
               "homeText": "26%",
               "max": 1
             },
             {
               "label": "Division",
-              "away": 0.574,
+              "away": 0.5720000000000001,
               "home": 0.085,
               "awayText": "57%",
               "homeText": "8%",
@@ -1153,7 +1153,7 @@
             {
               "label": "Playoffs",
               "away": 0.13,
-              "home": 0.287,
+              "home": 0.28600000000000003,
               "awayText": "13%",
               "homeText": "29%",
               "max": 1
@@ -1622,7 +1622,7 @@
             {
               "label": "Playoffs",
               "away": 0.149,
-              "home": 0.409,
+              "home": 0.41,
               "awayText": "15%",
               "homeText": "41%",
               "max": 1
@@ -1885,27 +1885,27 @@
       "home": {
         "name": "Tampa Bay Buccaneers",
         "abbr": "TB",
-        "note": "Proj. 8.7\u20138.3"
+        "note": "Proj. 8.6\u20138.4"
       },
       "score": {
         "away": "18.1",
-        "home": "22.8",
+        "home": "21.0",
         "label": "Projected score"
       },
       "win": {
-        "away": 0.371,
-        "home": 0.629,
-        "note": "Fair odds: PIT +170, TB -170 (no margin)."
+        "away": 0.421,
+        "home": 0.579,
+        "note": "Fair odds: PIT +138, TB -138 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects PIT 18.1 \u2013 TB 22.8: TB by 4.7, 40.9 points in all. That makes TB 63% to win.",
-            "The market line: TB +3, total 40.5. Against the spread the model takes TB +3 (70% to cover); on the total, the over (51%).",
-            "Under center: Aaron Rodgers projects 242 passing yards for PIT, Baker Mayfield 239 for TB.",
-            "On the ground: PIT 93 yards on 22 carries, TB 109 on 22."
+            "The model projects PIT 18.1 \u2013 TB 21.0: TB by 2.9, 39.0 points in all. That makes TB 58% to win.",
+            "The market line: TB +3, total 40.5. Against the spread the model takes TB +3 (66% to cover); on the total, the under (54%).",
+            "Under center: Aaron Rodgers projects 242 passing yards for PIT, Jalon Daniels 187 for TB.",
+            "On the ground: PIT 93 yards on 22 carries, TB 125 on 22."
           ]
         },
         {
@@ -1915,30 +1915,30 @@
             {
               "label": "Passing yards",
               "away": 241.7,
-              "home": 239.1,
+              "home": 186.7,
               "awayText": "242",
-              "homeText": "239"
+              "homeText": "187"
             },
             {
               "label": "Rushing yards",
               "away": 93.4,
-              "home": 109.3,
+              "home": 124.9,
               "awayText": "93",
-              "homeText": "109"
+              "homeText": "125"
             },
             {
               "label": "Total yards",
               "away": 335.1,
-              "home": 348.4,
+              "home": 311.6,
               "awayText": "335",
-              "homeText": "348"
+              "homeText": "312"
             },
             {
               "label": "Pass attempts",
               "away": 35.1,
-              "home": 30.1,
+              "home": 26.0,
               "awayText": "35",
-              "homeText": "30"
+              "homeText": "26"
             },
             {
               "label": "Carries",
@@ -1950,17 +1950,17 @@
             {
               "label": "Sacks taken",
               "away": 2.3,
-              "home": 2.9,
+              "home": 1.7,
               "awayText": "2.3",
-              "homeText": "2.9",
+              "homeText": "1.7",
               "lower": true
             },
             {
               "label": "Interceptions",
               "away": 0.88,
-              "home": 0.67,
+              "home": 0.9,
               "awayText": "0.9",
-              "homeText": "0.7",
+              "homeText": "0.9",
               "lower": true
             }
           ],
@@ -2014,39 +2014,39 @@
             ],
             [
               "TB",
-              "Baker Mayfield",
+              "Jalon Daniels",
               "QB",
-              "239 pass yds \u00b7 21/30 \u00b7 0.7 INT"
+              "187 pass yds \u00b7 20/26 \u00b7 0.9 INT"
             ],
             [
               "TB",
               "Bucky Irving",
               "RB",
-              "80 rush yds on 17.2 carries \u00b7 2.2 rec, 10 yds"
+              "80 rush yds on 17.2 carries \u00b7 1.7 rec, 8 yds"
             ],
             [
               "TB",
               "Kenny Gainwell",
               "RB",
-              "12 rush yds on 5.0 carries \u00b7 2.8 rec, 16 yds"
+              "12 rush yds on 5.0 carries \u00b7 2.1 rec, 12 yds"
             ],
             [
               "TB",
               "Chris Godwin Jr.",
               "WR",
-              "4.5 rec, 48 yds \u00b7 16% of targets"
+              "3.5 rec, 38 yds \u00b7 16% of targets"
             ],
             [
               "TB",
               "Tez Johnson",
               "WR",
-              "1.6 rec, 43 yds \u00b7 7% of targets"
+              "1.3 rec, 33 yds \u00b7 7% of targets"
             ],
             [
               "TB",
               "Emeka Egbuka",
               "WR",
-              "4.1 rec, 38 yds \u00b7 22% of targets"
+              "3.2 rec, 30 yds \u00b7 22% of targets"
             ]
           ]
         },
@@ -2060,19 +2060,19 @@
           "rows": [
             [
               "PIT to win",
-              "37%"
+              "42%"
             ],
             [
               "TB to win",
-              "63%"
+              "58%"
             ],
             [
               "TB +3",
-              "70%"
+              "66%"
             ],
             [
-              "Over 40.5",
-              "51%"
+              "Under 40.5",
+              "54%"
             ]
           ]
         },
@@ -2083,24 +2083,24 @@
             {
               "label": "Proj. wins",
               "away": 7.6,
-              "home": 8.7,
+              "home": 8.6,
               "awayText": "7.6",
-              "homeText": "8.7"
+              "homeText": "8.6"
             },
             {
               "label": "Playoffs",
-              "away": 0.278,
-              "home": 0.449,
+              "away": 0.285,
+              "home": 0.439,
               "awayText": "28%",
-              "homeText": "45%",
+              "homeText": "44%",
               "max": 1
             },
             {
               "label": "Division",
-              "away": 0.08900000000000001,
-              "home": 0.342,
+              "away": 0.09300000000000001,
+              "home": 0.331,
               "awayText": "9%",
-              "homeText": "34%",
+              "homeText": "33%",
               "max": 1
             }
           ],
@@ -2323,8 +2323,8 @@
             },
             {
               "label": "Playoffs",
-              "away": 0.021,
-              "home": 0.795,
+              "away": 0.022000000000000002,
+              "home": 0.7959999999999999,
               "awayText": "2%",
               "homeText": "80%",
               "max": 1
@@ -2559,7 +2559,7 @@
             {
               "label": "Playoffs",
               "away": 0.26899999999999996,
-              "home": 0.899,
+              "home": 0.898,
               "awayText": "27%",
               "homeText": "90%",
               "max": 1
@@ -2792,8 +2792,8 @@
             },
             {
               "label": "Playoffs",
-              "away": 0.657,
-              "home": 0.149,
+              "away": 0.6559999999999999,
+              "home": 0.14800000000000002,
               "awayText": "66%",
               "homeText": "15%",
               "max": 1
@@ -3027,15 +3027,15 @@
             {
               "label": "Playoffs",
               "away": 0.34,
-              "home": 0.5329999999999999,
+              "home": 0.535,
               "awayText": "34%",
-              "homeText": "53%",
+              "homeText": "54%",
               "max": 1
             },
             {
               "label": "Division",
               "away": 0.249,
-              "home": 0.221,
+              "home": 0.223,
               "awayText": "25%",
               "homeText": "22%",
               "max": 1
@@ -3261,8 +3261,8 @@
             },
             {
               "label": "Playoffs",
-              "away": 0.237,
-              "home": 0.677,
+              "away": 0.23800000000000002,
+              "home": 0.679,
               "awayText": "24%",
               "homeText": "68%",
               "max": 1
