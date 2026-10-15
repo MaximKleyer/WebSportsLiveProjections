@@ -41,7 +41,10 @@ finished week each time: one that covers more than a week (`G` above 1, a
 season-to-date export the build would count twice) or is the wrong view (a
 player view under a defense name — player views have `POS` — or a rushing view
 as receiving: `CMP`, `YPC`, `TGT`) keeps its week on the list with a ⚠ line until
-it's replaced, and puts a ⚠ on the rebuild meanwhile. **Done** clears a
+it's replaced, and puts a ⚠ on the rebuild meanwhile. So does a week whose player
+exports have no rows for a game the schedule says was played (one saved Tuesday
+morning can miss Monday night's), its ⚠ line naming the game; that one doesn't
+hold the rebuild. **Done** clears a
 reminder the app can't verify until it's due again (the plan's `again`: next
 Tuesday for QB changes, next Monday for CFB's adjustments, next morning for the
 daily ones), kept in `.state/state.json` `dismissed`.
@@ -68,6 +71,7 @@ runs when its inputs can have changed and its API budget allows:
 | NFL | grade | a projected game finished and isn't graded yet (retries every 2 h) |
 | | predict | the current week has games left and was last projected 12 h+ ago |
 | | season sim | after new projections, or weekly |
+| | prop lines | hourly from 4 h before a kickoff to 1 h after it, every 4 h otherwise (ESPN, free; regular season) |
 | CFB | grade | a projected game finished and isn't graded (2 API calls; retries every 3 h) |
 | | project | the current week has games left, last projected 36 h+ ago, 60+ API calls left |
 | | season sim | after new projections, or weekly |

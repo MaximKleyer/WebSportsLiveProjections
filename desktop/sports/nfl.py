@@ -5,6 +5,7 @@ Runs with the NFL model's venv Python:
   python desktop/sports/nfl.py step predict --season 2026 --week 5
   python desktop/sports/nfl.py step season --season 2026
   python desktop/sports/nfl.py step grade --season 2026
+  python desktop/sports/nfl.py step lines --season 2026 --week 6
 
 The schedule (weeks, kickoffs) comes from the nflverse games feed the model
 caches at data/raw/external/games_latest.csv; grading refreshes it.
@@ -22,7 +23,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from _common import (ET, Freeze, History, Plan, ago, cli, file_time, finish, freeze_notes, last_weekday,
+from _common import (ET, Freeze, History, Plan, ago, cli, et_day, file_time, finish, freeze_notes, last_weekday,
                      model_entry, plural, read_rows, run, span, utcnow, written_since)
 
 MODEL = model_entry("nfl")
@@ -38,6 +39,14 @@ GRADE_RETRY = timedelta(hours=2)       # when finished games aren't in the feed 
 SEASON_EVERY = timedelta(days=7)
 LOOKBACK = timedelta(days=5)           # older ungraded games aren't worth re-grading for
 PLAYER_DATA_STALE = timedelta(days=8)
+# Prop lines (the model's props layer). ESPN lists a game's full alt ladders only until kickoff and
+# keeps just the current season, so: hourly from 4 h before a kickoff to 1 h after it (the first
+# pull after kickoff records the closing line), every 4 h otherwise. Free; the archive keeps only moves.
+LINES = FOLDER / "data" / "lines"
+LINES_BEFORE = timedelta(hours=4)
+LINES_AFTER = timedelta(hours=1)
+LINES_EVERY = timedelta(hours=4)
+SLACK = timedelta(minutes=10)  # the app runs on the hour, so "hourly" can't wait for 60 full minutes
 RAW = FOLDER / "data" / "raw"
 # The weekly FantasyPoints exports build_database.py reads, by these exact names (database.py).
 EXPORTS = ("advanced_passing_player.csv", "advanced_passing_def.csv", "advanced_rushing_player.csv",
@@ -48,6 +57,11 @@ WEEKLY = STATS + ("injury_report.csv",)
 # A column every view of a family has, in the old exports and Data Suite 2.0 alike; the player views
 # also have POS, which the defense views don't.
 FAMILY_MARK = {"passing": "CMP", "rushing": "YPC", "receiving": "TGT"}
+# The player views, whose Team column says which games an export covers.
+PLAYER_VIEWS = ("advanced_passing_player.csv", "advanced_rushing_player.csv", "advanced_receiving_player.csv")
+# FantasyPoints' team codes where the schedule feed's differ (the model's own map: utils.TEAM_CODE_MAP).
+FP_TEAMS = {"ARZ": "ARI", "BLT": "BAL", "CLV": "CLE", "HST": "HOU", "JAC": "JAX", "LA": "LAR", "LVR": "LV",
+            "WSH": "WAS"}
 FIRST_SEASON = 2021  # the warehouse's first season
 
 # The feed spells a few teams differently from the model (nfl_projector_v1/results.py).
@@ -148,12 +162,37 @@ def plan(history: History, force: bool) -> Plan:
                else f"last run {ago(season_written, now)}",
                requires=("predict",) if predict_due else ())
 
+        lines_step(p, history, games, season, week, now, force)
+
     players = file_time(WAREHOUSE)
     if players is not None:
         p.stat("Player data", players.astimezone(ET).strftime("%b %d").replace(" 0", " "),
                "FantasyPoints exports", tone="bad" if now - players > PLAYER_DATA_STALE else None)
     need_inputs(p, season, games, week, now)
     return p
+
+
+def lines_step(p: Plan, history: History, games: pd.DataFrame, season: int, week: int,
+               now: datetime, force: bool) -> None:
+    """The week's DraftKings prop lines: hourly around kickoffs, every LINES_EVERY otherwise."""
+    if week > 18:
+        p.step("lines", "Prop lines", [], due=False, reason="the playoffs aren't pulled yet")
+        return
+    stamp = pd.Timestamp(now)
+    around = ((games["kickoff"] - LINES_BEFORE <= stamp) & (stamp <= games["kickoff"] + LINES_AFTER)).any()
+    every = timedelta(hours=1) if around else LINES_EVERY
+    cadence = "hourly around kickoffs" if around else f"every {span(LINES_EVERY)}"
+    pulled = history.last("lines")
+    if pulled is None:
+        due, reason = True, "no pull from the app yet"
+    elif now - pulled >= every - SLACK:
+        due, reason = True, f"last pulled {ago(pulled, now)} ({cadence})"
+    else:
+        due, reason = force, f"pulled {ago(pulled, now)} ({cadence})"
+    p.step("lines", f"Prop lines, week {week}", ["lines", "--season", season, "--week", week],
+           due=due, reason=reason)
+    if pulled is not None:
+        p.stat("Prop lines", ago(pulled, now), "DraftKings via ESPN, free")
 
 
 def misnamed(folder: Path) -> dict[str, list[str]]:
@@ -228,6 +267,42 @@ def export_fault(path: Path) -> tuple[str, str]:
     return "", ""
 
 
+def export_teams(folder: Path) -> set[str]:
+    """The teams a week's player exports have rows for, in the schedule's codes (empty: none to read)."""
+    teams = set()
+    for name in PLAYER_VIEWS:
+        path = folder / name
+        if not path.exists():
+            continue
+        try:
+            header, columns = export_header(path)
+            if "Team" not in columns:
+                continue  # export_fault reports the wrong view
+            cells = pd.read_csv(path, encoding="utf-8-sig", header=header, dtype=str, keep_default_na=False,
+                                usecols=["Team"])["Team"]
+        except Exception:  # noqa: BLE001 - an unreadable file: export_fault reports it
+            continue
+        teams |= {FP_TEAMS.get(code, code) for code in cells.str.strip().str.upper() if code}
+    return teams
+
+
+def missing_games(folder: Path, week_games: pd.DataFrame) -> list[str]:
+    """The week's games its player exports have no rows for ("BUF@LAR, Mon Oct 12"): an export saved
+    before FantasyPoints had the game, Monday night's by Tuesday morning. [] when there is nothing to
+    read yet (the missing files are reported anyway)."""
+    teams = export_teams(folder)
+    if not teams:
+        return []
+    gaps = []
+    for game in week_games.itertuples(index=False):
+        absent = [team for team in (game.away_team, game.home_team) if team not in teams]
+        if absent:
+            when = et_day(game.kickoff.to_pydatetime()) if pd.notna(game.kickoff) else "date unknown"
+            matchup = f"{game.away_team}@{game.home_team} ({when})"
+            gaps.append(matchup if len(absent) == 2 else f"{absent[0]} in {matchup}")
+    return gaps
+
+
 def week_faults(folder: Path) -> dict[str, tuple[str, str]]:
     """{export: export_fault} for the week's exports that are there and aren't right."""
     faults = {}
@@ -241,10 +316,10 @@ def listed(names: list[str]) -> str:
     return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
 
 
-def week_problem(folder: Path, week: int, faults: dict[str, tuple[str, str]]) -> str:
-    """What's wrong with a finished week's exports so far: files to rename, files still missing, and
-    the `faults` inside the ones that are there. '' when nothing is, or nothing's there yet (the item
-    is due, which says as much)."""
+def week_problem(folder: Path, week: int, faults: dict[str, tuple[str, str]], gaps: list[str] = ()) -> str:
+    """What's wrong with a finished week's exports so far: files to rename, files still missing, the
+    `faults` inside the ones that are there, and the games (`gaps`) they have no rows for. '' when
+    nothing is, or nothing's there yet (the item is due, which says as much)."""
     found = misnamed(folder)
     claimed = {name for want in found.values() for name in want}
     absent = [name for name in EXPORTS if not (folder / name).exists() and name not in claimed]
@@ -257,6 +332,8 @@ def week_problem(folder: Path, week: int, faults: dict[str, tuple[str, str]]) ->
         parts.append(f"{listed(spans)} {'is' if len(spans) == 1 else 'are'} season to date (G up to {top:g}): "
                      f"re-export {'it' if len(spans) == 1 else 'them'} with the week filter on week {week} alone")
     parts += [f"{name} {what}" for name, (kind, what) in faults.items() if kind != "span"]
+    if gaps:
+        parts.append(f"no rows for {listed(list(gaps))}")
     return f"Week {week}: " + "; ".join(parts) if parts else ""
 
 
@@ -268,10 +345,12 @@ def need_inputs(p: Plan, season: int, games: pd.DataFrame, week: int | None, now
     finished = [int(w) for w, last in regular.groupby("week")["kickoff"].max().items()
                 if last + GAME_LENGTH <= stamp]
     folder = lambda w: RAW / str(season) / f"week_{w:02d}"  # noqa: E731
-    # Every finished week, each time: a wrong file stays on the list until it's replaced, built or not.
+    # Every finished week, each time: a wrong file, or a game it has no rows for, stays on the list until
+    # it's replaced, built or not.
     faults = {w: week_faults(folder(w)) for w in finished}
+    gaps = {w: missing_games(folder(w), regular[regular["week"] == w]) for w in finished}
     todo = [w for w in finished
-            if faults[w] or not all((folder(w) / name).exists() for name in EXPORTS)]
+            if faults[w] or gaps[w] or not all((folder(w) / name).exists() for name in EXPORTS)]
     if finished:
         shown = todo[0] if todo else finished[-1]
         saved = [file_time(folder(shown) / name) for name in EXPORTS]
@@ -283,7 +362,9 @@ def need_inputs(p: Plan, season: int, games: pd.DataFrame, week: int | None, now
                        f"week_NN\\ as {', '.join(STATS)}"),
                how=f".venv\\Scripts\\python -m nfl_projector_v1 check-export data/raw/{season}/week_{shown:02d}",
                last=None if None in saved else max(saved), due=bool(todo),
-               problem=". ".join(filter(None, (week_problem(folder(w), w, faults[w]) for w in todo))))
+               problem=". ".join(filter(None, [week_problem(folder(w), w, faults[w], gaps[w]) for w in todo] + [
+                   "Re-export a week with a game missing once FantasyPoints has it: a Tuesday-morning export "
+                   "can miss Monday night's" if any(gaps[w] for w in todo) else ""])))
 
     if week is not None and week <= 18:
         days = games.loc[games["week"] == week, "kickoff"].dt.tz_convert(ET).dt.date
@@ -419,6 +500,26 @@ def _graded(season: int) -> int:
     return int((log["season"] == season).sum())
 
 
+def step_lines(args: argparse.Namespace) -> int:
+    """Archive the week's prop lines. The archive is append-only, so there's nothing to freeze."""
+    season, week = args.season, args.week
+    if season is None or week is None:
+        return finish(False, "lines needs --season and --week")
+    path = LINES / str(season) / f"week_{week:02d}.csv"
+    before = _rows_in(path)
+    code = run([PY, "-m", "nfl_projector_v1", "lines", "--season", season, "--weeks", week], FOLDER)
+    if code != 0:
+        return finish(False, f"lines exited with code {code}")
+    return finish(True, f"Prop lines, week {week}: {plural(_rows_in(path) - before, 'new or moved line')}")
+
+
+def _rows_in(path: Path) -> int:
+    if not path.exists():
+        return 0
+    with open(path, encoding="utf-8") as fh:
+        return max(sum(1 for _ in fh) - 1, 0)
+
+
 if __name__ == "__main__":
-    raise SystemExit(cli("nfl", plan, {"predict": step_predict, "season": step_season, "grade": step_grade},
-                         freeze_for))
+    raise SystemExit(cli("nfl", plan, {"predict": step_predict, "season": step_season, "grade": step_grade,
+                                       "lines": step_lines}, freeze_for))
