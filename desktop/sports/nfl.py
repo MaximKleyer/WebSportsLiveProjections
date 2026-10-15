@@ -6,6 +6,8 @@ Runs with the NFL model's venv Python:
   python desktop/sports/nfl.py step season --season 2026
   python desktop/sports/nfl.py step grade --season 2026
   python desktop/sports/nfl.py step lines --season 2026 --week 6
+  python desktop/sports/nfl.py step paper_early --season 2026 --week 7   # or paper_data / paper_final
+  python desktop/sports/nfl.py step paper_grade --season 2026
 
 The schedule (weeks, kickoffs) comes from the nflverse games feed the model
 caches at data/raw/external/games_latest.csv; grading refreshes it.
@@ -18,7 +20,7 @@ import csv
 import difflib
 import re
 import shutil
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -47,6 +49,12 @@ LINES_BEFORE = timedelta(hours=4)
 LINES_AFTER = timedelta(hours=1)
 LINES_EVERY = timedelta(hours=4)
 SLACK = timedelta(minutes=10)  # the app runs on the hour, so "hourly" can't wait for 60 full minutes
+# The props paper log (nfl_projector_v1/props/paper.py): the week's projections frozen early (the first
+# run after Monday night, before most lines open), again after each warehouse rebuild (new data), and
+# once from Saturday 6 AM ET (after the final injury report); graded once a frozen week has finished.
+PAPER = FOLDER / "data" / "processed" / "props" / "paper"
+PAPER_GRADED = PAPER / "graded.csv"
+EARLY_WINDOW = timedelta(hours=36)  # after the week becomes current, a first snapshot still counts as early
 RAW = FOLDER / "data" / "raw"
 # The weekly FantasyPoints exports build_database.py reads, by these exact names (database.py).
 EXPORTS = ("advanced_passing_player.csv", "advanced_passing_def.csv", "advanced_rushing_player.csv",
@@ -163,6 +171,7 @@ def plan(history: History, force: bool) -> Plan:
                requires=("predict",) if predict_due else ())
 
         lines_step(p, history, games, season, week, now, force)
+        paper_steps(p, games, season, week, now, force, predict_due)
 
     players = file_time(WAREHOUSE)
     if players is not None:
@@ -193,6 +202,64 @@ def lines_step(p: Plan, history: History, games: pd.DataFrame, season: int, week
            due=due, reason=reason)
     if pulled is not None:
         p.stat("Prop lines", ago(pulled, now), "DraftKings via ESPN, free")
+
+
+def snapshots(season: int, week: int) -> list[tuple[datetime, str]]:
+    """The paper log's snapshots of a week: (when, kind), oldest first."""
+    out = []
+    for path in (PAPER / str(season) / f"week_{week:02d}").glob("*_*.csv"):
+        stamp, _, kind = path.stem.partition("_")
+        try:
+            out.append((datetime.strptime(stamp, "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc), kind))
+        except ValueError:
+            continue
+    return sorted(out)
+
+
+def paper_steps(p: Plan, games: pd.DataFrame, season: int, week: int, now: datetime, force: bool,
+                predict_due: bool) -> None:
+    """Freeze the week's prop projections when there's something new to freeze; grade finished weeks."""
+    if week > 18:
+        p.step("paper", "Freeze props", [], due=False, reason="the playoffs aren't frozen yet")
+        return
+    stamp = pd.Timestamp(now)
+    this_week = games[games["week"] == week]
+    upcoming = int((this_week["kickoff"] > stamp).sum())
+    taken = snapshots(season, week)
+    last = taken[-1][0] if taken else None
+    previous = games[games["week"] == week - 1]["kickoff"]
+    became = (previous.max() + GAME_LENGTH).to_pydatetime() if len(previous) else None
+    days = this_week["kickoff"].dt.tz_convert(ET).dt.date
+    sundays = sorted(d for d in days if d.weekday() == 6)
+    sunday = sundays[0] if sundays else days.mode().iloc[0]  # the final injury report comes out on Friday
+    final_after = datetime.combine(sunday - timedelta(days=1), datetime.min.time(), ET).replace(hour=6)
+    built = file_time(WAREHOUSE)
+    kind, reason = None, ""
+    if not upcoming:
+        reason = f"every week-{week} game has kicked off"
+    elif not any(k in ("early", "data", "final") for _, k in taken) and (became is None or now - became <= EARLY_WINDOW):
+        kind, reason = "early", f"week {week} has no snapshot yet (lines mostly open Tuesday-Wednesday)"
+    elif built is not None and (last is None or built > last):
+        kind, reason = "data", f"the warehouse was rebuilt {ago(built, now)}, after the last snapshot"
+    elif now >= final_after and (last is None or last < final_after):
+        kind, reason = "final", "the final injury report is in"
+    elif last is not None:
+        reason = f"last frozen {ago(last, now)}; next after a warehouse rebuild or {et_day(final_after)} 6 AM"
+    else:
+        reason = "the early window passed; next after a warehouse rebuild or the final injury report"
+    if force and kind is None and upcoming:
+        kind = "data"
+    p.step("paper", f"Freeze week {week} props", [f"paper_{kind or 'data'}", "--season", season, "--week", week],
+           due=kind is not None, reason=reason, requires=("predict",) if predict_due and kind else ())
+
+    finished = [w for w in range(1, week) if snapshots(season, w)]
+    graded = file_time(PAPER_GRADED)
+    stale = finished and built is not None and (graded is None or graded < built)
+    p.step("paper_grade", "Grade the paper log", ["paper_grade", "--season", season],
+           due=bool(stale) or (force and bool(finished)),
+           reason=(f"week{'s' if len(finished) > 1 else ''} {listed([str(w) for w in finished])} frozen; "
+                   + ("new results since the last grading" if stale else "graded since the last rebuild"))
+           if finished else "no finished week has a snapshot yet")
 
 
 def misnamed(folder: Path) -> dict[str, list[str]]:
@@ -520,6 +587,37 @@ def _rows_in(path: Path) -> int:
         return max(sum(1 for _ in fh) - 1, 0)
 
 
+def step_paper(kind: str):
+    """A snapshot step for one kind (early / data / final). Nothing is rewritten: each snapshot is a
+    new file, so there's nothing to freeze or put back."""
+    def go(args: argparse.Namespace) -> int:
+        season, week = args.season, args.week
+        if season is None or week is None:
+            return finish(False, "paper needs --season and --week")
+        start = utcnow()
+        code = run([PY, "-m", "nfl_projector_v1", "paper", "--kind", kind, "--season", season, "--week", week],
+                   FOLDER)
+        if code != 0:
+            return finish(False, f"paper exited with code {code}")
+        made = [path for path in (PAPER / str(season) / f"week_{week:02d}").glob(f"*_{kind}.csv")
+                if written_since(path, start)]
+        if not made:
+            return finish(True, f"Nothing to freeze for week {week}: every game has kicked off")
+        return finish(True, f"Froze {plural(_rows_in(made[0]), 'player-stat')} for week {week} ({kind})")
+    return go
+
+
+def step_paper_grade(args: argparse.Namespace) -> int:
+    if args.season is None:
+        return finish(False, "paper_grade needs --season")
+    code = run([PY, "-m", "nfl_projector_v1", "paper", "--grade", "--season", args.season], FOLDER)
+    if code != 0:
+        return finish(False, f"paper --grade exited with code {code}")
+    return finish(True, f"Graded the paper log ({plural(_rows_in(PAPER_GRADED), 'frozen player-stat')})")
+
+
 if __name__ == "__main__":
     raise SystemExit(cli("nfl", plan, {"predict": step_predict, "season": step_season, "grade": step_grade,
-                                       "lines": step_lines}, freeze_for))
+                                       "lines": step_lines, "paper_early": step_paper("early"),
+                                       "paper_data": step_paper("data"), "paper_final": step_paper("final"),
+                                       "paper_grade": step_paper_grade}, freeze_for))

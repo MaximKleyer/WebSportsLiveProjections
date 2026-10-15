@@ -72,6 +72,8 @@ runs when its inputs can have changed and its API budget allows:
 | | predict | the current week has games left and was last projected 12 h+ ago |
 | | season sim | after new projections, or weekly |
 | | prop lines | hourly from 4 h before a kickoff to 1 h after it, every 4 h otherwise (ESPN, free; regular season) |
+| | freeze props | the props paper log: once early (the first run within 36 h of Monday night's game, before most lines open), after each warehouse rebuild, and once from Saturday 6 AM ET (final injury report); regular season only |
+| | grade paper log | a frozen week has finished and the warehouse is newer than the last grading |
 | CFB | grade | a projected game finished and isn't graded (2 API calls; retries every 3 h) |
 | | project | the current week has games left, last projected 36 h+ ago, 60+ API calls left |
 | | season sim | after new projections, or weekly |
