@@ -8,6 +8,7 @@ Runs with the NFL model's venv Python:
   python desktop/sports/nfl.py step lines --season 2026 --week 6
   python desktop/sports/nfl.py step paper_early --season 2026 --week 7   # or paper_data / paper_final
   python desktop/sports/nfl.py step paper_grade --season 2026
+  python desktop/sports/nfl.py step qb_rushing --season 2026
 
 The schedule (weeks, kickoffs) comes from the nflverse games feed the model
 caches at data/raw/external/games_latest.csv; grading refreshes it.
@@ -55,6 +56,13 @@ SLACK = timedelta(minutes=10)  # the app runs on the hour, so "hourly" can't wai
 PAPER = FOLDER / "data" / "processed" / "props" / "paper"
 PAPER_GRADED = PAPER / "graded.csv"
 EARLY_WINDOW = timedelta(hours=36)  # after the week becomes current, a first snapshot still counts as early
+# nflverse's QB rushing (props/nflverse.py: the FantasyPoints rushing exports before 2026 have no QBs):
+# the current season downloaded again (2-8 MB) once a week's last game is 6 h old (nflverse posts
+# overnight), and while a team of that week is still missing, every 6 h for up to 2 days.
+QB_RUSHING = FOLDER / "data" / "raw" / "external" / "nflverse_qb_rushing.csv"
+NFLVERSE_LAG = timedelta(hours=6)
+QB_RUSHING_RETRY = timedelta(hours=6)
+QB_RUSHING_PATIENCE = timedelta(days=2)
 RAW = FOLDER / "data" / "raw"
 # The weekly FantasyPoints exports build_database.py reads, by these exact names (database.py).
 EXPORTS = ("advanced_passing_player.csv", "advanced_passing_def.csv", "advanced_rushing_player.csv",
@@ -140,6 +148,7 @@ def plan(history: History, force: bool) -> Plan:
            due=force or (pending > 0 and not retry_wait),
            reason=(f"{plural(pending, 'finished game')} to grade" + (f" (tried {ago(tried, now)})" if retry_wait else ""))
            if pending else "nothing new to grade")
+    qb_rushing_step(p, history, games, season, now, force)
 
     if week is None:
         p.label = f"{season} season over"
@@ -202,6 +211,41 @@ def lines_step(p: Plan, history: History, games: pd.DataFrame, season: int, week
            due=due, reason=reason)
     if pulled is not None:
         p.stat("Prop lines", ago(pulled, now), "DraftKings via ESPN, free")
+
+
+def qb_rushing_step(p: Plan, history: History, games: pd.DataFrame, season: int, now: datetime,
+                    force: bool) -> None:
+    """The props layer's QB rushing (nflverse): downloaded again once the latest finished regular-season
+    week is NFLVERSE_LAG past its last game, then every QB_RUSHING_RETRY while a team that played that
+    week is still missing (nflverse slow with Monday night), for up to QB_RUSHING_PATIENCE."""
+    regular = games[games["week"] <= 18]
+    posted = (regular.groupby("week")["kickoff"].max() + GAME_LENGTH + NFLVERSE_LAG).dropna()
+    posted = posted[posted <= pd.Timestamp(now)]
+    args = ["qb_rushing", "--season", season]
+    if posted.empty:
+        p.step("qb_rushing", "Refresh QB rushing", args, due=False, reason="no week of the season has finished yet")
+        return
+    week = int(posted.index.max())
+    since = posted.loc[week].to_pydatetime()  # when nflverse should have the whole week
+    missing = set(regular.loc[regular["week"] == week, ["away_team", "home_team"]].to_numpy().ravel())
+    if QB_RUSHING.exists():
+        cache = pd.read_csv(QB_RUSHING, usecols=["season", "week", "team"])
+        missing -= set(cache.loc[(cache["season"] == season) & (cache["week"] == week), "team"])
+    who = listed(sorted(missing)) if 0 < len(missing) <= 4 else plural(len(missing), "team")
+    fetched = file_time(QB_RUSHING)  # counts a download run by hand too
+    tried = history.last("qb_rushing", "attempt")
+    waiting = tried is not None and tried >= since and now - tried < QB_RUSHING_RETRY
+    note = f" (tried {ago(tried, now)})" if waiting else ""
+    if not missing:
+        due, reason = force, f"has week {week} (downloaded {ago(fetched, now)})"
+    elif fetched is None or fetched < since:
+        due, reason = force or not waiting, f"week {week} has finished; not downloaded since{note}"
+    elif now - since <= QB_RUSHING_PATIENCE:
+        due, reason = force or not waiting, f"nflverse hasn't posted {who} for week {week} yet{note}"
+    else:
+        due, reason = force, (f"nflverse still lacks {who} for week {week}; next week's download brings them "
+                              "once it has them")
+    p.step("qb_rushing", "Refresh QB rushing", args, due=due, reason=reason)
 
 
 def snapshots(season: int, week: int) -> list[tuple[datetime, str]]:
@@ -616,8 +660,23 @@ def step_paper_grade(args: argparse.Namespace) -> int:
     return finish(True, f"Graded the paper log ({plural(_rows_in(PAPER_GRADED), 'frozen player-stat')})")
 
 
+def step_qb_rushing(args: argparse.Namespace) -> int:
+    """Download the season's QB rushing from nflverse again. Only the props layer reads the cache, and
+    each download rewrites it whole, so there's nothing to freeze."""
+    if args.season is None:
+        return finish(False, "qb_rushing needs --season")
+    code = run([PY, "-m", "nfl_projector_v1", "qb-rushing", "--fetch", "--seasons", args.season], FOLDER)
+    if code != 0:
+        return finish(False, f"qb-rushing exited with code {code}")
+    cache = pd.read_csv(QB_RUSHING, usecols=["season", "week"])
+    weeks = cache.loc[cache["season"] == args.season, "week"]
+    if weeks.empty:
+        return finish(True, f"nflverse has no {args.season} QB games yet")
+    return finish(True, f"QB rushing: {plural(len(weeks), 'QB game')} in {args.season}, through week {int(weeks.max())}")
+
+
 if __name__ == "__main__":
     raise SystemExit(cli("nfl", plan, {"predict": step_predict, "season": step_season, "grade": step_grade,
                                        "lines": step_lines, "paper_early": step_paper("early"),
                                        "paper_data": step_paper("data"), "paper_final": step_paper("final"),
-                                       "paper_grade": step_paper_grade}, freeze_for))
+                                       "paper_grade": step_paper_grade, "qb_rushing": step_qb_rushing}, freeze_for))

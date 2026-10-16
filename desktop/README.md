@@ -69,6 +69,7 @@ runs when its inputs can have changed and its API budget allows:
 | Model | Step | Runs when |
 |---|---|---|
 | NFL | grade | a projected game finished and isn't graded yet (retries every 2 h) |
+| | QB rushing | the props layer's QB carries and rushing yards from nflverse (free, 2-8 MB): once a week's last game is 6 h old, then every 6 h for up to 2 days while a team of that week is missing; regular season |
 | | predict | the current week has games left and was last projected 12 h+ ago |
 | | season sim | after new projections, or weekly |
 | | prop lines | hourly from 4 h before a kickoff to 1 h after it, every 4 h otherwise (ESPN, free; regular season) |
