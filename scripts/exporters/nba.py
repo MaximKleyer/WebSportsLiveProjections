@@ -5,7 +5,10 @@ Reads the model's outputs/ - plus, for final scores and settled bets, its databa
 (read-only) - and writes public/data/nba/:
 
     games/          one slate per DAY           outputs/daily/<date>_predictions.csv
-                                                (+ <date>_bets.csv: flagged bets)
+                                                (+ <date>_bets.csv: flagged bets); a coming day
+                                                without one yet: outputs/early/<date>.csv, the
+                                                early look (scripts/early.py: nothing stored,
+                                                no bets), until the gameday task's run
     season.json     win totals + playoff odds   the newest outputs/sims/season_<season>_<date>.csv
     rankings.json   power rankings              outputs/power_rankings.csv
     results/        those daily predictions     final scores + settled bets from the
@@ -33,7 +36,7 @@ import re
 import sqlite3
 import sys
 import time
-from datetime import date
+from datetime import date, datetime
 from itertools import groupby
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -49,6 +52,7 @@ from site_export import (  # noqa: E402  (the site's shared export toolkit)
 MODEL = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\nba")
 EASTERN = ZoneInfo("America/New_York")
 DAILY = re.compile(r"(?P<day>\d{4}-\d{2}-\d{2})_predictions\.csv$")
+EARLY = re.compile(r"(?P<day>\d{4}-\d{2}-\d{2})\.csv$")  # outputs/early/: the early look
 SIM = re.compile(r"season_(?P<season>\d{4})_(?P<day>\d{4}-\d{2}-\d{2})\.csv$")
 SIM_COLUMNS = {"name", "conference", "wins_mean", "p_playoffs", "p_champion"}  # older sims lack them
 # A tag under the tip-off time for anything but a regular-season game; preseason games are
@@ -160,7 +164,14 @@ def live_version(model: Path) -> str | None:
 # --------------------------------------------------------------------------
 # games: one slate per day
 # --------------------------------------------------------------------------
-def build_day(df: pd.DataFrame, bets: pd.DataFrame, day: str, season: int, updated: str) -> dict:
+def _early_note(df: pd.DataFrame) -> str:
+    """What an early look is, as of its run: 'early look as of 2:10 PM ET Tue: ...'."""
+    at = pd.to_datetime(df["as_of"], utc=True).max().tz_convert(EASTERN)
+    return (f"EARLY LOOK as of {at.hour % 12 or 12}:{at.minute:02d} {'AM' if at.hour < 12 else 'PM'} ET {at:%a}: before"
+            " game-day injury news and without bets; the gameday task's run replaces it 75 minutes before the first tip")
+
+
+def build_day(df: pd.DataFrame, bets: pd.DataFrame, day: str, season: int, updated: str, early: bool = False) -> dict:
     bets_by_game: dict = {}
     for b in bets.to_dict("records"):
         bets_by_game.setdefault(text(b.get("game_id")), []).append(b)
@@ -220,7 +231,7 @@ def build_day(df: pd.DataFrame, bets: pd.DataFrame, day: str, season: int, updat
         columns.append({"key": "bet", "label": "Bet (edge)", "align": "right", "sortable": True})
 
     preseason = (df.get("game_type") == "pre").any()
-    notes = ["times ET", "score = expected points", "fair ML is the home side's"]
+    notes = ([_early_note(df)] if early else []) + ["times ET", "score = expected points", "fair ML is the home side's"]
     if has_market:
         notes.append("vs spread / total = the side of the market's line the model favours")
     if any_bets:
@@ -845,21 +856,39 @@ def main() -> int:
     sims = [int(m.group("season")) for p in (outputs / "sims").glob("season_*.csv") if (m := SIM.match(p.name))]
     season = max(seasons.values(), default=max(sims, default=date.today().year))
     publish = sorted(day for day, s in seasons.items() if s == season)
-    opens = args.day if args.day in publish else (publish[-1] if publish else None)
+    # The early look: a coming day the gameday task hasn't predicted yet, as the live model saw it.
+    today = datetime.now(EASTERN).date().isoformat()
+    early: dict[str, pd.DataFrame] = {}
+    for path in sorted((outputs / "early").glob("*.csv")):
+        m = EARLY.match(path.name)
+        if not m or m.group("day") < today or m.group("day") in frames:
+            continue
+        df = read_csv_stable(path)
+        if version is not None and "model_version" in df:
+            df = df[df["model_version"] == version]
+        if len(df) and _season_of(df["game_id"].iloc[0]) == season:
+            early[m.group("day")], paths[m.group("day")] = df, path
+    days = sorted([*publish, *early])
+    ahead = [day for day in days if day >= today]
+    opens = args.day if args.day in days else (ahead[0] if ahead else (days[-1] if days else None))
 
     print(f"Exporting NBA {_season_label(season)} (model {version or 'unknown'}"
           f"{f', opens on {opens}' if opens else ', no day predicted yet'})\n  from: {outputs}\n  to:   {args.site_dir}")
     power_by_team = _by_team(outputs / "power_rankings.csv", "abbrev")
     sim_by_team = _by_team(newest_sim(outputs, season), "team")
     slates = []
-    for day in publish:
-        bets_path = paths[day].with_name(f"{day}_bets.csv")
-        bets = read_csv_stable(bets_path) if bets_path.exists() else pd.DataFrame(columns=["game_id"])
-        slates.append(Slate(day, _day_label(day), build_day(frames[day], bets, day, season, file_date(paths[day])),
-                            build_cards(frames[day], bets, day, power_by_team, sim_by_team) or None))
+    for day in days:
+        if day in early:
+            df, bets, label = early[day], pd.DataFrame(columns=["game_id"]), f"{_day_label(day)} · early look"
+        else:
+            bets_path = paths[day].with_name(f"{day}_bets.csv")
+            df, label = frames[day], _day_label(day)
+            bets = read_csv_stable(bets_path) if bets_path.exists() else pd.DataFrame(columns=["game_id"])
+        slates.append(Slate(day, label, build_day(df, bets, day, season, file_date(paths[day]), early=day in early),
+                            build_cards(df, bets, day, power_by_team, sim_by_team) or None))
     publish_slates(args.site_dir / "games", slates, season=season, label=f"{_season_label(season)} Season",
                    unit="day", latest=opens)
-    sources = [paths[day] for day in publish]
+    sources = [paths[day] for day in days]
 
     sim = newest_sim(outputs, season)
     title_favorite = None

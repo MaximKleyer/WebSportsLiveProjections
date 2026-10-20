@@ -1,0 +1,407 @@
+{
+  "subtitle": "Fri Oct 23, 2026\u201327 \u2014 12 games \u00b7 EARLY LOOK as of 2:17 PM ET Tue: before game-day injury news and without bets; the gameday task's run replaces it 75 minutes before the first tip \u00b7 times ET \u00b7 score = expected points \u00b7 fair ML is the home side's \u00b7 vs spread / total = the side of the market's line the model favours",
+  "updated": "2026-10-20",
+  "search": "Search teams or players",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "spread",
+      "label": "Proj. Spread",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "vs Spread",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "vs Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "4:00 PM",
+        "sort": "2026-10-23T20:00:00Z"
+      },
+      "awayTeam": "CHI",
+      "awayScore": "114.9",
+      "sep": "\u2013",
+      "homeScore": "114.3",
+      "homeTeam": "MIL",
+      "homeWin": 0.4813,
+      "fair": "+108",
+      "spread": {
+        "v": "CHI -0.6",
+        "sort": -0.59
+      },
+      "total": {
+        "v": "229.2",
+        "sort": 229.17
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600099",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-23T23:00:00Z"
+      },
+      "awayTeam": "NYK",
+      "awayScore": "108.7",
+      "sep": "\u2013",
+      "homeScore": "115.3",
+      "homeTeam": "BOS",
+      "homeWin": 0.7166,
+      "fair": "-253",
+      "spread": {
+        "v": "BOS -6.5",
+        "sort": 6.54
+      },
+      "total": {
+        "v": "224.0",
+        "sort": 224.0
+      },
+      "mktHome": 0.5427,
+      "ats": {
+        "v": "BOS -2.5 \u00b7 63%",
+        "sort": 0.6281
+      },
+      "ou": {
+        "v": "Over 223.5 \u00b7 51%",
+        "sort": 0.5065
+      },
+      "id": "0022600008",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-23T23:00:00Z"
+      },
+      "awayTeam": "ATL",
+      "awayScore": "112.3",
+      "sep": "\u2013",
+      "homeScore": "116.5",
+      "homeTeam": "CHA",
+      "homeWin": 0.6371,
+      "fair": "-176",
+      "spread": {
+        "v": "CHA -4.3",
+        "sort": 4.26
+      },
+      "total": {
+        "v": "228.8",
+        "sort": 228.78
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600094",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-23T23:00:00Z"
+      },
+      "awayTeam": "DAL",
+      "awayScore": "114.6",
+      "sep": "\u2013",
+      "homeScore": "116.2",
+      "homeTeam": "IND",
+      "homeWin": 0.5549,
+      "fair": "-125",
+      "spread": {
+        "v": "IND -1.6",
+        "sort": 1.57
+      },
+      "total": {
+        "v": "230.8",
+        "sort": 230.79
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600095",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-23T23:00:00Z"
+      },
+      "awayTeam": "MIN",
+      "awayScore": "114.2",
+      "sep": "\u2013",
+      "homeScore": "116.0",
+      "homeTeam": "ORL",
+      "homeWin": 0.5622,
+      "fair": "-128",
+      "spread": {
+        "v": "ORL -1.8",
+        "sort": 1.77
+      },
+      "total": {
+        "v": "230.1",
+        "sort": 230.13
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600096",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-23T23:00:00Z"
+      },
+      "awayTeam": "TOR",
+      "awayScore": "118.7",
+      "sep": "\u2013",
+      "homeScore": "110.6",
+      "homeTeam": "WAS",
+      "homeWin": 0.2472,
+      "fair": "+305",
+      "spread": {
+        "v": "TOR -8.1",
+        "sort": -8.09
+      },
+      "total": {
+        "v": "229.3",
+        "sort": 229.31
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600097",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-24T00:00:00Z"
+      },
+      "awayTeam": "DET",
+      "awayScore": "118.1",
+      "sep": "\u2013",
+      "homeScore": "117.3",
+      "homeTeam": "MIA",
+      "homeWin": 0.4753,
+      "fair": "+110",
+      "spread": {
+        "v": "DET -0.8",
+        "sort": -0.83
+      },
+      "total": {
+        "v": "235.4",
+        "sort": 235.37
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600098",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "9:30 PM",
+        "sort": "2026-10-24T01:30:00Z"
+      },
+      "awayTeam": "HOU",
+      "awayScore": "111.1",
+      "sep": "\u2013",
+      "homeScore": "114.0",
+      "homeTeam": "SAS",
+      "homeWin": 0.6035,
+      "fair": "-152",
+      "spread": {
+        "v": "SAS -2.9",
+        "sort": 2.93
+      },
+      "total": {
+        "v": "225.1",
+        "sort": 225.07
+      },
+      "mktHome": 0.675,
+      "ats": {
+        "v": "HOU +6.5 \u00b7 60%",
+        "sort": 0.6028
+      },
+      "ou": {
+        "v": "Under 225.5 \u00b7 52%",
+        "sort": 0.515
+      },
+      "id": "0022600009",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "9:30 PM",
+        "sort": "2026-10-24T01:30:00Z"
+      },
+      "awayTeam": "NOP",
+      "awayScore": "118.6",
+      "sep": "\u2013",
+      "homeScore": "120.1",
+      "homeTeam": "UTA",
+      "homeWin": 0.5559,
+      "fair": "-125",
+      "spread": {
+        "v": "UTA -1.5",
+        "sort": 1.52
+      },
+      "total": {
+        "v": "238.8",
+        "sort": 238.76
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600100",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-24T02:00:00Z"
+      },
+      "awayTeam": "MEM",
+      "awayScore": "112.0",
+      "sep": "\u2013",
+      "homeScore": "121.6",
+      "homeTeam": "GSW",
+      "homeWin": 0.7905,
+      "fair": "-377",
+      "spread": {
+        "v": "GSW -9.6",
+        "sort": 9.61
+      },
+      "total": {
+        "v": "233.5",
+        "sort": 233.51
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600101",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-24T02:00:00Z"
+      },
+      "awayTeam": "LAC",
+      "awayScore": "105.4",
+      "sep": "\u2013",
+      "homeScore": "121.3",
+      "homeTeam": "LAL",
+      "homeWin": 0.9117,
+      "fair": "-1033",
+      "spread": {
+        "v": "LAL -15.9",
+        "sort": 15.89
+      },
+      "total": {
+        "v": "226.8",
+        "sort": 226.77
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600102",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-24T02:00:00Z"
+      },
+      "awayTeam": "POR",
+      "awayScore": "120.6",
+      "sep": "\u2013",
+      "homeScore": "111.8",
+      "homeTeam": "SAC",
+      "homeWin": 0.2314,
+      "fair": "+332",
+      "spread": {
+        "v": "POR -8.9",
+        "sort": -8.86
+      },
+      "total": {
+        "v": "232.4",
+        "sort": 232.36
+      },
+      "mktHome": null,
+      "ats": null,
+      "ou": null,
+      "id": "0022600103",
+      "flagged": false
+    }
+  ],
+  "details": "2026-10-23.details.json"
+}

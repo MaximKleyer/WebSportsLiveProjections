@@ -1,0 +1,218 @@
+{
+  "subtitle": "Tue Oct 20, 2026\u201327 \u2014 3 games \u00b7 times ET \u00b7 score = expected points \u00b7 fair ML is the home side's \u00b7 vs spread / total = the side of the market's line the model favours \u00b7 \u2605 = flagged bet",
+  "updated": "2026-10-20",
+  "search": "Search teams or players",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "spread",
+      "label": "Proj. Spread",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "vs Spread",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "vs Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet (edge)",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "3:00 PM",
+        "sort": "2026-10-20T19:00:00Z"
+      },
+      "awayTeam": {
+        "v": "BOS",
+        "sub": "D. Carter out"
+      },
+      "awayScore": "114.3",
+      "sep": "\u2013",
+      "homeScore": "112.9",
+      "homeTeam": {
+        "v": "DET",
+        "sub": "T. Prince out, E. Harkless out"
+      },
+      "homeWin": 0.4536,
+      "fair": "+120",
+      "spread": {
+        "v": "BOS -1.4",
+        "sort": -1.43
+      },
+      "total": {
+        "v": "227.2",
+        "sort": 227.15
+      },
+      "mktHome": 0.4739,
+      "ats": {
+        "v": "BOS -1.5 \u00b7 51%",
+        "sort": 0.5098
+      },
+      "ou": {
+        "v": "Over 220.5 \u00b7 63%",
+        "sort": 0.6331
+      },
+      "id": "0022600001",
+      "bet": {
+        "v": "\u2605 Over 220.5 (+13.8%) +2",
+        "sort": 0.1379
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-20T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "PHI",
+        "sub": "A. Simons questionable, D. Barlow out +2"
+      },
+      "awayScore": "115.9",
+      "sep": "\u2013",
+      "homeScore": "114.4",
+      "homeTeam": "NYK",
+      "homeWin": 0.451,
+      "fair": "+122",
+      "spread": {
+        "v": "PHI -1.4",
+        "sort": -1.44
+      },
+      "total": {
+        "v": "230.3",
+        "sort": 230.28
+      },
+      "mktHome": 0.6164,
+      "ats": {
+        "v": "PHI +4.5 \u00b7 66%",
+        "sort": 0.6642
+      },
+      "ou": {
+        "v": "Under 231.5 \u00b7 53%",
+        "sort": 0.5332
+      },
+      "id": "0022600002",
+      "bet": {
+        "v": "\u2605 PHI ML (+20.4%) +2",
+        "sort": 0.2045
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "9:30 PM",
+        "sort": "2026-10-21T01:30:00Z"
+      },
+      "awayTeam": {
+        "v": "OKC",
+        "sub": "N. Topi\u0107 out"
+      },
+      "awayScore": "115.7",
+      "sep": "\u2013",
+      "homeScore": "113.7",
+      "homeTeam": {
+        "v": "SAS",
+        "sub": "T. Harris out, J. Quaintance out"
+      },
+      "homeWin": 0.4343,
+      "fair": "+130",
+      "spread": {
+        "v": "OKC -2.0",
+        "sort": -1.98
+      },
+      "total": {
+        "v": "229.3",
+        "sort": 229.34
+      },
+      "mktHome": 0.5043,
+      "ats": {
+        "v": "OKC +1.5 \u00b7 59%",
+        "sort": 0.5907
+      },
+      "ou": {
+        "v": "Under 230.5 \u00b7 53%",
+        "sort": 0.5317
+      },
+      "id": "0022600003",
+      "bet": {
+        "v": "\u2605 OKC ML (+13.7%) +2",
+        "sort": 0.1372
+      },
+      "flagged": true
+    }
+  ],
+  "details": "2026-10-20.details.json"
+}

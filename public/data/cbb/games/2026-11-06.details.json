@@ -1,0 +1,3779 @@
+{
+  "games": {
+    "401909552": {
+      "title": "UMass vs. Boston College",
+      "subtitle": "Fri Nov 6 \u00b7 4:00 PM ET \u00b7 neutral site",
+      "away": {
+        "name": "UMass"
+      },
+      "home": {
+        "name": "Boston College"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Boston College win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Boston College -6.6",
+              "156.1",
+              "72%"
+            ],
+            [
+              "With the twist",
+              "Boston College -9.5",
+              "157.5",
+              "79%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Boston College"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.9"
+            ],
+            [
+              "All layers",
+              "+2.9"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "74.0",
+        "home": "83.5",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.2075,
+        "home": 0.7925
+      }
+    },
+    "401909751": {
+      "title": "AR-Pine Bluff at Baylor",
+      "subtitle": "Fri Nov 6 \u00b7 5:00 PM ET",
+      "away": {
+        "name": "AR-Pine Bluff"
+      },
+      "home": {
+        "name": "Baylor"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Baylor win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Baylor -32.2",
+              "156.3",
+              "100%"
+            ],
+            [
+              "With the twist",
+              "Baylor -32.2",
+              "156.3",
+              "100%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "notes",
+          "items": [
+            "No layer moves this game yet: form and four factors start once both teams have played 5 games"
+          ]
+        }
+      ],
+      "score": {
+        "away": "62.0",
+        "home": "94.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0023,
+        "home": 0.9977
+      }
+    },
+    "401920423": {
+      "title": "Northeastern at Virginia",
+      "subtitle": "Fri Nov 6 \u00b7 5:00 PM ET",
+      "away": {
+        "name": "Northeastern"
+      },
+      "home": {
+        "name": "Virginia"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Virginia win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Virginia -28.9",
+              "157.1",
+              "99%"
+            ],
+            [
+              "With the twist",
+              "Virginia -30.9",
+              "157.9",
+              "100%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Virginia"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.1"
+            ],
+            [
+              "All layers",
+              "+2.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "63.5",
+        "home": "94.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0043,
+        "home": 0.9957
+      }
+    },
+    "401923260": {
+      "title": "FAU at Wright St",
+      "subtitle": "Fri Nov 6 \u00b7 6:00 PM ET",
+      "away": {
+        "name": "FAU"
+      },
+      "home": {
+        "name": "Wright St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Wright St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Wright St -1.9",
+              "155.0",
+              "56%"
+            ],
+            [
+              "With the twist",
+              "Wright St -1.0",
+              "155.9",
+              "53%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Wright St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "-0.9"
+            ],
+            [
+              "All layers",
+              "-0.9"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "77.4",
+        "home": "78.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.4675,
+        "home": 0.5325
+      }
+    },
+    "401922059": {
+      "title": "SC State at SC Upstate",
+      "subtitle": "Fri Nov 6 \u00b7 6:30 PM ET",
+      "away": {
+        "name": "SC State"
+      },
+      "home": {
+        "name": "SC Upstate"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "SC Upstate win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "SC Upstate -6.0",
+              "151.2",
+              "70%"
+            ],
+            [
+              "With the twist",
+              "SC Upstate -6.0",
+              "148.9",
+              "70%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "notes",
+          "items": [
+            "No layer moves this game yet: form and four factors start once both teams have played 5 games"
+          ]
+        }
+      ],
+      "score": {
+        "away": "71.5",
+        "home": "77.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.2952,
+        "home": 0.7048
+      }
+    },
+    "401926131": {
+      "title": "Valparaiso at Purdue",
+      "subtitle": "Fri Nov 6 \u00b7 6:30 PM ET",
+      "away": {
+        "name": "Valparaiso"
+      },
+      "home": {
+        "name": "Purdue"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Purdue win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Purdue -17.2",
+              "145.9",
+              "94%"
+            ],
+            [
+              "With the twist",
+              "Purdue -17.4",
+              "145.6",
+              "94%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Purdue"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.2"
+            ],
+            [
+              "All layers",
+              "+0.2"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "64.1",
+        "home": "81.5",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0575,
+        "home": 0.9425
+      }
+    },
+    "401909542": {
+      "title": "E Michigan at Xavier",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "E Michigan"
+      },
+      "home": {
+        "name": "Xavier"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Xavier win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Xavier -16.5",
+              "155.2",
+              "92%"
+            ],
+            [
+              "With the twist",
+              "Xavier -18.3",
+              "156.9",
+              "94%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Xavier"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.8"
+            ],
+            [
+              "All layers",
+              "+1.8"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "69.3",
+        "home": "87.6",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0562,
+        "home": 0.9438
+      }
+    },
+    "401911005": {
+      "title": "Indiana St at Ball State",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Indiana St"
+      },
+      "home": {
+        "name": "Ball State"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Ball State win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Ball State -2.5",
+              "151.3",
+              "58%"
+            ],
+            [
+              "With the twist",
+              "Ball State -2.5",
+              "150.8",
+              "58%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "notes",
+          "items": [
+            "No layer moves this game yet: form and four factors start once both teams have played 5 games"
+          ]
+        }
+      ],
+      "score": {
+        "away": "74.1",
+        "home": "76.6",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.4161,
+        "home": 0.5839
+      }
+    },
+    "401911249": {
+      "title": "Saint Louis vs. Missouri",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET \u00b7 neutral site",
+      "away": {
+        "name": "Saint Louis"
+      },
+      "home": {
+        "name": "Missouri"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Missouri win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Missouri -2.8",
+              "156.6",
+              "60%"
+            ],
+            [
+              "With the twist",
+              "Missouri -3.0",
+              "157.6",
+              "60%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Missouri"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.1"
+            ],
+            [
+              "All layers",
+              "+0.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "77.3",
+        "home": "80.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.4004,
+        "home": 0.5996
+      }
+    },
+    "401911305": {
+      "title": "Boston U at Brown",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Boston U"
+      },
+      "home": {
+        "name": "Brown"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Brown win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Brown -8.0",
+              "139.8",
+              "77%"
+            ],
+            [
+              "With the twist",
+              "Brown -7.9",
+              "138.1",
+              "77%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Brown"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "-0.1"
+            ],
+            [
+              "All layers",
+              "-0.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "65.1",
+        "home": "73.0",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.2339,
+        "home": 0.7661
+      }
+    },
+    "401912208": {
+      "title": "American at Clemson",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "American"
+      },
+      "home": {
+        "name": "Clemson"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Clemson win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Clemson -18.2",
+              "143.9",
+              "95%"
+            ],
+            [
+              "With the twist",
+              "Clemson -19.3",
+              "145.2",
+              "96%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Clemson"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.1"
+            ],
+            [
+              "All layers",
+              "+1.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "63.0",
+        "home": "82.2",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0412,
+        "home": 0.9588
+      }
+    },
+    "401913100": {
+      "title": "Wofford at North Carolina",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Wofford"
+      },
+      "home": {
+        "name": "North Carolina"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "North Carolina win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "North Carolina -22.8",
+              "154.0",
+              "98%"
+            ],
+            [
+              "With the twist",
+              "North Carolina -25.6",
+              "155.0",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to North Carolina"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.8"
+            ],
+            [
+              "All layers",
+              "+2.8"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "64.7",
+        "home": "90.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0132,
+        "home": 0.9868
+      }
+    },
+    "401920072": {
+      "title": "Coppin St at George Mason",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Coppin St"
+      },
+      "home": {
+        "name": "George Mason"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "George Mason win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "George Mason -24.2",
+              "147.4",
+              "99%"
+            ],
+            [
+              "With the twist",
+              "George Mason -26.8",
+              "147.7",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to George Mason"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.6"
+            ],
+            [
+              "All layers",
+              "+2.6"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "60.4",
+        "home": "87.2",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0077,
+        "home": 0.9923
+      }
+    },
+    "401920920": {
+      "title": "Loyola MD at Mount St Marys",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Loyola MD"
+      },
+      "home": {
+        "name": "Mount St Marys"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Mount St Marys win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Mount St Marys -8.0",
+              "151.7",
+              "76%"
+            ],
+            [
+              "With the twist",
+              "Mount St Marys -8.2",
+              "149.6",
+              "77%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Mount St Marys"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.2"
+            ],
+            [
+              "All layers",
+              "+0.2"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "70.7",
+        "home": "78.9",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.2306,
+        "home": 0.7694
+      }
+    },
+    "401921285": {
+      "title": "Holy Cross at Villanova",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Holy Cross"
+      },
+      "home": {
+        "name": "Villanova"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Villanova win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Villanova -29.2",
+              "152.7",
+              "100%"
+            ],
+            [
+              "With the twist",
+              "Villanova -32.7",
+              "154.1",
+              "100%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Villanova"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.5"
+            ],
+            [
+              "All layers",
+              "+3.5"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "60.7",
+        "home": "93.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.002,
+        "home": 0.998
+      }
+    },
+    "401921754": {
+      "title": "Yale at UCF",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Yale"
+      },
+      "home": {
+        "name": "UCF"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "UCF win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "UCF -18.6",
+              "155.3",
+              "95%"
+            ],
+            [
+              "With the twist",
+              "UCF -20.5",
+              "156.7",
+              "96%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to UCF"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.0"
+            ],
+            [
+              "All layers",
+              "+2.0"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "68.1",
+        "home": "88.6",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0392,
+        "home": 0.9608
+      }
+    },
+    "401921802": {
+      "title": "James Madison at Kentucky",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "James Madison"
+      },
+      "home": {
+        "name": "Kentucky"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Kentucky win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Kentucky -18.7",
+              "156.1",
+              "95%"
+            ],
+            [
+              "With the twist",
+              "Kentucky -21.0",
+              "158.6",
+              "96%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Kentucky"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.4"
+            ],
+            [
+              "All layers",
+              "+2.4"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "68.8",
+        "home": "89.8",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0363,
+        "home": 0.9637
+      }
+    },
+    "401926135": {
+      "title": "New Haven at Rutgers",
+      "subtitle": "Fri Nov 6 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "New Haven"
+      },
+      "home": {
+        "name": "Rutgers"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Rutgers win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Rutgers -22.9",
+              "145.1",
+              "98%"
+            ],
+            [
+              "With the twist",
+              "Rutgers -25.9",
+              "146.0",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Rutgers"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.0"
+            ],
+            [
+              "All layers",
+              "+3.0"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "60.0",
+        "home": "86.0",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0103,
+        "home": 0.9897
+      }
+    },
+    "401909523": {
+      "title": "Detroit Mercy at Marquette",
+      "subtitle": "Fri Nov 6 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Detroit Mercy"
+      },
+      "home": {
+        "name": "Marquette"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Marquette win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Marquette -23.5",
+              "159.8",
+              "98%"
+            ],
+            [
+              "With the twist",
+              "Marquette -26.6",
+              "161.2",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Marquette"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.1"
+            ],
+            [
+              "All layers",
+              "+3.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "67.3",
+        "home": "93.9",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0117,
+        "home": 0.9883
+      }
+    },
+    "401909772": {
+      "title": "Southern Miss at Iowa State",
+      "subtitle": "Fri Nov 6 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Southern Miss"
+      },
+      "home": {
+        "name": "Iowa State"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Iowa State win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Iowa State -25.7",
+              "154.6",
+              "99%"
+            ],
+            [
+              "With the twist",
+              "Iowa State -28.5",
+              "156.8",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Iowa State"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.9"
+            ],
+            [
+              "All layers",
+              "+2.9"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "64.2",
+        "home": "92.7",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0067,
+        "home": 0.9933
+      }
+    },
+    "401909797": {
+      "title": "CSU Northridge at Kansas St",
+      "subtitle": "Fri Nov 6 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "CSU Northridge"
+      },
+      "home": {
+        "name": "Kansas St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Kansas St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Kansas St -15.7",
+              "170.0",
+              "91%"
+            ],
+            [
+              "With the twist",
+              "Kansas St -16.0",
+              "169.6",
+              "91%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Kansas St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.3"
+            ],
+            [
+              "All layers",
+              "+0.3"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "76.8",
+        "home": "92.8",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.09,
+        "home": 0.91
+      }
+    },
+    "401916304": {
+      "title": "St Thomas at Minnesota",
+      "subtitle": "Fri Nov 6 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "St Thomas"
+      },
+      "home": {
+        "name": "Minnesota"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Minnesota win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Minnesota -10.9",
+              "144.8",
+              "84%"
+            ],
+            [
+              "With the twist",
+              "Minnesota -11.7",
+              "144.2",
+              "86%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Minnesota"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.8"
+            ],
+            [
+              "All layers",
+              "+0.8"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "66.3",
+        "home": "77.9",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.144,
+        "home": 0.856
+      }
+    },
+    "401920685": {
+      "title": "UConn vs. Michigan",
+      "subtitle": "Fri Nov 6 \u00b7 8:00 PM ET \u00b7 neutral site",
+      "away": {
+        "name": "UConn"
+      },
+      "home": {
+        "name": "Michigan"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Michigan win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "UConn -0.1",
+              "145.4",
+              "49%"
+            ],
+            [
+              "With the twist",
+              "Michigan -0.2",
+              "147.8",
+              "51%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Michigan"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.4"
+            ],
+            [
+              "All layers",
+              "+0.4"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "73.8",
+        "home": "74.0",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.4919,
+        "home": 0.5081
+      }
+    },
+    "401925097": {
+      "title": "Texas A&M-CC at Louisiana",
+      "subtitle": "Fri Nov 6 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Texas A&M-CC"
+      },
+      "home": {
+        "name": "Louisiana"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Louisiana win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Louisiana -3.8",
+              "138.7",
+              "64%"
+            ],
+            [
+              "With the twist",
+              "Louisiana -4.2",
+              "137.8",
+              "65%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Louisiana"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.4"
+            ],
+            [
+              "All layers",
+              "+0.4"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "66.8",
+        "home": "71.0",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.3495,
+        "home": 0.6505
+      }
+    },
+    "401928823": {
+      "title": "Robert Morris at UIC",
+      "subtitle": "Fri Nov 6 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Robert Morris"
+      },
+      "home": {
+        "name": "UIC"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "UIC win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "UIC -11.2",
+              "148.7",
+              "84%"
+            ],
+            [
+              "With the twist",
+              "UIC -11.7",
+              "148.9",
+              "85%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to UIC"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.5"
+            ],
+            [
+              "All layers",
+              "+0.5"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "68.6",
+        "home": "80.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.1483,
+        "home": 0.8517
+      }
+    },
+    "401920726": {
+      "title": "E Illinois at Iowa",
+      "subtitle": "Fri Nov 6 \u00b7 8:30 PM ET",
+      "away": {
+        "name": "E Illinois"
+      },
+      "home": {
+        "name": "Iowa"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Iowa win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Iowa -25.5",
+              "139.6",
+              "99%"
+            ],
+            [
+              "With the twist",
+              "Iowa -26.8",
+              "138.7",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Iowa"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.4"
+            ],
+            [
+              "All layers",
+              "+1.4"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "55.9",
+        "home": "82.8",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0076,
+        "home": 0.9924
+      }
+    },
+    "401922021": {
+      "title": "Idaho St at Wyoming",
+      "subtitle": "Fri Nov 6 \u00b7 8:30 PM ET",
+      "away": {
+        "name": "Idaho St"
+      },
+      "home": {
+        "name": "Wyoming"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Wyoming win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Wyoming -16.8",
+              "145.2",
+              "94%"
+            ],
+            [
+              "With the twist",
+              "Wyoming -16.8",
+              "145.2",
+              "94%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "notes",
+          "items": [
+            "No layer moves this game yet: form and four factors start once both teams have played 5 games"
+          ]
+        }
+      ],
+      "score": {
+        "away": "64.2",
+        "home": "81.0",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0649,
+        "home": 0.9351
+      }
+    },
+    "401909785": {
+      "title": "MTSU at Kansas",
+      "subtitle": "Fri Nov 6 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "MTSU"
+      },
+      "home": {
+        "name": "Kansas"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Kansas win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Kansas -21.7",
+              "151.2",
+              "97%"
+            ],
+            [
+              "With the twist",
+              "Kansas -24.7",
+              "153.2",
+              "98%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Kansas"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.0"
+            ],
+            [
+              "All layers",
+              "+3.0"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "64.3",
+        "home": "89.0",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0155,
+        "home": 0.9845
+      }
+    },
+    "401921719": {
+      "title": "Wagner at Miami",
+      "subtitle": "Fri Nov 6 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "Wagner"
+      },
+      "home": {
+        "name": "Miami"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Miami win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Miami -32.5",
+              "152.2",
+              "100%"
+            ],
+            [
+              "With the twist",
+              "Miami -36.3",
+              "153.6",
+              "100%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Miami"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.8"
+            ],
+            [
+              "All layers",
+              "+3.8"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "58.7",
+        "home": "94.9",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.001,
+        "home": 0.999
+      }
+    },
+    "401917515": {
+      "title": "Tarleton St at San Diego",
+      "subtitle": "Fri Nov 6 \u00b7 9:30 PM ET",
+      "away": {
+        "name": "Tarleton St"
+      },
+      "home": {
+        "name": "San Diego"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "San Diego win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "San Diego -5.3",
+              "155.9",
+              "68%"
+            ],
+            [
+              "With the twist",
+              "San Diego -6.0",
+              "155.8",
+              "70%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to San Diego"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.6"
+            ],
+            [
+              "All layers",
+              "+0.6"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "74.9",
+        "home": "80.9",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.3016,
+        "home": 0.6984
+      }
+    },
+    "401922219": {
+      "title": "North Florida at UCLA",
+      "subtitle": "Fri Nov 6 \u00b7 10:30 PM ET",
+      "away": {
+        "name": "North Florida"
+      },
+      "home": {
+        "name": "UCLA"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "UCLA win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "UCLA -29.8",
+              "157.0",
+              "100%"
+            ],
+            [
+              "With the twist",
+              "UCLA -31.2",
+              "157.3",
+              "100%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to UCLA"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.5"
+            ],
+            [
+              "All layers",
+              "+1.5"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "63.0",
+        "home": "94.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0033,
+        "home": 0.9967
+      }
+    },
+    "401929356": {
+      "title": "Portland vs. UT Arlington",
+      "subtitle": "Fri Nov 6 \u00b7 10:30 PM ET \u00b7 neutral site",
+      "away": {
+        "name": "Portland"
+      },
+      "home": {
+        "name": "UT Arlington"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "UT Arlington win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Portland -2.3",
+              "150.7",
+              "42%"
+            ],
+            [
+              "With the twist",
+              "Portland -2.8",
+              "149.4",
+              "40%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to UT Arlington"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "-0.5"
+            ],
+            [
+              "All layers",
+              "-0.5"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "76.1",
+        "home": "73.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.5952,
+        "home": 0.4048
+      }
+    },
+    "401906758": {
+      "title": "Arkansas St at Alabama",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Arkansas St"
+      },
+      "home": {
+        "name": "Alabama"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Alabama win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Alabama -24.2",
+              "172.8",
+              "98%"
+            ],
+            [
+              "With the twist",
+              "Alabama -26.0",
+              "173.6",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Alabama"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.8"
+            ],
+            [
+              "All layers",
+              "+1.8"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "73.8",
+        "home": "99.8",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0142,
+        "home": 0.9858
+      }
+    },
+    "401906780": {
+      "title": "Presbyterian at Georgia",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Presbyterian"
+      },
+      "home": {
+        "name": "Georgia"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Georgia win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Georgia -22.0",
+              "154.6",
+              "97%"
+            ],
+            [
+              "With the twist",
+              "Georgia -23.3",
+              "155.7",
+              "98%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Georgia"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.3"
+            ],
+            [
+              "All layers",
+              "+1.3"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "66.2",
+        "home": "89.5",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0202,
+        "home": 0.9798
+      }
+    },
+    "401906802": {
+      "title": "Miss Valley St at Oklahoma",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Miss Valley St"
+      },
+      "home": {
+        "name": "Oklahoma"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Oklahoma win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Oklahoma -36.8",
+              "149.7",
+              "100%"
+            ],
+            [
+              "With the twist",
+              "Oklahoma -40.0",
+              "150.4",
+              "100%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Oklahoma"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.2"
+            ],
+            [
+              "All layers",
+              "+3.2"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "55.2",
+        "home": "95.2",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0003,
+        "home": 0.9997
+      }
+    },
+    "401909695": {
+      "title": "Troy at Florida St",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Troy"
+      },
+      "home": {
+        "name": "Florida St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Florida St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Florida St -12.0",
+              "154.4",
+              "85%"
+            ],
+            [
+              "With the twist",
+              "Florida St -12.7",
+              "155.2",
+              "86%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Florida St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.7"
+            ],
+            [
+              "All layers",
+              "+0.7"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "71.3",
+        "home": "84.0",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.1359,
+        "home": 0.8641
+      }
+    },
+    "401916314": {
+      "title": "Youngstown St at Ohio State",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Youngstown St"
+      },
+      "home": {
+        "name": "Ohio State"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Ohio State win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Ohio State -26.8",
+              "152.5",
+              "99%"
+            ],
+            [
+              "With the twist",
+              "Ohio State -29.4",
+              "153.0",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Ohio State"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.5"
+            ],
+            [
+              "All layers",
+              "+2.5"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "61.8",
+        "home": "91.2",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0051,
+        "home": 0.9949
+      }
+    },
+    "401917914": {
+      "title": "C Arkansas at Ole Miss",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "C Arkansas"
+      },
+      "home": {
+        "name": "Ole Miss"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Ole Miss win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Ole Miss -15.2",
+              "152.0",
+              "91%"
+            ],
+            [
+              "With the twist",
+              "Ole Miss -16.7",
+              "152.8",
+              "93%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Ole Miss"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.6"
+            ],
+            [
+              "All layers",
+              "+1.6"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "68.1",
+        "home": "84.8",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0698,
+        "home": 0.9302
+      }
+    },
+    "401917949": {
+      "title": "Austin Peay at Kennesaw St",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Austin Peay"
+      },
+      "home": {
+        "name": "Kennesaw St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Kennesaw St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Kennesaw St -6.7",
+              "159.3",
+              "72%"
+            ],
+            [
+              "With the twist",
+              "Kennesaw St -6.1",
+              "158.9",
+              "70%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Kennesaw St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "-0.6"
+            ],
+            [
+              "All layers",
+              "-0.6"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "76.4",
+        "home": "82.5",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.3005,
+        "home": 0.6995
+      }
+    },
+    "401918956": {
+      "title": "ETSU at NC State",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "ETSU"
+      },
+      "home": {
+        "name": "NC State"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "NC State win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "NC State -19.3",
+              "156.2",
+              "95%"
+            ],
+            [
+              "With the twist",
+              "NC State -22.4",
+              "158.3",
+              "97%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to NC State"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.1"
+            ],
+            [
+              "All layers",
+              "+3.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "67.9",
+        "home": "90.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0264,
+        "home": 0.9736
+      }
+    },
+    "401919015": {
+      "title": "Nicholls at UAB",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Nicholls"
+      },
+      "home": {
+        "name": "UAB"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "UAB win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "UAB -14.5",
+              "155.3",
+              "90%"
+            ],
+            [
+              "With the twist",
+              "UAB -15.9",
+              "154.8",
+              "92%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to UAB"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.4"
+            ],
+            [
+              "All layers",
+              "+1.4"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "69.5",
+        "home": "85.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0815,
+        "home": 0.9185
+      }
+    },
+    "401919040": {
+      "title": "Queens at Oklahoma St",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Queens"
+      },
+      "home": {
+        "name": "Oklahoma St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Oklahoma St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Oklahoma St -19.1",
+              "171.4",
+              "94%"
+            ],
+            [
+              "With the twist",
+              "Oklahoma St -20.1",
+              "173.1",
+              "95%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Oklahoma St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.9"
+            ],
+            [
+              "All layers",
+              "+0.9"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "76.5",
+        "home": "96.6",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0493,
+        "home": 0.9507
+      }
+    },
+    "401919048": {
+      "title": "Southern at TCU",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Southern"
+      },
+      "home": {
+        "name": "TCU"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "TCU win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "TCU -23.8",
+              "152.3",
+              "98%"
+            ],
+            [
+              "With the twist",
+              "TCU -25.9",
+              "152.4",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to TCU"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.1"
+            ],
+            [
+              "All layers",
+              "+2.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "63.2",
+        "home": "89.2",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.012,
+        "home": 0.988
+      }
+    },
+    "401920305": {
+      "title": "GA Southern at Georgia Tech",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "GA Southern"
+      },
+      "home": {
+        "name": "Georgia Tech"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Georgia Tech win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Georgia Tech -20.2",
+              "156.3",
+              "96%"
+            ],
+            [
+              "With the twist",
+              "Georgia Tech -23.4",
+              "157.3",
+              "98%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Georgia Tech"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.2"
+            ],
+            [
+              "All layers",
+              "+3.2"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "67.0",
+        "home": "90.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0224,
+        "home": 0.9776
+      }
+    },
+    "401920344": {
+      "title": "CA Baptist at Oregon St",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "CA Baptist"
+      },
+      "home": {
+        "name": "Oregon St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Oregon St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Oregon St -11.7",
+              "148.2",
+              "85%"
+            ],
+            [
+              "With the twist",
+              "Oregon St -14.1",
+              "148.5",
+              "89%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Oregon St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.3"
+            ],
+            [
+              "All layers",
+              "+2.3"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "67.2",
+        "home": "81.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.1078,
+        "home": 0.8922
+      }
+    },
+    "401920717": {
+      "title": "E Washington at Oregon",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "E Washington"
+      },
+      "home": {
+        "name": "Oregon"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Oregon win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Oregon -19.4",
+              "159.3",
+              "95%"
+            ],
+            [
+              "With the twist",
+              "Oregon -20.5",
+              "160.3",
+              "96%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Oregon"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.1"
+            ],
+            [
+              "All layers",
+              "+1.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "69.9",
+        "home": "90.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0396,
+        "home": 0.9604
+      }
+    },
+    "401920733": {
+      "title": "Stony Brook at Northwestern",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Stony Brook"
+      },
+      "home": {
+        "name": "Northwestern"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Northwestern win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Northwestern -15.7",
+              "146.3",
+              "92%"
+            ],
+            [
+              "With the twist",
+              "Northwestern -17.4",
+              "146.8",
+              "94%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Northwestern"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.8"
+            ],
+            [
+              "All layers",
+              "+1.8"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "64.7",
+        "home": "82.1",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0595,
+        "home": 0.9405
+      }
+    },
+    "401920807": {
+      "title": "N Kentucky at Texas A&M",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "N Kentucky"
+      },
+      "home": {
+        "name": "Texas A&M"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Texas A&M win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Texas A&M -22.6",
+              "159.4",
+              "97%"
+            ],
+            [
+              "With the twist",
+              "Texas A&M -25.7",
+              "161.0",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Texas A&M"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+3.2"
+            ],
+            [
+              "All layers",
+              "+3.2"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "67.6",
+        "home": "93.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0138,
+        "home": 0.9862
+      }
+    },
+    "401920894": {
+      "title": "Delaware at Wisconsin",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Delaware"
+      },
+      "home": {
+        "name": "Wisconsin"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Wisconsin win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Wisconsin -22.1",
+              "154.3",
+              "97%"
+            ],
+            [
+              "With the twist",
+              "Wisconsin -23.5",
+              "154.7",
+              "98%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Wisconsin"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.4"
+            ],
+            [
+              "All layers",
+              "+1.4"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "65.6",
+        "home": "89.1",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0206,
+        "home": 0.9794
+      }
+    },
+    "401920952": {
+      "title": "S Illinois at Kansas City",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "S Illinois"
+      },
+      "home": {
+        "name": "Kansas City"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Kansas City win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "S Illinois -1.5",
+              "145.4",
+              "45%"
+            ],
+            [
+              "With the twist",
+              "S Illinois -1.3",
+              "143.7",
+              "45%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Kansas City"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.2"
+            ],
+            [
+              "All layers",
+              "+0.2"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "72.5",
+        "home": "71.2",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.5479,
+        "home": 0.4521
+      }
+    },
+    "401921061": {
+      "title": "N Dakota St at San Francisco",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "N Dakota St"
+      },
+      "home": {
+        "name": "San Francisco"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "San Francisco win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "San Francisco -2.7",
+              "145.9",
+              "60%"
+            ],
+            [
+              "With the twist",
+              "San Francisco -2.2",
+              "144.4",
+              "58%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to San Francisco"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "-0.5"
+            ],
+            [
+              "All layers",
+              "-0.5"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "71.1",
+        "home": "73.3",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.4178,
+        "home": 0.5822
+      }
+    },
+    "401921140": {
+      "title": "UNC Greensboro at Elon",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "UNC Greensboro"
+      },
+      "home": {
+        "name": "Elon"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Elon win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Elon -10.5",
+              "153.7",
+              "82%"
+            ],
+            [
+              "With the twist",
+              "Elon -11.1",
+              "152.1",
+              "84%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Elon"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+0.6"
+            ],
+            [
+              "All layers",
+              "+0.6"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "70.5",
+        "home": "81.6",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.1639,
+        "home": 0.8361
+      }
+    },
+    "401921727": {
+      "title": "Oakland at Stanford",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Oakland"
+      },
+      "home": {
+        "name": "Stanford"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Stanford win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Stanford -15.2",
+              "149.2",
+              "91%"
+            ],
+            [
+              "With the twist",
+              "Stanford -17.6",
+              "149.9",
+              "94%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Stanford"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.4"
+            ],
+            [
+              "All layers",
+              "+2.4"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "66.2",
+        "home": "83.8",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0595,
+        "home": 0.9405
+      }
+    },
+    "401921732": {
+      "title": "N Colorado at Arizona St",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "N Colorado"
+      },
+      "home": {
+        "name": "Arizona St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Arizona St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Arizona St -16.0",
+              "147.8",
+              "93%"
+            ],
+            [
+              "With the twist",
+              "Arizona St -18.5",
+              "149.3",
+              "95%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Arizona St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.5"
+            ],
+            [
+              "All layers",
+              "+2.5"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "65.4",
+        "home": "83.9",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0494,
+        "home": 0.9506
+      }
+    },
+    "401921739": {
+      "title": "Omaha at BYU",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Omaha"
+      },
+      "home": {
+        "name": "BYU"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "BYU win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "BYU -27.2",
+              "154.1",
+              "99%"
+            ],
+            [
+              "With the twist",
+              "BYU -29.8",
+              "155.0",
+              "100%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to BYU"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.6"
+            ],
+            [
+              "All layers",
+              "+2.6"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "62.6",
+        "home": "92.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0044,
+        "home": 0.9956
+      }
+    },
+    "401921767": {
+      "title": "Stetson at West Virginia",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Stetson"
+      },
+      "home": {
+        "name": "West Virginia"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "West Virginia win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "West Virginia -21.0",
+              "145.9",
+              "97%"
+            ],
+            [
+              "With the twist",
+              "West Virginia -22.7",
+              "146.6",
+              "98%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to West Virginia"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.7"
+            ],
+            [
+              "All layers",
+              "+1.7"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "61.9",
+        "home": "84.6",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.02,
+        "home": 0.98
+      }
+    },
+    "401921809": {
+      "title": "Texas Southern at LSU",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Texas Southern"
+      },
+      "home": {
+        "name": "LSU"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "LSU win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "LSU -26.6",
+              "152.1",
+              "99%"
+            ],
+            [
+              "With the twist",
+              "LSU -28.7",
+              "151.8",
+              "99%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to LSU"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+2.1"
+            ],
+            [
+              "All layers",
+              "+2.1"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "61.6",
+        "home": "90.2",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0051,
+        "home": 0.9949
+      }
+    },
+    "401922248": {
+      "title": "West Florida at FIU",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "West Florida"
+      },
+      "home": {
+        "name": "FIU"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "FIU win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "FIU -21.8",
+              "153.6",
+              "97%"
+            ],
+            [
+              "With the twist",
+              "FIU -21.8",
+              "153.6",
+              "97%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "notes",
+          "items": [
+            "No layer moves this game yet: form and four factors start once both teams have played 5 games"
+          ]
+        }
+      ],
+      "score": {
+        "away": "65.9",
+        "home": "87.7",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0275,
+        "home": 0.9725
+      }
+    },
+    "401922261": {
+      "title": "Idaho at Colorado St",
+      "subtitle": "Fri Nov 6 \u00b7 TBD ET",
+      "away": {
+        "name": "Idaho"
+      },
+      "home": {
+        "name": "Colorado St"
+      },
+      "sections": [
+        {
+          "title": "Barttorvik alone vs with the twist",
+          "kind": "table",
+          "columns": [
+            "",
+            "Line",
+            "Total",
+            "Colorado St win"
+          ],
+          "rows": [
+            [
+              "Barttorvik alone",
+              "Colorado St -14.5",
+              "144.8",
+              "91%"
+            ],
+            [
+              "With the twist",
+              "Colorado St -16.3",
+              "144.4",
+              "93%"
+            ]
+          ],
+          "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
+        },
+        {
+          "title": "The twist, layer by layer",
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "Points to Colorado St"
+          ],
+          "rows": [
+            [
+              "Star boost",
+              "+1.8"
+            ],
+            [
+              "All layers",
+              "+1.8"
+            ]
+          ],
+          "note": "each layer's points on the home margin, on top of the ones before it"
+        }
+      ],
+      "score": {
+        "away": "64.1",
+        "home": "80.4",
+        "label": "Expected, with the twist"
+      },
+      "win": {
+        "away": 0.0672,
+        "home": 0.9328
+      }
+    }
+  }
+}

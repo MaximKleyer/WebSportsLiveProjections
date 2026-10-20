@@ -4,13 +4,17 @@ Runs with the NBA model's venv Python:
   python desktop/sports/nba.py plan            # what's due now (runs nothing)
   python desktop/sports/nba.py step season     # the season simulation (`nba preseason`)
   python desktop/sports/nba.py step power      # power rankings
+  python desktop/sports/nba.py step early      # the early look at the coming week (scripts/early.py)
 
 The day's predictions belong to the model's own "NBA gameday" scheduled task: it runs from the
 morning of each game day until the last tip-off, predicting on the model's clock (75 minutes
 before the first tip, again 40 minutes before each later one, closing lines just before tip-off).
 The model has no lock against a second run, so the app never runs `nba daily` or `nba gameday`;
-it exports what the task wrote and keeps the season simulation and power rankings fresh. Neither
-rewrites a day's predictions, so no step needs the kickoff freeze.
+it exports what the task wrote and keeps the season simulation and power rankings fresh. The
+early look predicts the coming week's games for the site with the daily run's own code in its
+no-store mode, on a read-only connection: nothing stored, no bets, and the site shows a day's
+only until the gameday task's run for it. None of them rewrites a day's predictions, so no step
+needs the kickoff freeze.
 """
 
 from __future__ import annotations
@@ -34,9 +38,12 @@ NBA = MODEL["python"].with_name("nba.exe")
 OUT = FOLDER / "outputs"
 DAILY = OUT / "daily"
 POWER = OUT / "power_rankings.csv"
+EARLY = OUT / "early"
+EARLY_SCRIPT = FOLDER / "scripts" / "early.py"  # outside the model's code paths: model_version stays put
 TASK = "NBA gameday"
 
 SIM_EVERY = timedelta(hours=20)
+EARLY_EVERY = timedelta(hours=6)  # cheap (about 30 s, no network): fresh injury reports and lines through the day
 HIDE = ("ODDS_API_KEY",)  # neither step uses odds: nothing the app runs can spend credits
 
 
@@ -114,6 +121,12 @@ def plan(history: History, force: bool) -> Plan:
                reason="never run" if written is None else
                f"last run {ago(written, now)}" + ("" if stale else f" (refreshes every {span(SIM_EVERY)})"))
 
+    written = max((file_time(f) for f in EARLY.glob("????-??-??.csv")), default=None)
+    stale = written is None or now - written >= EARLY_EVERY
+    p.step("early", "Early look", ["early"], due=force or stale,
+           reason="never run" if written is None else
+           f"last run {ago(written, now)}" + ("" if stale else f" (refreshes every {span(EARLY_EVERY)})"))
+
     state, detail = gameday_task()
     p.stat("Gameday task", state, detail, tone=None if state in ("Ready", "Running") else "bad")
     need_inputs(p)
@@ -141,9 +154,18 @@ def step_power(args: argparse.Namespace) -> int:
     return finish(True, "Power rankings updated")
 
 
+def step_early(args: argparse.Namespace) -> int:
+    start = utcnow()
+    code = run([MODEL["python"], EARLY_SCRIPT], FOLDER, hide=HIDE)
+    if code != 0:
+        return finish(False, f"the early look exited with code {code}")
+    written = [f for f in EARLY.glob("????-??-??.csv") if written_since(f, start)]
+    return finish(True, f"Early look updated ({len(written)} game days)" if written else "No games ahead to look at")
+
+
 def freeze_for(path: Path) -> Freeze | None:
     return None  # the app never rewrites a day's predictions (see above)
 
 
 if __name__ == "__main__":
-    raise SystemExit(cli("nba", plan, {"season": step_season, "power": step_power}, freeze_for))
+    raise SystemExit(cli("nba", plan, {"season": step_season, "power": step_power, "early": step_early}, freeze_for))

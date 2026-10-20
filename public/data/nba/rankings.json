@@ -1,6 +1,6 @@
 {
   "subtitle": "2026\u201327 \u2014 scores 0\u2013100 are percentiles among the team-seasons of earlier seasons (50 = average). Overall = the model's net rating (offense + defense, points per 100 possessions vs an average team), the one its predictions use; shooting, turnovers, rebounding and free throws are the Four Factors, for context. Trend = change in overall over the last 14 days.",
-  "updated": "2026-10-13",
+  "updated": "2026-10-20",
   "columns": [
     {
       "key": "rank",
@@ -92,13 +92,13 @@
       "team": "Oklahoma City Thunder",
       "record": "0\u20130",
       "net": {
-        "v": "+6.9",
-        "sort": 6.93
+        "v": "+6.8",
+        "sort": 6.84
       },
-      "winPct": 0.7004,
-      "overall": 95.0,
-      "offense": 82.0,
-      "defense": 97.0,
+      "winPct": 0.7477,
+      "overall": 96.0,
+      "offense": 83.0,
+      "defense": 98.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -113,13 +113,13 @@
       "team": "Los Angeles Lakers",
       "record": "0\u20130",
       "net": {
-        "v": "+5.3",
-        "sort": 5.29
+        "v": "+5.2",
+        "sort": 5.2
       },
-      "winPct": 0.6552,
-      "overall": 90.0,
+      "winPct": 0.6932,
+      "overall": 91.0,
       "offense": 95.0,
-      "defense": 62.0,
+      "defense": 63.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -134,13 +134,13 @@
       "team": "Denver Nuggets",
       "record": "0\u20130",
       "net": {
-        "v": "+4.8",
-        "sort": 4.76
+        "v": "+4.7",
+        "sort": 4.67
       },
-      "winPct": 0.6405,
-      "overall": 87.0,
+      "winPct": 0.6751,
+      "overall": 88.0,
       "offense": 99.0,
-      "defense": 26.0,
+      "defense": 22.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -155,13 +155,13 @@
       "team": "Boston Celtics",
       "record": "0\u20130",
       "net": {
-        "v": "+4.2",
-        "sort": 4.17
+        "v": "+4.6",
+        "sort": 4.64
       },
-      "winPct": 0.6217,
-      "overall": 84.0,
-      "offense": 80.0,
-      "defense": 78.0,
+      "winPct": 0.6713,
+      "overall": 88.0,
+      "offense": 83.0,
+      "defense": 84.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -176,13 +176,13 @@
       "team": "Cleveland Cavaliers",
       "record": "0\u20130",
       "net": {
-        "v": "+3.5",
-        "sort": 3.53
+        "v": "+3.9",
+        "sort": 3.91
       },
-      "winPct": 0.606,
-      "overall": 80.0,
-      "offense": 85.0,
-      "defense": 61.0,
+      "winPct": 0.6494,
+      "overall": 84.0,
+      "offense": 88.0,
+      "defense": 64.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -197,13 +197,13 @@
       "team": "San Antonio Spurs",
       "record": "0\u20130",
       "net": {
-        "v": "+3.5",
-        "sort": 3.51
+        "v": "+3.4",
+        "sort": 3.41
       },
-      "winPct": 0.6055,
-      "overall": 80.0,
-      "offense": 68.0,
-      "defense": 84.0,
+      "winPct": 0.631,
+      "overall": 81.0,
+      "offense": 67.0,
+      "defense": 86.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -218,13 +218,13 @@
       "team": "Toronto Raptors",
       "record": "0\u20130",
       "net": {
-        "v": "+3.4",
-        "sort": 3.37
+        "v": "+3.3",
+        "sort": 3.28
       },
-      "winPct": 0.6007,
-      "overall": 79.0,
-      "offense": 70.0,
-      "defense": 79.0,
+      "winPct": 0.6253,
+      "overall": 80.0,
+      "offense": 71.0,
+      "defense": 81.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -240,12 +240,12 @@
       "record": "0\u20130",
       "net": {
         "v": "+3.0",
-        "sort": 3.05
+        "sort": 2.96
       },
-      "winPct": 0.5914,
-      "overall": 77.0,
-      "offense": 77.0,
-      "defense": 66.0,
+      "winPct": 0.6136,
+      "overall": 78.0,
+      "offense": 78.0,
+      "defense": 67.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -261,12 +261,12 @@
       "record": "0\u20130",
       "net": {
         "v": "+2.5",
-        "sort": 2.54
+        "sort": 2.45
       },
-      "winPct": 0.5754,
+      "winPct": 0.5933,
       "overall": 73.0,
       "offense": 57.0,
-      "defense": 82.0,
+      "defense": 84.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -281,12 +281,12 @@
       "team": "Philadelphia 76ers",
       "record": "0\u20130",
       "net": {
-        "v": "+1.9",
-        "sort": 1.91
+        "v": "+1.8",
+        "sort": 1.82
       },
-      "winPct": 0.5577,
+      "winPct": 0.5706,
       "overall": 68.0,
-      "offense": 69.0,
+      "offense": 70.0,
       "defense": 58.0,
       "shooting": 50.0,
       "turnovers": 50.0,
@@ -302,10 +302,10 @@
       "team": "Detroit Pistons",
       "record": "0\u20130",
       "net": {
-        "v": "+1.4",
-        "sort": 1.37
+        "v": "+1.3",
+        "sort": 1.28
       },
-      "winPct": 0.5414,
+      "winPct": 0.5497,
       "overall": 63.0,
       "offense": 60.0,
       "defense": 62.0,
@@ -320,13 +320,34 @@
     },
     {
       "rank": 12,
+      "team": "Orlando Magic",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.0",
+        "sort": 1.01
+      },
+      "winPct": 0.5395,
+      "overall": 60.0,
+      "offense": 41.0,
+      "defense": 79.0,
+      "shooting": 50.0,
+      "turnovers": 50.0,
+      "rebounding": 50.0,
+      "free_throws": 50.0,
+      "trend": {
+        "v": "0",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 13,
       "team": "Minnesota Timberwolves",
       "record": "0\u20130",
       "net": {
-        "v": "+1.1",
-        "sort": 1.06
+        "v": "+1.0",
+        "sort": 0.97
       },
-      "winPct": 0.5324,
+      "winPct": 0.5381,
       "overall": 60.0,
       "offense": 57.0,
       "defense": 60.0,
@@ -340,38 +361,17 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team": "Portland Trail Blazers",
       "record": "0\u20130",
       "net": {
-        "v": "+1.0",
-        "sort": 0.96
+        "v": "+0.9",
+        "sort": 0.87
       },
-      "winPct": 0.5292,
+      "winPct": 0.534,
       "overall": 59.0,
       "offense": 70.0,
-      "defense": 41.0,
-      "shooting": 50.0,
-      "turnovers": 50.0,
-      "rebounding": 50.0,
-      "free_throws": 50.0,
-      "trend": {
-        "v": "0",
-        "sort": 0.0
-      }
-    },
-    {
-      "rank": 14,
-      "team": "Orlando Magic",
-      "record": "0\u20130",
-      "net": {
-        "v": "+0.8",
-        "sort": 0.77
-      },
-      "winPct": 0.5234,
-      "overall": 57.0,
-      "offense": 41.0,
-      "defense": 73.0,
+      "defense": 39.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -383,16 +383,16 @@
     },
     {
       "rank": 15,
-      "team": "Charlotte Hornets",
+      "team": "New York Knicks",
       "record": "0\u20130",
       "net": {
-        "v": "+0.7",
-        "sort": 0.65
+        "v": "+0.8",
+        "sort": 0.85
       },
-      "winPct": 0.5195,
-      "overall": 56.0,
-      "offense": 61.0,
-      "defense": 48.0,
+      "winPct": 0.5326,
+      "overall": 59.0,
+      "offense": 64.0,
+      "defense": 47.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -404,16 +404,16 @@
     },
     {
       "rank": 16,
-      "team": "New York Knicks",
+      "team": "Charlotte Hornets",
       "record": "0\u20130",
       "net": {
-        "v": "+0.1",
-        "sort": 0.09
+        "v": "+0.6",
+        "sort": 0.56
       },
-      "winPct": 0.5027,
-      "overall": 51.0,
-      "offense": 52.0,
-      "defense": 50.0,
+      "winPct": 0.5216,
+      "overall": 56.0,
+      "offense": 61.0,
+      "defense": 46.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -425,16 +425,16 @@
     },
     {
       "rank": 17,
-      "team": "Phoenix Suns",
+      "team": "Miami Heat",
       "record": "0\u20130",
       "net": {
-        "v": "-0.7",
-        "sort": -0.73
+        "v": "-0.3",
+        "sort": -0.34
       },
-      "winPct": 0.4782,
-      "overall": 43.0,
-      "offense": 45.0,
-      "defense": 43.0,
+      "winPct": 0.4865,
+      "overall": 47.0,
+      "offense": 47.0,
+      "defense": 47.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -446,16 +446,16 @@
     },
     {
       "rank": 18,
-      "team": "Miami Heat",
+      "team": "Phoenix Suns",
       "record": "0\u20130",
       "net": {
-        "v": "-1.1",
-        "sort": -1.13
+        "v": "-0.7",
+        "sort": -0.65
       },
-      "winPct": 0.465,
-      "overall": 39.0,
+      "winPct": 0.4748,
+      "overall": 43.0,
       "offense": 42.0,
-      "defense": 40.0,
+      "defense": 47.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -470,12 +470,12 @@
       "team": "Atlanta Hawks",
       "record": "0\u20130",
       "net": {
-        "v": "-1.4",
-        "sort": -1.37
+        "v": "-1.5",
+        "sort": -1.46
       },
-      "winPct": 0.4581,
-      "overall": 37.0,
-      "offense": 24.0,
+      "winPct": 0.4426,
+      "overall": 35.0,
+      "offense": 23.0,
       "defense": 61.0,
       "shooting": 50.0,
       "turnovers": 50.0,
@@ -491,13 +491,13 @@
       "team": "New Orleans Pelicans",
       "record": "0\u20130",
       "net": {
-        "v": "-2.0",
-        "sort": -2.03
+        "v": "-2.1",
+        "sort": -2.12
       },
-      "winPct": 0.4383,
-      "overall": 31.0,
-      "offense": 44.0,
-      "defense": 24.0,
+      "winPct": 0.4174,
+      "overall": 29.0,
+      "offense": 43.0,
+      "defense": 21.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -512,13 +512,13 @@
       "team": "Chicago Bulls",
       "record": "0\u20130",
       "net": {
-        "v": "-2.1",
-        "sort": -2.15
+        "v": "-2.2",
+        "sort": -2.24
       },
-      "winPct": 0.4341,
-      "overall": 30.0,
-      "offense": 30.0,
-      "defense": 39.0,
+      "winPct": 0.4121,
+      "overall": 28.0,
+      "offense": 28.0,
+      "defense": 37.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -533,13 +533,13 @@
       "team": "Dallas Mavericks",
       "record": "0\u20130",
       "net": {
-        "v": "-2.3",
-        "sort": -2.34
+        "v": "-2.8",
+        "sort": -2.84
       },
-      "winPct": 0.4286,
-      "overall": 29.0,
-      "offense": 19.0,
-      "defense": 54.0,
+      "winPct": 0.3895,
+      "overall": 23.0,
+      "offense": 12.0,
+      "defense": 56.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -554,13 +554,13 @@
       "team": "Indiana Pacers",
       "record": "0\u20130",
       "net": {
-        "v": "-2.8",
-        "sort": -2.78
+        "v": "-2.9",
+        "sort": -2.87
       },
-      "winPct": 0.4155,
-      "overall": 25.0,
-      "offense": 29.0,
-      "defense": 30.0,
+      "winPct": 0.3885,
+      "overall": 23.0,
+      "offense": 27.0,
+      "defense": 27.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -575,13 +575,13 @@
       "team": "Memphis Grizzlies",
       "record": "0\u20130",
       "net": {
-        "v": "-2.8",
-        "sort": -2.79
+        "v": "-2.9",
+        "sort": -2.88
       },
-      "winPct": 0.4151,
-      "overall": 25.0,
-      "offense": 31.0,
-      "defense": 27.0,
+      "winPct": 0.3879,
+      "overall": 23.0,
+      "offense": 30.0,
+      "defense": 24.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -596,13 +596,13 @@
       "team": "Milwaukee Bucks",
       "record": "0\u20130",
       "net": {
-        "v": "-2.9",
-        "sort": -2.87
+        "v": "-3.0",
+        "sort": -2.96
       },
-      "winPct": 0.4145,
-      "overall": 25.0,
-      "offense": 19.0,
-      "defense": 44.0,
+      "winPct": 0.3872,
+      "overall": 22.0,
+      "offense": 17.0,
+      "defense": 42.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -617,13 +617,13 @@
       "team": "Utah Jazz",
       "record": "0\u20130",
       "net": {
-        "v": "-2.9",
-        "sort": -2.88
+        "v": "-3.0",
+        "sort": -2.97
       },
-      "winPct": 0.4121,
-      "overall": 25.0,
+      "winPct": 0.3841,
+      "overall": 22.0,
       "offense": 45.0,
-      "defense": 13.0,
+      "defense": 10.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -639,12 +639,12 @@
       "record": "0\u20130",
       "net": {
         "v": "-4.2",
-        "sort": -4.15
+        "sort": -4.24
       },
-      "winPct": 0.3752,
-      "overall": 16.0,
-      "offense": 14.0,
-      "defense": 32.0,
+      "winPct": 0.3379,
+      "overall": 14.0,
+      "offense": 13.0,
+      "defense": 28.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -659,13 +659,13 @@
       "team": "LA Clippers",
       "record": "0\u20130",
       "net": {
-        "v": "-5.9",
-        "sort": -5.92
+        "v": "-6.0",
+        "sort": -6.01
       },
-      "winPct": 0.3288,
-      "overall": 8.0,
-      "offense": 8.0,
-      "defense": 21.0,
+      "winPct": 0.2813,
+      "overall": 6.0,
+      "offense": 6.0,
+      "defense": 17.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -680,13 +680,13 @@
       "team": "Brooklyn Nets",
       "record": "0\u20130",
       "net": {
-        "v": "-5.9",
-        "sort": -5.93
+        "v": "-6.0",
+        "sort": -6.02
       },
-      "winPct": 0.3279,
-      "overall": 8.0,
-      "offense": 8.0,
-      "defense": 19.0,
+      "winPct": 0.2803,
+      "overall": 6.0,
+      "offense": 7.0,
+      "defense": 16.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,
@@ -701,13 +701,13 @@
       "team": "Sacramento Kings",
       "record": "0\u20130",
       "net": {
-        "v": "-6.9",
-        "sort": -6.87
+        "v": "-7.1",
+        "sort": -7.11
       },
-      "winPct": 0.301,
-      "overall": 5.0,
-      "offense": 7.0,
-      "defense": 12.0,
+      "winPct": 0.2437,
+      "overall": 3.0,
+      "offense": 5.0,
+      "defense": 9.0,
       "shooting": 50.0,
       "turnovers": 50.0,
       "rebounding": 50.0,

@@ -2,6 +2,42 @@
   "season": 2026,
   "label": "2026\u201327 Season",
   "unit": "day",
-  "latest": null,
-  "slates": []
+  "latest": "2026-10-20.json",
+  "slates": [
+    {
+      "id": "2026-10-20",
+      "label": "Tue Oct 20",
+      "file": "2026-10-20.json"
+    },
+    {
+      "id": "2026-10-21",
+      "label": "Wed Oct 21 \u00b7 early look",
+      "file": "2026-10-21.json"
+    },
+    {
+      "id": "2026-10-22",
+      "label": "Thu Oct 22 \u00b7 early look",
+      "file": "2026-10-22.json"
+    },
+    {
+      "id": "2026-10-23",
+      "label": "Fri Oct 23 \u00b7 early look",
+      "file": "2026-10-23.json"
+    },
+    {
+      "id": "2026-10-24",
+      "label": "Sat Oct 24 \u00b7 early look",
+      "file": "2026-10-24.json"
+    },
+    {
+      "id": "2026-10-25",
+      "label": "Sun Oct 25 \u00b7 early look",
+      "file": "2026-10-25.json"
+    },
+    {
+      "id": "2026-10-26",
+      "label": "Mon Oct 26 \u00b7 early look",
+      "file": "2026-10-26.json"
+    }
+  ]
 }

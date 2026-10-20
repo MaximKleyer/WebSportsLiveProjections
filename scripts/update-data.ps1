@@ -6,10 +6,10 @@ One command to refresh the site's model data ("call both models").
   .\scripts\update-data.ps1 -Predict -Week 3             # run every model (football for week 3), then export
   .\scripts\update-data.ps1 -Sport cfb -Predict -Week 3  # one sport only
   .\scripts\update-data.ps1 -Sport nhl -Predict          # NHL: today's games, season sim, power rankings
-  .\scripts\update-data.ps1 -Sport nba -Predict          # NBA: season sim, power rankings (the day's games
-                                                         #   are the model's "NBA gameday" task's)
-  .\scripts\update-data.ps1 -Sport cbb -Predict          # CBB: rankings, season sim, NCAA sim once the bracket is out
-                                                         #   (the day's games are the model's "CBB gameday" task's)
+  .\scripts\update-data.ps1 -Sport nba -Predict          # NBA: season sim, power rankings, the early look (the day's
+                                                         #   games are the model's "NBA gameday" task's)
+  .\scripts\update-data.ps1 -Sport cbb -Predict          # CBB: rankings, season sim, NCAA sim once the bracket is out,
+                                                         #   the early look (the day's games are the "CBB gameday" task's)
   .\scripts\update-data.ps1 -Grade                       # grade the football models' finished games first
   .\scripts\update-data.ps1 -Grade -Predict -Week 5      # the weekly routine: grade, project week 5, export
 
@@ -108,6 +108,7 @@ if ($Sport -eq 'nba' -or $Sport -eq 'all') {
         # The day's predictions are the model's own "NBA gameday" scheduled task's (desktop\sports\nba.py).
         Invoke-Step 'NBA: season sim' $py @("$Steps\nba.py", 'step', 'season') $NbaRepo
         Invoke-Step 'NBA: power rankings' $py @("$Steps\nba.py", 'step', 'power') $NbaRepo
+        Invoke-Step 'NBA: early look' $py @("$Steps\nba.py", 'step', 'early') $NbaRepo
     }
     Invoke-Step 'NBA: export to site' $py @((Join-Path $PSScriptRoot 'exporters\nba.py')) $NbaRepo
 }
@@ -119,6 +120,7 @@ if ($Sport -eq 'cbb' -or $Sport -eq 'all') {
         Invoke-Step 'CBB: rankings' $py @("$Steps\cbb.py", 'step', 'rankings') $CbbRepo
         Invoke-Step 'CBB: season sim' $py @("$Steps\cbb.py", 'step', 'season') $CbbRepo
         Invoke-Step 'CBB: NCAA tournament' $py @("$Steps\cbb.py", 'step', 'ncaa') $CbbRepo
+        Invoke-Step 'CBB: early look' $py @("$Steps\cbb.py", 'step', 'early') $CbbRepo
     }
     Invoke-Step 'CBB: export to site' $py @((Join-Path $PSScriptRoot 'exporters\cbb.py')) $CbbRepo
 }

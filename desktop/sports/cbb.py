@@ -5,13 +5,16 @@ Runs with the CBB model's venv Python:
   python desktop/sports/cbb.py step rankings    # every D1 team by the model's rating (`cbb rankings`)
   python desktop/sports/cbb.py step season      # the season outlook and conference tournaments (`cbb season`)
   python desktop/sports/cbb.py step ncaa        # the NCAA tournament, once its bracket is out (`cbb ncaa`)
+  python desktop/sports/cbb.py step early       # the early look at the coming game days (`cbb early`)
 
 The day's predictions belong to the model's own "CBB gameday" scheduled task: it starts each day at
 12:05 AM and runs the daily pipeline 75 minutes before the first tip (refresh, close and settle,
 predict both ways, bets, outputs/daily/), then rechecks the games of each later tip. The model has
 no lock against a second run, so the app never runs `cbb daily` or `cbb gameday`; it exports what
 the task wrote and keeps the rankings, the season outlook and (from Selection Sunday) the NCAA
-tournament's odds fresh. None rewrites a day's predictions, so no step needs the kickoff freeze.
+tournament's odds fresh. The early look (`cbb early`) predicts the coming game days for the site
+on a read-only connection: nothing stored, no bets, and the site shows a day's only until the
+gameday task's run for it. None rewrites a day's predictions, so no step needs the kickoff freeze.
 """
 
 from __future__ import annotations
@@ -33,6 +36,7 @@ CBB = MODEL["python"].with_name("cbb.exe")
 OUT = FOLDER / "outputs"
 DAILY = OUT / "daily"
 RANKINGS = OUT / "rankings.csv"
+EARLY = OUT / "early"
 DB = FOLDER / "data" / "cbb.sqlite"
 INBOX = FOLDER / "data" / "torvik" / "inbox"
 AVAILABILITY = FOLDER / "config" / "availability.yaml"
@@ -40,6 +44,7 @@ TORVIK_FILES = ("*_team_results.csv", "trank_data.csv", "*_fffinal.csv")
 TASK = "CBB gameday"
 
 REFRESH_EVERY = timedelta(hours=20)  # the rankings and the sims: about daily, after the morning's results
+EARLY_EVERY = timedelta(hours=6)  # cheap (seconds, no network): the latest Barttorvik file and lines through the day
 HIDE = ("ODDS_API_KEY",)  # the model takes its lines from ESPN; nothing the app runs can spend credits
 
 
@@ -144,6 +149,11 @@ def plan(history: History, force: bool) -> Plan:
                f"last run {ago(written, now)}" + ("" if stale else f" (refreshes every {span(REFRESH_EVERY)})"))
     else:
         p.step("ncaa", "NCAA tournament", ["ncaa"], due=False, reason="no bracket until Selection Sunday")
+    written = max((file_time(f) for f in EARLY.glob("????-??-??.csv")), default=None)
+    stale = written is None or now - written >= EARLY_EVERY
+    p.step("early", "Early look", ["early"], due=force or stale,
+           reason="never run" if written is None else
+           f"last run {ago(written, now)}" + ("" if stale else f" (refreshes every {span(EARLY_EVERY)})"))
     state, detail = gameday_task()
     p.stat("Gameday task", state, detail, tone=None if state in ("Ready", "Running") else "bad")
     need_inputs(p)
@@ -171,6 +181,15 @@ def step_season(args: argparse.Namespace) -> int:
     return finish(True, f"Season sim updated ({sim.name})")
 
 
+def step_early(args: argparse.Namespace) -> int:
+    start = utcnow()
+    code = run([CBB, "early"], FOLDER, hide=HIDE)
+    if code != 0:
+        return finish(False, f"cbb early exited with code {code}")
+    written = [f for f in EARLY.glob("????-??-??.csv") if written_since(f, start)]
+    return finish(True, f"Early look updated ({len(written)} game days)" if written else "No games ahead to look at")
+
+
 def step_ncaa(args: argparse.Namespace) -> int:
     start = utcnow()
     code = run([CBB, "ncaa"], FOLDER, hide=HIDE)
@@ -187,4 +206,5 @@ def freeze_for(path: Path) -> Freeze | None:
 
 
 if __name__ == "__main__":
-    raise SystemExit(cli("cbb", plan, {"rankings": step_rankings, "season": step_season, "ncaa": step_ncaa}, freeze_for))
+    raise SystemExit(cli("cbb", plan, {"rankings": step_rankings, "season": step_season, "ncaa": step_ncaa,
+                                       "early": step_early}, freeze_for))

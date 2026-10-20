@@ -1,0 +1,1327 @@
+{
+  "games": {
+    "0022600119": {
+      "title": "WAS @ CHA",
+      "subtitle": "Mon Oct 26 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Washington Wizards",
+        "abbr": "WAS",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Charlotte Hornets",
+        "abbr": "CHA",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "110.4",
+        "home": "118.5",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.2461,
+        "home": 0.7539,
+        "note": "Fair odds: WAS +306, CHA -306 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects WAS 110.4 \u2013 CHA 118.5: CHA by 8.1, 228.9 points in all. That makes CHA 75% to win.",
+            "Pace: WAS plays about 102.9 possessions a game against an average team, CHA 100.7.",
+            "WAS's offense is -3.1 points per 100 possessions against an average team, meeting CHA's defense at -0.2; CHA's offense +0.7 meets WAS's defense at -1.2 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 14.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "14",
+              "homeText": "56"
+            },
+            {
+              "label": "Offense",
+              "away": 13.0,
+              "home": 61.0,
+              "max": 100,
+              "awayText": "13",
+              "homeText": "61"
+            },
+            {
+              "label": "Defense",
+              "away": 28.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "28",
+              "homeText": "46"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 102.9,
+              "home": 100.7,
+              "awayText": "102.9",
+              "homeText": "100.7"
+            },
+            {
+              "label": "Points scored",
+              "away": 112.8,
+              "home": 114.3,
+              "awayText": "112.8",
+              "homeText": "114.3"
+            },
+            {
+              "label": "Points allowed",
+              "away": 117.2,
+              "home": 113.8,
+              "awayText": "117.2",
+              "homeText": "113.8",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "WAS to win",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "CHA to win",
+              "75%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 31.0516,
+              "home": 43.1903,
+              "awayText": "31",
+              "homeText": "43"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.1181,
+              "home": 0.6701,
+              "awayText": "12%",
+              "homeText": "67%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0004,
+              "home": 0.015,
+              "awayText": "0%",
+              "homeText": "2%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600120": {
+      "title": "MIN @ CLE",
+      "subtitle": "Mon Oct 26 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Minnesota Timberwolves",
+        "abbr": "MIN",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Cleveland Cavaliers",
+        "abbr": "CLE",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "113.5",
+        "home": "121.4",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.2522,
+        "home": 0.7478,
+        "note": "Fair odds: MIN +297, CLE -297 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects MIN 113.5 \u2013 CLE 121.4: CLE by 8.0, 234.9 points in all. That makes CLE 75% to win.",
+            "Pace: MIN plays about 102.5 possessions a game against an average team, CLE 102.2.",
+            "MIN's offense is +0.5 points per 100 possessions against an average team, meeting CLE's defense at +0.7; CLE's offense +3.2 meets MIN's defense at +0.5 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 60.0,
+              "home": 84.0,
+              "max": 100,
+              "awayText": "60",
+              "homeText": "84"
+            },
+            {
+              "label": "Offense",
+              "away": 57.0,
+              "home": 88.0,
+              "max": 100,
+              "awayText": "57",
+              "homeText": "88"
+            },
+            {
+              "label": "Defense",
+              "away": 60.0,
+              "home": 64.0,
+              "max": 100,
+              "awayText": "60",
+              "homeText": "64"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 102.5,
+              "home": 102.2,
+              "awayText": "102.5",
+              "homeText": "102.2"
+            },
+            {
+              "label": "Points scored",
+              "away": 116.0,
+              "home": 118.4,
+              "awayText": "116.0",
+              "homeText": "118.4"
+            },
+            {
+              "label": "Points allowed",
+              "away": 115.0,
+              "home": 114.4,
+              "awayText": "115.0",
+              "homeText": "114.4",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "MIN to win",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "CLE to win",
+              "75%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 42.4225,
+              "home": 50.6588,
+              "awayText": "42",
+              "homeText": "51"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.6187,
+              "home": 0.9164,
+              "awayText": "62%",
+              "homeText": "92%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.011,
+              "home": 0.0907,
+              "awayText": "1%",
+              "homeText": "9%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600121": {
+      "title": "CHI @ BOS",
+      "subtitle": "Mon Oct 26 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "Chicago Bulls",
+        "abbr": "CHI",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Boston Celtics",
+        "abbr": "BOS",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "108.5",
+        "home": "120.0",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.1641,
+        "home": 0.8359,
+        "note": "Fair odds: CHI +509, BOS -509 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects CHI 108.5 \u2013 BOS 120.0: BOS by 11.5, 228.4 points in all. That makes BOS 84% to win.",
+            "Pace: CHI plays about 103.4 possessions a game against an average team, BOS 99.7.",
+            "CHI's offense is -1.5 points per 100 possessions against an average team, meeting BOS's defense at +2.1; BOS's offense +2.6 meets CHI's defense at -0.7 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 28.0,
+              "home": 88.0,
+              "max": 100,
+              "awayText": "28",
+              "homeText": "88"
+            },
+            {
+              "label": "Offense",
+              "away": 28.0,
+              "home": 83.0,
+              "max": 100,
+              "awayText": "28",
+              "homeText": "83"
+            },
+            {
+              "label": "Defense",
+              "away": 37.0,
+              "home": 84.0,
+              "max": 100,
+              "awayText": "37",
+              "homeText": "84"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 103.4,
+              "home": 99.7,
+              "awayText": "103.4",
+              "homeText": "99.7"
+            },
+            {
+              "label": "Points scored",
+              "away": 115.0,
+              "home": 115.0,
+              "awayText": "115.0",
+              "homeText": "115.0"
+            },
+            {
+              "label": "Points allowed",
+              "away": 117.3,
+              "home": 110.3,
+              "awayText": "117.3",
+              "homeText": "110.3",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "CHI to win",
+              "16%",
+              "\u2014"
+            ],
+            [
+              "BOS to win",
+              "84%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 34.9936,
+              "home": 52.3034,
+              "awayText": "35",
+              "homeText": "52"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.2509,
+              "home": 0.952,
+              "awayText": "25%",
+              "homeText": "95%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0013,
+              "home": 0.12,
+              "awayText": "0%",
+              "homeText": "12%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600122": {
+      "title": "DAL @ MIA",
+      "subtitle": "Mon Oct 26 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "Dallas Mavericks",
+        "abbr": "DAL",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Miami Heat",
+        "abbr": "MIA",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "114.2",
+        "home": "119.7",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.3187,
+        "home": 0.6813,
+        "note": "Fair odds: DAL +214, MIA -214 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects DAL 114.2 \u2013 MIA 119.7: MIA by 5.5, 233.8 points in all. That makes MIA 68% to win.",
+            "Pace: DAL plays about 103.1 possessions a game against an average team, MIA 104.0.",
+            "DAL's offense is -3.2 points per 100 possessions against an average team, meeting MIA's defense at -0.2; MIA's offense -0.2 meets DAL's defense at +0.3 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 23.0,
+              "home": 47.0,
+              "max": 100,
+              "awayText": "23",
+              "homeText": "47"
+            },
+            {
+              "label": "Offense",
+              "away": 12.0,
+              "home": 47.0,
+              "max": 100,
+              "awayText": "12",
+              "homeText": "47"
+            },
+            {
+              "label": "Defense",
+              "away": 56.0,
+              "home": 47.0,
+              "max": 100,
+              "awayText": "56",
+              "homeText": "47"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 103.1,
+              "home": 104.0,
+              "awayText": "103.1",
+              "homeText": "104.0"
+            },
+            {
+              "label": "Points scored",
+              "away": 112.9,
+              "home": 117.0,
+              "awayText": "112.9",
+              "homeText": "117.0"
+            },
+            {
+              "label": "Points allowed",
+              "away": 115.8,
+              "home": 117.4,
+              "awayText": "115.8",
+              "homeText": "117.4",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "DAL to win",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "MIA to win",
+              "68%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 33.7148,
+              "home": 41.1376,
+              "awayText": "34",
+              "homeText": "41"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.1847,
+              "home": 0.5676,
+              "awayText": "18%",
+              "homeText": "57%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0005,
+              "home": 0.0083,
+              "awayText": "0%",
+              "homeText": "1%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600123": {
+      "title": "IND @ MIL",
+      "subtitle": "Mon Oct 26 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Indiana Pacers",
+        "abbr": "IND",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Milwaukee Bucks",
+        "abbr": "MIL",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "113.1",
+        "home": "114.9",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.4339,
+        "home": 0.5661,
+        "note": "Fair odds: IND +130, MIL -130 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects IND 113.1 \u2013 MIL 114.9: MIL by 1.9, 228.0 points in all. That makes MIL 57% to win.",
+            "Pace: IND plays about 102.7 possessions a game against an average team, MIL 100.8.",
+            "IND's offense is -1.6 points per 100 possessions against an average team, meeting MIL's defense at -0.4; MIL's offense -2.6 meets IND's defense at -1.3 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 23.0,
+              "home": 22.0,
+              "max": 100,
+              "awayText": "23",
+              "homeText": "22"
+            },
+            {
+              "label": "Offense",
+              "away": 27.0,
+              "home": 17.0,
+              "max": 100,
+              "awayText": "27",
+              "homeText": "17"
+            },
+            {
+              "label": "Defense",
+              "away": 27.0,
+              "home": 42.0,
+              "max": 100,
+              "awayText": "27",
+              "homeText": "42"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 102.7,
+              "home": 100.8,
+              "awayText": "102.7",
+              "homeText": "100.8"
+            },
+            {
+              "label": "Points scored",
+              "away": 114.1,
+              "home": 111.1,
+              "awayText": "114.1",
+              "homeText": "111.1"
+            },
+            {
+              "label": "Points allowed",
+              "away": 117.1,
+              "home": 114.1,
+              "awayText": "117.1",
+              "homeText": "114.1",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "IND to win",
+              "43%",
+              "\u2014"
+            ],
+            [
+              "MIL to win",
+              "57%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 34.3361,
+              "home": 31.5039,
+              "awayText": "34",
+              "homeText": "32"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.232,
+              "home": 0.1273,
+              "awayText": "23%",
+              "homeText": "13%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0014,
+              "home": 0.0004,
+              "awayText": "0%",
+              "homeText": "0%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600124": {
+      "title": "PHX @ OKC",
+      "subtitle": "Mon Oct 26 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Phoenix Suns",
+        "abbr": "PHX",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Oklahoma City Thunder",
+        "abbr": "OKC",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "107.8",
+        "home": "117.9",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.1918,
+        "home": 0.8082,
+        "note": "Fair odds: PHX +421, OKC -421 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects PHX 107.8 \u2013 OKC 117.9: OKC by 10.2, 225.7 points in all. That makes OKC 81% to win.",
+            "Pace: PHX plays about 100.9 possessions a game against an average team, OKC 101.8.",
+            "PHX's offense is -0.5 points per 100 possessions against an average team, meeting OKC's defense at +4.3; OKC's offense +2.6 meets PHX's defense at -0.1 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 43.0,
+              "home": 96.0,
+              "max": 100,
+              "awayText": "43",
+              "homeText": "96"
+            },
+            {
+              "label": "Offense",
+              "away": 42.0,
+              "home": 83.0,
+              "max": 100,
+              "awayText": "42",
+              "homeText": "83"
+            },
+            {
+              "label": "Defense",
+              "away": 47.0,
+              "home": 98.0,
+              "max": 100,
+              "awayText": "47",
+              "homeText": "98"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 100.9,
+              "home": 101.8,
+              "awayText": "100.9",
+              "homeText": "101.8"
+            },
+            {
+              "label": "Points scored",
+              "away": 113.3,
+              "home": 117.3,
+              "awayText": "113.3",
+              "homeText": "117.3"
+            },
+            {
+              "label": "Points allowed",
+              "away": 113.9,
+              "home": 110.4,
+              "awayText": "113.9",
+              "homeText": "110.4",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "PHX to win",
+              "19%",
+              "\u2014"
+            ],
+            [
+              "OKC to win",
+              "81%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 39.1862,
+              "home": 57.3922,
+              "awayText": "39",
+              "homeText": "57"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.437,
+              "home": 0.9822,
+              "awayText": "44%",
+              "homeText": "98%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0034,
+              "home": 0.2371,
+              "awayText": "0%",
+              "homeText": "24%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600125": {
+      "title": "ATL @ HOU",
+      "subtitle": "Mon Oct 26 \u00b7 8:30 PM ET",
+      "away": {
+        "name": "Atlanta Hawks",
+        "abbr": "ATL",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Houston Rockets",
+        "abbr": "HOU",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "109.3",
+        "home": "116.1",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.283,
+        "home": 0.717,
+        "note": "Fair odds: ATL +253, HOU -253 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects ATL 109.3 \u2013 HOU 116.1: HOU by 6.8, 225.4 points in all. That makes HOU 72% to win.",
+            "Pace: ATL plays about 103.0 possessions a game against an average team, HOU 100.3.",
+            "ATL's offense is -2.0 points per 100 possessions against an average team, meeting HOU's defense at +2.0; HOU's offense +0.4 meets ATL's defense at +0.5 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 35.0,
+              "home": 73.0,
+              "max": 100,
+              "awayText": "35",
+              "homeText": "73"
+            },
+            {
+              "label": "Offense",
+              "away": 23.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "23",
+              "homeText": "57"
+            },
+            {
+              "label": "Defense",
+              "away": 61.0,
+              "home": 84.0,
+              "max": 100,
+              "awayText": "61",
+              "homeText": "84"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 103.0,
+              "home": 100.3,
+              "awayText": "103.0",
+              "homeText": "100.3"
+            },
+            {
+              "label": "Points scored",
+              "away": 114.1,
+              "home": 113.6,
+              "awayText": "114.1",
+              "homeText": "113.6"
+            },
+            {
+              "label": "Points allowed",
+              "away": 115.6,
+              "home": 111.1,
+              "awayText": "115.6",
+              "homeText": "111.1",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "ATL to win",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "HOU to win",
+              "72%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 37.4969,
+              "home": 46.7678,
+              "awayText": "37",
+              "homeText": "47"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.3729,
+              "home": 0.811,
+              "awayText": "37%",
+              "homeText": "81%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0026,
+              "home": 0.0284,
+              "awayText": "0%",
+              "homeText": "3%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600126": {
+      "title": "MEM @ UTA",
+      "subtitle": "Mon Oct 26 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "Memphis Grizzlies",
+        "abbr": "MEM",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Utah Jazz",
+        "abbr": "UTA",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "117.9",
+        "home": "120.8",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.4057,
+        "home": 0.5943,
+        "note": "Fair odds: MEM +146, UTA -146 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects MEM 117.9 \u2013 UTA 120.8: UTA by 2.9, 238.7 points in all. That makes UTA 59% to win.",
+            "Pace: MEM plays about 103.0 possessions a game against an average team, UTA 103.4.",
+            "MEM's offense is -1.4 points per 100 possessions against an average team, meeting UTA's defense at -2.6; UTA's offense -0.4 meets MEM's defense at -1.5 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 23.0,
+              "home": 22.0,
+              "max": 100,
+              "awayText": "23",
+              "homeText": "22"
+            },
+            {
+              "label": "Offense",
+              "away": 30.0,
+              "home": 45.0,
+              "max": 100,
+              "awayText": "30",
+              "homeText": "45"
+            },
+            {
+              "label": "Defense",
+              "away": 24.0,
+              "home": 10.0,
+              "max": 100,
+              "awayText": "24",
+              "homeText": "10"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 103.0,
+              "home": 103.4,
+              "awayText": "103.0",
+              "homeText": "103.4"
+            },
+            {
+              "label": "Points scored",
+              "away": 114.6,
+              "home": 116.2,
+              "awayText": "114.6",
+              "homeText": "116.2"
+            },
+            {
+              "label": "Points allowed",
+              "away": 117.6,
+              "home": 119.2,
+              "awayText": "117.6",
+              "homeText": "119.2",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "MEM to win",
+              "41%",
+              "\u2014"
+            ],
+            [
+              "UTA to win",
+              "59%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 33.6198,
+              "home": 34.7728,
+              "awayText": "34",
+              "homeText": "35"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.1813,
+              "home": 0.2215,
+              "awayText": "18%",
+              "homeText": "22%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0006,
+              "home": 0.0008,
+              "awayText": "0%",
+              "homeText": "0%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "0022600127": {
+      "title": "GSW @ DEN",
+      "subtitle": "Mon Oct 26 \u00b7 10:00 PM ET",
+      "away": {
+        "name": "Golden State Warriors",
+        "abbr": "GSW",
+        "note": "0\u20130"
+      },
+      "home": {
+        "name": "Denver Nuggets",
+        "abbr": "DEN",
+        "note": "0\u20130"
+      },
+      "score": {
+        "away": "116.0",
+        "home": "121.6",
+        "label": "Expected points"
+      },
+      "win": {
+        "away": 0.3149,
+        "home": 0.6851,
+        "note": "Fair odds: GSW +218, DEN -218 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model expects GSW 116.0 \u2013 DEN 121.6: DEN by 5.7, 237.6 points in all. That makes DEN 69% to win.",
+            "Pace: GSW plays about 101.7 possessions a game against an average team, DEN 101.3.",
+            "GSW's offense is +2.1 points per 100 possessions against an average team, meeting DEN's defense at -1.6; DEN's offense +6.2 meets GSW's defense at +0.9 (+ is better than average).",
+            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 78.0,
+              "home": 88.0,
+              "max": 100,
+              "awayText": "78",
+              "homeText": "88"
+            },
+            {
+              "label": "Offense",
+              "away": 78.0,
+              "home": 99.0,
+              "max": 100,
+              "awayText": "78",
+              "homeText": "99"
+            },
+            {
+              "label": "Defense",
+              "away": 67.0,
+              "home": 22.0,
+              "max": 100,
+              "awayText": "67",
+              "homeText": "22"
+            }
+          ],
+          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Pace and scoring",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 101.7,
+              "home": 101.3,
+              "awayText": "101.7",
+              "homeText": "101.3"
+            },
+            {
+              "label": "Points scored",
+              "away": 116.8,
+              "home": 120.4,
+              "awayText": "116.8",
+              "homeText": "120.4"
+            },
+            {
+              "label": "Points allowed",
+              "away": 113.8,
+              "home": 115.7,
+              "awayText": "113.8",
+              "homeText": "115.7",
+              "lower": true
+            }
+          ],
+          "note": "A game against an average team on a neutral floor."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "GSW to win",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "DEN to win",
+              "69%",
+              "\u2014"
+            ]
+          ],
+          "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 48.5043,
+              "home": 52.7855,
+              "awayText": "49",
+              "homeText": "53"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.8558,
+              "home": 0.9348,
+              "awayText": "86%",
+              "homeText": "93%",
+              "max": 1
+            },
+            {
+              "label": "Title",
+              "away": 0.0406,
+              "home": 0.1005,
+              "awayText": "4%",
+              "homeText": "10%"
+            }
+          ],
+          "note": "From the season forecast: the rest of the season played out 10,000 times."
+        }
+      ]
+    }
+  }
+}

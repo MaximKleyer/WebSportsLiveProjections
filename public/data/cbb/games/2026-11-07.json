@@ -1,0 +1,1531 @@
+{
+  "subtitle": "Sat Nov 7, 2026\u201327 \u2014 48 games \u00b7 EARLY LOOK as of 2:25 PM ET Tue: before game-day news (Barttorvik's morning file, who's out) and without bets; the gameday task's run replaces it 75 minutes before the first tip \u00b7 times ET \u00b7 score = expected points with the twist \u00b7 Barttorvik = his ratings alone through the model; Twist \u0394 = how far the twist moves the home margin \u00b7 open a game for its layers and who's out",
+  "updated": "2026-10-20",
+  "search": "Search teams or players",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "torvik",
+      "label": "Barttorvik",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "spread",
+      "label": "Twist",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "move",
+      "label": "Twist \u0394",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "1:00 PM",
+        "sort": "2026-11-07T18:00:00Z"
+      },
+      "awayTeam": "North Dakota",
+      "awayScore": "73.4",
+      "sep": "\u2013",
+      "homeScore": "84.2",
+      "homeTeam": "Winthrop",
+      "homeWin": 0.8215,
+      "spread": {
+        "v": "Winthrop -10.8",
+        "sort": 10.8
+      },
+      "total": {
+        "v": "157.6",
+        "sort": 157.64
+      },
+      "torvik": {
+        "v": "Winthrop -10.3",
+        "sort": 10.34
+      },
+      "move": {
+        "v": "+0.5",
+        "sort": 0.46,
+        "tone": "muted"
+      },
+      "id": "401925707",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "2:00 PM",
+        "sort": "2026-11-07T19:00:00Z"
+      },
+      "awayTeam": "UNC Wilmington",
+      "awayScore": "77.4",
+      "sep": "\u2013",
+      "homeScore": "75.3",
+      "homeTeam": "East Carolina",
+      "homeWin": 0.426,
+      "spread": {
+        "v": "UNC Wilmington -2.1",
+        "sort": -2.08
+      },
+      "total": {
+        "v": "152.6",
+        "sort": 152.64
+      },
+      "torvik": {
+        "v": "UNC Wilmington -1.1",
+        "sort": -1.08
+      },
+      "move": {
+        "v": "-1.0",
+        "sort": -1.0
+      },
+      "id": "401918977",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "2:00 PM",
+        "sort": "2026-11-07T19:00:00Z"
+      },
+      "awayTeam": "Toledo",
+      "awayScore": "80.7",
+      "sep": "\u2013",
+      "homeScore": "77.2",
+      "homeTeam": "Marshall",
+      "homeWin": 0.3781,
+      "spread": {
+        "v": "Toledo -3.5",
+        "sort": -3.5
+      },
+      "total": {
+        "v": "157.9",
+        "sort": 157.86
+      },
+      "torvik": {
+        "v": "Toledo -3.1",
+        "sort": -3.07
+      },
+      "move": {
+        "v": "-0.4",
+        "sort": -0.43,
+        "tone": "muted"
+      },
+      "id": "401920856",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "3:00 PM",
+        "sort": "2026-11-07T20:00:00Z"
+      },
+      "awayTeam": "NC Central",
+      "awayScore": "66.4",
+      "sep": "\u2013",
+      "homeScore": "80.5",
+      "homeTeam": "Longwood",
+      "homeWin": 0.8937,
+      "spread": {
+        "v": "Longwood -14.0",
+        "sort": 14.04
+      },
+      "total": {
+        "v": "146.9",
+        "sort": 146.88
+      },
+      "torvik": {
+        "v": "Longwood -13.4",
+        "sort": 13.44
+      },
+      "move": {
+        "v": "+0.6",
+        "sort": 0.6
+      },
+      "id": "401922044",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "3:00 PM",
+        "sort": "2026-11-07T20:00:00Z"
+      },
+      "awayTeam": "Long Beach St",
+      "awayScore": "69.0",
+      "sep": "\u2013",
+      "homeScore": "83.0",
+      "homeTeam": "Montana St",
+      "homeWin": 0.8875,
+      "spread": {
+        "v": "Montana St -13.9",
+        "sort": 13.94
+      },
+      "total": {
+        "v": "152.0",
+        "sort": 151.98
+      },
+      "torvik": {
+        "v": "Montana St -12.6",
+        "sort": 12.57
+      },
+      "move": {
+        "v": "+1.4",
+        "sort": 1.37
+      },
+      "id": "401924264",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "4:00 PM",
+        "sort": "2026-11-07T21:00:00Z"
+      },
+      "awayTeam": "Fullerton",
+      "awayScore": "82.3",
+      "sep": "\u2013",
+      "homeScore": "81.2",
+      "homeTeam": "South Dakota",
+      "homeWin": 0.4678,
+      "spread": {
+        "v": "Fullerton -1.0",
+        "sort": -1.03
+      },
+      "total": {
+        "v": "163.5",
+        "sort": 163.51
+      },
+      "torvik": {
+        "v": "Fullerton -1.1",
+        "sort": -1.08
+      },
+      "move": {
+        "v": "+0.1",
+        "sort": 0.05,
+        "tone": "muted"
+      },
+      "id": "401920156",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "4:00 PM",
+        "sort": "2026-11-07T21:00:00Z"
+      },
+      "awayTeam": "Lafayette",
+      "awayScore": "61.1",
+      "sep": "\u2013",
+      "homeScore": "78.7",
+      "homeTeam": "Saint Joseph's",
+      "homeWin": 0.9437,
+      "spread": {
+        "v": "Saint Joseph's -17.5",
+        "sort": 17.53
+      },
+      "total": {
+        "v": "139.8",
+        "sort": 139.77
+      },
+      "torvik": {
+        "v": "Saint Joseph's -17.0",
+        "sort": 17.0
+      },
+      "move": {
+        "v": "+0.5",
+        "sort": 0.53
+      },
+      "id": "401920192",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "4:00 PM",
+        "sort": "2026-11-07T21:00:00Z"
+      },
+      "awayTeam": "Samford",
+      "awayScore": "71.7",
+      "sep": "\u2013",
+      "homeScore": "87.4",
+      "homeTeam": "UNLV",
+      "homeWin": 0.9131,
+      "spread": {
+        "v": "UNLV -15.7",
+        "sort": 15.65
+      },
+      "total": {
+        "v": "159.1",
+        "sort": 159.07
+      },
+      "torvik": {
+        "v": "UNLV -15.1",
+        "sort": 15.05
+      },
+      "move": {
+        "v": "+0.6",
+        "sort": 0.6
+      },
+      "id": "401924912",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "4:00 PM",
+        "sort": "2026-11-07T21:00:00Z"
+      },
+      "awayTeam": "Oakland",
+      "awayScore": "67.4",
+      "sep": "\u2013",
+      "homeScore": "81.8",
+      "homeTeam": "Santa Barbara",
+      "homeWin": 0.8989,
+      "spread": {
+        "v": "Santa Barbara -14.5",
+        "sort": 14.48
+      },
+      "total": {
+        "v": "149.2",
+        "sort": 149.2
+      },
+      "torvik": {
+        "v": "Santa Barbara -13.3",
+        "sort": 13.33
+      },
+      "move": {
+        "v": "+1.1",
+        "sort": 1.15
+      },
+      "id": "401928352",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "4:00 PM",
+        "sort": "2026-11-07T21:00:00Z"
+      },
+      "awayTeam": "Omaha",
+      "awayScore": "61.1",
+      "sep": "\u2013",
+      "homeScore": "85.0",
+      "homeTeam": "Utah State",
+      "homeWin": 0.9841,
+      "spread": {
+        "v": "Utah State -23.9",
+        "sort": 23.86
+      },
+      "total": {
+        "v": "146.1",
+        "sort": 146.08
+      },
+      "torvik": {
+        "v": "Utah State -21.7",
+        "sort": 21.7
+      },
+      "move": {
+        "v": "+2.2",
+        "sort": 2.16
+      },
+      "id": "401929293",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "5:00 PM",
+        "sort": "2026-11-07T22:00:00Z"
+      },
+      "awayTeam": "Washington St",
+      "awayScore": "72.5",
+      "sep": "\u2013",
+      "homeScore": "89.5",
+      "homeTeam": "High Point",
+      "homeWin": 0.9281,
+      "spread": {
+        "v": "High Point -17.1",
+        "sort": 17.09
+      },
+      "total": {
+        "v": "162.0",
+        "sort": 162.01
+      },
+      "torvik": {
+        "v": "High Point -14.8",
+        "sort": 14.84
+      },
+      "move": {
+        "v": "+2.2",
+        "sort": 2.25
+      },
+      "id": "401920411",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "5:00 PM",
+        "sort": "2026-11-07T22:00:00Z"
+      },
+      "awayTeam": "SIUE",
+      "awayScore": "68.6",
+      "sep": "\u2013",
+      "homeScore": "75.6",
+      "homeTeam": "Lipscomb",
+      "homeWin": 0.7383,
+      "spread": {
+        "v": "Lipscomb -7.0",
+        "sort": 7.02
+      },
+      "total": {
+        "v": "144.2",
+        "sort": 144.16
+      },
+      "torvik": {
+        "v": "Lipscomb -6.1",
+        "sort": 6.14
+      },
+      "move": {
+        "v": "+0.9",
+        "sort": 0.88
+      },
+      "id": "401920703",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "5:00 PM",
+        "sort": "2026-11-07T22:00:00Z"
+      },
+      "awayTeam": "UT Martin",
+      "awayScore": "70.7",
+      "sep": "\u2013",
+      "homeScore": "82.2",
+      "homeTeam": "IU Indy",
+      "homeWin": 0.8447,
+      "spread": {
+        "v": "IU Indy -11.5",
+        "sort": 11.48
+      },
+      "total": {
+        "v": "152.9",
+        "sort": 152.86
+      },
+      "torvik": {
+        "v": "IU Indy -10.8",
+        "sort": 10.83
+      },
+      "move": {
+        "v": "+0.7",
+        "sort": 0.65
+      },
+      "id": "401921174",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "5:30 PM",
+        "sort": "2026-11-07T22:30:00Z"
+      },
+      "awayTeam": "W Carolina",
+      "awayScore": "76.7",
+      "sep": "\u2013",
+      "homeScore": "75.4",
+      "homeTeam": "UNC Asheville",
+      "homeWin": 0.4589,
+      "spread": {
+        "v": "W Carolina -1.3",
+        "sort": -1.3
+      },
+      "total": {
+        "v": "152.0",
+        "sort": 152.02
+      },
+      "torvik": {
+        "v": "W Carolina -0.8",
+        "sort": -0.85
+      },
+      "move": {
+        "v": "-0.5",
+        "sort": -0.45,
+        "tone": "muted"
+      },
+      "id": "401922291",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "5:30 PM",
+        "sort": "2026-11-07T22:30:00Z"
+      },
+      "awayTeam": "Prairie View",
+      "awayScore": "71.8",
+      "sep": "\u2013",
+      "homeScore": "79.1",
+      "homeTeam": "UT Rio Grande",
+      "homeWin": 0.7407,
+      "spread": {
+        "v": "UT Rio Grande -7.2",
+        "sort": 7.24
+      },
+      "total": {
+        "v": "150.9",
+        "sort": 150.88
+      },
+      "torvik": {
+        "v": "UT Rio Grande -7.5",
+        "sort": 7.45
+      },
+      "move": {
+        "v": "-0.2",
+        "sort": -0.21,
+        "tone": "muted"
+      },
+      "id": "401925106",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "6:00 PM",
+        "sort": "2026-11-07T23:00:00Z"
+      },
+      "awayTeam": "Hampton",
+      "awayScore": "69.6",
+      "sep": "\u2013",
+      "homeScore": "83.7",
+      "homeTeam": "G Washington",
+      "homeWin": 0.8907,
+      "spread": {
+        "v": "G Washington -14.1",
+        "sort": 14.07
+      },
+      "total": {
+        "v": "153.2",
+        "sort": 153.25
+      },
+      "torvik": {
+        "v": "G Washington -14.3",
+        "sort": 14.31
+      },
+      "move": {
+        "v": "-0.2",
+        "sort": -0.24,
+        "tone": "muted"
+      },
+      "id": "401926825",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "6:30 PM",
+        "sort": "2026-11-07T23:30:00Z"
+      },
+      "awayTeam": "Morgan St",
+      "awayScore": "73.5",
+      "sep": "\u2013",
+      "homeScore": "79.9",
+      "homeTeam": "Niagara",
+      "homeWin": 0.7087,
+      "spread": {
+        "v": "Niagara -6.3",
+        "sort": 6.32
+      },
+      "total": {
+        "v": "153.4",
+        "sort": 153.4
+      },
+      "torvik": {
+        "v": "Niagara -6.7",
+        "sort": 6.68
+      },
+      "move": {
+        "v": "-0.4",
+        "sort": -0.36,
+        "tone": "muted"
+      },
+      "id": "401924843",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-11-08T00:00:00Z",
+        "sub": "neutral"
+      },
+      "awayTeam": "Providence",
+      "awayScore": "78.4",
+      "sep": "\u2013",
+      "homeScore": "83.7",
+      "homeTeam": "Nebraska",
+      "homeWin": 0.6688,
+      "spread": {
+        "v": "Nebraska -5.3",
+        "sort": 5.29
+      },
+      "total": {
+        "v": "162.1",
+        "sort": 162.13
+      },
+      "torvik": {
+        "v": "Nebraska -4.9",
+        "sort": 4.93
+      },
+      "move": {
+        "v": "+0.4",
+        "sort": 0.36,
+        "tone": "muted"
+      },
+      "id": "401909532",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-11-08T00:00:00Z"
+      },
+      "awayTeam": "N Illinois",
+      "awayScore": "66.0",
+      "sep": "\u2013",
+      "homeScore": "84.6",
+      "homeTeam": "Dayton",
+      "homeWin": 0.9484,
+      "spread": {
+        "v": "Dayton -18.6",
+        "sort": 18.62
+      },
+      "total": {
+        "v": "150.5",
+        "sort": 150.54
+      },
+      "torvik": {
+        "v": "Dayton -17.9",
+        "sort": 17.91
+      },
+      "move": {
+        "v": "+0.7",
+        "sort": 0.71
+      },
+      "id": "401911186",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-11-08T00:00:00Z"
+      },
+      "awayTeam": "St Bonaventure",
+      "awayScore": "81.3",
+      "sep": "\u2013",
+      "homeScore": "72.7",
+      "homeTeam": "Canisius",
+      "homeWin": 0.2297,
+      "spread": {
+        "v": "St Bonaventure -8.6",
+        "sort": -8.61
+      },
+      "total": {
+        "v": "154.1",
+        "sort": 154.07
+      },
+      "torvik": {
+        "v": "St Bonaventure -8.6",
+        "sort": -8.57
+      },
+      "move": {
+        "v": "-0.0",
+        "sort": -0.04,
+        "tone": "muted"
+      },
+      "id": "401911262",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-11-08T00:00:00Z"
+      },
+      "awayTeam": "Mercer",
+      "awayScore": "67.2",
+      "sep": "\u2013",
+      "homeScore": "81.4",
+      "homeTeam": "Davidson",
+      "homeWin": 0.8966,
+      "spread": {
+        "v": "Davidson -14.2",
+        "sort": 14.16
+      },
+      "total": {
+        "v": "148.6",
+        "sort": 148.58
+      },
+      "torvik": {
+        "v": "Davidson -13.1",
+        "sort": 13.08
+      },
+      "move": {
+        "v": "+1.1",
+        "sort": 1.08
+      },
+      "id": "401925772",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:30 PM",
+        "sort": "2026-11-08T00:30:00Z"
+      },
+      "awayTeam": "Maryland",
+      "awayScore": "76.2",
+      "sep": "\u2013",
+      "homeScore": "77.2",
+      "homeTeam": "Georgetown",
+      "homeWin": 0.5356,
+      "spread": {
+        "v": "Georgetown -1.0",
+        "sort": 0.99
+      },
+      "total": {
+        "v": "153.5",
+        "sort": 153.49
+      },
+      "torvik": {
+        "v": "Georgetown -2.3",
+        "sort": 2.29
+      },
+      "move": {
+        "v": "-1.3",
+        "sort": -1.3
+      },
+      "id": "401909513",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:30 PM",
+        "sort": "2026-11-08T00:30:00Z"
+      },
+      "awayTeam": "Denver",
+      "awayScore": "78.3",
+      "sep": "\u2013",
+      "homeScore": "81.3",
+      "homeTeam": "UC Riverside",
+      "homeWin": 0.6019,
+      "spread": {
+        "v": "UC Riverside -3.0",
+        "sort": 3.01
+      },
+      "total": {
+        "v": "159.6",
+        "sort": 159.61
+      },
+      "torvik": {
+        "v": "UC Riverside -4.1",
+        "sort": 4.11
+      },
+      "move": {
+        "v": "-1.1",
+        "sort": -1.1
+      },
+      "id": "401926227",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-11-08T01:00:00Z"
+      },
+      "awayTeam": "Bethune",
+      "awayScore": "69.7",
+      "sep": "\u2013",
+      "homeScore": "89.3",
+      "homeTeam": "Grand Canyon",
+      "homeWin": 0.9551,
+      "spread": {
+        "v": "Grand Canyon -19.6",
+        "sort": 19.6
+      },
+      "total": {
+        "v": "159.1",
+        "sort": 159.08
+      },
+      "torvik": {
+        "v": "Grand Canyon -17.9",
+        "sort": 17.93
+      },
+      "move": {
+        "v": "+1.7",
+        "sort": 1.67
+      },
+      "id": "401911345",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-11-08T01:00:00Z"
+      },
+      "awayTeam": "SE Louisiana",
+      "awayScore": "73.3",
+      "sep": "\u2013",
+      "homeScore": "79.0",
+      "homeTeam": "Little Rock",
+      "homeWin": 0.6914,
+      "spread": {
+        "v": "Little Rock -5.6",
+        "sort": 5.62
+      },
+      "total": {
+        "v": "152.3",
+        "sort": 152.32
+      },
+      "torvik": {
+        "v": "Little Rock -4.4",
+        "sort": 4.41
+      },
+      "move": {
+        "v": "+1.2",
+        "sort": 1.21
+      },
+      "id": "401920816",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-11-08T01:00:00Z"
+      },
+      "awayTeam": "S Indiana",
+      "awayScore": "69.7",
+      "sep": "\u2013",
+      "homeScore": "78.4",
+      "homeTeam": "Evansville",
+      "homeWin": 0.7815,
+      "spread": {
+        "v": "Evansville -8.8",
+        "sort": 8.78
+      },
+      "total": {
+        "v": "148.1",
+        "sort": 148.1
+      },
+      "torvik": {
+        "v": "Evansville -8.1",
+        "sort": 8.13
+      },
+      "move": {
+        "v": "+0.7",
+        "sort": 0.65
+      },
+      "id": "401923392",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "9:00 PM",
+        "sort": "2026-11-08T02:00:00Z"
+      },
+      "awayTeam": "Utah Valley",
+      "awayScore": "77.9",
+      "sep": "\u2013",
+      "homeScore": "70.8",
+      "homeTeam": "Weber St",
+      "homeWin": 0.2672,
+      "spread": {
+        "v": "Utah Valley -7.1",
+        "sort": -7.06
+      },
+      "total": {
+        "v": "148.7",
+        "sort": 148.74
+      },
+      "torvik": {
+        "v": "Utah Valley -6.4",
+        "sort": -6.43
+      },
+      "move": {
+        "v": "-0.6",
+        "sort": -0.63
+      },
+      "id": "401920435",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-11-08T03:00:00Z"
+      },
+      "awayTeam": "San Jos\u00e9 St",
+      "awayScore": "69.1",
+      "sep": "\u2013",
+      "homeScore": "78.9",
+      "homeTeam": "UC Irvine",
+      "homeWin": 0.8136,
+      "spread": {
+        "v": "UC Irvine -9.8",
+        "sort": 9.75
+      },
+      "total": {
+        "v": "148.0",
+        "sort": 147.97
+      },
+      "torvik": {
+        "v": "UC Irvine -9.8",
+        "sort": 9.85
+      },
+      "move": {
+        "v": "-0.1",
+        "sort": -0.1,
+        "tone": "muted"
+      },
+      "id": "401911470",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-11-08T03:00:00Z"
+      },
+      "awayTeam": "Fresno St",
+      "awayScore": "70.8",
+      "sep": "\u2013",
+      "homeScore": "78.2",
+      "homeTeam": "UC San Diego",
+      "homeWin": 0.7464,
+      "spread": {
+        "v": "UC San Diego -7.4",
+        "sort": 7.37
+      },
+      "total": {
+        "v": "149.0",
+        "sort": 149.03
+      },
+      "torvik": {
+        "v": "UC San Diego -6.4",
+        "sort": 6.43
+      },
+      "move": {
+        "v": "+0.9",
+        "sort": 0.94
+      },
+      "id": "401920371",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z",
+        "sub": "neutral"
+      },
+      "awayTeam": "San Diego St",
+      "awayScore": "79.9",
+      "sep": "\u2013",
+      "homeScore": "76.0",
+      "homeTeam": "Colorado",
+      "homeWin": 0.369,
+      "spread": {
+        "v": "San Diego St -3.9",
+        "sort": -3.91
+      },
+      "total": {
+        "v": "155.9",
+        "sort": 155.95
+      },
+      "torvik": {
+        "v": "San Diego St -3.9",
+        "sort": -3.87
+      },
+      "move": {
+        "v": "-0.0",
+        "sort": -0.04,
+        "tone": "muted"
+      },
+      "id": "401909760",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Bellarmine",
+      "awayScore": "70.2",
+      "sep": "\u2013",
+      "homeScore": "89.3",
+      "homeTeam": "Miami OH",
+      "homeWin": 0.951,
+      "spread": {
+        "v": "Miami OH -19.1",
+        "sort": 19.07
+      },
+      "total": {
+        "v": "159.6",
+        "sort": 159.57
+      },
+      "torvik": {
+        "v": "Miami OH -18.8",
+        "sort": 18.75
+      },
+      "move": {
+        "v": "+0.3",
+        "sort": 0.32,
+        "tone": "muted"
+      },
+      "id": "401911007",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Portland St",
+      "awayScore": "68.8",
+      "sep": "\u2013",
+      "homeScore": "77.2",
+      "homeTeam": "Seattle U",
+      "homeWin": 0.7718,
+      "spread": {
+        "v": "Seattle U -8.3",
+        "sort": 8.31
+      },
+      "total": {
+        "v": "146.0",
+        "sort": 146.01
+      },
+      "torvik": {
+        "v": "Seattle U -7.6",
+        "sort": 7.56
+      },
+      "move": {
+        "v": "+0.8",
+        "sort": 0.75
+      },
+      "id": "401917517",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Pacific",
+      "awayScore": "72.1",
+      "sep": "\u2013",
+      "homeScore": "72.2",
+      "homeTeam": "Bradley",
+      "homeWin": 0.5019,
+      "spread": {
+        "v": "Bradley -0.1",
+        "sort": 0.14
+      },
+      "total": {
+        "v": "144.3",
+        "sort": 144.32
+      },
+      "torvik": {
+        "v": "Bradley -0.8",
+        "sort": 0.82
+      },
+      "move": {
+        "v": "-0.7",
+        "sort": -0.68
+      },
+      "id": "401917518",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Sacramento St",
+      "awayScore": "78.2",
+      "sep": "\u2013",
+      "homeScore": "89.5",
+      "homeTeam": "Santa Clara",
+      "homeWin": 0.8279,
+      "spread": {
+        "v": "Santa Clara -11.3",
+        "sort": 11.27
+      },
+      "total": {
+        "v": "167.7",
+        "sort": 167.71
+      },
+      "torvik": {
+        "v": "Santa Clara -11.9",
+        "sort": 11.91
+      },
+      "move": {
+        "v": "-0.6",
+        "sort": -0.64
+      },
+      "id": "401917519",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Lamar",
+      "awayScore": "71.8",
+      "sep": "\u2013",
+      "homeScore": "73.1",
+      "homeTeam": "Abilene Chrstn",
+      "homeWin": 0.5476,
+      "spread": {
+        "v": "Abilene Chrstn -1.3",
+        "sort": 1.34
+      },
+      "total": {
+        "v": "144.9",
+        "sort": 144.9
+      },
+      "torvik": {
+        "v": "Abilene Chrstn -1.5",
+        "sort": 1.46
+      },
+      "move": {
+        "v": "-0.1",
+        "sort": -0.12,
+        "tone": "muted"
+      },
+      "id": "401917962",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Morehead St",
+      "awayScore": "60.5",
+      "sep": "\u2013",
+      "homeScore": "94.7",
+      "homeTeam": "Louisville",
+      "homeWin": 0.9981,
+      "spread": {
+        "v": "Louisville -34.2",
+        "sort": 34.2
+      },
+      "total": {
+        "v": "155.3",
+        "sort": 155.28
+      },
+      "torvik": {
+        "v": "Louisville -31.4",
+        "sort": 31.45
+      },
+      "move": {
+        "v": "+2.8",
+        "sort": 2.75
+      },
+      "id": "401918948",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "VCU",
+      "awayScore": "85.6",
+      "sep": "\u2013",
+      "homeScore": "83.0",
+      "homeTeam": "Memphis",
+      "homeWin": 0.4168,
+      "spread": {
+        "v": "VCU -2.6",
+        "sort": -2.6
+      },
+      "total": {
+        "v": "168.6",
+        "sort": 168.64
+      },
+      "torvik": {
+        "v": "VCU -3.2",
+        "sort": -3.17
+      },
+      "move": {
+        "v": "+0.6",
+        "sort": 0.57
+      },
+      "id": "401918986",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Long Island",
+      "awayScore": "68.2",
+      "sep": "\u2013",
+      "homeScore": "80.6",
+      "homeTeam": "La Salle",
+      "homeWin": 0.8669,
+      "spread": {
+        "v": "La Salle -12.5",
+        "sort": 12.49
+      },
+      "total": {
+        "v": "148.8",
+        "sort": 148.79
+      },
+      "torvik": {
+        "v": "La Salle -11.5",
+        "sort": 11.51
+      },
+      "move": {
+        "v": "+1.0",
+        "sort": 0.98
+      },
+      "id": "401919805",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z",
+        "sub": "neutral"
+      },
+      "awayTeam": "Monmouth",
+      "awayScore": "71.7",
+      "sep": "\u2013",
+      "homeScore": "77.3",
+      "homeTeam": "Rhode Island",
+      "homeWin": 0.6936,
+      "spread": {
+        "v": "Rhode Island -5.7",
+        "sort": 5.68
+      },
+      "total": {
+        "v": "149.0",
+        "sort": 149.02
+      },
+      "torvik": {
+        "v": "Rhode Island -4.7",
+        "sort": 4.68
+      },
+      "move": {
+        "v": "+1.0",
+        "sort": 1.0
+      },
+      "id": "401920062",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Colgate",
+      "awayScore": "68.6",
+      "sep": "\u2013",
+      "homeScore": "70.0",
+      "homeTeam": "Drexel",
+      "homeWin": 0.5494,
+      "spread": {
+        "v": "Drexel -1.4",
+        "sort": 1.35
+      },
+      "total": {
+        "v": "138.6",
+        "sort": 138.55
+      },
+      "torvik": {
+        "v": "Drexel -2.4",
+        "sort": 2.4
+      },
+      "move": {
+        "v": "-1.1",
+        "sort": -1.05
+      },
+      "id": "401920770",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "NC A&T",
+      "awayScore": "77.3",
+      "sep": "\u2013",
+      "homeScore": "86.2",
+      "homeTeam": "Ohio",
+      "homeWin": 0.7745,
+      "spread": {
+        "v": "Ohio -9.0",
+        "sort": 8.97
+      },
+      "total": {
+        "v": "163.5",
+        "sort": 163.51
+      },
+      "torvik": {
+        "v": "Ohio -7.7",
+        "sort": 7.72
+      },
+      "move": {
+        "v": "+1.2",
+        "sort": 1.25
+      },
+      "id": "401921154",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "N Arizona",
+      "awayScore": "63.3",
+      "sep": "\u2013",
+      "homeScore": "88.1",
+      "homeTeam": "New Mexico",
+      "homeWin": 0.9856,
+      "spread": {
+        "v": "New Mexico -24.9",
+        "sort": 24.85
+      },
+      "total": {
+        "v": "151.4",
+        "sort": 151.41
+      },
+      "torvik": {
+        "v": "New Mexico -23.3",
+        "sort": 23.32
+      },
+      "move": {
+        "v": "+1.5",
+        "sort": 1.53
+      },
+      "id": "401924895",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Old Dominion",
+      "awayScore": "75.3",
+      "sep": "\u2013",
+      "homeScore": "71.7",
+      "homeTeam": "Bucknell",
+      "homeWin": 0.375,
+      "spread": {
+        "v": "Old Dominion -3.6",
+        "sort": -3.64
+      },
+      "total": {
+        "v": "147.0",
+        "sort": 146.96
+      },
+      "torvik": {
+        "v": "Old Dominion -3.2",
+        "sort": -3.24
+      },
+      "move": {
+        "v": "-0.4",
+        "sort": -0.4,
+        "tone": "muted"
+      },
+      "id": "401924940",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Hou Christian",
+      "awayScore": "71.3",
+      "sep": "\u2013",
+      "homeScore": "67.8",
+      "homeTeam": "W Illinois",
+      "homeWin": 0.3705,
+      "spread": {
+        "v": "Hou Christian -3.6",
+        "sort": -3.59
+      },
+      "total": {
+        "v": "139.1",
+        "sort": 139.11
+      },
+      "torvik": {
+        "v": "Hou Christian -3.2",
+        "sort": -3.21
+      },
+      "move": {
+        "v": "-0.4",
+        "sort": -0.38,
+        "tone": "muted"
+      },
+      "id": "401924951",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "N'Western St",
+      "awayScore": "69.5",
+      "sep": "\u2013",
+      "homeScore": "87.0",
+      "homeTeam": "Murray St",
+      "homeWin": 0.9356,
+      "spread": {
+        "v": "Murray St -17.5",
+        "sort": 17.51
+      },
+      "total": {
+        "v": "156.5",
+        "sort": 156.47
+      },
+      "torvik": {
+        "v": "Murray St -16.4",
+        "sort": 16.37
+      },
+      "move": {
+        "v": "+1.1",
+        "sort": 1.14
+      },
+      "id": "401925077",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "Northern Iowa",
+      "awayScore": "71.5",
+      "sep": "\u2013",
+      "homeScore": "73.6",
+      "homeTeam": "Furman",
+      "homeWin": 0.5741,
+      "spread": {
+        "v": "Furman -2.1",
+        "sort": 2.1
+      },
+      "total": {
+        "v": "145.1",
+        "sort": 145.1
+      },
+      "torvik": {
+        "v": "Furman -2.3",
+        "sort": 2.28
+      },
+      "move": {
+        "v": "-0.2",
+        "sort": -0.18,
+        "tone": "muted"
+      },
+      "id": "401926112",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "VMI",
+      "awayScore": "74.2",
+      "sep": "\u2013",
+      "homeScore": "86.0",
+      "homeTeam": "UTSA",
+      "homeWin": 0.8438,
+      "spread": {
+        "v": "UTSA -11.8",
+        "sort": 11.84
+      },
+      "total": {
+        "v": "160.1",
+        "sort": 160.14
+      },
+      "torvik": {
+        "v": "UTSA -11.8",
+        "sort": 11.81
+      },
+      "move": {
+        "v": "+0.0",
+        "sort": 0.03,
+        "tone": "muted"
+      },
+      "id": "401926201",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "TBD",
+        "sort": "92026-11-07T05:00:00Z"
+      },
+      "awayTeam": "New Mexico St",
+      "awayScore": "66.7",
+      "sep": "\u2013",
+      "homeScore": "88.2",
+      "homeTeam": "Gonzaga",
+      "homeWin": 0.9717,
+      "spread": {
+        "v": "Gonzaga -21.6",
+        "sort": 21.58
+      },
+      "total": {
+        "v": "154.9",
+        "sort": 154.88
+      },
+      "torvik": {
+        "v": "Gonzaga -20.4",
+        "sort": 20.38
+      },
+      "move": {
+        "v": "+1.2",
+        "sort": 1.2
+      },
+      "id": "401928788",
+      "flagged": false
+    }
+  ],
+  "details": "2026-11-07.details.json"
+}
