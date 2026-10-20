@@ -57,7 +57,7 @@ EASTERN = ZoneInfo("America/New_York")
 DAILY = re.compile(r"(?P<day>\d{4}-\d{2}-\d{2})_predictions\.csv$")  # a rehearsal's <date>_dry_* never matches
 EARLY = re.compile(r"(?P<day>\d{4}-\d{2}-\d{2})\.csv$")  # outputs/early/: the early look
 GAME_TYPES = {"conf_tourney": "conf. tournament", "ncaa": "NCAA tournament", "nit": "NIT", "post": "postseason"}
-LAYERS = [("form", "Form (this season's games)"), ("tilt", "Offense/defense tilt"), ("tournament_pace", "Tournament pace"),
+LAYERS = [("bpi", "ESPN BPI (second guide)"), ("form", "Form (this season's games)"), ("tilt", "Offense/defense tilt"), ("tournament_pace", "Tournament pace"),
           ("four_factors", "Four factors matchup"), ("star_boost", "Star boost"), ("availability", "Who's out")]
 SEARCH = "Search teams or players"
 SIM = re.compile(r"season_(?P<season>\d{4})_(?P<day>\d{4}-\d{2}-\d{2})\.csv$")

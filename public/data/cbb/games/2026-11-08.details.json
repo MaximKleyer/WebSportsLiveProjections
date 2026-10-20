@@ -22,14 +22,14 @@
           "rows": [
             [
               "Barttorvik alone",
-              "St John's -25.6",
+              "St John's -27.4",
               "160.3",
               "99%"
             ],
             [
               "With the twist",
-              "St John's -28.0",
-              "162.0",
+              "St John's -29.9",
+              "161.9",
               "99%"
             ]
           ],
@@ -56,13 +56,13 @@
         }
       ],
       "score": {
-        "away": "67.0",
-        "home": "95.0",
+        "away": "66.0",
+        "home": "95.9",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.0081,
-        "home": 0.9919
+        "away": 0.0055,
+        "home": 0.9945
       }
     },
     "401920424": {
@@ -152,15 +152,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Marist -2.0",
-              "144.7",
-              "43%"
+              "Marist -3.1",
+              "144.6",
+              "39%"
             ],
             [
               "With the twist",
-              "Marist -2.0",
+              "Marist -3.1",
               "142.5",
-              "43%"
+              "39%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -174,13 +174,13 @@
         }
       ],
       "score": {
-        "away": "72.3",
-        "home": "70.3",
+        "away": "72.8",
+        "home": "69.7",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.5743,
-        "home": 0.4257
+        "away": 0.6126,
+        "home": 0.3874
       }
     },
     "401924734": {
@@ -205,15 +205,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Siena -0.4",
+              "Princeton -0.9",
               "145.3",
-              "51%"
+              "47%"
             ],
             [
               "With the twist",
-              "Princeton -1.1",
+              "Princeton -2.4",
               "144.9",
-              "46%"
+              "42%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -239,13 +239,13 @@
         }
       ],
       "score": {
-        "away": "73.0",
-        "home": "71.9",
+        "away": "73.6",
+        "home": "71.3",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.5404,
-        "home": 0.4596
+        "away": 0.5836,
+        "home": 0.4164
       }
     },
     "401911306": {
@@ -270,15 +270,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Lehigh -3.0",
-              "144.6",
-              "61%"
+              "Lehigh -1.9",
+              "144.5",
+              "56%"
             ],
             [
               "With the twist",
-              "Lehigh -3.8",
+              "Lehigh -2.7",
               "143.4",
-              "63%"
+              "59%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -304,13 +304,13 @@
         }
       ],
       "score": {
-        "away": "69.8",
-        "home": "73.6",
+        "away": "70.4",
+        "home": "73.0",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.3663,
-        "home": 0.6337
+        "away": 0.4072,
+        "home": 0.5928
       }
     },
     "401920233": {
@@ -341,7 +341,7 @@
             ],
             [
               "With the twist",
-              "Dartmouth -7.0",
+              "Dartmouth -7.1",
               "138.0",
               "75%"
             ]
@@ -374,8 +374,8 @@
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.2537,
-        "home": 0.7463
+        "away": 0.2526,
+        "home": 0.7474
       }
     },
     "401920692": {
@@ -400,15 +400,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Vermont -7.3",
-              "148.8",
-              "74%"
+              "Vermont -6.5",
+              "148.9",
+              "72%"
             ],
             [
               "With the twist",
-              "Vermont -7.9",
+              "Vermont -7.1",
               "147.7",
-              "76%"
+              "74%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -434,13 +434,13 @@
         }
       ],
       "score": {
-        "away": "69.9",
-        "home": "77.8",
+        "away": "70.3",
+        "home": "77.4",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.24,
-        "home": 0.76
+        "away": 0.2615,
+        "home": 0.7385
       }
     },
     "401920843": {
@@ -465,15 +465,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "St Thomas -5.4",
+              "St Thomas -4.9",
               "152.3",
-              "68%"
+              "66%"
             ],
             [
               "With the twist",
-              "St Thomas -4.0",
-              "152.4",
-              "63%"
+              "St Thomas -3.4",
+              "152.3",
+              "62%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -499,13 +499,13 @@
         }
       ],
       "score": {
-        "away": "74.2",
-        "home": "78.2",
+        "away": "74.5",
+        "home": "77.9",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.3666,
-        "home": 0.6334
+        "away": 0.3843,
+        "home": 0.6157
       }
     },
     "401921684": {
@@ -530,15 +530,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Maine -6.0",
+              "Maine -5.7",
               "145.7",
-              "71%"
+              "70%"
             ],
             [
               "With the twist",
-              "Maine -5.6",
+              "Maine -5.3",
               "143.6",
-              "69%"
+              "68%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -564,13 +564,13 @@
         }
       ],
       "score": {
-        "away": "69.0",
-        "home": "74.6",
+        "away": "69.2",
+        "home": "74.4",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.3061,
-        "home": 0.6939
+        "away": 0.3172,
+        "home": 0.6828
       }
     },
     "401911335": {
@@ -595,15 +595,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Air Force -7.8",
+              "Air Force -8.2",
               "145.2",
-              "76%"
+              "77%"
             ],
             [
               "With the twist",
-              "Air Force -7.8",
+              "Air Force -8.2",
               "145.2",
-              "76%"
+              "77%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -617,13 +617,13 @@
         }
       ],
       "score": {
-        "away": "68.7",
-        "home": "76.5",
+        "away": "68.5",
+        "home": "76.7",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.2379,
-        "home": 0.7621
+        "away": 0.2269,
+        "home": 0.7731
       }
     },
     "401926215": {
@@ -648,15 +648,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Western KY -4.3",
-              "160.9",
-              "35%"
+              "Western KY -5.9",
+              "160.8",
+              "30%"
             ],
             [
               "With the twist",
-              "Western KY -5.0",
+              "Western KY -6.6",
               "160.9",
-              "33%"
+              "28%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -682,13 +682,13 @@
         }
       ],
       "score": {
-        "away": "82.9",
-        "home": "78.0",
+        "away": "83.7",
+        "home": "77.2",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.6662,
-        "home": 0.3338
+        "away": 0.7158,
+        "home": 0.2842
       }
     },
     "401911274": {
@@ -713,13 +713,13 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Binghamton -9.3",
+              "Binghamton -9.4",
               "147.1",
               "80%"
             ],
             [
               "With the twist",
-              "Binghamton -9.8",
+              "Binghamton -9.9",
               "145.8",
               "81%"
             ]
@@ -752,8 +752,8 @@
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.1896,
-        "home": 0.8104
+        "away": 0.1879,
+        "home": 0.8121
       }
     },
     "401911453": {
@@ -843,15 +843,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "N Dakota St -5.7",
+              "N Dakota St -6.4",
               "150.8",
-              "30%"
+              "28%"
             ],
             [
               "With the twist",
-              "N Dakota St -6.1",
+              "N Dakota St -6.8",
               "149.4",
-              "29%"
+              "27%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -877,13 +877,13 @@
         }
       ],
       "score": {
-        "away": "77.8",
-        "home": "71.6",
+        "away": "78.1",
+        "home": "71.3",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.7122,
-        "home": 0.2878
+        "away": 0.73,
+        "home": 0.27
       }
     },
     "401929352": {
@@ -908,15 +908,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "UTEP -13.0",
-              "149.0",
-              "88%"
+              "UTEP -13.7",
+              "148.9",
+              "89%"
             ],
             [
               "With the twist",
-              "UTEP -13.4",
-              "147.7",
-              "89%"
+              "UTEP -14.1",
+              "147.6",
+              "90%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -942,13 +942,13 @@
         }
       ],
       "score": {
-        "away": "67.1",
-        "home": "80.5",
+        "away": "66.8",
+        "home": "80.8",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.1131,
-        "home": 0.8869
+        "away": 0.1029,
+        "home": 0.8971
       }
     },
     "401909707": {
@@ -1103,15 +1103,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Hawai'i -9.6",
+              "Hawai'i -9.7",
               "149.3",
-              "80%"
+              "81%"
             ],
             [
               "With the twist",
-              "Hawai'i -10.3",
-              "148.2",
-              "82%"
+              "Hawai'i -10.4",
+              "148.1",
+              "83%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1137,13 +1137,13 @@
         }
       ],
       "score": {
-        "away": "69.0",
-        "home": "79.2",
+        "away": "68.9",
+        "home": "79.3",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.1764,
-        "home": 0.8236
+        "away": 0.174,
+        "home": 0.826
       }
     },
     "401902277": {
@@ -1168,15 +1168,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Boise St -4.8",
+              "Boise St -4.3",
               "148.9",
-              "66%"
+              "65%"
             ],
             [
               "With the twist",
-              "Boise St -5.1",
-              "149.4",
-              "67%"
+              "Boise St -4.6",
+              "149.5",
+              "66%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1202,13 +1202,13 @@
         }
       ],
       "score": {
-        "away": "72.2",
-        "home": "77.3",
+        "away": "72.4",
+        "home": "77.0",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.326,
-        "home": 0.674
+        "away": 0.3425,
+        "home": 0.6575
       }
     },
     "401911238": {
@@ -1369,7 +1369,7 @@
             ],
             [
               "With the twist",
-              "W Michigan -9.3",
+              "W Michigan -9.4",
               "162.2",
               "79%"
             ]
@@ -1402,8 +1402,8 @@
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.2123,
-        "home": 0.7877
+        "away": 0.2121,
+        "home": 0.7879
       }
     },
     "401920865": {
@@ -1428,15 +1428,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "NJIT -2.5",
-              "142.6",
-              "59%"
+              "NJIT -1.6",
+              "142.7",
+              "56%"
             ],
             [
               "With the twist",
-              "NJIT -2.5",
+              "NJIT -1.6",
               "140.9",
-              "59%"
+              "56%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1462,13 +1462,13 @@
         }
       ],
       "score": {
-        "away": "69.2",
-        "home": "71.7",
+        "away": "69.7",
+        "home": "71.2",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.4096,
-        "home": 0.5904
+        "away": 0.4409,
+        "home": 0.5591
       }
     },
     "401921683": {
@@ -1493,15 +1493,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Fairfield -1.5",
-              "145.0",
-              "44%"
+              "Fairfield -2.4",
+              "145.1",
+              "41%"
             ],
             [
               "With the twist",
-              "Fairfield -2.2",
-              "144.1",
-              "42%"
+              "Fairfield -3.1",
+              "144.0",
+              "38%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1527,13 +1527,13 @@
         }
       ],
       "score": {
-        "away": "73.1",
-        "home": "71.0",
+        "away": "73.6",
+        "home": "70.4",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.5825,
-        "home": 0.4175
+        "away": 0.6159,
+        "home": 0.3841
       }
     },
     "401921685": {
@@ -1558,15 +1558,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "New Hampshire -4.5",
+              "New Hampshire -4.0",
               "156.1",
-              "66%"
+              "64%"
             ],
             [
               "With the twist",
-              "New Hampshire -4.6",
+              "New Hampshire -4.0",
               "153.9",
-              "66%"
+              "64%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1592,13 +1592,13 @@
         }
       ],
       "score": {
-        "away": "74.7",
-        "home": "79.3",
+        "away": "75.0",
+        "home": "79.0",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.3402,
-        "home": 0.6598
+        "away": 0.3593,
+        "home": 0.6407
       }
     },
     "401921686": {
@@ -1623,15 +1623,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Merrimack -2.1",
-              "143.7",
-              "42%"
+              "Merrimack -3.5",
+              "143.6",
+              "37%"
             ],
             [
               "With the twist",
-              "Merrimack -2.3",
+              "Merrimack -3.8",
               "142.2",
-              "41%"
+              "36%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1657,13 +1657,13 @@
         }
       ],
       "score": {
-        "away": "72.2",
-        "home": "69.9",
+        "away": "73.0",
+        "home": "69.2",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.5855,
-        "home": 0.4145
+        "away": 0.6351,
+        "home": 0.3649
       }
     },
     "401921820": {
@@ -1688,15 +1688,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "South Carolina -15.2",
-              "148.1",
-              "91%"
+              "South Carolina -16.6",
+              "148.0",
+              "93%"
             ],
             [
               "With the twist",
-              "South Carolina -16.4",
+              "South Carolina -17.9",
               "147.4",
-              "93%"
+              "95%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1722,13 +1722,13 @@
         }
       ],
       "score": {
-        "away": "65.5",
-        "home": "81.9",
+        "away": "64.8",
+        "home": "82.6",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.0707,
-        "home": 0.9293
+        "away": 0.0545,
+        "home": 0.9455
       }
     },
     "401925894": {
@@ -1753,15 +1753,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "William & Mary -13.0",
+              "William & Mary -13.4",
               "154.2",
-              "87%"
+              "88%"
             ],
             [
               "With the twist",
-              "William & Mary -13.2",
+              "William & Mary -13.7",
               "152.1",
-              "88%"
+              "89%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1787,13 +1787,13 @@
         }
       ],
       "score": {
-        "away": "69.5",
-        "home": "82.7",
+        "away": "69.2",
+        "home": "82.9",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.1215,
-        "home": 0.8785
+        "away": 0.1132,
+        "home": 0.8868
       }
     },
     "401927362": {
@@ -1818,15 +1818,15 @@
           "rows": [
             [
               "Barttorvik alone",
-              "Drake -13.6",
+              "Drake -14.2",
               "154.4",
-              "88%"
+              "89%"
             ],
             [
               "With the twist",
-              "Drake -14.6",
+              "Drake -15.2",
               "153.4",
-              "90%"
+              "91%"
             ]
           ],
           "note": "Barttorvik's ratings through the model's game model, then the user's twist on top"
@@ -1852,13 +1852,13 @@
         }
       ],
       "score": {
-        "away": "69.4",
-        "home": "84.0",
+        "away": "69.1",
+        "home": "84.3",
         "label": "Expected, with the twist"
       },
       "win": {
-        "away": 0.1007,
-        "home": 0.8993
+        "away": 0.0918,
+        "home": 0.9082
       }
     }
   }
