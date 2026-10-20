@@ -325,22 +325,29 @@ def newest_sim(outputs: Path, season: int) -> Path | None:
     return found[-1][1] if found else None
 
 
+def _projected(wins, games) -> dict | None:
+    """A projected record to the tenth that adds up to the games ('24.8–7.2'), sorted by wins."""
+    w = num(wins, 4)
+    if w is None:
+        return None
+    shown = round(w, 1)
+    return {"v": f"{shown:.1f}–{int(games or 0) - shown:.1f}", "sort": round(w, 2)}
+
+
 def build_season(path: Path, season: int) -> dict:
     """The outlook grouped by conference, likeliest champion first (sports/cbb/season.py's table)."""
     df = pd.read_csv(path).sort_values(["conference", "finish_mean", "team"])
     rows = []
     for d in df.to_dict("records"):
-        wins, losses = num(d.get("wins_mean"), 2), num(d.get("losses_mean"), 2)
-        cw, cl = num(d.get("conf_wins_mean"), 2), num(d.get("conf_losses_mean"), 2)
         p10, p90 = num(d.get("wins_p10"), 0), num(d.get("wins_p90"), 0)
         rows.append({
             "team": text(d.get("team")),
             "conference": CONFERENCES.get(text(d.get("conference")) or "", text(d.get("conference")) or "Independent"),
             "record": f"{int(d.get('wins_now') or 0)}–{int(d.get('losses_now') or 0)}",
-            "projRecord": None if wins is None else {"v": f"{wins:.1f}–{losses:.1f}", "sort": wins},
+            "projRecord": _projected(d.get("wins_mean"), d.get("games")),
             "range": None if p10 is None or p90 is None else f"{p10:.0f}–{p90:.0f}",
             "confRecord": f"{int(d.get('conf_wins_now') or 0)}–{int(d.get('conf_losses_now') or 0)}",
-            "projConf": None if cw is None else {"v": f"{cw:.1f}–{cl:.1f}", "sort": cw},
+            "projConf": _projected(d.get("conf_wins_mean"), d.get("conf_games")),
             "title": num(d.get("p_title"), 4),
             "outright": num(d.get("p_outright"), 4),
             "finish": num(d.get("finish_mean"), 1),
