@@ -217,7 +217,7 @@ export const SPORTS = [
         type: 'season',
         status: 'live',
         blurb:
-          'The rest of the regular season simulated 10,000 times: projected records, conference records and each conference’s regular-season title odds.',
+          'The rest of the regular season and every conference tournament simulated 10,000 times: projected records, regular-season and tournament title odds — and from Selection Sunday, each team’s NCAA tournament odds.',
       },
       {
         type: 'results',

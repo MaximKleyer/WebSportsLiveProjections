@@ -12,7 +12,9 @@ and writes public/data/cbb/:
     results/        those predictions graded,   final scores + settled bets from data/cbb.sqlite
                     one slate per day           (read-only); the season's records per variant
                                                 and per twist layer from outputs/records.json
-    season.json     the regular-season outlook  the newest outputs/sims/season_<season>_<date>.csv (`cbb season`)
+    season.json     the season outlook: the     the newest outputs/sims/season_<season>_<date>.csv (`cbb season`),
+                    regular season, conference  and once the NCAA bracket is out, the newest
+                    tournaments, NCAA odds      ncaa_<season>_<date>.csv (`cbb ncaa`)
     rankings.json   every D1 team               outputs/rankings.csv (`cbb rankings`)
     card.json       the landing card's line
 
@@ -54,6 +56,7 @@ LAYERS = [("form", "Form (this season's games)"), ("tilt", "Offense/defense tilt
           ("four_factors", "Four factors matchup"), ("star_boost", "Star boost"), ("availability", "Who's out")]
 SEARCH = "Search teams or players"
 SIM = re.compile(r"season_(?P<season>\d{4})_(?P<day>\d{4}-\d{2}-\d{2})\.csv$")
+NCAA = re.compile(r"ncaa_(?P<season>\d{4})_(?P<day>\d{4}-\d{2}-\d{2})\.csv$")
 CONFERENCES = {  # Barttorvik's codes, as the model keeps them
     "A10": "Atlantic 10", "ACC": "ACC", "AE": "America East", "ASun": "ASUN", "Amer": "American", "B10": "Big Ten",
     "B12": "Big 12", "BE": "Big East", "BSky": "Big Sky", "BSth": "Big South", "BW": "Big West", "CAA": "CAA",
@@ -320,8 +323,10 @@ def build_cards(df: pd.DataFrame, bets: pd.DataFrame, day: str) -> dict[str, dic
 # --------------------------------------------------------------------------
 # season: the regular-season outlook
 # --------------------------------------------------------------------------
-def newest_sim(outputs: Path, season: int) -> Path | None:
-    found = sorted((m.group("day"), p) for p in (outputs / "sims").glob(f"season_{season}_*.csv") if (m := SIM.match(p.name)))
+def newest_sim(outputs: Path, season: int, kind: str = "season") -> Path | None:
+    """The newest `cbb season` (or, kind "ncaa", `cbb ncaa`) file of the season."""
+    pattern = SIM if kind == "season" else NCAA
+    found = sorted((m.group("day"), p) for p in (outputs / "sims").glob(f"{kind}_{season}_*.csv") if (m := pattern.match(p.name)))
     return found[-1][1] if found else None
 
 
@@ -334,11 +339,14 @@ def _projected(wins, games) -> dict | None:
     return {"v": f"{shown:.1f}–{int(games or 0) - shown:.1f}", "sort": round(w, 2)}
 
 
-def build_season(path: Path, season: int) -> dict:
-    """The outlook grouped by conference, likeliest champion first (sports/cbb/season.py's table)."""
+def build_season(path: Path, season: int, ncaa: Path | None = None) -> dict:
+    """The outlook grouped by conference, likeliest champion first (sports/cbb/season.py's table),
+    with each team's NCAA tournament odds once the bracket is out (sports/cbb/ncaa.py's)."""
     df = pd.read_csv(path).sort_values(["conference", "finish_mean", "team"])
+    bracket = pd.read_csv(ncaa).set_index("team_id") if ncaa is not None else None
     rows = []
     for d in df.to_dict("records"):
+        n = bracket.loc[d["team_id"]] if bracket is not None and d["team_id"] in bracket.index else None
         p10, p90 = num(d.get("wins_p10"), 0), num(d.get("wins_p90"), 0)
         rows.append({
             "team": text(d.get("team")),
@@ -351,6 +359,12 @@ def build_season(path: Path, season: int) -> dict:
             "title": num(d.get("p_title"), 4),
             "outright": num(d.get("p_outright"), 4),
             "finish": num(d.get("finish_mean"), 1),
+            "seed": num(d.get("seed_mean"), 1),
+            "tourney": num(d.get("p_tourney"), 4),
+            **({} if bracket is None else {
+                "ncaa": None if n is None else {"v": f"{int(n['seed'])} {text(n['region'])}", "sort": int(n["seed"])},
+                "ncaaF4": None if n is None else num(n["p_f4"], 4),
+                "ncaaTitle": None if n is None else num(n["p_champion"], 4)}),
         })
     columns = [
         {"key": "team", "label": "Team"},
@@ -362,13 +376,23 @@ def build_season(path: Path, season: int) -> dict:
         {"key": "title", "label": "Title", "align": "right", "format": "percent", "sortable": True},
         {"key": "outright", "label": "Outright", "align": "right", "format": "percent", "sortable": True},
         {"key": "finish", "label": "Avg Finish", "align": "right", "format": "number", "sortable": True},
+        {"key": "seed", "label": "Tourney Seed", "align": "right", "format": "number", "sortable": True},
+        {"key": "tourney", "label": "Tourney", "align": "right", "format": "percent", "sortable": True},
     ]
+    if bracket is not None:
+        columns += [{"key": "ncaa", "label": "NCAA", "align": "right", "sortable": True},
+                    {"key": "ncaaF4", "label": "Final Four", "align": "right", "format": "percent", "sortable": True},
+                    {"key": "ncaaTitle", "label": "NCAA Title", "align": "right", "format": "percent", "sortable": True}]
     as_of = SIM.match(path.name).group("day")
+    ncaa_note = (f" NCAA = the tournament seed and region; Final Four and NCAA Title from {10000:,} simulated tournaments of"
+                 f" the bracket as of {_day_label(NCAA.match(ncaa.name).group('day'))}.") if ncaa is not None else ""
     return {
-        "subtitle": f"{_season_label(season)} regular season as of {_day_label(as_of)} — the rest of the season simulated "
-                    "10,000 times from the schedule, each team's rating shifted once per season by its uncertainty. "
-                    "Records are D1 regular-season games only (no non-D1 opponents; conference tournaments come later). "
-                    "Title = first or tied for first in the conference's regular season; Outright = first alone.",
+        "subtitle": f"{_season_label(season)} season as of {_day_label(as_of)} — the rest of the regular season and every "
+                    "conference tournament simulated 10,000 times from the schedule, each team's rating shifted once per "
+                    "season by its uncertainty. Records are D1 regular-season games only (no non-D1 opponents). "
+                    "Title = first or tied for first in the conference's regular season; Outright = first alone. "
+                    "Tourney Seed = the mean conference tournament seed; Tourney = winning the conference tournament, "
+                    "and with it the automatic NCAA bid." + ncaa_note,
         "updated": file_date(path),
         "groupBy": "conference",
         "search": "Search teams",
@@ -771,11 +795,11 @@ def main() -> int:
     publish_slates(args.site_dir / "games", slates, season=season, label=f"{_season_label(season)} Season", unit="day", latest=opens)
     sources = [paths[day] for day in publish]
 
-    sim = newest_sim(outputs, season)
+    sim, ncaa = newest_sim(outputs, season), newest_sim(outputs, season, "ncaa")
     favorite = None
     if sim is not None:
-        write_table(args.site_dir / "season.json", build_season(sim, season))
-        sources.append(sim)
+        write_table(args.site_dir / "season.json", build_season(sim, season, ncaa))
+        sources += [sim] + ([ncaa] if ncaa is not None else [])
         table = pd.read_csv(sim)
         best = table.loc[table["p_title"].idxmax()]
         favorite = {"label": "Surest title", "value": text(best["team"]),

@@ -8,8 +8,8 @@ One command to refresh the site's model data ("call both models").
   .\scripts\update-data.ps1 -Sport nhl -Predict          # NHL: today's games, season sim, power rankings
   .\scripts\update-data.ps1 -Sport nba -Predict          # NBA: season sim, power rankings (the day's games
                                                          #   are the model's "NBA gameday" task's)
-  .\scripts\update-data.ps1 -Sport cbb -Predict          # CBB: rankings, season sim (the day's games are the model's
-                                                         #   "CBB gameday" task's)
+  .\scripts\update-data.ps1 -Sport cbb -Predict          # CBB: rankings, season sim, NCAA sim once the bracket is out
+                                                         #   (the day's games are the model's "CBB gameday" task's)
   .\scripts\update-data.ps1 -Grade                       # grade the football models' finished games first
   .\scripts\update-data.ps1 -Grade -Predict -Week 5      # the weekly routine: grade, project week 5, export
 
@@ -118,6 +118,7 @@ if ($Sport -eq 'cbb' -or $Sport -eq 'all') {
         # The day's predictions are the model's own "CBB gameday" scheduled task's (desktop\sports\cbb.py).
         Invoke-Step 'CBB: rankings' $py @("$Steps\cbb.py", 'step', 'rankings') $CbbRepo
         Invoke-Step 'CBB: season sim' $py @("$Steps\cbb.py", 'step', 'season') $CbbRepo
+        Invoke-Step 'CBB: NCAA tournament' $py @("$Steps\cbb.py", 'step', 'ncaa') $CbbRepo
     }
     Invoke-Step 'CBB: export to site' $py @((Join-Path $PSScriptRoot 'exporters\cbb.py')) $CbbRepo
 }
