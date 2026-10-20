@@ -1,0 +1,6632 @@
+{
+  "subtitle": "2026\u201327 regular season as of Tue Oct 20 \u2014 the rest of the season simulated 10,000 times from the schedule, each team's rating shifted once per season by its uncertainty. Records are D1 regular-season games only (no non-D1 opponents; conference tournaments come later). Title = first or tied for first in the conference's regular season; Outright = first alone.",
+  "updated": "2026-10-20",
+  "groupBy": "conference",
+  "search": "Search teams",
+  "columns": [
+    {
+      "key": "team",
+      "label": "Team"
+    },
+    {
+      "key": "record",
+      "label": "W\u2013L",
+      "align": "right"
+    },
+    {
+      "key": "projRecord",
+      "label": "Proj. W\u2013L",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "range",
+      "label": "Wins 10\u201390%",
+      "align": "right"
+    },
+    {
+      "key": "confRecord",
+      "label": "Conf",
+      "align": "right"
+    },
+    {
+      "key": "projConf",
+      "label": "Proj. Conf",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "title",
+      "label": "Title",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "outright",
+      "label": "Outright",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "finish",
+      "label": "Avg Finish",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "team": "VCU",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.4\u20137.6",
+        "sort": 21.44
+      },
+      "range": "17\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.7\u20135.3",
+        "sort": 12.66
+      },
+      "title": 0.3934,
+      "outright": 0.2745,
+      "finish": 3.2
+    },
+    {
+      "team": "Saint Louis",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.4\u20139.6",
+        "sort": 20.38
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.7\u20136.3",
+        "sort": 11.69
+      },
+      "title": 0.2379,
+      "outright": 0.1419,
+      "finish": 4.2
+    },
+    {
+      "team": "Dayton",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.2\u201310.8",
+        "sort": 21.24
+      },
+      "range": "16\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.9\u20137.1",
+        "sort": 10.94
+      },
+      "title": 0.1749,
+      "outright": 0.1029,
+      "finish": 5.1
+    },
+    {
+      "team": "George Mason",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.8\u20139.2",
+        "sort": 21.76
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.7\u20137.3",
+        "sort": 10.74
+      },
+      "title": 0.1434,
+      "outright": 0.0829,
+      "finish": 5.3
+    },
+    {
+      "team": "G Washington",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.6\u201310.4",
+        "sort": 20.57
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.6\u20137.4",
+        "sort": 10.61
+      },
+      "title": 0.1365,
+      "outright": 0.0735,
+      "finish": 5.5
+    },
+    {
+      "team": "Davidson",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.5\u201313.5",
+        "sort": 18.48
+      },
+      "range": "13\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.8\u20139.2",
+        "sort": 8.85
+      },
+      "title": 0.0413,
+      "outright": 0.0186,
+      "finish": 7.7
+    },
+    {
+      "team": "Fordham",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.5\u201312.5",
+        "sort": 17.53
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.7\u20139.3",
+        "sort": 8.66
+      },
+      "title": 0.041,
+      "outright": 0.0181,
+      "finish": 7.9
+    },
+    {
+      "team": "Richmond",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.3\u201313.7",
+        "sort": 17.34
+      },
+      "range": "12\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.6\u20139.4",
+        "sort": 8.56
+      },
+      "title": 0.0377,
+      "outright": 0.0165,
+      "finish": 8.0
+    },
+    {
+      "team": "Duquesne",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.4\u201312.6",
+        "sort": 17.45
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.4\u20139.6",
+        "sort": 8.36
+      },
+      "title": 0.0322,
+      "outright": 0.0138,
+      "finish": 8.3
+    },
+    {
+      "team": "Saint Joseph's",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.4\u201313.6",
+        "sort": 15.42
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u201310.5",
+        "sort": 7.51
+      },
+      "title": 0.0157,
+      "outright": 0.0069,
+      "finish": 9.3
+    },
+    {
+      "team": "Rhode Island",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.4\u201314.6",
+        "sort": 15.42
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.4\u201310.6",
+        "sort": 7.43
+      },
+      "title": 0.0155,
+      "outright": 0.0058,
+      "finish": 9.4
+    },
+    {
+      "team": "St Bonaventure",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.6\u201314.4",
+        "sort": 16.63
+      },
+      "range": "12\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.3\u201310.7",
+        "sort": 7.3
+      },
+      "title": 0.014,
+      "outright": 0.0073,
+      "finish": 9.6
+    },
+    {
+      "team": "La Salle",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.6\u201316.4",
+        "sort": 12.64
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.9\u201311.1",
+        "sort": 6.87
+      },
+      "title": 0.0086,
+      "outright": 0.0028,
+      "finish": 10.1
+    },
+    {
+      "team": "Loyola Chicago",
+      "conference": "Atlantic 10",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.3\u201317.7",
+        "sort": 11.26
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.8\u201312.2",
+        "sort": 5.81
+      },
+      "title": 0.0036,
+      "outright": 0.0012,
+      "finish": 11.3
+    },
+    {
+      "team": "Duke",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "25.2\u20136.8",
+        "sort": 25.22
+      },
+      "range": "21\u201329",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.9\u20134.1",
+        "sort": 13.89
+      },
+      "title": 0.4141,
+      "outright": 0.2898,
+      "finish": 2.9
+    },
+    {
+      "team": "Miami",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "23.0\u20137.0",
+        "sort": 22.98
+      },
+      "range": "19\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.6\u20135.4",
+        "sort": 12.62
+      },
+      "title": 0.2029,
+      "outright": 0.1183,
+      "finish": 4.3
+    },
+    {
+      "team": "Virginia",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "23.5\u20137.5",
+        "sort": 23.48
+      },
+      "range": "19\u201327",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.6\u20135.4",
+        "sort": 12.59
+      },
+      "title": 0.2104,
+      "outright": 0.1301,
+      "finish": 4.4
+    },
+    {
+      "team": "Louisville",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.0\u20138.0",
+        "sort": 20.96
+      },
+      "range": "17\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.4\u20135.6",
+        "sort": 12.42
+      },
+      "title": 0.1923,
+      "outright": 0.1127,
+      "finish": 4.6
+    },
+    {
+      "team": "NC State",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.2\u20138.8",
+        "sort": 22.25
+      },
+      "range": "18\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.8\u20137.2",
+        "sort": 11.8
+      },
+      "title": 0.0687,
+      "outright": 0.0674,
+      "finish": 6.0
+    },
+    {
+      "team": "Virginia Tech",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.1\u201310.9",
+        "sort": 21.13
+      },
+      "range": "16\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u20137.9",
+        "sort": 10.1
+      },
+      "title": 0.0504,
+      "outright": 0.025,
+      "finish": 7.8
+    },
+    {
+      "team": "Clemson",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.3\u201310.7",
+        "sort": 19.28
+      },
+      "range": "15\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.0\u20138.0",
+        "sort": 10.04
+      },
+      "title": 0.0374,
+      "outright": 0.0188,
+      "finish": 7.9
+    },
+    {
+      "team": "North Carolina",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.2\u201312.8",
+        "sort": 19.16
+      },
+      "range": "14\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.7\u20139.3",
+        "sort": 9.66
+      },
+      "title": 0.0225,
+      "outright": 0.0212,
+      "finish": 9.1
+    },
+    {
+      "team": "SMU",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.2\u201311.8",
+        "sort": 20.18
+      },
+      "range": "16\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.1\u20138.9",
+        "sort": 9.09
+      },
+      "title": 0.0176,
+      "outright": 0.0073,
+      "finish": 9.2
+    },
+    {
+      "team": "Syracuse",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.3\u201313.7",
+        "sort": 18.26
+      },
+      "range": "14\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u201310.0",
+        "sort": 7.97
+      },
+      "title": 0.0084,
+      "outright": 0.0036,
+      "finish": 11.0
+    },
+    {
+      "team": "Notre Dame",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.6\u201313.4",
+        "sort": 15.59
+      },
+      "range": "12\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u201310.5",
+        "sort": 7.47
+      },
+      "title": 0.0037,
+      "outright": 0.0008,
+      "finish": 11.7
+    },
+    {
+      "team": "Florida St",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.1\u201314.9",
+        "sort": 17.12
+      },
+      "range": "13\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.3\u201310.7",
+        "sort": 7.31
+      },
+      "title": 0.003,
+      "outright": 0.0013,
+      "finish": 11.9
+    },
+    {
+      "team": "Stanford",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.1\u201313.9",
+        "sort": 17.06
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.2\u201310.8",
+        "sort": 7.23
+      },
+      "title": 0.0032,
+      "outright": 0.0007,
+      "finish": 12.1
+    },
+    {
+      "team": "Wake Forest",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.6\u201314.4",
+        "sort": 16.58
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.1\u201310.9",
+        "sort": 7.13
+      },
+      "title": 0.0028,
+      "outright": 0.0013,
+      "finish": 12.2
+    },
+    {
+      "team": "Pitt",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.7\u201316.3",
+        "sort": 15.66
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.7\u201311.3",
+        "sort": 6.67
+      },
+      "title": 0.0023,
+      "outright": 0.001,
+      "finish": 12.9
+    },
+    {
+      "team": "Boston College",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.2\u201315.8",
+        "sort": 16.23
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.1\u201311.9",
+        "sort": 6.07
+      },
+      "title": 0.0009,
+      "outright": 0.0,
+      "finish": 13.7
+    },
+    {
+      "team": "California",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.7\u201316.3",
+        "sort": 14.71
+      },
+      "range": "11\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.6\u201312.4",
+        "sort": 5.64
+      },
+      "title": 0.0005,
+      "outright": 0.0002,
+      "finish": 14.3
+    },
+    {
+      "team": "Georgia Tech",
+      "conference": "ACC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.3\u201316.7",
+        "sort": 15.31
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.3\u201312.7",
+        "sort": 5.29
+      },
+      "title": 0.0004,
+      "outright": 0.0,
+      "finish": 14.7
+    },
+    {
+      "team": "Vermont",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.2\u201311.8",
+        "sort": 18.18
+      },
+      "range": "13\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.6\u20134.4",
+        "sort": 11.6
+      },
+      "title": 0.5937,
+      "outright": 0.4558,
+      "finish": 2.1
+    },
+    {
+      "team": "UMBC",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.5\u201314.5",
+        "sort": 14.46
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.2\u20136.8",
+        "sort": 9.21
+      },
+      "title": 0.1835,
+      "outright": 0.104,
+      "finish": 3.9
+    },
+    {
+      "team": "UAlbany",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.4\u201315.6",
+        "sort": 15.36
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.6\u20137.4",
+        "sort": 8.63
+      },
+      "title": 0.1372,
+      "outright": 0.0795,
+      "finish": 4.4
+    },
+    {
+      "team": "New Hampshire",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.4\u201317.6",
+        "sort": 13.36
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.9\u20138.1",
+        "sort": 7.9
+      },
+      "title": 0.0879,
+      "outright": 0.0462,
+      "finish": 5.0
+    },
+    {
+      "team": "NJIT",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.4\u201318.6",
+        "sort": 12.38
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.6\u20138.4",
+        "sort": 7.59
+      },
+      "title": 0.073,
+      "outright": 0.0395,
+      "finish": 5.3
+    },
+    {
+      "team": "UMass Lowell",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.5\u201318.5",
+        "sort": 10.49
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.9\u20139.1",
+        "sort": 6.9
+      },
+      "title": 0.0474,
+      "outright": 0.0239,
+      "finish": 5.9
+    },
+    {
+      "team": "Bryant",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.0\u201320.0",
+        "sort": 9.97
+      },
+      "range": "5\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u20139.2",
+        "sort": 6.82
+      },
+      "title": 0.0406,
+      "outright": 0.0206,
+      "finish": 6.0
+    },
+    {
+      "team": "Binghamton",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.7\u201317.3",
+        "sort": 10.72
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u20139.2",
+        "sort": 6.75
+      },
+      "title": 0.0403,
+      "outright": 0.0211,
+      "finish": 6.0
+    },
+    {
+      "team": "Maine",
+      "conference": "America East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.2\u201319.8",
+        "sort": 11.22
+      },
+      "range": "6\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.6\u20139.4",
+        "sort": 6.58
+      },
+      "title": 0.0317,
+      "outright": 0.0143,
+      "finish": 6.2
+    },
+    {
+      "team": "Queens",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.9\u201314.1",
+        "sort": 17.86
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.7\u20134.3",
+        "sort": 9.7
+      },
+      "title": 0.4508,
+      "outright": 0.3108,
+      "finish": 2.5
+    },
+    {
+      "team": "Jacksonville",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.3\u201314.7",
+        "sort": 12.35
+      },
+      "range": "8\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.6\u20135.4",
+        "sort": 8.63
+      },
+      "title": 0.2642,
+      "outright": 0.1658,
+      "finish": 3.3
+    },
+    {
+      "team": "Lipscomb",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.9\u201315.1",
+        "sort": 14.87
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.5\u20135.5",
+        "sort": 8.49
+      },
+      "title": 0.24,
+      "outright": 0.1405,
+      "finish": 3.4
+    },
+    {
+      "team": "Stetson",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.3\u201317.7",
+        "sort": 10.33
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u20136.5",
+        "sort": 7.51
+      },
+      "title": 0.1302,
+      "outright": 0.0672,
+      "finish": 4.1
+    },
+    {
+      "team": "FGCU",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.7\u201317.3",
+        "sort": 11.66
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.1\u20136.9",
+        "sort": 7.11
+      },
+      "title": 0.1014,
+      "outright": 0.0528,
+      "finish": 4.5
+    },
+    {
+      "team": "Bellarmine",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.4\u201317.6",
+        "sort": 11.45
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.4\u20137.6",
+        "sort": 6.38
+      },
+      "title": 0.0585,
+      "outright": 0.027,
+      "finish": 5.1
+    },
+    {
+      "team": "North Florida",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.3\u201319.7",
+        "sort": 9.32
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.5\u20138.5",
+        "sort": 5.47
+      },
+      "title": 0.0261,
+      "outright": 0.0113,
+      "finish": 5.8
+    },
+    {
+      "team": "West Florida",
+      "conference": "ASUN",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "4.9\u201324.1",
+        "sort": 4.91
+      },
+      "range": "2\u20138",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "2.7\u201311.3",
+        "sort": 2.7
+      },
+      "title": 0.0009,
+      "outright": 0.0002,
+      "finish": 7.5
+    },
+    {
+      "team": "Wichita St",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.0\u20139.0",
+        "sort": 21.04
+      },
+      "range": "17\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.3\u20135.7",
+        "sort": 12.31
+      },
+      "title": 0.3612,
+      "outright": 0.2423,
+      "finish": 3.4
+    },
+    {
+      "team": "South Florida",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.6\u201311.4",
+        "sort": 20.6
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.1\u20136.9",
+        "sort": 11.14
+      },
+      "title": 0.2106,
+      "outright": 0.1288,
+      "finish": 4.6
+    },
+    {
+      "team": "Tulsa",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.6\u201310.4",
+        "sort": 19.6
+      },
+      "range": "15\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.9\u20137.1",
+        "sort": 10.9
+      },
+      "title": 0.1804,
+      "outright": 0.1053,
+      "finish": 4.9
+    },
+    {
+      "team": "Charlotte",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.3\u201310.7",
+        "sort": 20.32
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.7\u20137.3",
+        "sort": 10.68
+      },
+      "title": 0.157,
+      "outright": 0.0875,
+      "finish": 5.1
+    },
+    {
+      "team": "Memphis",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.6\u201315.4",
+        "sort": 15.63
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u20137.9",
+        "sort": 10.12
+      },
+      "title": 0.1172,
+      "outright": 0.0617,
+      "finish": 5.7
+    },
+    {
+      "team": "North Texas",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.4\u201312.6",
+        "sort": 17.37
+      },
+      "range": "12\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.3\u20138.7",
+        "sort": 9.32
+      },
+      "title": 0.0696,
+      "outright": 0.0334,
+      "finish": 6.7
+    },
+    {
+      "team": "Temple",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.2\u201312.8",
+        "sort": 15.18
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.3\u20138.7",
+        "sort": 9.31
+      },
+      "title": 0.0672,
+      "outright": 0.0308,
+      "finish": 6.7
+    },
+    {
+      "team": "FAU",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.8\u201313.2",
+        "sort": 15.82
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.1\u20138.9",
+        "sort": 9.14
+      },
+      "title": 0.0673,
+      "outright": 0.0311,
+      "finish": 6.9
+    },
+    {
+      "team": "UAB",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.1\u201313.9",
+        "sort": 17.08
+      },
+      "range": "12\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.9\u20139.1",
+        "sort": 8.87
+      },
+      "title": 0.0465,
+      "outright": 0.0213,
+      "finish": 7.2
+    },
+    {
+      "team": "Tulane",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.1\u201314.9",
+        "sort": 16.1
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.7\u201310.3",
+        "sort": 7.65
+      },
+      "title": 0.0207,
+      "outright": 0.0093,
+      "finish": 8.6
+    },
+    {
+      "team": "East Carolina",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.8\u201314.2",
+        "sort": 13.81
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.1\u201310.9",
+        "sort": 7.14
+      },
+      "title": 0.0097,
+      "outright": 0.0048,
+      "finish": 9.2
+    },
+    {
+      "team": "UTSA",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.9\u201319.1",
+        "sort": 10.93
+      },
+      "range": "7\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.3\u201312.7",
+        "sort": 5.29
+      },
+      "title": 0.001,
+      "outright": 0.0004,
+      "finish": 11.0
+    },
+    {
+      "team": "Rice",
+      "conference": "American",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.5\u201319.5",
+        "sort": 10.54
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.1\u201312.9",
+        "sort": 5.12
+      },
+      "title": 0.0011,
+      "outright": 0.0003,
+      "finish": 11.1
+    },
+    {
+      "team": "Illinois",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "23.4\u20138.6",
+        "sort": 23.41
+      },
+      "range": "19\u201328",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.9\u20136.1",
+        "sort": 13.9
+      },
+      "title": 0.3135,
+      "outright": 0.2047,
+      "finish": 4.2
+    },
+    {
+      "team": "Michigan St",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.8\u20139.2",
+        "sort": 22.8
+      },
+      "range": "18\u201327",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.1\u20136.9",
+        "sort": 13.08
+      },
+      "title": 0.2085,
+      "outright": 0.1308,
+      "finish": 5.1
+    },
+    {
+      "team": "Nebraska",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "23.1\u20138.9",
+        "sort": 23.09
+      },
+      "range": "19\u201327",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.7\u20137.3",
+        "sort": 12.67
+      },
+      "title": 0.1714,
+      "outright": 0.0991,
+      "finish": 5.7
+    },
+    {
+      "team": "Michigan",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.9\u201310.1",
+        "sort": 19.95
+      },
+      "range": "15\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.4\u20137.6",
+        "sort": 12.36
+      },
+      "title": 0.1455,
+      "outright": 0.0846,
+      "finish": 6.1
+    },
+    {
+      "team": "Ohio State",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.4\u201310.6",
+        "sort": 21.42
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.0\u20138.0",
+        "sort": 11.98
+      },
+      "title": 0.1115,
+      "outright": 0.062,
+      "finish": 6.6
+    },
+    {
+      "team": "Indiana",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.2\u201310.8",
+        "sort": 21.18
+      },
+      "range": "16\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.2\u20138.8",
+        "sort": 11.21
+      },
+      "title": 0.082,
+      "outright": 0.0462,
+      "finish": 7.7
+    },
+    {
+      "team": "UCLA",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.2\u201310.8",
+        "sort": 20.19
+      },
+      "range": "16\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.1\u20138.9",
+        "sort": 11.09
+      },
+      "title": 0.0677,
+      "outright": 0.0337,
+      "finish": 7.9
+    },
+    {
+      "team": "USC",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.1\u201311.9",
+        "sort": 20.05
+      },
+      "range": "15\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.6\u20139.4",
+        "sort": 10.59
+      },
+      "title": 0.0469,
+      "outright": 0.0225,
+      "finish": 8.6
+    },
+    {
+      "team": "Purdue",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.5\u201313.5",
+        "sort": 18.49
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u20139.9",
+        "sort": 10.05
+      },
+      "title": 0.0377,
+      "outright": 0.02,
+      "finish": 9.4
+    },
+    {
+      "team": "Oregon",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.4\u201311.6",
+        "sort": 17.39
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u201310.1",
+        "sort": 9.92
+      },
+      "title": 0.0344,
+      "outright": 0.017,
+      "finish": 9.6
+    },
+    {
+      "team": "Maryland",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.7\u201312.3",
+        "sort": 17.72
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u201310.1",
+        "sort": 9.87
+      },
+      "title": 0.0362,
+      "outright": 0.0182,
+      "finish": 9.7
+    },
+    {
+      "team": "Wisconsin",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.5\u201313.5",
+        "sort": 17.53
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.3\u201310.7",
+        "sort": 9.29
+      },
+      "title": 0.0214,
+      "outright": 0.0092,
+      "finish": 10.6
+    },
+    {
+      "team": "Iowa",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.4\u201314.6",
+        "sort": 17.44
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.8\u201311.2",
+        "sort": 8.75
+      },
+      "title": 0.015,
+      "outright": 0.0066,
+      "finish": 11.3
+    },
+    {
+      "team": "Rutgers",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.1\u201313.9",
+        "sort": 16.09
+      },
+      "range": "12\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.9\u201312.1",
+        "sort": 7.89
+      },
+      "title": 0.0056,
+      "outright": 0.0014,
+      "finish": 12.6
+    },
+    {
+      "team": "Washington",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.4\u201314.6",
+        "sort": 14.42
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.4\u201312.6",
+        "sort": 7.42
+      },
+      "title": 0.0049,
+      "outright": 0.002,
+      "finish": 13.2
+    },
+    {
+      "team": "Northwestern",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.1\u201315.9",
+        "sort": 16.07
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.3\u201312.7",
+        "sort": 7.27
+      },
+      "title": 0.0043,
+      "outright": 0.0017,
+      "finish": 13.4
+    },
+    {
+      "team": "Minnesota",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.2\u201316.8",
+        "sort": 15.17
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.6\u201313.4",
+        "sort": 6.62
+      },
+      "title": 0.0022,
+      "outright": 0.0006,
+      "finish": 14.2
+    },
+    {
+      "team": "Penn State",
+      "conference": "Big Ten",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.2\u201315.8",
+        "sort": 16.25
+      },
+      "range": "12\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.0\u201314.0",
+        "sort": 6.04
+      },
+      "title": 0.0014,
+      "outright": 0.0002,
+      "finish": 15.0
+    },
+    {
+      "team": "Kansas",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.3\u20137.7",
+        "sort": 22.27
+      },
+      "range": "18\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.3\u20135.7",
+        "sort": 12.29
+      },
+      "title": 0.2438,
+      "outright": 0.1435,
+      "finish": 4.2
+    },
+    {
+      "team": "Texas Tech",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.6\u20137.4",
+        "sort": 21.56
+      },
+      "range": "18\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.3\u20135.7",
+        "sort": 12.28
+      },
+      "title": 0.2547,
+      "outright": 0.1523,
+      "finish": 4.3
+    },
+    {
+      "team": "Houston",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.7\u20137.3",
+        "sort": 22.7
+      },
+      "range": "19\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.0\u20136.0",
+        "sort": 11.99
+      },
+      "title": 0.2297,
+      "outright": 0.1365,
+      "finish": 4.6
+    },
+    {
+      "team": "Arizona",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.6\u20138.4",
+        "sort": 21.62
+      },
+      "range": "18\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.8\u20136.2",
+        "sort": 11.79
+      },
+      "title": 0.193,
+      "outright": 0.1132,
+      "finish": 4.8
+    },
+    {
+      "team": "Iowa State",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.7\u20137.3",
+        "sort": 22.7
+      },
+      "range": "19\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.7\u20136.3",
+        "sort": 11.72
+      },
+      "title": 0.1874,
+      "outright": 0.1067,
+      "finish": 4.9
+    },
+    {
+      "team": "BYU",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.2\u20139.8",
+        "sort": 20.22
+      },
+      "range": "16\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u20137.9",
+        "sort": 10.11
+      },
+      "title": 0.0644,
+      "outright": 0.0308,
+      "finish": 7.0
+    },
+    {
+      "team": "Cincinnati",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.7\u201310.3",
+        "sort": 21.66
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20138.2",
+        "sort": 9.84
+      },
+      "title": 0.0597,
+      "outright": 0.0288,
+      "finish": 7.4
+    },
+    {
+      "team": "Baylor",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.9\u201312.1",
+        "sort": 16.92
+      },
+      "range": "13\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.6\u20139.4",
+        "sort": 8.61
+      },
+      "title": 0.0235,
+      "outright": 0.01,
+      "finish": 9.0
+    },
+    {
+      "team": "UCF",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.9\u201313.1",
+        "sort": 18.88
+      },
+      "range": "15\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.2\u20139.8",
+        "sort": 8.18
+      },
+      "title": 0.0155,
+      "outright": 0.0062,
+      "finish": 9.6
+    },
+    {
+      "team": "West Virginia",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.7\u201312.3",
+        "sort": 17.7
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u201310.0",
+        "sort": 8.01
+      },
+      "title": 0.015,
+      "outright": 0.0068,
+      "finish": 9.9
+    },
+    {
+      "team": "TCU",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.7\u201312.3",
+        "sort": 17.69
+      },
+      "range": "14\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u201310.0",
+        "sort": 7.98
+      },
+      "title": 0.0129,
+      "outright": 0.0051,
+      "finish": 9.9
+    },
+    {
+      "team": "Oklahoma St",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.4\u201313.6",
+        "sort": 18.36
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u201310.0",
+        "sort": 7.97
+      },
+      "title": 0.0132,
+      "outright": 0.0041,
+      "finish": 10.0
+    },
+    {
+      "team": "Arizona St",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.9\u201313.1",
+        "sort": 18.88
+      },
+      "range": "15\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.6\u201310.4",
+        "sort": 7.56
+      },
+      "title": 0.009,
+      "outright": 0.0035,
+      "finish": 10.5
+    },
+    {
+      "team": "Colorado",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.8\u201316.2",
+        "sort": 14.83
+      },
+      "range": "11\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.7\u201312.3",
+        "sort": 5.68
+      },
+      "title": 0.002,
+      "outright": 0.0006,
+      "finish": 12.8
+    },
+    {
+      "team": "Utah",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.9\u201316.1",
+        "sort": 15.86
+      },
+      "range": "12\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.0\u201313.0",
+        "sort": 4.98
+      },
+      "title": 0.0006,
+      "outright": 0.0003,
+      "finish": 13.6
+    },
+    {
+      "team": "Kansas St",
+      "conference": "Big 12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.7\u201316.3",
+        "sort": 13.69
+      },
+      "range": "10\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.0\u201313.0",
+        "sort": 4.98
+      },
+      "title": 0.0006,
+      "outright": 0.0002,
+      "finish": 13.6
+    },
+    {
+      "team": "St John's",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.4\u20138.7",
+        "sort": 21.35
+      },
+      "range": "17\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.9\u20137.1",
+        "sort": 12.87
+      },
+      "title": 0.2974,
+      "outright": 0.2049,
+      "finish": 3.5
+    },
+    {
+      "team": "UConn",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.9\u201311.1",
+        "sort": 20.92
+      },
+      "range": "16\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.8\u20137.2",
+        "sort": 12.75
+      },
+      "title": 0.2804,
+      "outright": 0.1942,
+      "finish": 3.6
+    },
+    {
+      "team": "Villanova",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.8\u201310.2",
+        "sort": 20.79
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.0\u20138.0",
+        "sort": 12.03
+      },
+      "title": 0.1941,
+      "outright": 0.1286,
+      "finish": 4.2
+    },
+    {
+      "team": "Marquette",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.9\u201311.1",
+        "sort": 20.91
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.7\u20138.3",
+        "sort": 11.71
+      },
+      "title": 0.1784,
+      "outright": 0.1101,
+      "finish": 4.5
+    },
+    {
+      "team": "Creighton",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.1\u201311.9",
+        "sort": 18.09
+      },
+      "range": "13\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.6\u20139.4",
+        "sort": 10.62
+      },
+      "title": 0.0976,
+      "outright": 0.0586,
+      "finish": 5.4
+    },
+    {
+      "team": "Xavier",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.9\u201313.2",
+        "sort": 18.85
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u201310.1",
+        "sort": 9.91
+      },
+      "title": 0.0643,
+      "outright": 0.037,
+      "finish": 6.1
+    },
+    {
+      "team": "Providence",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.6\u201312.3",
+        "sort": 17.65
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u201310.2",
+        "sort": 9.78
+      },
+      "title": 0.0612,
+      "outright": 0.0349,
+      "finish": 6.2
+    },
+    {
+      "team": "DePaul",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.3\u201314.7",
+        "sort": 17.28
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.4\u201311.6",
+        "sort": 8.36
+      },
+      "title": 0.0259,
+      "outright": 0.0141,
+      "finish": 7.5
+    },
+    {
+      "team": "Georgetown",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.6\u201314.4",
+        "sort": 16.57
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.1\u201311.9",
+        "sort": 8.11
+      },
+      "title": 0.0217,
+      "outright": 0.0111,
+      "finish": 7.7
+    },
+    {
+      "team": "Seton Hall",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.8\u201315.2",
+        "sort": 15.8
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.8\u201312.2",
+        "sort": 7.79
+      },
+      "title": 0.0163,
+      "outright": 0.0079,
+      "finish": 8.0
+    },
+    {
+      "team": "Butler",
+      "conference": "Big East",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.5\u201317.5",
+        "sort": 14.46
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.1\u201313.9",
+        "sort": 6.08
+      },
+      "title": 0.004,
+      "outright": 0.0019,
+      "finish": 9.3
+    },
+    {
+      "team": "Montana St",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.5\u201310.5",
+        "sort": 18.46
+      },
+      "range": "14\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "14.6\u20135.4",
+        "sort": 14.64
+      },
+      "title": 0.521,
+      "outright": 0.4019,
+      "finish": 2.4
+    },
+    {
+      "team": "E Washington",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.2\u201314.8",
+        "sort": 14.21
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.3\u20137.7",
+        "sort": 12.3
+      },
+      "title": 0.1903,
+      "outright": 0.1183,
+      "finish": 4.0
+    },
+    {
+      "team": "N Colorado",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.5\u201313.5",
+        "sort": 13.46
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.6\u20138.4",
+        "sort": 11.6
+      },
+      "title": 0.1326,
+      "outright": 0.0818,
+      "finish": 4.6
+    },
+    {
+      "team": "Montana",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.6\u201315.4",
+        "sort": 13.63
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.0\u20139.0",
+        "sort": 11.0
+      },
+      "title": 0.1001,
+      "outright": 0.0569,
+      "finish": 5.1
+    },
+    {
+      "team": "Portland St",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.0\u201315.0",
+        "sort": 13.0
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.9\u20139.1",
+        "sort": 10.89
+      },
+      "title": 0.0926,
+      "outright": 0.056,
+      "finish": 5.2
+    },
+    {
+      "team": "Idaho",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.5\u201314.5",
+        "sort": 13.51
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.8\u20139.2",
+        "sort": 10.75
+      },
+      "title": 0.0851,
+      "outright": 0.0495,
+      "finish": 5.3
+    },
+    {
+      "team": "Southern Utah",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.3\u201316.7",
+        "sort": 12.3
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.5\u20139.5",
+        "sort": 10.48
+      },
+      "title": 0.0718,
+      "outright": 0.0403,
+      "finish": 5.6
+    },
+    {
+      "team": "Weber St",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.3\u201320.7",
+        "sort": 9.26
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u201312.5",
+        "sort": 7.46
+      },
+      "title": 0.0093,
+      "outright": 0.0037,
+      "finish": 8.2
+    },
+    {
+      "team": "N Arizona",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.7\u201320.3",
+        "sort": 7.68
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.1\u201312.9",
+        "sort": 7.09
+      },
+      "title": 0.0055,
+      "outright": 0.002,
+      "finish": 8.4
+    },
+    {
+      "team": "Idaho St",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.8\u201320.2",
+        "sort": 8.75
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.0\u201313.0",
+        "sort": 7.0
+      },
+      "title": 0.0068,
+      "outright": 0.0036,
+      "finish": 8.5
+    },
+    {
+      "team": "Utah Tech",
+      "conference": "Big Sky",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.2\u201320.8",
+        "sort": 8.2
+      },
+      "range": "4\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u201313.2",
+        "sort": 6.79
+      },
+      "title": 0.0054,
+      "outright": 0.002,
+      "finish": 8.7
+    },
+    {
+      "team": "High Point",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "25.3\u20133.7",
+        "sort": 25.26
+      },
+      "range": "23\u201328",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "14.8\u20131.2",
+        "sort": 14.76
+      },
+      "title": 0.9612,
+      "outright": 0.9126,
+      "finish": 1.1
+    },
+    {
+      "team": "Longwood",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.6\u201313.4",
+        "sort": 15.59
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.1\u20136.9",
+        "sort": 9.1
+      },
+      "title": 0.026,
+      "outright": 0.0108,
+      "finish": 4.0
+    },
+    {
+      "team": "Presbyterian",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.4\u201314.6",
+        "sort": 13.41
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.1\u20136.9",
+        "sort": 9.11
+      },
+      "title": 0.0293,
+      "outright": 0.0121,
+      "finish": 4.0
+    },
+    {
+      "team": "Winthrop",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.7\u201314.3",
+        "sort": 13.65
+      },
+      "range": "10\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.9\u20137.1",
+        "sort": 8.92
+      },
+      "title": 0.0215,
+      "outright": 0.0079,
+      "finish": 4.1
+    },
+    {
+      "team": "UNC Asheville",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.7\u201317.4",
+        "sort": 11.65
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u20138.5",
+        "sort": 7.53
+      },
+      "title": 0.0076,
+      "outright": 0.0032,
+      "finish": 5.2
+    },
+    {
+      "team": "Radford",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.5\u201318.5",
+        "sort": 10.53
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u20138.5",
+        "sort": 7.49
+      },
+      "title": 0.0071,
+      "outright": 0.0028,
+      "finish": 5.2
+    },
+    {
+      "team": "Charleston So",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.6\u201319.4",
+        "sort": 9.55
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.6\u201310.4",
+        "sort": 5.63
+      },
+      "title": 0.0006,
+      "outright": 0.0002,
+      "finish": 6.7
+    },
+    {
+      "team": "SC Upstate",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.8\u201320.2",
+        "sort": 8.75
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.0\u201311.0",
+        "sort": 4.99
+      },
+      "title": 0.0003,
+      "outright": 0.0001,
+      "finish": 7.2
+    },
+    {
+      "team": "Gardner-Webb",
+      "conference": "Big South",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "6.7\u201321.3",
+        "sort": 6.68
+      },
+      "range": "3\u201310",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.5\u201311.5",
+        "sort": 4.47
+      },
+      "title": 0.0001,
+      "outright": 0.0,
+      "finish": 7.6
+    },
+    {
+      "team": "Santa Barbara",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.6\u20138.4",
+        "sort": 21.59
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "15.7\u20136.3",
+        "sort": 15.65
+      },
+      "title": 0.3907,
+      "outright": 0.2839,
+      "finish": 2.8
+    },
+    {
+      "team": "UC Irvine",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.3\u201311.7",
+        "sort": 19.32
+      },
+      "range": "14\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "14.5\u20137.5",
+        "sort": 14.47
+      },
+      "title": 0.2408,
+      "outright": 0.1599,
+      "finish": 3.7
+    },
+    {
+      "team": "UC San Diego",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.4\u201310.6",
+        "sort": 18.4
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "14.3\u20137.7",
+        "sort": 14.31
+      },
+      "title": 0.2317,
+      "outright": 0.1517,
+      "finish": 3.8
+    },
+    {
+      "team": "Utah Valley",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.4\u201311.6",
+        "sort": 16.37
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.5\u20138.5",
+        "sort": 13.53
+      },
+      "title": 0.1581,
+      "outright": 0.0966,
+      "finish": 4.4
+    },
+    {
+      "team": "Sacramento St",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.5\u201313.5",
+        "sort": 15.47
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.3\u20139.7",
+        "sort": 12.33
+      },
+      "title": 0.0805,
+      "outright": 0.0466,
+      "finish": 5.4
+    },
+    {
+      "team": "Cal Poly",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.5\u201315.5",
+        "sort": 14.47
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.7\u201310.3",
+        "sort": 11.7
+      },
+      "title": 0.0546,
+      "outright": 0.0306,
+      "finish": 6.0
+    },
+    {
+      "team": "CA Baptist",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.0\u201317.0",
+        "sort": 15.02
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.3\u201311.7",
+        "sort": 10.3
+      },
+      "title": 0.0271,
+      "outright": 0.0132,
+      "finish": 7.1
+    },
+    {
+      "team": "Fullerton",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.4\u201316.6",
+        "sort": 13.37
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u201311.9",
+        "sort": 10.05
+      },
+      "title": 0.0223,
+      "outright": 0.0108,
+      "finish": 7.4
+    },
+    {
+      "team": "CSU Northridge",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.2\u201316.8",
+        "sort": 13.17
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u201312.2",
+        "sort": 9.82
+      },
+      "title": 0.0183,
+      "outright": 0.0096,
+      "finish": 7.6
+    },
+    {
+      "team": "UC Riverside",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.0\u201320.0",
+        "sort": 10.0
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u201314.5",
+        "sort": 7.46
+      },
+      "title": 0.0028,
+      "outright": 0.0012,
+      "finish": 9.4
+    },
+    {
+      "team": "Long Beach St",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.7\u201322.3",
+        "sort": 9.73
+      },
+      "range": "5\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.4\u201314.6",
+        "sort": 7.39
+      },
+      "title": 0.0026,
+      "outright": 0.0014,
+      "finish": 9.4
+    },
+    {
+      "team": "Bakersfield",
+      "conference": "Big West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.0\u201323.1",
+        "sort": 6.95
+      },
+      "range": "3\u201311",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.0\u201317.0",
+        "sort": 4.97
+      },
+      "title": 0.0002,
+      "outright": 0.0001,
+      "finish": 11.0
+    },
+    {
+      "team": "UNC Wilmington",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.6\u20137.4",
+        "sort": 22.62
+      },
+      "range": "18\u201327",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.3\u20134.7",
+        "sort": 13.29
+      },
+      "title": 0.5406,
+      "outright": 0.4092,
+      "finish": 2.5
+    },
+    {
+      "team": "Charleston",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.9\u201311.1",
+        "sort": 15.94
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.4\u20136.6",
+        "sort": 11.41
+      },
+      "title": 0.2309,
+      "outright": 0.1467,
+      "finish": 4.2
+    },
+    {
+      "team": "Hofstra",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.4\u201314.6",
+        "sort": 15.36
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.0\u20138.0",
+        "sort": 9.96
+      },
+      "title": 0.1041,
+      "outright": 0.0588,
+      "finish": 5.8
+    },
+    {
+      "team": "Hampton",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.2\u201313.8",
+        "sort": 15.24
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.7\u20138.3",
+        "sort": 9.69
+      },
+      "title": 0.0818,
+      "outright": 0.043,
+      "finish": 6.1
+    },
+    {
+      "team": "Towson",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.1\u201315.9",
+        "sort": 14.1
+      },
+      "range": "9\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.2\u20138.8",
+        "sort": 9.15
+      },
+      "title": 0.0651,
+      "outright": 0.0334,
+      "finish": 6.8
+    },
+    {
+      "team": "William & Mary",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.0\u201316.0",
+        "sort": 14.04
+      },
+      "range": "9\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.8\u20139.2",
+        "sort": 8.81
+      },
+      "title": 0.048,
+      "outright": 0.0233,
+      "finish": 7.2
+    },
+    {
+      "team": "Stony Brook",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.2\u201314.8",
+        "sort": 14.18
+      },
+      "range": "9\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.7\u20139.3",
+        "sort": 8.66
+      },
+      "title": 0.043,
+      "outright": 0.0214,
+      "finish": 7.4
+    },
+    {
+      "team": "Monmouth",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.6\u201319.4",
+        "sort": 12.56
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.4\u20139.6",
+        "sort": 8.36
+      },
+      "title": 0.0394,
+      "outright": 0.0186,
+      "finish": 7.7
+    },
+    {
+      "team": "Campbell",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.2\u201319.8",
+        "sort": 12.19
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u201310.0",
+        "sort": 8.02
+      },
+      "title": 0.0282,
+      "outright": 0.0135,
+      "finish": 8.1
+    },
+    {
+      "team": "Elon",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.5\u201317.5",
+        "sort": 12.5
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.8\u201310.2",
+        "sort": 7.84
+      },
+      "title": 0.0242,
+      "outright": 0.0097,
+      "finish": 8.3
+    },
+    {
+      "team": "Northeastern",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.1\u201319.9",
+        "sort": 12.07
+      },
+      "range": "7\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.7\u201310.3",
+        "sort": 7.72
+      },
+      "title": 0.0192,
+      "outright": 0.0099,
+      "finish": 8.5
+    },
+    {
+      "team": "Drexel",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.9\u201318.1",
+        "sort": 11.93
+      },
+      "range": "7\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.1\u201310.9",
+        "sort": 7.14
+      },
+      "title": 0.0146,
+      "outright": 0.0063,
+      "finish": 9.1
+    },
+    {
+      "team": "NC A&T",
+      "conference": "CAA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.3\u201316.7",
+        "sort": 11.31
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.0\u201311.0",
+        "sort": 6.96
+      },
+      "title": 0.0115,
+      "outright": 0.0047,
+      "finish": 9.3
+    },
+    {
+      "team": "Western KY",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.0\u201310.0",
+        "sort": 19.01
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.5\u20135.5",
+        "sort": 12.46
+      },
+      "title": 0.472,
+      "outright": 0.3437,
+      "finish": 2.6
+    },
+    {
+      "team": "Liberty",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.0\u201312.0",
+        "sort": 16.02
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.0\u20138.0",
+        "sort": 10.01
+      },
+      "title": 0.154,
+      "outright": 0.088,
+      "finish": 4.6
+    },
+    {
+      "team": "MTSU",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.2\u201312.8",
+        "sort": 14.24
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u20138.1",
+        "sort": 9.9
+      },
+      "title": 0.1356,
+      "outright": 0.0802,
+      "finish": 4.7
+    },
+    {
+      "team": "Kennesaw St",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.6\u201312.4",
+        "sort": 14.63
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u20138.1",
+        "sort": 9.87
+      },
+      "title": 0.1354,
+      "outright": 0.0795,
+      "finish": 4.8
+    },
+    {
+      "team": "New Mexico St",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.9\u201314.1",
+        "sort": 13.91
+      },
+      "range": "9\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20138.2",
+        "sort": 9.84
+      },
+      "title": 0.1328,
+      "outright": 0.078,
+      "finish": 4.8
+    },
+    {
+      "team": "FIU",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.6\u201313.4",
+        "sort": 15.58
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.6\u20138.4",
+        "sort": 9.55
+      },
+      "title": 0.1168,
+      "outright": 0.0652,
+      "finish": 5.0
+    },
+    {
+      "team": "Sam Houston",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.6\u201317.4",
+        "sort": 11.63
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.5\u20139.5",
+        "sort": 8.46
+      },
+      "title": 0.0568,
+      "outright": 0.0282,
+      "finish": 6.0
+    },
+    {
+      "team": "Jax State",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.7\u201317.3",
+        "sort": 12.72
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.3\u201310.7",
+        "sort": 7.29
+      },
+      "title": 0.0295,
+      "outright": 0.0141,
+      "finish": 7.0
+    },
+    {
+      "team": "Missouri St",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.8\u201317.2",
+        "sort": 9.78
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.5\u201311.5",
+        "sort": 6.51
+      },
+      "title": 0.0146,
+      "outright": 0.0082,
+      "finish": 7.6
+    },
+    {
+      "team": "Delaware",
+      "conference": "Conference USA",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.3\u201318.7",
+        "sort": 10.28
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.1\u201311.9",
+        "sort": 6.11
+      },
+      "title": 0.0098,
+      "outright": 0.005,
+      "finish": 8.0
+    },
+    {
+      "team": "Green Bay",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.2\u201311.8",
+        "sort": 18.21
+      },
+      "range": "13\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.2\u20136.8",
+        "sort": 13.22
+      },
+      "title": 0.3432,
+      "outright": 0.2397,
+      "finish": 3.4
+    },
+    {
+      "team": "Wright St",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.9\u201312.1",
+        "sort": 17.88
+      },
+      "range": "13\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.0\u20137.0",
+        "sort": 13.02
+      },
+      "title": 0.3143,
+      "outright": 0.2151,
+      "finish": 3.6
+    },
+    {
+      "team": "Robert Morris",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.6\u201314.4",
+        "sort": 16.56
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.2\u20137.8",
+        "sort": 12.21
+      },
+      "title": 0.2149,
+      "outright": 0.1377,
+      "finish": 4.3
+    },
+    {
+      "team": "Oakland",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.2\u201320.8",
+        "sort": 11.16
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u20139.9",
+        "sort": 10.09
+      },
+      "title": 0.0747,
+      "outright": 0.0416,
+      "finish": 6.4
+    },
+    {
+      "team": "N Kentucky",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.5\u201315.5",
+        "sort": 14.53
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u20139.9",
+        "sort": 10.05
+      },
+      "title": 0.0671,
+      "outright": 0.0356,
+      "finish": 6.4
+    },
+    {
+      "team": "N Illinois",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.3\u201317.7",
+        "sort": 13.34
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.4\u201310.6",
+        "sort": 9.44
+      },
+      "title": 0.0518,
+      "outright": 0.0266,
+      "finish": 7.0
+    },
+    {
+      "team": "Milwaukee",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.4\u201319.6",
+        "sort": 11.4
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.3\u201310.7",
+        "sort": 9.33
+      },
+      "title": 0.0446,
+      "outright": 0.0196,
+      "finish": 7.1
+    },
+    {
+      "team": "Detroit Mercy",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.7\u201316.3",
+        "sort": 10.74
+      },
+      "range": "7\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.3\u201310.7",
+        "sort": 9.32
+      },
+      "title": 0.0462,
+      "outright": 0.0251,
+      "finish": 7.2
+    },
+    {
+      "team": "IU Indy",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.7\u201316.3",
+        "sort": 13.72
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.1\u201310.9",
+        "sort": 9.08
+      },
+      "title": 0.0394,
+      "outright": 0.0213,
+      "finish": 7.4
+    },
+    {
+      "team": "Purdue FW",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.9\u201318.1",
+        "sort": 10.95
+      },
+      "range": "6\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.4\u201311.6",
+        "sort": 8.44
+      },
+      "title": 0.0248,
+      "outright": 0.0131,
+      "finish": 8.0
+    },
+    {
+      "team": "Youngstown St",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.5\u201318.5",
+        "sort": 10.51
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u201312.0",
+        "sort": 7.97
+      },
+      "title": 0.0195,
+      "outright": 0.0106,
+      "finish": 8.5
+    },
+    {
+      "team": "Cleveland St",
+      "conference": "Horizon",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.7\u201318.3",
+        "sort": 9.71
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.8\u201312.2",
+        "sort": 7.83
+      },
+      "title": 0.0154,
+      "outright": 0.0066,
+      "finish": 8.6
+    },
+    {
+      "team": "Penn",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.1\u20138.9",
+        "sort": 17.08
+      },
+      "range": "13\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.6\u20134.4",
+        "sort": 9.56
+      },
+      "title": 0.4136,
+      "outright": 0.2779,
+      "finish": 2.5
+    },
+    {
+      "team": "Harvard",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.4\u20139.6",
+        "sort": 16.37
+      },
+      "range": "12\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.5\u20134.5",
+        "sort": 9.49
+      },
+      "title": 0.4036,
+      "outright": 0.2751,
+      "finish": 2.6
+    },
+    {
+      "team": "Princeton",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.8\u201312.2",
+        "sort": 14.76
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.2\u20135.8",
+        "sort": 8.18
+      },
+      "title": 0.1901,
+      "outright": 0.1139,
+      "finish": 3.6
+    },
+    {
+      "team": "Yale",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.8\u201314.2",
+        "sort": 11.79
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.9\u20137.1",
+        "sort": 6.89
+      },
+      "title": 0.091,
+      "outright": 0.046,
+      "finish": 4.6
+    },
+    {
+      "team": "Columbia",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.9\u201312.1",
+        "sort": 14.94
+      },
+      "range": "11\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u20137.2",
+        "sort": 6.8
+      },
+      "title": 0.0813,
+      "outright": 0.0386,
+      "finish": 4.7
+    },
+    {
+      "team": "Cornell",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.1\u201315.9",
+        "sort": 11.1
+      },
+      "range": "7\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.8\u20138.2",
+        "sort": 5.83
+      },
+      "title": 0.0401,
+      "outright": 0.0178,
+      "finish": 5.5
+    },
+    {
+      "team": "Brown",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.8\u201314.2",
+        "sort": 12.77
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.7\u20138.3",
+        "sort": 5.65
+      },
+      "title": 0.0332,
+      "outright": 0.0151,
+      "finish": 5.6
+    },
+    {
+      "team": "Dartmouth",
+      "conference": "Ivy League",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.9\u201317.1",
+        "sort": 7.91
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "3.6\u201310.4",
+        "sort": 3.59
+      },
+      "title": 0.0032,
+      "outright": 0.0015,
+      "finish": 7.0
+    },
+    {
+      "team": "Akron",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.4\u20137.6",
+        "sort": 20.37
+      },
+      "range": "16\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "15.8\u20136.2",
+        "sort": 15.8
+      },
+      "title": 0.4682,
+      "outright": 0.3577,
+      "finish": 2.6
+    },
+    {
+      "team": "Miami OH",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.8\u20139.2",
+        "sort": 19.77
+      },
+      "range": "15\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "15.1\u20136.9",
+        "sort": 15.07
+      },
+      "title": 0.3519,
+      "outright": 0.2485,
+      "finish": 3.0
+    },
+    {
+      "team": "Kent State",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.7\u201312.3",
+        "sort": 15.7
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.1\u20139.9",
+        "sort": 12.12
+      },
+      "title": 0.0918,
+      "outright": 0.0511,
+      "finish": 5.5
+    },
+    {
+      "team": "Toledo",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.7\u201315.3",
+        "sort": 15.69
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.6\u201310.4",
+        "sort": 11.55
+      },
+      "title": 0.0679,
+      "outright": 0.0358,
+      "finish": 6.0
+    },
+    {
+      "team": "W Michigan",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.7\u201313.3",
+        "sort": 14.72
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.4\u201310.6",
+        "sort": 11.4
+      },
+      "title": 0.0621,
+      "outright": 0.035,
+      "finish": 6.1
+    },
+    {
+      "team": "E Michigan",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.5\u201314.5",
+        "sort": 13.54
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.9\u201311.1",
+        "sort": 10.93
+      },
+      "title": 0.0512,
+      "outright": 0.0267,
+      "finish": 6.5
+    },
+    {
+      "team": "Bowling Green",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.9\u201314.1",
+        "sort": 14.89
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.6\u201311.4",
+        "sort": 10.63
+      },
+      "title": 0.0411,
+      "outright": 0.0241,
+      "finish": 6.8
+    },
+    {
+      "team": "Ohio",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.4\u201315.6",
+        "sort": 13.4
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u201312.1",
+        "sort": 9.87
+      },
+      "title": 0.0246,
+      "outright": 0.0116,
+      "finish": 7.5
+    },
+    {
+      "team": "Buffalo",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.1\u201315.9",
+        "sort": 13.05
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u201312.2",
+        "sort": 9.75
+      },
+      "title": 0.024,
+      "outright": 0.0111,
+      "finish": 7.6
+    },
+    {
+      "team": "UMass",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.2\u201315.8",
+        "sort": 14.18
+      },
+      "range": "9\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.5\u201312.5",
+        "sort": 9.48
+      },
+      "title": 0.0222,
+      "outright": 0.0111,
+      "finish": 7.8
+    },
+    {
+      "team": "C Michigan",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.7\u201318.3",
+        "sort": 10.69
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.7\u201313.3",
+        "sort": 8.65
+      },
+      "title": 0.0101,
+      "outright": 0.0038,
+      "finish": 8.6
+    },
+    {
+      "team": "Ball State",
+      "conference": "MAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.1\u201318.9",
+        "sort": 9.11
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u201315.2",
+        "sort": 6.77
+      },
+      "title": 0.0024,
+      "outright": 0.0008,
+      "finish": 10.1
+    },
+    {
+      "team": "Howard",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.3\u20136.7",
+        "sort": 19.27
+      },
+      "range": "16\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.1\u20131.9",
+        "sort": 12.14
+      },
+      "title": 0.8947,
+      "outright": 0.8383,
+      "finish": 1.2
+    },
+    {
+      "team": "Morgan St",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.1\u201315.9",
+        "sort": 10.09
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.9\u20136.1",
+        "sort": 6.87
+      },
+      "title": 0.0319,
+      "outright": 0.0312,
+      "finish": 4.1
+    },
+    {
+      "team": "Norfolk St",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.6\u201319.4",
+        "sort": 9.58
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.4\u20136.6",
+        "sort": 7.37
+      },
+      "title": 0.0538,
+      "outright": 0.0257,
+      "finish": 4.1
+    },
+    {
+      "team": "Delaware St",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.0\u201316.0",
+        "sort": 9.96
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.7\u20137.3",
+        "sort": 6.7
+      },
+      "title": 0.0298,
+      "outright": 0.0137,
+      "finish": 4.7
+    },
+    {
+      "team": "NC Central",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.9\u201318.1",
+        "sort": 7.92
+      },
+      "range": "4\u201311",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.4\u20137.6",
+        "sort": 6.38
+      },
+      "title": 0.0262,
+      "outright": 0.0116,
+      "finish": 4.9
+    },
+    {
+      "team": "SC State",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.4\u201318.6",
+        "sort": 8.43
+      },
+      "range": "5\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.8\u20137.2",
+        "sort": 5.77
+      },
+      "title": 0.0117,
+      "outright": 0.011,
+      "finish": 5.0
+    },
+    {
+      "team": "Coppin St",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.6\u201321.4",
+        "sort": 7.57
+      },
+      "range": "4\u201311",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.1\u20137.9",
+        "sort": 6.06
+      },
+      "title": 0.0166,
+      "outright": 0.0071,
+      "finish": 5.2
+    },
+    {
+      "team": "MD Eastern",
+      "conference": "MEAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "4.5\u201324.5",
+        "sort": 4.46
+      },
+      "range": "2\u20138",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "3.7\u201310.3",
+        "sort": 3.7
+      },
+      "title": 0.0009,
+      "outright": 0.0003,
+      "finish": 6.9
+    },
+    {
+      "team": "UIC",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.8\u20139.2",
+        "sort": 20.77
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.4\u20136.6",
+        "sort": 13.4
+      },
+      "title": 0.3309,
+      "outright": 0.2289,
+      "finish": 3.2
+    },
+    {
+      "team": "Illinois St",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.8\u201311.2",
+        "sort": 18.75
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.7\u20137.3",
+        "sort": 12.68
+      },
+      "title": 0.2419,
+      "outright": 0.1584,
+      "finish": 3.8
+    },
+    {
+      "team": "Murray St",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.6\u201310.4",
+        "sort": 20.64
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.6\u20137.4",
+        "sort": 12.61
+      },
+      "title": 0.2378,
+      "outright": 0.1538,
+      "finish": 3.8
+    },
+    {
+      "team": "Northern Iowa",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.3\u201313.7",
+        "sort": 16.28
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.6\u20138.4",
+        "sort": 11.56
+      },
+      "title": 0.1451,
+      "outright": 0.0896,
+      "finish": 4.7
+    },
+    {
+      "team": "Belmont",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.3\u201312.7",
+        "sort": 17.33
+      },
+      "range": "12\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.4\u20138.6",
+        "sort": 11.44
+      },
+      "title": 0.1357,
+      "outright": 0.078,
+      "finish": 4.8
+    },
+    {
+      "team": "Drake",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.4\u201314.6",
+        "sort": 16.44
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.2\u20139.8",
+        "sort": 10.21
+      },
+      "title": 0.062,
+      "outright": 0.0328,
+      "finish": 5.9
+    },
+    {
+      "team": "Valparaiso",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.3\u201313.7",
+        "sort": 15.33
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.0\u201310.0",
+        "sort": 9.98
+      },
+      "title": 0.0615,
+      "outright": 0.033,
+      "finish": 6.1
+    },
+    {
+      "team": "Bradley",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.5\u201316.5",
+        "sort": 12.46
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.1\u201311.9",
+        "sort": 8.07
+      },
+      "title": 0.017,
+      "outright": 0.0081,
+      "finish": 7.7
+    },
+    {
+      "team": "S Illinois",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.7\u201316.3",
+        "sort": 12.67
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u201312.0",
+        "sort": 7.99
+      },
+      "title": 0.0163,
+      "outright": 0.0066,
+      "finish": 7.7
+    },
+    {
+      "team": "Indiana St",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.8\u201318.2",
+        "sort": 9.81
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.6\u201313.4",
+        "sort": 6.61
+      },
+      "title": 0.0047,
+      "outright": 0.0018,
+      "finish": 8.8
+    },
+    {
+      "team": "Evansville",
+      "conference": "Missouri Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.9\u201320.1",
+        "sort": 8.91
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.4\u201314.6",
+        "sort": 5.44
+      },
+      "title": 0.0021,
+      "outright": 0.0011,
+      "finish": 9.6
+    },
+    {
+      "team": "Grand Canyon",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "23.9\u20136.1",
+        "sort": 23.86
+      },
+      "range": "20\u201327",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "14.3\u20133.7",
+        "sort": 14.3
+      },
+      "title": 0.5978,
+      "outright": 0.4643,
+      "finish": 1.8
+    },
+    {
+      "team": "New Mexico",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.4\u20138.6",
+        "sort": 22.37
+      },
+      "range": "18\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.8\u20135.2",
+        "sort": 12.77
+      },
+      "title": 0.2947,
+      "outright": 0.1947,
+      "finish": 2.7
+    },
+    {
+      "team": "Nevada",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.9\u201310.1",
+        "sort": 20.89
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.5\u20136.5",
+        "sort": 11.49
+      },
+      "title": 0.1503,
+      "outright": 0.0895,
+      "finish": 3.6
+    },
+    {
+      "team": "UNLV",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.9\u201311.1",
+        "sort": 18.86
+      },
+      "range": "15\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.9\u20137.1",
+        "sort": 10.88
+      },
+      "title": 0.0981,
+      "outright": 0.0536,
+      "finish": 4.1
+    },
+    {
+      "team": "Wyoming",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.8\u201314.2",
+        "sort": 16.83
+      },
+      "range": "12\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.1\u20138.9",
+        "sort": 9.08
+      },
+      "title": 0.0309,
+      "outright": 0.0137,
+      "finish": 5.4
+    },
+    {
+      "team": "Hawai'i",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.9\u201313.1",
+        "sort": 14.94
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.2\u20139.8",
+        "sort": 8.25
+      },
+      "title": 0.0161,
+      "outright": 0.0077,
+      "finish": 6.1
+    },
+    {
+      "team": "UTEP",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.1\u201314.9",
+        "sort": 12.12
+      },
+      "range": "8\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u201311.2",
+        "sort": 6.84
+      },
+      "title": 0.0036,
+      "outright": 0.0017,
+      "finish": 7.1
+    },
+    {
+      "team": "San Jos\u00e9 St",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.0\u201317.0",
+        "sort": 12.97
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.5\u201311.5",
+        "sort": 6.47
+      },
+      "title": 0.0028,
+      "outright": 0.0016,
+      "finish": 7.4
+    },
+    {
+      "team": "UC Davis",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.8\u201317.1",
+        "sort": 12.85
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.9\u201312.1",
+        "sort": 5.94
+      },
+      "title": 0.003,
+      "outright": 0.0014,
+      "finish": 7.8
+    },
+    {
+      "team": "Air Force",
+      "conference": "Mountain West",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.1\u201320.9",
+        "sort": 10.09
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.0\u201314.0",
+        "sort": 3.99
+      },
+      "title": 0.0,
+      "outright": 0.0,
+      "finish": 9.0
+    },
+    {
+      "team": "Merrimack",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.0\u201311.0",
+        "sort": 20.03
+      },
+      "range": "15\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "14.1\u20135.9",
+        "sort": 14.14
+      },
+      "title": 0.4226,
+      "outright": 0.3053,
+      "finish": 3.0
+    },
+    {
+      "team": "Marist",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.3\u201312.7",
+        "sort": 16.26
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.2\u20137.8",
+        "sort": 12.15
+      },
+      "title": 0.1655,
+      "outright": 0.0996,
+      "finish": 4.8
+    },
+    {
+      "team": "Fairfield",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.4\u201312.6",
+        "sort": 17.44
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.0\u20138.0",
+        "sort": 12.01
+      },
+      "title": 0.1607,
+      "outright": 0.1009,
+      "finish": 5.0
+    },
+    {
+      "team": "Iona",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.0\u201315.0",
+        "sort": 16.97
+      },
+      "range": "12\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.8\u20138.2",
+        "sort": 11.82
+      },
+      "title": 0.1328,
+      "outright": 0.0793,
+      "finish": 5.1
+    },
+    {
+      "team": "Quinnipiac",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.6\u201314.4",
+        "sort": 15.62
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.5\u20138.5",
+        "sort": 11.53
+      },
+      "title": 0.1243,
+      "outright": 0.0715,
+      "finish": 5.4
+    },
+    {
+      "team": "Siena",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.4\u201316.6",
+        "sort": 15.44
+      },
+      "range": "10\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.0\u20139.0",
+        "sort": 11.04
+      },
+      "title": 0.0964,
+      "outright": 0.0536,
+      "finish": 5.9
+    },
+    {
+      "team": "Saint Peter's",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.6\u201315.4",
+        "sort": 13.61
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.3\u20139.7",
+        "sort": 10.33
+      },
+      "title": 0.0597,
+      "outright": 0.0323,
+      "finish": 6.7
+    },
+    {
+      "team": "Mount St Marys",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.9\u201317.1",
+        "sort": 12.94
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.7\u201310.3",
+        "sort": 9.68
+      },
+      "title": 0.0379,
+      "outright": 0.0189,
+      "finish": 7.4
+    },
+    {
+      "team": "Sacred Heart",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.0\u201318.0",
+        "sort": 12.98
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.0\u201311.0",
+        "sort": 8.97
+      },
+      "title": 0.0228,
+      "outright": 0.0117,
+      "finish": 8.1
+    },
+    {
+      "team": "Niagara",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.9\u201318.1",
+        "sort": 11.95
+      },
+      "range": "7\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.4\u201311.6",
+        "sort": 8.41
+      },
+      "title": 0.0188,
+      "outright": 0.0081,
+      "finish": 8.7
+    },
+    {
+      "team": "Canisius",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.7\u201320.3",
+        "sort": 10.7
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.2\u201311.8",
+        "sort": 8.16
+      },
+      "title": 0.0151,
+      "outright": 0.006,
+      "finish": 8.9
+    },
+    {
+      "team": "Manhattan",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.9\u201321.1",
+        "sort": 9.87
+      },
+      "range": "5\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u201313.2",
+        "sort": 6.8
+      },
+      "title": 0.0047,
+      "outright": 0.0022,
+      "finish": 10.2
+    },
+    {
+      "team": "Rider",
+      "conference": "MAAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "6.5\u201323.4",
+        "sort": 6.55
+      },
+      "range": "3\u201311",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.0\u201315.0",
+        "sort": 4.96
+      },
+      "title": 0.0007,
+      "outright": 0.0001,
+      "finish": 11.6
+    },
+    {
+      "team": "Long Island",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.2\u201317.8",
+        "sort": 13.18
+      },
+      "range": "9\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.2\u20135.8",
+        "sort": 10.24
+      },
+      "title": 0.3848,
+      "outright": 0.2649,
+      "finish": 3.0
+    },
+    {
+      "team": "Mercyhurst",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.2\u201316.8",
+        "sort": 12.18
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.2\u20136.8",
+        "sort": 9.25
+      },
+      "title": 0.2458,
+      "outright": 0.1537,
+      "finish": 3.9
+    },
+    {
+      "team": "Le Moyne",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.8\u201317.2",
+        "sort": 11.75
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.3\u20137.7",
+        "sort": 8.3
+      },
+      "title": 0.148,
+      "outright": 0.0845,
+      "finish": 4.7
+    },
+    {
+      "team": "New Haven",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.8\u201317.2",
+        "sort": 10.8
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.6\u20138.4",
+        "sort": 7.64
+      },
+      "title": 0.1043,
+      "outright": 0.0578,
+      "finish": 5.3
+    },
+    {
+      "team": "C Connecticut",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.7\u201317.3",
+        "sort": 9.66
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.4\u20138.6",
+        "sort": 7.42
+      },
+      "title": 0.086,
+      "outright": 0.0472,
+      "finish": 5.5
+    },
+    {
+      "team": "Wagner",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.2\u201317.8",
+        "sort": 9.19
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.4\u20138.6",
+        "sort": 7.42
+      },
+      "title": 0.089,
+      "outright": 0.0481,
+      "finish": 5.5
+    },
+    {
+      "team": "FDU",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.0\u201320.0",
+        "sort": 10.0
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.3\u20138.7",
+        "sort": 7.33
+      },
+      "title": 0.0806,
+      "outright": 0.0412,
+      "finish": 5.6
+    },
+    {
+      "team": "Stonehill",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.6\u201318.4",
+        "sort": 9.64
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.2\u20138.8",
+        "sort": 7.22
+      },
+      "title": 0.0769,
+      "outright": 0.0387,
+      "finish": 5.7
+    },
+    {
+      "team": "Chicago St",
+      "conference": "Northeast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.1\u201322.9",
+        "sort": 9.12
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.2\u20138.8",
+        "sort": 7.17
+      },
+      "title": 0.0706,
+      "outright": 0.0364,
+      "finish": 5.7
+    },
+    {
+      "team": "Tennessee St",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.6\u20138.4",
+        "sort": 14.62
+      },
+      "range": "11\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.8\u20134.2",
+        "sort": 11.78
+      },
+      "title": 0.5649,
+      "outright": 0.427,
+      "finish": 2.1
+    },
+    {
+      "team": "SE Missouri",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.4\u201313.6",
+        "sort": 13.43
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20136.2",
+        "sort": 9.83
+      },
+      "title": 0.2224,
+      "outright": 0.137,
+      "finish": 3.5
+    },
+    {
+      "team": "SIUE",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.7\u201313.3",
+        "sort": 13.74
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.5\u20136.5",
+        "sort": 9.47
+      },
+      "title": 0.1848,
+      "outright": 0.1112,
+      "finish": 3.8
+    },
+    {
+      "team": "Lindenwood",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.7\u201315.3",
+        "sort": 11.73
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.5\u20137.5",
+        "sort": 8.51
+      },
+      "title": 0.1051,
+      "outright": 0.0579,
+      "finish": 4.6
+    },
+    {
+      "team": "Morehead St",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.2\u201316.8",
+        "sort": 11.17
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.6\u20138.4",
+        "sort": 7.61
+      },
+      "title": 0.0583,
+      "outright": 0.029,
+      "finish": 5.3
+    },
+    {
+      "team": "S Indiana",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.8\u201317.2",
+        "sort": 9.78
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.1\u20138.9",
+        "sort": 7.06
+      },
+      "title": 0.0403,
+      "outright": 0.0183,
+      "finish": 5.8
+    },
+    {
+      "team": "UT Martin",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.2\u201317.8",
+        "sort": 8.2
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.5\u20139.6",
+        "sort": 6.45
+      },
+      "title": 0.0276,
+      "outright": 0.0124,
+      "finish": 6.2
+    },
+    {
+      "team": "E Illinois",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.9\u201319.1",
+        "sort": 8.91
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.4\u20139.6",
+        "sort": 6.42
+      },
+      "title": 0.026,
+      "outright": 0.0113,
+      "finish": 6.3
+    },
+    {
+      "team": "W Illinois",
+      "conference": "Ohio Valley",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "6.9\u201320.1",
+        "sort": 6.88
+      },
+      "range": "3\u201311",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.9\u201311.1",
+        "sort": 4.88
+      },
+      "title": 0.006,
+      "outright": 0.0018,
+      "finish": 7.5
+    },
+    {
+      "team": "Gonzaga",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.0\u20137.0",
+        "sort": 21.04
+      },
+      "range": "17\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.6\u20133.4",
+        "sort": 12.59
+      },
+      "title": 0.662,
+      "outright": 0.522,
+      "finish": 1.8
+    },
+    {
+      "team": "San Diego St",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.0\u20139.0",
+        "sort": 18.01
+      },
+      "range": "14\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.2\u20135.8",
+        "sort": 10.18
+      },
+      "title": 0.1938,
+      "outright": 0.113,
+      "finish": 3.3
+    },
+    {
+      "team": "Utah State",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.8\u201310.2",
+        "sort": 20.79
+      },
+      "range": "16\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u20136.0",
+        "sort": 9.95
+      },
+      "title": 0.1796,
+      "outright": 0.1058,
+      "finish": 3.5
+    },
+    {
+      "team": "Colorado St",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.0\u201312.0",
+        "sort": 16.98
+      },
+      "range": "13\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.2\u20137.8",
+        "sort": 8.22
+      },
+      "title": 0.0587,
+      "outright": 0.0273,
+      "finish": 4.8
+    },
+    {
+      "team": "Boise St",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.4\u201312.6",
+        "sort": 17.42
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u20138.0",
+        "sort": 7.97
+      },
+      "title": 0.0482,
+      "outright": 0.0238,
+      "finish": 5.0
+    },
+    {
+      "team": "Oregon St",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.0\u201311.0",
+        "sort": 19.01
+      },
+      "range": "15\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.9\u20138.1",
+        "sort": 7.94
+      },
+      "title": 0.046,
+      "outright": 0.0217,
+      "finish": 5.0
+    },
+    {
+      "team": "Texas St",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.9\u201313.1",
+        "sort": 17.89
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.6\u20139.4",
+        "sort": 6.64
+      },
+      "title": 0.0175,
+      "outright": 0.0071,
+      "finish": 6.1
+    },
+    {
+      "team": "Fresno St",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.1\u201316.9",
+        "sort": 13.09
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.7\u201311.3",
+        "sort": 4.66
+      },
+      "title": 0.0021,
+      "outright": 0.0007,
+      "finish": 7.5
+    },
+    {
+      "team": "Washington St",
+      "conference": "Pac-12",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.6\u201321.4",
+        "sort": 9.6
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "3.8\u201312.2",
+        "sort": 3.83
+      },
+      "title": 0.0004,
+      "outright": 0.0,
+      "finish": 8.0
+    },
+    {
+      "team": "American",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.6\u201312.4",
+        "sort": 18.56
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.2\u20134.8",
+        "sort": 13.16
+      },
+      "title": 0.484,
+      "outright": 0.3601,
+      "finish": 2.3
+    },
+    {
+      "team": "Colgate",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.5\u201313.5",
+        "sort": 16.54
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.4\u20135.6",
+        "sort": 12.44
+      },
+      "title": 0.3547,
+      "outright": 0.2441,
+      "finish": 2.8
+    },
+    {
+      "team": "Lehigh",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.5\u201313.5",
+        "sort": 15.48
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.1\u20136.9",
+        "sort": 11.06
+      },
+      "title": 0.1805,
+      "outright": 0.1127,
+      "finish": 3.8
+    },
+    {
+      "team": "Boston U",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.3\u201316.7",
+        "sort": 13.33
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.4\u20138.6",
+        "sort": 9.37
+      },
+      "title": 0.0748,
+      "outright": 0.0404,
+      "finish": 5.1
+    },
+    {
+      "team": "Navy",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.4\u201316.6",
+        "sort": 13.37
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.8\u20139.2",
+        "sort": 8.84
+      },
+      "title": 0.0524,
+      "outright": 0.0276,
+      "finish": 5.6
+    },
+    {
+      "team": "Lafayette",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.1\u201319.9",
+        "sort": 11.09
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.6\u201310.4",
+        "sort": 7.62
+      },
+      "title": 0.0208,
+      "outright": 0.0097,
+      "finish": 6.6
+    },
+    {
+      "team": "Holy Cross",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.4\u201319.6",
+        "sort": 10.42
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u201310.5",
+        "sort": 7.51
+      },
+      "title": 0.0197,
+      "outright": 0.0085,
+      "finish": 6.7
+    },
+    {
+      "team": "Loyola MD",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.1\u201317.9",
+        "sort": 10.08
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.2\u201310.8",
+        "sort": 7.21
+      },
+      "title": 0.0163,
+      "outright": 0.0072,
+      "finish": 6.9
+    },
+    {
+      "team": "Bucknell",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.7\u201322.3",
+        "sort": 8.72
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.6\u201311.4",
+        "sort": 6.6
+      },
+      "title": 0.0094,
+      "outright": 0.0033,
+      "finish": 7.5
+    },
+    {
+      "team": "Army",
+      "conference": "Patriot",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.1\u201320.9",
+        "sort": 9.05
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.2\u201311.8",
+        "sort": 6.18
+      },
+      "title": 0.006,
+      "outright": 0.0022,
+      "finish": 7.8
+    },
+    {
+      "team": "Troy",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.2\u20139.8",
+        "sort": 18.22
+      },
+      "range": "14\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.6\u20135.4",
+        "sort": 12.64
+      },
+      "title": 0.3699,
+      "outright": 0.2477,
+      "finish": 3.4
+    },
+    {
+      "team": "James Madison",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.2\u20139.8",
+        "sort": 19.23
+      },
+      "range": "15\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.3\u20135.7",
+        "sort": 12.35
+      },
+      "title": 0.319,
+      "outright": 0.2063,
+      "finish": 3.7
+    },
+    {
+      "team": "Arkansas St",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.9\u201312.1",
+        "sort": 16.88
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.6\u20137.5",
+        "sort": 10.55
+      },
+      "title": 0.123,
+      "outright": 0.0693,
+      "finish": 5.6
+    },
+    {
+      "team": "Georgia St",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.6\u201313.4",
+        "sort": 15.63
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.2\u20137.8",
+        "sort": 10.25
+      },
+      "title": 0.099,
+      "outright": 0.0528,
+      "finish": 6.0
+    },
+    {
+      "team": "Southern Miss",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.9\u201315.1",
+        "sort": 14.92
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u20138.1",
+        "sort": 9.87
+      },
+      "title": 0.0858,
+      "outright": 0.0454,
+      "finish": 6.5
+    },
+    {
+      "team": "Louisiana",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.0\u201315.0",
+        "sort": 13.0
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20138.2",
+        "sort": 9.77
+      },
+      "title": 0.0831,
+      "outright": 0.0441,
+      "finish": 6.6
+    },
+    {
+      "team": "Coastal",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.9\u201315.1",
+        "sort": 13.93
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.5\u20138.5",
+        "sort": 9.49
+      },
+      "title": 0.0636,
+      "outright": 0.0312,
+      "finish": 6.9
+    },
+    {
+      "team": "Old Dominion",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.9\u201315.1",
+        "sort": 13.87
+      },
+      "range": "9\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.2\u20138.8",
+        "sort": 9.2
+      },
+      "title": 0.0507,
+      "outright": 0.0229,
+      "finish": 7.3
+    },
+    {
+      "team": "App State",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.5\u201317.5",
+        "sort": 11.47
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.2\u20139.8",
+        "sort": 8.18
+      },
+      "title": 0.0282,
+      "outright": 0.013,
+      "finish": 8.5
+    },
+    {
+      "team": "South Alabama",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.6\u201316.4",
+        "sort": 12.59
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.2\u20139.8",
+        "sort": 8.19
+      },
+      "title": 0.0261,
+      "outright": 0.0116,
+      "finish": 8.5
+    },
+    {
+      "team": "Marshall",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.7\u201316.4",
+        "sort": 11.65
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.9\u201310.1",
+        "sort": 7.86
+      },
+      "title": 0.0232,
+      "outright": 0.0109,
+      "finish": 8.9
+    },
+    {
+      "team": "Louisiana Tech",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.9\u201317.1",
+        "sort": 11.94
+      },
+      "range": "7\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.7\u201310.3",
+        "sort": 7.7
+      },
+      "title": 0.0211,
+      "outright": 0.0093,
+      "finish": 9.1
+    },
+    {
+      "team": "UL Monroe",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "6.2\u201322.8",
+        "sort": 6.17
+      },
+      "range": "3\u201310",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.0\u201313.0",
+        "sort": 4.97
+      },
+      "title": 0.0013,
+      "outright": 0.0,
+      "finish": 12.0
+    },
+    {
+      "team": "GA Southern",
+      "conference": "Sun Belt",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.9\u201322.1",
+        "sort": 7.86
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.0\u201313.0",
+        "sort": 4.97
+      },
+      "title": 0.0014,
+      "outright": 0.0005,
+      "finish": 12.0
+    },
+    {
+      "team": "Furman",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.5\u20139.5",
+        "sort": 19.52
+      },
+      "range": "15\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "14.1\u20135.9",
+        "sort": 14.1
+      },
+      "title": 0.4096,
+      "outright": 0.2998,
+      "finish": 2.7
+    },
+    {
+      "team": "W Carolina",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.7\u201312.3",
+        "sort": 14.7
+      },
+      "range": "11\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.9\u20137.1",
+        "sort": 12.94
+      },
+      "title": 0.2518,
+      "outright": 0.1664,
+      "finish": 3.6
+    },
+    {
+      "team": "ETSU",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.6\u201311.4",
+        "sort": 18.57
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.8\u20137.2",
+        "sort": 12.84
+      },
+      "title": 0.2385,
+      "outright": 0.1535,
+      "finish": 3.7
+    },
+    {
+      "team": "Tennessee Tech",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.3\u201314.7",
+        "sort": 14.26
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.2\u20138.8",
+        "sort": 11.22
+      },
+      "title": 0.1055,
+      "outright": 0.0621,
+      "finish": 5.0
+    },
+    {
+      "team": "Samford",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.8\u201314.2",
+        "sort": 13.83
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.2\u20138.8",
+        "sort": 11.2
+      },
+      "title": 0.1016,
+      "outright": 0.0581,
+      "finish": 5.0
+    },
+    {
+      "team": "Mercer",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.2\u201317.8",
+        "sort": 12.16
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.9\u201310.1",
+        "sort": 9.88
+      },
+      "title": 0.0463,
+      "outright": 0.0232,
+      "finish": 6.1
+    },
+    {
+      "team": "Chattanooga",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.5\u201315.5",
+        "sort": 13.46
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.4\u201310.6",
+        "sort": 9.45
+      },
+      "title": 0.0369,
+      "outright": 0.0191,
+      "finish": 6.5
+    },
+    {
+      "team": "Wofford",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.4\u201316.6",
+        "sort": 12.42
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.4\u201310.6",
+        "sort": 9.37
+      },
+      "title": 0.0387,
+      "outright": 0.0186,
+      "finish": 6.5
+    },
+    {
+      "team": "UNC Greensboro",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.4\u201320.6",
+        "sort": 8.36
+      },
+      "range": "4\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.7\u201313.3",
+        "sort": 6.69
+      },
+      "title": 0.0043,
+      "outright": 0.0017,
+      "finish": 8.7
+    },
+    {
+      "team": "VMI",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.0\u201319.0",
+        "sort": 9.03
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.6\u201313.4",
+        "sort": 6.56
+      },
+      "title": 0.0034,
+      "outright": 0.001,
+      "finish": 8.8
+    },
+    {
+      "team": "The Citadel",
+      "conference": "Southern",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.8\u201321.2",
+        "sort": 7.79
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.8\u201314.2",
+        "sort": 5.75
+      },
+      "title": 0.0012,
+      "outright": 0.0004,
+      "finish": 9.4
+    },
+    {
+      "team": "Florida",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "23.3\u20136.7",
+        "sort": 23.28
+      },
+      "range": "19\u201327",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.9\u20135.1",
+        "sort": 12.88
+      },
+      "title": 0.4176,
+      "outright": 0.2866,
+      "finish": 3.3
+    },
+    {
+      "team": "Tennessee",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.6\u20138.4",
+        "sort": 21.61
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.4\u20136.6",
+        "sort": 11.36
+      },
+      "title": 0.1992,
+      "outright": 0.116,
+      "finish": 5.2
+    },
+    {
+      "team": "Texas",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.4\u20139.6",
+        "sort": 21.45
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.4\u20137.6",
+        "sort": 10.42
+      },
+      "title": 0.1283,
+      "outright": 0.0697,
+      "finish": 6.5
+    },
+    {
+      "team": "Alabama",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.7\u201311.3",
+        "sort": 18.74
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.0\u20138.0",
+        "sort": 10.04
+      },
+      "title": 0.0915,
+      "outright": 0.0473,
+      "finish": 7.0
+    },
+    {
+      "team": "Kentucky",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.9\u201311.1",
+        "sort": 20.86
+      },
+      "range": "17\u201325",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20138.2",
+        "sort": 9.85
+      },
+      "title": 0.0803,
+      "outright": 0.0428,
+      "finish": 7.3
+    },
+    {
+      "team": "Vanderbilt",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.9\u201310.1",
+        "sort": 21.87
+      },
+      "range": "18\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20138.2",
+        "sort": 9.78
+      },
+      "title": 0.0829,
+      "outright": 0.044,
+      "finish": 7.4
+    },
+    {
+      "team": "Oklahoma",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.5\u201310.5",
+        "sort": 21.47
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.7\u20138.3",
+        "sort": 9.69
+      },
+      "title": 0.0704,
+      "outright": 0.0364,
+      "finish": 7.5
+    },
+    {
+      "team": "Texas A&M",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.2\u201310.8",
+        "sort": 21.21
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.5\u20138.5",
+        "sort": 9.47
+      },
+      "title": 0.0671,
+      "outright": 0.0307,
+      "finish": 7.8
+    },
+    {
+      "team": "Arkansas",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "20.1\u201311.9",
+        "sort": 20.05
+      },
+      "range": "16\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.3\u20138.7",
+        "sort": 9.31
+      },
+      "title": 0.0558,
+      "outright": 0.0259,
+      "finish": 8.1
+    },
+    {
+      "team": "Auburn",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.3\u201311.7",
+        "sort": 18.3
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.7\u20139.3",
+        "sort": 8.67
+      },
+      "title": 0.0391,
+      "outright": 0.0173,
+      "finish": 9.0
+    },
+    {
+      "team": "Georgia",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.5\u201312.5",
+        "sort": 19.48
+      },
+      "range": "15\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.6\u20139.4",
+        "sort": 8.55
+      },
+      "title": 0.034,
+      "outright": 0.0157,
+      "finish": 9.2
+    },
+    {
+      "team": "LSU",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.1\u201313.9",
+        "sort": 18.12
+      },
+      "range": "14\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u201310.5",
+        "sort": 7.51
+      },
+      "title": 0.0177,
+      "outright": 0.0077,
+      "finish": 10.7
+    },
+    {
+      "team": "Mississippi St",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.8\u201314.2",
+        "sort": 16.8
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.5\u201310.5",
+        "sort": 7.51
+      },
+      "title": 0.0146,
+      "outright": 0.0056,
+      "finish": 10.7
+    },
+    {
+      "team": "Missouri",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.1\u201314.9",
+        "sort": 17.1
+      },
+      "range": "13\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.4\u201310.6",
+        "sort": 7.39
+      },
+      "title": 0.0151,
+      "outright": 0.0061,
+      "finish": 10.8
+    },
+    {
+      "team": "Ole Miss",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.7\u201313.3",
+        "sort": 16.74
+      },
+      "range": "13\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.0\u201311.0",
+        "sort": 6.98
+      },
+      "title": 0.01,
+      "outright": 0.003,
+      "finish": 11.4
+    },
+    {
+      "team": "South Carolina",
+      "conference": "SEC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.5\u201317.5",
+        "sort": 14.52
+      },
+      "range": "11\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.6\u201313.4",
+        "sort": 4.59
+      },
+      "title": 0.0009,
+      "outright": 0.0003,
+      "finish": 14.2
+    },
+    {
+      "team": "Bethune",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.1\u201314.9",
+        "sort": 16.05
+      },
+      "range": "12\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "13.7\u20134.3",
+        "sort": 13.69
+      },
+      "title": 0.5414,
+      "outright": 0.4211,
+      "finish": 2.3
+    },
+    {
+      "team": "Alabama St",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.8\u201315.2",
+        "sort": 13.83
+      },
+      "range": "10\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.6\u20136.4",
+        "sort": 11.63
+      },
+      "title": 0.2005,
+      "outright": 0.1281,
+      "finish": 3.9
+    },
+    {
+      "team": "Prairie View",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.6\u201315.4",
+        "sort": 12.63
+      },
+      "range": "9\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.6\u20136.4",
+        "sort": 11.57
+      },
+      "title": 0.1814,
+      "outright": 0.1079,
+      "finish": 4.0
+    },
+    {
+      "team": "Alabama A&M",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.0\u201315.0",
+        "sort": 13.04
+      },
+      "range": "9\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.0\u20138.0",
+        "sort": 9.99
+      },
+      "title": 0.0823,
+      "outright": 0.043,
+      "finish": 5.5
+    },
+    {
+      "team": "Florida A&M",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.3\u201317.7",
+        "sort": 12.29
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20138.2",
+        "sort": 9.83
+      },
+      "title": 0.0663,
+      "outright": 0.0376,
+      "finish": 5.6
+    },
+    {
+      "team": "Southern",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.9\u201319.1",
+        "sort": 9.86
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.3\u20138.7",
+        "sort": 9.34
+      },
+      "title": 0.0555,
+      "outright": 0.0309,
+      "finish": 6.1
+    },
+    {
+      "team": "Jackson St",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.5\u201322.5",
+        "sort": 10.52
+      },
+      "range": "7\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.6\u20139.4",
+        "sort": 9.6
+      },
+      "title": 0.0337,
+      "outright": 0.0337,
+      "finish": 6.4
+    },
+    {
+      "team": "Texas Southern",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.1\u201319.9",
+        "sort": 9.14
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u20139.0",
+        "sort": 7.96
+      },
+      "title": 0.018,
+      "outright": 0.0179,
+      "finish": 7.1
+    },
+    {
+      "team": "Alcorn St",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.9\u201324.1",
+        "sort": 7.86
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.1\u201310.9",
+        "sort": 7.08
+      },
+      "title": 0.0084,
+      "outright": 0.0036,
+      "finish": 8.4
+    },
+    {
+      "team": "Grambling",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.6\u201320.4",
+        "sort": 8.6
+      },
+      "range": "4\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u201311.2",
+        "sort": 6.76
+      },
+      "title": 0.0089,
+      "outright": 0.0033,
+      "finish": 8.7
+    },
+    {
+      "team": "AR-Pine Bluff",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "6.5\u201322.5",
+        "sort": 6.5
+      },
+      "range": "3\u201310",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.9\u201311.1",
+        "sort": 5.9
+      },
+      "title": 0.0019,
+      "outright": 0.0018,
+      "finish": 9.2
+    },
+    {
+      "team": "Miss Valley St",
+      "conference": "SWAC",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "4.7\u201328.3",
+        "sort": 4.7
+      },
+      "range": "2\u20138",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.6\u201314.4",
+        "sort": 4.64
+      },
+      "title": 0.0003,
+      "outright": 0.0003,
+      "finish": 10.7
+    },
+    {
+      "team": "McNeese",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "22.0\u20137.0",
+        "sort": 22.02
+      },
+      "range": "18\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "17.8\u20134.2",
+        "sort": 17.84
+      },
+      "title": 0.6817,
+      "outright": 0.5688,
+      "finish": 1.7
+    },
+    {
+      "team": "SF Austin",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.2\u20138.8",
+        "sort": 19.24
+      },
+      "range": "15\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "15.5\u20136.5",
+        "sort": 15.5
+      },
+      "title": 0.2644,
+      "outright": 0.1801,
+      "finish": 2.9
+    },
+    {
+      "team": "LSU N Orleans",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.2\u201314.8",
+        "sort": 15.22
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.2\u20139.8",
+        "sort": 12.18
+      },
+      "title": 0.0504,
+      "outright": 0.0267,
+      "finish": 5.4
+    },
+    {
+      "team": "Texas A&M-CC",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.7\u201316.3",
+        "sort": 13.67
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "12.1\u20139.9",
+        "sort": 12.05
+      },
+      "title": 0.0527,
+      "outright": 0.0286,
+      "finish": 5.5
+    },
+    {
+      "team": "UT Rio Grande",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.7\u201316.4",
+        "sort": 13.65
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.6\u201310.4",
+        "sort": 11.59
+      },
+      "title": 0.0387,
+      "outright": 0.0215,
+      "finish": 5.9
+    },
+    {
+      "team": "Lamar",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.7\u201315.3",
+        "sort": 14.72
+      },
+      "range": "10\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.5\u201310.5",
+        "sort": 11.52
+      },
+      "title": 0.0345,
+      "outright": 0.0181,
+      "finish": 5.9
+    },
+    {
+      "team": "SE Louisiana",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.4\u201320.6",
+        "sort": 11.38
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u201311.9",
+        "sort": 10.05
+      },
+      "title": 0.012,
+      "outright": 0.005,
+      "finish": 7.2
+    },
+    {
+      "team": "Hou Christian",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.0\u201317.0",
+        "sort": 12.98
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.5\u201312.5",
+        "sort": 9.52
+      },
+      "title": 0.0094,
+      "outright": 0.0049,
+      "finish": 7.7
+    },
+    {
+      "team": "N'Western St",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.3\u201318.7",
+        "sort": 11.3
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.0\u201313.0",
+        "sort": 8.98
+      },
+      "title": 0.0065,
+      "outright": 0.0027,
+      "finish": 8.1
+    },
+    {
+      "team": "Nicholls",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.7\u201319.3",
+        "sort": 10.74
+      },
+      "range": "6\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.9\u201313.1",
+        "sort": 8.89
+      },
+      "title": 0.0048,
+      "outright": 0.0021,
+      "finish": 8.2
+    },
+    {
+      "team": "Incarnate Word",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.9\u201323.1",
+        "sort": 8.89
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.7\u201314.3",
+        "sort": 7.66
+      },
+      "title": 0.0021,
+      "outright": 0.0007,
+      "finish": 9.2
+    },
+    {
+      "team": "East Texas A&M",
+      "conference": "Southland",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.6\u201323.4",
+        "sort": 7.56
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.2\u201315.8",
+        "sort": 6.2
+      },
+      "title": 0.0005,
+      "outright": 0.0002,
+      "finish": 10.3
+    },
+    {
+      "team": "St Thomas",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.0\u201311.0",
+        "sort": 18.02
+      },
+      "range": "13\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.8\u20134.2",
+        "sort": 9.77
+      },
+      "title": 0.4643,
+      "outright": 0.3221,
+      "finish": 2.3
+    },
+    {
+      "team": "N Dakota St",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.7\u201312.3",
+        "sort": 16.73
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.6\u20134.4",
+        "sort": 9.62
+      },
+      "title": 0.4401,
+      "outright": 0.3047,
+      "finish": 2.4
+    },
+    {
+      "team": "Oral Roberts",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.3\u201315.7",
+        "sort": 10.35
+      },
+      "range": "6\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.2\u20136.8",
+        "sort": 7.25
+      },
+      "title": 0.1083,
+      "outright": 0.0578,
+      "finish": 4.3
+    },
+    {
+      "team": "S Dakota St",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.5\u201314.5",
+        "sort": 12.46
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.0\u20137.0",
+        "sort": 6.99
+      },
+      "title": 0.0962,
+      "outright": 0.0495,
+      "finish": 4.5
+    },
+    {
+      "team": "South Dakota",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.1\u201315.9",
+        "sort": 12.07
+      },
+      "range": "8\u201317",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.1\u20137.9",
+        "sort": 6.09
+      },
+      "title": 0.0475,
+      "outright": 0.0231,
+      "finish": 5.2
+    },
+    {
+      "team": "Omaha",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "8.8\u201317.2",
+        "sort": 8.84
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.8\u20138.2",
+        "sort": 5.76
+      },
+      "title": 0.0383,
+      "outright": 0.0172,
+      "finish": 5.5
+    },
+    {
+      "team": "Kansas City",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.0\u201317.0",
+        "sort": 10.97
+      },
+      "range": "6\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.6\u20138.4",
+        "sort": 5.64
+      },
+      "title": 0.034,
+      "outright": 0.0151,
+      "finish": 5.6
+    },
+    {
+      "team": "North Dakota",
+      "conference": "Summit",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "7.5\u201320.5",
+        "sort": 7.46
+      },
+      "range": "4\u201312",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.9\u20139.1",
+        "sort": 4.87
+      },
+      "title": 0.0159,
+      "outright": 0.0064,
+      "finish": 6.2
+    },
+    {
+      "team": "Tarleton St",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "18.0\u201310.0",
+        "sort": 17.98
+      },
+      "range": "14\u201322",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.9\u20135.1",
+        "sort": 10.86
+      },
+      "title": 0.4032,
+      "outright": 0.2803,
+      "finish": 2.7
+    },
+    {
+      "team": "C Arkansas",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.3\u201312.7",
+        "sort": 15.26
+      },
+      "range": "11\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.1\u20136.0",
+        "sort": 10.05
+      },
+      "title": 0.2796,
+      "outright": 0.178,
+      "finish": 3.3
+    },
+    {
+      "team": "Austin Peay",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.2\u201311.8",
+        "sort": 16.22
+      },
+      "range": "12\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.0\u20136.0",
+        "sort": 10.03
+      },
+      "title": 0.2778,
+      "outright": 0.1782,
+      "finish": 3.3
+    },
+    {
+      "team": "UT Arlington",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.9\u201315.1",
+        "sort": 13.9
+      },
+      "range": "9\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.5\u20137.5",
+        "sort": 8.5
+      },
+      "title": 0.1192,
+      "outright": 0.0659,
+      "finish": 4.6
+    },
+    {
+      "team": "Little Rock",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.7\u201316.3",
+        "sort": 13.73
+      },
+      "range": "9\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.0\u20138.0",
+        "sort": 7.99
+      },
+      "title": 0.0836,
+      "outright": 0.0423,
+      "finish": 5.0
+    },
+    {
+      "team": "Abilene Chrstn",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "11.5\u201316.5",
+        "sort": 11.47
+      },
+      "range": "7\u201316",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.9\u20139.1",
+        "sort": 6.89
+      },
+      "title": 0.042,
+      "outright": 0.0203,
+      "finish": 5.9
+    },
+    {
+      "team": "E Kentucky",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.6\u201317.4",
+        "sort": 10.57
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.2\u20139.8",
+        "sort": 6.18
+      },
+      "title": 0.0216,
+      "outright": 0.0095,
+      "finish": 6.5
+    },
+    {
+      "team": "West Georgia",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "10.3\u201318.8",
+        "sort": 10.26
+      },
+      "range": "6\u201315",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.8\u201310.2",
+        "sort": 5.85
+      },
+      "title": 0.0173,
+      "outright": 0.0071,
+      "finish": 6.8
+    },
+    {
+      "team": "North Alabama",
+      "conference": "United Athletic",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.3\u201318.7",
+        "sort": 9.3
+      },
+      "range": "5\u201313",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "5.6\u201310.4",
+        "sort": 5.63
+      },
+      "title": 0.0139,
+      "outright": 0.0058,
+      "finish": 6.9
+    },
+    {
+      "team": "Saint Mary's",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "21.6\u20138.4",
+        "sort": 21.61
+      },
+      "range": "17\u201326",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "11.8\u20134.2",
+        "sort": 11.84
+      },
+      "title": 0.5369,
+      "outright": 0.4329,
+      "finish": 2.2
+    },
+    {
+      "team": "Santa Clara",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "19.4\u201311.6",
+        "sort": 19.38
+      },
+      "range": "14\u201324",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "10.4\u20135.6",
+        "sort": 10.41
+      },
+      "title": 0.2653,
+      "outright": 0.1857,
+      "finish": 3.3
+    },
+    {
+      "team": "LMU",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "17.7\u201313.3",
+        "sort": 17.68
+      },
+      "range": "13\u201323",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "9.1\u20137.9",
+        "sort": 9.08
+      },
+      "title": 0.082,
+      "outright": 0.0797,
+      "finish": 4.9
+    },
+    {
+      "team": "San Diego",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "15.8\u201313.2",
+        "sort": 15.82
+      },
+      "range": "11\u201320",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.4\u20137.6",
+        "sort": 8.39
+      },
+      "title": 0.0724,
+      "outright": 0.0391,
+      "finish": 5.1
+    },
+    {
+      "team": "Pacific",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.1\u201313.9",
+        "sort": 16.11
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.3\u20137.7",
+        "sort": 8.34
+      },
+      "title": 0.0763,
+      "outright": 0.0455,
+      "finish": 5.2
+    },
+    {
+      "team": "Pepperdine",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "16.3\u201313.7",
+        "sort": 16.32
+      },
+      "range": "11\u201321",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "8.1\u20138.9",
+        "sort": 8.13
+      },
+      "title": 0.0464,
+      "outright": 0.0441,
+      "finish": 5.8
+    },
+    {
+      "team": "Seattle U",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "14.2\u201314.8",
+        "sort": 14.24
+      },
+      "range": "10\u201319",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "7.0\u20139.0",
+        "sort": 7.04
+      },
+      "title": 0.031,
+      "outright": 0.0172,
+      "finish": 6.4
+    },
+    {
+      "team": "Portland",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "12.7\u201316.3",
+        "sort": 12.74
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.8\u20139.2",
+        "sort": 6.8
+      },
+      "title": 0.0267,
+      "outright": 0.0129,
+      "finish": 6.6
+    },
+    {
+      "team": "San Francisco",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "13.2\u201317.8",
+        "sort": 13.23
+      },
+      "range": "8\u201318",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "6.1\u20139.9",
+        "sort": 6.11
+      },
+      "title": 0.0127,
+      "outright": 0.0059,
+      "finish": 7.3
+    },
+    {
+      "team": "Denver",
+      "conference": "West Coast",
+      "record": "0\u20130",
+      "projRecord": {
+        "v": "9.3\u201320.7",
+        "sort": 9.32
+      },
+      "range": "5\u201314",
+      "confRecord": "0\u20130",
+      "projConf": {
+        "v": "4.9\u201311.1",
+        "sort": 4.86
+      },
+      "title": 0.0027,
+      "outright": 0.0014,
+      "finish": 8.3
+    }
+  ]
+}

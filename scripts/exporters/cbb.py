@@ -12,12 +12,13 @@ and writes public/data/cbb/:
     results/        those predictions graded,   final scores + settled bets from data/cbb.sqlite
                     one slate per day           (read-only); the season's records per variant
                                                 and per twist layer from outputs/records.json
+    season.json     the regular-season outlook  the newest outputs/sims/season_<season>_<date>.csv (`cbb season`)
     rankings.json   every D1 team               outputs/rankings.csv (`cbb rankings`)
     card.json       the landing card's line
 
 Rehearsals and replays write <date>_dry_* files, which are never published. The model's "CBB
 gameday" scheduled task rewrites a day's files while games are on, so a file caught mid-write
-is read again. The season outlook (phase 10) joins as season.json once the model writes it.
+is read again.
 
 scripts/update-data.ps1 runs this with the model's own venv Python (pandas):
 
@@ -52,6 +53,15 @@ GAME_TYPES = {"conf_tourney": "conf. tournament", "ncaa": "NCAA tournament", "ni
 LAYERS = [("form", "Form (this season's games)"), ("tilt", "Offense/defense tilt"), ("tournament_pace", "Tournament pace"),
           ("four_factors", "Four factors matchup"), ("star_boost", "Star boost"), ("availability", "Who's out")]
 SEARCH = "Search teams or players"
+SIM = re.compile(r"season_(?P<season>\d{4})_(?P<day>\d{4}-\d{2}-\d{2})\.csv$")
+CONFERENCES = {  # Barttorvik's codes, as the model keeps them
+    "A10": "Atlantic 10", "ACC": "ACC", "AE": "America East", "ASun": "ASUN", "Amer": "American", "B10": "Big Ten",
+    "B12": "Big 12", "BE": "Big East", "BSky": "Big Sky", "BSth": "Big South", "BW": "Big West", "CAA": "CAA",
+    "CUSA": "Conference USA", "Horz": "Horizon", "Ivy": "Ivy League", "MAC": "MAC", "MEAC": "MEAC", "MVC": "Missouri Valley",
+    "MWC": "Mountain West", "Metro": "MAAC", "NEC": "Northeast", "OVC": "Ohio Valley", "P12": "Pac-12", "Pat": "Patriot",
+    "SB": "Sun Belt", "SC": "Southern", "SEC": "SEC", "SWAC": "SWAC", "Slnd": "Southland", "Sum": "Summit",
+    "UAC": "United Athletic", "WCC": "West Coast", "WAC": "WAC",
+}
 COIN_FLIP = {"log_loss": math.log(2), "brier": 0.25}
 BET_RESULT = {"win": "W", "loss": "L", "push": "P"}
 
@@ -305,6 +315,59 @@ def build_cards(df: pd.DataFrame, bets: pd.DataFrame, day: str) -> dict[str, dic
     for b in bets.to_dict("records"):
         by_game.setdefault(text(b.get("game_id")), []).append(b)
     return {text(d["game_id"]): game_card(d, by_game.get(text(d["game_id"]), []), day) for d in df.to_dict("records")}
+
+
+# --------------------------------------------------------------------------
+# season: the regular-season outlook
+# --------------------------------------------------------------------------
+def newest_sim(outputs: Path, season: int) -> Path | None:
+    found = sorted((m.group("day"), p) for p in (outputs / "sims").glob(f"season_{season}_*.csv") if (m := SIM.match(p.name)))
+    return found[-1][1] if found else None
+
+
+def build_season(path: Path, season: int) -> dict:
+    """The outlook grouped by conference, likeliest champion first (sports/cbb/season.py's table)."""
+    df = pd.read_csv(path).sort_values(["conference", "finish_mean", "team"])
+    rows = []
+    for d in df.to_dict("records"):
+        wins, losses = num(d.get("wins_mean"), 2), num(d.get("losses_mean"), 2)
+        cw, cl = num(d.get("conf_wins_mean"), 2), num(d.get("conf_losses_mean"), 2)
+        p10, p90 = num(d.get("wins_p10"), 0), num(d.get("wins_p90"), 0)
+        rows.append({
+            "team": text(d.get("team")),
+            "conference": CONFERENCES.get(text(d.get("conference")) or "", text(d.get("conference")) or "Independent"),
+            "record": f"{int(d.get('wins_now') or 0)}–{int(d.get('losses_now') or 0)}",
+            "projRecord": None if wins is None else {"v": f"{wins:.1f}–{losses:.1f}", "sort": wins},
+            "range": None if p10 is None or p90 is None else f"{p10:.0f}–{p90:.0f}",
+            "confRecord": f"{int(d.get('conf_wins_now') or 0)}–{int(d.get('conf_losses_now') or 0)}",
+            "projConf": None if cw is None else {"v": f"{cw:.1f}–{cl:.1f}", "sort": cw},
+            "title": num(d.get("p_title"), 4),
+            "outright": num(d.get("p_outright"), 4),
+            "finish": num(d.get("finish_mean"), 1),
+        })
+    columns = [
+        {"key": "team", "label": "Team"},
+        {"key": "record", "label": "W–L", "align": "right"},
+        {"key": "projRecord", "label": "Proj. W–L", "align": "right", "sortable": True},
+        {"key": "range", "label": "Wins 10–90%", "align": "right"},
+        {"key": "confRecord", "label": "Conf", "align": "right"},
+        {"key": "projConf", "label": "Proj. Conf", "align": "right", "sortable": True},
+        {"key": "title", "label": "Title", "align": "right", "format": "percent", "sortable": True},
+        {"key": "outright", "label": "Outright", "align": "right", "format": "percent", "sortable": True},
+        {"key": "finish", "label": "Avg Finish", "align": "right", "format": "number", "sortable": True},
+    ]
+    as_of = SIM.match(path.name).group("day")
+    return {
+        "subtitle": f"{_season_label(season)} regular season as of {_day_label(as_of)} — the rest of the season simulated "
+                    "10,000 times from the schedule, each team's rating shifted once per season by its uncertainty. "
+                    "Records are D1 regular-season games only (no non-D1 opponents; conference tournaments come later). "
+                    "Title = first or tied for first in the conference's regular season; Outright = first alone.",
+        "updated": file_date(path),
+        "groupBy": "conference",
+        "search": "Search teams",
+        "columns": columns,
+        "rows": rows,
+    }
 
 
 # --------------------------------------------------------------------------
@@ -701,6 +764,18 @@ def main() -> int:
     publish_slates(args.site_dir / "games", slates, season=season, label=f"{_season_label(season)} Season", unit="day", latest=opens)
     sources = [paths[day] for day in publish]
 
+    sim = newest_sim(outputs, season)
+    favorite = None
+    if sim is not None:
+        write_table(args.site_dir / "season.json", build_season(sim, season))
+        sources.append(sim)
+        table = pd.read_csv(sim)
+        best = table.loc[table["p_title"].idxmax()]
+        favorite = {"label": "Surest title", "value": text(best["team"]),
+                    "detail": f"{num(best['p_title'], 4):.0%} to win the {CONFERENCES.get(text(best['conference']) or '', text(best['conference']))}"}
+    else:
+        print(f"  [skip] no {season} season simulation in {outputs / 'sims'}: run `cbb season`")
+
     top = None
     if rankings.exists():
         write_table(args.site_dir / "rankings.json", build_rankings(rankings, season))
@@ -730,7 +805,7 @@ def main() -> int:
     headline = (_day_label(opens) if opens else
                 f"Season opens {_day_label(opening)}" if opening else f"{_season_label(season)} season")
     write_card(args.site_dir, headline=headline, updated=max((file_date(p) for p in sources), default=None),
-               stats=[s for s in (straight_up, ats or top) if s])
+               stats=[s for s in (straight_up, ats or top, None if record else favorite) if s][:2])
     return 0
 
 

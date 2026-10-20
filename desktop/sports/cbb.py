@@ -3,13 +3,14 @@
 Runs with the CBB model's venv Python:
   python desktop/sports/cbb.py plan             # what's due now (runs nothing)
   python desktop/sports/cbb.py step rankings    # every D1 team by the model's rating (`cbb rankings`)
+  python desktop/sports/cbb.py step season      # the regular-season outlook (`cbb season`, about a minute)
 
 The day's predictions belong to the model's own "CBB gameday" scheduled task: it starts each day at
 12:05 AM and runs the daily pipeline 75 minutes before the first tip (refresh, close and settle,
 predict both ways, bets, outputs/daily/), then rechecks the games of each later tip. The model has
 no lock against a second run, so the app never runs `cbb daily` or `cbb gameday`; it exports what
-the task wrote and keeps the rankings fresh. Neither rewrites a day's predictions, so no step needs
-the kickoff freeze. The season outlook joins in phase 10.
+the task wrote and keeps the rankings and the season outlook fresh. Neither rewrites a day's
+predictions, so no step needs the kickoff freeze.
 """
 
 from __future__ import annotations
@@ -37,8 +38,13 @@ AVAILABILITY = FOLDER / "config" / "availability.yaml"
 TORVIK_FILES = ("*_team_results.csv", "trank_data.csv", "*_fffinal.csv")
 TASK = "CBB gameday"
 
-RANKINGS_EVERY = timedelta(hours=20)
+REFRESH_EVERY = timedelta(hours=20)  # the rankings and the season sim: about daily, after the morning's results
 HIDE = ("ODDS_API_KEY",)  # the model takes its lines from ESPN; nothing the app runs can spend credits
+
+
+def newest_sim() -> Path | None:
+    sims = sorted((OUT / "sims").glob("season_????_????-??-??.csv"), key=lambda p: p.name[-14:])
+    return sims[-1] if sims else None
 
 
 def latest_day() -> str | None:
@@ -107,11 +113,13 @@ def plan(history: History, force: bool) -> Plan:
     p = Plan("cbb")
     day = latest_day()
     p.label = et_day(to_utc(day + "T17:00:00")) if day else "No game day yet"
-    written = file_time(RANKINGS)
-    stale = written is None or now - written >= RANKINGS_EVERY
-    p.step("rankings", "Rankings", ["rankings"], due=force or stale,
-           reason="never run" if written is None else
-           f"last run {ago(written, now)}" + ("" if stale else f" (refreshes every {span(RANKINGS_EVERY)})"))
+    sim = newest_sim()
+    for step, label, written in (("rankings", "Rankings", file_time(RANKINGS)),
+                                 ("season", "Season sim", file_time(sim) if sim else None)):
+        stale = written is None or now - written >= REFRESH_EVERY
+        p.step(step, label, [step], due=force or stale,
+               reason="never run" if written is None else
+               f"last run {ago(written, now)}" + ("" if stale else f" (refreshes every {span(REFRESH_EVERY)})"))
     state, detail = gameday_task()
     p.stat("Gameday task", state, detail, tone=None if state in ("Ready", "Running") else "bad")
     need_inputs(p)
@@ -128,9 +136,20 @@ def step_rankings(args: argparse.Namespace) -> int:
     return finish(True, "Rankings updated")
 
 
+def step_season(args: argparse.Namespace) -> int:
+    start = utcnow()
+    code = run([CBB, "season"], FOLDER, hide=HIDE)
+    if code != 0:
+        return finish(False, f"cbb season exited with code {code}")
+    sim = newest_sim()
+    if sim is None or not written_since(sim, start):
+        return finish(False, "cbb season didn't write a season simulation")
+    return finish(True, f"Season sim updated ({sim.name})")
+
+
 def freeze_for(path: Path) -> Freeze | None:
     return None  # the app never rewrites a day's predictions (see above)
 
 
 if __name__ == "__main__":
-    raise SystemExit(cli("cbb", plan, {"rankings": step_rankings}, freeze_for))
+    raise SystemExit(cli("cbb", plan, {"rankings": step_rankings, "season": step_season}, freeze_for))

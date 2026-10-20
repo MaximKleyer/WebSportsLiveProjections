@@ -203,7 +203,7 @@ export const SPORTS = [
     accent: '#e89c3a',
     year: '2026–27',
     // Games most days, so like the NBA its games view is a daily slate. Every game is shown
-    // twice, Barttorvik alone beside the twist; the season outlook comes later (phase 10).
+    // twice, Barttorvik alone beside the twist.
     views: [
       {
         type: 'games',
@@ -213,7 +213,12 @@ export const SPORTS = [
         blurb:
           'Every D1 game, day by day: Barttorvik alone beside the twist (this season’s form, four factors, star power, who’s out), the market’s line and flagged bets. Open a game for its layers.',
       },
-      { type: 'season', status: 'in-dev' },
+      {
+        type: 'season',
+        status: 'live',
+        blurb:
+          'The rest of the regular season simulated 10,000 times: projected records, conference records and each conference’s regular-season title odds.',
+      },
       {
         type: 'results',
         status: 'live',
