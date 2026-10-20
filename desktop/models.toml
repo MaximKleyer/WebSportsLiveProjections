@@ -34,3 +34,11 @@ folder = 'C:\Users\maxim\WebSportsLiveProjections\models\nba'
 python = '.venv\Scripts\python.exe'
 # The day's predictions are the model's own "NBA gameday" scheduled task's; the app runs
 # the season sim and power rankings and exports (desktop/sports/nba.py).
+
+[[model]]
+id = "cbb"
+name = "College Basketball"
+folder = 'C:\Users\maxim\WebSportsLiveProjections\models\cbb'
+python = '.venv\Scripts\python.exe'
+# The day's predictions are the model's own "CBB gameday" scheduled task's; the app runs the
+# rankings and exports (desktop/sports/cbb.py).

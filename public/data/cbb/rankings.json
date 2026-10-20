@@ -1,0 +1,6267 @@
+{
+  "subtitle": "2026\u201327 \u2014 every D1 team by the model's net rating (offense less defense, points per 100 possessions against an average team, home court left out): Barttorvik's live T-Rank, leaned toward this season's form once a team has played 5 games (Form share). Barttorvik = his own net rating and rank. As of 2026-10-20.",
+  "updated": "2026-10-20",
+  "search": "Search teams",
+  "columns": [
+    {
+      "key": "rank",
+      "label": "#",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "team",
+      "label": "Team"
+    },
+    {
+      "key": "conf",
+      "label": "Conf",
+      "sortable": true
+    },
+    {
+      "key": "record",
+      "label": "D1 W\u2013L",
+      "align": "right"
+    },
+    {
+      "key": "net",
+      "label": "Net /100",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "off",
+      "label": "Off",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "def",
+      "label": "Def",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "tempo",
+      "label": "Tempo",
+      "align": "right",
+      "format": "number",
+      "sortable": true
+    },
+    {
+      "key": "torvik",
+      "label": "Barttorvik",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "rank": 1,
+      "team": "Duke",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+29.5",
+        "sort": 29.49
+      },
+      "off": 120.5,
+      "def": 91.0,
+      "tempo": 70.1,
+      "torvik": {
+        "v": "+29.5 (#1)",
+        "sort": 29.49
+      }
+    },
+    {
+      "rank": 2,
+      "team": "Florida",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+27.0",
+        "sort": 27.04
+      },
+      "off": 120.6,
+      "def": 93.5,
+      "tempo": 74.1,
+      "torvik": {
+        "v": "+27.0 (#3)",
+        "sort": 27.04
+      }
+    },
+    {
+      "rank": 3,
+      "team": "Arizona",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+27.0",
+        "sort": 27.02
+      },
+      "off": 118.8,
+      "def": 91.8,
+      "tempo": 74.2,
+      "torvik": {
+        "v": "+27.0 (#2)",
+        "sort": 27.02
+      }
+    },
+    {
+      "rank": 4,
+      "team": "Virginia",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+26.7",
+        "sort": 26.74
+      },
+      "off": 120.7,
+      "def": 94.0,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "+26.7 (#4)",
+        "sort": 26.74
+      }
+    },
+    {
+      "rank": 5,
+      "team": "Illinois",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+26.2",
+        "sort": 26.25
+      },
+      "off": 122.8,
+      "def": 96.5,
+      "tempo": 72.1,
+      "torvik": {
+        "v": "+26.2 (#6)",
+        "sort": 26.25
+      }
+    },
+    {
+      "rank": 6,
+      "team": "Houston",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+25.8",
+        "sort": 25.8
+      },
+      "off": 118.8,
+      "def": 93.0,
+      "tempo": 67.3,
+      "torvik": {
+        "v": "+25.8 (#5)",
+        "sort": 25.8
+      }
+    },
+    {
+      "rank": 7,
+      "team": "Kansas",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+25.5",
+        "sort": 25.48
+      },
+      "off": 119.2,
+      "def": 93.7,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "+25.5 (#7)",
+        "sort": 25.48
+      }
+    },
+    {
+      "rank": 8,
+      "team": "Louisville",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+24.6",
+        "sort": 24.59
+      },
+      "off": 119.2,
+      "def": 94.6,
+      "tempo": 72.6,
+      "torvik": {
+        "v": "+24.6 (#8)",
+        "sort": 24.59
+      }
+    },
+    {
+      "rank": 9,
+      "team": "Michigan St",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+24.2",
+        "sort": 24.22
+      },
+      "off": 118.7,
+      "def": 94.4,
+      "tempo": 70.7,
+      "torvik": {
+        "v": "+24.2 (#10)",
+        "sort": 24.22
+      }
+    },
+    {
+      "rank": 10,
+      "team": "Texas Tech",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+23.8",
+        "sort": 23.8
+      },
+      "off": 121.3,
+      "def": 97.5,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "+23.8 (#13)",
+        "sort": 23.8
+      }
+    },
+    {
+      "rank": 11,
+      "team": "Iowa State",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+23.8",
+        "sort": 23.8
+      },
+      "off": 115.8,
+      "def": 92.0,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "+23.8 (#9)",
+        "sort": 23.8
+      }
+    },
+    {
+      "rank": 12,
+      "team": "Miami",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+23.6",
+        "sort": 23.57
+      },
+      "off": 120.0,
+      "def": 96.5,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "+23.6 (#11)",
+        "sort": 23.57
+      }
+    },
+    {
+      "rank": 13,
+      "team": "Michigan",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+23.1",
+        "sort": 23.1
+      },
+      "off": 118.3,
+      "def": 95.2,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "+23.1 (#14)",
+        "sort": 23.1
+      }
+    },
+    {
+      "rank": 14,
+      "team": "Tennessee",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+22.8",
+        "sort": 22.79
+      },
+      "off": 119.7,
+      "def": 96.9,
+      "tempo": 69.8,
+      "torvik": {
+        "v": "+22.8 (#16)",
+        "sort": 22.79
+      }
+    },
+    {
+      "rank": 15,
+      "team": "UConn",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+22.7",
+        "sort": 22.74
+      },
+      "off": 115.9,
+      "def": 93.1,
+      "tempo": 68.8,
+      "torvik": {
+        "v": "+22.7 (#12)",
+        "sort": 22.74
+      }
+    },
+    {
+      "rank": 16,
+      "team": "Nebraska",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+22.4",
+        "sort": 22.44
+      },
+      "off": 117.2,
+      "def": 94.8,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "+22.4 (#15)",
+        "sort": 22.44
+      }
+    },
+    {
+      "rank": 17,
+      "team": "St John's",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+22.0",
+        "sort": 22.03
+      },
+      "off": 117.8,
+      "def": 95.8,
+      "tempo": 73.5,
+      "torvik": {
+        "v": "+22.0 (#18)",
+        "sort": 22.03
+      }
+    },
+    {
+      "rank": 18,
+      "team": "Gonzaga",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+22.0",
+        "sort": 22.01
+      },
+      "off": 117.4,
+      "def": 95.4,
+      "tempo": 73.2,
+      "torvik": {
+        "v": "+22.0 (#17)",
+        "sort": 22.01
+      }
+    },
+    {
+      "rank": 19,
+      "team": "Texas",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+21.8",
+        "sort": 21.82
+      },
+      "off": 118.9,
+      "def": 97.1,
+      "tempo": 71.6,
+      "torvik": {
+        "v": "+21.8 (#19)",
+        "sort": 21.82
+      }
+    },
+    {
+      "rank": 20,
+      "team": "Ohio State",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+21.7",
+        "sort": 21.67
+      },
+      "off": 118.3,
+      "def": 96.6,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "+21.7 (#20)",
+        "sort": 21.67
+      }
+    },
+    {
+      "rank": 21,
+      "team": "Alabama",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+21.5",
+        "sort": 21.54
+      },
+      "off": 118.4,
+      "def": 96.9,
+      "tempo": 76.9,
+      "torvik": {
+        "v": "+21.5 (#21)",
+        "sort": 21.54
+      }
+    },
+    {
+      "rank": 22,
+      "team": "BYU",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+20.7",
+        "sort": 20.73
+      },
+      "off": 118.3,
+      "def": 97.6,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "+20.7 (#24)",
+        "sort": 20.73
+      }
+    },
+    {
+      "rank": 23,
+      "team": "Arkansas",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+20.6",
+        "sort": 20.56
+      },
+      "off": 116.6,
+      "def": 96.0,
+      "tempo": 73.2,
+      "torvik": {
+        "v": "+20.6 (#22)",
+        "sort": 20.56
+      }
+    },
+    {
+      "rank": 24,
+      "team": "UCLA",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+20.6",
+        "sort": 20.55
+      },
+      "off": 118.2,
+      "def": 97.6,
+      "tempo": 69.0,
+      "torvik": {
+        "v": "+20.6 (#25)",
+        "sort": 20.55
+      }
+    },
+    {
+      "rank": 25,
+      "team": "Vanderbilt",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+20.4",
+        "sort": 20.44
+      },
+      "off": 116.2,
+      "def": 95.8,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "+20.4 (#23)",
+        "sort": 20.44
+      }
+    },
+    {
+      "rank": 26,
+      "team": "Indiana",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+20.4",
+        "sort": 20.38
+      },
+      "off": 118.5,
+      "def": 98.1,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "+20.4 (#26)",
+        "sort": 20.38
+      }
+    },
+    {
+      "rank": 27,
+      "team": "Oklahoma",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+20.1",
+        "sort": 20.1
+      },
+      "off": 118.8,
+      "def": 98.7,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "+20.1 (#28)",
+        "sort": 20.1
+      }
+    },
+    {
+      "rank": 28,
+      "team": "Kentucky",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+20.0",
+        "sort": 20.0
+      },
+      "off": 117.5,
+      "def": 97.5,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "+20.0 (#27)",
+        "sort": 20.0
+      }
+    },
+    {
+      "rank": 29,
+      "team": "Purdue",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+19.7",
+        "sort": 19.66
+      },
+      "off": 116.6,
+      "def": 97.0,
+      "tempo": 69.4,
+      "torvik": {
+        "v": "+19.7 (#29)",
+        "sort": 19.66
+      }
+    },
+    {
+      "rank": 30,
+      "team": "Villanova",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+19.6",
+        "sort": 19.59
+      },
+      "off": 118.1,
+      "def": 98.5,
+      "tempo": 70.5,
+      "torvik": {
+        "v": "+19.6 (#30)",
+        "sort": 19.59
+      }
+    },
+    {
+      "rank": 31,
+      "team": "NC State",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+19.5",
+        "sort": 19.47
+      },
+      "off": 120.4,
+      "def": 100.9,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "+19.5 (#33)",
+        "sort": 19.47
+      }
+    },
+    {
+      "rank": 32,
+      "team": "Marquette",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+19.0",
+        "sort": 19.02
+      },
+      "off": 116.3,
+      "def": 97.3,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "+19.0 (#31)",
+        "sort": 19.02
+      }
+    },
+    {
+      "rank": 33,
+      "team": "Texas A&M",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+18.9",
+        "sort": 18.93
+      },
+      "off": 117.0,
+      "def": 98.1,
+      "tempo": 74.0,
+      "torvik": {
+        "v": "+18.9 (#32)",
+        "sort": 18.93
+      }
+    },
+    {
+      "rank": 34,
+      "team": "Georgia",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+18.4",
+        "sort": 18.41
+      },
+      "off": 118.1,
+      "def": 99.7,
+      "tempo": 73.6,
+      "torvik": {
+        "v": "+18.4 (#34)",
+        "sort": 18.41
+      }
+    },
+    {
+      "rank": 35,
+      "team": "USC",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.9",
+        "sort": 17.86
+      },
+      "off": 114.7,
+      "def": 96.9,
+      "tempo": 72.8,
+      "torvik": {
+        "v": "+17.9 (#35)",
+        "sort": 17.86
+      }
+    },
+    {
+      "rank": 36,
+      "team": "Oregon",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.7",
+        "sort": 17.72
+      },
+      "off": 116.8,
+      "def": 99.1,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "+17.7 (#38)",
+        "sort": 17.72
+      }
+    },
+    {
+      "rank": 37,
+      "team": "Virginia Tech",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.6",
+        "sort": 17.65
+      },
+      "off": 116.1,
+      "def": 98.4,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "+17.6 (#36)",
+        "sort": 17.65
+      }
+    },
+    {
+      "rank": 38,
+      "team": "Clemson",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.6",
+        "sort": 17.57
+      },
+      "off": 115.6,
+      "def": 98.1,
+      "tempo": 69.0,
+      "torvik": {
+        "v": "+17.6 (#37)",
+        "sort": 17.57
+      }
+    },
+    {
+      "rank": 39,
+      "team": "Cincinnati",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.4",
+        "sort": 17.42
+      },
+      "off": 115.5,
+      "def": 98.1,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "+17.4 (#39)",
+        "sort": 17.42
+      }
+    },
+    {
+      "rank": 40,
+      "team": "Maryland",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.4",
+        "sort": 17.4
+      },
+      "off": 116.7,
+      "def": 99.3,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "+17.4 (#40)",
+        "sort": 17.4
+      }
+    },
+    {
+      "rank": 41,
+      "team": "Auburn",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.3",
+        "sort": 17.27
+      },
+      "off": 117.0,
+      "def": 99.7,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "+17.3 (#41)",
+        "sort": 17.27
+      }
+    },
+    {
+      "rank": 42,
+      "team": "Creighton",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+17.2",
+        "sort": 17.19
+      },
+      "off": 117.6,
+      "def": 100.4,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "+17.2 (#43)",
+        "sort": 17.19
+      }
+    },
+    {
+      "rank": 43,
+      "team": "Baylor",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.8",
+        "sort": 16.83
+      },
+      "off": 117.0,
+      "def": 100.2,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "+16.8 (#45)",
+        "sort": 16.83
+      }
+    },
+    {
+      "rank": 44,
+      "team": "Grand Canyon",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.8",
+        "sort": 16.81
+      },
+      "off": 114.1,
+      "def": 97.3,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "+16.8 (#42)",
+        "sort": 16.81
+      }
+    },
+    {
+      "rank": 45,
+      "team": "Missouri",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.5",
+        "sort": 16.49
+      },
+      "off": 114.5,
+      "def": 98.0,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "+16.5 (#44)",
+        "sort": 16.49
+      }
+    },
+    {
+      "rank": 46,
+      "team": "Wisconsin",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.4",
+        "sort": 16.39
+      },
+      "off": 115.3,
+      "def": 98.9,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "+16.4 (#47)",
+        "sort": 16.39
+      }
+    },
+    {
+      "rank": 47,
+      "team": "North Carolina",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.4",
+        "sort": 16.38
+      },
+      "off": 114.0,
+      "def": 97.6,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "+16.4 (#46)",
+        "sort": 16.38
+      }
+    },
+    {
+      "rank": 48,
+      "team": "Iowa",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.2",
+        "sort": 16.25
+      },
+      "off": 114.7,
+      "def": 98.5,
+      "tempo": 67.6,
+      "torvik": {
+        "v": "+16.2 (#49)",
+        "sort": 16.25
+      }
+    },
+    {
+      "rank": 49,
+      "team": "LSU",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.2",
+        "sort": 16.22
+      },
+      "off": 115.7,
+      "def": 99.5,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "+16.2 (#51)",
+        "sort": 16.22
+      }
+    },
+    {
+      "rank": 50,
+      "team": "West Virginia",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.2",
+        "sort": 16.16
+      },
+      "off": 114.1,
+      "def": 97.9,
+      "tempo": 67.9,
+      "torvik": {
+        "v": "+16.2 (#48)",
+        "sort": 16.16
+      }
+    },
+    {
+      "rank": 51,
+      "team": "UCF",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.1",
+        "sort": 16.14
+      },
+      "off": 114.8,
+      "def": 98.7,
+      "tempo": 73.9,
+      "torvik": {
+        "v": "+16.1 (#50)",
+        "sort": 16.14
+      }
+    },
+    {
+      "rank": 52,
+      "team": "Xavier",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.1",
+        "sort": 16.13
+      },
+      "off": 116.8,
+      "def": 100.7,
+      "tempo": 74.1,
+      "torvik": {
+        "v": "+16.1 (#52)",
+        "sort": 16.13
+      }
+    },
+    {
+      "rank": 53,
+      "team": "Oklahoma St",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+16.0",
+        "sort": 16.0
+      },
+      "off": 117.4,
+      "def": 101.4,
+      "tempo": 74.0,
+      "torvik": {
+        "v": "+16.0 (#56)",
+        "sort": 16.0
+      }
+    },
+    {
+      "rank": 54,
+      "team": "SMU",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+15.9",
+        "sort": 15.91
+      },
+      "off": 115.4,
+      "def": 99.5,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "+15.9 (#54)",
+        "sort": 15.91
+      }
+    },
+    {
+      "rank": 55,
+      "team": "Providence",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+15.8",
+        "sort": 15.8
+      },
+      "off": 115.0,
+      "def": 99.2,
+      "tempo": 74.3,
+      "torvik": {
+        "v": "+15.8 (#55)",
+        "sort": 15.8
+      }
+    },
+    {
+      "rank": 56,
+      "team": "TCU",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+15.7",
+        "sort": 15.68
+      },
+      "off": 113.7,
+      "def": 98.0,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "+15.7 (#53)",
+        "sort": 15.68
+      }
+    },
+    {
+      "rank": 57,
+      "team": "VCU",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+15.3",
+        "sort": 15.32
+      },
+      "off": 113.9,
+      "def": 98.6,
+      "tempo": 73.3,
+      "torvik": {
+        "v": "+15.3 (#57)",
+        "sort": 15.32
+      }
+    },
+    {
+      "rank": 58,
+      "team": "San Diego St",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+15.0",
+        "sort": 14.96
+      },
+      "off": 113.6,
+      "def": 98.6,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "+15.0 (#58)",
+        "sort": 14.96
+      }
+    },
+    {
+      "rank": 59,
+      "team": "Utah State",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+14.3",
+        "sort": 14.26
+      },
+      "off": 114.0,
+      "def": 99.8,
+      "tempo": 69.0,
+      "torvik": {
+        "v": "+14.3 (#59)",
+        "sort": 14.26
+      }
+    },
+    {
+      "rank": 60,
+      "team": "Georgetown",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+13.9",
+        "sort": 13.89
+      },
+      "off": 112.7,
+      "def": 98.8,
+      "tempo": 71.2,
+      "torvik": {
+        "v": "+13.9 (#60)",
+        "sort": 13.89
+      }
+    },
+    {
+      "rank": 61,
+      "team": "Mississippi St",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+13.7",
+        "sort": 13.74
+      },
+      "off": 115.2,
+      "def": 101.4,
+      "tempo": 72.6,
+      "torvik": {
+        "v": "+13.7 (#62)",
+        "sort": 13.74
+      }
+    },
+    {
+      "rank": 62,
+      "team": "Ole Miss",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+13.7",
+        "sort": 13.73
+      },
+      "off": 113.0,
+      "def": 99.3,
+      "tempo": 71.0,
+      "torvik": {
+        "v": "+13.7 (#61)",
+        "sort": 13.73
+      }
+    },
+    {
+      "rank": 63,
+      "team": "Arizona St",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+13.1",
+        "sort": 13.11
+      },
+      "off": 112.3,
+      "def": 99.2,
+      "tempo": 69.1,
+      "torvik": {
+        "v": "+13.1 (#65)",
+        "sort": 13.11
+      }
+    },
+    {
+      "rank": 64,
+      "team": "DePaul",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+13.0",
+        "sort": 13.04
+      },
+      "off": 110.9,
+      "def": 97.9,
+      "tempo": 71.2,
+      "torvik": {
+        "v": "+13.0 (#63)",
+        "sort": 13.04
+      }
+    },
+    {
+      "rank": 65,
+      "team": "High Point",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "+13.0",
+        "sort": 12.97
+      },
+      "off": 114.5,
+      "def": 101.6,
+      "tempo": 73.4,
+      "torvik": {
+        "v": "+13.0 (#67)",
+        "sort": 12.97
+      }
+    },
+    {
+      "rank": 66,
+      "team": "New Mexico",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+12.9",
+        "sort": 12.91
+      },
+      "off": 111.8,
+      "def": 98.9,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "+12.9 (#66)",
+        "sort": 12.91
+      }
+    },
+    {
+      "rank": 67,
+      "team": "Saint Mary's",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+12.9",
+        "sort": 12.89
+      },
+      "off": 110.2,
+      "def": 97.3,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "+12.9 (#64)",
+        "sort": 12.89
+      }
+    },
+    {
+      "rank": 68,
+      "team": "Saint Louis",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+12.8",
+        "sort": 12.85
+      },
+      "off": 114.1,
+      "def": 101.2,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "+12.8 (#68)",
+        "sort": 12.85
+      }
+    },
+    {
+      "rank": 69,
+      "team": "Wichita St",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+12.4",
+        "sort": 12.39
+      },
+      "off": 112.5,
+      "def": 100.1,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "+12.4 (#69)",
+        "sort": 12.39
+      }
+    },
+    {
+      "rank": 70,
+      "team": "Seton Hall",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+12.1",
+        "sort": 12.11
+      },
+      "off": 110.8,
+      "def": 98.7,
+      "tempo": 69.5,
+      "torvik": {
+        "v": "+12.1 (#70)",
+        "sort": 12.11
+      }
+    },
+    {
+      "rank": 71,
+      "team": "Florida St",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+12.1",
+        "sort": 12.11
+      },
+      "off": 111.4,
+      "def": 99.3,
+      "tempo": 73.8,
+      "torvik": {
+        "v": "+12.1 (#71)",
+        "sort": 12.11
+      }
+    },
+    {
+      "rank": 72,
+      "team": "Dayton",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+11.8",
+        "sort": 11.83
+      },
+      "off": 110.1,
+      "def": 98.3,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "+11.8 (#72)",
+        "sort": 11.83
+      }
+    },
+    {
+      "rank": 73,
+      "team": "Washington",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+11.8",
+        "sort": 11.79
+      },
+      "off": 112.6,
+      "def": 100.8,
+      "tempo": 71.6,
+      "torvik": {
+        "v": "+11.8 (#73)",
+        "sort": 11.79
+      }
+    },
+    {
+      "rank": 74,
+      "team": "Syracuse",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+11.2",
+        "sort": 11.25
+      },
+      "off": 111.8,
+      "def": 100.5,
+      "tempo": 70.1,
+      "torvik": {
+        "v": "+11.2 (#74)",
+        "sort": 11.25
+      }
+    },
+    {
+      "rank": 75,
+      "team": "Northwestern",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+11.1",
+        "sort": 11.11
+      },
+      "off": 112.1,
+      "def": 101.0,
+      "tempo": 69.3,
+      "torvik": {
+        "v": "+11.1 (#75)",
+        "sort": 11.11
+      }
+    },
+    {
+      "rank": 76,
+      "team": "Rutgers",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+11.1",
+        "sort": 11.08
+      },
+      "off": 113.0,
+      "def": 101.9,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "+11.1 (#76)",
+        "sort": 11.08
+      }
+    },
+    {
+      "rank": 77,
+      "team": "G Washington",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+10.9",
+        "sort": 10.86
+      },
+      "off": 111.2,
+      "def": 100.3,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "+10.9 (#77)",
+        "sort": 10.86
+      }
+    },
+    {
+      "rank": 78,
+      "team": "Wake Forest",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+10.6",
+        "sort": 10.59
+      },
+      "off": 109.8,
+      "def": 99.2,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "+10.6 (#78)",
+        "sort": 10.59
+      }
+    },
+    {
+      "rank": 79,
+      "team": "Minnesota",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+10.4",
+        "sort": 10.44
+      },
+      "off": 109.9,
+      "def": 99.4,
+      "tempo": 68.8,
+      "torvik": {
+        "v": "+10.4 (#79)",
+        "sort": 10.44
+      }
+    },
+    {
+      "rank": 80,
+      "team": "Kansas St",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+10.2",
+        "sort": 10.24
+      },
+      "off": 112.6,
+      "def": 102.3,
+      "tempo": 74.3,
+      "torvik": {
+        "v": "+10.2 (#80)",
+        "sort": 10.24
+      }
+    },
+    {
+      "rank": 81,
+      "team": "Notre Dame",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+10.2",
+        "sort": 10.15
+      },
+      "off": 112.2,
+      "def": 102.1,
+      "tempo": 69.7,
+      "torvik": {
+        "v": "+10.2 (#81)",
+        "sort": 10.15
+      }
+    },
+    {
+      "rank": 82,
+      "team": "Colorado St",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+10.1",
+        "sort": 10.08
+      },
+      "off": 113.0,
+      "def": 103.0,
+      "tempo": 68.5,
+      "torvik": {
+        "v": "+10.1 (#83)",
+        "sort": 10.08
+      }
+    },
+    {
+      "rank": 83,
+      "team": "Stanford",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.8",
+        "sort": 9.81
+      },
+      "off": 109.8,
+      "def": 100.0,
+      "tempo": 71.2,
+      "torvik": {
+        "v": "+9.8 (#82)",
+        "sort": 9.81
+      }
+    },
+    {
+      "rank": 84,
+      "team": "Colorado",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.8",
+        "sort": 9.78
+      },
+      "off": 111.1,
+      "def": 101.3,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "+9.8 (#84)",
+        "sort": 9.78
+      }
+    },
+    {
+      "rank": 85,
+      "team": "Pitt",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.7",
+        "sort": 9.7
+      },
+      "off": 111.5,
+      "def": 101.8,
+      "tempo": 69.4,
+      "torvik": {
+        "v": "+9.7 (#87)",
+        "sort": 9.7
+      }
+    },
+    {
+      "rank": 86,
+      "team": "Nevada",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.6",
+        "sort": 9.58
+      },
+      "off": 109.7,
+      "def": 100.1,
+      "tempo": 69.7,
+      "torvik": {
+        "v": "+9.6 (#86)",
+        "sort": 9.58
+      }
+    },
+    {
+      "rank": 87,
+      "team": "Boise St",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.6",
+        "sort": 9.56
+      },
+      "off": 109.5,
+      "def": 99.9,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "+9.6 (#85)",
+        "sort": 9.56
+      }
+    },
+    {
+      "rank": 88,
+      "team": "Butler",
+      "conf": "BE",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.4",
+        "sort": 9.43
+      },
+      "off": 111.1,
+      "def": 101.6,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "+9.4 (#88)",
+        "sort": 9.43
+      }
+    },
+    {
+      "rank": 89,
+      "team": "Santa Clara",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.3",
+        "sort": 9.3
+      },
+      "off": 111.8,
+      "def": 102.5,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "+9.3 (#90)",
+        "sort": 9.3
+      }
+    },
+    {
+      "rank": 90,
+      "team": "South Florida",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.2",
+        "sort": 9.21
+      },
+      "off": 111.0,
+      "def": 101.8,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "+9.2 (#92)",
+        "sort": 9.21
+      }
+    },
+    {
+      "rank": 91,
+      "team": "McNeese",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.2",
+        "sort": 9.18
+      },
+      "off": 108.8,
+      "def": 99.6,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "+9.2 (#89)",
+        "sort": 9.18
+      }
+    },
+    {
+      "rank": 92,
+      "team": "California",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.1",
+        "sort": 9.14
+      },
+      "off": 110.0,
+      "def": 100.8,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "+9.1 (#91)",
+        "sort": 9.14
+      }
+    },
+    {
+      "rank": 93,
+      "team": "George Mason",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+9.1",
+        "sort": 9.12
+      },
+      "off": 110.9,
+      "def": 101.7,
+      "tempo": 68.5,
+      "torvik": {
+        "v": "+9.1 (#93)",
+        "sort": 9.12
+      }
+    },
+    {
+      "rank": 94,
+      "team": "Tulsa",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+8.8",
+        "sort": 8.78
+      },
+      "off": 110.8,
+      "def": 102.0,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "+8.8 (#94)",
+        "sort": 8.78
+      }
+    },
+    {
+      "rank": 95,
+      "team": "Penn State",
+      "conf": "B10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+8.6",
+        "sort": 8.56
+      },
+      "off": 113.0,
+      "def": 104.4,
+      "tempo": 72.8,
+      "torvik": {
+        "v": "+8.6 (#97)",
+        "sort": 8.56
+      }
+    },
+    {
+      "rank": 96,
+      "team": "UNLV",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+8.6",
+        "sort": 8.55
+      },
+      "off": 111.6,
+      "def": 103.1,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "+8.6 (#96)",
+        "sort": 8.55
+      }
+    },
+    {
+      "rank": 97,
+      "team": "Oregon St",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+8.5",
+        "sort": 8.52
+      },
+      "off": 112.7,
+      "def": 104.2,
+      "tempo": 70.9,
+      "torvik": {
+        "v": "+8.5 (#98)",
+        "sort": 8.52
+      }
+    },
+    {
+      "rank": 98,
+      "team": "South Carolina",
+      "conf": "SEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+8.5",
+        "sort": 8.48
+      },
+      "off": 110.1,
+      "def": 101.6,
+      "tempo": 69.8,
+      "torvik": {
+        "v": "+8.5 (#95)",
+        "sort": 8.48
+      }
+    },
+    {
+      "rank": 99,
+      "team": "Akron",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+8.2",
+        "sort": 8.15
+      },
+      "off": 109.1,
+      "def": 101.0,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "+8.2 (#99)",
+        "sort": 8.15
+      }
+    },
+    {
+      "rank": 100,
+      "team": "UIC",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+7.8",
+        "sort": 7.8
+      },
+      "off": 110.3,
+      "def": 102.5,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "+7.8 (#100)",
+        "sort": 7.8
+      }
+    },
+    {
+      "rank": 101,
+      "team": "Charlotte",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+7.6",
+        "sort": 7.64
+      },
+      "off": 112.3,
+      "def": 104.6,
+      "tempo": 70.5,
+      "torvik": {
+        "v": "+7.6 (#101)",
+        "sort": 7.64
+      }
+    },
+    {
+      "rank": 102,
+      "team": "Santa Barbara",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "+7.4",
+        "sort": 7.42
+      },
+      "off": 111.3,
+      "def": 103.9,
+      "tempo": 69.5,
+      "torvik": {
+        "v": "+7.4 (#102)",
+        "sort": 7.42
+      }
+    },
+    {
+      "rank": 103,
+      "team": "Utah",
+      "conf": "B12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+7.3",
+        "sort": 7.26
+      },
+      "off": 109.1,
+      "def": 101.8,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "+7.3 (#103)",
+        "sort": 7.26
+      }
+    },
+    {
+      "rank": 104,
+      "team": "Miami OH",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+7.2",
+        "sort": 7.18
+      },
+      "off": 111.5,
+      "def": 104.3,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "+7.2 (#104)",
+        "sort": 7.18
+      }
+    },
+    {
+      "rank": 105,
+      "team": "Murray St",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+6.4",
+        "sort": 6.36
+      },
+      "off": 111.8,
+      "def": 105.4,
+      "tempo": 74.7,
+      "torvik": {
+        "v": "+6.4 (#107)",
+        "sort": 6.36
+      }
+    },
+    {
+      "rank": 106,
+      "team": "Western KY",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "+6.3",
+        "sort": 6.28
+      },
+      "off": 109.9,
+      "def": 103.6,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "+6.3 (#105)",
+        "sort": 6.28
+      }
+    },
+    {
+      "rank": 107,
+      "team": "Illinois St",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+6.2",
+        "sort": 6.25
+      },
+      "off": 109.4,
+      "def": 103.2,
+      "tempo": 70.1,
+      "torvik": {
+        "v": "+6.2 (#106)",
+        "sort": 6.25
+      }
+    },
+    {
+      "rank": 108,
+      "team": "Boston College",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+6.2",
+        "sort": 6.17
+      },
+      "off": 110.7,
+      "def": 104.5,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "+6.2 (#108)",
+        "sort": 6.17
+      }
+    },
+    {
+      "rank": 109,
+      "team": "UNC Wilmington",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "+6.0",
+        "sort": 6.02
+      },
+      "off": 111.2,
+      "def": 105.1,
+      "tempo": 69.5,
+      "torvik": {
+        "v": "+6.0 (#110)",
+        "sort": 6.02
+      }
+    },
+    {
+      "rank": 110,
+      "team": "Memphis",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+5.9",
+        "sort": 5.89
+      },
+      "off": 111.5,
+      "def": 105.6,
+      "tempo": 74.3,
+      "torvik": {
+        "v": "+5.9 (#111)",
+        "sort": 5.89
+      }
+    },
+    {
+      "rank": 111,
+      "team": "UC Irvine",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "+5.7",
+        "sort": 5.68
+      },
+      "off": 104.2,
+      "def": 98.5,
+      "tempo": 72.5,
+      "torvik": {
+        "v": "+5.7 (#109)",
+        "sort": 5.68
+      }
+    },
+    {
+      "rank": 112,
+      "team": "Georgia Tech",
+      "conf": "ACC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+5.5",
+        "sort": 5.5
+      },
+      "off": 110.5,
+      "def": 105.0,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "+5.5 (#112)",
+        "sort": 5.5
+      }
+    },
+    {
+      "rank": 113,
+      "team": "Richmond",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+5.1",
+        "sort": 5.12
+      },
+      "off": 109.7,
+      "def": 104.6,
+      "tempo": 70.5,
+      "torvik": {
+        "v": "+5.1 (#113)",
+        "sort": 5.12
+      }
+    },
+    {
+      "rank": 114,
+      "team": "Texas St",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.9",
+        "sort": 4.88
+      },
+      "off": 110.1,
+      "def": 105.2,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "+4.9 (#114)",
+        "sort": 4.88
+      }
+    },
+    {
+      "rank": 115,
+      "team": "Belmont",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.7",
+        "sort": 4.72
+      },
+      "off": 109.5,
+      "def": 104.8,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "+4.7 (#115)",
+        "sort": 4.72
+      }
+    },
+    {
+      "rank": 116,
+      "team": "Davidson",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.6",
+        "sort": 4.64
+      },
+      "off": 108.7,
+      "def": 104.0,
+      "tempo": 69.1,
+      "torvik": {
+        "v": "+4.6 (#116)",
+        "sort": 4.64
+      }
+    },
+    {
+      "rank": 117,
+      "team": "UC San Diego",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.5",
+        "sort": 4.48
+      },
+      "off": 106.9,
+      "def": 102.4,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "+4.5 (#118)",
+        "sort": 4.48
+      }
+    },
+    {
+      "rank": 118,
+      "team": "North Texas",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.5",
+        "sort": 4.47
+      },
+      "off": 105.3,
+      "def": 100.8,
+      "tempo": 70.1,
+      "torvik": {
+        "v": "+4.5 (#117)",
+        "sort": 4.47
+      }
+    },
+    {
+      "rank": 119,
+      "team": "Penn",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.4",
+        "sort": 4.41
+      },
+      "off": 108.4,
+      "def": 104.0,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "+4.4 (#119)",
+        "sort": 4.41
+      }
+    },
+    {
+      "rank": 120,
+      "team": "Wyoming",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.3",
+        "sort": 4.35
+      },
+      "off": 108.9,
+      "def": 104.6,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "+4.3 (#121)",
+        "sort": 4.35
+      }
+    },
+    {
+      "rank": 121,
+      "team": "Northern Iowa",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+4.3",
+        "sort": 4.31
+      },
+      "off": 106.8,
+      "def": 102.5,
+      "tempo": 70.0,
+      "torvik": {
+        "v": "+4.3 (#120)",
+        "sort": 4.31
+      }
+    },
+    {
+      "rank": 122,
+      "team": "St Bonaventure",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.8",
+        "sort": 3.8
+      },
+      "off": 108.1,
+      "def": 104.3,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "+3.8 (#122)",
+        "sort": 3.8
+      }
+    },
+    {
+      "rank": 123,
+      "team": "Utah Valley",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.7",
+        "sort": 3.74
+      },
+      "off": 106.6,
+      "def": 102.8,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "+3.7 (#123)",
+        "sort": 3.74
+      }
+    },
+    {
+      "rank": 124,
+      "team": "Harvard",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.7",
+        "sort": 3.71
+      },
+      "off": 106.4,
+      "def": 102.7,
+      "tempo": 69.1,
+      "torvik": {
+        "v": "+3.7 (#124)",
+        "sort": 3.71
+      }
+    },
+    {
+      "rank": 125,
+      "team": "SF Austin",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.7",
+        "sort": 3.68
+      },
+      "off": 106.0,
+      "def": 102.3,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "+3.7 (#125)",
+        "sort": 3.68
+      }
+    },
+    {
+      "rank": 126,
+      "team": "FAU",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.5",
+        "sort": 3.51
+      },
+      "off": 107.3,
+      "def": 103.8,
+      "tempo": 72.6,
+      "torvik": {
+        "v": "+3.5 (#126)",
+        "sort": 3.51
+      }
+    },
+    {
+      "rank": 127,
+      "team": "Duquesne",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.5",
+        "sort": 3.46
+      },
+      "off": 108.6,
+      "def": 105.1,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "+3.5 (#127)",
+        "sort": 3.46
+      }
+    },
+    {
+      "rank": 128,
+      "team": "UAB",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.4",
+        "sort": 3.42
+      },
+      "off": 107.5,
+      "def": 104.1,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "+3.4 (#128)",
+        "sort": 3.42
+      }
+    },
+    {
+      "rank": 129,
+      "team": "LMU",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.3",
+        "sort": 3.29
+      },
+      "off": 109.2,
+      "def": 105.9,
+      "tempo": 71.0,
+      "torvik": {
+        "v": "+3.3 (#130)",
+        "sort": 3.29
+      }
+    },
+    {
+      "rank": 130,
+      "team": "Saint Joseph's",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.1",
+        "sort": 3.14
+      },
+      "off": 102.5,
+      "def": 99.4,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "+3.1 (#129)",
+        "sort": 3.14
+      }
+    },
+    {
+      "rank": 131,
+      "team": "Fordham",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+3.1",
+        "sort": 3.14
+      },
+      "off": 108.2,
+      "def": 105.1,
+      "tempo": 69.9,
+      "torvik": {
+        "v": "+3.1 (#131)",
+        "sort": 3.14
+      }
+    },
+    {
+      "rank": 132,
+      "team": "Pacific",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+2.9",
+        "sort": 2.94
+      },
+      "off": 106.6,
+      "def": 103.6,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "+2.9 (#132)",
+        "sort": 2.94
+      }
+    },
+    {
+      "rank": 133,
+      "team": "Temple",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "+2.9",
+        "sort": 2.89
+      },
+      "off": 109.0,
+      "def": 106.1,
+      "tempo": 70.7,
+      "torvik": {
+        "v": "+2.9 (#134)",
+        "sort": 2.89
+      }
+    },
+    {
+      "rank": 134,
+      "team": "Montana St",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "+2.9",
+        "sort": 2.88
+      },
+      "off": 107.3,
+      "def": 104.4,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "+2.9 (#133)",
+        "sort": 2.88
+      }
+    },
+    {
+      "rank": 135,
+      "team": "Hawai'i",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+2.7",
+        "sort": 2.73
+      },
+      "off": 107.4,
+      "def": 104.7,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "+2.7 (#135)",
+        "sort": 2.73
+      }
+    },
+    {
+      "rank": 136,
+      "team": "San Diego",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+2.2",
+        "sort": 2.16
+      },
+      "off": 108.3,
+      "def": 106.1,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "+2.2 (#136)",
+        "sort": 2.16
+      }
+    },
+    {
+      "rank": 137,
+      "team": "Fresno St",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.8",
+        "sort": 1.84
+      },
+      "off": 104.4,
+      "def": 102.6,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "+1.8 (#137)",
+        "sort": 1.84
+      }
+    },
+    {
+      "rank": 138,
+      "team": "Troy",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.8",
+        "sort": 1.82
+      },
+      "off": 106.7,
+      "def": 104.9,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "+1.8 (#138)",
+        "sort": 1.82
+      }
+    },
+    {
+      "rank": 139,
+      "team": "Kent State",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.7",
+        "sort": 1.69
+      },
+      "off": 106.5,
+      "def": 104.8,
+      "tempo": 72.5,
+      "torvik": {
+        "v": "+1.7 (#139)",
+        "sort": 1.69
+      }
+    },
+    {
+      "rank": 140,
+      "team": "Pepperdine",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.5",
+        "sort": 1.53
+      },
+      "off": 108.7,
+      "def": 107.2,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "+1.5 (#140)",
+        "sort": 1.53
+      }
+    },
+    {
+      "rank": 141,
+      "team": "Liberty",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.5",
+        "sort": 1.47
+      },
+      "off": 106.5,
+      "def": 105.0,
+      "tempo": 69.0,
+      "torvik": {
+        "v": "+1.5 (#141)",
+        "sort": 1.47
+      }
+    },
+    {
+      "rank": 142,
+      "team": "Rhode Island",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.4",
+        "sort": 1.42
+      },
+      "off": 106.1,
+      "def": 104.7,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "+1.4 (#142)",
+        "sort": 1.42
+      }
+    },
+    {
+      "rank": 143,
+      "team": "MTSU",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.2",
+        "sort": 1.23
+      },
+      "off": 106.1,
+      "def": 104.9,
+      "tempo": 70.7,
+      "torvik": {
+        "v": "+1.2 (#143)",
+        "sort": 1.23
+      }
+    },
+    {
+      "rank": 144,
+      "team": "Tarleton St",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.2",
+        "sort": 1.21
+      },
+      "off": 106.4,
+      "def": 105.2,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "+1.2 (#144)",
+        "sort": 1.21
+      }
+    },
+    {
+      "rank": 145,
+      "team": "St Thomas",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.1",
+        "sort": 1.09
+      },
+      "off": 106.8,
+      "def": 105.7,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "+1.1 (#145)",
+        "sort": 1.09
+      }
+    },
+    {
+      "rank": 146,
+      "team": "Drake",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.1",
+        "sort": 1.09
+      },
+      "off": 108.0,
+      "def": 106.9,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "+1.1 (#147)",
+        "sort": 1.09
+      }
+    },
+    {
+      "rank": 147,
+      "team": "Furman",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.1",
+        "sort": 1.08
+      },
+      "off": 106.6,
+      "def": 105.5,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "+1.1 (#146)",
+        "sort": 1.08
+      }
+    },
+    {
+      "rank": 148,
+      "team": "Valparaiso",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.0",
+        "sort": 1.03
+      },
+      "off": 105.8,
+      "def": 104.8,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "+1.0 (#148)",
+        "sort": 1.03
+      }
+    },
+    {
+      "rank": 149,
+      "team": "Kennesaw St",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "+1.0",
+        "sort": 1.02
+      },
+      "off": 105.4,
+      "def": 104.4,
+      "tempo": 75.1,
+      "torvik": {
+        "v": "+1.0 (#149)",
+        "sort": 1.02
+      }
+    },
+    {
+      "rank": 150,
+      "team": "La Salle",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.9",
+        "sort": 0.94
+      },
+      "off": 108.1,
+      "def": 107.2,
+      "tempo": 69.9,
+      "torvik": {
+        "v": "+0.9 (#150)",
+        "sort": 0.94
+      }
+    },
+    {
+      "rank": 151,
+      "team": "N Dakota St",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.6",
+        "sort": 0.58
+      },
+      "off": 106.1,
+      "def": 105.5,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "+0.6 (#151)",
+        "sort": 0.58
+      }
+    },
+    {
+      "rank": 152,
+      "team": "Toledo",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.5",
+        "sort": 0.52
+      },
+      "off": 107.2,
+      "def": 106.7,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "+0.5 (#152)",
+        "sort": 0.52
+      }
+    },
+    {
+      "rank": 153,
+      "team": "Howard",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.5",
+        "sort": 0.51
+      },
+      "off": 105.3,
+      "def": 104.8,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "+0.5 (#153)",
+        "sort": 0.51
+      }
+    },
+    {
+      "rank": 154,
+      "team": "James Madison",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.4",
+        "sort": 0.44
+      },
+      "off": 108.0,
+      "def": 107.6,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "+0.4 (#154)",
+        "sort": 0.44
+      }
+    },
+    {
+      "rank": 155,
+      "team": "Charleston",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.4",
+        "sort": 0.41
+      },
+      "off": 108.2,
+      "def": 107.8,
+      "tempo": 73.4,
+      "torvik": {
+        "v": "+0.4 (#155)",
+        "sort": 0.41
+      }
+    },
+    {
+      "rank": 156,
+      "team": "Merrimack",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.0",
+        "sort": 0.01
+      },
+      "off": 104.2,
+      "def": 104.2,
+      "tempo": 68.9,
+      "torvik": {
+        "v": "+0.0 (#156)",
+        "sort": 0.01
+      }
+    },
+    {
+      "rank": 157,
+      "team": "Wright St",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "+0.0",
+        "sort": 0.0
+      },
+      "off": 106.8,
+      "def": 106.8,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "+0.0 (#157)",
+        "sort": 0.0
+      }
+    },
+    {
+      "rank": 158,
+      "team": "New Mexico St",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.1",
+        "sort": -0.06
+      },
+      "off": 106.1,
+      "def": 106.1,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "-0.1 (#158)",
+        "sort": -0.06
+      }
+    },
+    {
+      "rank": 159,
+      "team": "Seattle U",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.1",
+        "sort": -0.1
+      },
+      "off": 102.1,
+      "def": 102.2,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "-0.1 (#159)",
+        "sort": -0.1
+      }
+    },
+    {
+      "rank": 160,
+      "team": "Sacramento St",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.2",
+        "sort": -0.17
+      },
+      "off": 108.4,
+      "def": 108.6,
+      "tempo": 74.5,
+      "torvik": {
+        "v": "-0.2 (#160)",
+        "sort": -0.17
+      }
+    },
+    {
+      "rank": 161,
+      "team": "Princeton",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.2",
+        "sort": -0.25
+      },
+      "off": 106.4,
+      "def": 106.6,
+      "tempo": 69.4,
+      "torvik": {
+        "v": "-0.2 (#161)",
+        "sort": -0.25
+      }
+    },
+    {
+      "rank": 162,
+      "team": "Green Bay",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.3",
+        "sort": -0.31
+      },
+      "off": 107.4,
+      "def": 107.7,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "-0.3 (#162)",
+        "sort": -0.31
+      }
+    },
+    {
+      "rank": 163,
+      "team": "FIU",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.5",
+        "sort": -0.49
+      },
+      "off": 105.2,
+      "def": 105.7,
+      "tempo": 72.8,
+      "torvik": {
+        "v": "-0.5 (#163)",
+        "sort": -0.49
+      }
+    },
+    {
+      "rank": 164,
+      "team": "Hofstra",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.7",
+        "sort": -0.69
+      },
+      "off": 101.0,
+      "def": 101.7,
+      "tempo": 68.9,
+      "torvik": {
+        "v": "-0.7 (#165)",
+        "sort": -0.69
+      }
+    },
+    {
+      "rank": 165,
+      "team": "UTEP",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.7",
+        "sort": -0.71
+      },
+      "off": 105.3,
+      "def": 106.0,
+      "tempo": 71.2,
+      "torvik": {
+        "v": "-0.7 (#164)",
+        "sort": -0.71
+      }
+    },
+    {
+      "rank": 166,
+      "team": "Tulane",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.8",
+        "sort": -0.75
+      },
+      "off": 107.9,
+      "def": 108.6,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "-0.8 (#166)",
+        "sort": -0.75
+      }
+    },
+    {
+      "rank": 167,
+      "team": "E Michigan",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.8",
+        "sort": -0.77
+      },
+      "off": 104.2,
+      "def": 105.0,
+      "tempo": 69.7,
+      "torvik": {
+        "v": "-0.8 (#167)",
+        "sort": -0.77
+      }
+    },
+    {
+      "rank": 168,
+      "team": "W Michigan",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.9",
+        "sort": -0.9
+      },
+      "off": 109.6,
+      "def": 110.5,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "-0.9 (#168)",
+        "sort": -0.9
+      }
+    },
+    {
+      "rank": 169,
+      "team": "Washington St",
+      "conf": "P12",
+      "record": "0\u20130",
+      "net": {
+        "v": "-0.9",
+        "sort": -0.91
+      },
+      "off": 105.8,
+      "def": 106.7,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-0.9 (#169)",
+        "sort": -0.91
+      }
+    },
+    {
+      "rank": 170,
+      "team": "Portland",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.0",
+        "sort": -1.01
+      },
+      "off": 105.8,
+      "def": 106.8,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-1.0 (#170)",
+        "sort": -1.01
+      }
+    },
+    {
+      "rank": 171,
+      "team": "Loyola Chicago",
+      "conf": "A10",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.1",
+        "sort": -1.09
+      },
+      "off": 107.0,
+      "def": 108.1,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "-1.1 (#171)",
+        "sort": -1.09
+      }
+    },
+    {
+      "rank": 172,
+      "team": "C Arkansas",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.2",
+        "sort": -1.17
+      },
+      "off": 105.9,
+      "def": 107.1,
+      "tempo": 71.6,
+      "torvik": {
+        "v": "-1.2 (#172)",
+        "sort": -1.17
+      }
+    },
+    {
+      "rank": 173,
+      "team": "Bowling Green",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.2",
+        "sort": -1.19
+      },
+      "off": 106.9,
+      "def": 108.1,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-1.2 (#173)",
+        "sort": -1.19
+      }
+    },
+    {
+      "rank": 174,
+      "team": "Bethune",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.2",
+        "sort": -1.22
+      },
+      "off": 104.9,
+      "def": 106.2,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "-1.2 (#174)",
+        "sort": -1.22
+      }
+    },
+    {
+      "rank": 175,
+      "team": "Cal Poly",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.3",
+        "sort": -1.31
+      },
+      "off": 108.2,
+      "def": 109.5,
+      "tempo": 75.0,
+      "torvik": {
+        "v": "-1.3 (#175)",
+        "sort": -1.31
+      }
+    },
+    {
+      "rank": 176,
+      "team": "ETSU",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.5",
+        "sort": -1.46
+      },
+      "off": 105.0,
+      "def": 106.5,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "-1.5 (#176)",
+        "sort": -1.46
+      }
+    },
+    {
+      "rank": 177,
+      "team": "W Carolina",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.5",
+        "sort": -1.5
+      },
+      "off": 107.1,
+      "def": 108.6,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "-1.5 (#177)",
+        "sort": -1.5
+      }
+    },
+    {
+      "rank": 178,
+      "team": "San Jos\u00e9 St",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.6",
+        "sort": -1.64
+      },
+      "off": 108.8,
+      "def": 110.4,
+      "tempo": 69.9,
+      "torvik": {
+        "v": "-1.6 (#178)",
+        "sort": -1.64
+      }
+    },
+    {
+      "rank": 179,
+      "team": "Robert Morris",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.8",
+        "sort": -1.76
+      },
+      "off": 103.9,
+      "def": 105.6,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "-1.8 (#180)",
+        "sort": -1.76
+      }
+    },
+    {
+      "rank": 180,
+      "team": "Austin Peay",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.8",
+        "sort": -1.78
+      },
+      "off": 105.7,
+      "def": 107.5,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "-1.8 (#179)",
+        "sort": -1.78
+      }
+    },
+    {
+      "rank": 181,
+      "team": "Sam Houston",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.8",
+        "sort": -1.83
+      },
+      "off": 104.8,
+      "def": 106.6,
+      "tempo": 72.9,
+      "torvik": {
+        "v": "-1.8 (#182)",
+        "sort": -1.83
+      }
+    },
+    {
+      "rank": 182,
+      "team": "East Carolina",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "-1.8",
+        "sort": -1.84
+      },
+      "off": 105.9,
+      "def": 107.7,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "-1.8 (#181)",
+        "sort": -1.84
+      }
+    },
+    {
+      "rank": 183,
+      "team": "San Francisco",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.0",
+        "sort": -1.97
+      },
+      "off": 103.3,
+      "def": 105.2,
+      "tempo": 71.0,
+      "torvik": {
+        "v": "-2.0 (#184)",
+        "sort": -1.97
+      }
+    },
+    {
+      "rank": 184,
+      "team": "Tennessee St",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.0",
+        "sort": -1.99
+      },
+      "off": 104.5,
+      "def": 106.5,
+      "tempo": 73.6,
+      "torvik": {
+        "v": "-2.0 (#183)",
+        "sort": -1.99
+      }
+    },
+    {
+      "rank": 185,
+      "team": "Towson",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.0",
+        "sort": -2.05
+      },
+      "off": 102.9,
+      "def": 104.9,
+      "tempo": 67.8,
+      "torvik": {
+        "v": "-2.0 (#185)",
+        "sort": -2.05
+      }
+    },
+    {
+      "rank": 186,
+      "team": "CA Baptist",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.1",
+        "sort": -2.09
+      },
+      "off": 101.4,
+      "def": 103.5,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "-2.1 (#186)",
+        "sort": -2.09
+      }
+    },
+    {
+      "rank": 187,
+      "team": "Vermont",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.3",
+        "sort": -2.3
+      },
+      "off": 105.6,
+      "def": 107.9,
+      "tempo": 68.3,
+      "torvik": {
+        "v": "-2.3 (#187)",
+        "sort": -2.3
+      }
+    },
+    {
+      "rank": 188,
+      "team": "Bradley",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.3",
+        "sort": -2.31
+      },
+      "off": 103.3,
+      "def": 105.6,
+      "tempo": 70.8,
+      "torvik": {
+        "v": "-2.3 (#188)",
+        "sort": -2.31
+      }
+    },
+    {
+      "rank": 189,
+      "team": "S Illinois",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.3",
+        "sort": -2.33
+      },
+      "off": 99.2,
+      "def": 101.5,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "-2.3 (#189)",
+        "sort": -2.33
+      }
+    },
+    {
+      "rank": 190,
+      "team": "E Washington",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.6",
+        "sort": -2.6
+      },
+      "off": 106.7,
+      "def": 109.3,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-2.6 (#190)",
+        "sort": -2.6
+      }
+    },
+    {
+      "rank": 191,
+      "team": "Hampton",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.6",
+        "sort": -2.63
+      },
+      "off": 105.9,
+      "def": 108.5,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "-2.6 (#191)",
+        "sort": -2.63
+      }
+    },
+    {
+      "rank": 192,
+      "team": "Queens",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.7",
+        "sort": -2.68
+      },
+      "off": 107.4,
+      "def": 110.0,
+      "tempo": 73.6,
+      "torvik": {
+        "v": "-2.7 (#192)",
+        "sort": -2.68
+      }
+    },
+    {
+      "rank": 193,
+      "team": "American",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.7",
+        "sort": -2.69
+      },
+      "off": 105.1,
+      "def": 107.8,
+      "tempo": 69.4,
+      "torvik": {
+        "v": "-2.7 (#193)",
+        "sort": -2.69
+      }
+    },
+    {
+      "rank": 194,
+      "team": "Buffalo",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.7",
+        "sort": -2.74
+      },
+      "off": 106.4,
+      "def": 109.1,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-2.7 (#194)",
+        "sort": -2.74
+      }
+    },
+    {
+      "rank": 195,
+      "team": "UMass",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.8",
+        "sort": -2.79
+      },
+      "off": 102.8,
+      "def": 105.6,
+      "tempo": 73.8,
+      "torvik": {
+        "v": "-2.8 (#195)",
+        "sort": -2.79
+      }
+    },
+    {
+      "rank": 196,
+      "team": "UC Davis",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.9",
+        "sort": -2.85
+      },
+      "off": 102.9,
+      "def": 105.8,
+      "tempo": 72.1,
+      "torvik": {
+        "v": "-2.9 (#197)",
+        "sort": -2.85
+      }
+    },
+    {
+      "rank": 197,
+      "team": "Fullerton",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-2.9",
+        "sort": -2.87
+      },
+      "off": 104.1,
+      "def": 107.0,
+      "tempo": 74.1,
+      "torvik": {
+        "v": "-2.9 (#196)",
+        "sort": -2.87
+      }
+    },
+    {
+      "rank": 198,
+      "team": "Arkansas St",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-3.1",
+        "sort": -3.11
+      },
+      "off": 103.7,
+      "def": 106.9,
+      "tempo": 74.9,
+      "torvik": {
+        "v": "-3.1 (#198)",
+        "sort": -3.11
+      }
+    },
+    {
+      "rank": 199,
+      "team": "Columbia",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "-3.2",
+        "sort": -3.17
+      },
+      "off": 104.9,
+      "def": 108.1,
+      "tempo": 71.2,
+      "torvik": {
+        "v": "-3.2 (#199)",
+        "sort": -3.17
+      }
+    },
+    {
+      "rank": 200,
+      "team": "William & Mary",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-3.3",
+        "sort": -3.31
+      },
+      "off": 104.5,
+      "def": 107.8,
+      "tempo": 74.0,
+      "torvik": {
+        "v": "-3.3 (#200)",
+        "sort": -3.31
+      }
+    },
+    {
+      "rank": 201,
+      "team": "Yale",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "-3.3",
+        "sort": -3.31
+      },
+      "off": 104.6,
+      "def": 107.9,
+      "tempo": 70.0,
+      "torvik": {
+        "v": "-3.3 (#201)",
+        "sort": -3.31
+      }
+    },
+    {
+      "rank": 202,
+      "team": "N Colorado",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-3.5",
+        "sort": -3.48
+      },
+      "off": 103.3,
+      "def": 106.8,
+      "tempo": 72.8,
+      "torvik": {
+        "v": "-3.5 (#202)",
+        "sort": -3.48
+      }
+    },
+    {
+      "rank": 203,
+      "team": "Texas A&M-CC",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-3.7",
+        "sort": -3.66
+      },
+      "off": 100.2,
+      "def": 103.9,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "-3.7 (#203)",
+        "sort": -3.66
+      }
+    },
+    {
+      "rank": 204,
+      "team": "CSU Northridge",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-3.9",
+        "sort": -3.9
+      },
+      "off": 103.1,
+      "def": 107.0,
+      "tempo": 76.5,
+      "torvik": {
+        "v": "-3.9 (#204)",
+        "sort": -3.9
+      }
+    },
+    {
+      "rank": 205,
+      "team": "Ohio",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.0",
+        "sort": -4.02
+      },
+      "off": 105.6,
+      "def": 109.6,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "-4.0 (#205)",
+        "sort": -4.02
+      }
+    },
+    {
+      "rank": 206,
+      "team": "Montana",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.2",
+        "sort": -4.19
+      },
+      "off": 103.6,
+      "def": 107.7,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "-4.2 (#206)",
+        "sort": -4.19
+      }
+    },
+    {
+      "rank": 207,
+      "team": "LSU N Orleans",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.3",
+        "sort": -4.26
+      },
+      "off": 104.8,
+      "def": 109.1,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "-4.3 (#207)",
+        "sort": -4.26
+      }
+    },
+    {
+      "rank": 208,
+      "team": "Lamar",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.3",
+        "sort": -4.27
+      },
+      "off": 102.8,
+      "def": 107.1,
+      "tempo": 70.9,
+      "torvik": {
+        "v": "-4.3 (#208)",
+        "sort": -4.27
+      }
+    },
+    {
+      "rank": 209,
+      "team": "Marist",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.3",
+        "sort": -4.31
+      },
+      "off": 99.7,
+      "def": 104.0,
+      "tempo": 69.6,
+      "torvik": {
+        "v": "-4.3 (#212)",
+        "sort": -4.31
+      }
+    },
+    {
+      "rank": 210,
+      "team": "Portland St",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.3",
+        "sort": -4.32
+      },
+      "off": 103.8,
+      "def": 108.2,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "-4.3 (#209)",
+        "sort": -4.32
+      }
+    },
+    {
+      "rank": 211,
+      "team": "UT Rio Grande",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.3",
+        "sort": -4.34
+      },
+      "off": 100.6,
+      "def": 105.0,
+      "tempo": 71.2,
+      "torvik": {
+        "v": "-4.3 (#211)",
+        "sort": -4.34
+      }
+    },
+    {
+      "rank": 212,
+      "team": "UT Arlington",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.4",
+        "sort": -4.37
+      },
+      "off": 101.9,
+      "def": 106.3,
+      "tempo": 71.0,
+      "torvik": {
+        "v": "-4.4 (#210)",
+        "sort": -4.37
+      }
+    },
+    {
+      "rank": 213,
+      "team": "Idaho",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.5",
+        "sort": -4.51
+      },
+      "off": 102.1,
+      "def": 106.6,
+      "tempo": 70.9,
+      "torvik": {
+        "v": "-4.5 (#213)",
+        "sort": -4.51
+      }
+    },
+    {
+      "rank": 214,
+      "team": "Jax State",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.6",
+        "sort": -4.61
+      },
+      "off": 103.6,
+      "def": 108.2,
+      "tempo": 69.3,
+      "torvik": {
+        "v": "-4.6 (#214)",
+        "sort": -4.61
+      }
+    },
+    {
+      "rank": 215,
+      "team": "C Michigan",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.6",
+        "sort": -4.64
+      },
+      "off": 103.9,
+      "def": 108.6,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "-4.6 (#216)",
+        "sort": -4.64
+      }
+    },
+    {
+      "rank": 216,
+      "team": "Colgate",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.7",
+        "sort": -4.74
+      },
+      "off": 104.0,
+      "def": 108.8,
+      "tempo": 71.0,
+      "torvik": {
+        "v": "-4.7 (#217)",
+        "sort": -4.74
+      }
+    },
+    {
+      "rank": 217,
+      "team": "Georgia St",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.7",
+        "sort": -4.74
+      },
+      "off": 106.3,
+      "def": 111.0,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "-4.7 (#215)",
+        "sort": -4.74
+      }
+    },
+    {
+      "rank": 218,
+      "team": "Southern Miss",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-4.9",
+        "sort": -4.88
+      },
+      "off": 104.1,
+      "def": 109.0,
+      "tempo": 73.4,
+      "torvik": {
+        "v": "-4.9 (#218)",
+        "sort": -4.88
+      }
+    },
+    {
+      "rank": 219,
+      "team": "Louisiana",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.0",
+        "sort": -4.96
+      },
+      "off": 102.7,
+      "def": 107.6,
+      "tempo": 68.7,
+      "torvik": {
+        "v": "-5.0 (#220)",
+        "sort": -4.96
+      }
+    },
+    {
+      "rank": 220,
+      "team": "Campbell",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.1",
+        "sort": -5.06
+      },
+      "off": 104.8,
+      "def": 109.8,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "-5.1 (#219)",
+        "sort": -5.06
+      }
+    },
+    {
+      "rank": 221,
+      "team": "Stony Brook",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.1",
+        "sort": -5.08
+      },
+      "off": 104.1,
+      "def": 109.1,
+      "tempo": 70.1,
+      "torvik": {
+        "v": "-5.1 (#221)",
+        "sort": -5.08
+      }
+    },
+    {
+      "rank": 222,
+      "team": "Monmouth",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.1",
+        "sort": -5.11
+      },
+      "off": 101.7,
+      "def": 106.8,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "-5.1 (#222)",
+        "sort": -5.11
+      }
+    },
+    {
+      "rank": 223,
+      "team": "N Kentucky",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.2",
+        "sort": -5.22
+      },
+      "off": 102.0,
+      "def": 107.2,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-5.2 (#223)",
+        "sort": -5.22
+      }
+    },
+    {
+      "rank": 224,
+      "team": "Longwood",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.3",
+        "sort": -5.29
+      },
+      "off": 103.1,
+      "def": 108.4,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "-5.3 (#224)",
+        "sort": -5.29
+      }
+    },
+    {
+      "rank": 225,
+      "team": "Oakland",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.3",
+        "sort": -5.32
+      },
+      "off": 103.1,
+      "def": 108.4,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "-5.3 (#225)",
+        "sort": -5.32
+      }
+    },
+    {
+      "rank": 226,
+      "team": "Coastal",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.4",
+        "sort": -5.38
+      },
+      "off": 103.8,
+      "def": 109.2,
+      "tempo": 70.7,
+      "torvik": {
+        "v": "-5.4 (#226)",
+        "sort": -5.38
+      }
+    },
+    {
+      "rank": 227,
+      "team": "Jacksonville",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.5",
+        "sort": -5.48
+      },
+      "off": 105.5,
+      "def": 110.9,
+      "tempo": 69.6,
+      "torvik": {
+        "v": "-5.5 (#227)",
+        "sort": -5.48
+      }
+    },
+    {
+      "rank": 228,
+      "team": "Lipscomb",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.6",
+        "sort": -5.59
+      },
+      "off": 102.6,
+      "def": 108.2,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "-5.6 (#230)",
+        "sort": -5.59
+      }
+    },
+    {
+      "rank": 229,
+      "team": "Tennessee Tech",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.7",
+        "sort": -5.68
+      },
+      "off": 105.2,
+      "def": 110.9,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "-5.7 (#228)",
+        "sort": -5.68
+      }
+    },
+    {
+      "rank": 230,
+      "team": "Winthrop",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.7",
+        "sort": -5.71
+      },
+      "off": 104.4,
+      "def": 110.1,
+      "tempo": 74.2,
+      "torvik": {
+        "v": "-5.7 (#231)",
+        "sort": -5.71
+      }
+    },
+    {
+      "rank": 231,
+      "team": "Cornell",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.7",
+        "sort": -5.74
+      },
+      "off": 105.4,
+      "def": 111.2,
+      "tempo": 73.5,
+      "torvik": {
+        "v": "-5.7 (#229)",
+        "sort": -5.74
+      }
+    },
+    {
+      "rank": 232,
+      "team": "Brown",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.8",
+        "sort": -5.75
+      },
+      "off": 99.3,
+      "def": 105.1,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "-5.8 (#235)",
+        "sort": -5.75
+      }
+    },
+    {
+      "rank": 233,
+      "team": "Fairfield",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.8",
+        "sort": -5.85
+      },
+      "off": 101.7,
+      "def": 107.6,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "-5.8 (#234)",
+        "sort": -5.85
+      }
+    },
+    {
+      "rank": 234,
+      "team": "Presbyterian",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.9",
+        "sort": -5.87
+      },
+      "off": 102.2,
+      "def": 108.1,
+      "tempo": 69.2,
+      "torvik": {
+        "v": "-5.9 (#233)",
+        "sort": -5.87
+      }
+    },
+    {
+      "rank": 235,
+      "team": "Samford",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-5.9",
+        "sort": -5.87
+      },
+      "off": 104.5,
+      "def": 110.4,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "-5.9 (#232)",
+        "sort": -5.87
+      }
+    },
+    {
+      "rank": 236,
+      "team": "Iona",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.0",
+        "sort": -5.98
+      },
+      "off": 103.1,
+      "def": 109.1,
+      "tempo": 72.8,
+      "torvik": {
+        "v": "-6.0 (#236)",
+        "sort": -5.98
+      }
+    },
+    {
+      "rank": 237,
+      "team": "UTSA",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.1",
+        "sort": -6.11
+      },
+      "off": 105.3,
+      "def": 111.4,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-6.1 (#237)",
+        "sort": -6.11
+      }
+    },
+    {
+      "rank": 238,
+      "team": "Quinnipiac",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.2",
+        "sort": -6.16
+      },
+      "off": 100.3,
+      "def": 106.4,
+      "tempo": 74.6,
+      "torvik": {
+        "v": "-6.2 (#241)",
+        "sort": -6.16
+      }
+    },
+    {
+      "rank": 239,
+      "team": "Siena",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.2",
+        "sort": -6.18
+      },
+      "off": 101.8,
+      "def": 108.0,
+      "tempo": 70.7,
+      "torvik": {
+        "v": "-6.2 (#238)",
+        "sort": -6.18
+      }
+    },
+    {
+      "rank": 240,
+      "team": "Indiana St",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.3",
+        "sort": -6.29
+      },
+      "off": 102.4,
+      "def": 108.7,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "-6.3 (#243)",
+        "sort": -6.29
+      }
+    },
+    {
+      "rank": 241,
+      "team": "Rice",
+      "conf": "Amer",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.3",
+        "sort": -6.32
+      },
+      "off": 102.9,
+      "def": 109.2,
+      "tempo": 70.7,
+      "torvik": {
+        "v": "-6.3 (#242)",
+        "sort": -6.32
+      }
+    },
+    {
+      "rank": 242,
+      "team": "Southern Utah",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.3",
+        "sort": -6.34
+      },
+      "off": 103.6,
+      "def": 110.0,
+      "tempo": 73.7,
+      "torvik": {
+        "v": "-6.3 (#240)",
+        "sort": -6.34
+      }
+    },
+    {
+      "rank": 243,
+      "team": "Elon",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.4",
+        "sort": -6.41
+      },
+      "off": 105.0,
+      "def": 111.4,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "-6.4 (#239)",
+        "sort": -6.41
+      }
+    },
+    {
+      "rank": 244,
+      "team": "Missouri St",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.4",
+        "sort": -6.42
+      },
+      "off": 100.6,
+      "def": 107.1,
+      "tempo": 70.3,
+      "torvik": {
+        "v": "-6.4 (#246)",
+        "sort": -6.42
+      }
+    },
+    {
+      "rank": 245,
+      "team": "Detroit Mercy",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.5",
+        "sort": -6.52
+      },
+      "off": 105.0,
+      "def": 111.5,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-6.5 (#244)",
+        "sort": -6.52
+      }
+    },
+    {
+      "rank": 246,
+      "team": "Old Dominion",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.5",
+        "sort": -6.54
+      },
+      "off": 103.1,
+      "def": 109.6,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-6.5 (#245)",
+        "sort": -6.54
+      }
+    },
+    {
+      "rank": 247,
+      "team": "SE Missouri",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.7",
+        "sort": -6.66
+      },
+      "off": 100.3,
+      "def": 107.0,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "-6.7 (#251)",
+        "sort": -6.66
+      }
+    },
+    {
+      "rank": 248,
+      "team": "Oral Roberts",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.7",
+        "sort": -6.74
+      },
+      "off": 104.2,
+      "def": 110.9,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-6.7 (#249)",
+        "sort": -6.74
+      }
+    },
+    {
+      "rank": 249,
+      "team": "Milwaukee",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.7",
+        "sort": -6.74
+      },
+      "off": 103.2,
+      "def": 110.0,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-6.7 (#250)",
+        "sort": -6.74
+      }
+    },
+    {
+      "rank": 250,
+      "team": "Northeastern",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.8",
+        "sort": -6.75
+      },
+      "off": 105.1,
+      "def": 111.8,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-6.8 (#248)",
+        "sort": -6.75
+      }
+    },
+    {
+      "rank": 251,
+      "team": "N Illinois",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-6.8",
+        "sort": -6.78
+      },
+      "off": 105.7,
+      "def": 112.5,
+      "tempo": 71.6,
+      "torvik": {
+        "v": "-6.8 (#247)",
+        "sort": -6.78
+      }
+    },
+    {
+      "rank": 252,
+      "team": "Drexel",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.4",
+        "sort": -7.44
+      },
+      "off": 98.3,
+      "def": 105.8,
+      "tempo": 68.3,
+      "torvik": {
+        "v": "-7.4 (#256)",
+        "sort": -7.44
+      }
+    },
+    {
+      "rank": 253,
+      "team": "SIUE",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.5",
+        "sort": -7.54
+      },
+      "off": 98.4,
+      "def": 106.0,
+      "tempo": 69.7,
+      "torvik": {
+        "v": "-7.5 (#258)",
+        "sort": -7.54
+      }
+    },
+    {
+      "rank": 254,
+      "team": "SE Louisiana",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.6",
+        "sort": -7.56
+      },
+      "off": 102.1,
+      "def": 109.7,
+      "tempo": 70.1,
+      "torvik": {
+        "v": "-7.6 (#255)",
+        "sort": -7.56
+      }
+    },
+    {
+      "rank": 255,
+      "team": "Little Rock",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.6",
+        "sort": -7.57
+      },
+      "off": 103.4,
+      "def": 111.0,
+      "tempo": 72.6,
+      "torvik": {
+        "v": "-7.6 (#253)",
+        "sort": -7.57
+      }
+    },
+    {
+      "rank": 256,
+      "team": "Alabama St",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.6",
+        "sort": -7.59
+      },
+      "off": 102.7,
+      "def": 110.3,
+      "tempo": 72.1,
+      "torvik": {
+        "v": "-7.6 (#254)",
+        "sort": -7.59
+      }
+    },
+    {
+      "rank": 257,
+      "team": "IU Indy",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.7",
+        "sort": -7.66
+      },
+      "off": 105.9,
+      "def": 113.6,
+      "tempo": 76.0,
+      "torvik": {
+        "v": "-7.7 (#252)",
+        "sort": -7.66
+      }
+    },
+    {
+      "rank": 258,
+      "team": "Mercer",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.7",
+        "sort": -7.7
+      },
+      "off": 101.3,
+      "def": 109.0,
+      "tempo": 72.8,
+      "torvik": {
+        "v": "-7.7 (#257)",
+        "sort": -7.7
+      }
+    },
+    {
+      "rank": 259,
+      "team": "Lehigh",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-7.9",
+        "sort": -7.88
+      },
+      "off": 100.8,
+      "def": 108.6,
+      "tempo": 71.6,
+      "torvik": {
+        "v": "-7.9 (#261)",
+        "sort": -7.88
+      }
+    },
+    {
+      "rank": 260,
+      "team": "Delaware",
+      "conf": "CUSA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.0",
+        "sort": -8.01
+      },
+      "off": 103.4,
+      "def": 111.4,
+      "tempo": 70.5,
+      "torvik": {
+        "v": "-8.0 (#260)",
+        "sort": -8.01
+      }
+    },
+    {
+      "rank": 261,
+      "team": "App State",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.1",
+        "sort": -8.11
+      },
+      "off": 99.0,
+      "def": 107.1,
+      "tempo": 68.2,
+      "torvik": {
+        "v": "-8.1 (#268)",
+        "sort": -8.11
+      }
+    },
+    {
+      "rank": 262,
+      "team": "Denver",
+      "conf": "WCC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.1",
+        "sort": -8.11
+      },
+      "off": 105.2,
+      "def": 113.3,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "-8.1 (#259)",
+        "sort": -8.11
+      }
+    },
+    {
+      "rank": 263,
+      "team": "S Dakota St",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.1",
+        "sort": -8.14
+      },
+      "off": 101.5,
+      "def": 109.7,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "-8.1 (#263)",
+        "sort": -8.14
+      }
+    },
+    {
+      "rank": 264,
+      "team": "Stetson",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.2",
+        "sort": -8.16
+      },
+      "off": 103.4,
+      "def": 111.6,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "-8.2 (#262)",
+        "sort": -8.16
+      }
+    },
+    {
+      "rank": 265,
+      "team": "South Alabama",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.3",
+        "sort": -8.26
+      },
+      "off": 101.4,
+      "def": 109.7,
+      "tempo": 69.1,
+      "torvik": {
+        "v": "-8.3 (#267)",
+        "sort": -8.26
+      }
+    },
+    {
+      "rank": 266,
+      "team": "Abilene Chrstn",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.3",
+        "sort": -8.28
+      },
+      "off": 99.0,
+      "def": 107.3,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "-8.3 (#271)",
+        "sort": -8.28
+      }
+    },
+    {
+      "rank": 267,
+      "team": "UC Riverside",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.3",
+        "sort": -8.29
+      },
+      "off": 102.3,
+      "def": 110.6,
+      "tempo": 72.3,
+      "torvik": {
+        "v": "-8.3 (#265)",
+        "sort": -8.29
+      }
+    },
+    {
+      "rank": 268,
+      "team": "NC A&T",
+      "conf": "CAA",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.4",
+        "sort": -8.36
+      },
+      "off": 103.8,
+      "def": 112.2,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "-8.4 (#264)",
+        "sort": -8.36
+      }
+    },
+    {
+      "rank": 269,
+      "team": "FGCU",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.4",
+        "sort": -8.4
+      },
+      "off": 99.8,
+      "def": 108.2,
+      "tempo": 70.5,
+      "torvik": {
+        "v": "-8.4 (#272)",
+        "sort": -8.4
+      }
+    },
+    {
+      "rank": 270,
+      "team": "Long Beach St",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.4",
+        "sort": -8.43
+      },
+      "off": 103.9,
+      "def": 112.3,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "-8.4 (#266)",
+        "sort": -8.43
+      }
+    },
+    {
+      "rank": 271,
+      "team": "Prairie View",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.4",
+        "sort": -8.45
+      },
+      "off": 101.9,
+      "def": 110.3,
+      "tempo": 74.3,
+      "torvik": {
+        "v": "-8.4 (#269)",
+        "sort": -8.45
+      }
+    },
+    {
+      "rank": 272,
+      "team": "UMBC",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.4",
+        "sort": -8.45
+      },
+      "off": 101.7,
+      "def": 110.2,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "-8.4 (#270)",
+        "sort": -8.45
+      }
+    },
+    {
+      "rank": 273,
+      "team": "Louisiana Tech",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.8",
+        "sort": -8.76
+      },
+      "off": 97.0,
+      "def": 105.8,
+      "tempo": 68.9,
+      "torvik": {
+        "v": "-8.8 (#278)",
+        "sort": -8.76
+      }
+    },
+    {
+      "rank": 274,
+      "team": "Air Force",
+      "conf": "MWC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.8",
+        "sort": -8.78
+      },
+      "off": 101.6,
+      "def": 110.4,
+      "tempo": 71.2,
+      "torvik": {
+        "v": "-8.8 (#273)",
+        "sort": -8.78
+      }
+    },
+    {
+      "rank": 275,
+      "team": "Hou Christian",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.8",
+        "sort": -8.8
+      },
+      "off": 101.3,
+      "def": 110.1,
+      "tempo": 70.0,
+      "torvik": {
+        "v": "-8.8 (#274)",
+        "sort": -8.8
+      }
+    },
+    {
+      "rank": 276,
+      "team": "Wofford",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.9",
+        "sort": -8.89
+      },
+      "off": 102.2,
+      "def": 111.1,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-8.9 (#275)",
+        "sort": -8.89
+      }
+    },
+    {
+      "rank": 277,
+      "team": "Long Island",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-8.9",
+        "sort": -8.91
+      },
+      "off": 101.0,
+      "def": 109.9,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "-8.9 (#276)",
+        "sort": -8.91
+      }
+    },
+    {
+      "rank": 278,
+      "team": "UNC Asheville",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.0",
+        "sort": -9.03
+      },
+      "off": 100.5,
+      "def": 109.6,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "-9.0 (#277)",
+        "sort": -9.03
+      }
+    },
+    {
+      "rank": 279,
+      "team": "Ball State",
+      "conf": "MAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.2",
+        "sort": -9.15
+      },
+      "off": 101.2,
+      "def": 110.3,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "-9.2 (#279)",
+        "sort": -9.15
+      }
+    },
+    {
+      "rank": 280,
+      "team": "Evansville",
+      "conf": "MVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.2",
+        "sort": -9.25
+      },
+      "off": 100.2,
+      "def": 109.5,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "-9.2 (#281)",
+        "sort": -9.25
+      }
+    },
+    {
+      "rank": 281,
+      "team": "Purdue FW",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.3",
+        "sort": -9.34
+      },
+      "off": 100.9,
+      "def": 110.2,
+      "tempo": 72.9,
+      "torvik": {
+        "v": "-9.3 (#282)",
+        "sort": -9.34
+      }
+    },
+    {
+      "rank": 282,
+      "team": "Radford",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.4",
+        "sort": -9.36
+      },
+      "off": 101.4,
+      "def": 110.8,
+      "tempo": 73.9,
+      "torvik": {
+        "v": "-9.4 (#280)",
+        "sort": -9.36
+      }
+    },
+    {
+      "rank": 283,
+      "team": "Saint Peter's",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.4",
+        "sort": -9.42
+      },
+      "off": 99.2,
+      "def": 108.6,
+      "tempo": 69.1,
+      "torvik": {
+        "v": "-9.4 (#285)",
+        "sort": -9.42
+      }
+    },
+    {
+      "rank": 284,
+      "team": "Youngstown St",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.5",
+        "sort": -9.51
+      },
+      "off": 100.1,
+      "def": 109.6,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-9.5 (#286)",
+        "sort": -9.51
+      }
+    },
+    {
+      "rank": 285,
+      "team": "Chattanooga",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.6",
+        "sort": -9.56
+      },
+      "off": 102.9,
+      "def": 112.4,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "-9.6 (#283)",
+        "sort": -9.56
+      }
+    },
+    {
+      "rank": 286,
+      "team": "Marshall",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.7",
+        "sort": -9.67
+      },
+      "off": 101.7,
+      "def": 111.4,
+      "tempo": 72.5,
+      "torvik": {
+        "v": "-9.7 (#287)",
+        "sort": -9.67
+      }
+    },
+    {
+      "rank": 287,
+      "team": "Cleveland St",
+      "conf": "Horz",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.7",
+        "sort": -9.71
+      },
+      "off": 102.3,
+      "def": 112.1,
+      "tempo": 73.1,
+      "torvik": {
+        "v": "-9.7 (#284)",
+        "sort": -9.71
+      }
+    },
+    {
+      "rank": 288,
+      "team": "N'Western St",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.8",
+        "sort": -9.76
+      },
+      "off": 100.8,
+      "def": 110.6,
+      "tempo": 69.3,
+      "torvik": {
+        "v": "-9.8 (#288)",
+        "sort": -9.76
+      }
+    },
+    {
+      "rank": 289,
+      "team": "UAlbany",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-9.8",
+        "sort": -9.77
+      },
+      "off": 100.8,
+      "def": 110.6,
+      "tempo": 71.5,
+      "torvik": {
+        "v": "-9.8 (#289)",
+        "sort": -9.77
+      }
+    },
+    {
+      "rank": 290,
+      "team": "Nicholls",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-10.0",
+        "sort": -10.02
+      },
+      "off": 100.5,
+      "def": 110.5,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "-10.0 (#292)",
+        "sort": -10.02
+      }
+    },
+    {
+      "rank": 291,
+      "team": "South Dakota",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "-10.0",
+        "sort": -10.03
+      },
+      "off": 101.3,
+      "def": 111.3,
+      "tempo": 75.1,
+      "torvik": {
+        "v": "-10.0 (#290)",
+        "sort": -10.03
+      }
+    },
+    {
+      "rank": 292,
+      "team": "Alabama A&M",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-10.1",
+        "sort": -10.13
+      },
+      "off": 101.8,
+      "def": 112.0,
+      "tempo": 69.8,
+      "torvik": {
+        "v": "-10.1 (#291)",
+        "sort": -10.13
+      }
+    },
+    {
+      "rank": 293,
+      "team": "Lindenwood",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-10.4",
+        "sort": -10.4
+      },
+      "off": 97.9,
+      "def": 108.3,
+      "tempo": 74.4,
+      "torvik": {
+        "v": "-10.4 (#294)",
+        "sort": -10.4
+      }
+    },
+    {
+      "rank": 294,
+      "team": "Omaha",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "-10.7",
+        "sort": -10.74
+      },
+      "off": 98.8,
+      "def": 109.5,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "-10.7 (#295)",
+        "sort": -10.74
+      }
+    },
+    {
+      "rank": 295,
+      "team": "E Kentucky",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-10.8",
+        "sort": -10.75
+      },
+      "off": 101.4,
+      "def": 112.1,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "-10.8 (#293)",
+        "sort": -10.75
+      }
+    },
+    {
+      "rank": 296,
+      "team": "Southern",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.0",
+        "sort": -11.02
+      },
+      "off": 98.3,
+      "def": 109.3,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "-11.0 (#298)",
+        "sort": -11.02
+      }
+    },
+    {
+      "rank": 297,
+      "team": "Florida A&M",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.1",
+        "sort": -11.06
+      },
+      "off": 98.9,
+      "def": 110.0,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "-11.1 (#297)",
+        "sort": -11.06
+      }
+    },
+    {
+      "rank": 298,
+      "team": "Boston U",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.1",
+        "sort": -11.13
+      },
+      "off": 100.7,
+      "def": 111.9,
+      "tempo": 68.2,
+      "torvik": {
+        "v": "-11.1 (#296)",
+        "sort": -11.13
+      }
+    },
+    {
+      "rank": 299,
+      "team": "Mount St Marys",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.2",
+        "sort": -11.21
+      },
+      "off": 99.0,
+      "def": 110.2,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "-11.2 (#299)",
+        "sort": -11.21
+      }
+    },
+    {
+      "rank": 300,
+      "team": "West Georgia",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.5",
+        "sort": -11.47
+      },
+      "off": 100.2,
+      "def": 111.7,
+      "tempo": 72.7,
+      "torvik": {
+        "v": "-11.5 (#301)",
+        "sort": -11.47
+      }
+    },
+    {
+      "rank": 301,
+      "team": "New Hampshire",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.5",
+        "sort": -11.48
+      },
+      "off": 98.8,
+      "def": 110.2,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "-11.5 (#302)",
+        "sort": -11.48
+      }
+    },
+    {
+      "rank": 302,
+      "team": "Weber St",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.5",
+        "sort": -11.54
+      },
+      "off": 98.5,
+      "def": 110.0,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "-11.5 (#304)",
+        "sort": -11.54
+      }
+    },
+    {
+      "rank": 303,
+      "team": "Kansas City",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.6",
+        "sort": -11.62
+      },
+      "off": 101.6,
+      "def": 113.3,
+      "tempo": 70.3,
+      "torvik": {
+        "v": "-11.6 (#300)",
+        "sort": -11.62
+      }
+    },
+    {
+      "rank": 304,
+      "team": "Sacred Heart",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-11.8",
+        "sort": -11.8
+      },
+      "off": 101.2,
+      "def": 112.9,
+      "tempo": 73.2,
+      "torvik": {
+        "v": "-11.8 (#303)",
+        "sort": -11.8
+      }
+    },
+    {
+      "rank": 305,
+      "team": "Navy",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.0",
+        "sort": -11.98
+      },
+      "off": 96.3,
+      "def": 108.3,
+      "tempo": 70.0,
+      "torvik": {
+        "v": "-12.0 (#308)",
+        "sort": -11.98
+      }
+    },
+    {
+      "rank": 306,
+      "team": "Mercyhurst",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.1",
+        "sort": -12.09
+      },
+      "off": 99.1,
+      "def": 111.2,
+      "tempo": 69.0,
+      "torvik": {
+        "v": "-12.1 (#307)",
+        "sort": -12.09
+      }
+    },
+    {
+      "rank": 307,
+      "team": "Dartmouth",
+      "conf": "Ivy",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.1",
+        "sort": -12.14
+      },
+      "off": 96.7,
+      "def": 108.8,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "-12.1 (#310)",
+        "sort": -12.14
+      }
+    },
+    {
+      "rank": 308,
+      "team": "North Alabama",
+      "conf": "UAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.2",
+        "sort": -12.15
+      },
+      "off": 100.3,
+      "def": 112.4,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "-12.2 (#306)",
+        "sort": -12.15
+      }
+    },
+    {
+      "rank": 309,
+      "team": "NJIT",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.4",
+        "sort": -12.36
+      },
+      "off": 99.1,
+      "def": 111.5,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "-12.4 (#309)",
+        "sort": -12.36
+      }
+    },
+    {
+      "rank": 310,
+      "team": "Utah Tech",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.4",
+        "sort": -12.38
+      },
+      "off": 94.8,
+      "def": 107.2,
+      "tempo": 71.6,
+      "torvik": {
+        "v": "-12.4 (#313)",
+        "sort": -12.38
+      }
+    },
+    {
+      "rank": 311,
+      "team": "Bellarmine",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.4",
+        "sort": -12.4
+      },
+      "off": 104.1,
+      "def": 116.5,
+      "tempo": 69.6,
+      "torvik": {
+        "v": "-12.4 (#305)",
+        "sort": -12.4
+      }
+    },
+    {
+      "rank": 312,
+      "team": "Morehead St",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-12.9",
+        "sort": -12.93
+      },
+      "off": 100.2,
+      "def": 113.2,
+      "tempo": 70.3,
+      "torvik": {
+        "v": "-12.9 (#311)",
+        "sort": -12.93
+      }
+    },
+    {
+      "rank": 313,
+      "team": "Incarnate Word",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-13.0",
+        "sort": -13.01
+      },
+      "off": 100.1,
+      "def": 113.1,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "-13.0 (#312)",
+        "sort": -13.01
+      }
+    },
+    {
+      "rank": 314,
+      "team": "Niagara",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-13.2",
+        "sort": -13.18
+      },
+      "off": 100.6,
+      "def": 113.8,
+      "tempo": 68.5,
+      "torvik": {
+        "v": "-13.2 (#314)",
+        "sort": -13.18
+      }
+    },
+    {
+      "rank": 315,
+      "team": "Jackson St",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-13.4",
+        "sort": -13.45
+      },
+      "off": 98.2,
+      "def": 111.6,
+      "tempo": 72.2,
+      "torvik": {
+        "v": "-13.4 (#317)",
+        "sort": -13.45
+      }
+    },
+    {
+      "rank": 316,
+      "team": "North Dakota",
+      "conf": "Sum",
+      "record": "0\u20130",
+      "net": {
+        "v": "-13.5",
+        "sort": -13.46
+      },
+      "off": 98.8,
+      "def": 112.2,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "-13.5 (#316)",
+        "sort": -13.46
+      }
+    },
+    {
+      "rank": 317,
+      "team": "Idaho St",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-13.5",
+        "sort": -13.46
+      },
+      "off": 97.7,
+      "def": 111.2,
+      "tempo": 69.6,
+      "torvik": {
+        "v": "-13.5 (#318)",
+        "sort": -13.46
+      }
+    },
+    {
+      "rank": 318,
+      "team": "N Arizona",
+      "conf": "BSky",
+      "record": "0\u20130",
+      "net": {
+        "v": "-13.5",
+        "sort": -13.53
+      },
+      "off": 100.3,
+      "def": 113.8,
+      "tempo": 69.8,
+      "torvik": {
+        "v": "-13.5 (#315)",
+        "sort": -13.53
+      }
+    },
+    {
+      "rank": 319,
+      "team": "UMass Lowell",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.0",
+        "sort": -13.99
+      },
+      "off": 98.4,
+      "def": 112.4,
+      "tempo": 73.2,
+      "torvik": {
+        "v": "-14.0 (#322)",
+        "sort": -13.99
+      }
+    },
+    {
+      "rank": 320,
+      "team": "Bakersfield",
+      "conf": "BW",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.0",
+        "sort": -14.01
+      },
+      "off": 99.5,
+      "def": 113.5,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "-14.0 (#319)",
+        "sort": -14.01
+      }
+    },
+    {
+      "rank": 321,
+      "team": "Le Moyne",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.1",
+        "sort": -14.06
+      },
+      "off": 99.1,
+      "def": 113.1,
+      "tempo": 72.9,
+      "torvik": {
+        "v": "-14.1 (#321)",
+        "sort": -14.06
+      }
+    },
+    {
+      "rank": 322,
+      "team": "S Indiana",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.2",
+        "sort": -14.19
+      },
+      "off": 98.2,
+      "def": 112.4,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-14.2 (#325)",
+        "sort": -14.19
+      }
+    },
+    {
+      "rank": 323,
+      "team": "Charleston So",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.3",
+        "sort": -14.27
+      },
+      "off": 98.8,
+      "def": 113.1,
+      "tempo": 73.4,
+      "torvik": {
+        "v": "-14.3 (#324)",
+        "sort": -14.27
+      }
+    },
+    {
+      "rank": 324,
+      "team": "North Florida",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.3",
+        "sort": -14.35
+      },
+      "off": 100.6,
+      "def": 115.0,
+      "tempo": 73.8,
+      "torvik": {
+        "v": "-14.3 (#323)",
+        "sort": -14.35
+      }
+    },
+    {
+      "rank": 325,
+      "team": "UNC Greensboro",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.4",
+        "sort": -14.41
+      },
+      "off": 98.8,
+      "def": 113.2,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-14.4 (#326)",
+        "sort": -14.41
+      }
+    },
+    {
+      "rank": 326,
+      "team": "Maine",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.4",
+        "sort": -14.42
+      },
+      "off": 95.9,
+      "def": 110.3,
+      "tempo": 69.7,
+      "torvik": {
+        "v": "-14.4 (#328)",
+        "sort": -14.42
+      }
+    },
+    {
+      "rank": 327,
+      "team": "Canisius",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.5",
+        "sort": -14.53
+      },
+      "off": 102.5,
+      "def": 117.1,
+      "tempo": 70.5,
+      "torvik": {
+        "v": "-14.5 (#320)",
+        "sort": -14.53
+      }
+    },
+    {
+      "rank": 328,
+      "team": "Bryant",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.6",
+        "sort": -14.57
+      },
+      "off": 97.7,
+      "def": 112.3,
+      "tempo": 70.2,
+      "torvik": {
+        "v": "-14.6 (#327)",
+        "sort": -14.57
+      }
+    },
+    {
+      "rank": 329,
+      "team": "Texas Southern",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.7",
+        "sort": -14.67
+      },
+      "off": 96.6,
+      "def": 111.3,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "-14.7 (#329)",
+        "sort": -14.67
+      }
+    },
+    {
+      "rank": 330,
+      "team": "Norfolk St",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-14.8",
+        "sort": -14.81
+      },
+      "off": 96.7,
+      "def": 111.5,
+      "tempo": 71.4,
+      "torvik": {
+        "v": "-14.8 (#330)",
+        "sort": -14.81
+      }
+    },
+    {
+      "rank": 331,
+      "team": "UT Martin",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.0",
+        "sort": -15.04
+      },
+      "off": 92.4,
+      "def": 107.4,
+      "tempo": 70.4,
+      "torvik": {
+        "v": "-15.0 (#337)",
+        "sort": -15.04
+      }
+    },
+    {
+      "rank": 332,
+      "team": "Lafayette",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.2",
+        "sort": -15.18
+      },
+      "off": 96.9,
+      "def": 112.1,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "-15.2 (#331)",
+        "sort": -15.18
+      }
+    },
+    {
+      "rank": 333,
+      "team": "UL Monroe",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.4",
+        "sort": -15.4
+      },
+      "off": 98.2,
+      "def": 113.6,
+      "tempo": 72.4,
+      "torvik": {
+        "v": "-15.4 (#332)",
+        "sort": -15.4
+      }
+    },
+    {
+      "rank": 334,
+      "team": "GA Southern",
+      "conf": "SB",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.7",
+        "sort": -15.69
+      },
+      "off": 96.4,
+      "def": 112.1,
+      "tempo": 73.7,
+      "torvik": {
+        "v": "-15.7 (#336)",
+        "sort": -15.69
+      }
+    },
+    {
+      "rank": 335,
+      "team": "E Illinois",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.7",
+        "sort": -15.71
+      },
+      "off": 96.1,
+      "def": 111.8,
+      "tempo": 70.3,
+      "torvik": {
+        "v": "-15.7 (#339)",
+        "sort": -15.71
+      }
+    },
+    {
+      "rank": 336,
+      "team": "Binghamton",
+      "conf": "AE",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.7",
+        "sort": -15.72
+      },
+      "off": 100.1,
+      "def": 115.8,
+      "tempo": 70.0,
+      "torvik": {
+        "v": "-15.7 (#333)",
+        "sort": -15.72
+      }
+    },
+    {
+      "rank": 337,
+      "team": "Holy Cross",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.7",
+        "sort": -15.72
+      },
+      "off": 99.6,
+      "def": 115.3,
+      "tempo": 70.0,
+      "torvik": {
+        "v": "-15.7 (#334)",
+        "sort": -15.72
+      }
+    },
+    {
+      "rank": 338,
+      "team": "C Connecticut",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.8",
+        "sort": -15.75
+      },
+      "off": 95.0,
+      "def": 110.8,
+      "tempo": 69.8,
+      "torvik": {
+        "v": "-15.8 (#342)",
+        "sort": -15.75
+      }
+    },
+    {
+      "rank": 339,
+      "team": "VMI",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.8",
+        "sort": -15.75
+      },
+      "off": 99.1,
+      "def": 114.8,
+      "tempo": 72.6,
+      "torvik": {
+        "v": "-15.8 (#335)",
+        "sort": -15.75
+      }
+    },
+    {
+      "rank": 340,
+      "team": "East Texas A&M",
+      "conf": "Slnd",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.8",
+        "sort": -15.78
+      },
+      "off": 94.2,
+      "def": 110.0,
+      "tempo": 71.8,
+      "torvik": {
+        "v": "-15.8 (#345)",
+        "sort": -15.78
+      }
+    },
+    {
+      "rank": 341,
+      "team": "New Haven",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-15.8",
+        "sort": -15.78
+      },
+      "off": 96.6,
+      "def": 112.4,
+      "tempo": 67.9,
+      "torvik": {
+        "v": "-15.8 (#338)",
+        "sort": -15.78
+      }
+    },
+    {
+      "rank": 342,
+      "team": "SC Upstate",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.0",
+        "sort": -15.99
+      },
+      "off": 95.7,
+      "def": 111.6,
+      "tempo": 72.5,
+      "torvik": {
+        "v": "-16.0 (#343)",
+        "sort": -15.99
+      }
+    },
+    {
+      "rank": 343,
+      "team": "Wagner",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.0",
+        "sort": -16.0
+      },
+      "off": 95.6,
+      "def": 111.6,
+      "tempo": 71.0,
+      "torvik": {
+        "v": "-16.0 (#344)",
+        "sort": -16.0
+      }
+    },
+    {
+      "rank": 344,
+      "team": "FDU",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.2",
+        "sort": -16.25
+      },
+      "off": 96.4,
+      "def": 112.7,
+      "tempo": 71.3,
+      "torvik": {
+        "v": "-16.2 (#346)",
+        "sort": -16.25
+      }
+    },
+    {
+      "rank": 345,
+      "team": "Loyola MD",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.3",
+        "sort": -16.29
+      },
+      "off": 98.7,
+      "def": 115.0,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "-16.3 (#341)",
+        "sort": -16.29
+      }
+    },
+    {
+      "rank": 346,
+      "team": "Grambling",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.3",
+        "sort": -16.31
+      },
+      "off": 93.0,
+      "def": 109.3,
+      "tempo": 71.6,
+      "torvik": {
+        "v": "-16.3 (#351)",
+        "sort": -16.31
+      }
+    },
+    {
+      "rank": 347,
+      "team": "Morgan St",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.4",
+        "sort": -16.35
+      },
+      "off": 99.6,
+      "def": 115.9,
+      "tempo": 74.3,
+      "torvik": {
+        "v": "-16.4 (#340)",
+        "sort": -16.35
+      }
+    },
+    {
+      "rank": 348,
+      "team": "Stonehill",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.4",
+        "sort": -16.4
+      },
+      "off": 96.4,
+      "def": 112.8,
+      "tempo": 70.5,
+      "torvik": {
+        "v": "-16.4 (#347)",
+        "sort": -16.4
+      }
+    },
+    {
+      "rank": 349,
+      "team": "Chicago St",
+      "conf": "NEC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-16.8",
+        "sort": -16.84
+      },
+      "off": 96.8,
+      "def": 113.7,
+      "tempo": 70.3,
+      "torvik": {
+        "v": "-16.8 (#349)",
+        "sort": -16.84
+      }
+    },
+    {
+      "rank": 350,
+      "team": "Delaware St",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-17.0",
+        "sort": -17.02
+      },
+      "off": 96.7,
+      "def": 113.7,
+      "tempo": 71.7,
+      "torvik": {
+        "v": "-17.0 (#352)",
+        "sort": -17.02
+      }
+    },
+    {
+      "rank": 351,
+      "team": "The Citadel",
+      "conf": "SC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-17.1",
+        "sort": -17.11
+      },
+      "off": 98.7,
+      "def": 115.8,
+      "tempo": 69.0,
+      "torvik": {
+        "v": "-17.1 (#348)",
+        "sort": -17.11
+      }
+    },
+    {
+      "rank": 352,
+      "team": "Manhattan",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-17.2",
+        "sort": -17.2
+      },
+      "off": 98.2,
+      "def": 115.4,
+      "tempo": 72.0,
+      "torvik": {
+        "v": "-17.2 (#350)",
+        "sort": -17.2
+      }
+    },
+    {
+      "rank": 353,
+      "team": "Bucknell",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-17.2",
+        "sort": -17.22
+      },
+      "off": 95.2,
+      "def": 112.5,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "-17.2 (#353)",
+        "sort": -17.22
+      }
+    },
+    {
+      "rank": 354,
+      "team": "Gardner-Webb",
+      "conf": "BSth",
+      "record": "0\u20130",
+      "net": {
+        "v": "-17.9",
+        "sort": -17.87
+      },
+      "off": 97.0,
+      "def": 114.9,
+      "tempo": 72.6,
+      "torvik": {
+        "v": "-17.9 (#354)",
+        "sort": -17.87
+      }
+    },
+    {
+      "rank": 355,
+      "team": "NC Central",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-18.0",
+        "sort": -17.96
+      },
+      "off": 95.4,
+      "def": 113.3,
+      "tempo": 70.6,
+      "torvik": {
+        "v": "-18.0 (#355)",
+        "sort": -17.96
+      }
+    },
+    {
+      "rank": 356,
+      "team": "SC State",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-18.1",
+        "sort": -18.11
+      },
+      "off": 95.6,
+      "def": 113.8,
+      "tempo": 73.0,
+      "torvik": {
+        "v": "-18.1 (#357)",
+        "sort": -18.11
+      }
+    },
+    {
+      "rank": 357,
+      "team": "Alcorn St",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-18.4",
+        "sort": -18.35
+      },
+      "off": 97.1,
+      "def": 115.5,
+      "tempo": 71.9,
+      "torvik": {
+        "v": "-18.4 (#356)",
+        "sort": -18.35
+      }
+    },
+    {
+      "rank": 358,
+      "team": "Army",
+      "conf": "Pat",
+      "record": "0\u20130",
+      "net": {
+        "v": "-19.1",
+        "sort": -19.11
+      },
+      "off": 94.8,
+      "def": 113.9,
+      "tempo": 70.9,
+      "torvik": {
+        "v": "-19.1 (#359)",
+        "sort": -19.11
+      }
+    },
+    {
+      "rank": 359,
+      "team": "Coppin St",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-19.1",
+        "sort": -19.14
+      },
+      "off": 96.3,
+      "def": 115.5,
+      "tempo": 72.1,
+      "torvik": {
+        "v": "-19.1 (#358)",
+        "sort": -19.14
+      }
+    },
+    {
+      "rank": 360,
+      "team": "W Illinois",
+      "conf": "OVC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-19.8",
+        "sort": -19.79
+      },
+      "off": 93.6,
+      "def": 113.4,
+      "tempo": 69.8,
+      "torvik": {
+        "v": "-19.8 (#360)",
+        "sort": -19.79
+      }
+    },
+    {
+      "rank": 361,
+      "team": "AR-Pine Bluff",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-20.8",
+        "sort": -20.77
+      },
+      "off": 92.8,
+      "def": 113.6,
+      "tempo": 74.3,
+      "torvik": {
+        "v": "-20.8 (#361)",
+        "sort": -20.77
+      }
+    },
+    {
+      "rank": 362,
+      "team": "Rider",
+      "conf": "Metro",
+      "record": "0\u20130",
+      "net": {
+        "v": "-22.4",
+        "sort": -22.36
+      },
+      "off": 94.4,
+      "def": 116.7,
+      "tempo": 70.1,
+      "torvik": {
+        "v": "-22.4 (#362)",
+        "sort": -22.36
+      }
+    },
+    {
+      "rank": 363,
+      "team": "West Florida",
+      "conf": "ASun",
+      "record": "0\u20130",
+      "net": {
+        "v": "-23.5",
+        "sort": -23.5
+      },
+      "off": 91.0,
+      "def": 114.5,
+      "tempo": 73.8,
+      "torvik": {
+        "v": "-23.5 (#363)",
+        "sort": -23.5
+      }
+    },
+    {
+      "rank": 364,
+      "team": "Miss Valley St",
+      "conf": "SWAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-25.5",
+        "sort": -25.47
+      },
+      "off": 88.9,
+      "def": 114.3,
+      "tempo": 71.1,
+      "torvik": {
+        "v": "-25.5 (#364)",
+        "sort": -25.47
+      }
+    },
+    {
+      "rank": 365,
+      "team": "MD Eastern",
+      "conf": "MEAC",
+      "record": "0\u20130",
+      "net": {
+        "v": "-25.8",
+        "sort": -25.77
+      },
+      "off": 87.5,
+      "def": 113.3,
+      "tempo": 70.0,
+      "torvik": {
+        "v": "-25.8 (#365)",
+        "sort": -25.77
+      }
+    }
+  ]
+}

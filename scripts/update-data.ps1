@@ -8,6 +8,8 @@ One command to refresh the site's model data ("call both models").
   .\scripts\update-data.ps1 -Sport nhl -Predict          # NHL: today's games, season sim, power rankings
   .\scripts\update-data.ps1 -Sport nba -Predict          # NBA: season sim, power rankings (the day's games
                                                          #   are the model's "NBA gameday" task's)
+  .\scripts\update-data.ps1 -Sport cbb -Predict          # CBB: rankings (the day's games are the model's
+                                                         #   "CBB gameday" task's)
   .\scripts\update-data.ps1 -Grade                       # grade the football models' finished games first
   .\scripts\update-data.ps1 -Grade -Predict -Week 5      # the weekly routine: grade, project week 5, export
 
@@ -27,7 +29,7 @@ After it finishes: review the diff, then commit + push this repo to deploy.
 The desktop app (desktop\app.py) does all of this on its own, picking the week.
 #>
 param(
-    [ValidateSet('nfl', 'cfb', 'nhl', 'nba', 'all')]
+    [ValidateSet('nfl', 'cfb', 'nhl', 'nba', 'cbb', 'all')]
     [string]$Sport = 'all',
     [switch]$Predict,
     [switch]$Grade,
@@ -41,6 +43,7 @@ $NflRepo = 'C:\Users\maxim\WebSportsLiveProjections\models\nfl'
 $CfbRepo = 'C:\Users\maxim\WebSportsLiveProjections\models\cfb'
 $NhlRepo = 'C:\Users\maxim\WebSportsLiveProjections\models\nhl'
 $NbaRepo = 'C:\Users\maxim\WebSportsLiveProjections\models\nba'
+$CbbRepo = 'C:\Users\maxim\WebSportsLiveProjections\models\cbb'
 $Steps = Join-Path (Split-Path $PSScriptRoot -Parent) 'desktop\sports'  # protected model steps
 
 function Invoke-Step {
@@ -107,6 +110,15 @@ if ($Sport -eq 'nba' -or $Sport -eq 'all') {
         Invoke-Step 'NBA: power rankings' $py @("$Steps\nba.py", 'step', 'power') $NbaRepo
     }
     Invoke-Step 'NBA: export to site' $py @((Join-Path $PSScriptRoot 'exporters\nba.py')) $NbaRepo
+}
+
+if ($Sport -eq 'cbb' -or $Sport -eq 'all') {
+    $py = Join-Path $CbbRepo '.venv\Scripts\python.exe'
+    if ($Predict) {
+        # The day's predictions are the model's own "CBB gameday" scheduled task's (desktop\sports\cbb.py).
+        Invoke-Step 'CBB: rankings' $py @("$Steps\cbb.py", 'step', 'rankings') $CbbRepo
+    }
+    Invoke-Step 'CBB: export to site' $py @((Join-Path $PSScriptRoot 'exporters\cbb.py')) $CbbRepo
 }
 
 # The toolkit is stdlib-only, so whichever model Python ran last can check it all.

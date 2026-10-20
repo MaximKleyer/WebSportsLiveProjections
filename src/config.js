@@ -198,11 +198,30 @@ export const SPORTS = [
   {
     id: 'cbb',
     name: 'COLLEGE BASKETBALL',
-    subtitle: 'Barttorvik-based game predictor',
-    status: 'in-dev',
+    subtitle: 'Barttorvik + the twist',
+    status: 'live',
     accent: '#e89c3a',
-    year: '2025–26',
-    views: views({ games: 'in-dev' }),
+    year: '2026–27',
+    // Games most days, so like the NBA its games view is a daily slate. Every game is shown
+    // twice, Barttorvik alone beside the twist; the season outlook comes later (phase 10).
+    views: [
+      {
+        type: 'games',
+        status: 'live',
+        short: 'DAILY',
+        label: 'Daily Game Projections',
+        blurb:
+          'Every D1 game, day by day: Barttorvik alone beside the twist (this season’s form, four factors, star power, who’s out), the market’s line and flagged bets. Open a game for its layers.',
+      },
+      { type: 'season', status: 'in-dev' },
+      {
+        type: 'results',
+        status: 'live',
+        blurb:
+          'Every published prediction graded against the final score, and the season’s records for Barttorvik alone, the twist, and each of its layers.',
+      },
+      { type: 'rankings', status: 'live' },
+    ],
   },
 ];
 
