@@ -1,0 +1,862 @@
+{
+  "games": {
+    "2026020141": {
+      "title": "SJS @ MTL",
+      "subtitle": "Tue Oct 20 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "San Jose Sharks",
+        "abbr": "SJS",
+        "note": "In net: A. Nedeljkovic (91% to start)"
+      },
+      "home": {
+        "name": "Montr\u00e9al Canadiens",
+        "abbr": "MTL",
+        "note": "In net: J. Dobes (70% to start)"
+      },
+      "score": {
+        "away": "2.54",
+        "home": "3.68",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3167,
+        "home": 0.6833,
+        "note": "Fair odds: SJS +216, MTL -216 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects SJS 2.36 goals to MTL's 3.28. With overtime and the shootout that makes MTL 68% to win.",
+            "In net: A. Nedeljkovic for SJS (91% to start), J. Dobes for MTL (70% to start).",
+            "The market (1 book, margin removed) gives MTL 66% to win; the model 68%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "SJS to win",
+              "32%",
+              "34%"
+            ],
+            [
+              "MTL to win",
+              "68%",
+              "66%"
+            ],
+            [
+              "SJS \u22121.5",
+              "17%",
+              "\u2014"
+            ],
+            [
+              "MTL \u22121.5",
+              "47%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "56%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "45%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.22 goals."
+        }
+      ]
+    },
+    "2026020142": {
+      "title": "COL @ NJD",
+      "subtitle": "Tue Oct 20 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Colorado Avalanche",
+        "abbr": "COL",
+        "note": "In net: S. Wedgewood (91% to start)"
+      },
+      "home": {
+        "name": "New Jersey Devils",
+        "abbr": "NJD",
+        "note": "In net: J. Allen (76% to start)"
+      },
+      "score": {
+        "away": "3.33",
+        "home": "3.19",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5215,
+        "home": 0.4785,
+        "note": "Fair odds: COL -109, NJD +109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects COL 3.01 goals to NJD's 2.92. With overtime and the shootout that makes COL 52% to win.",
+            "In net: S. Wedgewood for COL (91% to start), J. Allen for NJD (76% to start).",
+            "The market (1 book, margin removed) gives NJD 52% to win; the model 48%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "COL to win",
+              "52%",
+              "48%"
+            ],
+            [
+              "NJD to win",
+              "48%",
+              "52%"
+            ],
+            [
+              "COL \u22121.5",
+              "33%",
+              "\u2014"
+            ],
+            [
+              "NJD \u22121.5",
+              "29%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "61%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "50%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.52 goals."
+        }
+      ]
+    },
+    "2026020143": {
+      "title": "ANA @ NYI",
+      "subtitle": "Tue Oct 20 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Anaheim Ducks",
+        "abbr": "ANA",
+        "note": "In net: L. Dostal (91% to start)"
+      },
+      "home": {
+        "name": "New York Islanders",
+        "abbr": "NYI",
+        "note": "In net: I. Sorokin (90% to start)"
+      },
+      "score": {
+        "away": "2.67",
+        "home": "3.38",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3826,
+        "home": 0.6174,
+        "note": "Fair odds: ANA +161, NYI -161 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects ANA 2.44 goals to NYI's 3.01. With overtime and the shootout that makes NYI 62% to win.",
+            "In net: L. Dostal for ANA (91% to start), I. Sorokin for NYI (90% to start).",
+            "The market (1 book, margin removed) gives NYI 58% to win; the model 62%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "ANA to win",
+              "38%",
+              "42%"
+            ],
+            [
+              "NYI to win",
+              "62%",
+              "58%"
+            ],
+            [
+              "ANA \u22121.5",
+              "22%",
+              "\u2014"
+            ],
+            [
+              "NYI \u22121.5",
+              "40%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "53%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "42%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.04 goals."
+        }
+      ]
+    },
+    "2026020144": {
+      "title": "LAK @ WSH",
+      "subtitle": "Tue Oct 20 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Los Angeles Kings",
+        "abbr": "LAK",
+        "note": "In net: D. Kuemper (51% to start)"
+      },
+      "home": {
+        "name": "Washington Capitals",
+        "abbr": "WSH",
+        "note": "In net: L. Thompson (77% to start)"
+      },
+      "score": {
+        "away": "2.83",
+        "home": "3.14",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4485,
+        "home": 0.5515,
+        "note": "Fair odds: LAK +123, WSH -123 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects LAK 2.56 goals to WSH's 2.81. With overtime and the shootout that makes WSH 55% to win.",
+            "In net: D. Kuemper for LAK (51% to start), L. Thompson for WSH (77% to start).",
+            "The market (1 book, margin removed) gives WSH 58% to win; the model 55%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "LAK to win",
+              "45%",
+              "42%"
+            ],
+            [
+              "WSH to win",
+              "55%",
+              "58%"
+            ],
+            [
+              "LAK \u22121.5",
+              "26%",
+              "\u2014"
+            ],
+            [
+              "WSH \u22121.5",
+              "34%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.97 goals."
+        }
+      ]
+    },
+    "2026020145": {
+      "title": "TOR @ CBJ",
+      "subtitle": "Tue Oct 20 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Toronto Maple Leafs",
+        "abbr": "TOR",
+        "note": "In net: A. Stolarz (91% to start)"
+      },
+      "home": {
+        "name": "Columbus Blue Jackets",
+        "abbr": "CBJ",
+        "note": "In net: J. Greaves (85% to start)"
+      },
+      "score": {
+        "away": "2.72",
+        "home": "3.35",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3959,
+        "home": 0.6041,
+        "note": "Fair odds: TOR +153, CBJ -153 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects TOR 2.49 goals to CBJ's 2.99. With overtime and the shootout that makes CBJ 60% to win.",
+            "In net: A. Stolarz for TOR (91% to start), J. Greaves for CBJ (85% to start).",
+            "The market (1 book, margin removed) gives CBJ 58% to win; the model 60%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "TOR to win",
+              "40%",
+              "42%"
+            ],
+            [
+              "CBJ to win",
+              "60%",
+              "58%"
+            ],
+            [
+              "TOR \u22121.5",
+              "23%",
+              "\u2014"
+            ],
+            [
+              "CBJ \u22121.5",
+              "39%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "54%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "43%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.07 goals."
+        }
+      ]
+    },
+    "2026020146": {
+      "title": "WPG @ STL",
+      "subtitle": "Tue Oct 20 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Winnipeg Jets",
+        "abbr": "WPG",
+        "note": "In net: S. Skinner (62% to start)"
+      },
+      "home": {
+        "name": "St. Louis Blues",
+        "abbr": "STL",
+        "note": "In net: J. Hofer (59% to start)"
+      },
+      "score": {
+        "away": "2.93",
+        "home": "3.22",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4528,
+        "home": 0.5472,
+        "note": "Fair odds: WPG +121, STL -121 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects WPG 2.66 goals to STL's 2.89. With overtime and the shootout that makes STL 55% to win.",
+            "In net: S. Skinner for WPG (62% to start), J. Hofer for STL (59% to start).",
+            "The market (1 book, margin removed) gives STL 57% to win; the model 55%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "WPG to win",
+              "45%",
+              "43%"
+            ],
+            [
+              "STL to win",
+              "55%",
+              "57%"
+            ],
+            [
+              "WPG \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "STL \u22121.5",
+              "34%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "55%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "44%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.15 goals."
+        }
+      ]
+    },
+    "2026020147": {
+      "title": "BOS @ DAL",
+      "subtitle": "Tue Oct 20 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Boston Bruins",
+        "abbr": "BOS",
+        "note": "In net: J. Swayman (91% to start)"
+      },
+      "home": {
+        "name": "Dallas Stars",
+        "abbr": "DAL",
+        "note": "In net: J. Oettinger (72% to start)"
+      },
+      "score": {
+        "away": "2.77",
+        "home": "2.86",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4838,
+        "home": 0.5162,
+        "note": "Fair odds: BOS +107, DAL -107 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects BOS 2.47 goals to DAL's 2.55. With overtime and the shootout that makes DAL 52% to win.",
+            "In net: J. Swayman for BOS (91% to start), J. Oettinger for DAL (72% to start).",
+            "The market (1 book, margin removed) gives DAL 60% to win; the model 52%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "BOS to win",
+              "48%",
+              "40%"
+            ],
+            [
+              "DAL to win",
+              "52%",
+              "60%"
+            ],
+            [
+              "BOS \u22121.5",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "DAL \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "46%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "35%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.63 goals."
+        }
+      ]
+    },
+    "2026020148": {
+      "title": "MIN @ EDM",
+      "subtitle": "Tue Oct 20 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "Minnesota Wild",
+        "abbr": "MIN",
+        "note": "In net: J. Wallstedt (94% to start)"
+      },
+      "home": {
+        "name": "Edmonton Oilers",
+        "abbr": "EDM",
+        "note": "In net: T. Jarry (60% to start)"
+      },
+      "score": {
+        "away": "3.14",
+        "home": "3.12",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5044,
+        "home": 0.4956,
+        "note": "Fair odds: MIN -102, EDM +102 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects MIN 2.84 goals to EDM's 2.83. With overtime and the shootout that makes MIN 50% to win.",
+            "In net: J. Wallstedt for MIN (94% to start), T. Jarry for EDM (60% to start).",
+            "The market (1 book, margin removed) gives EDM 55% to win; the model 50%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "MIN to win",
+              "50%",
+              "45%"
+            ],
+            [
+              "EDM to win",
+              "50%",
+              "55%"
+            ],
+            [
+              "MIN \u22121.5",
+              "31%",
+              "\u2014"
+            ],
+            [
+              "EDM \u22121.5",
+              "30%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "57%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "46%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.26 goals."
+        }
+      ]
+    },
+    "2026020149": {
+      "title": "DET @ SEA",
+      "subtitle": "Tue Oct 20 \u00b7 9:40 PM ET",
+      "away": {
+        "name": "Detroit Red Wings",
+        "abbr": "DET",
+        "note": "In net: J. Gibson (88% to start)"
+      },
+      "home": {
+        "name": "Seattle Kraken",
+        "abbr": "SEA",
+        "note": "In net: J. Daccord (56% to start)"
+      },
+      "score": {
+        "away": "3.15",
+        "home": "3.28",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4801,
+        "home": 0.5199,
+        "note": "Fair odds: DET +108, SEA -108 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects DET 2.86 goals to SEA's 2.97. With overtime and the shootout that makes SEA 52% to win.",
+            "In net: J. Gibson for DET (88% to start), J. Daccord for SEA (56% to start).",
+            "The market (1 book, margin removed) gives SEA 48% to win; the model 52%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "DET to win",
+              "48%",
+              "52%"
+            ],
+            [
+              "SEA to win",
+              "52%",
+              "48%"
+            ],
+            [
+              "DET \u22121.5",
+              "29%",
+              "\u2014"
+            ],
+            [
+              "SEA \u22121.5",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "59%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "49%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.43 goals."
+        }
+      ]
+    },
+    "2026020150": {
+      "title": "CAR @ VAN",
+      "subtitle": "Tue Oct 20 \u00b7 10:00 PM ET",
+      "away": {
+        "name": "Carolina Hurricanes",
+        "abbr": "CAR",
+        "note": "In net: B. Bussi (68% to start)"
+      },
+      "home": {
+        "name": "Vancouver Canucks",
+        "abbr": "VAN",
+        "note": "In net: K. Lankinen (76% to start)"
+      },
+      "score": {
+        "away": "4.18",
+        "home": "2.58",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.7439,
+        "home": 0.2561,
+        "note": "Fair odds: CAR -290, VAN +290 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects CAR 3.76 goals to VAN's 2.46. With overtime and the shootout that makes CAR 74% to win.",
+            "In net: B. Bussi for CAR (68% to start), K. Lankinen for VAN (76% to start).",
+            "The market (1 book, margin removed) gives VAN 28% to win; the model 26%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "CAR to win",
+              "74%",
+              "72%"
+            ],
+            [
+              "VAN to win",
+              "26%",
+              "28%"
+            ],
+            [
+              "CAR \u22121.5",
+              "54%",
+              "\u2014"
+            ],
+            [
+              "VAN \u22121.5",
+              "14%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "65%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "54%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.76 goals."
+        }
+      ]
+    },
+    "2026020151": {
+      "title": "TBL @ VGK",
+      "subtitle": "Tue Oct 20 \u00b7 10:30 PM ET",
+      "away": {
+        "name": "Tampa Bay Lightning",
+        "abbr": "TBL",
+        "note": "In net: A. Vasilevskiy (90% to start)"
+      },
+      "home": {
+        "name": "Vegas Golden Knights",
+        "abbr": "VGK",
+        "note": "In net: C. Hart (65% to start)"
+      },
+      "score": {
+        "away": "2.96",
+        "home": "3.07",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4813,
+        "home": 0.5187,
+        "note": "Fair odds: TBL +108, VGK -108 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects TBL 2.66 goals to VGK's 2.76. With overtime and the shootout that makes VGK 52% to win.",
+            "In net: A. Vasilevskiy for TBL (90% to start), C. Hart for VGK (65% to start).",
+            "The market (1 book, margin removed) gives VGK 50% to win; the model 52%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "TBL to win",
+              "48%",
+              "50%"
+            ],
+            [
+              "VGK to win",
+              "52%",
+              "50%"
+            ],
+            [
+              "TBL \u22121.5",
+              "29%",
+              "\u2014"
+            ],
+            [
+              "VGK \u22121.5",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "53%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "42%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.03 goals."
+        }
+      ]
+    }
+  }
+}

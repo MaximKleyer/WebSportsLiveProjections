@@ -1,0 +1,160 @@
+{
+  "games": {
+    "2026020119": {
+      "title": "PIT @ COL",
+      "subtitle": "Fri Oct 16 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "Pittsburgh Penguins",
+        "abbr": "PIT",
+        "note": "In net: A. Silovs (78% to start)"
+      },
+      "home": {
+        "name": "Colorado Avalanche",
+        "abbr": "COL",
+        "note": "In net: M. Blackwood (52% to start)"
+      },
+      "score": {
+        "away": "3.07",
+        "home": "3.62",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4125,
+        "home": 0.5875,
+        "note": "Fair odds: PIT +142, COL -142 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects PIT 2.83 goals to COL's 3.28. With overtime and the shootout that makes COL 59% to win.",
+            "In net: A. Silovs for PIT (78% to start), M. Blackwood for COL (52% to start).",
+            "The market (1 book, margin removed) gives COL 64% to win; the model 59%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "PIT to win",
+              "41%",
+              "36%"
+            ],
+            [
+              "COL to win",
+              "59%",
+              "64%"
+            ],
+            [
+              "PIT \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "COL \u22121.5",
+              "38%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "63%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "53%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.68 goals."
+        }
+      ]
+    },
+    "2026020120": {
+      "title": "BOS @ ANA",
+      "subtitle": "Fri Oct 16 \u00b7 10:00 PM ET",
+      "away": {
+        "name": "Boston Bruins",
+        "abbr": "BOS",
+        "note": "In net: J. Swayman (95% to start)"
+      },
+      "home": {
+        "name": "Anaheim Ducks",
+        "abbr": "ANA",
+        "note": "In net: L. Dostal (78% to start)"
+      },
+      "score": {
+        "away": "3.27",
+        "home": "3.01",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.5436,
+        "home": 0.4564,
+        "note": "Fair odds: BOS -119, ANA +119 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects BOS 2.94 goals to ANA's 2.75. With overtime and the shootout that makes BOS 54% to win.",
+            "In net: J. Swayman for BOS (95% to start), L. Dostal for ANA (78% to start).",
+            "The market (1 book, margin removed) gives ANA 50% to win; the model 46%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "BOS to win",
+              "54%",
+              "50%"
+            ],
+            [
+              "ANA to win",
+              "46%",
+              "50%"
+            ],
+            [
+              "BOS \u22121.5",
+              "34%",
+              "\u2014"
+            ],
+            [
+              "ANA \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "57%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "46%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.28 goals."
+        }
+      ]
+    }
+  }
+}

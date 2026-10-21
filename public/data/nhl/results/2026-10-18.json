@@ -1,0 +1,125 @@
+{
+  "subtitle": "Sun Oct 18, 2026\u201327 \u2014 2 games \u00b7 straight up 1\u20131 \u00b7 log loss 0.773 \u00b7 totals MAE 2.32",
+  "updated": "2026-10-21",
+  "search": "Search teams",
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou55",
+      "label": "O/U 5.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou65",
+      "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "CBJ",
+      "awayScore": "1",
+      "sep": "\u2013",
+      "homeScore": "2",
+      "homeTeam": "MIN",
+      "proj": "2.7 \u2013 3.5",
+      "pick": {
+        "v": "MIN 62% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.20 \u2192 3",
+        "sort": 3.1994
+      },
+      "ou55": {
+        "v": "OVER 56% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 55% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "CAR",
+      "awayScore": "2",
+      "sep": "\u2013",
+      "homeScore": "3",
+      "homeTeam": "CGY",
+      "proj": "3.7 \u2013 2.7",
+      "pick": {
+        "v": "CAR 66% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "total": {
+        "v": "6.45 \u2192 5",
+        "sort": 1.4481
+      },
+      "ou55": {
+        "v": "OVER 60% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou65": {
+        "v": "UNDER 51% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    }
+  ]
+}

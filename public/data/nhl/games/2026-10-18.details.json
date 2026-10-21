@@ -1,0 +1,160 @@
+{
+  "games": {
+    "2026020135": {
+      "title": "CBJ @ MIN",
+      "subtitle": "Sun Oct 18 \u00b7 6:00 PM ET",
+      "away": {
+        "name": "Columbus Blue Jackets",
+        "abbr": "CBJ",
+        "note": "In net: C. Talbot (91% to start)"
+      },
+      "home": {
+        "name": "Minnesota Wild",
+        "abbr": "MIN",
+        "note": "In net: J. Wallstedt (94% to start)"
+      },
+      "score": {
+        "away": "2.74",
+        "home": "3.46",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.3805,
+        "home": 0.6195,
+        "note": "Fair odds: CBJ +163, MIN -163 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects CBJ 2.51 goals to MIN's 3.10. With overtime and the shootout that makes MIN 62% to win.",
+            "In net: C. Talbot for CBJ (91% to start), J. Wallstedt for MIN (94% to start).",
+            "The market (1 book, margin removed) gives MIN 63% to win; the model 62%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "CBJ to win",
+              "38%",
+              "37%"
+            ],
+            [
+              "MIN to win",
+              "62%",
+              "63%"
+            ],
+            [
+              "CBJ \u22121.5",
+              "22%",
+              "\u2014"
+            ],
+            [
+              "MIN \u22121.5",
+              "41%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "56%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "45%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.20 goals."
+        }
+      ]
+    },
+    "2026020136": {
+      "title": "CAR @ CGY",
+      "subtitle": "Sun Oct 18 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Carolina Hurricanes",
+        "abbr": "CAR",
+        "note": "In net: B. Bussi (91% to start)"
+      },
+      "home": {
+        "name": "Calgary Flames",
+        "abbr": "CGY",
+        "note": "In net: D. Wolf (65% to start)"
+      },
+      "score": {
+        "away": "3.71",
+        "home": "2.74",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.6561,
+        "home": 0.3439,
+        "note": "Fair odds: CAR -191, CGY +191 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects CAR 3.32 goals to CGY's 2.55. With overtime and the shootout that makes CAR 66% to win.",
+            "In net: B. Bussi for CAR (91% to start), D. Wolf for CGY (65% to start).",
+            "The market (1 book, margin removed) gives CGY 34% to win; the model 34%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "CAR to win",
+              "66%",
+              "66%"
+            ],
+            [
+              "CGY to win",
+              "34%",
+              "34%"
+            ],
+            [
+              "CAR \u22121.5",
+              "44%",
+              "\u2014"
+            ],
+            [
+              "CGY \u22121.5",
+              "19%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "60%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "49%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.45 goals."
+        }
+      ]
+    }
+  }
+}

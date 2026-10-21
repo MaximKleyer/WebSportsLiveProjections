@@ -1,0 +1,135 @@
+{
+  "subtitle": "2026 \u00b7 Week 8 \u2014 3 of 56 games graded so far \u00b7 SU 2\u20131 \u00b7 ATS 3\u20130 \u00b7 O/U 3\u20130 \u00b7 \u2605 plays 3\u20130",
+  "updated": "2026-10-21",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 plays only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "SU Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "Missouri State",
+      "awayScore": "38",
+      "sep": "\u2013",
+      "homeScore": "61",
+      "homeTeam": "Delaware",
+      "proj": "24.5 \u2013 30.6",
+      "su": {
+        "v": "Delaware \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Delaware -2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 52.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Middle Tennessee",
+      "awayScore": "26",
+      "sep": "\u2013",
+      "homeScore": "23",
+      "homeTeam": "Florida International",
+      "proj": "19.6 \u2013 29.5",
+      "su": {
+        "v": "Florida International \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "Middle Tennessee +10 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "\u2605 OVER 45.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "South Alabama",
+      "awayScore": "13",
+      "sep": "\u2013",
+      "homeScore": "20",
+      "homeTeam": "Marshall",
+      "proj": "31.7 \u2013 32.8",
+      "su": {
+        "v": "Marshall \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Marshall +3 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "UNDER 65.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    }
+  ]
+}

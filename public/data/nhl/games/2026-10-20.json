@@ -1,0 +1,487 @@
+{
+  "subtitle": "Tue Oct 20, 2026\u201327 \u2014 11 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
+  "updated": "2026-10-20",
+  "search": "Search teams or goalies",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "puck",
+      "label": "Fav -1.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "p_over_5.5",
+      "label": "Over 5.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "p_over_6.5",
+      "label": "Over 6.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktTotal",
+      "label": "Mkt Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-20T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "SJS",
+        "sub": "A. Nedeljkovic 91%"
+      },
+      "awayScore": "2.5",
+      "sep": "\u2013",
+      "homeScore": "3.7",
+      "homeTeam": {
+        "v": "MTL",
+        "sub": "J. Dobes 70%"
+      },
+      "homeWin": 0.6833,
+      "fair": "-216",
+      "puck": {
+        "v": "MTL 47%",
+        "sort": 0.4661
+      },
+      "total": {
+        "v": "6.22",
+        "sort": 6.22
+      },
+      "p_over_5.5": 0.5629,
+      "p_over_6.5": 0.4502,
+      "mktHome": 0.6636,
+      "mktTotal": {
+        "v": "6.5: over 45%",
+        "sort": 0.4502
+      },
+      "id": "2026020141",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-20T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "COL",
+        "sub": "S. Wedgewood 91%"
+      },
+      "awayScore": "3.3",
+      "sep": "\u2013",
+      "homeScore": "3.2",
+      "homeTeam": {
+        "v": "NJD",
+        "sub": "J. Allen 76%"
+      },
+      "homeWin": 0.4785,
+      "fair": "+109",
+      "puck": {
+        "v": "COL 33%",
+        "sort": 0.3275
+      },
+      "total": {
+        "v": "6.52",
+        "sort": 6.52
+      },
+      "p_over_5.5": 0.609,
+      "p_over_6.5": 0.5028,
+      "mktHome": 0.5217,
+      "mktTotal": {
+        "v": "6.5: over 50%",
+        "sort": 0.5028
+      },
+      "id": "2026020142",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-20T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "ANA",
+        "sub": "L. Dostal 91%"
+      },
+      "awayScore": "2.7",
+      "sep": "\u2013",
+      "homeScore": "3.4",
+      "homeTeam": {
+        "v": "NYI",
+        "sub": "I. Sorokin 90%"
+      },
+      "homeWin": 0.6174,
+      "fair": "-161",
+      "puck": {
+        "v": "NYI 40%",
+        "sort": 0.401
+      },
+      "total": {
+        "v": "6.04",
+        "sort": 6.04
+      },
+      "p_over_5.5": 0.5325,
+      "p_over_6.5": 0.4225,
+      "mktHome": 0.583,
+      "mktTotal": {
+        "v": "5.5: over 53%",
+        "sort": 0.5325
+      },
+      "id": "2026020143",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-20T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "LAK",
+        "sub": "D. Kuemper 51%"
+      },
+      "awayScore": "2.8",
+      "sep": "\u2013",
+      "homeScore": "3.1",
+      "homeTeam": {
+        "v": "WSH",
+        "sub": "L. Thompson 77%"
+      },
+      "homeWin": 0.5515,
+      "fair": "-123",
+      "puck": {
+        "v": "WSH 34%",
+        "sort": 0.3429
+      },
+      "total": {
+        "v": "5.97",
+        "sort": 5.97
+      },
+      "p_over_5.5": 0.5196,
+      "p_over_6.5": 0.4113,
+      "mktHome": 0.583,
+      "mktTotal": {
+        "v": "5.5: over 52%",
+        "sort": 0.5196
+      },
+      "id": "2026020144",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:00 PM",
+        "sort": "2026-10-20T23:00:00Z"
+      },
+      "awayTeam": {
+        "v": "TOR",
+        "sub": "A. Stolarz 91%"
+      },
+      "awayScore": "2.7",
+      "sep": "\u2013",
+      "homeScore": "3.3",
+      "homeTeam": {
+        "v": "CBJ",
+        "sub": "J. Greaves 85%"
+      },
+      "homeWin": 0.6041,
+      "fair": "-153",
+      "puck": {
+        "v": "CBJ 39%",
+        "sort": 0.3897
+      },
+      "total": {
+        "v": "6.07",
+        "sort": 6.07
+      },
+      "p_over_5.5": 0.537,
+      "p_over_6.5": 0.4274,
+      "mktHome": 0.583,
+      "mktTotal": {
+        "v": "6.5: over 43%",
+        "sort": 0.4274
+      },
+      "id": "2026020145",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-21T00:00:00Z"
+      },
+      "awayTeam": {
+        "v": "WPG",
+        "sub": "S. Skinner 62%"
+      },
+      "awayScore": "2.9",
+      "sep": "\u2013",
+      "homeScore": "3.2",
+      "homeTeam": {
+        "v": "STL",
+        "sub": "J. Hofer 59%"
+      },
+      "homeWin": 0.5472,
+      "fair": "-121",
+      "puck": {
+        "v": "STL 34%",
+        "sort": 0.3424
+      },
+      "total": {
+        "v": "6.15",
+        "sort": 6.15
+      },
+      "p_over_5.5": 0.5496,
+      "p_over_6.5": 0.4414,
+      "mktHome": 0.5721,
+      "mktTotal": {
+        "v": "5.5: over 55%",
+        "sort": 0.5496
+      },
+      "id": "2026020146",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-21T00:00:00Z"
+      },
+      "awayTeam": {
+        "v": "BOS",
+        "sub": "J. Swayman 91%"
+      },
+      "awayScore": "2.8",
+      "sep": "\u2013",
+      "homeScore": "2.9",
+      "homeTeam": {
+        "v": "DAL",
+        "sub": "J. Oettinger 72%"
+      },
+      "homeWin": 0.5162,
+      "fair": "-107",
+      "puck": {
+        "v": "DAL 31%",
+        "sort": 0.3082
+      },
+      "total": {
+        "v": "5.63",
+        "sort": 5.63
+      },
+      "p_over_5.5": 0.4601,
+      "p_over_6.5": 0.3541,
+      "mktHome": 0.6038,
+      "mktTotal": {
+        "v": "5.5: over 46%",
+        "sort": 0.4601
+      },
+      "id": "2026020147",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "9:00 PM",
+        "sort": "2026-10-21T01:00:00Z"
+      },
+      "awayTeam": {
+        "v": "MIN",
+        "sub": "J. Wallstedt 94%"
+      },
+      "awayScore": "3.1",
+      "sep": "\u2013",
+      "homeScore": "3.1",
+      "homeTeam": {
+        "v": "EDM",
+        "sub": "T. Jarry 60%"
+      },
+      "homeWin": 0.4956,
+      "fair": "+102",
+      "puck": {
+        "v": "MIN 31%",
+        "sort": 0.3099
+      },
+      "total": {
+        "v": "6.26",
+        "sort": 6.26
+      },
+      "p_over_5.5": 0.568,
+      "p_over_6.5": 0.4603,
+      "mktHome": 0.5514,
+      "mktTotal": {
+        "v": "6.5: over 46%",
+        "sort": 0.4603
+      },
+      "id": "2026020148",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "9:40 PM",
+        "sort": "2026-10-21T01:40:00Z"
+      },
+      "awayTeam": {
+        "v": "DET",
+        "sub": "J. Gibson 88%"
+      },
+      "awayScore": "3.2",
+      "sep": "\u2013",
+      "homeScore": "3.3",
+      "homeTeam": {
+        "v": "SEA",
+        "sub": "J. Daccord 56%"
+      },
+      "homeWin": 0.5199,
+      "fair": "-108",
+      "puck": {
+        "v": "SEA 32%",
+        "sort": 0.3244
+      },
+      "total": {
+        "v": "6.43",
+        "sort": 6.43
+      },
+      "p_over_5.5": 0.5945,
+      "p_over_6.5": 0.4876,
+      "mktHome": 0.4826,
+      "mktTotal": {
+        "v": "6.5: over 49%",
+        "sort": 0.4876
+      },
+      "id": "2026020149",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-21T02:00:00Z"
+      },
+      "awayTeam": {
+        "v": "CAR",
+        "sub": "B. Bussi 68%"
+      },
+      "awayScore": "4.2",
+      "sep": "\u2013",
+      "homeScore": "2.6",
+      "homeTeam": {
+        "v": "VAN",
+        "sub": "K. Lankinen 76%"
+      },
+      "homeWin": 0.2561,
+      "fair": "+290",
+      "puck": {
+        "v": "CAR 54%",
+        "sort": 0.5374
+      },
+      "total": {
+        "v": "6.76",
+        "sort": 6.76
+      },
+      "p_over_5.5": 0.6498,
+      "p_over_6.5": 0.5382,
+      "mktHome": 0.282,
+      "mktTotal": {
+        "v": "6.5: over 54%",
+        "sort": 0.5382
+      },
+      "id": "2026020150",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "10:30 PM",
+        "sort": "2026-10-21T02:30:00Z"
+      },
+      "awayTeam": {
+        "v": "TBL",
+        "sub": "A. Vasilevskiy 90%"
+      },
+      "awayScore": "3.0",
+      "sep": "\u2013",
+      "homeScore": "3.1",
+      "homeTeam": {
+        "v": "VGK",
+        "sub": "C. Hart 65%"
+      },
+      "homeWin": 0.5187,
+      "fair": "-108",
+      "puck": {
+        "v": "VGK 32%",
+        "sort": 0.3171
+      },
+      "total": {
+        "v": "6.03",
+        "sort": 6.03
+      },
+      "p_over_5.5": 0.5289,
+      "p_over_6.5": 0.4209,
+      "mktHome": 0.5,
+      "mktTotal": {
+        "v": "6.5: over 42%",
+        "sort": 0.4209
+      },
+      "id": "2026020151",
+      "flagged": false
+    }
+  ],
+  "details": "2026-10-20.details.json"
+}

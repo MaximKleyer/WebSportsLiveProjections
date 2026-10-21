@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 \u00b7 record by week",
-  "updated": "2026-10-13",
+  "updated": "2026-10-20",
   "columns": [
     {
       "key": "week",
@@ -210,6 +210,38 @@
         "tone": "good"
       },
       "mae": 9.2
+    },
+    {
+      "week": {
+        "v": "Week 6",
+        "sort": 6
+      },
+      "games": 14,
+      "su": {
+        "v": "6\u20138 (43%)",
+        "sort": 0.4286
+      },
+      "ats": {
+        "v": "8\u20136 (57%)",
+        "sort": 0.5714,
+        "tone": "good"
+      },
+      "ou": {
+        "v": "6\u20138 (43%)",
+        "sort": 0.4286,
+        "tone": "bad"
+      },
+      "spreadPlays": {
+        "v": "5\u20134 (56%)",
+        "sort": 0.5556,
+        "tone": "good"
+      },
+      "totalPlays": {
+        "v": "1\u20133 (25%)",
+        "sort": 0.25,
+        "tone": "bad"
+      },
+      "mae": 7.1
     }
   ]
 }

@@ -1,0 +1,156 @@
+{
+  "subtitle": "Tue Oct 27, 2026\u201327 \u2014 4 games \u00b7 EARLY LOOK as of 10:11 AM ET Wed: before game-day injury news and without bets; the gameday task's run replaces it 75 minutes before the first tip \u00b7 times ET \u00b7 score = expected points \u00b7 fair ML is the home side's",
+  "updated": "2026-10-21",
+  "search": "Search teams or players",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "spread",
+      "label": "Proj. Spread",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "7:30 PM",
+        "sort": "2026-10-27T23:30:00Z"
+      },
+      "awayTeam": "BKN",
+      "awayScore": "104.0",
+      "sep": "\u2013",
+      "homeScore": "118.0",
+      "homeTeam": "BOS",
+      "homeWin": 0.8845,
+      "fair": "-766",
+      "spread": {
+        "v": "BOS -14.0",
+        "sort": 13.97
+      },
+      "total": {
+        "v": "222.0",
+        "sort": 222.03
+      },
+      "id": "0022600128",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-28T00:00:00Z"
+      },
+      "awayTeam": "DET",
+      "awayScore": "114.8",
+      "sep": "\u2013",
+      "homeScore": "115.0",
+      "homeTeam": "NYK",
+      "homeWin": 0.5088,
+      "fair": "-104",
+      "spread": {
+        "v": "NYK -0.2",
+        "sort": 0.23
+      },
+      "total": {
+        "v": "229.9",
+        "sort": 229.87
+      },
+      "id": "0022600129",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-28T00:00:00Z"
+      },
+      "awayTeam": "SAC",
+      "awayScore": "105.7",
+      "sep": "\u2013",
+      "homeScore": "121.8",
+      "homeTeam": "SAS",
+      "homeWin": 0.9162,
+      "fair": "-1093",
+      "spread": {
+        "v": "SAS -16.1",
+        "sort": 16.05
+      },
+      "total": {
+        "v": "227.5",
+        "sort": 227.51
+      },
+      "id": "0022600130",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "11:00 PM",
+        "sort": "2026-10-28T03:00:00Z"
+      },
+      "awayTeam": "POR",
+      "awayScore": "114.9",
+      "sep": "\u2013",
+      "homeScore": "121.9",
+      "homeTeam": "LAL",
+      "homeWin": 0.7275,
+      "fair": "-267",
+      "spread": {
+        "v": "LAL -7.0",
+        "sort": 6.95
+      },
+      "total": {
+        "v": "236.8",
+        "sort": 236.79
+      },
+      "id": "0022600131",
+      "flagged": false
+    }
+  ],
+  "details": "2026-10-27.details.json"
+}

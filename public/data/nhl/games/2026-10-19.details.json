@@ -1,0 +1,316 @@
+{
+  "games": {
+    "2026020137": {
+      "title": "ANA @ NYR",
+      "subtitle": "Mon Oct 19 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Anaheim Ducks",
+        "abbr": "ANA",
+        "note": "In net: L. Dostal (79% to start)"
+      },
+      "home": {
+        "name": "New York Rangers",
+        "abbr": "NYR",
+        "note": "In net: I. Shesterkin (70% to start)"
+      },
+      "score": {
+        "away": "2.85",
+        "home": "3.09",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.46,
+        "home": 0.54,
+        "note": "Fair odds: ANA +117, NYR -117 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects ANA 2.57 goals to NYR's 2.77. With overtime and the shootout that makes NYR 54% to win.",
+            "In net: L. Dostal for ANA (79% to start), I. Shesterkin for NYR (70% to start).",
+            "The market (1 book, margin removed) gives NYR 58% to win; the model 54%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "ANA to win",
+              "46%",
+              "42%"
+            ],
+            [
+              "NYR to win",
+              "54%",
+              "58%"
+            ],
+            [
+              "ANA \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "NYR \u22121.5",
+              "33%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "51%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.94 goals."
+        }
+      ]
+    },
+    "2026020138": {
+      "title": "COL @ PHI",
+      "subtitle": "Mon Oct 19 \u00b7 7:00 PM ET",
+      "away": {
+        "name": "Colorado Avalanche",
+        "abbr": "COL",
+        "note": "In net: M. Blackwood (54% to start)"
+      },
+      "home": {
+        "name": "Philadelphia Flyers",
+        "abbr": "PHI",
+        "note": "In net: D. Vladar (78% to start)"
+      },
+      "score": {
+        "away": "3.57",
+        "home": "2.39",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.6938,
+        "home": 0.3062,
+        "note": "Fair odds: COL -227, PHI +227 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects COL 3.15 goals to PHI's 2.22. With overtime and the shootout that makes COL 69% to win.",
+            "In net: M. Blackwood for COL (54% to start), D. Vladar for PHI (78% to start).",
+            "The market (1 book, margin removed) gives PHI 32% to win; the model 31%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "COL to win",
+              "69%",
+              "68%"
+            ],
+            [
+              "PHI to win",
+              "31%",
+              "32%"
+            ],
+            [
+              "COL \u22121.5",
+              "47%",
+              "\u2014"
+            ],
+            [
+              "PHI \u22121.5",
+              "16%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "41%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 5.95 goals."
+        }
+      ]
+    },
+    "2026020139": {
+      "title": "SJS @ TOR",
+      "subtitle": "Mon Oct 19 \u00b7 7:30 PM ET",
+      "away": {
+        "name": "San Jose Sharks",
+        "abbr": "SJS",
+        "note": "In net: Y. Askarov (54% to start)"
+      },
+      "home": {
+        "name": "Toronto Maple Leafs",
+        "abbr": "TOR",
+        "note": "In net: A. Stolarz (56% to start)"
+      },
+      "score": {
+        "away": "2.94",
+        "home": "3.41",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4229,
+        "home": 0.5771,
+        "note": "Fair odds: SJS +136, TOR -136 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects SJS 2.68 goals to TOR's 3.07. With overtime and the shootout that makes TOR 58% to win.",
+            "In net: Y. Askarov for SJS (54% to start), A. Stolarz for TOR (56% to start).",
+            "The market (1 book, margin removed) gives TOR 55% to win; the model 58%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "SJS to win",
+              "42%",
+              "45%"
+            ],
+            [
+              "TOR to win",
+              "58%",
+              "55%"
+            ],
+            [
+              "SJS \u22121.5",
+              "25%",
+              "\u2014"
+            ],
+            [
+              "TOR \u22121.5",
+              "37%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "58%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "47%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.34 goals."
+        }
+      ]
+    },
+    "2026020140": {
+      "title": "PIT @ UTA",
+      "subtitle": "Mon Oct 19 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "Pittsburgh Penguins",
+        "abbr": "PIT",
+        "note": "In net: A. Silovs (74% to start)"
+      },
+      "home": {
+        "name": "Utah Mammoth",
+        "abbr": "UTA",
+        "note": "In net: K. Vejmelka (93% to start)"
+      },
+      "score": {
+        "away": "3.20",
+        "home": "3.59",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4386,
+        "home": 0.5614,
+        "note": "Fair odds: PIT +128, UTA -128 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects PIT 2.95 goals to UTA's 3.27. With overtime and the shootout that makes UTA 56% to win.",
+            "In net: A. Silovs for PIT (74% to start), K. Vejmelka for UTA (93% to start).",
+            "The market (1 book, margin removed) gives UTA 62% to win; the model 56%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
+          ]
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "PIT to win",
+              "44%",
+              "38%"
+            ],
+            [
+              "UTA to win",
+              "56%",
+              "62%"
+            ],
+            [
+              "PIT \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "UTA \u22121.5",
+              "36%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "65%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "55%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.79 goals."
+        }
+      ]
+    }
+  }
+}

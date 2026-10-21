@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 projected final standings \u2014 preseason simulation",
-  "updated": "2026-10-13",
+  "updated": "2026-10-21",
   "groupBy": "division",
   "columns": [
     {
@@ -73,11 +73,11 @@
       "team": "BAL",
       "division": "AFC North",
       "record": {
-        "v": "10.5\u20136.5",
-        "sort": 10.5
+        "v": "10.3\u20136.7",
+        "sort": 10.3
       },
-      "playoff": 0.804,
-      "div": 0.572
+      "playoff": 0.778,
+      "div": 0.543
     },
     {
       "team": "CIN",
@@ -86,8 +86,18 @@
         "v": "9.0\u20138.0",
         "sort": 9.0
       },
-      "playoff": 0.556,
-      "div": 0.25
+      "playoff": 0.557,
+      "div": 0.26
+    },
+    {
+      "team": "CLE",
+      "division": "AFC North",
+      "record": {
+        "v": "7.6\u20139.4",
+        "sort": 7.6
+      },
+      "playoff": 0.289,
+      "div": 0.1
     },
     {
       "team": "PIT",
@@ -96,18 +106,8 @@
         "v": "7.6\u20139.4",
         "sort": 7.6
       },
-      "playoff": 0.285,
-      "div": 0.093
-    },
-    {
-      "team": "CLE",
-      "division": "AFC North",
-      "record": {
-        "v": "7.5\u20139.5",
-        "sort": 7.5
-      },
-      "playoff": 0.262,
-      "div": 0.085
+      "playoff": 0.286,
+      "div": 0.096
     },
     {
       "team": "JAX",
@@ -136,7 +136,7 @@
         "v": "7.6\u20139.4",
         "sort": 7.6
       },
-      "playoff": 0.286,
+      "playoff": 0.287,
       "div": 0.133
     },
     {
@@ -166,7 +166,7 @@
         "v": "8.5\u20138.5",
         "sort": 8.5
       },
-      "playoff": 0.463,
+      "playoff": 0.461,
       "div": 0.161
     },
     {
@@ -176,7 +176,7 @@
         "v": "7.5\u20139.5",
         "sort": 7.5
       },
-      "playoff": 0.269,
+      "playoff": 0.267,
       "div": 0.071
     },
     {
@@ -196,8 +196,8 @@
         "v": "8.5\u20138.5",
         "sort": 8.5
       },
-      "playoff": 0.41,
-      "div": 0.312
+      "playoff": 0.411,
+      "div": 0.316
     },
     {
       "team": "PHI",
@@ -206,8 +206,8 @@
         "v": "8.2\u20138.8",
         "sort": 8.2
       },
-      "playoff": 0.368,
-      "div": 0.274
+      "playoff": 0.356,
+      "div": 0.265
     },
     {
       "team": "DAL",
@@ -217,7 +217,7 @@
         "sort": 8.1
       },
       "playoff": 0.34,
-      "div": 0.249
+      "div": 0.251
     },
     {
       "team": "WAS",
@@ -226,8 +226,8 @@
         "v": "7.5\u20139.5",
         "sort": 7.5
       },
-      "playoff": 0.238,
-      "div": 0.166
+      "playoff": 0.239,
+      "div": 0.168
     },
     {
       "team": "DET",
@@ -236,8 +236,8 @@
         "v": "10.9\u20136.1",
         "sort": 10.9
       },
-      "playoff": 0.811,
-      "div": 0.55
+      "playoff": 0.81,
+      "div": 0.547
     },
     {
       "team": "GB",
@@ -246,8 +246,8 @@
         "v": "9.4\u20137.6",
         "sort": 9.4
       },
-      "playoff": 0.535,
-      "div": 0.223
+      "playoff": 0.533,
+      "div": 0.221
     },
     {
       "team": "MIN",
@@ -256,28 +256,18 @@
         "v": "8.5\u20138.5",
         "sort": 8.5
       },
-      "playoff": 0.361,
-      "div": 0.12
+      "playoff": 0.36,
+      "div": 0.119
     },
     {
       "team": "CHI",
       "division": "NFC North",
       "record": {
-        "v": "8.3\u20138.7",
-        "sort": 8.3
+        "v": "8.4\u20138.6",
+        "sort": 8.4
       },
-      "playoff": 0.327,
-      "div": 0.108
-    },
-    {
-      "team": "ATL",
-      "division": "NFC South",
-      "record": {
-        "v": "8.6\u20138.4",
-        "sort": 8.6
-      },
-      "playoff": 0.425,
-      "div": 0.314
+      "playoff": 0.341,
+      "div": 0.113
     },
     {
       "team": "TB",
@@ -290,14 +280,24 @@
       "div": 0.331
     },
     {
+      "team": "ATL",
+      "division": "NFC South",
+      "record": {
+        "v": "8.5\u20138.5",
+        "sort": 8.5
+      },
+      "playoff": 0.411,
+      "div": 0.302
+    },
+    {
       "team": "CAR",
       "division": "NFC South",
       "record": {
-        "v": "8.3\u20138.7",
-        "sort": 8.3
+        "v": "8.4\u20138.6",
+        "sort": 8.4
       },
-      "playoff": 0.361,
-      "div": 0.26
+      "playoff": 0.376,
+      "div": 0.271
     },
     {
       "team": "NO",
@@ -306,7 +306,7 @@
         "v": "6.9\u201310.1",
         "sort": 6.9
       },
-      "playoff": 0.149,
+      "playoff": 0.15,
       "div": 0.096
     },
     {
@@ -316,7 +316,7 @@
         "v": "10.9\u20136.1",
         "sort": 10.9
       },
-      "playoff": 0.796,
+      "playoff": 0.795,
       "div": 0.402
     },
     {
@@ -336,7 +336,7 @@
         "v": "10.1\u20136.9",
         "sort": 10.1
       },
-      "playoff": 0.679,
+      "playoff": 0.678,
       "div": 0.261
     },
     {

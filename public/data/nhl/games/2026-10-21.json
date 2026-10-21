@@ -1,0 +1,163 @@
+{
+  "subtitle": "Wed Oct 21, 2026\u201327 \u2014 2 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
+  "updated": "2026-10-21",
+  "search": "Search teams or goalies",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "puck",
+      "label": "Fav -1.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "p_over_5.5",
+      "label": "Over 5.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "p_over_6.5",
+      "label": "Over 6.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktTotal",
+      "label": "Mkt Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "7:30 PM",
+        "sort": "2026-10-21T23:30:00Z"
+      },
+      "awayTeam": {
+        "v": "PHI",
+        "sub": "D. Vladar 75%"
+      },
+      "awayScore": "2.6",
+      "sep": "\u2013",
+      "homeScore": "3.3",
+      "homeTeam": {
+        "v": "BUF",
+        "sub": "U. Luukkonen 76%"
+      },
+      "homeWin": 0.6124,
+      "fair": "-158",
+      "puck": {
+        "v": "BUF 39%",
+        "sort": 0.3933
+      },
+      "total": {
+        "v": "5.86",
+        "sort": 5.86
+      },
+      "p_over_5.5": 0.5015,
+      "p_over_6.5": 0.392,
+      "mktHome": 0.6225,
+      "mktTotal": {
+        "v": "5.5: over 50%",
+        "sort": 0.5015
+      },
+      "id": "2026020152",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "7:30 PM",
+        "sort": "2026-10-21T23:30:00Z"
+      },
+      "awayTeam": {
+        "v": "FLA",
+        "sub": "J. Markstrom 59%"
+      },
+      "awayScore": "2.8",
+      "sep": "\u2013",
+      "homeScore": "2.9",
+      "homeTeam": {
+        "v": "OTT",
+        "sub": "L. Ullmark 88%"
+      },
+      "homeWin": 0.5222,
+      "fair": "-109",
+      "puck": {
+        "v": "OTT 32%",
+        "sort": 0.3154
+      },
+      "total": {
+        "v": "5.77",
+        "sort": 5.77
+      },
+      "p_over_5.5": 0.4842,
+      "p_over_6.5": 0.377,
+      "mktHome": 0.4957,
+      "mktTotal": {
+        "v": "5.5: over 48%",
+        "sort": 0.4842
+      },
+      "id": "2026020153",
+      "flagged": false
+    }
+  ],
+  "details": "2026-10-21.details.json"
+}

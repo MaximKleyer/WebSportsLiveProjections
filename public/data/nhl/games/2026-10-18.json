@@ -1,0 +1,163 @@
+{
+  "subtitle": "Sun Oct 18, 2026\u201327 \u2014 2 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
+  "updated": "2026-10-18",
+  "search": "Search teams or goalies",
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "puck",
+      "label": "Fav -1.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "p_over_5.5",
+      "label": "Over 5.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "p_over_6.5",
+      "label": "Over 6.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktTotal",
+      "label": "Mkt Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "6:00 PM",
+        "sort": "2026-10-18T22:00:00Z"
+      },
+      "awayTeam": {
+        "v": "CBJ",
+        "sub": "C. Talbot 91%"
+      },
+      "awayScore": "2.7",
+      "sep": "\u2013",
+      "homeScore": "3.5",
+      "homeTeam": {
+        "v": "MIN",
+        "sub": "J. Wallstedt 94%"
+      },
+      "homeWin": 0.6195,
+      "fair": "-163",
+      "puck": {
+        "v": "MIN 41%",
+        "sort": 0.4057
+      },
+      "total": {
+        "v": "6.20",
+        "sort": 6.2
+      },
+      "p_over_5.5": 0.5586,
+      "p_over_6.5": 0.4487,
+      "mktHome": 0.6309,
+      "mktTotal": {
+        "v": "6.5: over 45%",
+        "sort": 0.4487
+      },
+      "id": "2026020135",
+      "flagged": false
+    },
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-19T00:00:00Z"
+      },
+      "awayTeam": {
+        "v": "CAR",
+        "sub": "B. Bussi 91%"
+      },
+      "awayScore": "3.7",
+      "sep": "\u2013",
+      "homeScore": "2.7",
+      "homeTeam": {
+        "v": "CGY",
+        "sub": "D. Wolf 65%"
+      },
+      "homeWin": 0.3439,
+      "fair": "+191",
+      "puck": {
+        "v": "CAR 44%",
+        "sort": 0.4438
+      },
+      "total": {
+        "v": "6.45",
+        "sort": 6.45
+      },
+      "p_over_5.5": 0.5994,
+      "p_over_6.5": 0.4894,
+      "mktHome": 0.3425,
+      "mktTotal": {
+        "v": "6.5: over 49%",
+        "sort": 0.4894
+      },
+      "id": "2026020136",
+      "flagged": false
+    }
+  ],
+  "details": "2026-10-18.details.json"
+}

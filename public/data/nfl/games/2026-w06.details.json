@@ -5,17 +5,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Seattle Seahawks",
-        "abbr": "SEA",
-        "note": "Proj. 10.5\u20136.5"
+        "abbr": "SEA"
       },
       "home": {
         "name": "Denver Broncos",
-        "abbr": "DEN",
-        "note": "Proj. 8.5\u20138.5"
+        "abbr": "DEN"
       },
       "score": {
-        "away": "22.6",
-        "home": "20.4",
+        "away": "23.2",
+        "home": "21.0",
         "label": "Projected score"
       },
       "win": {
@@ -28,8 +26,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects SEA 22.6 \u2013 DEN 20.4: SEA by 2.2, 43.0 points in all. That makes SEA 56% to win.",
-            "The market line: DEN +3, total 40.5. Against the spread the model takes DEN +3 (52% to cover); on the total, the over (57%).",
+            "The model projects SEA 23.2 \u2013 DEN 21.0: SEA by 2.2, 44.2 points in all. That makes SEA 56% to win.",
+            "The market line: DEN +3, total 40.5. Against the spread the model takes DEN +3 (52% to cover); on the total, the over (60%).",
             "Under center: Sam Darnold projects 213 passing yards for SEA, Bo Nix 178 for DEN.",
             "On the ground: SEA 132 yards on 32 carries, DEN 93 on 25."
           ]
@@ -198,39 +196,9 @@
             ],
             [
               "Over 40.5",
-              "57%"
+              "60%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 10.5,
-              "home": 8.5,
-              "awayText": "10.5",
-              "homeText": "8.5"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.7390000000000001,
-              "home": 0.46299999999999997,
-              "awayText": "74%",
-              "homeText": "46%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.33399999999999996,
-              "home": 0.161,
-              "awayText": "33%",
-              "homeText": "16%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -239,17 +207,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Houston Texans",
-        "abbr": "HOU",
-        "note": "Proj. 9.1\u20137.9"
+        "abbr": "HOU"
       },
       "home": {
         "name": "Jacksonville Jaguars",
-        "abbr": "JAX",
-        "note": "Proj. 9.4\u20137.6"
+        "abbr": "JAX"
       },
       "score": {
-        "away": "17.7",
-        "home": "18.0",
+        "away": "18.3",
+        "home": "18.6",
         "label": "Projected score"
       },
       "win": {
@@ -262,8 +228,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects HOU 17.7 \u2013 JAX 18.0: JAX by 0.3, 35.7 points in all. That makes JAX 51% to win.",
-            "The market line: JAX -3, total 42.5. Against the spread the model takes HOU +3 (58% to cover); on the total, the under (68%).",
+            "The model projects HOU 18.3 \u2013 JAX 18.6: JAX by 0.3, 36.9 points in all. That makes JAX 51% to win.",
+            "The market line: JAX -3, total 42.5. Against the spread the model takes HOU +3 (58% to cover); on the total, the under (66%).",
             "Under center: C.J. Stroud projects 294 passing yards for HOU, Trevor Lawrence 208 for JAX.",
             "On the ground: HOU 59 yards on 20 carries, JAX 88 on 23."
           ]
@@ -432,39 +398,9 @@
             ],
             [
               "Under 42.5",
-              "68%"
+              "66%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 9.1,
-              "home": 9.4,
-              "awayText": "9.1",
-              "homeText": "9.4"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.594,
-              "home": 0.648,
-              "awayText": "59%",
-              "homeText": "65%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.375,
-              "home": 0.43799999999999994,
-              "awayText": "38%",
-              "homeText": "44%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -473,33 +409,31 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Chicago Bears",
-        "abbr": "CHI",
-        "note": "Proj. 8.3\u20138.7"
+        "abbr": "CHI"
       },
       "home": {
         "name": "Atlanta Falcons",
-        "abbr": "ATL",
-        "note": "Proj. 8.6\u20138.4"
+        "abbr": "ATL"
       },
       "score": {
-        "away": "19.9",
-        "home": "25.9",
+        "away": "24.3",
+        "home": "27.5",
         "label": "Projected score"
       },
       "win": {
-        "away": 0.339,
-        "home": 0.661,
-        "note": "Fair odds: CHI +195, ATL -195 (no margin)."
+        "away": 0.412,
+        "home": 0.588,
+        "note": "Fair odds: CHI +143, ATL -143 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects CHI 19.9 \u2013 ATL 25.9: ATL by 6.0, 45.7 points in all. That makes ATL 66% to win.",
-            "The market line: ATL +3, total 49.5. Against the spread the model takes ATL +3 (73% to cover); on the total, the under (61%).",
-            "Under center: Tyson Bagent projects 132 passing yards for CHI, Tua Tagovailoa 224 for ATL.",
-            "On the ground: CHI 123 yards on 28 carries, ATL 171 on 35."
+            "The model projects CHI 24.3 \u2013 ATL 27.5: ATL by 3.2, 51.8 points in all. That makes ATL 59% to win.",
+            "The market line: ATL +3, total 49.5. Against the spread the model takes ATL +3 (67% to cover); on the total, the over (56%).",
+            "Under center: Caleb Williams projects 224 passing yards for CHI, Michael Penix Jr. 271 for ATL.",
+            "On the ground: CHI 134 yards on 28 carries, ATL 172 on 35."
           ]
         },
         {
@@ -508,31 +442,31 @@
           "rows": [
             {
               "label": "Passing yards",
-              "away": 131.6,
-              "home": 224.5,
-              "awayText": "132",
-              "homeText": "224"
+              "away": 224.3,
+              "home": 271.3,
+              "awayText": "224",
+              "homeText": "271"
             },
             {
               "label": "Rushing yards",
-              "away": 122.7,
-              "home": 171.1,
-              "awayText": "123",
-              "homeText": "171"
+              "away": 133.8,
+              "home": 171.6,
+              "awayText": "134",
+              "homeText": "172"
             },
             {
               "label": "Total yards",
-              "away": 254.3,
-              "home": 395.6,
-              "awayText": "254",
-              "homeText": "396"
+              "away": 358.1,
+              "home": 442.9,
+              "awayText": "358",
+              "homeText": "443"
             },
             {
               "label": "Pass attempts",
-              "away": 25.0,
-              "home": 25.6,
-              "awayText": "25",
-              "homeText": "26"
+              "away": 35.4,
+              "home": 25.3,
+              "awayText": "35",
+              "homeText": "25"
             },
             {
               "label": "Carries",
@@ -543,18 +477,18 @@
             },
             {
               "label": "Sacks taken",
-              "away": 0.8,
-              "home": 3.0,
-              "awayText": "0.8",
-              "homeText": "3.0",
+              "away": 1.6,
+              "home": 1.3,
+              "awayText": "1.6",
+              "homeText": "1.3",
               "lower": true
             },
             {
               "label": "Interceptions",
-              "away": 0.9,
-              "home": 0.51,
-              "awayText": "0.9",
-              "homeText": "0.5",
+              "away": 1.31,
+              "home": 0.27,
+              "awayText": "1.3",
+              "homeText": "0.3",
               "lower": true
             }
           ],
@@ -572,75 +506,75 @@
           "rows": [
             [
               "CHI",
-              "Tyson Bagent",
+              "Caleb Williams",
               "QB",
-              "132 pass yds \u00b7 15/25 \u00b7 0.9 INT"
+              "224 pass yds \u00b7 21/35 \u00b7 1.3 INT"
             ],
             [
               "CHI",
               "Kyle Monangai",
               "RB",
-              "62 rush yds on 13.9 carries \u00b7 0.8 rec, 6 yds"
+              "62 rush yds on 13.9 carries \u00b7 1.4 rec, 10 yds"
             ],
             [
               "CHI",
               "D'Andre Swift",
               "RB",
-              "49 rush yds on 14.3 carries \u00b7 1.9 rec, 14 yds"
+              "49 rush yds on 14.3 carries \u00b7 3.2 rec, 24 yds"
             ],
             [
               "CHI",
               "Rome Odunze",
               "WR",
-              "2.3 rec, 33 yds \u00b7 18% of targets"
+              "3.8 rec, 56 yds \u00b7 18% of targets"
             ],
             [
               "CHI",
               "Luther Burden III",
               "WR",
-              "2.6 rec, 30 yds \u00b7 19% of targets"
+              "4.4 rec, 52 yds \u00b7 19% of targets"
             ],
             [
               "CHI",
               "Kalif Raymond",
               "WR",
-              "2.1 rec, 18 yds \u00b7 11% of targets"
+              "3.7 rec, 30 yds \u00b7 11% of targets"
             ],
             [
               "ATL",
-              "Tua Tagovailoa",
+              "Michael Penix Jr.",
               "QB",
-              "224 pass yds \u00b7 16/26 \u00b7 0.5 INT"
+              "271 pass yds \u00b7 17/25 \u00b7 0.3 INT"
             ],
             [
               "ATL",
               "Bijan Robinson",
               "RB",
-              "104 rush yds on 19.0 carries \u00b7 3.0 rec, 19 yds"
+              "104 rush yds on 19.0 carries \u00b7 3.6 rec, 23 yds"
             ],
             [
               "ATL",
               "Brian Robinson Jr.",
               "RB",
-              "44 rush yds on 10.9 carries \u00b7 0.8 rec, 5 yds"
+              "44 rush yds on 10.9 carries \u00b7 1.0 rec, 6 yds"
             ],
             [
               "ATL",
               "Drake London",
               "WR",
-              "6.1 rec, 101 yds \u00b7 27% of targets"
+              "7.4 rec, 122 yds \u00b7 27% of targets"
             ],
             [
               "ATL",
               "Kyle Pitts Sr.",
               "TE",
-              "2.7 rec, 31 yds \u00b7 14% of targets"
+              "3.3 rec, 38 yds \u00b7 14% of targets"
             ],
             [
               "ATL",
               "Jahan Dotson",
               "WR",
-              "1.9 rec, 29 yds \u00b7 12% of targets"
+              "2.3 rec, 36 yds \u00b7 12% of targets"
             ]
           ]
         },
@@ -654,51 +588,21 @@
           "rows": [
             [
               "CHI to win",
-              "34%"
+              "41%"
             ],
             [
               "ATL to win",
-              "66%"
+              "59%"
             ],
             [
               "ATL +3",
-              "73%"
+              "67%"
             ],
             [
-              "Under 49.5",
-              "61%"
+              "Over 49.5",
+              "56%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.3,
-              "home": 8.6,
-              "awayText": "8.3",
-              "homeText": "8.6"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.327,
-              "home": 0.425,
-              "awayText": "33%",
-              "homeText": "42%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.10800000000000001,
-              "home": 0.314,
-              "awayText": "11%",
-              "homeText": "31%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -707,33 +611,31 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Baltimore Ravens",
-        "abbr": "BAL",
-        "note": "Proj. 10.5\u20136.5"
+        "abbr": "BAL"
       },
       "home": {
         "name": "Cleveland Browns",
-        "abbr": "CLE",
-        "note": "Proj. 7.5\u20139.5"
+        "abbr": "CLE"
       },
       "score": {
-        "away": "26.3",
-        "home": "20.5",
+        "away": "21.1",
+        "home": "20.8",
         "label": "Projected score"
       },
       "win": {
-        "away": 0.657,
-        "home": 0.343,
-        "note": "Fair odds: BAL -192, CLE +192 (no margin)."
+        "away": 0.508,
+        "home": 0.492,
+        "note": "Fair odds: BAL -103, CLE +103 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects BAL 26.3 \u2013 CLE 20.5: BAL by 5.8, 46.7 points in all. That makes BAL 66% to win.",
-            "The market line: CLE +4.5, total 40.5. Against the spread the model takes BAL -4.5 (54% to cover); on the total, the over (67%).",
-            "Under center: Lamar Jackson projects 213 passing yards for BAL, Deshaun Watson 201 for CLE.",
-            "On the ground: BAL 159 yards on 30 carries, CLE 82 on 21."
+            "The model projects BAL 21.1 \u2013 CLE 20.8: BAL by 0.3, 42.0 points in all. That makes BAL 51% to win.",
+            "The market line: CLE +4.5, total 40.5. Against the spread the model takes CLE +4.5 (62% to cover); on the total, the over (54%).",
+            "Under center: Tyler Huntley projects 107 passing yards for BAL, Deshaun Watson 201 for CLE.",
+            "On the ground: BAL 155 yards on 30 carries, CLE 82 on 21."
           ]
         },
         {
@@ -742,30 +644,30 @@
           "rows": [
             {
               "label": "Passing yards",
-              "away": 213.1,
+              "away": 106.7,
               "home": 200.7,
-              "awayText": "213",
+              "awayText": "107",
               "homeText": "201"
             },
             {
               "label": "Rushing yards",
-              "away": 158.6,
+              "away": 154.9,
               "home": 81.5,
-              "awayText": "159",
+              "awayText": "155",
               "homeText": "82"
             },
             {
               "label": "Total yards",
-              "away": 371.7,
+              "away": 261.6,
               "home": 282.2,
-              "awayText": "372",
+              "awayText": "262",
               "homeText": "282"
             },
             {
               "label": "Pass attempts",
-              "away": 25.2,
+              "away": 19.7,
               "home": 30.7,
-              "awayText": "25",
+              "awayText": "20",
               "homeText": "31"
             },
             {
@@ -777,17 +679,17 @@
             },
             {
               "label": "Sacks taken",
-              "away": 2.2,
+              "away": 1.8,
               "home": 3.0,
-              "awayText": "2.2",
+              "awayText": "1.8",
               "homeText": "3.0",
               "lower": true
             },
             {
               "label": "Interceptions",
-              "away": 0.39,
+              "away": 0.15,
               "home": 0.16,
-              "awayText": "0.4",
+              "awayText": "0.1",
               "homeText": "0.2",
               "lower": true
             }
@@ -806,39 +708,39 @@
           "rows": [
             [
               "BAL",
-              "Lamar Jackson",
+              "Tyler Huntley",
               "QB",
-              "213 pass yds \u00b7 16/25 \u00b7 0.4 INT"
+              "107 pass yds \u00b7 14/20 \u00b7 0.1 INT"
             ],
             [
               "BAL",
               "Derrick Henry",
               "RB",
-              "96 rush yds on 21.6 carries \u00b7 1.3 rec, 9 yds"
+              "96 rush yds on 21.6 carries \u00b7 0.6 rec, 4 yds"
             ],
             [
               "BAL",
               "Justice Hill",
               "RB",
-              "25 rush yds on 3.4 carries \u00b7 1.2 rec, 7 yds"
+              "25 rush yds on 3.4 carries \u00b7 0.6 rec, 4 yds"
             ],
             [
               "BAL",
               "Zay Flowers",
               "WR",
-              "4.6 rec, 75 yds \u00b7 27% of targets"
+              "2.3 rec, 38 yds \u00b7 27% of targets"
             ],
             [
               "BAL",
               "Rashod Bateman",
               "WR",
-              "2.6 rec, 41 yds \u00b7 16% of targets"
+              "1.3 rec, 21 yds \u00b7 16% of targets"
             ],
             [
               "BAL",
               "Mark Andrews",
               "TE",
-              "3.3 rec, 27 yds \u00b7 21% of targets"
+              "1.6 rec, 14 yds \u00b7 21% of targets"
             ],
             [
               "CLE",
@@ -888,51 +790,21 @@
           "rows": [
             [
               "BAL to win",
-              "66%"
+              "51%"
             ],
             [
               "CLE to win",
-              "34%"
+              "49%"
             ],
             [
-              "BAL -4.5",
-              "54%"
+              "CLE +4.5",
+              "62%"
             ],
             [
               "Over 40.5",
-              "67%"
+              "54%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 10.5,
-              "home": 7.5,
-              "awayText": "10.5",
-              "homeText": "7.5"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.804,
-              "home": 0.262,
-              "awayText": "80%",
-              "homeText": "26%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.5720000000000001,
-              "home": 0.085,
-              "awayText": "57%",
-              "homeText": "8%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -941,13 +813,11 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Tennessee Titans",
-        "abbr": "TEN",
-        "note": "Proj. 6.4\u201310.6"
+        "abbr": "TEN"
       },
       "home": {
         "name": "Indianapolis Colts",
-        "abbr": "IND",
-        "note": "Proj. 7.6\u20139.4"
+        "abbr": "IND"
       },
       "score": {
         "away": "19.7",
@@ -1138,36 +1008,6 @@
               "52%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 6.4,
-              "home": 7.6,
-              "awayText": "6.4",
-              "homeText": "7.6"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.13,
-              "home": 0.28600000000000003,
-              "awayText": "13%",
-              "homeText": "29%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.054000000000000006,
-              "home": 0.133,
-              "awayText": "5%",
-              "homeText": "13%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1176,17 +1016,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "New York Jets",
-        "abbr": "NYJ",
-        "note": "Proj. 7.2\u20139.8"
+        "abbr": "NYJ"
       },
       "home": {
         "name": "New England Patriots",
-        "abbr": "NE",
-        "note": "Proj. 9.6\u20137.4"
+        "abbr": "NE"
       },
       "score": {
-        "away": "17.0",
-        "home": "25.1",
+        "away": "18.2",
+        "home": "26.3",
         "label": "Projected score"
       },
       "win": {
@@ -1199,8 +1037,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects NYJ 17.0 \u2013 NE 25.1: NE by 8.1, 42.0 points in all. That makes NE 71% to win.",
-            "The market line: NE -7.5, total 43.5. Against the spread the model takes NE -7.5 (52% to cover); on the total, the under (54%).",
+            "The model projects NYJ 18.2 \u2013 NE 26.3: NE by 8.1, 44.5 points in all. That makes NE 71% to win.",
+            "The market line: NE -7.5, total 43.5. Against the spread the model takes NE -7.5 (52% to cover); on the total, the over (53%).",
             "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors NYJ against the spread.",
             "Under center: Geno Smith projects 210 passing yards for NYJ, Drake Maye 230 for NE.",
             "On the ground: NYJ 95 yards on 23 carries, NE 119 on 25."
@@ -1369,40 +1207,10 @@
               "52%"
             ],
             [
-              "Under 43.5",
-              "54%"
+              "Over 43.5",
+              "53%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 7.2,
-              "home": 9.6,
-              "awayText": "7.2",
-              "homeText": "9.6"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.22,
-              "home": 0.688,
-              "awayText": "22%",
-              "homeText": "69%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.09300000000000001,
-              "home": 0.46,
-              "awayText": "9%",
-              "homeText": "46%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1411,17 +1219,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "New Orleans Saints",
-        "abbr": "NO",
-        "note": "Proj. 6.9\u201310.1"
+        "abbr": "NO"
       },
       "home": {
         "name": "New York Giants",
-        "abbr": "NYG",
-        "note": "Proj. 8.5\u20138.5"
+        "abbr": "NYG"
       },
       "score": {
-        "away": "19.0",
-        "home": "26.6",
+        "away": "20.1",
+        "home": "27.7",
         "label": "Projected score"
       },
       "win": {
@@ -1434,8 +1240,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects NO 19.0 \u2013 NYG 26.6: NYG by 7.6, 45.6 points in all. That makes NYG 70% to win.",
-            "The market line: NYG -1.5, total 45.5. Against the spread the model takes NYG -1.5 (66% to cover); on the total, the over (50%).",
+            "The model projects NO 20.1 \u2013 NYG 27.7: NYG by 7.6, 47.8 points in all. That makes NYG 70% to win.",
+            "The market line: NYG -1.5, total 45.5. Against the spread the model takes NYG -1.5 (66% to cover); on the total, the over (56%).",
             "Under center: Tyler Shough projects 193 passing yards for NO, Jameis Winston 286 for NYG.",
             "On the ground: NO 106 yards on 23 carries, NYG 144 on 32."
           ]
@@ -1604,39 +1410,9 @@
             ],
             [
               "Over 45.5",
-              "50%"
+              "56%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 6.9,
-              "home": 8.5,
-              "awayText": "6.9",
-              "homeText": "8.5"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.149,
-              "home": 0.41,
-              "awayText": "15%",
-              "homeText": "41%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.096,
-              "home": 0.312,
-              "awayText": "10%",
-              "homeText": "31%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1645,33 +1421,31 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Carolina Panthers",
-        "abbr": "CAR",
-        "note": "Proj. 8.3\u20138.7"
+        "abbr": "CAR"
       },
       "home": {
         "name": "Philadelphia Eagles",
-        "abbr": "PHI",
-        "note": "Proj. 8.2\u20138.8"
+        "abbr": "PHI"
       },
       "score": {
-        "away": "23.5",
-        "home": "22.8",
+        "away": "23.7",
+        "home": "20.2",
         "label": "Projected score"
       },
       "win": {
-        "away": 0.52,
-        "home": 0.48,
-        "note": "Fair odds: CAR -108, PHI +108 (no margin)."
+        "away": 0.597,
+        "home": 0.403,
+        "note": "Fair odds: CAR -148, PHI +148 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects CAR 23.5 \u2013 PHI 22.8: CAR by 0.7, 46.2 points in all. That makes CAR 52% to win.",
-            "The market line: PHI -1.5, total 41.5. Against the spread the model takes CAR +1.5 (56% to cover); on the total, the over (63%).",
-            "Under center: Bryce Young projects 306 passing yards for CAR, Jalen Hurts 176 for PHI.",
-            "On the ground: CAR 98 yards on 22 carries, PHI 108 on 23."
+            "The model projects CAR 23.7 \u2013 PHI 20.2: CAR by 3.5, 43.9 points in all. That makes CAR 60% to win.",
+            "The market line: PHI -1.5, total 41.5. Against the spread the model takes CAR +1.5 (64% to cover); on the total, the over (57%).",
+            "Under center: Bryce Young projects 306 passing yards for CAR, Andy Dalton 126 for PHI.",
+            "On the ground: CAR 98 yards on 22 carries, PHI 100 on 23."
           ]
         },
         {
@@ -1681,30 +1455,30 @@
             {
               "label": "Passing yards",
               "away": 306.1,
-              "home": 176.5,
+              "home": 126.1,
               "awayText": "306",
-              "homeText": "176"
+              "homeText": "126"
             },
             {
               "label": "Rushing yards",
               "away": 97.5,
-              "home": 108.1,
+              "home": 99.9,
               "awayText": "98",
-              "homeText": "108"
+              "homeText": "100"
             },
             {
               "label": "Total yards",
               "away": 403.6,
-              "home": 284.6,
+              "home": 226.0,
               "awayText": "404",
-              "homeText": "285"
+              "homeText": "226"
             },
             {
               "label": "Pass attempts",
               "away": 37.9,
-              "home": 31.4,
+              "home": 17.9,
               "awayText": "38",
-              "homeText": "31"
+              "homeText": "18"
             },
             {
               "label": "Carries",
@@ -1716,17 +1490,17 @@
             {
               "label": "Sacks taken",
               "away": 2.1,
-              "home": 2.1,
+              "home": 2.0,
               "awayText": "2.1",
-              "homeText": "2.1",
+              "homeText": "2.0",
               "lower": true
             },
             {
               "label": "Interceptions",
               "away": 0.49,
-              "home": 0.73,
+              "home": 0.84,
               "awayText": "0.5",
-              "homeText": "0.7",
+              "homeText": "0.8",
               "lower": true
             }
           ],
@@ -1780,39 +1554,39 @@
             ],
             [
               "PHI",
-              "Jalen Hurts",
+              "Andy Dalton",
               "QB",
-              "176 pass yds \u00b7 18/31 \u00b7 0.7 INT"
+              "126 pass yds \u00b7 12/18 \u00b7 0.8 INT"
             ],
             [
               "PHI",
               "Saquon Barkley",
               "RB",
-              "43 rush yds on 8.6 carries \u00b7 1.3 rec, 5 yds"
+              "43 rush yds on 8.6 carries \u00b7 1.0 rec, 3 yds"
             ],
             [
               "PHI",
               "Tank Bigsby",
               "RB",
-              "25 rush yds on 5.8 carries \u00b7 0.5 rec, 2 yds"
+              "25 rush yds on 5.8 carries \u00b7 0.4 rec, 1 yds"
             ],
             [
               "PHI",
               "DeVonta Smith",
               "WR",
-              "3.7 rec, 45 yds \u00b7 21% of targets"
+              "2.6 rec, 32 yds \u00b7 21% of targets"
             ],
             [
               "PHI",
               "Dontayvion Wicks",
               "WR",
-              "2.6 rec, 30 yds \u00b7 16% of targets"
+              "1.9 rec, 22 yds \u00b7 16% of targets"
             ],
             [
               "PHI",
               "Dallas Goedert",
               "TE",
-              "2.6 rec, 28 yds \u00b7 16% of targets"
+              "1.9 rec, 20 yds \u00b7 16% of targets"
             ]
           ]
         },
@@ -1826,51 +1600,21 @@
           "rows": [
             [
               "CAR to win",
-              "52%"
+              "60%"
             ],
             [
               "PHI to win",
-              "48%"
+              "40%"
             ],
             [
               "CAR +1.5",
-              "56%"
+              "64%"
             ],
             [
               "Over 41.5",
-              "63%"
+              "57%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.3,
-              "home": 8.2,
-              "awayText": "8.3",
-              "homeText": "8.2"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.361,
-              "home": 0.368,
-              "awayText": "36%",
-              "homeText": "37%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.26,
-              "home": 0.27399999999999997,
-              "awayText": "26%",
-              "homeText": "27%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -1879,17 +1623,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Pittsburgh Steelers",
-        "abbr": "PIT",
-        "note": "Proj. 7.6\u20139.4"
+        "abbr": "PIT"
       },
       "home": {
         "name": "Tampa Bay Buccaneers",
-        "abbr": "TB",
-        "note": "Proj. 8.6\u20138.4"
+        "abbr": "TB"
       },
       "score": {
-        "away": "18.1",
-        "home": "21.0",
+        "away": "18.9",
+        "home": "21.8",
         "label": "Projected score"
       },
       "win": {
@@ -1902,8 +1644,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects PIT 18.1 \u2013 TB 21.0: TB by 2.9, 39.0 points in all. That makes TB 58% to win.",
-            "The market line: TB +3, total 40.5. Against the spread the model takes TB +3 (66% to cover); on the total, the under (54%).",
+            "The model projects PIT 18.9 \u2013 TB 21.8: TB by 2.9, 40.7 points in all. That makes TB 58% to win.",
+            "The market line: TB +3, total 40.5. Against the spread the model takes TB +3 (66% to cover); on the total, the over (50%).",
             "Under center: Aaron Rodgers projects 242 passing yards for PIT, Jalon Daniels 187 for TB.",
             "On the ground: PIT 93 yards on 22 carries, TB 125 on 22."
           ]
@@ -2071,40 +1813,10 @@
               "66%"
             ],
             [
-              "Under 40.5",
-              "54%"
+              "Over 40.5",
+              "50%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 7.6,
-              "home": 8.6,
-              "awayText": "7.6",
-              "homeText": "8.6"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.285,
-              "home": 0.439,
-              "awayText": "28%",
-              "homeText": "44%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.09300000000000001,
-              "home": 0.331,
-              "awayText": "9%",
-              "homeText": "33%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2113,13 +1825,11 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Arizona Cardinals",
-        "abbr": "ARI",
-        "note": "Proj. 5.2\u201311.8"
+        "abbr": "ARI"
       },
       "home": {
         "name": "Los Angeles Rams",
-        "abbr": "LAR",
-        "note": "Proj. 10.9\u20136.1"
+        "abbr": "LAR"
       },
       "score": {
         "away": "18.6",
@@ -2309,36 +2019,6 @@
               "54%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 5.2,
-              "home": 10.9,
-              "awayText": "5.2",
-              "homeText": "10.9"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.022000000000000002,
-              "home": 0.7959999999999999,
-              "awayText": "2%",
-              "homeText": "80%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.003,
-              "home": 0.402,
-              "awayText": "0%",
-              "homeText": "40%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2347,17 +2027,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Los Angeles Chargers",
-        "abbr": "LAC",
-        "note": "Proj. 7.5\u20139.5"
+        "abbr": "LAC"
       },
       "home": {
         "name": "Kansas City Chiefs",
-        "abbr": "KC",
-        "note": "Proj. 11.2\u20135.8"
+        "abbr": "KC"
       },
       "score": {
-        "away": "16.6",
-        "home": "26.7",
+        "away": "17.7",
+        "home": "27.8",
         "label": "Projected score"
       },
       "win": {
@@ -2370,8 +2048,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects LAC 16.6 \u2013 KC 26.7: KC by 10.1, 43.2 points in all. That makes KC 76% to win.",
-            "The market line: KC -8.5, total 42.5. Against the spread the model takes KC -8.5 (54% to cover); on the total, the over (52%).",
+            "The model projects LAC 17.7 \u2013 KC 27.8: KC by 10.1, 45.5 points in all. That makes KC 76% to win.",
+            "The market line: KC -8.5, total 42.5. Against the spread the model takes KC -8.5 (54% to cover); on the total, the over (58%).",
             "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors LAC against the spread.",
             "Under center: Justin Herbert projects 171 passing yards for LAC, Patrick Mahomes 268 for KC.",
             "On the ground: LAC 104 yards on 25 carries, KC 151 on 31."
@@ -2541,39 +2219,9 @@
             ],
             [
               "Over 42.5",
-              "52%"
+              "58%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 7.5,
-              "home": 11.2,
-              "awayText": "7.5",
-              "homeText": "11.2"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.26899999999999996,
-              "home": 0.898,
-              "awayText": "27%",
-              "homeText": "90%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.071,
-              "home": 0.736,
-              "awayText": "7%",
-              "homeText": "74%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2582,13 +2230,11 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Buffalo Bills",
-        "abbr": "BUF",
-        "note": "Proj. 9.5\u20137.5"
+        "abbr": "BUF"
       },
       "home": {
         "name": "Las Vegas Raiders",
-        "abbr": "LV",
-        "note": "Proj. 6.7\u201310.3"
+        "abbr": "LV"
       },
       "score": {
         "away": "30.4",
@@ -2778,36 +2424,6 @@
               "55%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 9.5,
-              "home": 6.7,
-              "awayText": "9.5",
-              "homeText": "6.7"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.6559999999999999,
-              "home": 0.14800000000000002,
-              "awayText": "66%",
-              "homeText": "15%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.414,
-              "home": 0.033,
-              "awayText": "41%",
-              "homeText": "3%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -2816,17 +2432,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Dallas Cowboys",
-        "abbr": "DAL",
-        "note": "Proj. 8.1\u20138.9"
+        "abbr": "DAL"
       },
       "home": {
         "name": "Green Bay Packers",
-        "abbr": "GB",
-        "note": "Proj. 9.4\u20137.6"
+        "abbr": "GB"
       },
       "score": {
-        "away": "21.7",
-        "home": "27.8",
+        "away": "23.6",
+        "home": "29.7",
         "label": "Projected score"
       },
       "win": {
@@ -2839,8 +2453,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects DAL 21.7 \u2013 GB 27.8: GB by 6.1, 49.5 points in all. That makes GB 67% to win.",
-            "The market line: GB -1.5, total 52.5. Against the spread the model takes GB -1.5 (63% to cover); on the total, the under (58%).",
+            "The model projects DAL 23.6 \u2013 GB 29.7: GB by 6.1, 53.2 points in all. That makes GB 67% to win.",
+            "The market line: GB -1.5, total 52.5. Against the spread the model takes GB -1.5 (63% to cover); on the total, the over (52%).",
             "Under center: Dak Prescott projects 274 passing yards for DAL, Jordan Love 293 for GB.",
             "On the ground: DAL 92 yards on 22 carries, GB 90 on 20."
           ]
@@ -3008,40 +2622,10 @@
               "63%"
             ],
             [
-              "Under 52.5",
-              "58%"
+              "Over 52.5",
+              "52%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 8.1,
-              "home": 9.4,
-              "awayText": "8.1",
-              "homeText": "9.4"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.34,
-              "home": 0.535,
-              "awayText": "34%",
-              "homeText": "54%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.249,
-              "home": 0.223,
-              "awayText": "25%",
-              "homeText": "22%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     },
@@ -3050,17 +2634,15 @@
       "subtitle": "Week 6",
       "away": {
         "name": "Washington Commanders",
-        "abbr": "WAS",
-        "note": "Proj. 7.5\u20139.5"
+        "abbr": "WAS"
       },
       "home": {
         "name": "San Francisco 49ers",
-        "abbr": "SF",
-        "note": "Proj. 10.1\u20136.9"
+        "abbr": "SF"
       },
       "score": {
-        "away": "18.4",
-        "home": "26.4",
+        "away": "18.9",
+        "home": "27.0",
         "label": "Projected score"
       },
       "win": {
@@ -3073,8 +2655,8 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model projects WAS 18.4 \u2013 SF 26.4: SF by 8.0, 44.8 points in all. That makes SF 71% to win.",
-            "The market line: SF -7.5, total 50.5. Against the spread the model takes SF -7.5 (52% to cover); on the total, the under (66%).",
+            "The model projects WAS 18.9 \u2013 SF 27.0: SF by 8.1, 45.9 points in all. That makes SF 71% to win.",
+            "The market line: SF -7.5, total 50.5. Against the spread the model takes SF -7.5 (52% to cover); on the total, the under (63%).",
             "Situational angle: fade 7-9.5 favorite (key number) \u2014 that favors WAS against the spread.",
             "Under center: Jayden Daniels projects 140 passing yards for WAS, Brock Purdy 247 for SF.",
             "On the ground: WAS 115 yards on 27 carries, SF 92 on 23."
@@ -3244,39 +2826,9 @@
             ],
             [
               "Under 50.5",
-              "66%"
+              "63%"
             ]
           ]
-        },
-        {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 7.5,
-              "home": 10.1,
-              "awayText": "7.5",
-              "homeText": "10.1"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.23800000000000002,
-              "home": 0.679,
-              "awayText": "24%",
-              "homeText": "68%",
-              "max": 1
-            },
-            {
-              "label": "Division",
-              "away": 0.166,
-              "home": 0.261,
-              "awayText": "17%",
-              "homeText": "26%",
-              "max": 1
-            }
-          ],
-          "note": "From the season simulation: 10,000 seasons from the latest projections."
         }
       ]
     }

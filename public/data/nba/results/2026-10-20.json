@@ -1,0 +1,165 @@
+{
+  "subtitle": "Tue Oct 20, 2026\u201327 \u2014 3 games \u00b7 straight up 2\u20131 \u00b7 log loss 0.653 \u00b7 margin MAE 8.0 \u00b7 margins are the home side's",
+  "updated": "2026-10-21",
+  "search": "Search teams",
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "margin",
+      "label": "Margin: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "vs Spread",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "vs Total",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "BOS",
+      "awayScore": "113",
+      "sep": "\u2013",
+      "homeScore": "121",
+      "homeTeam": "DET",
+      "proj": "114.3 \u2013 112.9",
+      "pick": {
+        "v": "BOS 55% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "margin": {
+        "v": "-1.4 \u2192 +8",
+        "sort": 9.4279
+      },
+      "total": {
+        "v": "227.2 \u2192 234",
+        "sort": 6.8483
+      },
+      "ats": {
+        "v": "BOS -1.5 51% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "Over 220.5 63% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "PHI",
+      "awayScore": "106",
+      "sep": "\u2013",
+      "homeScore": "100",
+      "homeTeam": "NYK",
+      "proj": "115.9 \u2013 114.4",
+      "pick": {
+        "v": "PHI 55% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "margin": {
+        "v": "-1.4 \u2192 -6",
+        "sort": 4.5635
+      },
+      "total": {
+        "v": "230.3 \u2192 206",
+        "sort": 24.2741
+      },
+      "ats": {
+        "v": "PHI +4.5 66% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "Under 231.5 53% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "OKC",
+      "awayScore": "116",
+      "sep": "\u2013",
+      "homeScore": "104",
+      "homeTeam": "SAS",
+      "proj": "115.7 \u2013 113.7",
+      "pick": {
+        "v": "OKC 57% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "margin": {
+        "v": "-2.0 \u2192 -12",
+        "sort": 10.0207
+      },
+      "total": {
+        "v": "229.3 \u2192 220",
+        "sort": 9.3489
+      },
+      "ats": {
+        "v": "OKC +1.5 59% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "Under 230.5 53% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    }
+  ]
+}

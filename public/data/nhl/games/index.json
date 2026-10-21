@@ -2,7 +2,7 @@
   "season": 2026,
   "label": "2026\u201327 Season",
   "unit": "day",
-  "latest": "2026-10-13.json",
+  "latest": "2026-10-21.json",
   "slates": [
     {
       "id": "2026-10-01",
@@ -63,6 +63,36 @@
       "id": "2026-10-13",
       "label": "Tue Oct 13",
       "file": "2026-10-13.json"
+    },
+    {
+      "id": "2026-10-15",
+      "label": "Thu Oct 15",
+      "file": "2026-10-15.json"
+    },
+    {
+      "id": "2026-10-16",
+      "label": "Fri Oct 16",
+      "file": "2026-10-16.json"
+    },
+    {
+      "id": "2026-10-18",
+      "label": "Sun Oct 18",
+      "file": "2026-10-18.json"
+    },
+    {
+      "id": "2026-10-19",
+      "label": "Mon Oct 19",
+      "file": "2026-10-19.json"
+    },
+    {
+      "id": "2026-10-20",
+      "label": "Tue Oct 20",
+      "file": "2026-10-20.json"
+    },
+    {
+      "id": "2026-10-21",
+      "label": "Wed Oct 21",
+      "file": "2026-10-21.json"
     }
   ]
 }

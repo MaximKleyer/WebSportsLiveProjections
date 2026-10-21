@@ -1,0 +1,125 @@
+{
+  "subtitle": "Fri Oct 16, 2026\u201327 \u2014 2 games \u00b7 straight up 2\u20130 \u00b7 log loss 0.571 \u00b7 totals MAE 0.30",
+  "updated": "2026-10-21",
+  "search": "Search teams",
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou55",
+      "label": "O/U 5.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou65",
+      "label": "O/U 6.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "PIT",
+      "awayScore": "2",
+      "sep": "\u2013",
+      "homeScore": "5",
+      "homeTeam": "COL",
+      "proj": "3.1 \u2013 3.6",
+      "pick": {
+        "v": "COL 59% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.68 \u2192 7",
+        "sort": 0.315
+      },
+      "ou55": {
+        "v": "OVER 63% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "OVER 53% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "BOS",
+      "awayScore": "4",
+      "sep": "\u2013",
+      "homeScore": "2",
+      "homeTeam": "ANA",
+      "proj": "3.3 \u2013 3.0",
+      "pick": {
+        "v": "BOS 54% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "total": {
+        "v": "6.28 \u2192 6",
+        "sort": 0.2814
+      },
+      "ou55": {
+        "v": "OVER 57% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou65": {
+        "v": "UNDER 54% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    }
+  ]
+}

@@ -1,0 +1,6544 @@
+{
+  "games": {
+    "401871069": {
+      "title": "Missouri State @ Delaware",
+      "subtitle": "Week 8 \u00b7 Tue 10/20 7:00PM ET",
+      "away": {
+        "name": "Missouri State",
+        "note": "2\u20134 \u00b7 Conference USA"
+      },
+      "home": {
+        "name": "Delaware",
+        "note": "2\u20134 \u00b7 Conference USA"
+      },
+      "score": {
+        "away": "24.5",
+        "home": "30.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.3247,
+        "home": 0.6753,
+        "note": "Fair odds: Missouri State +208, Delaware -208 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Missouri State 24.5 \u2013 Delaware 30.6: Delaware by 6.1. That makes Delaware 68% to win.",
+            "The market expects Delaware by 2.5, the model Delaware by 6.1. Against the spread it takes Delaware -2.5 (56% to cover, expected return +0.08 a unit) \u2014 a flagged play.",
+            "The market's total is 52.75 against the model's 55.0: the over (51%, expected return -0.02).",
+            "Market: 2 books, in agreement; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Delaware margin",
+              "+6.1",
+              "+2.5",
+              {
+                "v": "+3.6 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.0",
+              "52.75",
+              "+2.3"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Missouri State to win",
+              "32%"
+            ],
+            [
+              "Delaware to win",
+              "68%"
+            ],
+            [
+              "\u2605 Delaware -2.5",
+              "56%"
+            ],
+            [
+              "Over 52.75",
+              "51%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.048,
+              "home": 4.599,
+              "awayText": "4.0",
+              "homeText": "4.6"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.048,
+              "home": 2.599,
+              "awayText": "3.0",
+              "homeText": "2.6"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.116,
+              "home": 0.236,
+              "awayText": "12%",
+              "homeText": "24%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401871055": {
+      "title": "Middle Tennessee @ Florida International",
+      "subtitle": "Week 8 \u00b7 Tue 10/20 7:00PM ET",
+      "away": {
+        "name": "Middle Tennessee",
+        "note": "3\u20133 \u00b7 Conference USA"
+      },
+      "home": {
+        "name": "Florida International",
+        "note": "3\u20133 \u00b7 Conference USA"
+      },
+      "score": {
+        "away": "19.6",
+        "home": "29.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2362,
+        "home": 0.7638,
+        "note": "Fair odds: Middle Tennessee +323, Florida International -323 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Middle Tennessee 19.6 \u2013 Florida International 29.5: Florida International by 9.9. That makes Florida International 76% to win.",
+            "The market expects Florida International by 10.0, the model Florida International by 9.9. Against the spread it takes Middle Tennessee +10 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 45.5 against the model's 49.1: the over (54%, expected return +0.04) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Florida International margin",
+              "+9.9",
+              "+10",
+              "-0.1"
+            ],
+            [
+              "Total",
+              "49.1",
+              "45.5",
+              {
+                "v": "+3.6 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Middle Tennessee to win",
+              "24%"
+            ],
+            [
+              "Florida International to win",
+              "76%"
+            ],
+            [
+              "Middle Tennessee +10",
+              "48%"
+            ],
+            [
+              "\u2605 Over 45.5",
+              "54%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 5.029,
+              "home": 6.444,
+              "awayText": "5.0",
+              "homeText": "6.4"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.029,
+              "home": 4.444,
+              "awayText": "3.0",
+              "homeText": "4.4"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.329,
+              "home": 0.793,
+              "awayText": "33%",
+              "homeText": "79%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401871092": {
+      "title": "South Alabama @ Marshall",
+      "subtitle": "Week 8 \u00b7 Tue 10/20 7:30PM ET",
+      "away": {
+        "name": "South Alabama",
+        "note": "4\u20132 \u00b7 Sun Belt"
+      },
+      "home": {
+        "name": "Marshall",
+        "note": "3\u20133 \u00b7 Sun Belt"
+      },
+      "score": {
+        "away": "31.7",
+        "home": "32.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: South Alabama +109, Marshall -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects South Alabama 31.7 \u2013 Marshall 32.8: Marshall by 1.1. That makes Marshall 52% to win.",
+            "The market expects South Alabama by 3.0, the model Marshall by 1.1. Against the spread it takes Marshall +3 (59% to cover, expected return +0.13 a unit) \u2014 a flagged play.",
+            "The market's total is 65.5 against the model's 64.5: the under (57%, expected return +0.08).",
+            "Market: 2 books, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Marshall margin",
+              "+1.1",
+              "-3",
+              {
+                "v": "+4.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "64.5",
+              "65.5",
+              "-1.0"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "South Alabama to win",
+              "48%"
+            ],
+            [
+              "Marshall to win",
+              "52%"
+            ],
+            [
+              "\u2605 Marshall +3",
+              "59%"
+            ],
+            [
+              "Under 65.5",
+              "57%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.863,
+              "home": 5.871,
+              "awayText": "6.9",
+              "homeText": "5.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.863,
+              "home": 2.871,
+              "awayText": "4.9",
+              "homeText": "2.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.851,
+              "home": 0.605,
+              "awayText": "85%",
+              "homeText": "60%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401871070": {
+      "title": "New Mexico State @ Sam Houston",
+      "subtitle": "Week 8 \u00b7 Wed 10/21 8:00PM ET",
+      "away": {
+        "name": "New Mexico State",
+        "note": "2\u20134 \u00b7 Conference USA"
+      },
+      "home": {
+        "name": "Sam Houston",
+        "note": "1\u20135 \u00b7 Conference USA"
+      },
+      "score": {
+        "away": "24.6",
+        "home": "25.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: New Mexico State +109, Sam Houston -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects New Mexico State 24.6 \u2013 Sam Houston 25.3: Sam Houston by 0.7. That makes Sam Houston 52% to win.",
+            "The market expects New Mexico State by 3.0, the model Sam Houston by 0.7. Against the spread it takes Sam Houston +3 (56% to cover, expected return +0.08 a unit) \u2014 a flagged play.",
+            "The market's total is 44.75 against the model's 50.0: the over (58%, expected return +0.11) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Sam Houston margin",
+              "+0.7",
+              "-3",
+              {
+                "v": "+3.7 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "50.0",
+              "44.75",
+              {
+                "v": "+5.2 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "New Mexico State to win",
+              "48%"
+            ],
+            [
+              "Sam Houston to win",
+              "52%"
+            ],
+            [
+              "\u2605 Sam Houston +3",
+              "56%"
+            ],
+            [
+              "\u2605 Over 44.75",
+              "58%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.882,
+              "home": 3.55,
+              "awayText": "4.9",
+              "homeText": "3.5"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.882,
+              "home": 2.55,
+              "awayText": "3.9",
+              "homeText": "2.5"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.321,
+              "home": 0.057,
+              "awayText": "32%",
+              "homeText": "6%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401869845": {
+      "title": "James Madison @ App State",
+      "subtitle": "Week 8 \u00b7 Thu 10/22 7:00PM ET",
+      "away": {
+        "name": "James Madison",
+        "note": "7\u20130 \u00b7 Sun Belt"
+      },
+      "home": {
+        "name": "App State",
+        "note": "4\u20132 \u00b7 Sun Belt"
+      },
+      "score": {
+        "away": "33.0",
+        "home": "22.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.7222,
+        "home": 0.2778,
+        "note": "Fair odds: James Madison -260, App State +260 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects James Madison 33.0 \u2013 App State 22.0: James Madison by 11.0. That makes James Madison 72% to win.",
+            "The market expects James Madison by 10.5, the model James Madison by 11.0. Against the spread it takes James Madison -10.5 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 56.25 against the model's 55.0: the under (57%, expected return +0.09).",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "App State margin",
+              "-11.0",
+              "-10.5",
+              "-0.5"
+            ],
+            [
+              "Total",
+              "55.0",
+              "56.25",
+              "-1.2"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "James Madison to win",
+              "72%"
+            ],
+            [
+              "App State to win",
+              "28%"
+            ],
+            [
+              "James Madison -10.5",
+              "48%"
+            ],
+            [
+              "Under 56.25",
+              "57%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 11.157,
+              "home": 6.821,
+              "awayText": "11.2",
+              "homeText": "6.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 7.424,
+              "home": 3.821,
+              "awayText": "7.4",
+              "homeText": "3.8"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.861,
+              "awayText": "100%",
+              "homeText": "86%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401871056": {
+      "title": "Liberty @ Kennesaw State",
+      "subtitle": "Week 8 \u00b7 Thu 10/22 7:00PM ET",
+      "away": {
+        "name": "Liberty",
+        "note": "5\u20131 \u00b7 Conference USA"
+      },
+      "home": {
+        "name": "Kennesaw State",
+        "note": "1\u20135 \u00b7 Conference USA"
+      },
+      "score": {
+        "away": "28.6",
+        "home": "20.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.673,
+        "home": 0.327,
+        "note": "Fair odds: Liberty -206, Kennesaw State +206 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Liberty 28.6 \u2013 Kennesaw State 20.5: Liberty by 8.1. That makes Liberty 67% to win.",
+            "The market expects Liberty by 10.0, the model Liberty by 8.1. Against the spread it takes Kennesaw State +10 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 49.25 against the model's 49.2: the under (55%, expected return +0.04).",
+            "Market: 2 books, in agreement; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Kennesaw State margin",
+              "-8.1",
+              "-10",
+              "+1.9"
+            ],
+            [
+              "Total",
+              "49.2",
+              "49.25",
+              "-0.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Liberty to win",
+              "67%"
+            ],
+            [
+              "Kennesaw State to win",
+              "33%"
+            ],
+            [
+              "Kennesaw State +10",
+              "52%"
+            ],
+            [
+              "Under 49.25",
+              "55%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.417,
+              "home": 3.736,
+              "awayText": "9.4",
+              "homeText": "3.7"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.417,
+              "home": 2.736,
+              "awayText": "6.4",
+              "homeText": "2.7"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.999,
+              "home": 0.085,
+              "awayText": "100%",
+              "homeText": "8%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401862807": {
+      "title": "East Carolina @ Memphis",
+      "subtitle": "Week 8 \u00b7 Thu 10/22 7:30PM ET",
+      "away": {
+        "name": "East Carolina",
+        "note": "3\u20133 \u00b7 American Athletic"
+      },
+      "home": {
+        "name": "Memphis",
+        "note": "5\u20132 \u00b7 American Athletic"
+      },
+      "score": {
+        "away": "22.8",
+        "home": "33.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2362,
+        "home": 0.7638,
+        "note": "Fair odds: East Carolina +323, Memphis -323 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects East Carolina 22.8 \u2013 Memphis 33.2: Memphis by 10.4. That makes Memphis 76% to win.",
+            "The market expects Memphis by 10.2, the model Memphis by 10.4. Against the spread it takes Memphis -10.25 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 54.5 against the model's 56.0: the over (49%, expected return -0.06).",
+            "Market: 2 books, 0.25 points apart; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Memphis margin",
+              "+10.4",
+              "+10.25",
+              "+0.1"
+            ],
+            [
+              "Total",
+              "56.0",
+              "54.5",
+              "+1.5"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "East Carolina to win",
+              "24%"
+            ],
+            [
+              "Memphis to win",
+              "76%"
+            ],
+            [
+              "Memphis -10.25",
+              "52%"
+            ],
+            [
+              "Over 54.5",
+              "49%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.101,
+              "home": 8.11,
+              "awayText": "6.1",
+              "homeText": "8.1"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.101,
+              "home": 5.11,
+              "awayText": "4.1",
+              "homeText": "5.1"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.699,
+              "home": 0.992,
+              "awayText": "70%",
+              "homeText": "99%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858271": {
+      "title": "Duke @ Virginia",
+      "subtitle": "Week 8 \u00b7 Fri 10/23 7:00PM ET",
+      "away": {
+        "name": "Duke",
+        "note": "4\u20132 \u00b7 ACC"
+      },
+      "home": {
+        "name": "Virginia",
+        "note": "4\u20133 \u00b7 ACC"
+      },
+      "score": {
+        "away": "24.4",
+        "home": "26.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4595,
+        "home": 0.5405,
+        "note": "Fair odds: Duke +118, Virginia -118 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Duke 24.4 \u2013 Virginia 26.9: Virginia by 2.5. That makes Virginia 54% to win.",
+            "The market expects Virginia by 1.5, the model Virginia by 2.4. Against the spread it takes Virginia -1.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 47.5 against the model's 51.3: the over (55%, expected return +0.05) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +2.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Virginia margin",
+              "+2.4",
+              "+1.5",
+              "+0.9"
+            ],
+            [
+              "Total",
+              "51.3",
+              "47.5",
+              {
+                "v": "+3.8 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Duke to win",
+              "46%"
+            ],
+            [
+              "Virginia to win",
+              "54%"
+            ],
+            [
+              "Virginia -1.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 47.5",
+              "55%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.551,
+              "home": 6.416,
+              "awayText": "6.6",
+              "homeText": "6.4"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.551,
+              "home": 4.416,
+              "awayText": "3.6",
+              "homeText": "4.4"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.813,
+              "home": 0.798,
+              "awayText": "81%",
+              "homeText": "80%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401861965": {
+      "title": "Massachusetts @ UConn",
+      "subtitle": "Week 8 \u00b7 Fri 10/23 7:00PM ET",
+      "away": {
+        "name": "Massachusetts",
+        "note": "4\u20133 \u00b7 Mid-American"
+      },
+      "home": {
+        "name": "UConn",
+        "note": "3\u20133 \u00b7 FBS Independents"
+      },
+      "score": {
+        "away": "19.6",
+        "home": "34.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1506,
+        "home": 0.8494,
+        "note": "Fair odds: Massachusetts +564, UConn -564 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Massachusetts 19.6 \u2013 UConn 34.4: UConn by 14.8. That makes UConn 85% to win.",
+            "The market expects UConn by 14.5, the model UConn by 14.8. Against the spread it takes UConn -14.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 49.5 against the model's 54.0: the over (57%, expected return +0.08) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "UConn margin",
+              "+14.8",
+              "+14.5",
+              "+0.2"
+            ],
+            [
+              "Total",
+              "54.0",
+              "49.5",
+              {
+                "v": "+4.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Massachusetts to win",
+              "15%"
+            ],
+            [
+              "UConn to win",
+              "85%"
+            ],
+            [
+              "UConn -14.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "57%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 5.781,
+              "home": 5.903,
+              "awayText": "5.8",
+              "homeText": "5.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 2.605,
+              "home": 0.0,
+              "awayText": "2.6",
+              "homeText": "0.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.236,
+              "home": 0.633,
+              "awayText": "24%",
+              "homeText": "63%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401862808": {
+      "title": "Army @ Tulsa",
+      "subtitle": "Week 8 \u00b7 Fri 10/23 8:30PM ET",
+      "away": {
+        "name": "Army",
+        "note": "4\u20132 \u00b7 American Athletic"
+      },
+      "home": {
+        "name": "Tulsa",
+        "note": "4\u20133 \u00b7 American Athletic"
+      },
+      "score": {
+        "away": "30.2",
+        "home": "24.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6438,
+        "home": 0.3562,
+        "note": "Fair odds: Army -181, Tulsa +181 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Army 30.2 \u2013 Tulsa 24.1: Army by 6.1. That makes Army 64% to win.",
+            "The market expects Tulsa by 1.8, the model Army by 6.1. Against the spread it takes Army +1.75 (67% to cover, expected return +0.28 a unit) \u2014 a flagged play.",
+            "The market's total is 53.25 against the model's 54.4: the over (48%, expected return -0.08).",
+            "Market: 2 books, 0.25 points apart; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Tulsa margin",
+              "-6.1",
+              "+1.75",
+              {
+                "v": "-7.8 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "54.4",
+              "53.25",
+              "+1.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Army to win",
+              "64%"
+            ],
+            [
+              "Tulsa to win",
+              "36%"
+            ],
+            [
+              "\u2605 Army +1.75",
+              "67%"
+            ],
+            [
+              "Over 53.25",
+              "48%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 7.918,
+              "home": 6.58,
+              "awayText": "7.9",
+              "homeText": "6.6"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.275,
+              "home": 3.58,
+              "awayText": "6.3",
+              "homeText": "3.6"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.972,
+              "home": 0.843,
+              "awayText": "97%",
+              "homeText": "84%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401864525": {
+      "title": "Air Force @ Wyoming",
+      "subtitle": "Week 8 \u00b7 Fri 10/23 9:00PM ET",
+      "away": {
+        "name": "Air Force",
+        "note": "5\u20131 \u00b7 Mountain West"
+      },
+      "home": {
+        "name": "Wyoming",
+        "note": "4\u20133 \u00b7 Mountain West"
+      },
+      "score": {
+        "away": "26.5",
+        "home": "17.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6839,
+        "home": 0.3161,
+        "note": "Fair odds: Air Force -216, Wyoming +216 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Air Force 26.5 \u2013 Wyoming 17.7: Air Force by 8.8. That makes Air Force 68% to win.",
+            "The market expects Air Force by 4.8, the model Air Force by 8.7. Against the spread it takes Air Force -4.75 (63% to cover, expected return +0.20 a unit) \u2014 a flagged play.",
+            "The market's total is 45.5 against the model's 44.2: the under (57%, expected return +0.10).",
+            "Market: 2 books, 0.25 points apart; the line has moved -1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Wyoming margin",
+              "-8.7",
+              "-4.75",
+              {
+                "v": "-4.0 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "44.2",
+              "45.5",
+              "-1.3"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Air Force to win",
+              "68%"
+            ],
+            [
+              "Wyoming to win",
+              "32%"
+            ],
+            [
+              "\u2605 Air Force -4.75",
+              "63%"
+            ],
+            [
+              "Under 45.5",
+              "57%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.862,
+              "home": 6.028,
+              "awayText": "8.9",
+              "homeText": "6.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 5.765,
+              "home": 4.497,
+              "awayText": "5.8",
+              "homeText": "4.5"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.999,
+              "home": 0.675,
+              "awayText": "100%",
+              "homeText": "68%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858272": {
+      "title": "NC State @ Stanford",
+      "subtitle": "Week 8 \u00b7 Fri 10/23 10:30PM ET",
+      "away": {
+        "name": "NC State",
+        "note": "3\u20133 \u00b7 ACC"
+      },
+      "home": {
+        "name": "Stanford",
+        "note": "3\u20134 \u00b7 ACC"
+      },
+      "score": {
+        "away": "33.5",
+        "home": "22.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.7791,
+        "home": 0.2209,
+        "note": "Fair odds: NC State -353, Stanford +353 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects NC State 33.5 \u2013 Stanford 22.3: NC State by 11.2. That makes NC State 78% to win.",
+            "The market expects NC State by 7.0, the model NC State by 11.2. Against the spread it takes NC State -7 (63% to cover, expected return +0.20 a unit) \u2014 a flagged play.",
+            "The market's total is 55.5 against the model's 55.7: the over (46%, expected return -0.12).",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Stanford margin",
+              "-11.2",
+              "-7",
+              {
+                "v": "-4.2 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.7",
+              "55.5",
+              "+0.2"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "NC State to win",
+              "78%"
+            ],
+            [
+              "Stanford to win",
+              "22%"
+            ],
+            [
+              "\u2605 NC State -7",
+              "63%"
+            ],
+            [
+              "Over 55.5",
+              "46%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.535,
+              "home": 3.883,
+              "awayText": "6.5",
+              "homeText": "3.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.535,
+              "home": 1.883,
+              "awayText": "4.5",
+              "homeText": "1.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.802,
+              "home": 0.045,
+              "awayText": "80%",
+              "homeText": "4%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856840": {
+      "title": "No. 8 Texas Tech @ Cincinnati",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "Texas Tech",
+        "note": "No. 8 \u00b7 6\u20130 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "Cincinnati",
+        "note": "4\u20132 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "34.4",
+        "home": "21.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.7791,
+        "home": 0.2209,
+        "note": "Fair odds: Texas Tech -353, Cincinnati +353 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Texas Tech 34.4 \u2013 Cincinnati 21.3: Texas Tech by 13.1. That makes Texas Tech 78% to win.",
+            "The market expects Texas Tech by 10.8, the model Texas Tech by 13.0. Against the spread it takes Texas Tech -10.75 (55% to cover, expected return +0.06 a unit) \u2014 a flagged play.",
+            "The market's total is 56.5 against the model's 55.7: the under (56%, expected return +0.07).",
+            "Market: 2 books, 0.25 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Cincinnati margin",
+              "-13.0",
+              "-10.75",
+              {
+                "v": "-2.3 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.7",
+              "56.5",
+              "-0.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Texas Tech to win",
+              "78%"
+            ],
+            [
+              "Cincinnati to win",
+              "22%"
+            ],
+            [
+              "\u2605 Texas Tech -10.75",
+              "55%"
+            ],
+            [
+              "Under 56.5",
+              "56%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 10.606,
+              "home": 5.782,
+              "awayText": "10.6",
+              "homeText": "5.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 7.606,
+              "home": 2.782,
+              "awayText": "7.6",
+              "homeText": "2.8"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.577,
+              "awayText": "100%",
+              "homeText": "58%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856841": {
+      "title": "West Virginia @ TCU",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "West Virginia",
+        "note": "4\u20133 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "TCU",
+        "note": "3\u20133 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "23.0",
+        "home": "34.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2165,
+        "home": 0.7835,
+        "note": "Fair odds: West Virginia +362, TCU -362 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects West Virginia 23.0 \u2013 TCU 34.7: TCU by 11.7. That makes TCU 78% to win.",
+            "The market expects TCU by 8.5, the model TCU by 11.7. Against the spread it takes TCU -8.5 (56% to cover, expected return +0.06 a unit) \u2014 a flagged play.",
+            "The market's total is 56.5 against the model's 57.6: the over (48%, expected return -0.08).",
+            "Market: 2 books, in agreement; the line has moved -1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "TCU margin",
+              "+11.7",
+              "+8.5",
+              {
+                "v": "+3.2 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "57.6",
+              "56.5",
+              "+1.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "West Virginia to win",
+              "22%"
+            ],
+            [
+              "TCU to win",
+              "78%"
+            ],
+            [
+              "\u2605 TCU -8.5",
+              "56%"
+            ],
+            [
+              "Over 56.5",
+              "48%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.898,
+              "home": 6.023,
+              "awayText": "4.9",
+              "homeText": "6.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.898,
+              "home": 4.023,
+              "awayText": "1.9",
+              "homeText": "4.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.222,
+              "home": 0.665,
+              "awayText": "22%",
+              "homeText": "66%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401866450": {
+      "title": "Western Michigan @ Toledo",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "Western Michigan",
+        "note": "5\u20132 \u00b7 Mid-American"
+      },
+      "home": {
+        "name": "Toledo",
+        "note": "5\u20132 \u00b7 Mid-American"
+      },
+      "score": {
+        "away": "23.9",
+        "home": "26.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4595,
+        "home": 0.5405,
+        "note": "Fair odds: Western Michigan +118, Toledo -118 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Western Michigan 23.9 \u2013 Toledo 26.4: Toledo by 2.5. That makes Toledo 54% to win.",
+            "The market expects Toledo by 3.0, the model Toledo by 2.5. Against the spread it takes Western Michigan +3 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 45.5 against the model's 50.3: the over (57%, expected return +0.09) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Toledo margin",
+              "+2.5",
+              "+3",
+              "-0.5"
+            ],
+            [
+              "Total",
+              "50.3",
+              "45.5",
+              {
+                "v": "+4.8 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Western Michigan to win",
+              "46%"
+            ],
+            [
+              "Toledo to win",
+              "54%"
+            ],
+            [
+              "Western Michigan +3",
+              "48%"
+            ],
+            [
+              "\u2605 Over 45.5",
+              "57%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.518,
+              "home": 8.645,
+              "awayText": "8.5",
+              "homeText": "8.6"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.518,
+              "home": 5.645,
+              "awayText": "6.5",
+              "homeText": "5.6"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.998,
+              "home": 0.999,
+              "awayText": "100%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401862809": {
+      "title": "Rice @ Florida Atlantic",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "Rice",
+        "note": "1\u20136 \u00b7 American Athletic"
+      },
+      "home": {
+        "name": "Florida Atlantic",
+        "note": "4\u20132 \u00b7 American Athletic"
+      },
+      "score": {
+        "away": "23.1",
+        "home": "32.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2552,
+        "home": 0.7448,
+        "note": "Fair odds: Rice +292, Florida Atlantic -292 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Rice 23.1 \u2013 Florida Atlantic 32.6: Florida Atlantic by 9.5. That makes Florida Atlantic 74% to win.",
+            "The market expects Florida Atlantic by 7.5, the model Florida Atlantic by 9.4. Against the spread it takes Florida Atlantic -7.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 53.25 against the model's 55.7: the over (52%, expected return -0.02).",
+            "Market: 2 books, in agreement; the line has moved +2.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Florida Atlantic margin",
+              "+9.4",
+              "+7.5",
+              "+1.9"
+            ],
+            [
+              "Total",
+              "55.7",
+              "53.25",
+              "+2.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Rice to win",
+              "26%"
+            ],
+            [
+              "Florida Atlantic to win",
+              "74%"
+            ],
+            [
+              "Florida Atlantic -7.5",
+              "52%"
+            ],
+            [
+              "Over 53.25",
+              "52%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 2.281,
+              "home": 6.484,
+              "awayText": "2.3",
+              "homeText": "6.5"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.281,
+              "home": 3.484,
+              "awayText": "1.3",
+              "homeText": "3.5"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.001,
+              "home": 0.792,
+              "awayText": "0%",
+              "homeText": "79%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858498": {
+      "title": "Rutgers @ No. 24 Northwestern",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "Rutgers",
+        "note": "2\u20134 \u00b7 Big Ten"
+      },
+      "home": {
+        "name": "Northwestern",
+        "note": "No. 24 \u00b7 5\u20131 \u00b7 Big Ten"
+      },
+      "score": {
+        "away": "19.9",
+        "home": "34.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1506,
+        "home": 0.8494,
+        "note": "Fair odds: Rutgers +564, Northwestern -564 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Rutgers 19.9 \u2013 Northwestern 34.3: Northwestern by 14.4. That makes Northwestern 85% to win.",
+            "The market expects Northwestern by 16.0, the model Northwestern by 14.4. Against the spread it takes Rutgers +16 (55% to cover, expected return +0.06 a unit).",
+            "The market's total is 58 against the model's 54.3: the under (63%, expected return +0.20) \u2014 a flagged play.",
+            "Market: 2 books, 0.5 points apart; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Northwestern margin",
+              "+14.4",
+              "+16",
+              "-1.6"
+            ],
+            [
+              "Total",
+              "54.3",
+              "58",
+              {
+                "v": "-3.7 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Rutgers to win",
+              "15%"
+            ],
+            [
+              "Northwestern to win",
+              "85%"
+            ],
+            [
+              "Rutgers +16",
+              "55%"
+            ],
+            [
+              "\u2605 Under 58",
+              "63%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 3.766,
+              "home": 7.997,
+              "awayText": "3.8",
+              "homeText": "8.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 2.766,
+              "home": 4.997,
+              "awayText": "2.8",
+              "homeText": "5.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.068,
+              "home": 0.991,
+              "awayText": "7%",
+              "homeText": "99%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858274": {
+      "title": "Pittsburgh @ No. 1 Miami",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "Pittsburgh",
+        "note": "5\u20132 \u00b7 ACC"
+      },
+      "home": {
+        "name": "Miami",
+        "note": "No. 1 \u00b7 6\u20130 \u00b7 ACC"
+      },
+      "score": {
+        "away": "20.8",
+        "home": "36.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1506,
+        "home": 0.8494,
+        "note": "Fair odds: Pittsburgh +564, Miami -564 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Pittsburgh 20.8 \u2013 Miami 36.1: Miami by 15.3. That makes Miami 85% to win.",
+            "The market expects Miami by 20.2, the model Miami by 15.3. Against the spread it takes Pittsburgh +20.25 (63% to cover, expected return +0.20 a unit) \u2014 a flagged play.",
+            "The market's total is 50.75 against the model's 56.9: the over (61%, expected return +0.16) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +2 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Miami margin",
+              "+15.3",
+              "+20.25",
+              {
+                "v": "-4.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "56.9",
+              "50.75",
+              {
+                "v": "+6.2 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Pittsburgh to win",
+              "15%"
+            ],
+            [
+              "Miami to win",
+              "85%"
+            ],
+            [
+              "\u2605 Pittsburgh +20.25",
+              "63%"
+            ],
+            [
+              "\u2605 Over 50.75",
+              "61%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 7.473,
+              "home": 10.634,
+              "awayText": "7.5",
+              "homeText": "10.6"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.473,
+              "home": 8.369,
+              "awayText": "4.5",
+              "homeText": "8.4"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.973,
+              "home": 1.0,
+              "awayText": "97%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858270": {
+      "title": "California @ No. 23 SMU",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "California",
+        "note": "3\u20134 \u00b7 ACC"
+      },
+      "home": {
+        "name": "SMU",
+        "note": "No. 23 \u00b7 5\u20131 \u00b7 ACC"
+      },
+      "score": {
+        "away": "20.7",
+        "home": "35.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1506,
+        "home": 0.8494,
+        "note": "Fair odds: California +564, SMU -564 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects California 20.7 \u2013 SMU 35.1: SMU by 14.4. That makes SMU 85% to win.",
+            "The market expects SMU by 19.5, the model SMU by 14.3. Against the spread it takes California +19.5 (63% to cover, expected return +0.20 a unit) \u2014 a flagged play.",
+            "The market's total is 53.5 against the model's 55.8: the over (51%, expected return -0.02).",
+            "Market: 2 books, in agreement; the line has moved -1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "SMU margin",
+              "+14.3",
+              "+19.5",
+              {
+                "v": "-5.2 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.8",
+              "53.5",
+              "+2.3"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "California to win",
+              "15%"
+            ],
+            [
+              "SMU to win",
+              "85%"
+            ],
+            [
+              "\u2605 California +19.5",
+              "63%"
+            ],
+            [
+              "Over 53.5",
+              "51%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.767,
+              "home": 8.497,
+              "awayText": "4.8",
+              "homeText": "8.5"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.767,
+              "home": 6.379,
+              "awayText": "3.8",
+              "homeText": "6.4"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.221,
+              "home": 0.996,
+              "awayText": "22%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858496": {
+      "title": "No. 6 Indiana @ Michigan",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "Indiana",
+        "note": "No. 6 \u00b7 6\u20131 \u00b7 Big Ten"
+      },
+      "home": {
+        "name": "Michigan",
+        "note": "4\u20132 \u00b7 Big Ten"
+      },
+      "score": {
+        "away": "26.0",
+        "home": "21.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6279,
+        "home": 0.3721,
+        "note": "Fair odds: Indiana -169, Michigan +169 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Indiana 26.0 \u2013 Michigan 21.6: Indiana by 4.4. That makes Indiana 63% to win.",
+            "The market expects Indiana by 7.0, the model Indiana by 4.4. Against the spread it takes Michigan +7 (56% to cover, expected return +0.06 a unit) \u2014 a flagged play.",
+            "The market's total is 41.5 against the model's 47.5: the over (60%, expected return +0.15) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Michigan margin",
+              "-4.4",
+              "-7",
+              {
+                "v": "+2.6 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "47.5",
+              "41.5",
+              {
+                "v": "+6.0 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Indiana to win",
+              "63%"
+            ],
+            [
+              "Michigan to win",
+              "37%"
+            ],
+            [
+              "\u2605 Michigan +7",
+              "56%"
+            ],
+            [
+              "\u2605 Over 41.5",
+              "60%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.911,
+              "home": 6.835,
+              "awayText": "9.9",
+              "homeText": "6.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.911,
+              "home": 3.835,
+              "awayText": "6.9",
+              "homeText": "3.8"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.887,
+              "awayText": "100%",
+              "homeText": "89%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856728": {
+      "title": "No. 18 LSU @ Auburn",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 12:00PM ET",
+      "away": {
+        "name": "LSU",
+        "note": "No. 18 \u00b7 5\u20132 \u00b7 SEC"
+      },
+      "home": {
+        "name": "Auburn",
+        "note": "4\u20132 \u00b7 SEC"
+      },
+      "score": {
+        "away": "29.5",
+        "home": "21.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.673,
+        "home": 0.327,
+        "note": "Fair odds: LSU -206, Auburn +206 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects LSU 29.5 \u2013 Auburn 21.4: LSU by 8.1. That makes LSU 67% to win.",
+            "The market expects LSU by 7.2, the model LSU by 8.1. Against the spread it takes LSU -7.25 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 51.25 against the model's 50.9: the under (55%, expected return +0.06).",
+            "Market: 2 books, 0.25 points apart; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Auburn margin",
+              "-8.1",
+              "-7.25",
+              "-0.8"
+            ],
+            [
+              "Total",
+              "50.9",
+              "51.25",
+              "-0.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "LSU to win",
+              "67%"
+            ],
+            [
+              "Auburn to win",
+              "33%"
+            ],
+            [
+              "LSU -7.25",
+              "48%"
+            ],
+            [
+              "Under 51.25",
+              "55%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.035,
+              "home": 6.907,
+              "awayText": "8.0",
+              "homeText": "6.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 5.035,
+              "home": 3.912,
+              "awayText": "5.0",
+              "homeText": "3.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.99,
+              "home": 0.934,
+              "awayText": "99%",
+              "homeText": "93%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401866446": {
+      "title": "Akron @ Kent State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 1:00PM ET",
+      "away": {
+        "name": "Akron",
+        "note": "1\u20136 \u00b7 Mid-American"
+      },
+      "home": {
+        "name": "Kent State",
+        "note": "2\u20135 \u00b7 Mid-American"
+      },
+      "score": {
+        "away": "25.6",
+        "home": "23.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.5536,
+        "home": 0.4464,
+        "note": "Fair odds: Akron -124, Kent State +124 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Akron 25.6 \u2013 Kent State 23.4: Akron by 2.2. That makes Akron 55% to win.",
+            "The market expects Kent State by 3.0, the model Akron by 2.2. Against the spread it takes Akron +3 (63% to cover, expected return +0.20 a unit) \u2014 a flagged play.",
+            "The market's total is 46.25 against the model's 49.0: the over (52%, expected return +0.00).",
+            "Market: 2 books, in agreement; the line has moved +0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Kent State margin",
+              "-2.2",
+              "+3",
+              {
+                "v": "-5.2 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "49.0",
+              "46.25",
+              "+2.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Akron to win",
+              "55%"
+            ],
+            [
+              "Kent State to win",
+              "45%"
+            ],
+            [
+              "\u2605 Akron +3",
+              "63%"
+            ],
+            [
+              "Over 46.25",
+              "52%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 3.203,
+              "home": 3.981,
+              "awayText": "3.2",
+              "homeText": "4.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 2.203,
+              "home": 2.981,
+              "awayText": "2.2",
+              "homeText": "3.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.019,
+              "home": 0.096,
+              "awayText": "2%",
+              "homeText": "10%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856834": {
+      "title": "Baylor @ Kansas",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 1:00PM ET",
+      "away": {
+        "name": "Baylor",
+        "note": "4\u20132 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "Kansas",
+        "note": "2\u20134 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "27.4",
+        "home": "29.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: Baylor +109, Kansas -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Baylor 27.4 \u2013 Kansas 29.2: Kansas by 1.8. That makes Kansas 52% to win.",
+            "The market expects Baylor by 3.0, the model Kansas by 1.9. Against the spread it takes Kansas +3 (61% to cover, expected return +0.17 a unit) \u2014 a flagged play.",
+            "The market's total is 53.5 against the model's 56.6: the over (53%, expected return +0.02) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Kansas margin",
+              "+1.9",
+              "-3",
+              {
+                "v": "+4.9 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "56.6",
+              "53.5",
+              {
+                "v": "+3.1 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Baylor to win",
+              "48%"
+            ],
+            [
+              "Kansas to win",
+              "52%"
+            ],
+            [
+              "\u2605 Kansas +3",
+              "61%"
+            ],
+            [
+              "\u2605 Over 53.5",
+              "53%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.408,
+              "home": 5.05,
+              "awayText": "6.4",
+              "homeText": "5.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.408,
+              "home": 3.05,
+              "awayText": "4.4",
+              "homeText": "3.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.765,
+              "home": 0.366,
+              "awayText": "76%",
+              "homeText": "37%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401866476": {
+      "title": "Miami (OH) @ Central Michigan",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 1:00PM ET",
+      "away": {
+        "name": "Miami (OH)",
+        "note": "4\u20133 \u00b7 Mid-American"
+      },
+      "home": {
+        "name": "Central Michigan",
+        "note": "3\u20134 \u00b7 Mid-American"
+      },
+      "score": {
+        "away": "22.5",
+        "home": "22.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: Miami (OH) +109, Central Michigan -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Miami (OH) 22.5 \u2013 Central Michigan 22.1: Miami (OH) by 0.4. That makes Central Michigan 52% to win.",
+            "The market expects Miami (OH) by 2.5, the model Miami (OH) by 0.4. Against the spread it takes Central Michigan +2.5 (54% to cover, expected return +0.03 a unit) \u2014 a flagged play.",
+            "The market's total is 40.75 against the model's 44.6: the over (55%, expected return +0.05) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +2.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Central Michigan margin",
+              "-0.4",
+              "-2.5",
+              {
+                "v": "+2.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "44.6",
+              "40.75",
+              {
+                "v": "+3.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Miami (OH) to win",
+              "48%"
+            ],
+            [
+              "Central Michigan to win",
+              "52%"
+            ],
+            [
+              "\u2605 Central Michigan +2.5",
+              "54%"
+            ],
+            [
+              "\u2605 Over 40.75",
+              "55%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.469,
+              "home": 5.932,
+              "awayText": "6.5",
+              "homeText": "5.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.469,
+              "home": 3.932,
+              "awayText": "4.5",
+              "homeText": "3.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.821,
+              "home": 0.652,
+              "awayText": "82%",
+              "homeText": "65%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858495": {
+      "title": "Oregon @ Illinois",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:00PM ET",
+      "away": {
+        "name": "Oregon",
+        "note": "4\u20132 \u00b7 Big Ten"
+      },
+      "home": {
+        "name": "Illinois",
+        "note": "3\u20133 \u00b7 Big Ten"
+      },
+      "score": {
+        "away": "30.8",
+        "home": "23.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.673,
+        "home": 0.327,
+        "note": "Fair odds: Oregon -206, Illinois +206 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Oregon 30.8 \u2013 Illinois 23.5: Oregon by 7.3. That makes Oregon 67% to win.",
+            "The market expects Oregon by 8.8, the model Oregon by 7.4. Against the spread it takes Illinois +8.75 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 50.5 against the model's 54.3: the over (55%, expected return +0.05) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -2.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Illinois margin",
+              "-7.4",
+              "-8.75",
+              "+1.4"
+            ],
+            [
+              "Total",
+              "54.3",
+              "50.5",
+              {
+                "v": "+3.8 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Oregon to win",
+              "67%"
+            ],
+            [
+              "Illinois to win",
+              "33%"
+            ],
+            [
+              "Illinois +8.75",
+              "52%"
+            ],
+            [
+              "\u2605 Over 50.5",
+              "55%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.029,
+              "home": 5.003,
+              "awayText": "8.0",
+              "homeText": "5.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.029,
+              "home": 3.003,
+              "awayText": "6.0",
+              "homeText": "3.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.986,
+              "home": 0.323,
+              "awayText": "99%",
+              "homeText": "32%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401866448": {
+      "title": "Bowling Green @ Buffalo",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Bowling Green",
+        "note": "2\u20135 \u00b7 Mid-American"
+      },
+      "home": {
+        "name": "Buffalo",
+        "note": "4\u20133 \u00b7 Mid-American"
+      },
+      "score": {
+        "away": "22.3",
+        "home": "27.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.35,
+        "home": 0.65,
+        "note": "Fair odds: Bowling Green +186, Buffalo -186 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Bowling Green 22.3 \u2013 Buffalo 27.9: Buffalo by 5.6. That makes Buffalo 65% to win.",
+            "The market expects Buffalo by 3.5, the model Buffalo by 5.6. Against the spread it takes Buffalo -3.5 (54% to cover, expected return +0.03 a unit) \u2014 a flagged play.",
+            "The market's total is 44.5 against the model's 50.2: the over (59%, expected return +0.13) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +1 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Buffalo margin",
+              "+5.6",
+              "+3.5",
+              {
+                "v": "+2.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "50.2",
+              "44.5",
+              {
+                "v": "+5.7 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Bowling Green to win",
+              "35%"
+            ],
+            [
+              "Buffalo to win",
+              "65%"
+            ],
+            [
+              "\u2605 Buffalo -3.5",
+              "54%"
+            ],
+            [
+              "\u2605 Over 44.5",
+              "59%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 3.904,
+              "home": 6.257,
+              "awayText": "3.9",
+              "homeText": "6.3"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.904,
+              "home": 4.257,
+              "awayText": "3.9",
+              "homeText": "4.3"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.058,
+              "home": 0.408,
+              "awayText": "6%",
+              "homeText": "41%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856730": {
+      "title": "Oklahoma @ Mississippi State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Oklahoma",
+        "note": "3\u20133 \u00b7 SEC"
+      },
+      "home": {
+        "name": "Mississippi State",
+        "note": "4\u20132 \u00b7 SEC"
+      },
+      "score": {
+        "away": "28.3",
+        "home": "23.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6279,
+        "home": 0.3721,
+        "note": "Fair odds: Oklahoma -169, Mississippi State +169 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Oklahoma 28.3 \u2013 Mississippi State 23.8: Oklahoma by 4.5. That makes Oklahoma 63% to win.",
+            "The market expects Oklahoma by 4.2, the model Oklahoma by 4.5. Against the spread it takes Oklahoma -4.25 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 44.5 against the model's 52.0: the over (64%, expected return +0.22) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +2.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Mississippi State margin",
+              "-4.5",
+              "-4.25",
+              "-0.3"
+            ],
+            [
+              "Total",
+              "52.0",
+              "44.5",
+              {
+                "v": "+7.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Oklahoma to win",
+              "63%"
+            ],
+            [
+              "Mississippi State to win",
+              "37%"
+            ],
+            [
+              "Oklahoma -4.25",
+              "48%"
+            ],
+            [
+              "\u2605 Over 44.5",
+              "64%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.217,
+              "home": 6.966,
+              "awayText": "6.2",
+              "homeText": "7.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.217,
+              "home": 3.974,
+              "awayText": "4.2",
+              "homeText": "4.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.702,
+              "home": 0.929,
+              "awayText": "70%",
+              "homeText": "93%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858273": {
+      "title": "Boston College @ Georgia Tech",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Boston College",
+        "note": "3\u20133 \u00b7 ACC"
+      },
+      "home": {
+        "name": "Georgia Tech",
+        "note": "2\u20134 \u00b7 ACC"
+      },
+      "score": {
+        "away": "21.3",
+        "home": "28.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.3051,
+        "home": 0.6949,
+        "note": "Fair odds: Boston College +228, Georgia Tech -228 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Boston College 21.3 \u2013 Georgia Tech 28.4: Georgia Tech by 7.1. That makes Georgia Tech 69% to win.",
+            "The market expects Georgia Tech by 4.0, the model Georgia Tech by 7.1. Against the spread it takes Georgia Tech -4 (56% to cover, expected return +0.06 a unit) \u2014 a flagged play.",
+            "The market's total is 49.25 against the model's 49.7: the over (47%, expected return -0.11).",
+            "Market: 2 books, in agreement; the line has moved +0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Georgia Tech margin",
+              "+7.1",
+              "+4",
+              {
+                "v": "+3.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "49.7",
+              "49.25",
+              "+0.5"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Boston College to win",
+              "31%"
+            ],
+            [
+              "Georgia Tech to win",
+              "69%"
+            ],
+            [
+              "\u2605 Georgia Tech -4",
+              "56%"
+            ],
+            [
+              "Over 49.25",
+              "47%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.41,
+              "home": 3.999,
+              "awayText": "4.4",
+              "homeText": "4.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 2.397,
+              "home": 2.892,
+              "awayText": "2.4",
+              "homeText": "2.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.137,
+              "home": 0.098,
+              "awayText": "14%",
+              "homeText": "10%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856727": {
+      "title": "Texas A&M @ No. 13 Alabama",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Texas A&M",
+        "note": "4\u20133 \u00b7 SEC"
+      },
+      "home": {
+        "name": "Alabama",
+        "note": "No. 13 \u00b7 5\u20132 \u00b7 SEC"
+      },
+      "score": {
+        "away": "21.0",
+        "home": "33.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2129,
+        "home": 0.7871,
+        "note": "Fair odds: Texas A&M +370, Alabama -370 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Texas A&M 21.0 \u2013 Alabama 33.0: Alabama by 12.0. That makes Alabama 79% to win.",
+            "The market expects Alabama by 14.0, the model Alabama by 12.0. Against the spread it takes Texas A&M +14 (55% to cover, expected return +0.06 a unit) \u2014 a flagged play.",
+            "The market's total is 50.5 against the model's 54.0: the over (54%, expected return +0.03) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -5.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Alabama margin",
+              "+12.0",
+              "+14",
+              {
+                "v": "-2.0 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "54.0",
+              "50.5",
+              {
+                "v": "+3.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Texas A&M to win",
+              "21%"
+            ],
+            [
+              "Alabama to win",
+              "79%"
+            ],
+            [
+              "\u2605 Texas A&M +14",
+              "55%"
+            ],
+            [
+              "\u2605 Over 50.5",
+              "54%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.146,
+              "home": 8.917,
+              "awayText": "6.1",
+              "homeText": "8.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.146,
+              "home": 5.923,
+              "awayText": "3.1",
+              "homeText": "5.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.706,
+              "home": 1.0,
+              "awayText": "71%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401866447": {
+      "title": "Sacramento State @ Ball State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Sacramento State",
+        "note": "1\u20136 \u00b7 Mid-American"
+      },
+      "home": {
+        "name": "Ball State",
+        "note": "2\u20135 \u00b7 Mid-American"
+      },
+      "score": {
+        "away": "20.1",
+        "home": "33.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1506,
+        "home": 0.8494,
+        "note": "Fair odds: Sacramento State +564, Ball State -564 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Sacramento State 20.1 \u2013 Ball State 33.7: Ball State by 13.6. That makes Ball State 85% to win.",
+            "The market expects Ball State by 14.2, the model Ball State by 13.6. Against the spread it takes Sacramento State +14.25 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 51.25 against the model's 53.8: the over (52%, expected return -0.01).",
+            "Market: 2 books, 0.25 points apart; the line has moved -3.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Ball State margin",
+              "+13.6",
+              "+14.25",
+              "-0.7"
+            ],
+            [
+              "Total",
+              "53.8",
+              "51.25",
+              "+2.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Sacramento State to win",
+              "15%"
+            ],
+            [
+              "Ball State to win",
+              "85%"
+            ],
+            [
+              "Sacramento State +14.25",
+              "48%"
+            ],
+            [
+              "Over 51.25",
+              "52%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 2.155,
+              "home": 4.296,
+              "awayText": "2.2",
+              "homeText": "4.3"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.012,
+              "home": 3.296,
+              "awayText": "1.0",
+              "homeText": "3.3"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.001,
+              "home": 0.124,
+              "awayText": "0%",
+              "homeText": "12%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858497": {
+      "title": "No. 15 Iowa @ Minnesota",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Iowa",
+        "note": "No. 15 \u00b7 5\u20131 \u00b7 Big Ten"
+      },
+      "home": {
+        "name": "Minnesota",
+        "note": "4\u20132 \u00b7 Big Ten"
+      },
+      "score": {
+        "away": "26.2",
+        "home": "19.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6438,
+        "home": 0.3562,
+        "note": "Fair odds: Iowa -181, Minnesota +181 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Iowa 26.2 \u2013 Minnesota 19.9: Iowa by 6.3. That makes Iowa 64% to win.",
+            "The market expects Iowa by 7.0, the model Iowa by 6.2. Against the spread it takes Minnesota +7 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 40.75 against the model's 46.1: the over (59%, expected return +0.12) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Minnesota margin",
+              "-6.2",
+              "-7",
+              "+0.8"
+            ],
+            [
+              "Total",
+              "46.1",
+              "40.75",
+              {
+                "v": "+5.3 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Iowa to win",
+              "64%"
+            ],
+            [
+              "Minnesota to win",
+              "36%"
+            ],
+            [
+              "Minnesota +7",
+              "52%"
+            ],
+            [
+              "\u2605 Over 40.75",
+              "59%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.896,
+              "home": 5.925,
+              "awayText": "8.9",
+              "homeText": "5.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 5.896,
+              "home": 3.925,
+              "awayText": "5.9",
+              "homeText": "3.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.997,
+              "home": 0.614,
+              "awayText": "100%",
+              "homeText": "61%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401862810": {
+      "title": "North Texas @ Navy",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "North Texas",
+        "note": "4\u20132 \u00b7 American Athletic"
+      },
+      "home": {
+        "name": "Navy",
+        "note": "2\u20134 \u00b7 American Athletic"
+      },
+      "score": {
+        "away": "29.2",
+        "home": "29.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: North Texas +109, Navy -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects North Texas 29.2 \u2013 Navy 29.3: Navy by 0.1. That makes Navy 52% to win.",
+            "The market expects North Texas by 2.5, the model Navy by 0.1. Against the spread it takes Navy +2.5 (56% to cover, expected return +0.06 a unit) \u2014 a flagged play.",
+            "The market's total is 61.75 against the model's 58.5: the under (62%, expected return +0.18) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Navy margin",
+              "+0.1",
+              "-2.5",
+              {
+                "v": "+2.6 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "58.5",
+              "61.75",
+              {
+                "v": "-3.2 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "North Texas to win",
+              "48%"
+            ],
+            [
+              "Navy to win",
+              "52%"
+            ],
+            [
+              "\u2605 Navy +2.5",
+              "56%"
+            ],
+            [
+              "\u2605 Under 61.75",
+              "62%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.014,
+              "home": 4.845,
+              "awayText": "8.0",
+              "homeText": "4.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.015,
+              "home": 3.759,
+              "awayText": "6.0",
+              "homeText": "3.8"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.988,
+              "home": 0.285,
+              "awayText": "99%",
+              "homeText": "28%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401864526": {
+      "title": "Hawai'i @ Northern Illinois",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Hawai'i",
+        "note": "1\u20136 \u00b7 Mountain West"
+      },
+      "home": {
+        "name": "Northern Illinois",
+        "note": "0\u20136 \u00b7 Mountain West"
+      },
+      "score": {
+        "away": "24.2",
+        "home": "25.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: Hawai'i +109, Northern Illinois -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Hawai'i 24.2 \u2013 Northern Illinois 25.0: Northern Illinois by 0.8. That makes Northern Illinois 52% to win.",
+            "The market expects Hawai'i by 4.8, the model Northern Illinois by 0.8. Against the spread it takes Northern Illinois +4.75 (65% to cover, expected return +0.24 a unit) \u2014 a flagged play.",
+            "The market's total is 47.75 against the model's 49.3: the over (49%, expected return -0.06).",
+            "Market: 2 books, 0.25 points apart; the line has moved -1.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Northern Illinois margin",
+              "+0.8",
+              "-4.75",
+              {
+                "v": "+5.5 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "49.3",
+              "47.75",
+              "+1.5"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Hawai'i to win",
+              "48%"
+            ],
+            [
+              "Northern Illinois to win",
+              "52%"
+            ],
+            [
+              "\u2605 Northern Illinois +4.75",
+              "65%"
+            ],
+            [
+              "Over 47.75",
+              "49%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 3.707,
+              "home": 2.133,
+              "awayText": "3.7",
+              "homeText": "2.1"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.85,
+              "home": 2.133,
+              "awayText": "1.9",
+              "homeText": "2.1"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.044,
+              "home": 0.001,
+              "awayText": "4%",
+              "homeText": "0%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856731": {
+      "title": "No. 11 Tennessee @ South Carolina",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Tennessee",
+        "note": "No. 11 \u00b7 6\u20131 \u00b7 SEC"
+      },
+      "home": {
+        "name": "South Carolina",
+        "note": "3\u20133 \u00b7 SEC"
+      },
+      "score": {
+        "away": "28.5",
+        "home": "27.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.5536,
+        "home": 0.4464,
+        "note": "Fair odds: Tennessee -124, South Carolina +124 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Tennessee 28.5 \u2013 South Carolina 27.2: Tennessee by 1.3. That makes Tennessee 55% to win.",
+            "The market expects South Carolina by 2.5, the model Tennessee by 1.3. Against the spread it takes Tennessee +2.5 (63% to cover, expected return +0.20 a unit) \u2014 a flagged play.",
+            "The market's total is 50.75 against the model's 55.7: the over (58%, expected return +0.10) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -4.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "South Carolina margin",
+              "-1.3",
+              "+2.5",
+              {
+                "v": "-3.8 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.7",
+              "50.75",
+              {
+                "v": "+4.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Tennessee to win",
+              "55%"
+            ],
+            [
+              "South Carolina to win",
+              "45%"
+            ],
+            [
+              "\u2605 Tennessee +2.5",
+              "63%"
+            ],
+            [
+              "\u2605 Over 50.75",
+              "58%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.052,
+              "home": 5.769,
+              "awayText": "9.1",
+              "homeText": "5.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.052,
+              "home": 3.234,
+              "awayText": "6.1",
+              "homeText": "3.2"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.578,
+              "awayText": "100%",
+              "homeText": "58%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858499": {
+      "title": "Michigan State @ No. 9 UCLA",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "Michigan State",
+        "note": "2\u20135 \u00b7 Big Ten"
+      },
+      "home": {
+        "name": "UCLA",
+        "note": "No. 9 \u00b7 6\u20130 \u00b7 Big Ten"
+      },
+      "score": {
+        "away": "17.4",
+        "home": "31.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1506,
+        "home": 0.8494,
+        "note": "Fair odds: Michigan State +564, UCLA -564 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Michigan State 17.4 \u2013 UCLA 31.5: UCLA by 14.1. That makes UCLA 85% to win.",
+            "The market expects UCLA by 14.0, the model UCLA by 14.1. Against the spread it takes UCLA -14 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 44.5 against the model's 48.9: the over (56%, expected return +0.07) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "UCLA margin",
+              "+14.1",
+              "+14",
+              "+0.1"
+            ],
+            [
+              "Total",
+              "48.9",
+              "44.5",
+              {
+                "v": "+4.4 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Michigan State to win",
+              "15%"
+            ],
+            [
+              "UCLA to win",
+              "85%"
+            ],
+            [
+              "UCLA -14",
+              "52%"
+            ],
+            [
+              "\u2605 Over 44.5",
+              "56%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 3.526,
+              "home": 10.106,
+              "awayText": "3.5",
+              "homeText": "10.1"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.526,
+              "home": 7.183,
+              "awayText": "1.5",
+              "homeText": "7.2"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.035,
+              "home": 1.0,
+              "awayText": "4%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856835": {
+      "title": "No. 2 BYU @ UCF",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:30PM ET",
+      "away": {
+        "name": "BYU",
+        "note": "No. 2 \u00b7 6\u20130 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "UCF",
+        "note": "3\u20133 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "27.4",
+        "home": "22.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6279,
+        "home": 0.3721,
+        "note": "Fair odds: BYU -169, UCF +169 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects BYU 27.4 \u2013 UCF 22.1: BYU by 5.3. That makes BYU 63% to win.",
+            "The market expects BYU by 6.5, the model BYU by 5.3. Against the spread it takes UCF +6.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 43.5 against the model's 49.4: the over (60%, expected return +0.15) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved -1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "UCF margin",
+              "-5.3",
+              "-6.5",
+              "+1.2"
+            ],
+            [
+              "Total",
+              "49.4",
+              "43.5",
+              {
+                "v": "+5.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "BYU to win",
+              "63%"
+            ],
+            [
+              "UCF to win",
+              "37%"
+            ],
+            [
+              "UCF +6.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 43.5",
+              "60%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 10.353,
+              "home": 6.108,
+              "awayText": "10.4",
+              "homeText": "6.1"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 7.353,
+              "home": 4.108,
+              "awayText": "7.4",
+              "homeText": "4.1"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.682,
+              "awayText": "100%",
+              "homeText": "68%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856839": {
+      "title": "Kansas State @ Arizona State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 3:45PM ET",
+      "away": {
+        "name": "Kansas State",
+        "note": "4\u20132 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "Arizona State",
+        "note": "3\u20133 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "32.4",
+        "home": "24.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6839,
+        "home": 0.3161,
+        "note": "Fair odds: Kansas State -216, Arizona State +216 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Kansas State 32.4 \u2013 Arizona State 24.0: Kansas State by 8.4. That makes Kansas State 68% to win.",
+            "The market expects Kansas State by 3.5, the model Kansas State by 8.3. Against the spread it takes Kansas State -3.5 (63% to cover, expected return +0.20 a unit) \u2014 a flagged play.",
+            "The market's total is 56.5 against the model's 56.4: the under (55%, expected return +0.04).",
+            "Market: 2 books, in agreement; the line has moved +0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Arizona State margin",
+              "-8.3",
+              "-3.5",
+              {
+                "v": "-4.8 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "56.4",
+              "56.5",
+              "-0.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Kansas State to win",
+              "68%"
+            ],
+            [
+              "Arizona State to win",
+              "32%"
+            ],
+            [
+              "\u2605 Kansas State -3.5",
+              "63%"
+            ],
+            [
+              "Under 56.5",
+              "55%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 7.722,
+              "home": 4.907,
+              "awayText": "7.7",
+              "homeText": "4.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.722,
+              "home": 2.907,
+              "awayText": "4.7",
+              "homeText": "2.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.96,
+              "home": 0.29,
+              "awayText": "96%",
+              "homeText": "29%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401871094": {
+      "title": "UL Monroe @ Troy",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 4:00PM ET",
+      "away": {
+        "name": "UL Monroe",
+        "note": "0\u20136 \u00b7 Sun Belt"
+      },
+      "home": {
+        "name": "Troy",
+        "note": "3\u20133 \u00b7 Sun Belt"
+      },
+      "score": {
+        "away": "19.0",
+        "home": "33.9",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1506,
+        "home": 0.8494,
+        "note": "Fair odds: UL Monroe +564, Troy -564 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects UL Monroe 19.0 \u2013 Troy 33.9: Troy by 14.9. That makes Troy 85% to win.",
+            "The market expects Troy by 15.2, the model Troy by 15.0. Against the spread it takes UL Monroe +15.25 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 51.25 against the model's 52.9: the over (50%, expected return -0.05).",
+            "Market: 2 books, 0.25 points apart; the line has moved +2 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Troy margin",
+              "+15.0",
+              "+15.25",
+              "-0.3"
+            ],
+            [
+              "Total",
+              "52.9",
+              "51.25",
+              "+1.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "UL Monroe to win",
+              "15%"
+            ],
+            [
+              "Troy to win",
+              "85%"
+            ],
+            [
+              "UL Monroe +15.25",
+              "48%"
+            ],
+            [
+              "Over 51.25",
+              "50%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 1.258,
+              "home": 5.726,
+              "awayText": "1.3",
+              "homeText": "5.7"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.258,
+              "home": 3.726,
+              "awayText": "1.3",
+              "homeText": "3.7"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.0,
+              "home": 0.572,
+              "awayText": "0%",
+              "homeText": "57%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401866449": {
+      "title": "Eastern Michigan @ Ohio",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 4:00PM ET",
+      "away": {
+        "name": "Eastern Michigan",
+        "note": "4\u20134 \u00b7 Mid-American"
+      },
+      "home": {
+        "name": "Ohio",
+        "note": "5\u20132 \u00b7 Mid-American"
+      },
+      "score": {
+        "away": "20.5",
+        "home": "31.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2165,
+        "home": 0.7835,
+        "note": "Fair odds: Eastern Michigan +362, Ohio -362 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Eastern Michigan 20.5 \u2013 Ohio 31.5: Ohio by 11.0. That makes Ohio 78% to win.",
+            "The market expects Ohio by 12.2, the model Ohio by 10.9. Against the spread it takes Eastern Michigan +12.25 (55% to cover, expected return +0.06 a unit).",
+            "The market's total is 48.5 against the model's 52.0: the over (54%, expected return +0.03) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -2 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Ohio margin",
+              "+10.9",
+              "+12.25",
+              "-1.3"
+            ],
+            [
+              "Total",
+              "52.0",
+              "48.5",
+              {
+                "v": "+3.5 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Eastern Michigan to win",
+              "22%"
+            ],
+            [
+              "Ohio to win",
+              "78%"
+            ],
+            [
+              "Eastern Michigan +12.25",
+              "55%"
+            ],
+            [
+              "\u2605 Over 48.5",
+              "54%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 5.647,
+              "home": 8.531,
+              "awayText": "5.6",
+              "homeText": "8.5"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.647,
+              "home": 6.531,
+              "awayText": "4.6",
+              "homeText": "6.5"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.549,
+              "home": 0.998,
+              "awayText": "55%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401864528": {
+      "title": "San Jos\u00e9 State @ Nevada",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 5:00PM ET",
+      "away": {
+        "name": "San Jos\u00e9 State",
+        "note": "4\u20133 \u00b7 Mountain West"
+      },
+      "home": {
+        "name": "Nevada",
+        "note": "2\u20134 \u00b7 Mountain West"
+      },
+      "score": {
+        "away": "22.7",
+        "home": "26.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4353,
+        "home": 0.5647,
+        "note": "Fair odds: San Jos\u00e9 State +130, Nevada -130 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects San Jos\u00e9 State 22.7 \u2013 Nevada 26.2: Nevada by 3.5. That makes Nevada 56% to win.",
+            "The market expects Nevada by 5.2, the model Nevada by 3.5. Against the spread it takes San Jos\u00e9 State +5.25 (55% to cover, expected return +0.06 a unit).",
+            "The market's total is 46.25 against the model's 49.0: the over (52%, expected return -0.00).",
+            "Market: 2 books, 0.25 points apart; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Nevada margin",
+              "+3.5",
+              "+5.25",
+              "-1.7"
+            ],
+            [
+              "Total",
+              "49.0",
+              "46.25",
+              "+2.7"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "San Jos\u00e9 State to win",
+              "44%"
+            ],
+            [
+              "Nevada to win",
+              "56%"
+            ],
+            [
+              "San Jos\u00e9 State +5.25",
+              "55%"
+            ],
+            [
+              "Over 46.25",
+              "52%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 6.27,
+              "home": 4.42,
+              "awayText": "6.3",
+              "homeText": "4.4"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.27,
+              "home": 3.343,
+              "awayText": "4.3",
+              "homeText": "3.3"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.742,
+              "home": 0.172,
+              "awayText": "74%",
+              "homeText": "17%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401869967": {
+      "title": "Louisiana @ Southern Miss",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 5:00PM ET",
+      "away": {
+        "name": "Louisiana",
+        "note": "5\u20132 \u00b7 Sun Belt"
+      },
+      "home": {
+        "name": "Southern Miss",
+        "note": "1\u20135 \u00b7 Sun Belt"
+      },
+      "score": {
+        "away": "30.6",
+        "home": "22.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.673,
+        "home": 0.327,
+        "note": "Fair odds: Louisiana -206, Southern Miss +206 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Louisiana 30.6 \u2013 Southern Miss 22.4: Louisiana by 8.2. That makes Louisiana 67% to win.",
+            "The market expects Louisiana by 10.0, the model Louisiana by 8.2. Against the spread it takes Southern Miss +10 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 52.5 against the model's 53.1: the over (47%, expected return -0.10).",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Southern Miss margin",
+              "-8.2",
+              "-10",
+              "+1.8"
+            ],
+            [
+              "Total",
+              "53.1",
+              "52.5",
+              "+0.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Louisiana to win",
+              "67%"
+            ],
+            [
+              "Southern Miss to win",
+              "33%"
+            ],
+            [
+              "Southern Miss +10",
+              "52%"
+            ],
+            [
+              "Over 52.5",
+              "47%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.677,
+              "home": 3.305,
+              "awayText": "8.7",
+              "homeText": "3.3"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 5.676,
+              "home": 2.305,
+              "awayText": "5.7",
+              "homeText": "2.3"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.998,
+              "home": 0.029,
+              "awayText": "100%",
+              "homeText": "3%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401871093": {
+      "title": "Old Dominion @ Louisiana Tech",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 5:00PM ET",
+      "away": {
+        "name": "Old Dominion",
+        "note": "2\u20135 \u00b7 Sun Belt"
+      },
+      "home": {
+        "name": "Louisiana Tech",
+        "note": "4\u20132 \u00b7 Sun Belt"
+      },
+      "score": {
+        "away": "16.3",
+        "home": "29.2",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1786,
+        "home": 0.8214,
+        "note": "Fair odds: Old Dominion +460, Louisiana Tech -460 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Old Dominion 16.3 \u2013 Louisiana Tech 29.2: Louisiana Tech by 12.9. That makes Louisiana Tech 82% to win.",
+            "The market expects Louisiana Tech by 12.2, the model Louisiana Tech by 12.9. Against the spread it takes Louisiana Tech -12.25 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 46.25 against the model's 45.5: the under (56%, expected return +0.07).",
+            "Market: 2 books, 0.25 points apart; the line has moved -2.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Louisiana Tech margin",
+              "+12.9",
+              "+12.25",
+              "+0.6"
+            ],
+            [
+              "Total",
+              "45.5",
+              "46.25",
+              "-0.8"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Old Dominion to win",
+              "18%"
+            ],
+            [
+              "Louisiana Tech to win",
+              "82%"
+            ],
+            [
+              "Louisiana Tech -12.25",
+              "52%"
+            ],
+            [
+              "Under 46.25",
+              "56%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.095,
+              "home": 7.935,
+              "awayText": "4.1",
+              "homeText": "7.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 2.845,
+              "home": 5.935,
+              "awayText": "2.8",
+              "homeText": "5.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.1,
+              "home": 0.973,
+              "awayText": "10%",
+              "homeText": "97%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401860907": {
+      "title": "No. 21 Boise State @ Washington State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 6:00PM ET",
+      "away": {
+        "name": "Boise State",
+        "note": "No. 21 \u00b7 5\u20131 \u00b7 Pac-12"
+      },
+      "home": {
+        "name": "Washington State",
+        "note": "1\u20136 \u00b7 Pac-12"
+      },
+      "score": {
+        "away": "29.9",
+        "home": "23.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6438,
+        "home": 0.3562,
+        "note": "Fair odds: Boise State -181, Washington State +181 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Boise State 29.9 \u2013 Washington State 23.5: Boise State by 6.4. That makes Boise State 64% to win.",
+            "The market expects Boise State by 12.5, the model Boise State by 6.4. Against the spread it takes Washington State +12.5 (68% to cover, expected return +0.29 a unit) \u2014 a flagged play.",
+            "The market's total is 51.25 against the model's 53.4: the over (51%, expected return -0.03).",
+            "Market: 2 books, in agreement; the line has moved -0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Washington State margin",
+              "-6.4",
+              "-12.5",
+              {
+                "v": "+6.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "53.4",
+              "51.25",
+              "+2.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Boise State to win",
+              "64%"
+            ],
+            [
+              "Washington State to win",
+              "36%"
+            ],
+            [
+              "\u2605 Washington State +12.5",
+              "68%"
+            ],
+            [
+              "Over 51.25",
+              "51%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.788,
+              "home": 2.968,
+              "awayText": "8.8",
+              "homeText": "3.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 5.788,
+              "home": 1.968,
+              "awayText": "5.8",
+              "homeText": "2.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.999,
+              "home": 0.0,
+              "awayText": "100%",
+              "homeText": "0%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401860905": {
+      "title": "San Diego State @ Colorado State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 6:30PM ET",
+      "away": {
+        "name": "San Diego State",
+        "note": "3\u20134 \u00b7 Pac-12"
+      },
+      "home": {
+        "name": "Colorado State",
+        "note": "2\u20134 \u00b7 Pac-12"
+      },
+      "score": {
+        "away": "30.5",
+        "home": "28.1",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.5536,
+        "home": 0.4464,
+        "note": "Fair odds: San Diego State -124, Colorado State +124 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects San Diego State 30.5 \u2013 Colorado State 28.1: San Diego State by 2.4. That makes San Diego State 55% to win.",
+            "The market expects San Diego State by 1.2, the model San Diego State by 2.4. Against the spread it takes San Diego State -1.25 (55% to cover, expected return +0.06 a unit).",
+            "The market's total is 63.5 against the model's 58.6: the under (65%, expected return +0.25) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -1.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Colorado State margin",
+              "-2.4",
+              "-1.25",
+              "-1.1"
+            ],
+            [
+              "Total",
+              "58.6",
+              "63.5",
+              {
+                "v": "-4.9 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "San Diego State to win",
+              "55%"
+            ],
+            [
+              "Colorado State to win",
+              "45%"
+            ],
+            [
+              "San Diego State -1.25",
+              "55%"
+            ],
+            [
+              "\u2605 Under 63.5",
+              "65%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.791,
+              "home": 3.306,
+              "awayText": "4.8",
+              "homeText": "3.3"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.791,
+              "home": 1.306,
+              "awayText": "3.8",
+              "homeText": "1.3"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.233,
+              "home": 0.02,
+              "awayText": "23%",
+              "homeText": "2%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401869935": {
+      "title": "Georgia State @ Arkansas State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:00PM ET",
+      "away": {
+        "name": "Georgia State",
+        "note": "4\u20132 \u00b7 Sun Belt"
+      },
+      "home": {
+        "name": "Arkansas State",
+        "note": "3\u20134 \u00b7 Sun Belt"
+      },
+      "score": {
+        "away": "27.6",
+        "home": "27.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: Georgia State +109, Arkansas State -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Georgia State 27.6 \u2013 Arkansas State 27.8: Arkansas State by 0.2. That makes Arkansas State 52% to win.",
+            "The market expects Georgia State by 2.2, the model Arkansas State by 0.2. Against the spread it takes Arkansas State +2.25 (54% to cover, expected return +0.03 a unit) \u2014 a flagged play.",
+            "The market's total is 58.5 against the model's 55.4: the under (62%, expected return +0.18) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved +0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Arkansas State margin",
+              "+0.2",
+              "-2.25",
+              {
+                "v": "+2.5 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "55.4",
+              "58.5",
+              {
+                "v": "-3.1 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Georgia State to win",
+              "48%"
+            ],
+            [
+              "Arkansas State to win",
+              "52%"
+            ],
+            [
+              "\u2605 Arkansas State +2.25",
+              "54%"
+            ],
+            [
+              "\u2605 Under 58.5",
+              "62%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 7.499,
+              "home": 5.804,
+              "awayText": "7.5",
+              "homeText": "5.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.499,
+              "home": 3.804,
+              "awayText": "4.5",
+              "homeText": "3.8"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.945,
+              "home": 0.613,
+              "awayText": "94%",
+              "homeText": "61%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858276": {
+      "title": "Virginia Tech @ Clemson",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:00PM ET",
+      "away": {
+        "name": "Virginia Tech",
+        "note": "5\u20132 \u00b7 ACC"
+      },
+      "home": {
+        "name": "Clemson",
+        "note": "4\u20132 \u00b7 ACC"
+      },
+      "score": {
+        "away": "26.6",
+        "home": "26.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Fair odds: Virginia Tech +109, Clemson -109 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Virginia Tech 26.6 \u2013 Clemson 26.3: Virginia Tech by 0.3. That makes Clemson 52% to win.",
+            "The market expects Clemson by 2.8, the model Virginia Tech by 0.3. Against the spread it takes Virginia Tech +2.75 (58% to cover, expected return +0.11 a unit) \u2014 a flagged play.",
+            "The market's total is 49.5 against the model's 52.9: the over (54%, expected return +0.03) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -2 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Clemson margin",
+              "-0.3",
+              "+2.75",
+              {
+                "v": "-3.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "52.9",
+              "49.5",
+              {
+                "v": "+3.4 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Virginia Tech to win",
+              "48%"
+            ],
+            [
+              "Clemson to win",
+              "52%"
+            ],
+            [
+              "\u2605 Virginia Tech +2.75",
+              "58%"
+            ],
+            [
+              "\u2605 Over 49.5",
+              "54%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 7.467,
+              "home": 7.097,
+              "awayText": "7.5",
+              "homeText": "7.1"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 4.467,
+              "home": 4.632,
+              "awayText": "4.5",
+              "homeText": "4.6"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.983,
+              "home": 0.896,
+              "awayText": "98%",
+              "homeText": "90%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856836": {
+      "title": "Colorado @ Oklahoma State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:00PM ET",
+      "away": {
+        "name": "Colorado",
+        "note": "2\u20134 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "Oklahoma State",
+        "note": "4\u20132 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "24.5",
+        "home": "28.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4091,
+        "home": 0.5909,
+        "note": "Fair odds: Colorado +144, Oklahoma State -144 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Colorado 24.5 \u2013 Oklahoma State 28.6: Oklahoma State by 4.1. That makes Oklahoma State 59% to win.",
+            "The market expects Oklahoma State by 13.5, the model Oklahoma State by 4.1. Against the spread it takes Colorado +13.5 (68% to cover, expected return +0.31 a unit) \u2014 a flagged play.",
+            "The market's total is 55.75 against the model's 53.2: the under (60%, expected return +0.15).",
+            "Market: 2 books, in agreement; the line has moved +0.5 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Oklahoma State margin",
+              "+4.1",
+              "+13.5",
+              {
+                "v": "-9.4 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "53.2",
+              "55.75",
+              "-2.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Colorado to win",
+              "41%"
+            ],
+            [
+              "Oklahoma State to win",
+              "59%"
+            ],
+            [
+              "\u2605 Colorado +13.5",
+              "68%"
+            ],
+            [
+              "Under 55.75",
+              "60%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.361,
+              "home": 6.649,
+              "awayText": "4.4",
+              "homeText": "6.6"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 2.362,
+              "home": 4.649,
+              "awayText": "2.4",
+              "homeText": "4.6"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.19,
+              "home": 0.819,
+              "awayText": "19%",
+              "homeText": "82%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858500": {
+      "title": "No. 16 USC @ Wisconsin",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:30PM ET",
+      "away": {
+        "name": "USC",
+        "note": "No. 16 \u00b7 6\u20131 \u00b7 Big Ten"
+      },
+      "home": {
+        "name": "Wisconsin",
+        "note": "4\u20132 \u00b7 Big Ten"
+      },
+      "score": {
+        "away": "28.1",
+        "home": "23.4",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.6279,
+        "home": 0.3721,
+        "note": "Fair odds: USC -169, Wisconsin +169 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects USC 28.1 \u2013 Wisconsin 23.4: USC by 4.7. That makes USC 63% to win.",
+            "The market expects USC by 3.0, the model USC by 4.7. Against the spread it takes USC -3 (55% to cover, expected return +0.06 a unit).",
+            "The market's total is 49.5 against the model's 51.5: the over (50%, expected return -0.04).",
+            "Market: 2 books, in agreement; the line has moved +1 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Wisconsin margin",
+              "-4.7",
+              "-3",
+              "-1.7"
+            ],
+            [
+              "Total",
+              "51.5",
+              "49.5",
+              "+2.0"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "USC to win",
+              "63%"
+            ],
+            [
+              "Wisconsin to win",
+              "37%"
+            ],
+            [
+              "USC -3",
+              "55%"
+            ],
+            [
+              "Over 49.5",
+              "50%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 8.551,
+              "home": 7.366,
+              "awayText": "8.6",
+              "homeText": "7.4"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 5.551,
+              "home": 5.366,
+              "awayText": "5.6",
+              "homeText": "5.4"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.932,
+              "awayText": "100%",
+              "homeText": "93%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401860906": {
+      "title": "Utah State @ Texas State",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:30PM ET",
+      "away": {
+        "name": "Utah State",
+        "note": "2\u20134 \u00b7 Pac-12"
+      },
+      "home": {
+        "name": "Texas State",
+        "note": "3\u20133 \u00b7 Pac-12"
+      },
+      "score": {
+        "away": "22.2",
+        "home": "34.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2129,
+        "home": 0.7871,
+        "note": "Fair odds: Utah State +370, Texas State -370 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Utah State 22.2 \u2013 Texas State 34.6: Texas State by 12.4. That makes Texas State 79% to win.",
+            "The market expects Texas State by 12.8, the model Texas State by 12.5. Against the spread it takes Utah State +12.75 (48% to cover, expected return -0.08 a unit).",
+            "The market's total is 60.5 against the model's 56.8: the under (63%, expected return +0.20) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -2.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Texas State margin",
+              "+12.5",
+              "+12.75",
+              "-0.3"
+            ],
+            [
+              "Total",
+              "56.8",
+              "60.5",
+              {
+                "v": "-3.7 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Utah State to win",
+              "21%"
+            ],
+            [
+              "Texas State to win",
+              "79%"
+            ],
+            [
+              "Utah State +12.75",
+              "48%"
+            ],
+            [
+              "\u2605 Under 60.5",
+              "63%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.0,
+              "home": 5.794,
+              "awayText": "4.0",
+              "homeText": "5.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.0,
+              "home": 3.794,
+              "awayText": "3.0",
+              "homeText": "3.8"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.078,
+              "home": 0.625,
+              "awayText": "8%",
+              "homeText": "62%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856732": {
+      "title": "No. 7 Ole Miss @ No. 19 Texas",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:30PM ET",
+      "away": {
+        "name": "Ole Miss",
+        "note": "No. 7 \u00b7 5\u20131 \u00b7 SEC"
+      },
+      "home": {
+        "name": "Texas",
+        "note": "No. 19 \u00b7 4\u20132 \u00b7 SEC"
+      },
+      "score": {
+        "away": "25.0",
+        "home": "28.6",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.4353,
+        "home": 0.5647,
+        "note": "Fair odds: Ole Miss +130, Texas -130 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Ole Miss 25.0 \u2013 Texas 28.6: Texas by 3.6. That makes Texas 56% to win.",
+            "The market expects Texas by 3.2, the model Texas by 3.6. Against the spread it takes Texas -3.25 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 53.5 against the model's 53.6: the over (46%, expected return -0.12).",
+            "Market: 2 books, 0.25 points apart; the line has moved +2.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Texas margin",
+              "+3.6",
+              "+3.25",
+              "+0.4"
+            ],
+            [
+              "Total",
+              "53.6",
+              "53.5",
+              "+0.1"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Ole Miss to win",
+              "44%"
+            ],
+            [
+              "Texas to win",
+              "56%"
+            ],
+            [
+              "Texas -3.25",
+              "52%"
+            ],
+            [
+              "Over 53.5",
+              "46%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.051,
+              "home": 7.811,
+              "awayText": "9.1",
+              "homeText": "7.8"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.056,
+              "home": 4.811,
+              "awayText": "6.1",
+              "homeText": "4.8"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.973,
+              "awayText": "100%",
+              "homeText": "97%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856729": {
+      "title": "Vanderbilt @ No. 12 Kentucky",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:30PM ET",
+      "away": {
+        "name": "Vanderbilt",
+        "note": "3\u20134 \u00b7 SEC"
+      },
+      "home": {
+        "name": "Kentucky",
+        "note": "No. 12 \u00b7 6\u20131 \u00b7 SEC"
+      },
+      "score": {
+        "away": "20.4",
+        "home": "31.7",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2165,
+        "home": 0.7835,
+        "note": "Fair odds: Vanderbilt +362, Kentucky -362 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Vanderbilt 20.4 \u2013 Kentucky 31.7: Kentucky by 11.3. That makes Kentucky 78% to win.",
+            "The market expects Kentucky by 10.8, the model Kentucky by 11.3. Against the spread it takes Kentucky -10.75 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 51.5 against the model's 52.1: the over (47%, expected return -0.10).",
+            "Market: 2 books, 0.25 points apart; the line has moved -0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Kentucky margin",
+              "+11.3",
+              "+10.75",
+              "+0.6"
+            ],
+            [
+              "Total",
+              "52.1",
+              "51.5",
+              "+0.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Vanderbilt to win",
+              "22%"
+            ],
+            [
+              "Kentucky to win",
+              "78%"
+            ],
+            [
+              "Kentucky -10.75",
+              "52%"
+            ],
+            [
+              "Over 51.5",
+              "47%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 4.105,
+              "home": 8.463,
+              "awayText": "4.1",
+              "homeText": "8.5"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.105,
+              "home": 5.954,
+              "awayText": "1.1",
+              "homeText": "6.0"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.082,
+              "home": 1.0,
+              "awayText": "8%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856838": {
+      "title": "Iowa State @ No. 25 Arizona",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:30PM ET",
+      "away": {
+        "name": "Iowa State",
+        "note": "3\u20133 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "Arizona",
+        "note": "No. 25 \u00b7 5\u20131 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "14.5",
+        "home": "34.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.1203,
+        "home": 0.8797,
+        "note": "Fair odds: Iowa State +731, Arizona -731 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Iowa State 14.5 \u2013 Arizona 34.5: Arizona by 20.0. That makes Arizona 88% to win.",
+            "The market expects Arizona by 10.0, the model Arizona by 20.1. Against the spread it takes Arizona -10 (76% to cover, expected return +0.46 a unit) \u2014 a flagged play.",
+            "The market's total is 50.5 against the model's 49.0: the under (58%, expected return +0.10).",
+            "Market: 2 books, in agreement; the line has moved -0.25 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Arizona margin",
+              "+20.1",
+              "+10",
+              {
+                "v": "+10.1 \u2605",
+                "tone": "good"
+              }
+            ],
+            [
+              "Total",
+              "49.0",
+              "50.5",
+              "-1.5"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Iowa State to win",
+              "12%"
+            ],
+            [
+              "Arizona to win",
+              "88%"
+            ],
+            [
+              "\u2605 Arizona -10",
+              "76%"
+            ],
+            [
+              "Under 50.5",
+              "58%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 5.158,
+              "home": 8.65,
+              "awayText": "5.2",
+              "homeText": "8.7"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 3.158,
+              "home": 5.65,
+              "awayText": "3.2",
+              "homeText": "5.7"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.377,
+              "home": 0.998,
+              "awayText": "38%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401858275": {
+      "title": "Syracuse @ North Carolina",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 7:30PM ET",
+      "away": {
+        "name": "Syracuse",
+        "note": "2\u20134 \u00b7 ACC"
+      },
+      "home": {
+        "name": "North Carolina",
+        "note": "4\u20132 \u00b7 ACC"
+      },
+      "score": {
+        "away": "21.7",
+        "home": "31.0",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.2552,
+        "home": 0.7448,
+        "note": "Fair odds: Syracuse +292, North Carolina -292 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Syracuse 21.7 \u2013 North Carolina 31.0: North Carolina by 9.3. That makes North Carolina 74% to win.",
+            "The market expects North Carolina by 7.5, the model North Carolina by 9.4. Against the spread it takes North Carolina -7.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 46.75 against the model's 52.7: the over (60%, expected return +0.15) \u2014 a flagged play.",
+            "Market: 2 books, in agreement; the line has moved +1.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "North Carolina margin",
+              "+9.4",
+              "+7.5",
+              "+1.9"
+            ],
+            [
+              "Total",
+              "52.7",
+              "46.75",
+              {
+                "v": "+6.0 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Syracuse to win",
+              "26%"
+            ],
+            [
+              "North Carolina to win",
+              "74%"
+            ],
+            [
+              "North Carolina -7.5",
+              "52%"
+            ],
+            [
+              "\u2605 Over 46.75",
+              "60%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 3.963,
+              "home": 7.037,
+              "awayText": "4.0",
+              "homeText": "7.0"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 1.881,
+              "home": 4.369,
+              "awayText": "1.9",
+              "homeText": "4.4"
+            },
+            {
+              "label": "Bowl",
+              "away": 0.099,
+              "home": 0.899,
+              "awayText": "10%",
+              "homeText": "90%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401862811": {
+      "title": "UTSA @ Tulane",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 8:00PM ET",
+      "away": {
+        "name": "UTSA",
+        "note": "6\u20131 \u00b7 American Athletic"
+      },
+      "home": {
+        "name": "Tulane",
+        "note": "3\u20133 \u00b7 American Athletic"
+      },
+      "score": {
+        "away": "27.6",
+        "home": "25.5",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.5536,
+        "home": 0.4464,
+        "note": "Fair odds: UTSA -124, Tulane +124 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects UTSA 27.6 \u2013 Tulane 25.5: UTSA by 2.1. That makes UTSA 55% to win.",
+            "The market expects UTSA by 2.5, the model UTSA by 2.0. Against the spread it takes Tulane +2.5 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 51.5 against the model's 53.1: the over (49%, expected return -0.06).",
+            "Market: 2 books, in agreement; the line has moved -0.75 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Tulane margin",
+              "-2.0",
+              "-2.5",
+              "+0.5"
+            ],
+            [
+              "Total",
+              "53.1",
+              "51.5",
+              "+1.6"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "UTSA to win",
+              "55%"
+            ],
+            [
+              "Tulane to win",
+              "45%"
+            ],
+            [
+              "Tulane +2.5",
+              "52%"
+            ],
+            [
+              "Over 51.5",
+              "49%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.026,
+              "home": 6.242,
+              "awayText": "9.0",
+              "homeText": "6.2"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.026,
+              "home": 4.242,
+              "awayText": "6.0",
+              "homeText": "4.2"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.723,
+              "awayText": "100%",
+              "homeText": "72%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401864527": {
+      "title": "North Dakota State @ New Mexico",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 10:00PM ET",
+      "away": {
+        "name": "North Dakota State",
+        "note": "6\u20131 \u00b7 Mountain West"
+      },
+      "home": {
+        "name": "New Mexico",
+        "note": "5\u20131 \u00b7 Mountain West"
+      },
+      "score": {
+        "away": "22.8",
+        "home": "29.3",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.3051,
+        "home": 0.6949,
+        "note": "Fair odds: North Dakota State +228, New Mexico -228 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects North Dakota State 22.8 \u2013 New Mexico 29.3: New Mexico by 6.5. That makes New Mexico 69% to win.",
+            "The market expects New Mexico by 4.8, the model New Mexico by 6.6. Against the spread it takes New Mexico -4.75 (52% to cover, expected return -0.01 a unit).",
+            "The market's total is 41.25 against the model's 52.1: the over (71%, expected return +0.36) \u2014 a flagged play.",
+            "Market: 2 books, 0.25 points apart; the line has moved -1 since it opened."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "New Mexico margin",
+              "+6.6",
+              "+4.75",
+              "+1.8"
+            ],
+            [
+              "Total",
+              "52.1",
+              "41.25",
+              {
+                "v": "+10.8 \u2605",
+                "tone": "good"
+              }
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "North Dakota State to win",
+              "31%"
+            ],
+            [
+              "New Mexico to win",
+              "69%"
+            ],
+            [
+              "New Mexico -4.75",
+              "52%"
+            ],
+            [
+              "\u2605 Over 41.25",
+              "71%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.448,
+              "home": 9.273,
+              "awayText": "9.4",
+              "homeText": "9.3"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.448,
+              "home": 6.273,
+              "awayText": "6.4",
+              "homeText": "6.3"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 0.999,
+              "awayText": "100%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    },
+    "401856837": {
+      "title": "No. 14 Houston @ No. 10 Utah",
+      "subtitle": "Week 8 \u00b7 Sat 10/24 10:15PM ET",
+      "away": {
+        "name": "Houston",
+        "note": "No. 14 \u00b7 6\u20131 \u00b7 Big 12"
+      },
+      "home": {
+        "name": "Utah",
+        "note": "No. 10 \u00b7 6\u20130 \u00b7 Big 12"
+      },
+      "score": {
+        "away": "26.1",
+        "home": "30.8",
+        "label": "Projected score"
+      },
+      "win": {
+        "away": 0.3862,
+        "home": 0.6138,
+        "note": "Fair odds: Houston +159, Utah -159 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "The model projects Houston 26.1 \u2013 Utah 30.8: Utah by 4.7. That makes Utah 61% to win.",
+            "The market expects Utah by 6.5, the model Utah by 4.8. Against the spread it takes Houston +6.5 (55% to cover, expected return +0.06 a unit).",
+            "The market's total is 56.5 against the model's 56.9: the over (47%, expected return -0.11).",
+            "Market: 2 books, in agreement; the line hasn't moved."
+          ]
+        },
+        {
+          "title": "Model vs market",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market",
+            "Gap"
+          ],
+          "rows": [
+            [
+              "Utah margin",
+              "+4.8",
+              "+6.5",
+              "-1.8"
+            ],
+            [
+              "Total",
+              "56.9",
+              "56.5",
+              "+0.4"
+            ]
+          ],
+          "note": "Margins are the home side's: + means a home win by that many."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model"
+          ],
+          "rows": [
+            [
+              "Houston to win",
+              "39%"
+            ],
+            [
+              "Utah to win",
+              "61%"
+            ],
+            [
+              "Houston +6.5",
+              "55%"
+            ],
+            [
+              "Over 56.5",
+              "47%"
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. wins",
+              "away": 9.429,
+              "home": 9.894,
+              "awayText": "9.4",
+              "homeText": "9.9"
+            },
+            {
+              "label": "Conf. wins",
+              "away": 6.43,
+              "home": 6.894,
+              "awayText": "6.4",
+              "homeText": "6.9"
+            },
+            {
+              "label": "Bowl",
+              "away": 1.0,
+              "home": 1.0,
+              "awayText": "100%",
+              "homeText": "100%",
+              "max": 1
+            }
+          ],
+          "note": "From the season simulation of the remaining schedule."
+        }
+      ]
+    }
+  }
+}
