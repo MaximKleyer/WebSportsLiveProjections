@@ -55,8 +55,10 @@ also reads goalie names from the game-centre pages that model caches under
 `data/raw/`. The NBA's day files come from that model's own "NBA gameday"
 scheduled task (it predicts on the model's clock through each game day), so
 for the NBA the app and `-Predict` only refresh the season sim and power
-rankings; its adapter publishes only the live model version's predictions
-(the one `outputs/model_state.json` was fitted for).
+rankings; its adapter publishes each game's prediction as the model logged it
+live (its latest stored on game day before tip-off, by whichever model
+version), so a model change keeps the earlier days while a rehearsal's
+leftover day files stay off the site.
 
 ## Adding a model
 

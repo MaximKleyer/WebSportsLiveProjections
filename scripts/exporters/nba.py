@@ -15,10 +15,12 @@ Reads the model's outputs/ - plus, for final scores and settled bets, its databa
                     graded, one slate per day   model's database (data/nba.sqlite, read-only)
     card.json       the landing card's line
 
-Only the live model version's predictions are published - the version outputs/model_state.json
-was fitted for - so day files a rehearsal left behind with an earlier version stay off the site.
-Before the first predicted day the games and results views are published empty (the site says
-nothing is published yet).
+A day's games are published, and graded, with the predictions the model logged live: each game's
+latest prediction stored in its database on game day before tip-off, by whichever model version
+made it - so earlier days stay through a model change, while day files a rehearsal left behind
+(predicted days ahead) stay off the site. The early look and the backtest benchmark are the live
+version's (the one outputs/model_state.json was fitted for). Before the first predicted day the
+games and results views are published empty (the site says nothing is published yet).
 
 The model's "NBA gameday" scheduled task writes the day files while games are on, rewriting them
 in place, so a file caught mid-write is read again.
@@ -36,6 +38,7 @@ import re
 import sqlite3
 import sys
 import time
+from collections import Counter
 from datetime import date, datetime
 from itertools import groupby
 from pathlib import Path
@@ -154,11 +157,33 @@ def read_csv_stable(path: Path, tries: int = 5) -> pd.DataFrame:
 
 
 def live_version(model: Path) -> str | None:
-    """The model version outputs/model_state.json was fitted for: the one the site publishes."""
+    """The model version outputs/model_state.json was fitted for: the live one, whose early look and
+    backtest the site shows."""
     try:
         return json.loads((model / "outputs" / "model_state.json").read_text(encoding="utf-8"))["model_version"]
     except (OSError, ValueError, KeyError):
         return None
+
+
+def logged_live(model: Path, days: list[str]) -> dict[str, tuple[str, str]]:
+    """game_id -> (its day, the model version of its live prediction) for these days' games: the
+    latest prediction the model logged for the game (data/nba.sqlite's append-only predictions,
+    opened read-only) on its game day (US/Eastern, as the model dates games) before tip-off,
+    whichever version made it. A rehearsal's, logged days ahead, doesn't count."""
+    path = model / "data" / "nba.sqlite"
+    if not days or not path.exists():
+        return {}
+    con = sqlite3.connect(f"{path.as_uri()}?mode=ro", uri=True, timeout=30)
+    try:
+        rows = con.execute(
+            "SELECT p.game_id, g.date, p.created_ts, p.model_version FROM games g JOIN predictions p USING (game_id) "
+            f"WHERE g.date IN ({', '.join('?' * len(days))}) AND p.created_ts < g.start_ts "
+            "ORDER BY p.created_ts, p.pred_id", days).fetchall()
+    finally:
+        con.close()
+    # Oldest first, so each game's latest prediction on its day is the one left.
+    return {game: (day, version) for game, day, created, version in rows
+            if datetime.fromisoformat(created).astimezone(EASTERN).date().isoformat() == day}
 
 
 # --------------------------------------------------------------------------
@@ -561,10 +586,10 @@ COIN_FLIP = {"log_loss": math.log(2), "brier": 0.25}
 BET_RESULT = {"win": "W", "loss": "L", "push": "P"}
 
 
-def read_db(model: Path, season: int, version: str | None) -> tuple[dict, dict, str | None]:
+def read_db(model: Path, season: int, live: dict[str, tuple[str, str]]) -> tuple[dict, dict, str | None]:
     """From the model's database (opened read-only): game_id -> (away pts, home pts, OT periods)
-    for the season's finished games, game_id -> this version's settled bets, and the season's
-    opening night."""
+    for the season's finished games, game_id -> the settled bets of the version that logged its
+    live prediction (`logged_live`), and the season's opening night."""
     path = model / "data" / "nba.sqlite"
     if not path.exists():
         return {}, {}, None
@@ -576,10 +601,11 @@ def read_db(model: Path, season: int, version: str | None) -> tuple[dict, dict, 
             "WHERE season = ? AND home_pts IS NOT NULL AND away_pts IS NOT NULL", (season,))}
         bets: dict[str, list[dict]] = {}
         for r in con.execute(
-                "SELECT p.game_id, b.market, b.side, b.line, b.price, b.stake, b.result, b.clv FROM bets b "
-                "JOIN predictions p ON p.pred_id = b.pred_id WHERE p.model_version = ? AND b.result IS NOT NULL",
-                (version,)):
-            bets.setdefault(r["game_id"], []).append(dict(r))
+                "SELECT p.game_id, p.model_version, b.market, b.side, b.line, b.price, b.stake, b.result, b.clv "
+                "FROM bets b JOIN predictions p ON p.pred_id = b.pred_id JOIN games g ON g.game_id = p.game_id "
+                "WHERE g.season = ? AND b.result IS NOT NULL", (season,)):
+            if live.get(r["game_id"], (None, None))[1] == r["model_version"]:
+                bets.setdefault(r["game_id"], []).append(dict(r))
         (opening,) = con.execute("SELECT min(date) FROM games WHERE season = ? AND game_type = 'reg'",
                                  (season,)).fetchone()
     finally:
@@ -616,6 +642,7 @@ def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
             games.append({
                 "day": day,
                 "order": text(d.get("start_ts")) or "",
+                "version": text(d.get("model_version")),
                 "away": away, "home": home,
                 "away_pts": away_pts, "home_pts": home_pts,
                 "ot": int(ot or 0),
@@ -706,8 +733,9 @@ def _backtest(model: Path, version: str | None) -> dict | None:
         return None
     m = re.search(r"^\| model \| ([\d,]+) \| ([\d.]+) \| ([\d.]+) \| ([\d.]+) \| [\d.]+ \| ([\d.]+) \| ([\d.]+) \|",
                   report, re.M)
-    return None if not m else {"games": int(m[1].replace(",", "")), "log_loss": float(m[2]), "brier": float(m[3]),
-                               "accuracy": float(m[4]), "margin_mae": float(m[5]), "total_mae": float(m[6])}
+    return None if not m else {"version": version, "games": int(m[1].replace(",", "")), "log_loss": float(m[2]),
+                               "brier": float(m[3]), "accuracy": float(m[4]), "margin_mae": float(m[5]),
+                               "total_mae": float(m[6])}
 
 
 def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: str,
@@ -740,8 +768,12 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
                           None if roi is None else f"ROI {roi:+.1%}",
                           None if clv is None else f"CLV {clv:+.1%}") if x) or "—",
                       **({"tone": "good" if roi > 0 else "bad"} if roi else {})})
+    # Each game keeps the version that logged it live: after a model change the record spans several.
+    versions = Counter(g["version"] for g in games)
+    made_by = (f"model {next(iter(versions))}" if len(versions) == 1 else
+               "models " + ", ".join(f"{v} ({n} games)" for v, n in versions.items()))
     bt = "" if not backtest else (
-        f" Walk-forward backtest of this model version ({backtest['games']:,} games): "
+        f" Walk-forward backtest of the current version, {backtest['version']} ({backtest['games']:,} games): "
         f"{backtest['accuracy']:.1%} straight up, log loss {backtest['log_loss']:.3f}, Brier "
         f"{backtest['brier']:.3f}, margin MAE {backtest['margin_mae']:.1f}, total MAE {backtest['total_mae']:.1f}.")
     summary = {
@@ -751,7 +783,8 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
                 "else the away side; log loss and Brier score the win probability (lower is better); "
                 "margin and total MAE compare the expected scores with the final (overtime included). "
                 "Against the market, the published spread and total are graded as the side the model "
-                "gives over 50%. Preseason games are left out." + bt,
+                "gives over 50%. Preseason games are left out. Each game is graded on the prediction "
+                f"logged before tip-off on game day, by {made_by}." + bt,
     }
 
     any_bets = any(g["bets"] for g in games)
@@ -841,17 +874,23 @@ def main() -> int:
     outputs = args.model / "outputs"
     version = live_version(args.model)
 
+    # The day files (not a rehearsal's <date>_dry_predictions.csv), each keeping the games whose row is
+    # the prediction logged live, by whichever version: a rehearsal's rows from days ahead stay off.
+    daily = {m.group("day"): path for path in sorted((outputs / "daily").glob("*_predictions.csv"))
+             if (m := DAILY.match(path.name))}
+    live = logged_live(args.model, list(daily))
     frames: dict[str, pd.DataFrame] = {}
     paths: dict[str, Path] = {}
-    for path in sorted((outputs / "daily").glob("*_predictions.csv")):
-        m = DAILY.match(path.name)
-        if not m:
-            continue  # a rehearsal's <date>_dry_predictions.csv
+    left_out = []
+    for day, path in daily.items():
         df = read_csv_stable(path)
-        if version is not None and "model_version" in df:
-            df = df[df["model_version"] == version]
-        if len(df):
-            frames[m.group("day")], paths[m.group("day")] = df, path
+        versions = df.get("model_version", pd.Series(None, index=df.index))
+        logged = pd.Series([live.get(g) == (day, v) for g, v in zip(df["game_id"], versions)], index=df.index, dtype=bool)
+        if not logged.all():
+            left_out.append(f"  [skip] {path.name}: {(~logged).sum()} of {len(df)} rows not logged live "
+                            "(on game day, before tip-off)")
+        if logged.any():
+            frames[day], paths[day] = df[logged], path
     seasons = {day: _season_of(df["game_id"].iloc[0]) for day, df in frames.items()}
     sims = [int(m.group("season")) for p in (outputs / "sims").glob("season_*.csv") if (m := SIM.match(p.name))]
     season = max(seasons.values(), default=max(sims, default=date.today().year))
@@ -872,8 +911,10 @@ def main() -> int:
     ahead = [day for day in days if day >= today]
     opens = args.day if args.day in days else (ahead[0] if ahead else (days[-1] if days else None))
 
-    print(f"Exporting NBA {_season_label(season)} (model {version or 'unknown'}"
+    print(f"Exporting NBA {_season_label(season)} (live model {version or 'unknown'}"
           f"{f', opens on {opens}' if opens else ', no day predicted yet'})\n  from: {outputs}\n  to:   {args.site_dir}")
+    for line in left_out:
+        print(line)
     power_by_team = _by_team(outputs / "power_rankings.csv", "abbrev")
     sim_by_team = _by_team(newest_sim(outputs, season), "team")
     slates = []
@@ -912,7 +953,7 @@ def main() -> int:
     else:
         print(f"  [skip] no {power.name}")
 
-    finals, bets, opening = read_db(args.model, season, version)
+    finals, bets, opening = read_db(args.model, season, live)
     graded = graded_games(frames, publish, finals, bets)
     record = None
     if graded:

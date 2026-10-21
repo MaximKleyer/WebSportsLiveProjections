@@ -23,18 +23,20 @@ import argparse
 import csv
 import io
 import json
+import sqlite3
 import subprocess
 from datetime import timedelta
 from pathlib import Path
 
 import pandas as pd
 
-from _common import (Freeze, History, Plan, ago, cli, et_day, file_time, finish, model_entry, run, span, to_utc,
+from _common import (ET, Freeze, History, Plan, ago, cli, et_day, file_time, finish, model_entry, run, span, to_utc,
                      utcnow, written_since)
 
 MODEL = model_entry("nba")
 FOLDER = MODEL["folder"]
 NBA = MODEL["python"].with_name("nba.exe")
+DB = FOLDER / "data" / "nba.sqlite"  # read-only: which predictions were logged live
 OUT = FOLDER / "outputs"
 DAILY = OUT / "daily"
 POWER = OUT / "power_rankings.csv"
@@ -53,19 +55,31 @@ def newest_sim() -> Path | None:
 
 
 def latest_day() -> str | None:
-    """The newest day the live model version predicted (outputs/model_state.json's version), as
-    the exporter publishes it - a rehearsal's leftover day files from an older version don't count."""
+    """The newest day the exporter publishes: one whose day file has a game's prediction as the model
+    logged it live - its latest stored on game day before tip-off, by whichever version made it
+    (`logged_live` in scripts/exporters/nba.py). A rehearsal's leftover day files, predicted days
+    ahead, don't count."""
+    files = {p.name[:10]: p for p in DAILY.glob("????-??-??_predictions.csv")}
+    if not files or not DB.exists():
+        return None
+    con = sqlite3.connect(f"{DB.as_uri()}?mode=ro", uri=True, timeout=30)
     try:
-        version = json.loads((OUT / "model_state.json").read_text(encoding="utf-8"))["model_version"]
-    except (OSError, ValueError, KeyError):
-        version = None
-    for path in sorted(DAILY.glob("????-??-??_predictions.csv"), reverse=True):
+        rows = con.execute(
+            "SELECT p.game_id, g.date, p.created_ts, p.model_version FROM games g JOIN predictions p USING (game_id) "
+            f"WHERE g.date IN ({', '.join('?' * len(files))}) AND p.created_ts < g.start_ts "
+            "ORDER BY p.created_ts, p.pred_id", list(files)).fetchall()
+    finally:
+        con.close()
+    # Oldest first, so each game's latest prediction on its day is the one left.
+    live = {game: (day, version) for game, day, created, version in rows
+            if to_utc(created).astimezone(ET).date().isoformat() == day}
+    for day in sorted(files, reverse=True):
         try:
-            versions = pd.read_csv(path, usecols=["model_version"])["model_version"]
+            df = pd.read_csv(files[day], usecols=["game_id", "model_version"], dtype={"game_id": str})
         except (OSError, ValueError, pd.errors.ParserError):
             continue  # being rewritten by the gameday task this moment
-        if version is None or (versions == version).any():
-            return path.name[:10]
+        if any(live.get(g) == (day, v) for g, v in zip(df["game_id"], df["model_version"])):
+            return day
     return None
 
 
