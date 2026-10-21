@@ -193,7 +193,7 @@ def _early_note(df: pd.DataFrame) -> str:
     """What an early look is, as of its run: 'early look as of 2:10 PM ET Tue: ...'."""
     at = pd.to_datetime(df["as_of"], utc=True).max().tz_convert(EASTERN)
     return (f"EARLY LOOK as of {at.hour % 12 or 12}:{at.minute:02d} {'AM' if at.hour < 12 else 'PM'} ET {at:%a}: before"
-            " game-day injury news and without bets; the gameday task's run replaces it 75 minutes before the first tip")
+            " game-day injury news and without bets; the gameday task's morning run replaces it")
 
 
 def build_day(df: pd.DataFrame, bets: pd.DataFrame, day: str, season: int, updated: str, early: bool = False) -> dict:

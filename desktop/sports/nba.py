@@ -7,8 +7,8 @@ Runs with the NBA model's venv Python:
   python desktop/sports/nba.py step early      # the early look at the coming week (scripts/early.py)
 
 The day's predictions belong to the model's own "NBA gameday" scheduled task: it runs from the
-morning of each game day until the last tip-off, predicting on the model's clock (75 minutes
-before the first tip, again 40 minutes before each later one, closing lines just before tip-off).
+morning of each game day until the last tip-off, predicting on the model's clock (as soon as it
+starts at 9 am, again 40 minutes before each tip, closing lines just before tip-off).
 The model has no lock against a second run, so the app never runs `nba daily` or `nba gameday`;
 it exports what the task wrote and keeps the season simulation and power rankings fresh. The
 early look predicts the coming week's games for the site with the daily run's own code in its
