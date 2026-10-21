@@ -14,26 +14,26 @@
         "note": "1\u20130"
       },
       "score": {
-        "away": "118.1",
-        "home": "116.6",
+        "away": "118.2",
+        "home": "116.8",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.542,
-        "home": 0.458,
-        "note": "Fair odds: CLE -118, PHI +118 (no margin)."
+        "away": 0.5477,
+        "home": 0.4523,
+        "note": "Fair odds: CLE -121, PHI +121 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects CLE 118.1 \u2013 PHI 116.6: CLE by 1.4, 234.7 points in all. That makes CLE 54% to win.",
+            "The model expects CLE 118.2 \u2013 PHI 116.8: CLE by 1.4, 235.0 points in all. That makes CLE 55% to win.",
             "Pace: CLE plays about 102.7 possessions a game against an average team, PHI 102.7.",
             "CLE's offense is +3.2 points per 100 possessions against an average team, meeting PHI's defense at +0.6; PHI's offense +1.0 meets CLE's defense at +0.7 (+ is better than average).",
             "The market has PHI -2.5; the model's line is CLE -1.4, so it gives CLE +2.5 60% to cover.",
-            "The market's total is 235.5 against the model's 234.7: the under, 53%.",
-            "The market (margin removed) gives PHI 55% to win; the model 46%."
+            "The market's total is 234.5 against the model's 235.0: the over, 50%.",
+            "The market (margin removed) gives PHI 55% to win; the model 45%."
           ]
         },
         {
@@ -107,12 +107,12 @@
           "rows": [
             [
               "CLE to win",
-              "54%",
+              "55%",
               "45%"
             ],
             [
               "PHI to win",
-              "46%",
+              "45%",
               "55%"
             ],
             [
@@ -126,13 +126,13 @@
               "\u2014"
             ],
             [
-              "Over 235.5",
-              "47%",
+              "Over 234.5",
+              "50%",
               "\u2014"
             ],
             [
-              "Under 235.5",
-              "53%",
+              "Under 234.5",
+              "50%",
               "\u2014"
             ]
           ],
@@ -144,24 +144,24 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 50.9762,
-              "home": 45.7184,
+              "away": 51.0301,
+              "home": 45.7974,
               "awayText": "51",
               "homeText": "46"
             },
             {
               "label": "Playoffs",
-              "away": 0.9162,
-              "home": 0.7795,
+              "away": 0.9209,
+              "home": 0.7825,
               "awayText": "92%",
               "homeText": "78%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0977,
-              "home": 0.0278,
-              "awayText": "10%",
+              "away": 0.0939,
+              "home": 0.0264,
+              "awayText": "9%",
               "homeText": "3%"
             }
           ],
@@ -183,26 +183,26 @@
         "note": "1\u20130"
       },
       "score": {
-        "away": "115.5",
+        "away": "115.4",
         "home": "120.1",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.3461,
-        "home": 0.6539,
-        "note": "Fair odds: DEN +189, OKC -189 (no margin)."
+        "away": 0.3447,
+        "home": 0.6553,
+        "note": "Fair odds: DEN +190, OKC -190 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects DEN 115.5 \u2013 OKC 120.1: OKC by 4.7, 235.6 points in all. That makes OKC 65% to win.",
+            "The model expects DEN 115.4 \u2013 OKC 120.1: OKC by 4.7, 235.5 points in all. That makes OKC 66% to win.",
             "Pace: DEN plays about 101.8 possessions a game against an average team, OKC 102.6.",
             "DEN's offense is +6.2 points per 100 possessions against an average team, meeting OKC's defense at +4.2; OKC's offense +2.7 meets DEN's defense at -1.5 (+ is better than average).",
             "The market has OKC -7.5; the model's line is OKC -4.7, so it gives DEN +7.5 58% to cover.",
-            "The market's total is 235.5 against the model's 235.6: the under, 51%.",
-            "The market (margin removed) gives OKC 72% to win; the model 65%."
+            "The market's total is 235.5 against the model's 235.5: the under, 51%.",
+            "The market (margin removed) gives OKC 72% to win; the model 66%."
           ]
         },
         {
@@ -276,12 +276,12 @@
           "rows": [
             [
               "DEN to win",
-              "35%",
+              "34%",
               "28%"
             ],
             [
               "OKC to win",
-              "65%",
+              "66%",
               "72%"
             ],
             [
@@ -313,25 +313,25 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 52.7826,
-              "home": 58.101,
+              "away": 52.9834,
+              "home": 58.1481,
               "awayText": "53",
               "homeText": "58"
             },
             {
               "label": "Playoffs",
-              "away": 0.9352,
-              "home": 0.9836,
+              "away": 0.9396,
+              "home": 0.9832,
               "awayText": "94%",
               "homeText": "98%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.1019,
-              "home": 0.2462,
+              "away": 0.1028,
+              "home": 0.2423,
               "awayText": "10%",
-              "homeText": "25%"
+              "homeText": "24%"
             }
           ],
           "note": "From the season forecast: the rest of the season played out 10,000 times."

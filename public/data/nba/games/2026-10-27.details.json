@@ -14,21 +14,21 @@
         "note": "0\u20131"
       },
       "score": {
-        "away": "104.0",
-        "home": "118.0",
+        "away": "103.8",
+        "home": "117.9",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.1155,
-        "home": 0.8845,
-        "note": "Fair odds: BKN +766, BOS -766 (no margin)."
+        "away": 0.117,
+        "home": 0.883,
+        "note": "Fair odds: BKN +755, BOS -755 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects BKN 104.0 \u2013 BOS 118.0: BOS by 14.0, 222.0 points in all. That makes BOS 88% to win.",
+            "The model expects BKN 103.8 \u2013 BOS 117.9: BOS by 14.1, 221.7 points in all. That makes BOS 88% to win.",
             "Pace: BKN plays about 101.2 possessions a game against an average team, BOS 100.6.",
             "BKN's offense is -4.0 points per 100 possessions against an average team, meeting BOS's defense at +1.9; BOS's offense +2.6 meets BKN's defense at -2.0 (+ is better than average)."
           ]
@@ -121,23 +121,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 25.5271,
-              "home": 51.4606,
-              "awayText": "26",
+              "away": 25.4934,
+              "home": 51.3427,
+              "awayText": "25",
               "homeText": "51"
             },
             {
               "label": "Playoffs",
-              "away": 0.0241,
-              "home": 0.9372,
-              "awayText": "2%",
+              "away": 0.0273,
+              "home": 0.9379,
+              "awayText": "3%",
               "homeText": "94%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0,
-              "home": 0.1085,
+              "away": 0.0002,
+              "home": 0.108,
               "awayText": "0%",
               "homeText": "11%"
             }
@@ -160,13 +160,13 @@
         "note": "0\u20131"
       },
       "score": {
-        "away": "114.8",
+        "away": "114.7",
         "home": "115.0",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4912,
-        "home": 0.5088,
+        "away": 0.4893,
+        "home": 0.5107,
         "note": "Fair odds: DET +104, NYK -104 (no margin)."
       },
       "sections": [
@@ -174,7 +174,7 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects DET 114.8 \u2013 NYK 115.0: NYK by 0.2, 229.9 points in all. That makes NYK 51% to win.",
+            "The model expects DET 114.7 \u2013 NYK 115.0: NYK by 0.2, 229.7 points in all. That makes NYK 51% to win.",
             "Pace: DET plays about 102.2 possessions a game against an average team, NYK 101.7.",
             "DET's offense is +1.2 points per 100 possessions against an average team, meeting NYK's defense at -0.0; NYK's offense +0.9 meets DET's defense at +0.7 (+ is better than average)."
           ]
@@ -306,25 +306,25 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 46.5215,
-              "home": 42.4141,
+              "away": 46.5459,
+              "home": 42.4198,
               "awayText": "47",
               "homeText": "42"
             },
             {
               "label": "Playoffs",
-              "away": 0.8066,
-              "home": 0.6366,
+              "away": 0.812,
+              "home": 0.6346,
               "awayText": "81%",
-              "homeText": "64%",
+              "homeText": "63%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0279,
-              "home": 0.0142,
+              "away": 0.0298,
+              "home": 0.015,
               "awayText": "3%",
-              "homeText": "1%"
+              "homeText": "2%"
             }
           ],
           "note": "From the season forecast: the rest of the season played out 10,000 times."
@@ -345,21 +345,21 @@
         "note": "0\u20131"
       },
       "score": {
-        "away": "105.7",
+        "away": "105.9",
         "home": "121.8",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.0838,
-        "home": 0.9162,
-        "note": "Fair odds: SAC +1093, SAS -1093 (no margin)."
+        "away": 0.092,
+        "home": 0.908,
+        "note": "Fair odds: SAC +987, SAS -987 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects SAC 105.7 \u2013 SAS 121.8: SAS by 16.0, 227.5 points in all. That makes SAS 92% to win.",
+            "The model expects SAC 105.9 \u2013 SAS 121.8: SAS by 15.8, 227.7 points in all. That makes SAS 91% to win.",
             "Pace: SAC plays about 102.4 possessions a game against an average team, SAS 102.8.",
             "SAC's offense is -4.4 points per 100 possessions against an average team, meeting SAS's defense at +2.3; SAS's offense +1.1 meets SAC's defense at -2.7 (+ is better than average)."
           ]
@@ -435,12 +435,12 @@
           "rows": [
             [
               "SAC to win",
-              "8%",
+              "9%",
               "\u2014"
             ],
             [
               "SAS to win",
-              "92%",
+              "91%",
               "\u2014"
             ]
           ],
@@ -452,15 +452,15 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 23.4952,
-              "home": 49.698,
-              "awayText": "23",
+              "away": 23.5696,
+              "home": 49.6831,
+              "awayText": "24",
               "homeText": "50"
             },
             {
               "label": "Playoffs",
-              "away": 0.0122,
-              "home": 0.8909,
+              "away": 0.0119,
+              "home": 0.889,
               "awayText": "1%",
               "homeText": "89%",
               "max": 1
@@ -468,7 +468,7 @@
             {
               "label": "Title",
               "away": 0.0,
-              "home": 0.048,
+              "home": 0.0491,
               "awayText": "0%",
               "homeText": "5%"
             }
@@ -492,20 +492,20 @@
       },
       "score": {
         "away": "114.9",
-        "home": "121.9",
+        "home": "122.0",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.2725,
-        "home": 0.7275,
-        "note": "Fair odds: POR +267, LAL -267 (no margin)."
+        "away": 0.2747,
+        "home": 0.7253,
+        "note": "Fair odds: POR +264, LAL -264 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects POR 114.9 \u2013 LAL 121.9: LAL by 7.0, 236.8 points in all. That makes LAL 73% to win.",
+            "The model expects POR 114.9 \u2013 LAL 122.0: LAL by 7.1, 236.8 points in all. That makes LAL 73% to win.",
             "Pace: POR plays about 103.3 possessions a game against an average team, LAL 101.8.",
             "POR's offense is +1.4 points per 100 possessions against an average team, meeting LAL's defense at +0.7; LAL's offense +4.5 meets POR's defense at -0.6 (+ is better than average).",
             "No games played yet: each team's rating is its players' ratings times their projected minutes."
@@ -599,23 +599,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 42.7389,
-              "home": 53.3149,
+              "away": 42.5649,
+              "home": 53.35,
               "awayText": "43",
               "homeText": "53"
             },
             {
               "label": "Playoffs",
-              "away": 0.6324,
-              "home": 0.9466,
-              "awayText": "63%",
+              "away": 0.6202,
+              "home": 0.9486,
+              "awayText": "62%",
               "homeText": "95%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0116,
-              "home": 0.1191,
+              "away": 0.012,
+              "home": 0.1209,
               "awayText": "1%",
               "homeText": "12%"
             }

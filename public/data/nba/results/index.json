@@ -40,9 +40,15 @@
         "value": "3\u20130",
         "detail": "100.0%",
         "tone": "good"
+      },
+      {
+        "label": "\u2605 Bets",
+        "value": "7\u20132",
+        "detail": "ROI +61.0% \u00b7 CLV +5.3%",
+        "tone": "good"
       }
     ],
-    "note": "Graded the way the model grades itself: straight up is the home side at 50% or more, else the away side; log loss and Brier score the win probability (lower is better); margin and total MAE compare the expected scores with the final (overtime included). Against the market, the published spread and total are graded as the side the model gives over 50%. Preseason games are left out. Each game is graded on the prediction logged before tip-off on game day, by model 1e7128e-fe96a820. Walk-forward backtest of the current version, 2e760f0-cd9237e0 (11,979 games): 66.6% straight up, log loss 0.611, Brier 0.211, margin MAE 10.5, total MAE 14.7."
+    "note": "Graded the way the model grades itself: straight up is the home side at 50% or more, else the away side; log loss and Brier score the win probability (lower is better); margin and total MAE compare the expected scores with the final (overtime included). Against the market, the published spread and total are graded as the side the model gives over 50%. Preseason games are left out. Each game is graded on the prediction logged before tip-off on game day, by model 1e7128e-fe96a820. Walk-forward backtest of the current version, f25f75b-fe23aa19 (11,979 games): 66.6% straight up, log loss 0.611, Brier 0.211, margin MAE 10.5, total MAE 14.7."
   },
   "slates": [
     {

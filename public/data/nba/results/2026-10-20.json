@@ -2,6 +2,12 @@
   "subtitle": "Tue Oct 20, 2026\u201327 \u2014 3 games \u00b7 straight up 2\u20131 \u00b7 log loss 0.653 \u00b7 margin MAE 8.0 \u00b7 margins are the home side's",
   "updated": "2026-10-21",
   "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
   "columns": [
     {
       "key": "awayTeam",
@@ -62,6 +68,12 @@
       "label": "vs Total",
       "align": "right",
       "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
@@ -95,7 +107,12 @@
         "tone": "good",
         "sort": 1
       },
-      "flagged": false
+      "bet": {
+        "v": "\u2605 BOS +2.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
     },
     {
       "awayTeam": "PHI",
@@ -127,7 +144,12 @@
         "tone": "good",
         "sort": 1
       },
-      "flagged": false
+      "bet": {
+        "v": "\u2605 PHI +5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     },
     {
       "awayTeam": "OKC",
@@ -159,7 +181,12 @@
         "tone": "good",
         "sort": 1
       },
-      "flagged": false
+      "bet": {
+        "v": "\u2605 OKC +2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
     }
   ]
 }

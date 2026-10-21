@@ -47,6 +47,12 @@
       "label": "vs Total",
       "align": "right",
       "sortable": true
+    },
+    {
+      "key": "bets",
+      "label": "\u2605 Bets",
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
@@ -83,6 +89,11 @@
       "ou": {
         "v": "3\u20130 (100%)",
         "sort": 1.0,
+        "tone": "good"
+      },
+      "bets": {
+        "v": "7\u20132 (78%)",
+        "sort": 0.7778,
         "tone": "good"
       }
     }
