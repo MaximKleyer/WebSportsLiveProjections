@@ -1,6 +1,6 @@
 {
-  "subtitle": "2026\u201327 projected standings as of Wed Oct 21 \u2014 season simulation: win totals, seeds, play-in and playoff odds (top 6 go straight to the playoffs; 7\u201310 play in)",
-  "updated": "2026-10-21",
+  "subtitle": "2026\u201327 projected standings as of Fri Oct 23 \u2014 season simulation: win totals, seeds, play-in and playoff odds (top 6 go straight to the playoffs; 7\u201310 play in)",
+  "updated": "2026-10-23",
   "groupBy": "conference",
   "search": "Search teams",
   "columns": [
@@ -87,18 +87,18 @@
       "conference": "Eastern Conference",
       "record": "0\u20131",
       "projRecord": {
-        "v": "51\u201331",
-        "sort": 51.34
+        "v": "52\u201330",
+        "sort": 51.66
       },
-      "wins": 51.3,
-      "range": "42\u201360",
-      "seed": 3.6,
-      "top6": 0.8519,
-      "playIn": 0.1289,
-      "playoffs": 0.9379,
-      "confFinals": 0.4091,
-      "finals": 0.244,
-      "title": 0.108
+      "wins": 51.7,
+      "range": "42\u201361",
+      "seed": 3.5,
+      "top6": 0.8648,
+      "playIn": 0.1136,
+      "playoffs": 0.9382,
+      "confFinals": 0.4222,
+      "finals": 0.257,
+      "title": 0.1133
     },
     {
       "team": "Cleveland Cavaliers",
@@ -106,53 +106,53 @@
       "record": "0\u20130",
       "projRecord": {
         "v": "51\u201331",
-        "sort": 51.03
+        "sort": 50.79
       },
-      "wins": 51.0,
+      "wins": 50.8,
       "range": "41\u201360",
       "seed": 3.8,
-      "top6": 0.8332,
-      "playIn": 0.138,
-      "playoffs": 0.9209,
-      "confFinals": 0.3678,
-      "finals": 0.2139,
-      "title": 0.0939
+      "top6": 0.831,
+      "playIn": 0.1386,
+      "playoffs": 0.9197,
+      "confFinals": 0.3646,
+      "finals": 0.207,
+      "title": 0.0839
     },
     {
       "team": "Toronto Raptors",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
-        "v": "49\u201333",
-        "sort": 49.22
+        "v": "50\u201332",
+        "sort": 49.93
       },
-      "wins": 49.2,
-      "range": "39\u201358",
-      "seed": 4.4,
-      "top6": 0.7691,
-      "playIn": 0.1874,
-      "playoffs": 0.8864,
-      "confFinals": 0.3077,
-      "finals": 0.1643,
-      "title": 0.0661
+      "wins": 49.9,
+      "range": "40\u201359",
+      "seed": 4.1,
+      "top6": 0.8037,
+      "playIn": 0.1627,
+      "playoffs": 0.9062,
+      "confFinals": 0.3335,
+      "finals": 0.1783,
+      "title": 0.0704
     },
     {
       "team": "Detroit Pistons",
       "conference": "Eastern Conference",
       "record": "1\u20130",
       "projRecord": {
-        "v": "47\u201335",
-        "sort": 46.55
+        "v": "46\u201336",
+        "sort": 45.98
       },
-      "wins": 46.5,
-      "range": "37\u201356",
-      "seed": 5.5,
-      "top6": 0.6496,
-      "playIn": 0.2716,
-      "playoffs": 0.812,
-      "confFinals": 0.195,
-      "finals": 0.0872,
-      "title": 0.0298
+      "wins": 46.0,
+      "range": "36\u201356",
+      "seed": 5.7,
+      "top6": 0.6305,
+      "playIn": 0.2753,
+      "playoffs": 0.792,
+      "confFinals": 0.1854,
+      "finals": 0.0832,
+      "title": 0.0257
     },
     {
       "team": "Philadelphia 76ers",
@@ -160,53 +160,53 @@
       "record": "1\u20130",
       "projRecord": {
         "v": "46\u201336",
-        "sort": 45.8
+        "sort": 45.84
       },
       "wins": 45.8,
       "range": "36\u201355",
-      "seed": 5.8,
-      "top6": 0.6185,
-      "playIn": 0.2868,
-      "playoffs": 0.7825,
-      "confFinals": 0.1744,
-      "finals": 0.0774,
+      "seed": 5.7,
+      "top6": 0.625,
+      "playIn": 0.2781,
+      "playoffs": 0.781,
+      "confFinals": 0.183,
+      "finals": 0.082,
       "title": 0.0264
-    },
-    {
-      "team": "Orlando Magic",
-      "conference": "Eastern Conference",
-      "record": "0\u20130",
-      "projRecord": {
-        "v": "44\u201338",
-        "sort": 44.04
-      },
-      "wins": 44.0,
-      "range": "35\u201354",
-      "seed": 6.5,
-      "top6": 0.511,
-      "playIn": 0.3494,
-      "playoffs": 0.7056,
-      "confFinals": 0.1396,
-      "finals": 0.0572,
-      "title": 0.0175
     },
     {
       "team": "Charlotte Hornets",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
+      "projRecord": {
+        "v": "44\u201338",
+        "sort": 43.58
+      },
+      "wins": 43.6,
+      "range": "34\u201353",
+      "seed": 6.7,
+      "top6": 0.4985,
+      "playIn": 0.3464,
+      "playoffs": 0.6781,
+      "confFinals": 0.1241,
+      "finals": 0.0496,
+      "title": 0.0132
+    },
+    {
+      "team": "Orlando Magic",
+      "conference": "Eastern Conference",
+      "record": "0\u20131",
       "projRecord": {
         "v": "43\u201339",
-        "sort": 43.08
+        "sort": 42.62
       },
-      "wins": 43.1,
-      "range": "34\u201353",
-      "seed": 7.0,
-      "top6": 0.468,
-      "playIn": 0.3666,
-      "playoffs": 0.6587,
-      "confFinals": 0.1187,
-      "finals": 0.0484,
-      "title": 0.0143
+      "wins": 42.6,
+      "range": "33\u201352",
+      "seed": 7.1,
+      "top6": 0.4464,
+      "playIn": 0.3734,
+      "playoffs": 0.6454,
+      "confFinals": 0.1148,
+      "finals": 0.0432,
+      "title": 0.0136
     },
     {
       "team": "New York Knicks",
@@ -214,143 +214,143 @@
       "record": "0\u20131",
       "projRecord": {
         "v": "42\u201340",
-        "sort": 42.42
+        "sort": 41.76
       },
-      "wins": 42.4,
-      "range": "33\u201352",
-      "seed": 7.3,
-      "top6": 0.4267,
-      "playIn": 0.3864,
-      "playoffs": 0.6346,
-      "confFinals": 0.1161,
-      "finals": 0.0496,
-      "title": 0.015
+      "wins": 41.8,
+      "range": "32\u201351",
+      "seed": 7.5,
+      "top6": 0.3919,
+      "playIn": 0.3986,
+      "playoffs": 0.6047,
+      "confFinals": 0.1021,
+      "finals": 0.0423,
+      "title": 0.0117
     },
     {
       "team": "Miami Heat",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
-        "v": "41\u201341",
-        "sort": 41.06
+        "v": "40\u201342",
+        "sort": 39.7
       },
-      "wins": 41.1,
-      "range": "31\u201351",
-      "seed": 7.8,
-      "top6": 0.3609,
-      "playIn": 0.3996,
-      "playoffs": 0.559,
-      "confFinals": 0.0778,
-      "finals": 0.0292,
-      "title": 0.0075
+      "wins": 39.7,
+      "range": "30\u201349",
+      "seed": 8.4,
+      "top6": 0.3008,
+      "playIn": 0.3921,
+      "playoffs": 0.4968,
+      "confFinals": 0.067,
+      "finals": 0.0226,
+      "title": 0.0058
     },
     {
       "team": "Atlanta Hawks",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
-        "v": "37\u201345",
-        "sort": 37.47
+        "v": "38\u201344",
+        "sort": 38.27
       },
-      "wins": 37.5,
-      "range": "28\u201347",
-      "seed": 9.4,
-      "top6": 0.1998,
-      "playIn": 0.3828,
-      "playoffs": 0.3721,
-      "confFinals": 0.0418,
-      "finals": 0.0144,
-      "title": 0.004
-    },
-    {
-      "team": "Chicago Bulls",
-      "conference": "Eastern Conference",
-      "record": "0\u20130",
-      "projRecord": {
-        "v": "35\u201347",
-        "sort": 34.93
-      },
-      "wins": 34.9,
-      "range": "25\u201345",
-      "seed": 10.5,
-      "top6": 0.1214,
-      "playIn": 0.327,
-      "playoffs": 0.2568,
-      "confFinals": 0.0218,
-      "finals": 0.0061,
-      "title": 0.0012
+      "wins": 38.3,
+      "range": "29\u201348",
+      "seed": 9.1,
+      "top6": 0.2391,
+      "playIn": 0.3849,
+      "playoffs": 0.4179,
+      "confFinals": 0.0448,
+      "finals": 0.0161,
+      "title": 0.0027
     },
     {
       "team": "Indiana Pacers",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
-        "v": "34\u201348",
-        "sort": 34.02
+        "v": "37\u201345",
+        "sort": 36.6
       },
-      "wins": 34.0,
-      "range": "25\u201343",
-      "seed": 10.9,
-      "top6": 0.0945,
-      "playIn": 0.3011,
-      "playoffs": 0.2091,
-      "confFinals": 0.0164,
-      "finals": 0.004,
-      "title": 0.0009
+      "wins": 36.6,
+      "range": "27\u201346",
+      "seed": 9.9,
+      "top6": 0.1645,
+      "playIn": 0.3651,
+      "playoffs": 0.3281,
+      "confFinals": 0.0292,
+      "finals": 0.0104,
+      "title": 0.0021
     },
     {
-      "team": "Milwaukee Bucks",
+      "team": "Chicago Bulls",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
-        "v": "31\u201351",
-        "sort": 31.33
+        "v": "34\u201348",
+        "sort": 33.6
       },
-      "wins": 31.3,
-      "range": "22\u201340",
-      "seed": 11.9,
-      "top6": 0.0457,
-      "playIn": 0.2138,
-      "playoffs": 0.1217,
-      "confFinals": 0.0062,
-      "finals": 0.002,
+      "wins": 33.6,
+      "range": "24\u201343",
+      "seed": 11.1,
+      "top6": 0.0833,
+      "playIn": 0.2848,
+      "playoffs": 0.1945,
+      "confFinals": 0.0135,
+      "finals": 0.0037,
       "title": 0.0004
     },
     {
       "team": "Washington Wizards",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
+      "projRecord": {
+        "v": "33\u201349",
+        "sort": 33.16
+      },
+      "wins": 33.2,
+      "range": "24\u201342",
+      "seed": 11.3,
+      "top6": 0.0754,
+      "playIn": 0.2574,
+      "playoffs": 0.1728,
+      "confFinals": 0.0106,
+      "finals": 0.0029,
+      "title": 0.0004
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "conference": "Eastern Conference",
+      "record": "0\u20131",
       "projRecord": {
         "v": "31\u201351",
-        "sort": 30.86
+        "sort": 30.71
       },
-      "wins": 30.9,
+      "wins": 30.7,
       "range": "22\u201340",
-      "seed": 12.0,
-      "top6": 0.042,
-      "playIn": 0.1964,
-      "playoffs": 0.1154,
-      "confFinals": 0.0063,
-      "finals": 0.0017,
-      "title": 0.0006
+      "seed": 12.2,
+      "top6": 0.039,
+      "playIn": 0.1807,
+      "playoffs": 0.1055,
+      "confFinals": 0.0047,
+      "finals": 0.0016,
+      "title": 0.0002
     },
     {
       "team": "Brooklyn Nets",
       "conference": "Eastern Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
         "v": "25\u201357",
-        "sort": 25.49
+        "sort": 25.04
       },
-      "wins": 25.5,
+      "wins": 25.0,
       "range": "17\u201334",
-      "seed": 13.7,
-      "top6": 0.0077,
-      "playIn": 0.0642,
-      "playoffs": 0.0273,
-      "confFinals": 0.0013,
-      "finals": 0.0006,
-      "title": 0.0002
+      "seed": 13.8,
+      "top6": 0.0061,
+      "playIn": 0.0483,
+      "playoffs": 0.0191,
+      "confFinals": 0.0005,
+      "finals": 0.0001,
+      "title": 0.0
     },
     {
       "team": "Oklahoma City Thunder",
@@ -358,35 +358,35 @@
       "record": "1\u20130",
       "projRecord": {
         "v": "58\u201324",
-        "sort": 58.15
+        "sort": 58.36
       },
-      "wins": 58.1,
+      "wins": 58.4,
       "range": "49\u201367",
       "seed": 2.4,
-      "top6": 0.9545,
-      "playIn": 0.0414,
-      "playoffs": 0.9832,
-      "confFinals": 0.5356,
-      "finals": 0.3455,
-      "title": 0.2423
+      "top6": 0.9579,
+      "playIn": 0.0394,
+      "playoffs": 0.9862,
+      "confFinals": 0.5551,
+      "finals": 0.3589,
+      "title": 0.2539
     },
     {
       "team": "Los Angeles Lakers",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
-        "v": "53\u201329",
-        "sort": 53.35
+        "v": "54\u201328",
+        "sort": 54.2
       },
-      "wins": 53.4,
-      "range": "44\u201362",
-      "seed": 3.7,
-      "top6": 0.8696,
-      "playIn": 0.1155,
-      "playoffs": 0.9486,
-      "confFinals": 0.3702,
-      "finals": 0.1923,
-      "title": 0.1209
+      "wins": 54.2,
+      "range": "45\u201363",
+      "seed": 3.4,
+      "top6": 0.8952,
+      "playIn": 0.0951,
+      "playoffs": 0.9608,
+      "confFinals": 0.4005,
+      "finals": 0.2128,
+      "title": 0.1401
     },
     {
       "team": "Denver Nuggets",
@@ -394,233 +394,233 @@
       "record": "0\u20130",
       "projRecord": {
         "v": "53\u201329",
-        "sort": 52.98
+        "sort": 52.74
       },
-      "wins": 53.0,
+      "wins": 52.7,
       "range": "43\u201362",
-      "seed": 3.8,
-      "top6": 0.8552,
-      "playIn": 0.1286,
-      "playoffs": 0.9396,
-      "confFinals": 0.3271,
-      "finals": 0.1679,
-      "title": 0.1028
+      "seed": 3.9,
+      "top6": 0.85,
+      "playIn": 0.1314,
+      "playoffs": 0.9344,
+      "confFinals": 0.3193,
+      "finals": 0.1573,
+      "title": 0.1008
     },
     {
       "team": "San Antonio Spurs",
       "conference": "Western Conference",
       "record": "0\u20131",
       "projRecord": {
-        "v": "50\u201332",
-        "sort": 49.68
+        "v": "49\u201333",
+        "sort": 49.21
       },
-      "wins": 49.7,
+      "wins": 49.2,
       "range": "40\u201359",
-      "seed": 4.9,
-      "top6": 0.7488,
-      "playIn": 0.2184,
-      "playoffs": 0.889,
-      "confFinals": 0.2123,
-      "finals": 0.0889,
-      "title": 0.0491
+      "seed": 5.1,
+      "top6": 0.7271,
+      "playIn": 0.2371,
+      "playoffs": 0.8768,
+      "confFinals": 0.1977,
+      "finals": 0.0864,
+      "title": 0.0447
     },
     {
       "team": "Golden State Warriors",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
-        "v": "49\u201333",
-        "sort": 48.55
+        "v": "47\u201335",
+        "sort": 47.29
       },
-      "wins": 48.5,
-      "range": "39\u201358",
-      "seed": 5.3,
-      "top6": 0.6985,
-      "playIn": 0.2549,
-      "playoffs": 0.8612,
-      "confFinals": 0.1912,
-      "finals": 0.0804,
-      "title": 0.0403
+      "wins": 47.3,
+      "range": "38\u201357",
+      "seed": 5.7,
+      "top6": 0.6333,
+      "playIn": 0.3075,
+      "playoffs": 0.8251,
+      "confFinals": 0.1505,
+      "finals": 0.059,
+      "title": 0.0312
     },
     {
       "team": "Houston Rockets",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
         "v": "47\u201335",
-        "sort": 46.74
+        "sort": 47.12
       },
-      "wins": 46.7,
-      "range": "37\u201356",
-      "seed": 6.0,
-      "top6": 0.6009,
-      "playIn": 0.3227,
-      "playoffs": 0.7993,
-      "confFinals": 0.1482,
-      "finals": 0.0562,
-      "title": 0.0293
-    },
-    {
-      "team": "Portland Trail Blazers",
-      "conference": "Western Conference",
-      "record": "0\u20130",
-      "projRecord": {
-        "v": "43\u201339",
-        "sort": 42.56
-      },
-      "wins": 42.6,
-      "range": "33\u201352",
-      "seed": 7.6,
-      "top6": 0.3649,
-      "playIn": 0.4645,
-      "playoffs": 0.6202,
-      "confFinals": 0.0727,
-      "finals": 0.0267,
-      "title": 0.012
+      "wins": 47.1,
+      "range": "38\u201357",
+      "seed": 5.8,
+      "top6": 0.6204,
+      "playIn": 0.3173,
+      "playoffs": 0.8197,
+      "confFinals": 0.1546,
+      "finals": 0.0566,
+      "title": 0.0288
     },
     {
       "team": "Minnesota Timberwolves",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
-        "v": "42\u201340",
-        "sort": 42.39
+        "v": "44\u201338",
+        "sort": 43.94
       },
-      "wins": 42.4,
-      "range": "33\u201352",
-      "seed": 7.6,
-      "top6": 0.3659,
-      "playIn": 0.4473,
-      "playoffs": 0.6108,
-      "confFinals": 0.0718,
-      "finals": 0.0252,
-      "title": 0.0123
+      "wins": 43.9,
+      "range": "34\u201353",
+      "seed": 7.0,
+      "top6": 0.4512,
+      "playIn": 0.42,
+      "playoffs": 0.6939,
+      "confFinals": 0.087,
+      "finals": 0.0301,
+      "title": 0.0141
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "conference": "Western Conference",
+      "record": "1\u20130",
+      "projRecord": {
+        "v": "43\u201339",
+        "sort": 43.32
+      },
+      "wins": 43.3,
+      "range": "34\u201353",
+      "seed": 7.2,
+      "top6": 0.4115,
+      "playIn": 0.4493,
+      "playoffs": 0.6665,
+      "confFinals": 0.0782,
+      "finals": 0.0258,
+      "title": 0.0118
     },
     {
       "team": "Phoenix Suns",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
-        "v": "39\u201343",
-        "sort": 39.29
+        "v": "38\u201344",
+        "sort": 38.04
       },
-      "wins": 39.3,
-      "range": "30\u201349",
-      "seed": 8.8,
-      "top6": 0.2262,
-      "playIn": 0.4669,
-      "playoffs": 0.4511,
-      "confFinals": 0.0328,
-      "finals": 0.0089,
-      "title": 0.0033
+      "wins": 38.0,
+      "range": "29\u201347",
+      "seed": 9.3,
+      "top6": 0.1662,
+      "playIn": 0.4709,
+      "playoffs": 0.3732,
+      "confFinals": 0.023,
+      "finals": 0.0059,
+      "title": 0.0027
     },
     {
       "team": "New Orleans Pelicans",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
         "v": "35\u201347",
-        "sort": 35.47
+        "sort": 34.8
       },
-      "wins": 35.5,
-      "range": "26\u201345",
-      "seed": 10.3,
-      "top6": 0.0989,
-      "playIn": 0.3955,
-      "playoffs": 0.2619,
-      "confFinals": 0.0124,
-      "finals": 0.0034,
-      "title": 0.0011
+      "wins": 34.8,
+      "range": "26\u201344",
+      "seed": 10.5,
+      "top6": 0.0843,
+      "playIn": 0.375,
+      "playoffs": 0.2359,
+      "confFinals": 0.0114,
+      "finals": 0.002,
+      "title": 0.0005
     },
     {
       "team": "Utah Jazz",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
-        "v": "35\u201347",
-        "sort": 34.77
+        "v": "34\u201348",
+        "sort": 34.31
       },
-      "wins": 34.8,
-      "range": "26\u201344",
-      "seed": 10.6,
-      "top6": 0.0804,
-      "playIn": 0.3687,
-      "playoffs": 0.2191,
-      "confFinals": 0.0094,
-      "finals": 0.001,
-      "title": 0.0001
+      "wins": 34.3,
+      "range": "25\u201343",
+      "seed": 10.7,
+      "top6": 0.0698,
+      "playIn": 0.3567,
+      "playoffs": 0.2052,
+      "confFinals": 0.0076,
+      "finals": 0.0019,
+      "title": 0.0005
     },
     {
       "team": "Memphis Grizzlies",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
         "v": "34\u201348",
-        "sort": 33.66
+        "sort": 34.04
       },
-      "wins": 33.7,
-      "range": "24\u201343",
-      "seed": 10.9,
-      "top6": 0.0677,
-      "playIn": 0.321,
-      "playoffs": 0.1863,
+      "wins": 34.0,
+      "range": "25\u201343",
+      "seed": 10.8,
+      "top6": 0.0687,
+      "playIn": 0.3483,
+      "playoffs": 0.1983,
       "confFinals": 0.0079,
       "finals": 0.0021,
-      "title": 0.0004
+      "title": 0.0005
     },
     {
       "team": "Dallas Mavericks",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
         "v": "33\u201349",
-        "sort": 33.49
+        "sort": 33.41
       },
-      "wins": 33.5,
-      "range": "25\u201343",
+      "wins": 33.4,
+      "range": "24\u201343",
       "seed": 11.0,
-      "top6": 0.0605,
-      "playIn": 0.3246,
-      "playoffs": 0.1856,
-      "confFinals": 0.0073,
-      "finals": 0.0014,
-      "title": 0.0003
+      "top6": 0.0559,
+      "playIn": 0.3177,
+      "playoffs": 0.1797,
+      "confFinals": 0.0067,
+      "finals": 0.0011,
+      "title": 0.0005
     },
     {
       "team": "LA Clippers",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "1\u20130",
       "projRecord": {
         "v": "27\u201355",
-        "sort": 26.64
+        "sort": 27.08
       },
-      "wins": 26.6,
-      "range": "18\u201335",
-      "seed": 13.2,
-      "top6": 0.0056,
-      "playIn": 0.0913,
-      "playoffs": 0.0322,
-      "confFinals": 0.0009,
-      "finals": 0.0001,
+      "wins": 27.1,
+      "range": "19\u201336",
+      "seed": 13.0,
+      "top6": 0.0066,
+      "playIn": 0.1023,
+      "playoffs": 0.0354,
+      "confFinals": 0.0002,
+      "finals": 0.0,
       "title": 0.0
     },
     {
       "team": "Sacramento Kings",
       "conference": "Western Conference",
-      "record": "0\u20130",
+      "record": "0\u20131",
       "projRecord": {
-        "v": "24\u201358",
-        "sort": 23.57
+        "v": "23\u201359",
+        "sort": 22.95
       },
-      "wins": 23.6,
-      "range": "16\u201332",
-      "seed": 13.9,
-      "top6": 0.0024,
-      "playIn": 0.0387,
-      "playoffs": 0.0119,
-      "confFinals": 0.0002,
-      "finals": 0.0,
-      "title": 0.0
+      "wins": 22.9,
+      "range": "15\u201331",
+      "seed": 14.0,
+      "top6": 0.0019,
+      "playIn": 0.032,
+      "playoffs": 0.0089,
+      "confFinals": 0.0003,
+      "finals": 0.0001,
+      "title": 0.0001
     }
   ]
 }

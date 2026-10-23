@@ -2,53 +2,53 @@
   "season": 2026,
   "label": "2026\u201327 Season",
   "unit": "day",
-  "latest": "2026-10-20.json",
+  "latest": "2026-10-22.json",
   "summary": {
-    "title": "2026\u201327 season to date \u00b7 3 games graded",
+    "title": "2026\u201327 season to date \u00b7 16 games graded",
     "stats": [
       {
         "label": "Straight up",
-        "value": "2\u20131",
-        "detail": "66.7%",
+        "value": "13\u20133",
+        "detail": "81.2%",
         "tone": "good"
       },
       {
         "label": "Log loss",
-        "value": "0.653",
+        "value": "0.560",
         "detail": "coin flip 0.693",
         "tone": "good"
       },
       {
         "label": "Brier score",
-        "value": "0.230",
+        "value": "0.188",
         "detail": "coin flip 0.250",
         "tone": "good"
       },
       {
         "label": "Margin MAE",
-        "value": "8.0",
+        "value": "14.0",
         "detail": "avg miss, points"
       },
       {
         "label": "vs Spread",
-        "value": "2\u20131",
-        "detail": "66.7%",
-        "tone": "good"
+        "value": "7\u20139",
+        "detail": "43.8%",
+        "tone": "bad"
       },
       {
         "label": "vs Total",
-        "value": "3\u20130",
-        "detail": "100.0%",
+        "value": "9\u20137",
+        "detail": "56.2%",
         "tone": "good"
       },
       {
         "label": "\u2605 Bets",
-        "value": "7\u20132",
-        "detail": "ROI +61.0% \u00b7 CLV +5.3%",
+        "value": "21\u201318",
+        "detail": "ROI +8.2% \u00b7 CLV -1.6%",
         "tone": "good"
       }
     ],
-    "note": "Graded the way the model grades itself: straight up is the home side at 50% or more, else the away side; log loss and Brier score the win probability (lower is better); margin and total MAE compare the expected scores with the final (overtime included). Against the market, the published spread and total are graded as the side the model gives over 50%. Preseason games are left out. Each game is graded on the prediction logged before tip-off on game day, by model 1e7128e-fe96a820. Walk-forward backtest of the current version, f25f75b-fe23aa19 (11,979 games): 66.6% straight up, log loss 0.611, Brier 0.211, margin MAE 10.5, total MAE 14.7."
+    "note": "Graded the way the model grades itself: straight up is the home side at 50% or more, else the away side; log loss and Brier score the win probability (lower is better); margin and total MAE compare the expected scores with the final (overtime included). Against the market, the published spread and total are graded as the side the model gives over 50%. Preseason games are left out. Each game is graded on the prediction logged before tip-off on game day, by models 1e7128e-fe96a820 (3 games), f25f75b-fe23aa19 (13 games). Walk-forward backtest of the current version, a3125a5-6b553de1 (11,979 games): 66.6% straight up, log loss 0.611, Brier 0.211, margin MAE 10.5, total MAE 14.7."
   },
   "slates": [
     {
@@ -60,6 +60,16 @@
       "id": "2026-10-20",
       "label": "Tue Oct 20",
       "file": "2026-10-20.json"
+    },
+    {
+      "id": "2026-10-21",
+      "label": "Wed Oct 21",
+      "file": "2026-10-21.json"
+    },
+    {
+      "id": "2026-10-22",
+      "label": "Thu Oct 22",
+      "file": "2026-10-22.json"
     }
   ]
 }

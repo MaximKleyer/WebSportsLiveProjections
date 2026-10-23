@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 \u00b7 record by week",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "columns": [
     {
       "key": "week",
@@ -276,32 +276,32 @@
         "v": "Week 8 (in progress)",
         "sort": 8
       },
-      "games": 3,
+      "games": 7,
       "su": {
-        "v": "2\u20131 (67%)",
-        "sort": 0.6667
+        "v": "4\u20133 (57%)",
+        "sort": 0.5714
       },
       "ats": {
-        "v": "3\u20130 (100%)",
-        "sort": 1.0,
+        "v": "5\u20132 (71%)",
+        "sort": 0.7143,
         "tone": "good"
       },
       "ou": {
-        "v": "3\u20130 (100%)",
-        "sort": 1.0,
+        "v": "6\u20131 (86%)",
+        "sort": 0.8571,
         "tone": "good"
       },
       "spreadPlays": {
+        "v": "2\u20131 (67%)",
+        "sort": 0.6667,
+        "tone": "good"
+      },
+      "totalPlays": {
         "v": "2\u20130 (100%)",
         "sort": 1.0,
         "tone": "good"
       },
-      "totalPlays": {
-        "v": "1\u20130 (100%)",
-        "sort": 1.0,
-        "tone": "good"
-      },
-      "mae": 11.9
+      "mae": 11.4
     }
   ]
 }

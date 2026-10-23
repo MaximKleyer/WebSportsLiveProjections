@@ -1,0 +1,155 @@
+{
+  "subtitle": "Thu Oct 22, 2026\u201327 \u2014 2 games \u00b7 straight up 2\u20130 \u00b7 log loss 0.534 \u00b7 margin MAE 7.2 \u00b7 margins are the home side's",
+  "updated": "2026-10-23",
+  "search": "Search teams",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "pick",
+      "label": "Win Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "margin",
+      "label": "Margin: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Total: proj \u2192 final",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "vs Spread",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "vs Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "CLE",
+      "awayScore": "106",
+      "sep": "\u2013",
+      "homeScore": "114",
+      "homeTeam": "PHI",
+      "proj": "117.8 \u2013 118.7",
+      "pick": {
+        "v": "PHI 53% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "margin": {
+        "v": "+0.8 \u2192 +8",
+        "sort": 7.1735
+      },
+      "total": {
+        "v": "236.5 \u2192 220",
+        "sort": 16.4751
+      },
+      "ats": {
+        "v": "CLE +3.5 57% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "Under 237.5 53% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "bet": {
+        "v": "\u2605 CLE ML \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "DEN",
+      "awayScore": "84",
+      "sep": "\u2013",
+      "homeScore": "96",
+      "homeTeam": "OKC",
+      "proj": "116.5 \u2013 121.2",
+      "pick": {
+        "v": "OKC 65% \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "margin": {
+        "v": "+4.7 \u2192 +12",
+        "sort": 7.2761
+      },
+      "total": {
+        "v": "237.7 \u2192 180",
+        "sort": 57.7251
+      },
+      "ats": {
+        "v": "DEN +8.5 61% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "Over 236.5 52% \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "bet": {
+        "v": "\u2605 DEN ML \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": true
+    }
+  ]
+}

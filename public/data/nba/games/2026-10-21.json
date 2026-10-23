@@ -183,28 +183,28 @@
         "v": "MIN",
         "sub": "D. DiVincenzo out"
       },
-      "awayScore": "118.7",
+      "awayScore": "118.8",
       "sep": "\u2013",
       "homeScore": "118.4",
       "homeTeam": "MIA",
-      "homeWin": 0.4872,
-      "fair": "+105",
+      "homeWin": 0.4902,
+      "fair": "+104",
       "spread": {
-        "v": "MIN -0.3",
-        "sort": -0.34
+        "v": "MIN -0.4",
+        "sort": -0.37
       },
       "total": {
-        "v": "237.1",
-        "sort": 237.12
+        "v": "237.2",
+        "sort": 237.25
       },
       "mktHome": 0.5261,
       "ats": {
         "v": "MIN +1.5 \u00b7 54%",
-        "sort": 0.5423
+        "sort": 0.5404
       },
       "ou": {
         "v": "Under 238.5 \u00b7 54%",
-        "sort": 0.5398
+        "sort": 0.5371
       },
       "id": "0022600004",
       "bet": {
@@ -222,28 +222,28 @@
         "v": "CHA",
         "sub": "K. Knueppel out, C. White out"
       },
-      "awayScore": "113.2",
+      "awayScore": "113.3",
       "sep": "\u2013",
-      "homeScore": "108.9",
+      "homeScore": "109.0",
       "homeTeam": "BKN",
-      "homeWin": 0.3555,
-      "fair": "+181",
+      "homeWin": 0.3593,
+      "fair": "+178",
       "spread": {
-        "v": "CHA -4.4",
-        "sort": -4.38
+        "v": "CHA -4.2",
+        "sort": -4.24
       },
       "total": {
-        "v": "222.1",
-        "sort": 222.1
+        "v": "222.3",
+        "sort": 222.3
       },
       "mktHome": 0.4826,
       "ats": {
         "v": "CHA -1.5 \u00b7 60%",
-        "sort": 0.5987
+        "sort": 0.596
       },
       "ou": {
         "v": "Over 219.5 \u00b7 55%",
-        "sort": 0.5502
+        "sort": 0.5535
       },
       "id": "0022600087",
       "bet": {
@@ -259,30 +259,33 @@
       },
       "awayTeam": {
         "v": "CHI",
-        "sub": "N. Claxton out, I. Okoro probable +1"
+        "sub": "N. Claxton out"
       },
-      "awayScore": "111.4",
+      "awayScore": "111.2",
       "sep": "\u2013",
-      "homeScore": "120.6",
-      "homeTeam": "TOR",
-      "homeWin": 0.7813,
-      "fair": "-357",
+      "homeScore": "121.4",
+      "homeTeam": {
+        "v": "TOR",
+        "sub": "M. Smith out"
+      },
+      "homeWin": 0.8069,
+      "fair": "-418",
       "spread": {
-        "v": "TOR -9.2",
-        "sort": 9.18
+        "v": "TOR -10.3",
+        "sort": 10.26
       },
       "total": {
-        "v": "232.0",
-        "sort": 232.02
+        "v": "232.6",
+        "sort": 232.6
       },
       "mktHome": 0.7819,
       "ats": {
-        "v": "CHI +10.5 \u00b7 54%",
-        "sort": 0.5372
+        "v": "CHI +10.5 \u00b7 50%",
+        "sort": 0.5049
       },
       "ou": {
-        "v": "Under 237.5 \u00b7 62%",
-        "sort": 0.6212
+        "v": "Under 237.5 \u00b7 61%",
+        "sort": 0.6145
       },
       "id": "0022600088",
       "bet": {
@@ -302,29 +305,29 @@
       },
       "awayScore": "119.1",
       "sep": "\u2013",
-      "homeScore": "120.2",
+      "homeScore": "120.1",
       "homeTeam": {
         "v": "MEM",
-        "sub": "I. Stewart doubtful"
+        "sub": "I. Stewart out"
       },
-      "homeWin": 0.5396,
-      "fair": "-117",
+      "homeWin": 0.5381,
+      "fair": "-116",
       "spread": {
-        "v": "MEM -1.1",
-        "sort": 1.1
+        "v": "MEM -1.0",
+        "sort": 0.99
       },
       "total": {
-        "v": "239.3",
-        "sort": 239.28
+        "v": "239.2",
+        "sort": 239.23
       },
       "mktHome": 0.5325,
       "ats": {
         "v": "UTA +2.5 \u00b7 52%",
-        "sort": 0.525
+        "sort": 0.5241
       },
       "ou": {
         "v": "Under 241.5 \u00b7 56%",
-        "sort": 0.5558
+        "sort": 0.5559
       },
       "id": "0022600089",
       "bet": {
@@ -342,28 +345,28 @@
         "v": "IND",
         "sub": "A. Nesmith out, J. Slawson probable"
       },
-      "awayScore": "116.8",
+      "awayScore": "116.9",
       "sep": "\u2013",
-      "homeScore": "118.1",
+      "homeScore": "118.2",
       "homeTeam": "NOP",
-      "homeWin": 0.5481,
-      "fair": "-121",
+      "homeWin": 0.5506,
+      "fair": "-123",
       "spread": {
         "v": "NOP -1.3",
-        "sort": 1.29
+        "sort": 1.33
       },
       "total": {
-        "v": "234.9",
-        "sort": 234.91
+        "v": "235.1",
+        "sort": 235.11
       },
       "mktHome": 0.417,
       "ats": {
-        "v": "NOP +3.5 \u00b7 62%",
-        "sort": 0.6242
+        "v": "NOP +3.5 \u00b7 63%",
+        "sort": 0.6265
       },
       "ou": {
         "v": "Under 239.5 \u00b7 60%",
-        "sort": 0.6025
+        "sort": 0.6043
       },
       "id": "0022600090",
       "bet": {
@@ -381,22 +384,22 @@
         "v": "DAL",
         "sub": "S. Aldama out, D. Lively II out +1"
       },
-      "awayScore": "106.9",
+      "awayScore": "106.8",
       "sep": "\u2013",
       "homeScore": "116.7",
       "homeTeam": {
         "v": "HOU",
         "sub": "S. Adams questionable"
       },
-      "homeWin": 0.7944,
-      "fair": "-386",
+      "homeWin": 0.8026,
+      "fair": "-407",
       "spread": {
         "v": "HOU -9.8",
-        "sort": 9.75
+        "sort": 9.84
       },
       "total": {
-        "v": "223.6",
-        "sort": 223.55
+        "v": "223.5",
+        "sort": 223.5
       },
       "mktHome": 0.7819,
       "ats": {
@@ -405,7 +408,7 @@
       },
       "ou": {
         "v": "Under 229.5 \u00b7 64%",
-        "sort": 0.6378
+        "sort": 0.6358
       },
       "id": "0022600091",
       "bet": {
@@ -423,31 +426,31 @@
         "v": "GSW",
         "sub": "J. Butler III out, S. Curry probable +3"
       },
-      "awayScore": "110.6",
+      "awayScore": "110.4",
       "sep": "\u2013",
-      "homeScore": "120.0",
+      "homeScore": "119.8",
       "homeTeam": {
         "v": "LAL",
-        "sub": "C. Sexton questionable"
+        "sub": "C. Sexton out"
       },
-      "homeWin": 0.787,
+      "homeWin": 0.7866,
       "fair": "-369",
       "spread": {
         "v": "LAL -9.4",
-        "sort": 9.39
+        "sort": 9.41
       },
       "total": {
-        "v": "230.6",
-        "sort": 230.59
+        "v": "230.2",
+        "sort": 230.25
       },
       "mktHome": 0.669,
       "ats": {
         "v": "LAL -6.5 \u00b7 59%",
-        "sort": 0.5914
+        "sort": 0.59
       },
       "ou": {
-        "v": "Under 234.5 \u00b7 59%",
-        "sort": 0.5881
+        "v": "Under 234.5 \u00b7 60%",
+        "sort": 0.5985
       },
       "id": "0022600005",
       "bet": {
@@ -465,31 +468,31 @@
         "v": "PHX",
         "sub": "M. Williams out, L. Kennard questionable"
       },
-      "awayScore": "113.6",
+      "awayScore": "113.9",
       "sep": "\u2013",
       "homeScore": "118.5",
       "homeTeam": {
         "v": "POR",
         "sub": "D. Avdija questionable, S. Sharpe out +1"
       },
-      "homeWin": 0.6625,
-      "fair": "-196",
+      "homeWin": 0.6534,
+      "fair": "-189",
       "spread": {
-        "v": "POR -4.9",
-        "sort": 4.94
+        "v": "POR -4.6",
+        "sort": 4.56
       },
       "total": {
-        "v": "232.1",
-        "sort": 232.14
+        "v": "232.4",
+        "sort": 232.4
       },
       "mktHome": 0.5635,
       "ats": {
-        "v": "POR -2.5 \u00b7 59%",
-        "sort": 0.5858
+        "v": "POR -2.5 \u00b7 57%",
+        "sort": 0.573
       },
       "ou": {
-        "v": "Over 231.5 \u00b7 50%",
-        "sort": 0.5044
+        "v": "Over 231.5 \u00b7 51%",
+        "sort": 0.5121
       },
       "id": "0022600092",
       "bet": {
@@ -514,24 +517,24 @@
         "v": "LAC",
         "sub": "B. Ingram out, M. Strus out +2"
       },
-      "homeWin": 0.602,
-      "fair": "-151",
+      "homeWin": 0.6043,
+      "fair": "-153",
       "spread": {
         "v": "LAC -3.0",
-        "sort": 2.95
+        "sort": 2.98
       },
       "total": {
-        "v": "223.1",
-        "sort": 223.05
+        "v": "223.0",
+        "sort": 223.02
       },
       "mktHome": 0.6225,
       "ats": {
-        "v": "SAC +4.5 \u00b7 54%",
-        "sort": 0.5361
+        "v": "SAC +4.5 \u00b7 53%",
+        "sort": 0.5333
       },
       "ou": {
-        "v": "Under 227.5 \u00b7 60%",
-        "sort": 0.605
+        "v": "Under 227.5 \u00b7 61%",
+        "sort": 0.6069
       },
       "id": "0022600093",
       "bet": {

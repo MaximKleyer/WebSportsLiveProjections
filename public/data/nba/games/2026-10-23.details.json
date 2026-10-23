@@ -6,32 +6,35 @@
       "away": {
         "name": "Chicago Bulls",
         "abbr": "CHI",
-        "note": "0\u20130"
+        "note": "0\u20131 \u00b7 3 on the injury report"
       },
       "home": {
         "name": "Milwaukee Bucks",
         "abbr": "MIL",
-        "note": "0\u20130"
+        "note": "0\u20131"
       },
       "score": {
-        "away": "114.8",
-        "home": "114.2",
+        "away": "115.1",
+        "home": "115.5",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.5223,
-        "home": 0.4777,
-        "note": "Fair odds: CHI -109, MIL +109 (no margin)."
+        "away": 0.4852,
+        "home": 0.5148,
+        "note": "Fair odds: CHI +106, MIL -106 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects CHI 114.8 \u2013 MIL 114.2: CHI by 0.6, 229.1 points in all. That makes CHI 52% to win.",
-            "Pace: CHI plays about 104.0 possessions a game against an average team, MIL 101.4.",
-            "CHI's offense is -1.6 points per 100 possessions against an average team, meeting MIL's defense at -1.3; MIL's offense -2.7 meets CHI's defense at -0.7 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects CHI 115.1 \u2013 MIL 115.5: MIL by 0.4, 230.6 points in all. That makes MIL 51% to win.",
+            "Pace: CHI plays about 105.1 possessions a game against an average team, MIL 102.7.",
+            "CHI's offense is -1.7 points per 100 possessions against an average team, meeting MIL's defense at -1.4; MIL's offense -2.7 meets CHI's defense at -0.9 (+ is better than average).",
+            "On the injury report \u2014 CHI: J. Giddey probable, N. Claxton out, Z. Collins probable; MIL: nobody. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has MIL -1.5; the model's line is MIL -0.4, so it gives CHI +1.5 52% to cover.",
+            "The market's total is 240.5 against the model's 230.6: the under, 71%.",
+            "The market (margin removed) gives MIL 51% to win; the model 51%."
           ]
         },
         {
@@ -40,30 +43,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 28.0,
+              "away": 25.0,
               "home": 15.0,
               "max": 100,
-              "awayText": "28",
+              "awayText": "25",
               "homeText": "15"
             },
             {
               "label": "Offense",
-              "away": 28.0,
+              "away": 26.0,
               "home": 16.0,
               "max": 100,
-              "awayText": "28",
+              "awayText": "26",
               "homeText": "16"
             },
             {
               "label": "Defense",
-              "away": 37.0,
-              "home": 26.0,
+              "away": 34.0,
+              "home": 25.0,
               "max": 100,
-              "awayText": "37",
-              "homeText": "26"
+              "awayText": "34",
+              "homeText": "25"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 29.0,
+              "home": 47.0,
+              "max": 100,
+              "awayText": "29",
+              "homeText": "47"
+            },
+            {
+              "label": "Turnovers",
+              "away": 19.0,
+              "home": 39.0,
+              "max": 100,
+              "awayText": "19",
+              "homeText": "39"
+            },
+            {
+              "label": "Rebounding",
+              "away": 57.0,
+              "home": 49.0,
+              "max": 100,
+              "awayText": "57",
+              "homeText": "49"
+            },
+            {
+              "label": "Free throws",
+              "away": 53.0,
+              "home": 33.0,
+              "max": 100,
+              "awayText": "53",
+              "homeText": "33"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -71,24 +113,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 104.0,
-              "home": 101.4,
-              "awayText": "104.0",
-              "homeText": "101.4"
+              "away": 105.1,
+              "home": 102.7,
+              "awayText": "105.1",
+              "homeText": "102.7"
             },
             {
               "label": "Points scored",
-              "away": 114.2,
-              "home": 110.2,
-              "awayText": "114.2",
-              "homeText": "110.2"
+              "away": 114.0,
+              "home": 110.4,
+              "awayText": "114.0",
+              "homeText": "110.4"
             },
             {
               "label": "Points allowed",
-              "away": 116.6,
-              "home": 114.3,
-              "awayText": "116.6",
-              "homeText": "114.3",
+              "away": 116.7,
+              "home": 114.6,
+              "awayText": "116.7",
+              "homeText": "114.6",
               "lower": true
             }
           ],
@@ -105,16 +147,61 @@
           "rows": [
             [
               "CHI to win",
+              "49%",
+              "49%"
+            ],
+            [
+              "MIL to win",
+              "51%",
+              "51%"
+            ],
+            [
+              "MIL -1.5",
+              "48%",
+              "\u2014"
+            ],
+            [
+              "CHI +1.5",
               "52%",
               "\u2014"
             ],
             [
-              "MIL to win",
-              "48%",
+              "Over 240.5",
+              "29%",
+              "\u2014"
+            ],
+            [
+              "Under 240.5",
+              "71%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 Under 240.5",
+              "-115",
+              "DraftKings",
+              "71%",
+              "51%",
+              {
+                "v": "+20.0%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -122,23 +209,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 34.9315,
-              "home": 31.3321,
-              "awayText": "35",
+              "away": 33.5951,
+              "home": 30.7105,
+              "awayText": "34",
               "homeText": "31"
             },
             {
               "label": "Playoffs",
-              "away": 0.2568,
-              "home": 0.1217,
-              "awayText": "26%",
-              "homeText": "12%",
+              "away": 0.1945,
+              "home": 0.1055,
+              "awayText": "19%",
+              "homeText": "11%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0012,
-              "home": 0.0004,
+              "away": 0.0004,
+              "home": 0.0002,
               "awayText": "0%",
               "homeText": "0%"
             }
@@ -158,29 +245,30 @@
       "home": {
         "name": "Boston Celtics",
         "abbr": "BOS",
-        "note": "0\u20131"
+        "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "score": {
-        "away": "109.7",
-        "home": "116.3",
+        "away": "109.1",
+        "home": "117.2",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.2879,
-        "home": 0.7121,
-        "note": "Fair odds: NYK +247, BOS -247 (no margin)."
+        "away": 0.2421,
+        "home": 0.7579,
+        "note": "Fair odds: NYK +313, BOS -313 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects NYK 109.7 \u2013 BOS 116.3: BOS by 6.5, 226.0 points in all. That makes BOS 71% to win.",
-            "Pace: NYK plays about 101.7 possessions a game against an average team, BOS 100.6.",
-            "NYK's offense is +0.9 points per 100 possessions against an average team, meeting BOS's defense at +1.9; BOS's offense +2.6 meets NYK's defense at -0.0 (+ is better than average).",
-            "The market has BOS -2.5; the model's line is BOS -6.5, so it gives BOS -2.5 63% to cover.",
-            "The market's total is 223.5 against the model's 226.0: the over, 54%.",
-            "The market (margin removed) gives BOS 54% to win; the model 71%."
+            "The model expects NYK 109.1 \u2013 BOS 117.2: BOS by 8.1, 226.3 points in all. That makes BOS 76% to win.",
+            "Pace: NYK plays about 102.6 possessions a game against an average team, BOS 101.6.",
+            "NYK's offense is +0.7 points per 100 possessions against an average team, meeting BOS's defense at +2.0; BOS's offense +2.5 meets NYK's defense at -0.1 (+ is better than average).",
+            "On the injury report \u2014 NYK: nobody; BOS: D. Carter out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has BOS -2.5; the model's line is BOS -8.1, so it gives BOS -2.5 68% to cover.",
+            "The market's total is 222.5 against the model's 226.3: the over, 57%.",
+            "The market (margin removed) gives BOS 57% to win; the model 76%."
           ]
         },
         {
@@ -189,26 +277,26 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 58.0,
+              "away": 56.0,
               "home": 87.0,
               "max": 100,
-              "awayText": "58",
+              "awayText": "56",
               "homeText": "87"
             },
             {
               "label": "Offense",
-              "away": 63.0,
+              "away": 61.0,
               "home": 83.0,
               "max": 100,
-              "awayText": "63",
+              "awayText": "61",
               "homeText": "83"
             },
             {
               "label": "Defense",
-              "away": 50.0,
+              "away": 48.0,
               "home": 83.0,
               "max": 100,
-              "awayText": "50",
+              "awayText": "48",
               "homeText": "83"
             }
           ],
@@ -259,24 +347,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 101.7,
-              "home": 100.6,
-              "awayText": "101.7",
-              "homeText": "100.6"
+              "away": 102.6,
+              "home": 101.6,
+              "awayText": "102.6",
+              "homeText": "101.6"
             },
             {
               "label": "Points scored",
-              "away": 114.2,
-              "home": 114.7,
-              "awayText": "114.2",
-              "homeText": "114.7"
+              "away": 113.8,
+              "home": 114.6,
+              "awayText": "113.8",
+              "homeText": "114.6"
             },
             {
               "label": "Points allowed",
-              "away": 113.3,
-              "home": 110.2,
-              "awayText": "113.3",
-              "homeText": "110.2",
+              "away": 113.2,
+              "home": 110.0,
+              "awayText": "113.2",
+              "homeText": "110.0",
               "lower": true
             }
           ],
@@ -293,36 +381,83 @@
           "rows": [
             [
               "NYK to win",
-              "29%",
-              "46%"
+              "24%",
+              "43%"
             ],
             [
               "BOS to win",
-              "71%",
-              "54%"
+              "76%",
+              "57%"
             ],
             [
               "BOS -2.5",
-              "63%",
+              "68%",
               "\u2014"
             ],
             [
               "NYK +2.5",
-              "37%",
+              "32%",
               "\u2014"
             ],
             [
-              "Over 223.5",
-              "54%",
+              "Over 222.5",
+              "57%",
               "\u2014"
             ],
             [
-              "Under 223.5",
-              "46%",
+              "Under 222.5",
+              "43%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 BOS ML",
+              "-148",
+              "DraftKings",
+              "76%",
+              "57%",
+              {
+                "v": "+18.5%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 BOS -2.5",
+              "-115",
+              "DraftKings",
+              "67%",
+              "51%",
+              {
+                "v": "+16.2%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 Over 222.5",
+              "-112",
+              "DraftKings",
+              "57%",
+              "50%",
+              {
+                "v": "+6.7%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -330,24 +465,24 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 42.4198,
-              "home": 51.3427,
+              "away": 41.7615,
+              "home": 51.6615,
               "awayText": "42",
-              "homeText": "51"
+              "homeText": "52"
             },
             {
               "label": "Playoffs",
-              "away": 0.6346,
-              "home": 0.9379,
-              "awayText": "63%",
+              "away": 0.6047,
+              "home": 0.9382,
+              "awayText": "60%",
               "homeText": "94%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.015,
-              "home": 0.108,
-              "awayText": "2%",
+              "away": 0.0117,
+              "home": 0.1133,
+              "awayText": "1%",
               "homeText": "11%"
             }
           ],
@@ -361,32 +496,35 @@
       "away": {
         "name": "Atlanta Hawks",
         "abbr": "ATL",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 1 on the injury report"
       },
       "home": {
         "name": "Charlotte Hornets",
         "abbr": "CHA",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 2 on the injury report"
       },
       "score": {
-        "away": "112.2",
-        "home": "116.6",
+        "away": "112.7",
+        "home": "114.7",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.3492,
-        "home": 0.6508,
-        "note": "Fair odds: ATL +186, CHA -186 (no margin)."
+        "away": 0.4269,
+        "home": 0.5731,
+        "note": "Fair odds: ATL +134, CHA -134 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects ATL 112.2 \u2013 CHA 116.6: CHA by 4.4, 228.9 points in all. That makes CHA 65% to win.",
-            "Pace: ATL plays about 103.6 possessions a game against an average team, CHA 101.3.",
-            "ATL's offense is -2.0 points per 100 possessions against an average team, meeting CHA's defense at -0.2; CHA's offense +0.7 meets ATL's defense at +0.6 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects ATL 112.7 \u2013 CHA 114.7: CHA by 2.0, 227.4 points in all. That makes CHA 57% to win.",
+            "Pace: ATL plays about 104.8 possessions a game against an average team, CHA 102.6.",
+            "ATL's offense is -1.9 points per 100 possessions against an average team, meeting CHA's defense at -0.1; CHA's offense +0.6 meets ATL's defense at +0.6 (+ is better than average).",
+            "On the injury report \u2014 ATL: K. Gilbert questionable; CHA: K. Knueppel out, C. White out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has CHA +2.5; the model's line is CHA -2.0, so it gives CHA +2.5 62% to cover.",
+            "The market's total is 226.5 against the model's 227.4: the over, 51%.",
+            "The market (margin removed) gives CHA 44% to win; the model 57%."
           ]
         },
         {
@@ -396,29 +534,68 @@
             {
               "label": "Overall",
               "away": 36.0,
-              "home": 56.0,
+              "home": 55.0,
               "max": 100,
               "awayText": "36",
-              "homeText": "56"
+              "homeText": "55"
             },
             {
               "label": "Offense",
               "away": 23.0,
-              "home": 61.0,
+              "home": 59.0,
               "max": 100,
               "awayText": "23",
-              "homeText": "61"
+              "homeText": "59"
             },
             {
               "label": "Defense",
               "away": 61.0,
-              "home": 47.0,
+              "home": 48.0,
               "max": 100,
               "awayText": "61",
-              "homeText": "47"
+              "homeText": "48"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 51.0,
+              "home": 50.0,
+              "max": 100,
+              "awayText": "51",
+              "homeText": "50"
+            },
+            {
+              "label": "Turnovers",
+              "away": 57.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "57",
+              "homeText": "57"
+            },
+            {
+              "label": "Rebounding",
+              "away": 55.0,
+              "home": 59.0,
+              "max": 100,
+              "awayText": "55",
+              "homeText": "59"
+            },
+            {
+              "label": "Free throws",
+              "away": 48.0,
+              "home": 40.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "40"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -426,24 +603,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 103.6,
-              "home": 101.3,
-              "awayText": "103.6",
-              "homeText": "101.3"
+              "away": 104.8,
+              "home": 102.6,
+              "awayText": "104.8",
+              "homeText": "102.6"
             },
             {
               "label": "Points scored",
-              "away": 113.3,
-              "home": 113.6,
-              "awayText": "113.3",
-              "homeText": "113.6"
+              "away": 113.5,
+              "home": 113.7,
+              "awayText": "113.5",
+              "homeText": "113.7"
             },
             {
               "label": "Points allowed",
-              "away": 114.8,
-              "home": 113.0,
-              "awayText": "114.8",
-              "homeText": "113.0",
+              "away": 114.9,
+              "home": 113.1,
+              "awayText": "114.9",
+              "homeText": "113.1",
               "lower": true
             }
           ],
@@ -460,16 +637,72 @@
           "rows": [
             [
               "ATL to win",
-              "35%",
-              "\u2014"
+              "43%",
+              "56%"
             ],
             [
               "CHA to win",
-              "65%",
+              "57%",
+              "44%"
+            ],
+            [
+              "CHA +2.5",
+              "62%",
+              "\u2014"
+            ],
+            [
+              "ATL -2.5",
+              "38%",
+              "\u2014"
+            ],
+            [
+              "Over 226.5",
+              "51%",
+              "\u2014"
+            ],
+            [
+              "Under 226.5",
+              "49%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 CHA ML",
+              "+120",
+              "DraftKings",
+              "57%",
+              "44%",
+              {
+                "v": "+13.8%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 CHA +2.5",
+              "-105",
+              "DraftKings",
+              "62%",
+              "49%",
+              {
+                "v": "+12.9%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -477,23 +710,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 37.4668,
-              "home": 43.0799,
-              "awayText": "37",
-              "homeText": "43"
+              "away": 38.2735,
+              "home": 43.5757,
+              "awayText": "38",
+              "homeText": "44"
             },
             {
               "label": "Playoffs",
-              "away": 0.3721,
-              "home": 0.6587,
-              "awayText": "37%",
-              "homeText": "66%",
+              "away": 0.4179,
+              "home": 0.6781,
+              "awayText": "42%",
+              "homeText": "68%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.004,
-              "home": 0.0143,
+              "away": 0.0027,
+              "home": 0.0132,
               "awayText": "0%",
               "homeText": "1%"
             }
@@ -508,32 +741,35 @@
       "away": {
         "name": "Dallas Mavericks",
         "abbr": "DAL",
-        "note": "0\u20130"
+        "note": "0\u20131 \u00b7 2 on the injury report"
       },
       "home": {
         "name": "Indiana Pacers",
         "abbr": "IND",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 3 on the injury report"
       },
       "score": {
-        "away": "114.5",
-        "home": "116.3",
+        "away": "111.8",
+        "home": "118.1",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4401,
-        "home": 0.5599,
-        "note": "Fair odds: DAL +127, IND -127 (no margin)."
+        "away": 0.2969,
+        "home": 0.7031,
+        "note": "Fair odds: DAL +237, IND -237 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects DAL 114.5 \u2013 IND 116.3: IND by 1.8, 230.9 points in all. That makes IND 56% to win.",
-            "Pace: DAL plays about 103.6 possessions a game against an average team, IND 103.2.",
-            "DAL's offense is -3.2 points per 100 possessions against an average team, meeting IND's defense at -1.3; IND's offense -1.6 meets DAL's defense at +0.3 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects DAL 111.8 \u2013 IND 118.1: IND by 6.3, 229.9 points in all. That makes IND 70% to win.",
+            "Pace: DAL plays about 103.9 possessions a game against an average team, IND 104.1.",
+            "DAL's offense is -2.6 points per 100 possessions against an average team, meeting IND's defense at -1.1; IND's offense -1.0 meets DAL's defense at -0.1 (+ is better than average).",
+            "On the injury report \u2014 DAL: S. Aldama out, D. Lively II out; IND: A. Nesmith questionable, J. Slawson probable, B. Sheppard questionable. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has IND -6.5; the model's line is IND -6.3, so it gives DAL +6.5 50% to cover.",
+            "The market's total is 238.5 against the model's 229.9: the under, 68%.",
+            "The market (margin removed) gives IND 67% to win; the model 70%."
           ]
         },
         {
@@ -542,30 +778,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 23.0,
-              "home": 23.0,
+              "away": 24.0,
+              "home": 30.0,
               "max": 100,
-              "awayText": "23",
-              "homeText": "23"
+              "awayText": "24",
+              "homeText": "30"
             },
             {
               "label": "Offense",
-              "away": 12.0,
-              "home": 27.0,
+              "away": 16.0,
+              "home": 35.0,
               "max": 100,
-              "awayText": "12",
-              "homeText": "27"
+              "awayText": "16",
+              "homeText": "35"
             },
             {
               "label": "Defense",
-              "away": 57.0,
-              "home": 27.0,
+              "away": 48.0,
+              "home": 30.0,
               "max": 100,
-              "awayText": "57",
-              "homeText": "27"
+              "awayText": "48",
+              "homeText": "30"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 45.0,
+              "home": 62.0,
+              "max": 100,
+              "awayText": "45",
+              "homeText": "62"
+            },
+            {
+              "label": "Turnovers",
+              "away": 35.0,
+              "home": 51.0,
+              "max": 100,
+              "awayText": "35",
+              "homeText": "51"
+            },
+            {
+              "label": "Rebounding",
+              "away": 34.0,
+              "home": 42.0,
+              "max": 100,
+              "awayText": "34",
+              "homeText": "42"
+            },
+            {
+              "label": "Free throws",
+              "away": 51.0,
+              "home": 33.0,
+              "max": 100,
+              "awayText": "51",
+              "homeText": "33"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -573,24 +848,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 103.6,
-              "home": 103.2,
-              "awayText": "103.6",
-              "homeText": "103.2"
+              "away": 103.9,
+              "home": 104.1,
+              "awayText": "103.9",
+              "homeText": "104.1"
             },
             {
               "label": "Points scored",
-              "away": 112.2,
-              "home": 113.4,
-              "awayText": "112.2",
-              "homeText": "113.4"
+              "away": 111.7,
+              "home": 113.7,
+              "awayText": "111.7",
+              "homeText": "113.7"
             },
             {
               "label": "Points allowed",
-              "away": 115.1,
-              "home": 116.3,
-              "awayText": "115.1",
-              "homeText": "116.3",
+              "away": 114.6,
+              "home": 115.8,
+              "awayText": "114.6",
+              "homeText": "115.8",
               "lower": true
             }
           ],
@@ -607,16 +882,72 @@
           "rows": [
             [
               "DAL to win",
-              "44%",
-              "\u2014"
+              "30%",
+              "33%"
             ],
             [
               "IND to win",
-              "56%",
+              "70%",
+              "67%"
+            ],
+            [
+              "IND -6.5",
+              "50%",
+              "\u2014"
+            ],
+            [
+              "DAL +6.5",
+              "50%",
+              "\u2014"
+            ],
+            [
+              "Over 238.5",
+              "32%",
+              "\u2014"
+            ],
+            [
+              "Under 238.5",
+              "68%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 Under 238.5",
+              "-112",
+              "DraftKings",
+              "69%",
+              "50%",
+              {
+                "v": "+18.4%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 IND ML",
+              "-230",
+              "DraftKings",
+              "70%",
+              "67%",
+              {
+                "v": "+3.4%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -624,23 +955,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 33.4931,
-              "home": 34.0169,
+              "away": 33.4078,
+              "home": 36.5962,
               "awayText": "33",
-              "homeText": "34"
+              "homeText": "37"
             },
             {
               "label": "Playoffs",
-              "away": 0.1856,
-              "home": 0.2091,
-              "awayText": "19%",
-              "homeText": "21%",
+              "away": 0.1797,
+              "home": 0.3281,
+              "awayText": "18%",
+              "homeText": "33%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0003,
-              "home": 0.0009,
+              "away": 0.0005,
+              "home": 0.0021,
               "awayText": "0%",
               "homeText": "0%"
             }
@@ -655,32 +986,35 @@
       "away": {
         "name": "Minnesota Timberwolves",
         "abbr": "MIN",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 1 on the injury report"
       },
       "home": {
         "name": "Orlando Magic",
         "abbr": "ORL",
-        "note": "0\u20130"
+        "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "score": {
-        "away": "114.3",
-        "home": "115.7",
+        "away": "115.8",
+        "home": "117.5",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4528,
-        "home": 0.5472,
-        "note": "Fair odds: MIN +121, ORL -121 (no margin)."
+        "away": 0.4355,
+        "home": 0.5645,
+        "note": "Fair odds: MIN +130, ORL -130 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects MIN 114.3 \u2013 ORL 115.7: ORL by 1.4, 230.0 points in all. That makes ORL 55% to win.",
-            "Pace: MIN plays about 103.0 possessions a game against an average team, ORL 102.7.",
-            "MIN's offense is +0.5 points per 100 possessions against an average team, meeting ORL's defense at +1.7; ORL's offense -0.6 meets MIN's defense at +0.5 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects MIN 115.8 \u2013 ORL 117.5: ORL by 1.7, 233.4 points in all. That makes ORL 56% to win.",
+            "Pace: MIN plays about 104.1 possessions a game against an average team, ORL 104.2.",
+            "MIN's offense is +0.7 points per 100 possessions against an average team, meeting ORL's defense at +1.3; ORL's offense -0.5 meets MIN's defense at +0.5 (+ is better than average).",
+            "On the injury report \u2014 MIN: D. DiVincenzo out; ORL: A. Black out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has ORL +1.5; the model's line is ORL -1.7, so it gives ORL +1.5 58% to cover.",
+            "The market's total is 234.5 against the model's 233.4: the under, 53%.",
+            "The market (margin removed) gives ORL 46% to win; the model 56%."
           ]
         },
         {
@@ -689,30 +1023,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 60.0,
-              "home": 60.0,
+              "away": 63.0,
+              "home": 58.0,
               "max": 100,
-              "awayText": "60",
-              "homeText": "60"
+              "awayText": "63",
+              "homeText": "58"
             },
             {
               "label": "Offense",
-              "away": 57.0,
-              "home": 41.0,
+              "away": 61.0,
+              "home": 42.0,
               "max": 100,
-              "awayText": "57",
-              "homeText": "41"
+              "awayText": "61",
+              "homeText": "42"
             },
             {
               "label": "Defense",
               "away": 60.0,
-              "home": 79.0,
+              "home": 74.0,
               "max": 100,
               "awayText": "60",
-              "homeText": "79"
+              "homeText": "74"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 56.0,
+              "home": 49.0,
+              "max": 100,
+              "awayText": "56",
+              "homeText": "49"
+            },
+            {
+              "label": "Turnovers",
+              "away": 64.0,
+              "home": 43.0,
+              "max": 100,
+              "awayText": "64",
+              "homeText": "43"
+            },
+            {
+              "label": "Rebounding",
+              "away": 75.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "75",
+              "homeText": "46"
+            },
+            {
+              "label": "Free throws",
+              "away": 43.0,
+              "home": 52.0,
+              "max": 100,
+              "awayText": "43",
+              "homeText": "52"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -720,24 +1093,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 103.0,
-              "home": 102.7,
-              "awayText": "103.0",
-              "homeText": "102.7"
+              "away": 104.1,
+              "home": 104.2,
+              "awayText": "104.1",
+              "homeText": "104.2"
             },
             {
               "label": "Points scored",
-              "away": 115.3,
-              "home": 113.8,
-              "awayText": "115.3",
-              "homeText": "113.8"
+              "away": 115.6,
+              "home": 114.3,
+              "awayText": "115.6",
+              "homeText": "114.3"
             },
             {
               "label": "Points allowed",
-              "away": 114.3,
-              "home": 112.8,
-              "awayText": "114.3",
-              "homeText": "112.8",
+              "away": 114.2,
+              "home": 113.5,
+              "awayText": "114.2",
+              "homeText": "113.5",
               "lower": true
             }
           ],
@@ -754,16 +1127,83 @@
           "rows": [
             [
               "MIN to win",
-              "45%",
-              "\u2014"
+              "44%",
+              "54%"
             ],
             [
               "ORL to win",
-              "55%",
+              "56%",
+              "46%"
+            ],
+            [
+              "ORL +1.5",
+              "58%",
+              "\u2014"
+            ],
+            [
+              "MIN -1.5",
+              "42%",
+              "\u2014"
+            ],
+            [
+              "Over 234.5",
+              "47%",
+              "\u2014"
+            ],
+            [
+              "Under 234.5",
+              "53%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 ORL ML",
+              "+110",
+              "DraftKings",
+              "56%",
+              "46%",
+              {
+                "v": "+10.2%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 ORL +1.5",
+              "-110",
+              "DraftKings",
+              "58%",
+              "50%",
+              {
+                "v": "+7.9%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 Under 234.5",
+              "-105",
+              "DraftKings",
+              "53%",
+              "49%",
+              {
+                "v": "+3.7%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -771,25 +1211,25 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 42.3926,
-              "home": 44.0414,
-              "awayText": "42",
-              "homeText": "44"
+              "away": 43.935,
+              "home": 42.6189,
+              "awayText": "44",
+              "homeText": "43"
             },
             {
               "label": "Playoffs",
-              "away": 0.6108,
-              "home": 0.7056,
-              "awayText": "61%",
-              "homeText": "71%",
+              "away": 0.6939,
+              "home": 0.6454,
+              "awayText": "69%",
+              "homeText": "65%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0123,
-              "home": 0.0175,
+              "away": 0.0141,
+              "home": 0.0136,
               "awayText": "1%",
-              "homeText": "2%"
+              "homeText": "1%"
             }
           ],
           "note": "From the season forecast: the rest of the season played out 10,000 times."
@@ -802,32 +1242,35 @@
       "away": {
         "name": "Toronto Raptors",
         "abbr": "TOR",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 1 on the injury report"
       },
       "home": {
         "name": "Washington Wizards",
         "abbr": "WAS",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 2 on the injury report"
       },
       "score": {
-        "away": "118.8",
-        "home": "110.3",
+        "away": "119.6",
+        "home": "111.6",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.7655,
-        "home": 0.2345,
-        "note": "Fair odds: TOR -326, WAS +326 (no margin)."
+        "away": 0.7513,
+        "home": 0.2487,
+        "note": "Fair odds: TOR -302, WAS +302 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects TOR 118.8 \u2013 WAS 110.3: TOR by 8.5, 229.1 points in all. That makes TOR 77% to win.",
-            "Pace: TOR plays about 102.0 possessions a game against an average team, WAS 103.5.",
-            "TOR's offense is +1.5 points per 100 possessions against an average team, meeting WAS's defense at -1.1; WAS's offense -3.1 meets TOR's defense at +1.8 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects TOR 119.6 \u2013 WAS 111.6: TOR by 8.0, 231.2 points in all. That makes TOR 75% to win.",
+            "Pace: TOR plays about 103.7 possessions a game against an average team, WAS 104.1.",
+            "TOR's offense is +1.4 points per 100 possessions against an average team, meeting WAS's defense at -1.0; WAS's offense -2.5 meets TOR's defense at +1.9 (+ is better than average).",
+            "On the injury report \u2014 TOR: M. Smith out; WAS: A. Dybantsa out, J. Watkins out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has WAS +8.5; the model's line is TOR -8.0, so it gives WAS +8.5 51% to cover.",
+            "The market's total is 236.5 against the model's 231.2: the under, 62%.",
+            "The market (margin removed) gives WAS 28% to win; the model 25%."
           ]
         },
         {
@@ -837,29 +1280,68 @@
             {
               "label": "Overall",
               "away": 80.0,
-              "home": 14.0,
+              "home": 18.0,
               "max": 100,
               "awayText": "80",
-              "homeText": "14"
+              "homeText": "18"
             },
             {
               "label": "Offense",
               "away": 71.0,
-              "home": 12.0,
+              "home": 17.0,
               "max": 100,
               "awayText": "71",
-              "homeText": "12"
+              "homeText": "17"
             },
             {
               "label": "Defense",
-              "away": 81.0,
-              "home": 29.0,
+              "away": 82.0,
+              "home": 32.0,
               "max": 100,
-              "awayText": "81",
-              "homeText": "29"
+              "awayText": "82",
+              "homeText": "32"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 71.0,
+              "home": 53.0,
+              "max": 100,
+              "awayText": "71",
+              "homeText": "53"
+            },
+            {
+              "label": "Turnovers",
+              "away": 81.0,
+              "home": 61.0,
+              "max": 100,
+              "awayText": "81",
+              "homeText": "61"
+            },
+            {
+              "label": "Rebounding",
+              "away": 44.0,
+              "home": 51.0,
+              "max": 100,
+              "awayText": "44",
+              "homeText": "51"
+            },
+            {
+              "label": "Free throws",
+              "away": 48.0,
+              "home": 67.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "67"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -867,24 +1349,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 102.0,
-              "home": 103.5,
-              "awayText": "102.0",
-              "homeText": "103.5"
+              "away": 103.7,
+              "home": 104.1,
+              "awayText": "103.7",
+              "homeText": "104.1"
             },
             {
               "label": "Points scored",
-              "away": 115.2,
+              "away": 115.8,
               "home": 112.1,
-              "awayText": "115.2",
+              "awayText": "115.8",
               "homeText": "112.1"
             },
             {
               "label": "Points allowed",
-              "away": 111.8,
-              "home": 116.5,
-              "awayText": "111.8",
-              "homeText": "116.5",
+              "away": 112.4,
+              "home": 115.7,
+              "awayText": "112.4",
+              "homeText": "115.7",
               "lower": true
             }
           ],
@@ -901,16 +1383,72 @@
           "rows": [
             [
               "TOR to win",
-              "77%",
-              "\u2014"
+              "75%",
+              "72%"
             ],
             [
               "WAS to win",
-              "23%",
+              "25%",
+              "28%"
+            ],
+            [
+              "WAS +8.5",
+              "51%",
+              "\u2014"
+            ],
+            [
+              "TOR -8.5",
+              "49%",
+              "\u2014"
+            ],
+            [
+              "Over 236.5",
+              "38%",
+              "\u2014"
+            ],
+            [
+              "Under 236.5",
+              "62%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 Under 236.5",
+              "-110",
+              "DraftKings",
+              "62%",
+              "50%",
+              {
+                "v": "+12.2%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 TOR ML",
+              "-298",
+              "DraftKings",
+              "75%",
+              "72%",
+              {
+                "v": "+3.3%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -918,23 +1456,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 49.2226,
-              "home": 30.8572,
-              "awayText": "49",
-              "homeText": "31"
+              "away": 49.9259,
+              "home": 33.162,
+              "awayText": "50",
+              "homeText": "33"
             },
             {
               "label": "Playoffs",
-              "away": 0.8864,
-              "home": 0.1154,
-              "awayText": "89%",
-              "homeText": "12%",
+              "away": 0.9062,
+              "home": 0.1728,
+              "awayText": "91%",
+              "homeText": "17%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0661,
-              "home": 0.0006,
+              "away": 0.0704,
+              "home": 0.0004,
               "awayText": "7%",
               "homeText": "0%"
             }
@@ -949,31 +1487,35 @@
       "away": {
         "name": "Detroit Pistons",
         "abbr": "DET",
-        "note": "1\u20130"
+        "note": "1\u20130 \u00b7 2 on the injury report"
       },
       "home": {
         "name": "Miami Heat",
         "abbr": "MIA",
-        "note": "0\u20130"
+        "note": "0\u20131"
       },
       "score": {
         "away": "118.4",
-        "home": "116.6",
+        "home": "115.5",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.5595,
-        "home": 0.4405,
-        "note": "Fair odds: DET -127, MIA +127 (no margin)."
+        "away": 0.5931,
+        "home": 0.4069,
+        "note": "Fair odds: DET -146, MIA +146 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects DET 118.4 \u2013 MIA 116.6: DET by 1.8, 235.0 points in all. That makes DET 56% to win.",
-            "Pace: DET plays about 102.2 possessions a game against an average team, MIA 104.5.",
-            "DET's offense is +1.2 points per 100 possessions against an average team, meeting MIA's defense at -0.1; MIA's offense -0.2 meets DET's defense at +0.7 (+ is better than average)."
+            "The model expects DET 118.4 \u2013 MIA 115.5: DET by 2.9, 233.9 points in all. That makes DET 59% to win.",
+            "Pace: DET plays about 103.2 possessions a game against an average team, MIA 105.1.",
+            "DET's offense is +1.1 points per 100 possessions against an average team, meeting MIA's defense at -0.3; MIA's offense -0.4 meets DET's defense at +0.7 (+ is better than average).",
+            "On the injury report \u2014 DET: T. Prince probable, E. Harkless out; MIA: nobody. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has MIA +1.5; the model's line is DET -2.9, so it gives DET -1.5 55% to cover.",
+            "The market's total is 235.5 against the model's 233.9: the under, 55%.",
+            "The market (margin removed) gives MIA 49% to win; the model 41%."
           ]
         },
         {
@@ -982,30 +1524,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 69.0,
-              "home": 47.0,
+              "away": 67.0,
+              "home": 44.0,
               "max": 100,
-              "awayText": "69",
-              "homeText": "47"
+              "awayText": "67",
+              "homeText": "44"
             },
             {
               "label": "Offense",
-              "away": 67.0,
-              "home": 47.0,
+              "away": 65.0,
+              "home": 45.0,
               "max": 100,
-              "awayText": "67",
-              "homeText": "47"
+              "awayText": "65",
+              "homeText": "45"
             },
             {
               "label": "Defense",
-              "away": 64.0,
-              "home": 47.0,
+              "away": 63.0,
+              "home": 45.0,
               "max": 100,
-              "awayText": "64",
-              "homeText": "47"
+              "awayText": "63",
+              "homeText": "45"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 49.0,
+              "home": 44.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "44"
+            },
+            {
+              "label": "Turnovers",
+              "away": 45.0,
+              "home": 36.0,
+              "max": 100,
+              "awayText": "45",
+              "homeText": "36"
+            },
+            {
+              "label": "Rebounding",
+              "away": 59.0,
+              "home": 26.0,
+              "max": 100,
+              "awayText": "59",
+              "homeText": "26"
+            },
+            {
+              "label": "Free throws",
+              "away": 65.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "65",
+              "homeText": "57"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -1013,24 +1594,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 102.2,
-              "home": 104.5,
-              "awayText": "102.2",
-              "homeText": "104.5"
+              "away": 103.2,
+              "home": 105.1,
+              "awayText": "103.2",
+              "homeText": "105.1"
             },
             {
               "label": "Points scored",
-              "away": 115.1,
-              "home": 116.3,
-              "awayText": "115.1",
-              "homeText": "116.3"
+              "away": 114.8,
+              "home": 115.5,
+              "awayText": "114.8",
+              "homeText": "115.5"
             },
             {
               "label": "Points allowed",
               "away": 113.1,
-              "home": 116.6,
+              "home": 116.2,
               "awayText": "113.1",
-              "homeText": "116.6",
+              "homeText": "116.2",
               "lower": true
             }
           ],
@@ -1047,16 +1628,83 @@
           "rows": [
             [
               "DET to win",
-              "56%",
-              "\u2014"
+              "59%",
+              "51%"
             ],
             [
               "MIA to win",
+              "41%",
+              "49%"
+            ],
+            [
+              "MIA +1.5",
               "44%",
+              "\u2014"
+            ],
+            [
+              "DET -1.5",
+              "55%",
+              "\u2014"
+            ],
+            [
+              "Over 235.5",
+              "45%",
+              "\u2014"
+            ],
+            [
+              "Under 235.5",
+              "55%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 DET ML",
+              "-115",
+              "DraftKings",
+              "59%",
+              "51%",
+              {
+                "v": "+8.2%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 DET -1.5",
+              "-105",
+              "DraftKings",
+              "55%",
+              "49%",
+              {
+                "v": "+6.5%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 Under 235.5",
+              "-110",
+              "DraftKings",
+              "54%",
+              "50%",
+              {
+                "v": "+4.3%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -1064,23 +1712,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 46.5459,
-              "home": 41.0584,
-              "awayText": "47",
-              "homeText": "41"
+              "away": 45.98,
+              "home": 39.6968,
+              "awayText": "46",
+              "homeText": "40"
             },
             {
               "label": "Playoffs",
-              "away": 0.812,
-              "home": 0.559,
-              "awayText": "81%",
-              "homeText": "56%",
+              "away": 0.792,
+              "home": 0.4968,
+              "awayText": "79%",
+              "homeText": "50%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0298,
-              "home": 0.0075,
+              "away": 0.0257,
+              "home": 0.0058,
               "awayText": "3%",
               "homeText": "1%"
             }
@@ -1095,34 +1743,35 @@
       "away": {
         "name": "Houston Rockets",
         "abbr": "HOU",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 2 on the injury report"
       },
       "home": {
         "name": "San Antonio Spurs",
         "abbr": "SAS",
-        "note": "0\u20131"
+        "note": "0\u20131 \u00b7 4 on the injury report"
       },
       "score": {
-        "away": "111.0",
-        "home": "114.0",
+        "away": "110.2",
+        "home": "116.5",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.3954,
-        "home": 0.6046,
-        "note": "Fair odds: HOU +153, SAS -153 (no margin)."
+        "away": 0.2903,
+        "home": 0.7097,
+        "note": "Fair odds: HOU +244, SAS -244 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects HOU 111.0 \u2013 SAS 114.0: SAS by 3.0, 225.0 points in all. That makes SAS 60% to win.",
-            "Pace: HOU plays about 100.9 possessions a game against an average team, SAS 102.8.",
-            "HOU's offense is +0.4 points per 100 possessions against an average team, meeting SAS's defense at +2.3; SAS's offense +1.1 meets HOU's defense at +2.0 (+ is better than average).",
-            "The market has SAS -6.5; the model's line is SAS -3.0, so it gives HOU +6.5 60% to cover.",
-            "The market's total is 225.5 against the model's 225.0: the under, 52%.",
-            "The market (margin removed) gives SAS 68% to win; the model 60%."
+            "The model expects HOU 110.2 \u2013 SAS 116.5: SAS by 6.4, 226.7 points in all. That makes SAS 71% to win.",
+            "Pace: HOU plays about 102.0 possessions a game against an average team, SAS 104.1.",
+            "HOU's offense is +0.6 points per 100 possessions against an average team, meeting SAS's defense at +2.2; SAS's offense +1.0 meets HOU's defense at +1.8 (+ is better than average).",
+            "On the injury report \u2014 HOU: R. Sheppard questionable, S. Adams questionable; SAS: D. Fox questionable, T. Harris out, K. Johnson questionable, J. Quaintance out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has SAS -5.5; the model's line is SAS -6.4, so it gives SAS -5.5 54% to cover.",
+            "The market's total is 226.5 against the model's 226.7: the under, 50%.",
+            "The market (margin removed) gives SAS 64% to win; the model 71%."
           ]
         },
         {
@@ -1131,30 +1780,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 74.0,
-              "home": 81.0,
+              "away": 73.0,
+              "home": 79.0,
               "max": 100,
-              "awayText": "74",
-              "homeText": "81"
+              "awayText": "73",
+              "homeText": "79"
             },
             {
               "label": "Offense",
-              "away": 57.0,
-              "home": 66.0,
+              "away": 59.0,
+              "home": 65.0,
               "max": 100,
-              "awayText": "57",
-              "homeText": "66"
+              "awayText": "59",
+              "homeText": "65"
             },
             {
               "label": "Defense",
-              "away": 84.0,
-              "home": 87.0,
+              "away": 82.0,
+              "home": 86.0,
               "max": 100,
-              "awayText": "84",
-              "homeText": "87"
+              "awayText": "82",
+              "homeText": "86"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 55.0,
+              "home": 39.0,
+              "max": 100,
+              "awayText": "55",
+              "homeText": "39"
+            },
+            {
+              "label": "Turnovers",
+              "away": 65.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "65",
+              "homeText": "46"
+            },
+            {
+              "label": "Rebounding",
+              "away": 66.0,
+              "home": 49.0,
+              "max": 100,
+              "awayText": "66",
+              "homeText": "49"
+            },
+            {
+              "label": "Free throws",
+              "away": 49.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "57"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -1162,24 +1850,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 100.9,
-              "home": 102.8,
-              "awayText": "100.9",
-              "homeText": "102.8"
+              "away": 102.0,
+              "home": 104.1,
+              "awayText": "102.0",
+              "homeText": "104.1"
             },
             {
               "label": "Points scored",
-              "away": 112.8,
+              "away": 113.1,
               "home": 115.8,
-              "awayText": "112.8",
+              "awayText": "113.1",
               "homeText": "115.8"
             },
             {
               "label": "Points allowed",
-              "away": 110.4,
-              "home": 112.3,
-              "awayText": "110.4",
-              "homeText": "112.3",
+              "away": 110.6,
+              "home": 112.5,
+              "awayText": "110.6",
+              "homeText": "112.5",
               "lower": true
             }
           ],
@@ -1196,36 +1884,72 @@
           "rows": [
             [
               "HOU to win",
-              "40%",
-              "32%"
+              "29%",
+              "36%"
             ],
             [
               "SAS to win",
-              "60%",
-              "68%"
+              "71%",
+              "64%"
             ],
             [
-              "SAS -6.5",
-              "40%",
+              "SAS -5.5",
+              "54%",
               "\u2014"
             ],
             [
-              "HOU +6.5",
-              "60%",
+              "HOU +5.5",
+              "46%",
               "\u2014"
             ],
             [
-              "Over 225.5",
-              "48%",
+              "Over 226.5",
+              "50%",
               "\u2014"
             ],
             [
-              "Under 225.5",
-              "52%",
+              "Under 226.5",
+              "50%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 SAS ML",
+              "-205",
+              "DraftKings",
+              "70%",
+              "64%",
+              {
+                "v": "+5.2%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 SAS -5.5",
+              "-108",
+              "DraftKings",
+              "52%",
+              "50%",
+              {
+                "v": "+2.6%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -1233,25 +1957,25 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 46.7409,
-              "home": 49.6831,
+              "away": 47.1227,
+              "home": 49.2071,
               "awayText": "47",
-              "homeText": "50"
+              "homeText": "49"
             },
             {
               "label": "Playoffs",
-              "away": 0.7993,
-              "home": 0.889,
-              "awayText": "80%",
-              "homeText": "89%",
+              "away": 0.8197,
+              "home": 0.8768,
+              "awayText": "82%",
+              "homeText": "88%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0293,
-              "home": 0.0491,
+              "away": 0.0288,
+              "home": 0.0447,
               "awayText": "3%",
-              "homeText": "5%"
+              "homeText": "4%"
             }
           ],
           "note": "From the season forecast: the rest of the season played out 10,000 times."
@@ -1264,32 +1988,35 @@
       "away": {
         "name": "New Orleans Pelicans",
         "abbr": "NOP",
-        "note": "0\u20130"
+        "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "home": {
         "name": "Utah Jazz",
         "abbr": "UTA",
-        "note": "0\u20130"
+        "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "score": {
-        "away": "118.5",
-        "home": "120.2",
+        "away": "119.0",
+        "home": "119.9",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4487,
-        "home": 0.5513,
-        "note": "Fair odds: NOP +123, UTA -123 (no margin)."
+        "away": 0.4687,
+        "home": 0.5313,
+        "note": "Fair odds: NOP +113, UTA -113 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects NOP 118.5 \u2013 UTA 120.2: UTA by 1.7, 238.7 points in all. That makes UTA 55% to win.",
-            "Pace: NOP plays about 103.0 possessions a game against an average team, UTA 103.9.",
-            "NOP's offense is -0.5 points per 100 possessions against an average team, meeting UTA's defense at -2.6; UTA's offense -0.4 meets NOP's defense at -1.6 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects NOP 119.0 \u2013 UTA 119.9: UTA by 1.0, 238.9 points in all. That makes UTA 53% to win.",
+            "Pace: NOP plays about 104.0 possessions a game against an average team, UTA 104.3.",
+            "NOP's offense is -0.7 points per 100 possessions against an average team, meeting UTA's defense at -2.4; UTA's offense -0.4 meets NOP's defense at -1.4 (+ is better than average).",
+            "On the injury report \u2014 NOP: J. Reese out; UTA: J. Nurki\u0107 out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has UTA -1.5; the model's line is UTA -1.0, so it gives NOP +1.5 50% to cover.",
+            "The market's total is 239.5 against the model's 238.9: the under, 52%.",
+            "The market (margin removed) gives UTA 53% to win; the model 53%."
           ]
         },
         {
@@ -1298,30 +2025,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 29.0,
-              "home": 22.0,
+              "away": 30.0,
+              "home": 23.0,
               "max": 100,
-              "awayText": "29",
-              "homeText": "22"
+              "awayText": "30",
+              "homeText": "23"
             },
             {
               "label": "Offense",
-              "away": 43.0,
-              "home": 45.0,
+              "away": 40.0,
+              "home": 44.0,
               "max": 100,
-              "awayText": "43",
-              "homeText": "45"
+              "awayText": "40",
+              "homeText": "44"
             },
             {
               "label": "Defense",
-              "away": 21.0,
-              "home": 10.0,
+              "away": 25.0,
+              "home": 12.0,
               "max": 100,
-              "awayText": "21",
-              "homeText": "10"
+              "awayText": "25",
+              "homeText": "12"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 38.0,
+              "home": 50.0,
+              "max": 100,
+              "awayText": "38",
+              "homeText": "50"
+            },
+            {
+              "label": "Turnovers",
+              "away": 48.0,
+              "home": 34.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "34"
+            },
+            {
+              "label": "Rebounding",
+              "away": 59.0,
+              "home": 31.0,
+              "max": 100,
+              "awayText": "59",
+              "homeText": "31"
+            },
+            {
+              "label": "Free throws",
+              "away": 67.0,
+              "home": 56.0,
+              "max": 100,
+              "awayText": "67",
+              "homeText": "56"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -1329,24 +2095,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 103.0,
-              "home": 103.9,
-              "awayText": "103.0",
-              "homeText": "103.9"
+              "away": 104.0,
+              "home": 104.3,
+              "awayText": "104.0",
+              "homeText": "104.3"
             },
             {
               "label": "Points scored",
-              "away": 114.3,
-              "home": 115.4,
-              "awayText": "114.3",
-              "homeText": "115.4"
+              "away": 113.9,
+              "home": 114.5,
+              "awayText": "113.9",
+              "homeText": "114.5"
             },
             {
               "label": "Points allowed",
-              "away": 116.5,
-              "home": 118.5,
-              "awayText": "116.5",
-              "homeText": "118.5",
+              "away": 116.0,
+              "home": 117.5,
+              "awayText": "116.0",
+              "homeText": "117.5",
               "lower": true
             }
           ],
@@ -1363,16 +2129,61 @@
           "rows": [
             [
               "NOP to win",
-              "45%",
-              "\u2014"
+              "47%",
+              "47%"
             ],
             [
               "UTA to win",
-              "55%",
+              "53%",
+              "53%"
+            ],
+            [
+              "UTA -1.5",
+              "50%",
+              "\u2014"
+            ],
+            [
+              "NOP +1.5",
+              "50%",
+              "\u2014"
+            ],
+            [
+              "Over 239.5",
+              "48%",
+              "\u2014"
+            ],
+            [
+              "Under 239.5",
+              "52%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 Under 239.5",
+              "-108",
+              "DraftKings",
+              "53%",
+              "50%",
+              {
+                "v": "+3.4%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -1380,23 +2191,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 35.4666,
-              "home": 34.7712,
+              "away": 34.7955,
+              "home": 34.3118,
               "awayText": "35",
-              "homeText": "35"
+              "homeText": "34"
             },
             {
               "label": "Playoffs",
-              "away": 0.2619,
-              "home": 0.2191,
-              "awayText": "26%",
-              "homeText": "22%",
+              "away": 0.2359,
+              "home": 0.2052,
+              "awayText": "24%",
+              "homeText": "21%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0011,
-              "home": 0.0001,
+              "away": 0.0005,
+              "home": 0.0005,
               "awayText": "0%",
               "homeText": "0%"
             }
@@ -1411,32 +2222,35 @@
       "away": {
         "name": "Memphis Grizzlies",
         "abbr": "MEM",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 2 on the injury report"
       },
       "home": {
         "name": "Golden State Warriors",
         "abbr": "GSW",
-        "note": "0\u20130"
+        "note": "0\u20131 \u00b7 4 on the injury report"
       },
       "score": {
-        "away": "111.8",
-        "home": "121.5",
+        "away": "112.2",
+        "home": "117.0",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.2071,
-        "home": 0.7929,
-        "note": "Fair odds: MEM +383, GSW -383 (no margin)."
+        "away": 0.3383,
+        "home": 0.6617,
+        "note": "Fair odds: MEM +196, GSW -196 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects MEM 111.8 \u2013 GSW 121.5: GSW by 9.8, 233.3 points in all. That makes GSW 79% to win.",
-            "Pace: MEM plays about 103.5 possessions a game against an average team, GSW 102.3.",
-            "MEM's offense is -1.4 points per 100 possessions against an average team, meeting GSW's defense at +0.9; GSW's offense +2.1 meets MEM's defense at -1.4 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects MEM 112.2 \u2013 GSW 117.0: GSW by 4.8, 229.3 points in all. That makes GSW 66% to win.",
+            "Pace: MEM plays about 104.1 possessions a game against an average team, GSW 103.2.",
+            "MEM's offense is -1.4 points per 100 possessions against an average team, meeting GSW's defense at +0.7; GSW's offense +1.9 meets MEM's defense at -1.4 (+ is better than average).",
+            "On the injury report \u2014 MEM: C. Coward doubtful, I. Stewart questionable; GSW: J. Butler III out, B. Podziemski questionable, M. Moody out, K. Porzi\u0146\u0123is out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has GSW -3.5; the model's line is GSW -4.8, so it gives GSW -3.5 55% to cover.",
+            "The market's total is 234.5 against the model's 229.3: the under, 62%.",
+            "The market (margin removed) gives GSW 57% to win; the model 66%."
           ]
         },
         {
@@ -1445,30 +2259,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 23.0,
-              "home": 78.0,
+              "away": 24.0,
+              "home": 75.0,
               "max": 100,
-              "awayText": "23",
-              "homeText": "78"
+              "awayText": "24",
+              "homeText": "75"
             },
             {
               "label": "Offense",
-              "away": 30.0,
-              "home": 78.0,
+              "away": 29.0,
+              "home": 75.0,
               "max": 100,
-              "awayText": "30",
-              "homeText": "78"
+              "awayText": "29",
+              "homeText": "75"
             },
             {
               "label": "Defense",
-              "away": 24.0,
-              "home": 67.0,
+              "away": 25.0,
+              "home": 64.0,
               "max": 100,
-              "awayText": "24",
-              "homeText": "67"
+              "awayText": "25",
+              "homeText": "64"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 50.0,
+              "home": 27.0,
+              "max": 100,
+              "awayText": "50",
+              "homeText": "27"
+            },
+            {
+              "label": "Turnovers",
+              "away": 65.0,
+              "home": 60.0,
+              "max": 100,
+              "awayText": "65",
+              "homeText": "60"
+            },
+            {
+              "label": "Rebounding",
+              "away": 70.0,
+              "home": 49.0,
+              "max": 100,
+              "awayText": "70",
+              "homeText": "49"
+            },
+            {
+              "label": "Free throws",
+              "away": 44.0,
+              "home": 43.0,
+              "max": 100,
+              "awayText": "44",
+              "homeText": "43"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -1476,24 +2329,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 103.5,
-              "home": 102.3,
-              "awayText": "103.5",
-              "homeText": "102.3"
+              "away": 104.1,
+              "home": 103.2,
+              "awayText": "104.1",
+              "homeText": "103.2"
             },
             {
               "label": "Points scored",
-              "away": 113.9,
-              "home": 116.1,
-              "awayText": "113.9",
-              "homeText": "116.1"
+              "away": 113.2,
+              "home": 115.6,
+              "awayText": "113.2",
+              "homeText": "115.6"
             },
             {
               "label": "Points allowed",
-              "away": 116.8,
-              "home": 113.0,
-              "awayText": "116.8",
-              "homeText": "113.0",
+              "away": 116.1,
+              "home": 112.9,
+              "awayText": "116.1",
+              "homeText": "112.9",
               "lower": true
             }
           ],
@@ -1510,16 +2363,83 @@
           "rows": [
             [
               "MEM to win",
-              "21%",
-              "\u2014"
+              "34%",
+              "43%"
             ],
             [
               "GSW to win",
-              "79%",
+              "66%",
+              "57%"
+            ],
+            [
+              "GSW -3.5",
+              "55%",
+              "\u2014"
+            ],
+            [
+              "MEM +3.5",
+              "45%",
+              "\u2014"
+            ],
+            [
+              "Over 234.5",
+              "38%",
+              "\u2014"
+            ],
+            [
+              "Under 234.5",
+              "62%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 Under 234.5",
+              "-110",
+              "DraftKings",
+              "61%",
+              "50%",
+              {
+                "v": "+11.3%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 GSW ML",
+              "-148",
+              "DraftKings",
+              "66%",
+              "57%",
+              {
+                "v": "+8.9%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 GSW -3.5",
+              "-102",
+              "DraftKings",
+              "55%",
+              "48%",
+              {
+                "v": "+7.0%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -1527,25 +2447,25 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 33.6629,
-              "home": 48.5475,
+              "away": 34.0371,
+              "home": 47.2886,
               "awayText": "34",
-              "homeText": "49"
+              "homeText": "47"
             },
             {
               "label": "Playoffs",
-              "away": 0.1863,
-              "home": 0.8612,
-              "awayText": "19%",
-              "homeText": "86%",
+              "away": 0.1983,
+              "home": 0.8251,
+              "awayText": "20%",
+              "homeText": "83%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.0004,
-              "home": 0.0403,
+              "away": 0.0005,
+              "home": 0.0312,
               "awayText": "0%",
-              "homeText": "4%"
+              "homeText": "3%"
             }
           ],
           "note": "From the season forecast: the rest of the season played out 10,000 times."
@@ -1558,32 +2478,35 @@
       "away": {
         "name": "LA Clippers",
         "abbr": "LAC",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 4 on the injury report"
       },
       "home": {
         "name": "Los Angeles Lakers",
         "abbr": "LAL",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 1 on the injury report"
       },
       "score": {
-        "away": "105.3",
-        "home": "121.4",
+        "away": "104.4",
+        "home": "122.1",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.089,
-        "home": 0.911,
-        "note": "Fair odds: LAC +1024, LAL -1024 (no margin)."
+        "away": 0.0679,
+        "home": 0.9321,
+        "note": "Fair odds: LAC +1373, LAL -1373 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects LAC 105.3 \u2013 LAL 121.4: LAL by 16.1, 226.7 points in all. That makes LAL 91% to win.",
-            "Pace: LAC plays about 100.9 possessions a game against an average team, LAL 101.8.",
-            "LAC's offense is -4.1 points per 100 possessions against an average team, meeting LAL's defense at +0.7; LAL's offense +4.5 meets LAC's defense at -1.9 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects LAC 104.4 \u2013 LAL 122.1: LAL by 17.7, 226.6 points in all. That makes LAL 93% to win.",
+            "Pace: LAC plays about 102.2 possessions a game against an average team, LAL 102.8.",
+            "LAC's offense is -4.0 points per 100 possessions against an average team, meeting LAL's defense at +1.0; LAL's offense +4.4 meets LAC's defense at -1.8 (+ is better than average).",
+            "On the injury report \u2014 LAC: B. Ingram out, M. Strus out, J. Miller out, B. Beal out; LAL: J. LaRavia questionable. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has LAL -9.5; the model's line is LAL -17.7, so it gives LAL -9.5 72% to cover.",
+            "The market's total is 228.5 against the model's 226.6: the under, 55%.",
+            "The market (margin removed) gives LAL 76% to win; the model 93%."
           ]
         },
         {
@@ -1592,30 +2515,69 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 6.0,
-              "home": 91.0,
+              "away": 7.0,
+              "home": 92.0,
               "max": 100,
-              "awayText": "6",
-              "homeText": "91"
+              "awayText": "7",
+              "homeText": "92"
             },
             {
               "label": "Offense",
-              "away": 6.0,
+              "away": 7.0,
               "home": 95.0,
               "max": 100,
-              "awayText": "6",
+              "awayText": "7",
               "homeText": "95"
             },
             {
               "label": "Defense",
-              "away": 17.0,
-              "home": 63.0,
+              "away": 19.0,
+              "home": 69.0,
               "max": 100,
-              "awayText": "17",
-              "homeText": "63"
+              "awayText": "19",
+              "homeText": "69"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 68.0,
+              "home": 73.0,
+              "max": 100,
+              "awayText": "68",
+              "homeText": "73"
+            },
+            {
+              "label": "Turnovers",
+              "away": 49.0,
+              "home": 40.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "40"
+            },
+            {
+              "label": "Rebounding",
+              "away": 54.0,
+              "home": 51.0,
+              "max": 100,
+              "awayText": "54",
+              "homeText": "51"
+            },
+            {
+              "label": "Free throws",
+              "away": 57.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "57",
+              "homeText": "57"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -1623,24 +2585,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 100.9,
-              "home": 101.8,
-              "awayText": "100.9",
-              "homeText": "101.8"
+              "away": 102.2,
+              "home": 102.8,
+              "awayText": "102.2",
+              "homeText": "102.8"
             },
             {
               "label": "Points scored",
-              "away": 108.3,
-              "home": 118.0,
-              "awayText": "108.3",
-              "homeText": "118.0"
+              "away": 108.6,
+              "home": 117.8,
+              "awayText": "108.6",
+              "homeText": "117.8"
             },
             {
               "label": "Points allowed",
-              "away": 114.4,
-              "home": 112.7,
-              "awayText": "114.4",
-              "homeText": "112.7",
+              "away": 114.5,
+              "home": 112.3,
+              "awayText": "114.5",
+              "homeText": "112.3",
               "lower": true
             }
           ],
@@ -1657,16 +2619,83 @@
           "rows": [
             [
               "LAC to win",
-              "9%",
-              "\u2014"
+              "7%",
+              "24%"
             ],
             [
               "LAL to win",
-              "91%",
+              "93%",
+              "76%"
+            ],
+            [
+              "LAL -9.5",
+              "72%",
+              "\u2014"
+            ],
+            [
+              "LAC +9.5",
+              "28%",
+              "\u2014"
+            ],
+            [
+              "Over 228.5",
+              "45%",
+              "\u2014"
+            ],
+            [
+              "Under 228.5",
+              "55%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 LAL -9.5",
+              "-105",
+              "DraftKings",
+              "73%",
+              "49%",
+              {
+                "v": "+24.1%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 LAL ML",
+              "-380",
+              "DraftKings",
+              "93%",
+              "76%",
+              {
+                "v": "+17.3%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 Under 228.5",
+              "-110",
+              "DraftKings",
+              "54%",
+              "50%",
+              {
+                "v": "+3.6%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -1674,25 +2703,25 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 26.6408,
-              "home": 53.35,
+              "away": 27.0823,
+              "home": 54.195,
               "awayText": "27",
-              "homeText": "53"
+              "homeText": "54"
             },
             {
               "label": "Playoffs",
-              "away": 0.0322,
-              "home": 0.9486,
-              "awayText": "3%",
-              "homeText": "95%",
+              "away": 0.0354,
+              "home": 0.9608,
+              "awayText": "4%",
+              "homeText": "96%",
               "max": 1
             },
             {
               "label": "Title",
               "away": 0.0,
-              "home": 0.1209,
+              "home": 0.1401,
               "awayText": "0%",
-              "homeText": "12%"
+              "homeText": "14%"
             }
           ],
           "note": "From the season forecast: the rest of the season played out 10,000 times."
@@ -1705,32 +2734,35 @@
       "away": {
         "name": "Portland Trail Blazers",
         "abbr": "POR",
-        "note": "0\u20130"
+        "note": "1\u20130 \u00b7 1 on the injury report"
       },
       "home": {
         "name": "Sacramento Kings",
         "abbr": "SAC",
-        "note": "0\u20130"
+        "note": "0\u20131 \u00b7 2 on the injury report"
       },
       "score": {
-        "away": "120.7",
-        "home": "111.8",
+        "away": "120.3",
+        "home": "111.1",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.7723,
-        "home": 0.2277,
-        "note": "Fair odds: POR -339, SAC +339 (no margin)."
+        "away": 0.7826,
+        "home": 0.2174,
+        "note": "Fair odds: POR -360, SAC +360 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects POR 120.7 \u2013 SAC 111.8: POR by 8.8, 232.5 points in all. That makes POR 77% to win.",
-            "Pace: POR plays about 103.3 possessions a game against an average team, SAC 102.4.",
-            "POR's offense is +1.4 points per 100 possessions against an average team, meeting SAC's defense at -2.7; SAC's offense -4.4 meets POR's defense at -0.6 (+ is better than average).",
-            "No games played yet: each team's rating is its players' ratings times their projected minutes."
+            "The model expects POR 120.3 \u2013 SAC 111.1: POR by 9.2, 231.5 points in all. That makes POR 78% to win.",
+            "Pace: POR plays about 103.6 possessions a game against an average team, SAC 103.2.",
+            "POR's offense is +1.4 points per 100 possessions against an average team, meeting SAC's defense at -2.6; SAC's offense -4.5 meets POR's defense at -0.4 (+ is better than average).",
+            "On the injury report \u2014 POR: S. Sharpe out; SAC: M. Raynaud out, B. Simmons out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has SAC +8.5; the model's line is POR -9.2, so it gives POR -8.5 52% to cover.",
+            "The market's total is 232.5 against the model's 231.5: the under, 53%.",
+            "The market (margin removed) gives SAC 25% to win; the model 22%."
           ]
         },
         {
@@ -1739,10 +2771,10 @@
           "rows": [
             {
               "label": "Overall",
-              "away": 59.0,
+              "away": 60.0,
               "home": 3.0,
               "max": 100,
-              "awayText": "59",
+              "awayText": "60",
               "homeText": "3"
             },
             {
@@ -1755,14 +2787,53 @@
             },
             {
               "label": "Defense",
-              "away": 39.0,
+              "away": 42.0,
               "home": 10.0,
               "max": 100,
-              "awayText": "39",
+              "awayText": "42",
               "homeText": "10"
             }
           ],
           "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
+        },
+        {
+          "title": "The Four Factors",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Shooting",
+              "away": 74.0,
+              "home": 32.0,
+              "max": 100,
+              "awayText": "74",
+              "homeText": "32"
+            },
+            {
+              "label": "Turnovers",
+              "away": 48.0,
+              "home": 50.0,
+              "max": 100,
+              "awayText": "48",
+              "homeText": "50"
+            },
+            {
+              "label": "Rebounding",
+              "away": 64.0,
+              "home": 47.0,
+              "max": 100,
+              "awayText": "64",
+              "homeText": "47"
+            },
+            {
+              "label": "Free throws",
+              "away": 46.0,
+              "home": 43.0,
+              "max": 100,
+              "awayText": "46",
+              "homeText": "43"
+            }
+          ],
+          "note": "This season's margins over opponents, shown for context: the model doesn't use them."
         },
         {
           "title": "Pace and scoring",
@@ -1770,24 +2841,24 @@
           "rows": [
             {
               "label": "Possessions",
-              "away": 103.3,
-              "home": 102.4,
-              "awayText": "103.3",
-              "homeText": "102.4"
+              "away": 103.6,
+              "home": 103.2,
+              "awayText": "103.6",
+              "homeText": "103.2"
             },
             {
               "label": "Points scored",
-              "away": 116.6,
-              "home": 109.5,
-              "awayText": "116.6",
-              "homeText": "109.5"
+              "away": 115.6,
+              "home": 109.2,
+              "awayText": "115.6",
+              "homeText": "109.2"
             },
             {
               "label": "Points allowed",
-              "away": 115.7,
-              "home": 116.8,
-              "awayText": "115.7",
-              "homeText": "116.8",
+              "away": 114.6,
+              "home": 116.5,
+              "awayText": "114.6",
+              "homeText": "116.5",
               "lower": true
             }
           ],
@@ -1804,16 +2875,72 @@
           "rows": [
             [
               "POR to win",
-              "77%",
-              "\u2014"
+              "78%",
+              "75%"
             ],
             [
               "SAC to win",
-              "23%",
+              "22%",
+              "25%"
+            ],
+            [
+              "SAC +8.5",
+              "48%",
+              "\u2014"
+            ],
+            [
+              "POR -8.5",
+              "52%",
+              "\u2014"
+            ],
+            [
+              "Over 232.5",
+              "47%",
+              "\u2014"
+            ],
+            [
+              "Under 232.5",
+              "53%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 POR ML",
+              "-355",
+              "DraftKings",
+              "78%",
+              "75%",
+              {
+                "v": "+3.5%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 Under 232.5",
+              "-112",
+              "DraftKings",
+              "53%",
+              "50%",
+              {
+                "v": "+3.0%",
+                "tone": "good"
+              }
+            ]
+          ]
         },
         {
           "title": "Season outlook",
@@ -1821,23 +2948,23 @@
           "rows": [
             {
               "label": "Proj. wins",
-              "away": 42.5649,
-              "home": 23.5696,
+              "away": 43.3178,
+              "home": 22.95,
               "awayText": "43",
-              "homeText": "24"
+              "homeText": "23"
             },
             {
               "label": "Playoffs",
-              "away": 0.6202,
-              "home": 0.0119,
-              "awayText": "62%",
+              "away": 0.6665,
+              "home": 0.0089,
+              "awayText": "67%",
               "homeText": "1%",
               "max": 1
             },
             {
               "label": "Title",
-              "away": 0.012,
-              "home": 0.0,
+              "away": 0.0118,
+              "home": 0.0001,
               "awayText": "1%",
               "homeText": "0%"
             }

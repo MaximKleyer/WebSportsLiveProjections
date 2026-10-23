@@ -1,7 +1,13 @@
 {
-  "subtitle": "Thu Oct 22, 2026\u201327 \u2014 2 games \u00b7 EARLY LOOK as of 10:33 AM ET Wed: before game-day injury news and without bets; the gameday task's morning run replaces it \u00b7 times ET \u00b7 score = expected points \u00b7 fair ML is the home side's \u00b7 vs spread / total = the side of the market's line the model favours",
-  "updated": "2026-10-21",
+  "subtitle": "Thu Oct 22, 2026\u201327 \u2014 2 games \u00b7 times ET \u00b7 score = expected points \u00b7 fair ML is the home side's \u00b7 vs spread / total = the side of the market's line the model favours \u00b7 \u2605 = flagged bet",
+  "updated": "2026-10-23",
   "search": "Search teams or players",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
   "columns": [
     {
       "key": "start",
@@ -75,6 +81,12 @@
       "label": "vs Total",
       "align": "right",
       "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet (edge)",
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
@@ -83,64 +95,84 @@
         "v": "7:00 PM",
         "sort": "2026-10-22T23:00:00Z"
       },
-      "awayTeam": "CLE",
-      "awayScore": "118.2",
+      "awayTeam": {
+        "v": "CLE",
+        "sub": "J. Allen questionable, N. Tomlin out"
+      },
+      "awayScore": "117.8",
       "sep": "\u2013",
-      "homeScore": "116.8",
-      "homeTeam": "PHI",
-      "homeWin": 0.4523,
-      "fair": "+121",
+      "homeScore": "118.7",
+      "homeTeam": {
+        "v": "PHI",
+        "sub": "D. Barlow out, D. Wade questionable"
+      },
+      "homeWin": 0.5259,
+      "fair": "-111",
       "spread": {
-        "v": "CLE -1.4",
-        "sort": -1.4
+        "v": "PHI -0.8",
+        "sort": 0.83
       },
       "total": {
-        "v": "235.0",
-        "sort": 234.96
+        "v": "236.5",
+        "sort": 236.47
       },
-      "mktHome": 0.5514,
+      "mktHome": 0.5635,
       "ats": {
-        "v": "CLE +2.5 \u00b7 60%",
-        "sort": 0.5992
+        "v": "CLE +3.5 \u00b7 57%",
+        "sort": 0.5661
       },
       "ou": {
-        "v": "Over 234.5 \u00b7 50%",
-        "sort": 0.5014
+        "v": "Under 237.5 \u00b7 53%",
+        "sort": 0.532
       },
       "id": "0022600006",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 CLE +3.5 (+5.5%) +1",
+        "sort": 0.0553
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "9:30 PM",
         "sort": "2026-10-23T01:30:00Z"
       },
-      "awayTeam": "DEN",
-      "awayScore": "115.4",
+      "awayTeam": {
+        "v": "DEN",
+        "sub": "S. Jones out, J. Strawther out"
+      },
+      "awayScore": "116.5",
       "sep": "\u2013",
-      "homeScore": "120.1",
-      "homeTeam": "OKC",
-      "homeWin": 0.6553,
-      "fair": "-190",
+      "homeScore": "121.2",
+      "homeTeam": {
+        "v": "OKC",
+        "sub": "N. Topi\u0107 out"
+      },
+      "homeWin": 0.6539,
+      "fair": "-189",
       "spread": {
         "v": "OKC -4.7",
-        "sort": 4.71
+        "sort": 4.72
       },
       "total": {
-        "v": "235.5",
-        "sort": 235.47
+        "v": "237.7",
+        "sort": 237.72
       },
-      "mktHome": 0.7238,
+      "mktHome": 0.7409,
       "ats": {
-        "v": "DEN +7.5 \u00b7 58%",
-        "sort": 0.5767
+        "v": "DEN +8.5 \u00b7 61%",
+        "sort": 0.6076
       },
       "ou": {
-        "v": "Under 235.5 \u00b7 51%",
-        "sort": 0.5126
+        "v": "Over 236.5 \u00b7 52%",
+        "sort": 0.5183
       },
       "id": "0022600007",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 DEN +8.5 (+9.3%) +1",
+        "sort": 0.0932
+      },
+      "flagged": true
     }
   ],
   "details": "2026-10-22.details.json"

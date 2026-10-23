@@ -1,0 +1,179 @@
+{
+  "subtitle": "Fri Oct 23, 2026\u201327 \u2014 2 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's \u00b7 \u2605 = flagged bet",
+  "updated": "2026-10-23",
+  "search": "Search teams or goalies",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
+  "columns": [
+    {
+      "key": "start",
+      "label": "Time (ET)",
+      "sortable": true
+    },
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "homeWin",
+      "label": "Home Win",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "fair",
+      "label": "Fair ML",
+      "align": "right"
+    },
+    {
+      "key": "puck",
+      "label": "Fav -1.5",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "total",
+      "label": "Proj. Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "p_over_5.5",
+      "label": "Over 5.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "p_over_6.5",
+      "label": "Over 6.5",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktHome",
+      "label": "Mkt Home",
+      "align": "right",
+      "format": "percent",
+      "sortable": true
+    },
+    {
+      "key": "mktTotal",
+      "label": "Mkt Total",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet (edge)",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "start": {
+        "v": "8:00 PM",
+        "sort": "2026-10-24T00:00:00Z"
+      },
+      "awayTeam": {
+        "v": "MTL",
+        "sub": "J. Dobes 72%"
+      },
+      "awayScore": "3.6",
+      "sep": "\u2013",
+      "homeScore": "2.7",
+      "homeTeam": {
+        "v": "CHI",
+        "sub": "S. Knight 72%"
+      },
+      "homeWin": 0.3475,
+      "fair": "+188",
+      "puck": {
+        "v": "MTL 44%",
+        "sort": 0.4375
+      },
+      "total": {
+        "v": "6.27",
+        "sort": 6.27
+      },
+      "p_over_5.5": 0.5714,
+      "p_over_6.5": 0.4606,
+      "mktHome": 0.4279,
+      "mktTotal": {
+        "v": "6.5: over 46%",
+        "sort": 0.4606
+      },
+      "id": "2026020166",
+      "bet": {
+        "v": "\u2605 MTL ML (+8.1%) +1",
+        "sort": 0.0805
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "9:00 PM",
+        "sort": "2026-10-24T01:00:00Z"
+      },
+      "awayTeam": {
+        "v": "TBL",
+        "sub": "A. Vasilevskiy 91%"
+      },
+      "awayScore": "3.0",
+      "sep": "\u2013",
+      "homeScore": "3.3",
+      "homeTeam": {
+        "v": "COL",
+        "sub": "M. Blackwood 54%"
+      },
+      "homeWin": 0.5464,
+      "fair": "-120",
+      "puck": {
+        "v": "COL 34%",
+        "sort": 0.3436
+      },
+      "total": {
+        "v": "6.27",
+        "sort": 6.27
+      },
+      "p_over_5.5": 0.5685,
+      "p_over_6.5": 0.4606,
+      "mktHome": 0.5325,
+      "mktTotal": {
+        "v": "6.5: over 46%",
+        "sort": 0.4606
+      },
+      "id": "2026020167",
+      "flagged": false
+    }
+  ],
+  "details": "2026-10-23.details.json"
+}

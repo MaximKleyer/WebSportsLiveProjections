@@ -1,0 +1,414 @@
+{
+  "games": {
+    "2026020166": {
+      "title": "MTL @ CHI",
+      "subtitle": "Fri Oct 23 \u00b7 8:00 PM ET",
+      "away": {
+        "name": "Montr\u00e9al Canadiens",
+        "abbr": "MTL",
+        "note": "4\u20133\u20132 \u00b7 In net: J. Dobes (72% to start)"
+      },
+      "home": {
+        "name": "Chicago Blackhawks",
+        "abbr": "CHI",
+        "note": "3\u20136\u20130 \u00b7 In net: S. Knight (72% to start)"
+      },
+      "score": {
+        "away": "3.61",
+        "home": "2.67",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.6525,
+        "home": 0.3475,
+        "note": "Fair odds: MTL -188, CHI +188 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects MTL 3.22 goals to CHI's 2.48. With overtime and the shootout that makes MTL 65% to win.",
+            "MTL's offense rates 61 against CHI's defense at 11; CHI's offense rates 9 against MTL's defense at 46 (percentiles: 50 = an average team).",
+            "In net: J. Dobes for MTL (72% to start), S. Knight for CHI (72% to start). Goaltending rates 85 for MTL and 35 for CHI.",
+            "The widest gap in what the model leaves out: 5v5 play, MTL 74 to CHI 5.",
+            "The market (1 book, margin removed) gives CHI 43% to win; the model 35%.",
+            "Early season: with 9 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 60.0,
+              "home": 7.0,
+              "max": 100,
+              "awayText": "60",
+              "homeText": "7"
+            },
+            {
+              "label": "Offense",
+              "away": 61.0,
+              "home": 9.0,
+              "max": 100,
+              "awayText": "61",
+              "homeText": "9"
+            },
+            {
+              "label": "Defense",
+              "away": 46.0,
+              "home": 11.0,
+              "max": 100,
+              "awayText": "46",
+              "homeText": "11"
+            },
+            {
+              "label": "Goaltending",
+              "away": 85.0,
+              "home": 35.0,
+              "max": 100,
+              "awayText": "85",
+              "homeText": "35"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 74.0,
+              "home": 5.0,
+              "max": 100,
+              "awayText": "74",
+              "homeText": "5"
+            },
+            {
+              "label": "Power play",
+              "away": 33.0,
+              "home": 33.0,
+              "max": 100,
+              "awayText": "33",
+              "homeText": "33"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 49.0,
+              "home": 40.0,
+              "max": 100,
+              "awayText": "49",
+              "homeText": "40"
+            },
+            {
+              "label": "Discipline",
+              "away": 11.0,
+              "home": 46.0,
+              "max": 100,
+              "awayText": "11",
+              "homeText": "46"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "MTL to win",
+              "65%",
+              "57%"
+            ],
+            [
+              "CHI to win",
+              "35%",
+              "43%"
+            ],
+            [
+              "MTL \u22121.5",
+              "44%",
+              "\u2014"
+            ],
+            [
+              "CHI \u22121.5",
+              "19%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "57%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "46%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.27 goals."
+        },
+        {
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
+          ],
+          "rows": [
+            [
+              "\u2605 MTL ML",
+              "-148",
+              "DraftKings",
+              "65%",
+              "57%",
+              {
+                "v": "+8.1%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 MTL -1.5",
+              "+164",
+              "DraftKings",
+              "44%",
+              "36%",
+              {
+                "v": "+7.4%",
+                "tone": "good"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 96.6,
+              "home": 70.5,
+              "awayText": "97",
+              "homeText": "70"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.5387,
+              "home": 0.0256,
+              "awayText": "54%",
+              "homeText": "3%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0254,
+              "home": 0.0002,
+              "awayText": "3%",
+              "homeText": "0%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    },
+    "2026020167": {
+      "title": "TBL @ COL",
+      "subtitle": "Fri Oct 23 \u00b7 9:00 PM ET",
+      "away": {
+        "name": "Tampa Bay Lightning",
+        "abbr": "TBL",
+        "note": "7\u20132\u20130 \u00b7 In net: A. Vasilevskiy (91% to start)"
+      },
+      "home": {
+        "name": "Colorado Avalanche",
+        "abbr": "COL",
+        "note": "5\u20134\u20131 \u00b7 In net: M. Blackwood (54% to start)"
+      },
+      "score": {
+        "away": "2.99",
+        "home": "3.27",
+        "label": "Expected goals"
+      },
+      "win": {
+        "away": 0.4536,
+        "home": 0.5464,
+        "note": "Fair odds: TBL +120, COL -120 (no margin)."
+      },
+      "sections": [
+        {
+          "title": "What drives the projection",
+          "kind": "notes",
+          "items": [
+            "In regulation the model expects TBL 2.72 goals to COL's 2.95. With overtime and the shootout that makes COL 55% to win.",
+            "TBL's offense rates 67 against COL's defense at 66; COL's offense rates 90 against TBL's defense at 78 (percentiles: 50 = an average team).",
+            "In net: A. Vasilevskiy for TBL (91% to start), M. Blackwood for COL (54% to start). Goaltending rates 77 for TBL and 63 for COL.",
+            "The widest gap in what the model leaves out: 5v5 play, TBL 80 to COL 62.",
+            "The market (1 book, margin removed) gives COL 53% to win; the model 55%.",
+            "Early season: with 9 games played, the ratings still lean on last season."
+          ]
+        },
+        {
+          "title": "The model's ratings",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Overall",
+              "away": 78.0,
+              "home": 84.0,
+              "max": 100,
+              "awayText": "78",
+              "homeText": "84"
+            },
+            {
+              "label": "Offense",
+              "away": 67.0,
+              "home": 90.0,
+              "max": 100,
+              "awayText": "67",
+              "homeText": "90"
+            },
+            {
+              "label": "Defense",
+              "away": 78.0,
+              "home": 66.0,
+              "max": 100,
+              "awayText": "78",
+              "homeText": "66"
+            },
+            {
+              "label": "Goaltending",
+              "away": 77.0,
+              "home": 63.0,
+              "max": 100,
+              "awayText": "77",
+              "homeText": "63"
+            }
+          ],
+          "note": "Percentiles among every team-season since 2021\u201322 (50 = average): offense, defense and goaltending add up to the overall rating the predictions use."
+        },
+        {
+          "title": "Context",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "5v5 play",
+              "away": 80.0,
+              "home": 62.0,
+              "max": 100,
+              "awayText": "80",
+              "homeText": "62"
+            },
+            {
+              "label": "Power play",
+              "away": 30.0,
+              "home": 44.0,
+              "max": 100,
+              "awayText": "30",
+              "homeText": "44"
+            },
+            {
+              "label": "Penalty kill",
+              "away": 51.0,
+              "home": 57.0,
+              "max": 100,
+              "awayText": "51",
+              "homeText": "57"
+            },
+            {
+              "label": "Discipline",
+              "away": 60.0,
+              "home": 75.0,
+              "max": 100,
+              "awayText": "60",
+              "homeText": "75"
+            }
+          ],
+          "note": "Shown for context: the model doesn't use these."
+        },
+        {
+          "title": "Probabilities",
+          "kind": "table",
+          "columns": [
+            "",
+            "Model",
+            "Market"
+          ],
+          "rows": [
+            [
+              "TBL to win",
+              "45%",
+              "47%"
+            ],
+            [
+              "COL to win",
+              "55%",
+              "53%"
+            ],
+            [
+              "TBL \u22121.5",
+              "27%",
+              "\u2014"
+            ],
+            [
+              "COL \u22121.5",
+              "34%",
+              "\u2014"
+            ],
+            [
+              "Over 5.5",
+              "57%",
+              "\u2014"
+            ],
+            [
+              "Over 6.5",
+              "46%",
+              "\u2014"
+            ]
+          ],
+          "note": "Expected total: 6.27 goals."
+        },
+        {
+          "title": "Season outlook",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Proj. points",
+              "away": 106.7,
+              "home": 107.6,
+              "awayText": "107",
+              "homeText": "108"
+            },
+            {
+              "label": "Playoffs",
+              "away": 0.8311,
+              "home": 0.8956,
+              "awayText": "83%",
+              "homeText": "90%",
+              "max": 1
+            },
+            {
+              "label": "Stanley Cup",
+              "away": 0.0725,
+              "home": 0.1066,
+              "awayText": "7%",
+              "homeText": "11%"
+            }
+          ],
+          "note": "From the season simulation: the rest of the season played out 10,000 times."
+        }
+      ]
+    }
+  }
+}

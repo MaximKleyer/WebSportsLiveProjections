@@ -1,7 +1,13 @@
 {
-  "subtitle": "Fri Oct 23, 2026\u201327 \u2014 12 games \u00b7 EARLY LOOK as of 10:33 AM ET Wed: before game-day injury news and without bets; the gameday task's morning run replaces it \u00b7 times ET \u00b7 score = expected points \u00b7 fair ML is the home side's \u00b7 vs spread / total = the side of the market's line the model favours",
-  "updated": "2026-10-21",
+  "subtitle": "Fri Oct 23, 2026\u201327 \u2014 12 games \u00b7 times ET \u00b7 score = expected points \u00b7 fair ML is the home side's \u00b7 vs spread / total = the side of the market's line the model favours \u00b7 \u2605 = flagged bet",
+  "updated": "2026-10-23",
   "search": "Search teams or players",
+  "filters": [
+    {
+      "field": "flagged",
+      "label": "\u2605 bets only"
+    }
+  ],
   "columns": [
     {
       "key": "start",
@@ -75,6 +81,12 @@
       "label": "vs Total",
       "align": "right",
       "sortable": true
+    },
+    {
+      "key": "bet",
+      "label": "Bet (edge)",
+      "align": "right",
+      "sortable": true
     }
   ],
   "rows": [
@@ -83,26 +95,39 @@
         "v": "4:00 PM",
         "sort": "2026-10-23T20:00:00Z"
       },
-      "awayTeam": "CHI",
-      "awayScore": "114.8",
+      "awayTeam": {
+        "v": "CHI",
+        "sub": "J. Giddey probable, N. Claxton out +1"
+      },
+      "awayScore": "115.1",
       "sep": "\u2013",
-      "homeScore": "114.2",
+      "homeScore": "115.5",
       "homeTeam": "MIL",
-      "homeWin": 0.4777,
-      "fair": "+109",
+      "homeWin": 0.5148,
+      "fair": "-106",
       "spread": {
-        "v": "CHI -0.6",
-        "sort": -0.62
+        "v": "MIL -0.4",
+        "sort": 0.38
       },
       "total": {
-        "v": "229.1",
-        "sort": 229.06
+        "v": "230.6",
+        "sort": 230.56
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
+      "mktHome": 0.5108,
+      "ats": {
+        "v": "CHI +1.5 \u00b7 52%",
+        "sort": 0.5197
+      },
+      "ou": {
+        "v": "Under 240.5 \u00b7 71%",
+        "sort": 0.7106
+      },
       "id": "0022600099",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 Under 240.5 (+20.0%)",
+        "sort": 0.2004
+      },
+      "flagged": true
     },
     {
       "start": {
@@ -110,297 +135,455 @@
         "sort": "2026-10-23T23:00:00Z"
       },
       "awayTeam": "NYK",
-      "awayScore": "109.7",
+      "awayScore": "109.1",
       "sep": "\u2013",
-      "homeScore": "116.3",
-      "homeTeam": "BOS",
-      "homeWin": 0.7121,
-      "fair": "-247",
+      "homeScore": "117.2",
+      "homeTeam": {
+        "v": "BOS",
+        "sub": "D. Carter out"
+      },
+      "homeWin": 0.7579,
+      "fair": "-313",
       "spread": {
-        "v": "BOS -6.5",
-        "sort": 6.52
+        "v": "BOS -8.1",
+        "sort": 8.13
       },
       "total": {
-        "v": "226.0",
-        "sort": 226.0
+        "v": "226.3",
+        "sort": 226.27
       },
-      "mktHome": 0.5427,
+      "mktHome": 0.5721,
       "ats": {
-        "v": "BOS -2.5 \u00b7 63%",
-        "sort": 0.6299
+        "v": "BOS -2.5 \u00b7 68%",
+        "sort": 0.6755
       },
       "ou": {
-        "v": "Over 223.5 \u00b7 54%",
-        "sort": 0.5438
+        "v": "Over 222.5 \u00b7 57%",
+        "sort": 0.5739
       },
       "id": "0022600008",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 BOS ML (+18.5%) +2",
+        "sort": 0.1846
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "7:00 PM",
         "sort": "2026-10-23T23:00:00Z"
       },
-      "awayTeam": "ATL",
-      "awayScore": "112.2",
+      "awayTeam": {
+        "v": "ATL",
+        "sub": "K. Gilbert questionable"
+      },
+      "awayScore": "112.7",
       "sep": "\u2013",
-      "homeScore": "116.6",
-      "homeTeam": "CHA",
-      "homeWin": 0.6508,
-      "fair": "-186",
+      "homeScore": "114.7",
+      "homeTeam": {
+        "v": "CHA",
+        "sub": "K. Knueppel out, C. White out"
+      },
+      "homeWin": 0.5731,
+      "fair": "-134",
       "spread": {
-        "v": "CHA -4.4",
-        "sort": 4.4
+        "v": "CHA -2.0",
+        "sort": 2.03
       },
       "total": {
-        "v": "228.9",
-        "sort": 228.88
+        "v": "227.4",
+        "sort": 227.37
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
+      "mktHome": 0.4365,
+      "ats": {
+        "v": "CHA +2.5 \u00b7 62%",
+        "sort": 0.6197
+      },
+      "ou": {
+        "v": "Over 226.5 \u00b7 51%",
+        "sort": 0.5089
+      },
       "id": "0022600094",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 CHA ML (+13.8%) +1",
+        "sort": 0.1381
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "7:00 PM",
         "sort": "2026-10-23T23:00:00Z"
       },
-      "awayTeam": "DAL",
-      "awayScore": "114.5",
+      "awayTeam": {
+        "v": "DAL",
+        "sub": "S. Aldama out, D. Lively II out"
+      },
+      "awayScore": "111.8",
       "sep": "\u2013",
-      "homeScore": "116.3",
-      "homeTeam": "IND",
-      "homeWin": 0.5599,
-      "fair": "-127",
+      "homeScore": "118.1",
+      "homeTeam": {
+        "v": "IND",
+        "sub": "A. Nesmith questionable, J. Slawson probable +1"
+      },
+      "homeWin": 0.7031,
+      "fair": "-237",
       "spread": {
-        "v": "IND -1.8",
-        "sort": 1.8
+        "v": "IND -6.3",
+        "sort": 6.35
       },
       "total": {
-        "v": "230.9",
-        "sort": 230.86
+        "v": "229.9",
+        "sort": 229.91
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
+      "mktHome": 0.669,
+      "ats": {
+        "v": "DAL +6.5 \u00b7 50%",
+        "sort": 0.5003
+      },
+      "ou": {
+        "v": "Under 238.5 \u00b7 68%",
+        "sort": 0.681
+      },
       "id": "0022600095",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 Under 238.5 (+18.4%) +1",
+        "sort": 0.1844
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "7:00 PM",
         "sort": "2026-10-23T23:00:00Z"
       },
-      "awayTeam": "MIN",
-      "awayScore": "114.3",
+      "awayTeam": {
+        "v": "MIN",
+        "sub": "D. DiVincenzo out"
+      },
+      "awayScore": "115.8",
       "sep": "\u2013",
-      "homeScore": "115.7",
-      "homeTeam": "ORL",
-      "homeWin": 0.5472,
-      "fair": "-121",
+      "homeScore": "117.5",
+      "homeTeam": {
+        "v": "ORL",
+        "sub": "A. Black out"
+      },
+      "homeWin": 0.5645,
+      "fair": "-130",
       "spread": {
-        "v": "ORL -1.4",
-        "sort": 1.43
+        "v": "ORL -1.7",
+        "sort": 1.73
       },
       "total": {
-        "v": "230.0",
-        "sort": 230.01
+        "v": "233.4",
+        "sort": 233.35
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
+      "mktHome": 0.4573,
+      "ats": {
+        "v": "ORL +1.5 \u00b7 58%",
+        "sort": 0.5837
+      },
+      "ou": {
+        "v": "Under 234.5 \u00b7 53%",
+        "sort": 0.5318
+      },
       "id": "0022600096",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 ORL ML (+10.2%) +2",
+        "sort": 0.1015
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "7:00 PM",
         "sort": "2026-10-23T23:00:00Z"
       },
-      "awayTeam": "TOR",
-      "awayScore": "118.8",
+      "awayTeam": {
+        "v": "TOR",
+        "sub": "M. Smith out"
+      },
+      "awayScore": "119.6",
       "sep": "\u2013",
-      "homeScore": "110.3",
-      "homeTeam": "WAS",
-      "homeWin": 0.2345,
-      "fair": "+326",
+      "homeScore": "111.6",
+      "homeTeam": {
+        "v": "WAS",
+        "sub": "A. Dybantsa out, J. Watkins out"
+      },
+      "homeWin": 0.2487,
+      "fair": "+302",
       "spread": {
-        "v": "TOR -8.5",
-        "sort": -8.53
+        "v": "TOR -8.0",
+        "sort": -8.03
       },
       "total": {
-        "v": "229.1",
-        "sort": 229.13
+        "v": "231.2",
+        "sort": 231.21
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
+      "mktHome": 0.282,
+      "ats": {
+        "v": "WAS +8.5 \u00b7 51%",
+        "sort": 0.5133
+      },
+      "ou": {
+        "v": "Under 236.5 \u00b7 62%",
+        "sort": 0.6205
+      },
       "id": "0022600097",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 Under 236.5 (+12.2%) +1",
+        "sort": 0.1221
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "8:00 PM",
         "sort": "2026-10-24T00:00:00Z"
       },
-      "awayTeam": "DET",
+      "awayTeam": {
+        "v": "DET",
+        "sub": "T. Prince probable, E. Harkless out"
+      },
       "awayScore": "118.4",
       "sep": "\u2013",
-      "homeScore": "116.6",
+      "homeScore": "115.5",
       "homeTeam": "MIA",
-      "homeWin": 0.4405,
-      "fair": "+127",
+      "homeWin": 0.4069,
+      "fair": "+146",
       "spread": {
-        "v": "DET -1.8",
-        "sort": -1.84
+        "v": "DET -2.9",
+        "sort": -2.89
       },
       "total": {
-        "v": "235.0",
-        "sort": 234.98
+        "v": "233.9",
+        "sort": 233.95
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
-      "id": "0022600098",
-      "flagged": false
-    },
-    {
-      "start": {
-        "v": "9:30 PM",
-        "sort": "2026-10-24T01:30:00Z"
-      },
-      "awayTeam": "HOU",
-      "awayScore": "111.0",
-      "sep": "\u2013",
-      "homeScore": "114.0",
-      "homeTeam": "SAS",
-      "homeWin": 0.6046,
-      "fair": "-153",
-      "spread": {
-        "v": "SAS -3.0",
-        "sort": 3.03
-      },
-      "total": {
-        "v": "225.0",
-        "sort": 225.01
-      },
-      "mktHome": 0.675,
+      "mktHome": 0.4892,
       "ats": {
-        "v": "HOU +6.5 \u00b7 60%",
-        "sort": 0.5954
+        "v": "DET -1.5 \u00b7 55%",
+        "sort": 0.555
       },
       "ou": {
-        "v": "Under 225.5 \u00b7 52%",
-        "sort": 0.5217
+        "v": "Under 235.5 \u00b7 55%",
+        "sort": 0.5464
       },
-      "id": "0022600009",
-      "flagged": false
+      "id": "0022600098",
+      "bet": {
+        "v": "\u2605 DET ML (+8.2%) +2",
+        "sort": 0.082
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "9:30 PM",
         "sort": "2026-10-24T01:30:00Z"
       },
-      "awayTeam": "NOP",
-      "awayScore": "118.5",
+      "awayTeam": {
+        "v": "HOU",
+        "sub": "R. Sheppard questionable, S. Adams questionable"
+      },
+      "awayScore": "110.2",
       "sep": "\u2013",
-      "homeScore": "120.2",
-      "homeTeam": "UTA",
-      "homeWin": 0.5513,
-      "fair": "-123",
+      "homeScore": "116.5",
+      "homeTeam": {
+        "v": "SAS",
+        "sub": "D. Fox questionable, T. Harris out +2"
+      },
+      "homeWin": 0.7097,
+      "fair": "-244",
       "spread": {
-        "v": "UTA -1.6",
-        "sort": 1.65
-      },
-      "total": {
-        "v": "238.7",
-        "sort": 238.71
-      },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
-      "id": "0022600100",
-      "flagged": false
-    },
-    {
-      "start": {
-        "v": "10:00 PM",
-        "sort": "2026-10-24T02:00:00Z"
-      },
-      "awayTeam": "MEM",
-      "awayScore": "111.8",
-      "sep": "\u2013",
-      "homeScore": "121.5",
-      "homeTeam": "GSW",
-      "homeWin": 0.7929,
-      "fair": "-383",
-      "spread": {
-        "v": "GSW -9.8",
-        "sort": 9.75
-      },
-      "total": {
-        "v": "233.3",
-        "sort": 233.31
-      },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
-      "id": "0022600101",
-      "flagged": false
-    },
-    {
-      "start": {
-        "v": "10:00 PM",
-        "sort": "2026-10-24T02:00:00Z"
-      },
-      "awayTeam": "LAC",
-      "awayScore": "105.3",
-      "sep": "\u2013",
-      "homeScore": "121.4",
-      "homeTeam": "LAL",
-      "homeWin": 0.911,
-      "fair": "-1024",
-      "spread": {
-        "v": "LAL -16.1",
-        "sort": 16.08
+        "v": "SAS -6.4",
+        "sort": 6.37
       },
       "total": {
         "v": "226.7",
-        "sort": 226.68
+        "sort": 226.71
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
-      "id": "0022600102",
-      "flagged": false
+      "mktHome": 0.6447,
+      "ats": {
+        "v": "SAS -5.5 \u00b7 54%",
+        "sort": 0.5362
+      },
+      "ou": {
+        "v": "Under 226.5 \u00b7 50%",
+        "sort": 0.5034
+      },
+      "id": "0022600009",
+      "bet": {
+        "v": "\u2605 SAS ML (+5.2%) +1",
+        "sort": 0.0521
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "9:30 PM",
+        "sort": "2026-10-24T01:30:00Z"
+      },
+      "awayTeam": {
+        "v": "NOP",
+        "sub": "J. Reese out"
+      },
+      "awayScore": "119.0",
+      "sep": "\u2013",
+      "homeScore": "119.9",
+      "homeTeam": {
+        "v": "UTA",
+        "sub": "J. Nurki\u0107 out"
+      },
+      "homeWin": 0.5313,
+      "fair": "-113",
+      "spread": {
+        "v": "UTA -1.0",
+        "sort": 0.99
+      },
+      "total": {
+        "v": "238.9",
+        "sort": 238.89
+      },
+      "mktHome": 0.5261,
+      "ats": {
+        "v": "NOP +1.5 \u00b7 50%",
+        "sort": 0.5029
+      },
+      "ou": {
+        "v": "Under 239.5 \u00b7 52%",
+        "sort": 0.5229
+      },
+      "id": "0022600100",
+      "bet": {
+        "v": "\u2605 Under 239.5 (+3.4%)",
+        "sort": 0.0342
+      },
+      "flagged": true
     },
     {
       "start": {
         "v": "10:00 PM",
         "sort": "2026-10-24T02:00:00Z"
       },
-      "awayTeam": "POR",
-      "awayScore": "120.7",
+      "awayTeam": {
+        "v": "MEM",
+        "sub": "C. Coward doubtful, I. Stewart questionable"
+      },
+      "awayScore": "112.2",
       "sep": "\u2013",
-      "homeScore": "111.8",
-      "homeTeam": "SAC",
-      "homeWin": 0.2277,
-      "fair": "+339",
+      "homeScore": "117.0",
+      "homeTeam": {
+        "v": "GSW",
+        "sub": "J. Butler III out, B. Podziemski questionable +2"
+      },
+      "homeWin": 0.6617,
+      "fair": "-196",
       "spread": {
-        "v": "POR -8.8",
-        "sort": -8.82
+        "v": "GSW -4.8",
+        "sort": 4.8
       },
       "total": {
-        "v": "232.5",
-        "sort": 232.5
+        "v": "229.3",
+        "sort": 229.28
       },
-      "mktHome": null,
-      "ats": null,
-      "ou": null,
+      "mktHome": 0.5721,
+      "ats": {
+        "v": "GSW -3.5 \u00b7 55%",
+        "sort": 0.5512
+      },
+      "ou": {
+        "v": "Under 234.5 \u00b7 62%",
+        "sort": 0.6194
+      },
+      "id": "0022600101",
+      "bet": {
+        "v": "\u2605 Under 234.5 (+11.3%) +2",
+        "sort": 0.1131
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-24T02:00:00Z"
+      },
+      "awayTeam": {
+        "v": "LAC",
+        "sub": "B. Ingram out, M. Strus out +2"
+      },
+      "awayScore": "104.4",
+      "sep": "\u2013",
+      "homeScore": "122.1",
+      "homeTeam": {
+        "v": "LAL",
+        "sub": "J. LaRavia questionable"
+      },
+      "homeWin": 0.9321,
+      "fair": "-1373",
+      "spread": {
+        "v": "LAL -17.7",
+        "sort": 17.7
+      },
+      "total": {
+        "v": "226.6",
+        "sort": 226.58
+      },
+      "mktHome": 0.76,
+      "ats": {
+        "v": "LAL -9.5 \u00b7 72%",
+        "sort": 0.7248
+      },
+      "ou": {
+        "v": "Under 228.5 \u00b7 55%",
+        "sort": 0.5457
+      },
+      "id": "0022600102",
+      "bet": {
+        "v": "\u2605 LAL -9.5 (+24.1%) +2",
+        "sort": 0.2414
+      },
+      "flagged": true
+    },
+    {
+      "start": {
+        "v": "10:00 PM",
+        "sort": "2026-10-24T02:00:00Z"
+      },
+      "awayTeam": {
+        "v": "POR",
+        "sub": "S. Sharpe out"
+      },
+      "awayScore": "120.3",
+      "sep": "\u2013",
+      "homeScore": "111.1",
+      "homeTeam": {
+        "v": "SAC",
+        "sub": "M. Raynaud out, B. Simmons out"
+      },
+      "homeWin": 0.2174,
+      "fair": "+360",
+      "spread": {
+        "v": "POR -9.2",
+        "sort": -9.21
+      },
+      "total": {
+        "v": "231.5",
+        "sort": 231.47
+      },
+      "mktHome": 0.2522,
+      "ats": {
+        "v": "POR -8.5 \u00b7 52%",
+        "sort": 0.516
+      },
+      "ou": {
+        "v": "Under 232.5 \u00b7 53%",
+        "sort": 0.5307
+      },
       "id": "0022600103",
-      "flagged": false
+      "bet": {
+        "v": "\u2605 POR ML (+3.5%) +1",
+        "sort": 0.0348
+      },
+      "flagged": true
     }
   ],
   "details": "2026-10-23.details.json"

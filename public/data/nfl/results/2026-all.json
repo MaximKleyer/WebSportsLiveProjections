@@ -1,6 +1,6 @@
 {
   "subtitle": "2026 \u00b7 record by week",
-  "updated": "2026-10-20",
+  "updated": "2026-10-23",
   "columns": [
     {
       "key": "week",
@@ -242,6 +242,22 @@
         "tone": "bad"
       },
       "mae": 7.1
+    },
+    {
+      "week": {
+        "v": "Week 7 (in progress)",
+        "sort": 7
+      },
+      "games": 1,
+      "su": {
+        "v": "0\u20131 (0%)",
+        "sort": 0.0
+      },
+      "ats": null,
+      "ou": null,
+      "spreadPlays": null,
+      "totalPlays": null,
+      "mae": 6.0
     }
   ]
 }

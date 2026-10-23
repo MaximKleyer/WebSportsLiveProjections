@@ -1,6 +1,6 @@
 {
-  "subtitle": "2026 \u00b7 Week 8 \u2014 3 of 56 games graded so far \u00b7 SU 2\u20131 \u00b7 ATS 3\u20130 \u00b7 O/U 3\u20130 \u00b7 \u2605 plays 3\u20130",
-  "updated": "2026-10-21",
+  "subtitle": "2026 \u00b7 Week 8 \u2014 7 of 56 games graded so far \u00b7 SU 4\u20133 \u00b7 ATS 5\u20132 \u00b7 O/U 6\u20131 \u00b7 \u2605 plays 4\u20131",
+  "updated": "2026-10-23",
   "search": "Search teams",
   "filters": [
     {
@@ -60,30 +60,6 @@
   ],
   "rows": [
     {
-      "awayTeam": "Missouri State",
-      "awayScore": "38",
-      "sep": "\u2013",
-      "homeScore": "61",
-      "homeTeam": "Delaware",
-      "proj": "24.5 \u2013 30.6",
-      "su": {
-        "v": "Delaware \u2713",
-        "tone": "good",
-        "sort": 1
-      },
-      "ats": {
-        "v": "\u2605 Delaware -2.5 \u2713",
-        "tone": "good",
-        "sort": 1
-      },
-      "ou": {
-        "v": "OVER 52.75 \u2713",
-        "tone": "good",
-        "sort": 1
-      },
-      "flagged": true
-    },
-    {
       "awayTeam": "Middle Tennessee",
       "awayScore": "26",
       "sep": "\u2013",
@@ -102,6 +78,30 @@
       },
       "ou": {
         "v": "\u2605 OVER 45.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "Missouri State",
+      "awayScore": "38",
+      "sep": "\u2013",
+      "homeScore": "61",
+      "homeTeam": "Delaware",
+      "proj": "24.5 \u2013 30.6",
+      "su": {
+        "v": "Delaware \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "\u2605 Delaware -2.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 52.75 \u2713",
         "tone": "good",
         "sort": 1
       },
@@ -130,6 +130,102 @@
         "sort": 1
       },
       "flagged": true
+    },
+    {
+      "awayTeam": "New Mexico State",
+      "awayScore": "30",
+      "sep": "\u2013",
+      "homeScore": "24",
+      "homeTeam": "Sam Houston",
+      "proj": "24.6 \u2013 25.3",
+      "su": {
+        "v": "Sam Houston \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "\u2605 Sam Houston +3 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "\u2605 OVER 44.75 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": true
+    },
+    {
+      "awayTeam": "James Madison",
+      "awayScore": "31",
+      "sep": "\u2013",
+      "homeScore": "34",
+      "homeTeam": "App State",
+      "proj": "33.0 \u2013 22.0",
+      "su": {
+        "v": "James Madison \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": {
+        "v": "App State +11.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "UNDER 56.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "Liberty",
+      "awayScore": "34",
+      "sep": "\u2013",
+      "homeScore": "6",
+      "homeTeam": "Kennesaw State",
+      "proj": "28.6 \u2013 20.5",
+      "su": {
+        "v": "Liberty \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "Kennesaw State +9.5 \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ou": {
+        "v": "UNDER 50.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
+    },
+    {
+      "awayTeam": "East Carolina",
+      "awayScore": "34",
+      "sep": "\u2013",
+      "homeScore": "41",
+      "homeTeam": "Memphis",
+      "proj": "22.8 \u2013 33.2",
+      "su": {
+        "v": "Memphis \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ats": {
+        "v": "East Carolina +10.5 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "ou": {
+        "v": "OVER 54.25 \u2713",
+        "tone": "good",
+        "sort": 1
+      },
+      "flagged": false
     }
   ]
 }

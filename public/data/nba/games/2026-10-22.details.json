@@ -6,95 +6,35 @@
       "away": {
         "name": "Cleveland Cavaliers",
         "abbr": "CLE",
-        "note": "0\u20130"
+        "note": "2 on the injury report"
       },
       "home": {
         "name": "Philadelphia 76ers",
         "abbr": "PHI",
-        "note": "1\u20130"
+        "note": "2 on the injury report"
       },
       "score": {
-        "away": "118.2",
-        "home": "116.8",
+        "away": "117.8",
+        "home": "118.7",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.5477,
-        "home": 0.4523,
-        "note": "Fair odds: CLE -121, PHI +121 (no margin)."
+        "away": 0.4741,
+        "home": 0.5259,
+        "note": "Fair odds: CLE +111, PHI -111 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects CLE 118.2 \u2013 PHI 116.8: CLE by 1.4, 235.0 points in all. That makes CLE 55% to win.",
-            "Pace: CLE plays about 102.7 possessions a game against an average team, PHI 102.7.",
-            "CLE's offense is +3.2 points per 100 possessions against an average team, meeting PHI's defense at +0.6; PHI's offense +1.0 meets CLE's defense at +0.7 (+ is better than average).",
-            "The market has PHI -2.5; the model's line is CLE -1.4, so it gives CLE +2.5 60% to cover.",
-            "The market's total is 234.5 against the model's 235.0: the over, 50%.",
-            "The market (margin removed) gives PHI 55% to win; the model 45%."
+            "The model expects CLE 117.8 \u2013 PHI 118.7: PHI by 0.8, 236.5 points in all. That makes PHI 53% to win.",
+            "On the injury report \u2014 CLE: J. Allen questionable, N. Tomlin out; PHI: D. Barlow out, D. Wade questionable. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has PHI -3.5; the model's line is PHI -0.8, so it gives CLE +3.5 57% to cover.",
+            "The market's total is 237.5 against the model's 236.5: the under, 53%.",
+            "The market (margin removed) gives PHI 56% to win; the model 53%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
           ]
-        },
-        {
-          "title": "The model's ratings",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Overall",
-              "away": 84.0,
-              "home": 66.0,
-              "max": 100,
-              "awayText": "84",
-              "homeText": "66"
-            },
-            {
-              "label": "Offense",
-              "away": 88.0,
-              "home": 65.0,
-              "max": 100,
-              "awayText": "88",
-              "homeText": "65"
-            },
-            {
-              "label": "Defense",
-              "away": 64.0,
-              "home": 61.0,
-              "max": 100,
-              "awayText": "64",
-              "homeText": "61"
-            }
-          ],
-          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
-        },
-        {
-          "title": "Pace and scoring",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Possessions",
-              "away": 102.7,
-              "home": 102.7,
-              "awayText": "102.7",
-              "homeText": "102.7"
-            },
-            {
-              "label": "Points scored",
-              "away": 117.7,
-              "home": 115.5,
-              "awayText": "117.7",
-              "homeText": "115.5"
-            },
-            {
-              "label": "Points allowed",
-              "away": 113.7,
-              "home": 113.9,
-              "awayText": "113.7",
-              "homeText": "113.9",
-              "lower": true
-            }
-          ],
-          "note": "A game against an average team on a neutral floor."
         },
         {
           "title": "Probabilities",
@@ -107,65 +47,72 @@
           "rows": [
             [
               "CLE to win",
-              "55%",
-              "45%"
+              "47%",
+              "44%"
             ],
             [
               "PHI to win",
-              "45%",
-              "55%"
+              "53%",
+              "56%"
             ],
             [
-              "PHI -2.5",
-              "40%",
+              "PHI -3.5",
+              "43%",
               "\u2014"
             ],
             [
-              "CLE +2.5",
-              "60%",
+              "CLE +3.5",
+              "57%",
               "\u2014"
             ],
             [
-              "Over 234.5",
-              "50%",
+              "Over 237.5",
+              "47%",
               "\u2014"
             ],
             [
-              "Under 234.5",
-              "50%",
+              "Under 237.5",
+              "53%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
         },
         {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 51.0301,
-              "home": 45.7974,
-              "awayText": "51",
-              "homeText": "46"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.9209,
-              "home": 0.7825,
-              "awayText": "92%",
-              "homeText": "78%",
-              "max": 1
-            },
-            {
-              "label": "Title",
-              "away": 0.0939,
-              "home": 0.0264,
-              "awayText": "9%",
-              "homeText": "3%"
-            }
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
           ],
-          "note": "From the season forecast: the rest of the season played out 10,000 times."
+          "rows": [
+            [
+              "\u2605 CLE +3.5",
+              "-115",
+              "DraftKings",
+              "57%",
+              "51%",
+              {
+                "v": "+5.5%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 CLE ML",
+              "+120",
+              "DraftKings",
+              "47%",
+              "44%",
+              {
+                "v": "+3.8%",
+                "tone": "good"
+              }
+            ]
+          ]
         }
       ]
     },
@@ -175,95 +122,35 @@
       "away": {
         "name": "Denver Nuggets",
         "abbr": "DEN",
-        "note": "0\u20130"
+        "note": "2 on the injury report"
       },
       "home": {
         "name": "Oklahoma City Thunder",
         "abbr": "OKC",
-        "note": "1\u20130"
+        "note": "1 on the injury report"
       },
       "score": {
-        "away": "115.4",
-        "home": "120.1",
+        "away": "116.5",
+        "home": "121.2",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.3447,
-        "home": 0.6553,
-        "note": "Fair odds: DEN +190, OKC -190 (no margin)."
+        "away": 0.3461,
+        "home": 0.6539,
+        "note": "Fair odds: DEN +189, OKC -189 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects DEN 115.4 \u2013 OKC 120.1: OKC by 4.7, 235.5 points in all. That makes OKC 66% to win.",
-            "Pace: DEN plays about 101.8 possessions a game against an average team, OKC 102.6.",
-            "DEN's offense is +6.2 points per 100 possessions against an average team, meeting OKC's defense at +4.2; OKC's offense +2.7 meets DEN's defense at -1.5 (+ is better than average).",
-            "The market has OKC -7.5; the model's line is OKC -4.7, so it gives DEN +7.5 58% to cover.",
-            "The market's total is 235.5 against the model's 235.5: the under, 51%.",
-            "The market (margin removed) gives OKC 72% to win; the model 66%."
+            "The model expects DEN 116.5 \u2013 OKC 121.2: OKC by 4.7, 237.7 points in all. That makes OKC 65% to win.",
+            "On the injury report \u2014 DEN: S. Jones out, J. Strawther out; OKC: N. Topi\u0107 out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has OKC -8.5; the model's line is OKC -4.7, so it gives DEN +8.5 61% to cover.",
+            "The market's total is 236.5 against the model's 237.7: the over, 52%.",
+            "The market (margin removed) gives OKC 74% to win; the model 65%.",
+            "Ratings as they stood on game day aren't kept, so this card shows only what the prediction itself recorded."
           ]
-        },
-        {
-          "title": "The model's ratings",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Overall",
-              "away": 88.0,
-              "home": 96.0,
-              "max": 100,
-              "awayText": "88",
-              "homeText": "96"
-            },
-            {
-              "label": "Offense",
-              "away": 99.0,
-              "home": 84.0,
-              "max": 100,
-              "awayText": "99",
-              "homeText": "84"
-            },
-            {
-              "label": "Defense",
-              "away": 22.0,
-              "home": 98.0,
-              "max": 100,
-              "awayText": "22",
-              "homeText": "98"
-            }
-          ],
-          "note": "Percentiles among earlier team-seasons (50 = average): offense and defense, in points per 100 possessions against an average team, add up to the overall rating the predictions use."
-        },
-        {
-          "title": "Pace and scoring",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Possessions",
-              "away": 101.8,
-              "home": 102.6,
-              "awayText": "101.8",
-              "homeText": "102.6"
-            },
-            {
-              "label": "Points scored",
-              "away": 119.8,
-              "home": 117.0,
-              "awayText": "119.8",
-              "homeText": "117.0"
-            },
-            {
-              "label": "Points allowed",
-              "away": 115.0,
-              "home": 109.9,
-              "awayText": "115.0",
-              "homeText": "109.9",
-              "lower": true
-            }
-          ],
-          "note": "A game against an average team on a neutral floor."
         },
         {
           "title": "Probabilities",
@@ -276,65 +163,72 @@
           "rows": [
             [
               "DEN to win",
-              "34%",
-              "28%"
+              "35%",
+              "26%"
             ],
             [
               "OKC to win",
-              "66%",
-              "72%"
+              "65%",
+              "74%"
             ],
             [
-              "OKC -7.5",
-              "42%",
+              "OKC -8.5",
+              "39%",
               "\u2014"
             ],
             [
-              "DEN +7.5",
-              "58%",
+              "DEN +8.5",
+              "61%",
               "\u2014"
             ],
             [
-              "Over 235.5",
-              "49%",
+              "Over 236.5",
+              "52%",
               "\u2014"
             ],
             [
-              "Under 235.5",
-              "51%",
+              "Under 236.5",
+              "48%",
               "\u2014"
             ]
           ],
           "note": "Covers and overs leave pushes out."
         },
         {
-          "title": "Season outlook",
-          "kind": "compare",
-          "rows": [
-            {
-              "label": "Proj. wins",
-              "away": 52.9834,
-              "home": 58.1481,
-              "awayText": "53",
-              "homeText": "58"
-            },
-            {
-              "label": "Playoffs",
-              "away": 0.9396,
-              "home": 0.9832,
-              "awayText": "94%",
-              "homeText": "98%",
-              "max": 1
-            },
-            {
-              "label": "Title",
-              "away": 0.1028,
-              "home": 0.2423,
-              "awayText": "10%",
-              "homeText": "24%"
-            }
+          "title": "Flagged bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Book",
+            "Model",
+            "Market",
+            "Edge"
           ],
-          "note": "From the season forecast: the rest of the season played out 10,000 times."
+          "rows": [
+            [
+              "\u2605 DEN +8.5",
+              "-110",
+              "DraftKings",
+              "59%",
+              "50%",
+              {
+                "v": "+9.3%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 DEN ML",
+              "+270",
+              "DraftKings",
+              "33%",
+              "26%",
+              {
+                "v": "+7.5%",
+                "tone": "good"
+              }
+            ]
+          ]
         }
       ]
     }

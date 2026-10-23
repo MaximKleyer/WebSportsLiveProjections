@@ -4,12 +4,12 @@
   "unit": "week",
   "latest": "2026-w06.json",
   "summary": {
-    "title": "2026 season to date \u00b7 93 games graded through Week 6",
+    "title": "2026 season to date \u00b7 94 games graded through Week 6 \u00b7 Week 7 in progress",
     "stats": [
       {
         "label": "Straight up",
-        "value": "56\u201336\u20131",
-        "detail": "60.9%",
+        "value": "56\u201337\u20131",
+        "detail": "60.2%",
         "tone": null
       },
       {
@@ -79,6 +79,11 @@
       "id": "2026-w06",
       "label": "Week 6",
       "file": "2026-w06.json"
+    },
+    {
+      "id": "2026-w07",
+      "label": "Week 7 (in progress)",
+      "file": "2026-w07.json"
     }
   ]
 }

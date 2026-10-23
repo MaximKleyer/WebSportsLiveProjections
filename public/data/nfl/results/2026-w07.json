@@ -1,0 +1,72 @@
+{
+  "subtitle": "2026 \u00b7 Week 7 \u2014 1 of 14 games graded so far \u00b7 SU 0\u20131 \u00b7 ATS 0\u20130 \u00b7 O/U 0\u20130",
+  "updated": "2026-10-23",
+  "columns": [
+    {
+      "key": "awayTeam",
+      "label": "Away",
+      "align": "right"
+    },
+    {
+      "key": "awayScore",
+      "label": "",
+      "align": "right"
+    },
+    {
+      "key": "sep",
+      "label": "Final",
+      "align": "center"
+    },
+    {
+      "key": "homeScore",
+      "label": "",
+      "align": "left"
+    },
+    {
+      "key": "homeTeam",
+      "label": "Home",
+      "align": "left"
+    },
+    {
+      "key": "proj",
+      "label": "Proj.",
+      "align": "right"
+    },
+    {
+      "key": "su",
+      "label": "SU Pick",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ats",
+      "label": "ATS",
+      "align": "right",
+      "sortable": true
+    },
+    {
+      "key": "ou",
+      "label": "O/U",
+      "align": "right",
+      "sortable": true
+    }
+  ],
+  "rows": [
+    {
+      "awayTeam": "NE",
+      "awayScore": "24",
+      "sep": "\u2013",
+      "homeScore": "30",
+      "homeTeam": "CHI",
+      "proj": "25.7 \u2013 25.7",
+      "su": {
+        "v": "NE \u2717",
+        "tone": "bad",
+        "sort": 0
+      },
+      "ats": null,
+      "ou": null,
+      "flagged": false
+    }
+  ]
+}
