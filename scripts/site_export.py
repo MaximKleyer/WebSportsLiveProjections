@@ -29,6 +29,16 @@ Stdlib only, so CI can run the check below without the models' packages.
                                     lower?: true when lower is better }]
                            (values >= 0 drawn as paired bars, away left, home right)
                   table    columns: [str], rows: [[cell, ...]]
+                  versus   rows: [{ label, away: side, home: side, digits?, projDigits?,
+                                   delta?, max? }]
+                           side: { proj?, actual? } (numbers >= 0; either may be missing)
+                           a graded game's projection against what happened: each
+                           actual as a bar with a tick at its projection, and how far
+                           over (▲) or under (▼) it came - delta 'pct' (the default) or
+                           'diff' (in the stat's own units, for small counts);
+                           projDigits: the projection's decimals (default: digits)
+            A graded game's card (on a results slate) is the same shape: the final
+            score in `score` (final_score), its picks and its versus sections.
 
 A "slate" is one selectable table in a view: a football week, an MLB day.
 Every write is validated, so a bad export fails here instead of on the site.
@@ -133,6 +143,53 @@ def scoreboard_columns(label: str = "") -> list[dict]:
 
 
 FLAGGED_FILTER = {"field": "flagged", "label": "★ plays only"}
+
+
+# --------------------------------------------------------------------------
+# graded games' cards: what happened against what the model projected
+# --------------------------------------------------------------------------
+def final_score(away_score, home_score, proj_away=None, proj_home=None, *, digits: int = 0,
+                proj_digits: int = 1) -> dict | None:
+    """A graded game's card header: the final score, the projection beneath it."""
+    a, h = num(away_score, digits), num(home_score, digits)
+    if a is None or h is None:
+        return None
+    pa, ph = num(proj_away, proj_digits), num(proj_home, proj_digits)
+    label = "Final" + (f" · projected {pa:.{proj_digits}f} – {ph:.{proj_digits}f}" if pa is not None and ph is not None else "")
+    return {"away": f"{a:.{digits}f}", "home": f"{h:.{digits}f}", "label": label}
+
+
+def _versus_side(proj, actual, digits: int, proj_digits: int) -> dict:
+    p, a = num(proj, proj_digits + 1), num(actual, digits + 1)
+    return {**({"proj": max(p, 0.0)} if p is not None else {}), **({"actual": max(a, 0.0)} if a is not None else {})}
+
+
+def versus_row(label: str, away_proj, away_actual, home_proj, home_actual, *, digits: int = 0,
+               proj_digits: int | None = None, delta: str = "pct") -> dict:
+    """One row of a `versus` section: each team's projection and what it did. `proj_digits`:
+    the projection's decimals when they differ from the actual's (points: 24 against 27.1)."""
+    pd_ = digits if proj_digits is None else proj_digits
+    return {"label": label, "away": _versus_side(away_proj, away_actual, digits, pd_),
+            "home": _versus_side(home_proj, home_actual, digits, pd_),
+            **({"digits": digits} if digits else {}), **({"projDigits": pd_} if pd_ != digits else {}),
+            **({"delta": delta} if delta != "pct" else {})}
+
+
+def delta_text(proj, actual, *, mode: str = "pct", digits: int = 0, unit: str = "") -> str | None:
+    """How far over (▲) or under (▼) the projection it came: '▲ 20%', or (mode 'diff', for
+    small projections) '▼ 1.5' in the stat's own `unit`."""
+    p, a = num(proj, 4), num(actual, 4)
+    if p is None or a is None:
+        return None
+    if mode == "pct":
+        if p <= 0:
+            return None
+        change = round((a - p) / p * 100)
+        return "± 0%" if change == 0 else f"{'▲' if change > 0 else '▼'} {abs(change)}%"
+    change = round(a - p, digits)
+    tail = f" {unit}" if unit else ""
+    return (f"± {0:.{digits}f}{tail}" if change == 0
+            else f"{'▲' if change > 0 else '▼'} {abs(change):.{digits}f}{tail}")
 
 
 # --------------------------------------------------------------------------
@@ -263,7 +320,8 @@ def check_table(t, where="table"):
         check_summary(t["summary"], f"{where} summary")
 
 
-SECTION_KINDS = {"notes", "compare", "table"}
+SECTION_KINDS = {"notes", "compare", "table", "versus"}
+DELTAS = {"pct", "diff"}
 
 
 def _check_number(v, where, minimum=None):
@@ -300,6 +358,29 @@ def _check_section(s, where):
                 _check_number(r["max"], f"{rw} max", minimum=0)
             if not isinstance(r.get("lower", False), bool):
                 raise ContractError(f"{rw}: 'lower' must be true/false")
+    elif kind == "versus":
+        rows = s.get("rows")
+        if not isinstance(rows, list) or not rows:
+            raise ContractError(f"{where}: versus needs a non-empty 'rows' list")
+        for i, r in enumerate(rows):
+            rw = f"{where} row {i}"
+            if not isinstance(r, dict):
+                raise ContractError(f"{rw}: not an object")
+            _check_str(r, "label", rw, required=True)
+            for side in ("away", "home"):
+                values = r.get(side)
+                if not isinstance(values, dict):
+                    raise ContractError(f"{rw}: needs an '{side}' object of proj / actual")
+                for key in ("proj", "actual"):
+                    if values.get(key) is not None:
+                        _check_number(values[key], f"{rw} {side} {key}", minimum=0)
+            for key in ("digits", "projDigits"):
+                if r.get(key, 0) not in (0, 1, 2):
+                    raise ContractError(f"{rw}: '{key}' must be 0, 1 or 2")
+            if r.get("delta", "pct") not in DELTAS:
+                raise ContractError(f"{rw}: 'delta' must be one of {sorted(DELTAS)}")
+            if "max" in r:
+                _check_number(r["max"], f"{rw} max", minimum=0)
     else:
         columns, rows = s.get("columns"), s.get("rows")
         if not isinstance(columns, list) or not columns or not all(isinstance(c, str) for c in columns):
@@ -512,6 +593,8 @@ def week_id(season: int, week: int) -> str:
 #   su_pick, su_res, ats_label, ats_res, ats_play, ou_label, ou_res, ou_play,
 #   abs_err (|projected margin - actual margin|)
 # where *_res is 'W' / 'L' / 'P' (push) / 'T' (tie) / None (no pick or line).
+# Optionally `id` (unique in its week) and `card` (the game's card: final_score,
+# picks, versus sections), which a click on its row opens.
 
 BREAK_EVEN_110 = 110 / 210  # win rate needed to profit at -110
 PAYOUT_110 = 100 / 110      # profit per unit staked at -110
@@ -658,6 +741,7 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
         for g in week_games:
             pa, ph = num(g.get("proj_away")), num(g.get("proj_home"))
             rows.append({
+                **({"id": g["id"]} if g.get("id") else {}),
                 **scoreboard(g["away"], g["home"], g.get("away_score"), g.get("home_score"),
                              digits=0),
                 "proj": None if pa is None or ph is None else f"{pa:.1f} – {ph:.1f}",
@@ -681,7 +765,8 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
             "rows": rows,
         }
         label = f"Week {wk}" + (" (in progress)" if wk in partial else "")
-        slates.append(Slate(week_id(season, wk), label, table))
+        cards = {g["id"]: g["card"] for g in week_games if g.get("id") and g.get("card")}
+        slates.append(Slate(week_id(season, wk), label, table, cards or None))
         by_week.append({
             "week": {"v": label, "sort": wk},
             "games": r["n"],

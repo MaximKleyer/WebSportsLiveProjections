@@ -1997,6 +1997,119 @@ button {
   border-radius: 0 4px 4px 0;
 }
 
+/* A graded game: each actual as a fill, its projection as a tick, ▲/▼ how far off.
+   Mirrored like the compare rows: away's number sits at its bar's inner end. */
+.versus {
+  display: grid;
+  gap: 10px;
+}
+
+.versus__legend-mid {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-mute);
+}
+
+.versus__legend-tick {
+  display: inline-block;
+  width: 2px;
+  height: 12px;
+  background: var(--text);
+}
+
+.versus__row {
+  display: grid;
+  grid-template-columns: 6.6rem minmax(0, 1fr) minmax(5.8rem, auto) minmax(0, 1fr) 6.6rem;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.versus__val {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.versus__val--away {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.versus__nums {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.versus__val--away .versus__nums {
+  flex-direction: row-reverse;
+}
+
+.versus__actual {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.versus__delta {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-dim);
+}
+
+.versus__delta--even {
+  color: var(--text-mute);
+}
+
+.versus__proj {
+  font-size: 0.68rem;
+  color: var(--text-mute);
+}
+
+.versus__bar {
+  position: relative;
+  display: flex;
+  height: 8px;
+  background: var(--surface-2);
+}
+
+.versus__bar--away {
+  justify-content: flex-end;
+  border-radius: 4px 0 0 4px;
+}
+
+.versus__bar--home {
+  border-radius: 0 4px 4px 0;
+}
+
+.versus__fill {
+  display: block;
+  height: 100%;
+  min-width: 2px;
+}
+
+.versus__bar--away .versus__fill {
+  background: var(--away);
+  border-radius: 4px 0 0 4px;
+}
+
+.versus__bar--home .versus__fill {
+  background: var(--home);
+  border-radius: 0 4px 4px 0;
+}
+
+.versus__tick {
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  width: 2px;
+  margin: 0 -1px;
+  background: var(--text);
+}
+
 .game-card__table-wrap {
   overflow-x: auto;
 }
@@ -2069,6 +2182,23 @@ button {
   .compare__label {
     font-size: 0.56rem;
     white-space: normal;
+  }
+
+  .versus__row {
+    grid-template-columns: 4.4rem minmax(0, 1fr) 4.8rem minmax(0, 1fr) 4.4rem;
+    gap: 6px;
+  }
+
+  .versus__nums {
+    gap: 4px;
+  }
+
+  .versus__actual {
+    font-size: 0.85rem;
+  }
+
+  .versus__delta {
+    font-size: 0.64rem;
   }
 }
 

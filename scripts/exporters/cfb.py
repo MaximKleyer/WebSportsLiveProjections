@@ -14,6 +14,7 @@ scripts/update-data.ps1 runs this with the model's own venv Python (pandas):
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -22,12 +23,13 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from site_export import (  # noqa: E402  (the site's shared export toolkit)
-    FLAGGED_FILTER, SITE_DATA, Slate, card_stats, file_date, flag, index_files, num,
-    pick_weeks, publish_results, publish_slates, scoreboard, scoreboard_columns, spread, text,
+    FLAGGED_FILTER, SITE_DATA, Slate, card_stats, file_date, final_score, flag, graded_cell, index_files, num,
+    pick_weeks, publish_results, publish_slates, scoreboard, scoreboard_columns, spread, text, versus_row,
     week_id, write_card, write_table,
 )
 
 MODEL_OUT = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\cfb\output")
+CACHE = MODEL_OUT.parent / "data" / "cache"  # the model's CFBD downloads (read here, never fetched)
 EASTERN = ZoneInfo("America/New_York")
 SEARCH = "Search teams"
 
@@ -291,7 +293,126 @@ def _kickoffs(model_out: Path, season: int) -> dict:
     return starts
 
 
-def graded_games(log: pd.DataFrame, starts: dict) -> list[dict]:
+# --------------------------------------------------------------------------
+# result cards: a graded game against what happened
+# --------------------------------------------------------------------------
+# The model projects the score, so that's what a card holds up against the
+# final: the blend (with FantasyData's guide, when imported) beside the model
+# on its own and FantasyData's own, and the line. How the game was played comes
+# from CFBD's game-level advanced stats in the model's cache - each team's day
+# against its own average in its earlier games - and its line score from the
+# cached games: nothing is fetched for the site.
+ADVANCED = {"offense_plays": ("Plays", "{:.0f}"), "offense_successRate": ("Success rate", "{:.0%}"),
+            "offense_explosiveness": ("Explosiveness", "{:.2f}"), "offense_ppa": ("EPA per play", "{:+.2f}"),
+            "offense_rushingPlays_successRate": ("Rushing success", "{:.0%}"),
+            "offense_passingPlays_successRate": ("Passing success", "{:.0%}")}
+
+
+def _cached(kind: str, season: int) -> pd.DataFrame:
+    """A season's cached CFBD table (regular season and postseason), or an empty one."""
+    frames = [pd.read_parquet(p) for p in sorted(CACHE.glob(f"{kind}__year{season}_seasonType*.parquet"))]
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+
+
+def _lean(home: str, away: str, margin) -> str:
+    m = num(margin, 2)
+    return "even" if m is None or abs(m) < 0.05 else f"{home if m > 0 else away} by {abs(m):.1f}"
+
+
+def result_card(d: dict, g: dict, advanced: pd.DataFrame, cached: dict) -> dict:
+    """The card for one graded game: `d` its results_log row, `g` its graded picks (graded_games),
+    `cached` its cached CFBD game (line score, neutral site), if any."""
+    home, away = text(d.get("home_team")), text(d.get("away_team"))
+    hp, ap = num(d.get("home_proj"), 1), num(d.get("away_proj"), 1)
+    ah, aa = num(d.get("actual_home"), 0), num(d.get("actual_away"), 0)
+    p_home = num(d.get("win_prob"), 4)
+    winner = None if ah is None or aa is None or ah == aa else (home if ah > aa else away)
+    am, at = num(d.get("actual_margin"), 2), num(d.get("actual_total"), 2)
+
+    notes = []
+    if None not in (hp, ap, ah, aa):
+        notes.append(f"The model projected {away} {ap:.1f} – {home} {hp:.1f} ({_lean(home, away, hp - ap)}); it ended "
+                     f"{away} {aa:.0f} – {home} {ah:.0f}" + (f", {winner} by {abs(ah - aa):.0f}." if winner else ", a tie."))
+    w, pm, mm = num(d.get("fd_weight"), 3), num(d.get("pred_margin"), 3), num(d.get("model_margin"), 3)
+    if w and 0 < w < 1 and pm is not None and mm is not None and am is not None:
+        fd = (pm - (1 - w) * mm) / w  # the blend is (1 - w) x the model + w x FantasyData
+        sources = {"the model on its own": mm, "FantasyData": fd, "the blend": pm}
+        closest = min(sources, key=lambda k: abs(sources[k] - am))
+        notes.append(f"On its own the model had {_lean(home, away, mm)}, FantasyData {_lean(home, away, fd)}; blended "
+                     f"at {w:.0%} FantasyData, {_lean(home, away, pm)}. Closest to the final margin: {closest}.")
+    cm, ct = num(d.get("closing_margin"), 2), num(d.get("closing_total"), 2)
+    if cm is not None:
+        notes.append(f"The line closed {home} {spread(-cm)}" + (f", total {ct:g}" if ct is not None else "")
+                     + f": the market expected {_lean(home, away, cm)}.")
+    if pm is not None and am is not None and at is not None and num(d.get("pred_total"), 2) is not None:
+        notes.append(f"Off by {abs(pm - am):.1f} points on the margin and {abs(num(d.get('pred_total'), 2) - at):.1f} "
+                     "on the total.")
+
+    picks = [["Straight up", graded_cell(g.get("su_pick"), g.get("su_res"))],
+             ["Against the spread", graded_cell(g.get("ats_label"), g.get("ats_res"), g.get("ats_play"))],
+             ["Over / under", graded_cell(g.get("ou_label"), g.get("ou_res"), g.get("ou_play"))]]
+    sections = [{"title": "How it went", "kind": "notes", "items": notes or ["Final."]},
+                {"title": "The picks", "kind": "table", "columns": ["", "Pick"],
+                 "rows": [p for p in picks if p[1] is not None] or [["Straight up", "—"]],
+                 "note": "★ a flagged play; graded against the market line the model was projected against."}]
+    if None not in (hp, ap, ah, aa):
+        sections.append({"title": "Projected against actual", "kind": "versus",
+                         "rows": [versus_row("Points", ap, aa, hp, ah, proj_digits=1, delta="diff")],
+                         "note": "The bar is what each team scored, the tick what the model projected."})
+    if cached.get("lines"):
+        a_q, h_q = cached["lines"]
+        n = max(len(a_q), len(h_q))
+        cols = [f"Q{i + 1}" if i < 4 else ("OT" if n == 5 else f"OT{i - 3}") for i in range(n)]
+        sections.append({"title": "Line score", "kind": "table", "columns": ["", *cols, "Final"],
+                         "rows": [[away, *[a_q[i] if i < len(a_q) else None for i in range(n)], aa],
+                                  [home, *[h_q[i] if i < len(h_q) else None for i in range(n)], ah]]})
+    if len(advanced):
+        game_id = num(d.get("game_id"), 0)
+        rows = []
+        day = {t: advanced[(advanced["gameId"] == game_id) & (advanced["team"] == t)] for t in (away, home)}
+        if all(len(x) for x in day.values()):
+            before = {t: advanced[(advanced["team"] == t) & (advanced["week"] < int(d["week"]))] for t in (away, home)}
+            for col, (label, fmt) in ADVANCED.items():
+                cells = []
+                for t in (away, home):
+                    v, avg = num(day[t][col].iloc[0], 4), num(pd.to_numeric(before[t][col], errors="coerce").mean(), 4)
+                    cells.append(None if v is None else fmt.format(v) + (f" (avg {fmt.format(avg)})" if avg is not None else ""))
+                rows.append([label, *cells])
+            sections.append({"title": "How it was played", "kind": "table", "columns": ["", away, home], "rows": rows,
+                             "note": "CFBD's advanced stats for the game, against each team's average in its earlier "
+                                     "games this season. Explosiveness: EPA on successful plays."})
+    neutral = bool(cached.get("neutral"))
+    return {
+        "title": f"{away} {'vs' if neutral else '@'} {home}",
+        "subtitle": f"Week {int(d['week'])} · Final",
+        "away": {"name": away},
+        "home": {"name": home},
+        **({"score": s} if (s := final_score(aa, ah, ap, hp)) else {}),
+        **({"win": {"away": round(1 - p_home, 4), "home": p_home,
+                    "note": "Before kickoff" + (f" · {winner} won" if winner else " · a tie")}} if p_home is not None else {}),
+        "sections": sections,
+    }
+
+
+def _cached_games(games: pd.DataFrame) -> dict[int, dict]:
+    """{game id: {lines: (away's points by quarter, home's), neutral}} from the cached games."""
+    def quarters(x) -> list[int]:
+        x = json.loads(x) if isinstance(x, str) else x  # the cache keeps them as JSON text: '[7, 10, 0, 3]'
+        try:
+            return [int(v) for v in x] if x is not None and len(x) else []
+        except TypeError:  # NaN: none recorded
+            return []
+
+    out = {}
+    for r in games.to_dict("records") if len(games) else []:
+        a, h = quarters(r.get("awayLineScores")), quarters(r.get("homeLineScores"))
+        lines = (a, h) if a and h else None
+        out[int(r["id"])] = {"lines": lines, "neutral": bool(r.get("neutralSite"))}
+    return out
+
+
+def graded_games(log: pd.DataFrame, starts: dict, advanced: pd.DataFrame | None = None,
+                 cached: dict[int, dict] | None = None) -> list[dict]:
     """results_log rows -> site_export's graded-game shape.
 
     The CFB log keeps raw projections, lines and finals, so every pick is
@@ -326,7 +447,9 @@ def graded_games(log: pd.DataFrame, starts: dict) -> list[dict]:
             if at is not None:
                 ou_res = "P" if at == mt else ("W" if (at > mt) == picked_over else "L")
 
-        games.append({
+        game_id = num(d.get("game_id"), 0)
+        game = {
+            **({"id": str(int(game_id))} if game_id is not None else {}),
             "week": int(d["week"]),
             "order": starts.get(d.get("game_id")),
             "away": away,
@@ -344,7 +467,10 @@ def graded_games(log: pd.DataFrame, starts: dict) -> list[dict]:
             "ou_res": ou_res,
             "ou_play": flag(d.get("total_play")),
             "abs_err": None if pm is None or am is None else abs(pm - am),
-        })
+        }
+        if advanced is not None and game_id is not None:
+            game["card"] = result_card(d, game, advanced, (cached or {}).get(int(game_id), {}))
+        games.append(game)
     return games
 
 
@@ -395,7 +521,8 @@ def main() -> int:
     if len(log):
         scheduled = {wk: len(pd.read_csv(p)) for wk, p in games[season].items()}  # games projected
         record = publish_results(args.site_dir / "results",
-                                 graded_games(log, _kickoffs(args.model_out, season)),
+                                 graded_games(log, _kickoffs(args.model_out, season), _cached("stats_game_advanced", season),
+                                              _cached_games(_cached("games", season))),
                                  season=season, updated=file_date(log_path), search=SEARCH,
                                  scheduled=scheduled)
         sources.append(log_path)

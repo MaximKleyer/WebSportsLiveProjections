@@ -48,8 +48,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from site_export import (  # noqa: E402  (the site's shared export toolkit)
-    FLAGGED_FILTER, SITE_DATA, Slate, file_date, graded_cell, num, publish_slates, scoreboard,
-    scoreboard_columns, spread, text, write_card, write_table,
+    FLAGGED_FILTER, SITE_DATA, Slate, file_date, final_score, graded_cell, num, publish_slates, scoreboard,
+    scoreboard_columns, spread, text, versus_row, write_card, write_table,
 )
 
 MODEL = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\cbb")
@@ -490,15 +490,179 @@ def read_db(model: Path, season: int) -> tuple[dict, dict, str | None]:
     return finals, bets, opening
 
 
+def read_boxes(model: Path, season: int) -> dict[str, dict]:
+    """game_id -> its box score from the model's database (read-only): each team's (by ESPN id)
+    and each player's line."""
+    path = model / "data" / "cbb.sqlite"
+    if not path.exists():
+        return {}
+    con = sqlite3.connect(f"{path.as_uri()}?mode=ro", uri=True, timeout=30)
+    con.row_factory = sqlite3.Row
+    boxes: dict[str, dict] = {}
+    try:
+        for r in con.execute("SELECT s.* FROM team_game_stats s JOIN games g USING (game_id) WHERE g.season = ?", (season,)):
+            boxes.setdefault(r["game_id"], {"teams": {}, "players": []})["teams"][int(r["team_id"])] = dict(r)
+        for r in con.execute("SELECT s.*, p.name FROM player_game_stats s JOIN players p USING (player_id) "
+                             "JOIN games g USING (game_id) WHERE g.season = ?", (season,)):
+            boxes.setdefault(r["game_id"], {"teams": {}, "players": []})["players"].append(dict(r))
+    finally:
+        con.close()
+    return boxes
+
+
+OUT_ENTRY = re.compile(r"^(?P<name>.+?) (?P<status>out|doubtful|questionable|probable|gtd)\b(?P<rest>.*)$", re.I)
+
+
+def _norm(name: str) -> str:
+    return re.sub(r"[^a-z]", "", (name or "").lower())
+
+
+def _bet_rows(bets: list[tuple[dict, str | None]], away: str, home: str) -> list[list]:
+    rows = []
+    for bet, result in bets:
+        price, stake, clv = num(bet.get("price"), 0), num(bet.get("stake"), 2), num(bet.get("clv"), 4)
+        rows.append([graded_cell(f"★ {_bet_label(bet, away, home)}", result),
+                     None if price is None else f"{price:+.0f}", None if stake is None else f"{stake:.2f} u",
+                     None if result is None else f"{_profit(bet, result):+.2f} u", None if clv is None else f"{clv:+.1%}"])
+    return rows
+
+
+def _four(t: dict, opp: dict) -> dict[str, float | None]:
+    """A team's day in the four factors' terms, from its box score and its opponent's."""
+    poss, fga = num(t.get("possessions"), 1), num(t.get("fga"), 0)
+    orb, opp_drb = num(t.get("orb"), 0), num(opp.get("drb"), 0)
+    return {"poss": poss,
+            "ppp": None if not poss else 100 * (num(t.get("pts"), 0) or 0) / poss,
+            "efg": None if not fga else ((num(t.get("fgm"), 0) or 0) + 0.5 * (num(t.get("three_pm"), 0) or 0)) / fga,
+            "tov": None if not poss else (num(t.get("tov"), 0) or 0) / poss,
+            "orb": None if orb is None or opp_drb is None or orb + opp_drb == 0 else orb / (orb + opp_drb),
+            "ftr": None if not fga else (num(t.get("fta"), 0) or 0) / fga}
+
+
+def result_card(d: dict, g: dict, box: dict | None, day: str) -> dict:
+    """The card for one graded game (a day file's row `d`, graded as `g`): the final under the
+    twist's expected score and Barttorvik's alone, the picks and bets, each layer's push and
+    whether it moved the margin toward the final, who was out and whether he played, and how the
+    game was played."""
+    away, home = g["away"], g["home"]
+    pa, ph = g["proj_away"], g["proj_home"]
+    ta, th = num(d.get("torvik_away"), 4), num(d.get("torvik_home"), 4)
+    p_home = num(d.get("p_home_win"), 4)
+    winner = home if g["home_pts"] > g["away_pts"] else away
+    actual = g["home_pts"] - g["away_pts"]
+    ot = "" if not g["ot"] else (" (OT)" if g["ot"] == 1 else f" ({g['ot']}OT)")
+    vs = "vs" if _flag(d.get("neutral")) else "@"
+
+    def lean(margin):
+        return "even" if abs(margin) < 0.05 else f"{home if margin > 0 else away} by {abs(margin):.1f}"
+
+    notes = []
+    if pa is not None and ph is not None:
+        notes.append(f"With the twist the model expected {away} {pa:.1f} – {home} {ph:.1f} ({lean(ph - pa)})"
+                     + (f"; Barttorvik alone, {away} {ta:.1f} – {home} {th:.1f} ({lean(th - ta)})" if ta is not None and th is not None else "")
+                     + f". It ended {g['away_pts']}–{g['home_pts']}{ot}, {winner} by {abs(actual)}.")
+        closer = _closer(g)
+        if closer:
+            notes.append("Closer to the final margin: " + ("neither, they were level" if closer["v"] == "even" else closer["v"].replace(" by ", ", by ")) + ".")
+    picks = [["Win pick", graded_cell(f"{g['pick']} {g['pick_p']:.0%}", g["pick_res"])],
+             ["vs Spread", graded_cell(*g["ats"]) if g["ats"] else None],
+             ["vs Total", graded_cell(*g["ou"]) if g["ou"] else None]]
+    sections = [{"title": "How it went", "kind": "notes", "items": notes or ["Final."]},
+                {"title": "The picks", "kind": "table", "columns": ["", "Pick"], "rows": [x for x in picks if x[1] is not None],
+                 "note": "The twist's picks; against the market, the side of the published spread and total it gave over 50%."}]
+    if g["bets"]:
+        sections.append({"title": "Bets", "kind": "table", "columns": ["Bet", "Price", "Stake", "Profit", "CLV"],
+                         "rows": _bet_rows(g["bets"], away, home),
+                         "note": "CLV: the bet's expected return at the closing line's no-vig odds."})
+    rows = []
+    if pa is not None and ph is not None:
+        rows.append(versus_row("Points · twist", pa, g["away_pts"], ph, g["home_pts"], proj_digits=1, delta="diff"))
+    if ta is not None and th is not None:
+        rows.append(versus_row("Points · Barttorvik", ta, g["away_pts"], th, g["home_pts"], proj_digits=1, delta="diff"))
+    if rows:
+        sections.append({"title": "Projected against actual", "kind": "versus", "rows": rows,
+                         "note": "The bar is what each team scored (overtime included), the tick each variant's expected points."})
+    if pa is not None and ph is not None:
+        twist = ph - pa
+        layers = []
+        for key, label in LAYERS:
+            m = num(d.get(f"{key}_pts"), 3)
+            if m is None or abs(m) < 0.05:
+                continue
+            helped = abs(twist - actual) < abs(twist - m - actual)
+            layers.append([label, f"{home if m > 0 else away} +{abs(m):.1f}",
+                           {"v": "toward the final ✓" if helped else "away from it ✗", "tone": "good" if helped else "bad"}])
+        if layers:
+            sections.append({"title": "The twist's layers", "kind": "table", "columns": ["Layer", "Moved the margin", "Result"],
+                             "rows": layers, "note": "Each layer's push on the expected margin, and whether the margin came "
+                                                     "nearer the final with it than without it."})
+    players = (box or {}).get("players", [])
+    minutes = {(int(r["team_id"]), _norm(r.get("name"))): num(r.get("minutes"), 0) or 0 for r in players}
+    out = []
+    for side, team, team_id in (("away", away, num(d.get("away_id"), 0)), ("home", home, num(d.get("home_id"), 0))):
+        for entry in (text(d.get(f"{side}_out")) or "").split(", "):
+            m = OUT_ENTRY.match(entry.strip()) if entry.strip() else None
+            if not m:
+                continue
+            played = minutes.get((int(team_id or 0), _norm(m["name"])))
+            source = " (box score)" if "box" in m["rest"] else ""
+            out.append([team, m["name"], m["status"].lower() + source,
+                        f"played {played:.0f} min" if played else "didn't play"])
+    if out:
+        sections.append({"title": "Who was out", "kind": "table", "columns": ["Team", "Player", "Listed", "In the game"],
+                         "rows": out, "note": "Your availability file, else a rotation player who missed his team's last "
+                                              "game (box score), as the prediction had them."})
+    teams = (box or {}).get("teams", {})
+    ida, idh = (int(num(d.get(k), 0) or 0) for k in ("away_id", "home_id"))
+    if ida in teams and idh in teams:
+        fa, fh = _four(teams[ida], teams[idh]), _four(teams[idh], teams[ida])
+        rows = []
+        for label, key, fmt, lower in (("Possessions", "poss", "{:.0f}", False), ("Points per 100", "ppp", "{:.1f}", False),
+                                       ("Effective FG%", "efg", "{:.0%}", False), ("Turnover rate", "tov", "{:.0%}", True),
+                                       ("Off. rebound %", "orb", "{:.0%}", False), ("Free-throw rate", "ftr", "{:.0%}", False)):
+            x, y = fa[key], fh[key]
+            if x is None or y is None:
+                continue
+            rows.append({"label": label, "away": x, "home": y, "awayText": fmt.format(x), "homeText": fmt.format(y),
+                         **({"lower": True} if lower else {}), **({"max": 1} if fmt.endswith("%}") else {})})
+        if rows:
+            sections.append({"title": "How it was played", "kind": "compare", "rows": rows,
+                             "note": "From the box score: the four factors (shooting, turnovers, offensive rebounds, free "
+                                     "throws) and the pace; the brighter number is the better one."})
+    if players:
+        top = []
+        for team, team_id in ((away, ida), (home, idh)):
+            mine = sorted((r for r in players if int(r["team_id"]) == team_id), key=lambda r: -(num(r.get("pts"), 0) or 0))[:3]
+            top += [[team, text(r.get("name")), f"{num(r.get('minutes'), 0) or 0:.0f}", num(r.get("pts"), 0),
+                     num(r.get("reb"), 0), num(r.get("ast"), 0),
+                     f"{num(r.get('three_pm'), 0) or 0:.0f}/{num(r.get('three_pa'), 0) or 0:.0f}"] for r in mine]
+        if top:
+            sections.append({"title": "Top scorers", "kind": "table",
+                             "columns": ["Team", "Player", "Min", "Pts", "Reb", "Ast", "3PT"], "rows": top})
+    return {
+        "title": f"{away} {vs} {home}",
+        "subtitle": f"{_day_label(day)} · Final{ot}",
+        "away": {"name": away},
+        "home": {"name": home},
+        **({"score": {**sc, "label": sc["label"].replace("Final", f"Final{ot}", 1)}}
+           if (sc := final_score(g["away_pts"], g["home_pts"], pa, ph)) else {}),
+        **({"win": {"away": round(1 - p_home, 4), "home": p_home, "note": f"Before tip-off (the twist's) · {winner} won"}}
+           if p_home is not None else {}),
+        "sections": sections,
+    }
+
+
 def _graded(lean, won: bool | None) -> tuple[str, str] | None:
     if lean is None:
         return None
     return f"{lean[0]} {lean[1]:.0%}", "P" if won is None else ("W" if won else "L")
 
 
-def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict, bets: dict) -> list[dict]:
+def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict, bets: dict,
+                 boxes: dict | None = None) -> list[dict]:
     """Every published prediction of a finished game, graded: the twist's win pick, probability and
-    expected score, Barttorvik alone's margin beside it, and the twist's side of the market's lines."""
+    expected score, Barttorvik alone's margin beside it, and the twist's side of the market's lines;
+    each with its card."""
     games = []
     for day in days:
         for d in frames[day].to_dict("records"):
@@ -517,7 +681,8 @@ def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
             ats, ou = _ats(d, away, home), _ou(d)
             cover = None if line is None or home_pts - away_pts + line == 0 else home_pts - away_pts + line > 0
             over = None if total_line is None or home_pts + away_pts == total_line else home_pts + away_pts > total_line
-            games.append({
+            game = {
+                "id": text(d.get("game_id")),
                 "day": day, "order": text(d.get("start_ts")) or "",
                 "away": away, "home": home, "away_pts": away_pts, "home_pts": home_pts, "ot": int(ot or 0),
                 "proj_away": am, "proj_home": hm,
@@ -530,7 +695,10 @@ def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
                 "ats": _graded(ats, None if cover is None or ats is None else cover == ats[0].startswith(home + " ")),
                 "ou": _graded(ou, None if over is None or ou is None else over == ou[0].startswith("Over")),
                 "bets": [(b, BET_RESULT.get(text(b.get("result")))) for b in bets.get(text(d.get("game_id")), [])],
-            })
+            }
+            if boxes is not None:
+                game["card"] = result_card(d, game, boxes.get(text(d.get("game_id"))), day)
+            games.append(game)
     return games
 
 
@@ -714,6 +882,7 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
             pa, ph = g["proj_away"], g["proj_home"]
             bet_cells = [graded_cell(f"★ {_bet_label(b, g['away'], g['home'])}", res) for b, res in g["bets"]]
             rows.append({
+                "id": g["id"],
                 **scoreboard(g["away"], g["home"], g["away_pts"], g["home_pts"], digits=0),
                 "sep": "–" if not g["ot"] else ("OT" if g["ot"] == 1 else f"{g['ot']}OT"),
                 "proj": None if pa is None or ph is None else f"{pa:.1f} – {ph:.1f}",
@@ -736,7 +905,7 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
             **({"filters": [{**FLAGGED_FILTER, "label": "★ bets only"}]} if any(row["flagged"] for row in rows) else {}),
             "columns": game_cols,
             "rows": rows,
-        }))
+        }, {g["id"]: g["card"] for g in day_games if g.get("card")} or None))
         by_day.append({
             "day": {"v": _day_label(day), "sort": day}, "games": r["n"], "su": _vs_half(r["su"]),
             "logLoss": _lower_better(r["log_loss"], "log_loss"),
@@ -846,7 +1015,7 @@ def main() -> int:
         print(f"  [skip] no {rankings.name}: run `cbb rankings`")
 
     finals, bets, opening = read_db(args.model, season)
-    graded = graded_games(frames, publish, finals, bets)
+    graded = graded_games(frames, publish, finals, bets, read_boxes(args.model, season))
     record = None
     if graded:
         db = args.model / "data" / "cbb.sqlite"

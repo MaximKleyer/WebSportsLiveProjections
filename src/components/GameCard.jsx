@@ -7,8 +7,11 @@ import { useEffect, useRef } from 'react';
 //   notes    a few sentences on what drives the projection
 //   compare  paired bars, away to the left of the label and home to the right
 //   table    a small table (markets, bets, players)
-// Away is always blue and home orange (a colorblind-safe pair on this
-// surface); every value is printed, so color never carries meaning alone.
+//   versus   a graded game's projections against what happened: each actual
+//            as a bar with a tick at its projection, and ▲/▼ how far off
+// A graded game (from a Results table) gets the same card, its final score in
+// the header. Away is always blue and home orange (a colorblind-safe pair on
+// this surface); every value is printed, so color never carries meaning alone.
 
 const pct = (p) => `${Math.round(p * 100)}%`;
 
@@ -114,6 +117,85 @@ function Compare({ section, away, home }) {
   );
 }
 
+// How far over (▲) or under (▼) the projection a value came: a percentage, or
+// (mode 'diff') the difference in the stat's own units, for small counts.
+function delta(proj, actual, mode, digits) {
+  if (proj == null || actual == null) return null;
+  if (mode === 'diff') {
+    const d = Number((actual - proj).toFixed(digits));
+    if (d === 0) return { text: `± ${(0).toFixed(digits)}`, dir: 'even' };
+    return { text: `${d > 0 ? '▲' : '▼'} ${Math.abs(d).toFixed(digits)}`, dir: d > 0 ? 'over' : 'under' };
+  }
+  if (!(proj > 0)) return null;
+  const d = Math.round(((actual - proj) / proj) * 100);
+  if (d === 0) return { text: '± 0%', dir: 'even' };
+  return { text: `${d > 0 ? '▲' : '▼'} ${Math.abs(d)}%`, dir: d > 0 ? 'over' : 'under' };
+}
+
+function VersusValue({ side, digits, projDigits, mode, align }) {
+  const show = (v, n) =>
+    v == null ? '—' : Number(v).toLocaleString(undefined, { minimumFractionDigits: n, maximumFractionDigits: n });
+  const d = delta(side.proj, side.actual, mode, projDigits);
+  return (
+    <span className={`versus__val versus__val--${align}`} role="cell">
+      <span className="versus__nums">
+        <strong className="versus__actual">{show(side.actual, digits)}</strong>
+        {d && <span className={`versus__delta versus__delta--${d.dir}`}>{d.text}</span>}
+      </span>
+      {side.proj != null && <span className="versus__proj">proj {show(side.proj, projDigits)}</span>}
+    </span>
+  );
+}
+
+// The actual as a fill, the projection as a tick across the bar.
+function VersusBar({ side, max, align }) {
+  const at = (v) => `${Math.min(100, (v / max) * 100)}%`;
+  return (
+    <span className={`versus__bar versus__bar--${align}`} aria-hidden="true">
+      {side.actual != null && <span className="versus__fill" style={{ width: at(side.actual) }} />}
+      {side.proj != null && <span className="versus__tick" style={{ [align === 'away' ? 'right' : 'left']: at(side.proj) }} />}
+    </span>
+  );
+}
+
+function Versus({ section, away, home }) {
+  return (
+    <div className="versus" role="table" aria-label={section.title}>
+      <div className="compare__legend" aria-hidden="true">
+        <span>
+          <span className="compare__key compare__key--away" /> {short(away)}
+        </span>
+        <span className="versus__legend-mid">
+          <span className="versus__legend-tick" /> projected
+        </span>
+        <span>
+          {short(home)} <span className="compare__key compare__key--home" />
+        </span>
+      </div>
+      {section.rows.map((r) => {
+        const digits = r.digits ?? 0;
+        const projDigits = r.projDigits ?? digits;
+        const mode = r.delta ?? 'pct';
+        const max =
+          r.max ||
+          Math.max(r.away.actual ?? 0, r.away.proj ?? 0, r.home.actual ?? 0, r.home.proj ?? 0) ||
+          1;
+        return (
+          <div className="versus__row" role="row" key={r.label}>
+            <VersusValue side={r.away} digits={digits} projDigits={projDigits} mode={mode} align="away" />
+            <VersusBar side={r.away} max={max} align="away" />
+            <span className="compare__label" role="rowheader">
+              {r.label}
+            </span>
+            <VersusBar side={r.home} max={max} align="home" />
+            <VersusValue side={r.home} digits={digits} projDigits={projDigits} mode={mode} align="home" />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 function Table({ section }) {
   return (
     <div className="game-card__table-wrap">
@@ -158,6 +240,7 @@ function Section({ section, away, home }) {
         </ul>
       )}
       {section.kind === 'compare' && <Compare section={section} away={away} home={home} />}
+      {section.kind === 'versus' && <Versus section={section} away={away} home={home} />}
       {section.kind === 'table' && <Table section={section} />}
       {section.note && <p className="game-card__fine">{section.note}</p>}
     </section>

@@ -36,8 +36,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from site_export import (  # noqa: E402  (the site's shared export toolkit)
-    FLAGGED_FILTER, SITE_DATA, Slate, file_date, graded_cell, num, publish_slates, scoreboard,
-    scoreboard_columns, text, write_card, write_table,
+    FLAGGED_FILTER, SITE_DATA, Slate, file_date, final_score, graded_cell, num, publish_slates, scoreboard,
+    scoreboard_columns, text, versus_row, write_card, write_table,
 )
 
 MODEL = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\nhl")
@@ -566,9 +566,111 @@ def read_results(model: Path, season: int) -> tuple[dict[int, tuple], dict[int, 
     return finals, bets
 
 
+def read_boxes(model: Path, season: int) -> dict[int, dict]:
+    """game_id -> each team's box (by abbreviation: goals, shots, xG, power play) and its goalies'
+    games, from the model's database (read-only)."""
+    path = model / "data" / "nhl.sqlite"
+    if not path.exists():
+        return {}
+    con = sqlite3.connect(f"{path.as_uri()}?mode=ro", uri=True)
+    con.row_factory = sqlite3.Row
+    try:
+        boxes: dict[int, dict] = {}
+        for r in con.execute("SELECT s.*, t.abbrev FROM team_game_stats s JOIN games g USING (game_id) "
+                             "JOIN teams t ON t.team_id = s.team_id WHERE g.season = ?", (season * 10000 + season + 1,)):
+            boxes.setdefault(r["game_id"], {"teams": {}, "goalies": []})["teams"][r["abbrev"]] = dict(r)
+        for r in con.execute("SELECT gg.*, t.abbrev FROM goalie_games gg JOIN games g USING (game_id) "
+                             "JOIN teams t ON t.team_id = gg.team_id WHERE g.season = ? ORDER BY gg.started DESC, gg.toi DESC",
+                             (season * 10000 + season + 1,)):
+            if r["game_id"] in boxes:
+                boxes[r["game_id"]]["goalies"].append(dict(r))
+    finally:
+        con.close()
+    return boxes
+
+
+def _bet_rows(bets: list[tuple[dict, str | None]], away: str, home: str) -> list[list]:
+    rows = []
+    for bet, result in bets:
+        price, stake, clv = num(bet.get("price"), 0), num(bet.get("stake"), 2), num(bet.get("clv"), 4)
+        rows.append([graded_cell(f"★ {_bet_label(bet, away, home)}", result),
+                     None if price is None else f"{price:+.0f}", None if stake is None else f"{stake:.2f} u",
+                     None if result is None else f"{_profit(bet, result):+.2f} u", None if clv is None else f"{clv:+.1%}"])
+    return rows
+
+
+def result_card(d: dict, g: dict, box: dict | None, names: dict[int, str], day: str) -> dict:
+    """The card for one graded game (a day file's row `d`, graded as `g`): the final score under
+    the expected goals, the picks and bets, the goals and the chances each team created against
+    what the model expected, and the goalies who played."""
+    away, home = g["away"], g["home"]
+    end = g["end"] if g["end"] in ("OT", "SO") else None
+    p_home = num(d.get("p_home_win"), 4)
+    winner = home if g["home_goals"] > g["away_goals"] else away
+    pa, ph = g["proj_away"], g["proj_home"]
+
+    notes = []
+    if pa is not None and ph is not None:
+        notes.append(f"The model expected {away} {pa:.2f} – {home} {ph:.2f} goals ({pa + ph:.2f} in all); it ended "
+                     f"{g['away_goals']}–{g['home_goals']}" + (f" in {'overtime' if end == 'OT' else 'a shootout'}" if end else "")
+                     + f", {winner}.")
+    teams = (box or {}).get("teams", {})
+    if away in teams and home in teams:
+        xa, xh = num(teams[away].get("xg"), 2), num(teams[home].get("xg"), 2)
+        if xa is not None and xh is not None:
+            notes.append(f"On chances (expected goals from their shots) it was {away} {xa:.2f} – {home} {xh:.2f}: "
+                         + (f"{away if xa > xh else home} had the better of the play" if abs(xa - xh) >= 0.5 else "close to even")
+                         + ".")
+    picks = [["Win pick", graded_cell(f"{g['pick']} {g['pick_p']:.0%}", g["pick_res"]) if g["pick"] else None],
+             *[[f"O/U {line:g}", graded_cell(*g["leans"][line])] for line in LEAN_LINES if line in g["leans"]]]
+    sections = [{"title": "How it went", "kind": "notes", "items": notes or ["Final."]},
+                {"title": "The picks", "kind": "table", "columns": ["", "Pick"],
+                 "rows": [p for p in picks if p[1] is not None] or [["Win pick", "—"]],
+                 "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."}]
+    if g["bets"]:
+        sections.append({"title": "Bets", "kind": "table", "columns": ["Bet", "Price", "Stake", "Profit", "CLV"],
+                         "rows": _bet_rows(g["bets"], away, home),
+                         "note": "CLV: the bet's expected return at the closing line's no-vig odds."})
+    if away in teams and home in teams:
+        ta, th = teams[away], teams[home]
+        rows = [versus_row("Goals", pa, g["away_goals"], ph, g["home_goals"], proj_digits=2, delta="diff"),
+                versus_row("Chances (xG)", pa, ta.get("xg"), ph, th.get("xg"), digits=2, delta="diff"),
+                versus_row("Shots", None, ta.get("shots"), None, th.get("shots")),
+                versus_row("5v5 xG", None, ta.get("xg_5v5"), None, th.get("xg_5v5"), digits=2)]
+        sections.append({"title": "Projected against actual", "kind": "versus", "rows": rows,
+                         "note": "The tick is the goals the model expected; the bars what each team scored, and the "
+                                 "expected goals of the shots it took (the model's own xG). The final counts a "
+                                 "shootout winner's goal; the expectation includes overtime."})
+        pp = [[t, f"{num(s.get('pp_goals'), 0) or 0:.0f} for {num(s.get('pp_opps'), 0) or 0:.0f}"] for t, s in ((away, ta), (home, th))]
+        sections.append({"title": "Power play", "kind": "table", "columns": ["", "Goals for chances"], "rows": pp})
+    goalies = [r for r in (box or {}).get("goalies", []) if num(r.get("toi"), 0)]
+    if goalies:
+        expected = {away: _starter(d.get("away_starter"), names), home: _starter(d.get("home_starter"), names)}
+        rows = []
+        for r in goalies:
+            shots, ga, xga = num(r.get("shots_against"), 0) or 0, num(r.get("goals_against"), 0) or 0, num(r.get("xg_against"), 2)
+            rows.append([r["abbrev"], names.get(int(r["goalie_id"]), str(r["goalie_id"])) + ("" if r.get("started") else " (relief)"),
+                         expected.get(r["abbrev"]) if r.get("started") else None,
+                         f"{shots - ga:.0f} of {shots:.0f}", None if xga is None else f"{xga - ga:+.2f}"])
+        sections.append({"title": "In goal", "kind": "table", "columns": ["Team", "Goalie", "Model's likeliest", "Saves", "GSAx"],
+                         "rows": rows, "note": "GSAx: goals saved above expected - the expected goals of the shots he "
+                                               "faced, less the goals he allowed."})
+    return {
+        "title": f"{away} @ {home}",
+        "subtitle": f"{_day_label(day)} · Final" + (f" ({end})" if end else ""),
+        "away": {"name": away, "abbr": away},
+        "home": {"name": home, "abbr": home},
+        **({"score": {**s, "label": s["label"].replace("Final", f"Final ({end})" if end else "Final", 1)}}
+           if (s := final_score(g["away_goals"], g["home_goals"], pa, ph, proj_digits=2)) else {}),
+        **({"win": {"away": round(1 - p_home, 4), "home": p_home, "note": f"Before puck drop · {winner} won"}}
+           if p_home is not None else {}),
+        "sections": sections,
+    }
+
+
 def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
-                 bets: dict) -> list[dict]:
-    """Every published prediction whose game has finished, each pick graded."""
+                 bets: dict, boxes: dict | None = None, names: dict[int, str] | None = None) -> list[dict]:
+    """Every published prediction whose game has finished, each pick graded and given its card."""
     games = []
     for day in days:
         for d in frames[day].to_dict("records"):
@@ -590,7 +692,8 @@ def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
                 over = p_over > 0.5
                 result = "P" if total == line else ("W" if (total > line) == over else "L")
                 leans[line] = (f"{'OVER' if over else 'UNDER'} {max(p_over, 1 - p_over):.0%}", result)
-            games.append({
+            game = {
+                "id": str(int(d["game_id"])),
                 "day": day,
                 "order": text(d.get("start_ts")) or "",
                 "away": away,
@@ -598,8 +701,8 @@ def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
                 "away_goals": away_goals,
                 "home_goals": home_goals,
                 "end": end,
-                "proj_away": num(d.get("away_goals")),
-                "proj_home": num(d.get("home_goals")),
+                "proj_away": num(d.get("away_goals"), 4),
+                "proj_home": num(d.get("home_goals"), 4),
                 "pick": pick,
                 "pick_p": max(p, 1 - p),
                 "pick_res": None if pick is None else ("W" if (pick == home) == home_won else "L"),
@@ -611,7 +714,10 @@ def graded_games(frames: dict[str, pd.DataFrame], days: list[str], finals: dict,
                 "total_err": None if expected is None else expected - total,
                 "leans": leans,
                 "bets": [(b, BET_RESULT.get(text(b.get("result")))) for b in bets.get(d.get("pred_id"), [])],
-            })
+            }
+            if boxes is not None:
+                game["card"] = result_card(d, game, boxes.get(int(d["game_id"])), names or {}, day)
+            games.append(game)
     return games
 
 
@@ -741,6 +847,7 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
             pa, ph, err = g["proj_away"], g["proj_home"], g["total_err"]
             bet_cells = [graded_cell(f"★ {_bet_label(b, g['away'], g['home'])}", res) for b, res in g["bets"]]
             rows.append({
+                "id": g["id"],
                 **scoreboard(g["away"], g["home"], g["away_goals"], g["home_goals"], digits=0),
                 "sep": g["end"] if g["end"] in ("OT", "SO") else "–",
                 "proj": None if pa is None or ph is None else f"{pa:.1f} – {ph:.1f}",
@@ -764,7 +871,7 @@ def publish_results(view_dir: Path, games: list[dict], *, season: int, updated: 
                if any(row["flagged"] for row in rows) else {}),
             "columns": game_cols,
             "rows": rows,
-        }))
+        }, {g["id"]: g["card"] for g in day_games if g.get("card")} or None))
         by_day.append({
             "day": {"v": _day_label(day), "sort": day},
             "games": r["n"],
@@ -861,7 +968,9 @@ def main() -> int:
         print(f"  [skip] no {power.name}")
 
     finals, bets = read_results(args.model, season)
-    graded = graded_games(frames, publish, finals, bets)
+    boxes = read_boxes(args.model, season)
+    fill_goalie_names(args.model, names, {int(r["goalie_id"]) for b in boxes.values() for r in b["goalies"]})
+    graded = graded_games(frames, publish, finals, bets, boxes, names)
     record = None
     if graded:
         db = args.model / "data" / "nhl.sqlite"

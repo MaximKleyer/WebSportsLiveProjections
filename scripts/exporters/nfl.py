@@ -21,9 +21,9 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from site_export import (  # noqa: E402  (the site's shared export toolkit)
-    SITE_DATA, Slate, card_stats, file_date, flag, index_files, num, pick_weeks,
-    publish_results, publish_slates, scoreboard, scoreboard_columns, spread, text, week_id,
-    write_card, write_table,
+    SITE_DATA, Slate, card_stats, delta_text, file_date, final_score, flag, graded_cell, index_files, num,
+    pick_weeks, publish_results, publish_slates, scoreboard, scoreboard_columns, spread, text, versus_row,
+    week_id, write_card, write_table,
 )
 
 MODEL_OUT = Path(r"C:\Users\maxim\WebSportsLiveProjections\models\nfl\data\processed\v2")
@@ -330,20 +330,224 @@ def build_season(path: Path, season: int) -> dict:
     }
 
 
-def graded_games(log: pd.DataFrame) -> list[dict]:
-    """results_log rows -> site_export's graded-game shape.
+# --------------------------------------------------------------------------
+# result cards: a graded game's projection against what happened
+# --------------------------------------------------------------------------
+# The players' actual lines come from the warehouse: the FantasyPoints exports
+# filed each Tuesday (data/raw/<season>/week_NN/), so a week's cards show the
+# score and the picks until its exports are built in. Quarterbacks' rushing
+# comes from the nflverse file the props layer keeps (weeks 1-2's rushing
+# exports have no quarterbacks), so a team's rushing counts them every week, as
+# its projection does (their carries and scrambles).
+WAREHOUSE = MODEL_OUT.parent / "warehouse.duckdb"
+QB_RUSHING = MODEL_OUT.parent.parent / "raw" / "external" / "nflverse_qb_rushing.csv"
+FP_TEAMS = {"ARZ": "ARI", "BLT": "BAL", "CLV": "CLE", "HST": "HOU", "LA": "LAR"}  # FantasyPoints' codes -> the model's
+SMALL = 20  # a player projected for fewer yards shows his miss in yards, not percent
+
+
+def read_actuals(season: int) -> dict[int, dict[str, pd.DataFrame]]:
+    """Each exported week's actual player lines - passing, rushing, receiving - with the model's
+    team codes and the model's normalized names."""
+    if not WAREHOUSE.exists():
+        return {}
+    import duckdb
+
+    from nfl_projector_v1.utils import normalize_name  # the model's own (suffixes, punctuation, case)
+
+    sql = {
+        "passing": "SELECT week_num AS week, team, player_name, position, pass_att, completions, pass_yds, ints,"
+                   " sacks_taken FROM advanced_passing_player WHERE season = ?",
+        "rushing": "SELECT week_num AS week, team, player_name, position, rush_att, rush_yds"
+                   " FROM advanced_rushing_player WHERE season = ?",
+        "receiving": "SELECT week_num AS week, team, player_name, position, targets, receptions, rec_yds"
+                     " FROM advanced_receiving_player WHERE season = ?",
+    }
+    con = duckdb.connect(str(WAREHOUSE), read_only=True)
+    try:
+        frames = {k: con.execute(q, [season]).fetchdf() for k, q in sql.items()}
+    finally:
+        con.close()
+    for df in frames.values():
+        df["team"] = df["team"].replace(FP_TEAMS)
+        df["name"] = df["player_name"].map(normalize_name)
+    rushing = frames["rushing"][frames["rushing"]["position"] != "QB"]
+    if QB_RUSHING.exists():
+        qb = pd.read_csv(QB_RUSHING)
+        qb = qb[qb["season"] == season].rename(columns={"player_name_norm": "name", "carries": "rush_att"})
+        rushing = pd.concat([rushing, qb.assign(position="QB")[["week", "team", "position", "rush_att", "rush_yds", "name"]]],
+                            ignore_index=True)
+    frames["rushing"] = rushing
+    return {int(wk): {k: df[df["week"] == wk] for k, df in frames.items()} for wk in frames["passing"]["week"].unique()}
+
+
+def _total(df: pd.DataFrame, col: str) -> float:
+    return float(pd.to_numeric(df[col], errors="coerce").fillna(0).sum()) if len(df) else 0.0
+
+
+def _team_actual(actuals: dict[str, pd.DataFrame], team: str) -> dict[str, float] | None:
+    """A team's actual production, as _offense adds up its projection; None when its game isn't
+    in the week's exports (a Monday night game exported before it was played)."""
+    passing, rushing = (actuals[k][actuals[k]["team"] == team] for k in ("passing", "rushing"))
+    if passing.empty:
+        return None
+    return {"pass": _total(passing, "pass_yds"), "rush": _total(rushing, "rush_yds"), "att": _total(passing, "pass_att"),
+            "car": _total(rushing, "rush_att"), "sacks": _total(passing, "sacks_taken"), "ints": _total(passing, "ints")}
+
+
+def _line(proj, actual) -> str | None:
+    """'▲ 20%', or for a small projection '▼ 8 yds'."""
+    if proj is None or actual is None:
+        return None
+    return delta_text(proj, actual) if proj >= SMALL else delta_text(proj, actual, mode="diff", unit="yds")
+
+
+def _result_players(team: str, proj: pd.DataFrame, actuals: dict[str, pd.DataFrame]) -> list[list]:
+    """The key players' projected lines against their actual ones: the starting quarterback (and
+    whoever else threw for 100), the top two backs and the top three receivers."""
+    from nfl_projector_v1.utils import normalize_name as norm  # the names read_actuals matched on
+
+    act = {k: df[df["team"] == team] for k, df in actuals.items()}
+
+    def actual(table: str, name: str, col: str) -> float | None:
+        hit = act[table][act[table]["name"] == name]
+        return None if hit.empty else _total(hit, col)
+
+    def fmt(v, digits: int = 0) -> str | None:
+        return None if v is None else f"{v:.{digits}f}"
+
+    rows = []
+    qbs = proj[proj["position"] == "QB"].sort_values("depth")
+    starter = qbs.iloc[0] if len(qbs) else None
+    if starter is not None:
+        name = norm(text(starter["player"]))
+        p, a = num(starter.get("pass_yds"), 1), actual("passing", name, "pass_yds")
+        rows.append([team, text(starter["player"]), "QB", "Pass yds", fmt(a), fmt(p), _line(p, a)])
+        p_rush = (num(starter.get("rush_yds"), 1) or 0) + (num(starter.get("scramble_yds"), 1) or 0)
+        if p_rush >= 10:
+            a_rush = actual("rushing", name, "rush_yds")
+            rows.append([team, text(starter["player"]), "QB", "Rush yds", fmt(a_rush), fmt(p_rush), _line(p_rush, a_rush)])
+    throwers = act["passing"][pd.to_numeric(act["passing"]["pass_yds"], errors="coerce") >= 100]
+    for d in throwers.to_dict("records"):
+        if starter is None or d["name"] != norm(text(starter["player"])):  # a backup who played
+            rows.append([team, text(d.get("player_name")), "QB", "Pass yds", fmt(num(d.get("pass_yds"), 0)), None, None])
+    for pos, col, stat, n in (("RB", "rush_yds", "Rush yds", 2),):
+        group = proj[proj["position"] == pos].assign(_k=lambda g: pd.to_numeric(g[col], errors="coerce").fillna(0))
+        for d in group.sort_values("_k", ascending=False).head(n).to_dict("records"):
+            p, a = num(d.get(col), 1), actual("rushing", norm(text(d["player"])), col)
+            rows.append([team, text(d["player"]), pos, stat, fmt(a), fmt(p), _line(p, a)])
+    catchers = proj[proj["position"].isin(["WR", "TE"])].assign(
+        _k=lambda g: pd.to_numeric(g["rec_yds"], errors="coerce").fillna(0))
+    for d in catchers.sort_values("_k", ascending=False).head(3).to_dict("records"):
+        name = norm(text(d["player"]))
+        p, a = num(d.get("rec_yds"), 1), actual("receiving", name, "rec_yds")
+        catches, p_catches = actual("receiving", name, "receptions"), num(d.get("receptions"), 1)
+        rows.append([team, text(d["player"]), text(d.get("position")), "Rec yds",
+                     None if a is None else f"{a:.0f} · {catches:.0f} rec",
+                     None if p is None else f"{p:.0f} · {p_catches or 0:.1f} rec", _line(p, a)])
+    return rows
+
+
+def result_card(d: dict, proj: pd.DataFrame, actuals: dict[str, pd.DataFrame] | None, week: int) -> dict:
+    """The card for one graded game (a results_log row): the final score under the projection,
+    the picks, and - once the week's exports are in - its production and key players against
+    what the model projected."""
+    away, home = text(d.get("away_team")), text(d.get("home_team"))
+    pa, ph = num(d.get("pred_away"), 1), num(d.get("pred_home"), 1)
+    aa, ah = num(d.get("actual_away"), 0), num(d.get("actual_home"), 0)
+    wh = num(d.get("win_prob_home"), 4)
+    winner = None if aa is None or ah is None or aa == ah else (home if ah > aa else away)
+
+    notes = []
+    if None not in (pa, ph, aa, ah):
+        lean = "even" if abs(ph - pa) < 0.05 else f"{home if ph > pa else away} by {abs(ph - pa):.1f}"
+        result = "a tie" if winner is None else f"{winner} by {abs(ah - aa):.0f}"
+        notes.append(f"The model projected {away} {pa:.1f} – {home} {ph:.1f} ({lean}); it ended {away} {aa:.0f} – "
+                     f"{home} {ah:.0f}, {result}.")
+        me, te = num(d.get("margin_error"), 1), num(d.get("total_error"), 1)
+        if me is not None and te is not None:
+            notes.append(f"Off by {abs(me):.1f} points on the margin and {abs(te):.1f} on the total "
+                         f"({aa + ah:.0f} scored against {pa + ph:.1f} projected).")
+    game = proj[proj["game"] == f"{away}@{home}"] if "game" in proj else proj.iloc[0:0]
+    actual = {t: _team_actual(actuals, t) for t in (away, home)} if actuals else {}
+    have = bool(actual) and all(actual.values()) and len(game)
+    if not have:
+        notes.append(f"Yardage and player lines fill in once week {week}'s FantasyPoints exports include this game "
+                     f"(data/raw/{int(d['season'])}/week_{week:02d})." if len(game) else
+                     "No player projections were saved for this game.")
+
+    line, total = num(d.get("spread_close")), num(d.get("total_close"))
+    ats_pick, ou_pick = text(d.get("ats_pick")), text(d.get("ou_pick"))
+    picks = [["Straight up", graded_cell(d.get("su_pick"), d.get("su_result"))],
+             ["Against the spread", graded_cell(f"{ats_pick} {spread(line if ats_pick == home else -line)}"
+                                                if ats_pick and line is not None else None,
+                                                d.get("ats_result"), flag(d.get("spread_play")))],
+             ["Over / under", graded_cell(f"{ou_pick} {total:g}" if ou_pick and total is not None else None,
+                                          d.get("ou_result"), flag(d.get("total_play")))]]
+    sections = [{"title": "How it went", "kind": "notes", "items": notes},
+                {"title": "The picks", "kind": "table", "columns": ["", "Pick"],
+                 "rows": [p for p in picks if p[1] is not None] or [["Straight up", "—"]],
+                 "note": "★ a flagged play; graded at the closing line the model projected against."}]
+    if have:
+        team_players = {t: game[game["team"] == t] for t in (away, home)}
+        off = {t: _offense(p) for t, p in team_players.items()}
+        rows = [versus_row("Points", pa, aa, ph, ah, proj_digits=1, delta="diff")]
+        for label, key, small in (("Passing yards", "pass", False), ("Rushing yards", "rush", False),
+                                  ("Pass attempts", "att", False), ("Carries", "car", False),
+                                  ("Sacks taken", "sacks", True), ("Interceptions", "ints", True)):
+            rows.append(versus_row(label, off[away][key], actual[away][key], off[home][key], actual[home][key],
+                                   **({"proj_digits": 1, "delta": "diff"} if small else {})))
+        rows.insert(3, versus_row("Total yards", off[away]["pass"] + off[away]["rush"],
+                                  actual[away]["pass"] + actual[away]["rush"],
+                                  off[home]["pass"] + off[home]["rush"], actual[home]["pass"] + actual[home]["rush"]))
+        sections.append({"title": "Projected against actual", "kind": "versus", "rows": rows,
+                         "note": "Each bar is what the team did, the tick what the model projected: its players' "
+                                 "lines added up (rushing includes the quarterbacks')."})
+        players = _result_players(away, team_players[away], actuals) + _result_players(home, team_players[home], actuals)
+        if players:
+            sections.append({"title": "Key players", "kind": "table",
+                             "columns": ["Team", "Player", "Pos", "Stat", "Actual", "Proj.", "±"], "rows": players,
+                             "note": "— with no actual: no line in the exports (he didn't record the stat, or sat)."})
+    return {
+        "title": f"{away} @ {home}",
+        "subtitle": f"Week {week} · Final",
+        "away": {"name": TEAM_NAMES.get(away, away), "abbr": away},
+        "home": {"name": TEAM_NAMES.get(home, home), "abbr": home},
+        **({"score": s} if (s := final_score(aa, ah, pa, ph)) else {}),
+        **({"win": {"away": round(1 - wh, 4), "home": wh,
+                    "note": "Before kickoff" + (f" · {winner} won" if winner else " · a tie")}} if wh is not None else {}),
+        "sections": sections,
+    }
+
+
+def graded_games(log: pd.DataFrame, model_out: Path | None = None) -> list[dict]:
+    """results_log rows -> site_export's graded-game shape, each with its result card.
 
     The model's grader already scored every pick (W/L/P, T for a tie), so this
     only builds display labels. spread_close is the home line (negative = home
     favoured), as grade.py uses it.
     """
+    seasons = sorted({int(s) for s in log["season"]}) if "season" in log and len(log) else []
+    actuals = {s: read_actuals(s) for s in seasons} if model_out is not None else {}
+    projections: dict[tuple[int, int], pd.DataFrame] = {}
+
+    def players(season: int, week: int) -> pd.DataFrame:
+        if (season, week) not in projections:
+            path = (model_out or MODEL_OUT) / f"player_projections_{season}_week{week:02d}.csv"
+            projections[season, week] = pd.read_csv(path) if path.exists() else pd.DataFrame(columns=["game", "team", "position"])
+        return projections[season, week]
+
     games = []
     for d in log.to_dict("records"):
         home = text(d.get("home_team"))
         line, total = num(d.get("spread_close")), num(d.get("total_close"))
         ats_pick, ou_pick = text(d.get("ats_pick")), text(d.get("ou_pick"))
         err = num(d.get("margin_error"), 4)
+        week, season = int(d["week"]), int(d.get("season") or 0)
+        card = (result_card(d, players(season, week), actuals.get(season, {}).get(week), week)
+                if model_out is not None else None)
         games.append({
+            "id": f"{text(d.get('away_team'))}@{home}",
+            **({"card": card} if card else {}),
             "week": int(d["week"]),
             "order": text(d.get("kickoff")),
             "away": d.get("away_team"),
@@ -413,7 +617,7 @@ def main() -> int:
     record = None
     if len(log):
         scheduled = {wk: len(pd.read_csv(p)) for wk, p in games[season].items()}  # games predicted
-        record = publish_results(args.site_dir / "results", graded_games(log),
+        record = publish_results(args.site_dir / "results", graded_games(log, args.model_out),
                                  season=season, updated=file_date(log_path), scheduled=scheduled)
         sources.append(log_path)
     else:
