@@ -6,7 +6,7 @@
       "away": {
         "name": "Chicago Bulls",
         "abbr": "CHI",
-        "note": "0\u20131 \u00b7 3 on the injury report"
+        "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "home": {
         "name": "Milwaukee Bucks",
@@ -14,13 +14,13 @@
         "note": "0\u20131"
       },
       "score": {
-        "away": "115.0",
-        "home": "115.4",
+        "away": "115.1",
+        "home": "115.5",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4861,
-        "home": 0.5139,
+        "away": 0.4845,
+        "home": 0.5155,
         "note": "Fair odds: CHI +106, MIL -106 (no margin)."
       },
       "sections": [
@@ -28,13 +28,13 @@
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects CHI 115.0 \u2013 MIL 115.4: MIL by 0.4, 230.5 points in all. That makes MIL 51% to win.",
+            "The model expects CHI 115.1 \u2013 MIL 115.5: MIL by 0.4, 230.6 points in all. That makes MIL 52% to win.",
             "Pace: CHI plays about 105.1 possessions a game against an average team, MIL 102.7.",
             "CHI's offense is -1.7 points per 100 possessions against an average team, meeting MIL's defense at -1.4; MIL's offense -2.7 meets CHI's defense at -0.9 (+ is better than average).",
-            "On the injury report \u2014 CHI: J. Giddey probable, N. Claxton out, Z. Collins probable; MIL: nobody. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "On the injury report \u2014 CHI: N. Claxton out; MIL: nobody. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
             "The market has MIL -1.5; the model's line is MIL -0.4, so it gives CHI +1.5 52% to cover.",
-            "The market's total is 240.5 against the model's 230.5: the under, 71%.",
-            "The market (margin removed) gives MIL 52% to win; the model 51%."
+            "The market's total is 240.5 against the model's 230.6: the under, 70%.",
+            "The market (margin removed) gives MIL 52% to win; the model 52%."
           ]
         },
         {
@@ -147,12 +147,12 @@
           "rows": [
             [
               "CHI to win",
-              "49%",
+              "48%",
               "48%"
             ],
             [
               "MIL to win",
-              "51%",
+              "52%",
               "52%"
             ],
             [
@@ -167,12 +167,12 @@
             ],
             [
               "Over 240.5",
-              "29%",
+              "30%",
               "\u2014"
             ],
             [
               "Under 240.5",
-              "71%",
+              "70%",
               "\u2014"
             ]
           ],
@@ -248,27 +248,27 @@
         "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "score": {
-        "away": "108.9",
-        "home": "117.0",
+        "away": "109.0",
+        "home": "117.1",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.2452,
-        "home": 0.7548,
-        "note": "Fair odds: NYK +308, BOS -308 (no margin)."
+        "away": 0.2463,
+        "home": 0.7537,
+        "note": "Fair odds: NYK +306, BOS -306 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects NYK 108.9 \u2013 BOS 117.0: BOS by 8.1, 225.9 points in all. That makes BOS 75% to win.",
+            "The model expects NYK 109.0 \u2013 BOS 117.1: BOS by 8.0, 226.1 points in all. That makes BOS 75% to win.",
             "Pace: NYK plays about 102.6 possessions a game against an average team, BOS 101.6.",
             "NYK's offense is +0.7 points per 100 possessions against an average team, meeting BOS's defense at +2.0; BOS's offense +2.5 meets NYK's defense at -0.1 (+ is better than average).",
             "On the injury report \u2014 NYK: nobody; BOS: D. Carter out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has BOS -2.5; the model's line is BOS -8.1, so it gives BOS -2.5 68% to cover.",
-            "The market's total is 221.5 against the model's 225.9: the over, 59%.",
-            "The market (margin removed) gives BOS 54% to win; the model 75%."
+            "The market has BOS -2.5; the model's line is BOS -8.0, so it gives BOS -2.5 68% to cover.",
+            "The market's total is 221.5 against the model's 226.1: the over, 59%.",
+            "The market (margin removed) gives BOS 55% to win; the model 75%."
           ]
         },
         {
@@ -382,12 +382,12 @@
             [
               "NYK to win",
               "25%",
-              "46%"
+              "45%"
             ],
             [
               "BOS to win",
               "75%",
-              "54%"
+              "55%"
             ],
             [
               "BOS -2.5",
@@ -509,22 +509,22 @@
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4255,
-        "home": 0.5745,
-        "note": "Fair odds: ATL +135, CHA -135 (no margin)."
+        "away": 0.4211,
+        "home": 0.5789,
+        "note": "Fair odds: ATL +137, CHA -137 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects ATL 112.6 \u2013 CHA 114.7: CHA by 2.1, 227.3 points in all. That makes CHA 57% to win.",
+            "The model expects ATL 112.6 \u2013 CHA 114.7: CHA by 2.1, 227.3 points in all. That makes CHA 58% to win.",
             "Pace: ATL plays about 104.8 possessions a game against an average team, CHA 102.6.",
             "ATL's offense is -1.9 points per 100 possessions against an average team, meeting CHA's defense at -0.1; CHA's offense +0.6 meets ATL's defense at +0.6 (+ is better than average).",
             "On the injury report \u2014 ATL: K. Gilbert questionable; CHA: K. Knueppel out, C. White out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
             "The market has CHA +2.5; the model's line is CHA -2.1, so it gives CHA +2.5 62% to cover.",
             "The market's total is 226.5 against the model's 227.3: the over, 51%.",
-            "The market (margin removed) gives CHA 45% to win; the model 57%."
+            "The market (margin removed) gives CHA 44% to win; the model 58%."
           ]
         },
         {
@@ -637,13 +637,13 @@
           "rows": [
             [
               "ATL to win",
-              "43%",
-              "55%"
+              "42%",
+              "56%"
             ],
             [
               "CHA to win",
-              "57%",
-              "45%"
+              "58%",
+              "44%"
             ],
             [
               "CHA +2.5",
@@ -750,25 +750,25 @@
       },
       "score": {
         "away": "112.0",
-        "home": "117.8",
+        "home": "117.9",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.3077,
-        "home": 0.6923,
-        "note": "Fair odds: DAL +225, IND -225 (no margin)."
+        "away": 0.3057,
+        "home": 0.6943,
+        "note": "Fair odds: DAL +227, IND -227 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects DAL 112.0 \u2013 IND 117.8: IND by 5.8, 229.8 points in all. That makes IND 69% to win.",
+            "The model expects DAL 112.0 \u2013 IND 117.9: IND by 5.9, 229.9 points in all. That makes IND 69% to win.",
             "Pace: DAL plays about 103.9 possessions a game against an average team, IND 104.1.",
             "DAL's offense is -2.6 points per 100 possessions against an average team, meeting IND's defense at -1.1; IND's offense -1.0 meets DAL's defense at -0.1 (+ is better than average).",
             "On the injury report \u2014 DAL: S. Aldama out, D. Lively II out; IND: A. Nesmith questionable, J. Slawson probable, B. Sheppard questionable. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has IND -7.5; the model's line is IND -5.8, so it gives DAL +7.5 55% to cover.",
-            "The market's total is 240.5 against the model's 229.8: the under, 73%.",
+            "The market has IND -7.5; the model's line is IND -5.9, so it gives DAL +7.5 55% to cover.",
+            "The market's total is 240.5 against the model's 229.9: the under, 72%.",
             "The market (margin removed) gives IND 70% to win; the model 69%."
           ]
         },
@@ -902,12 +902,12 @@
             ],
             [
               "Over 240.5",
-              "27%",
+              "28%",
               "\u2014"
             ],
             [
               "Under 240.5",
-              "73%",
+              "72%",
               "\u2014"
             ]
           ],
@@ -1005,27 +1005,27 @@
         "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "score": {
-        "away": "116.1",
+        "away": "115.8",
         "home": "117.6",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4491,
-        "home": 0.5509,
-        "note": "Fair odds: MIN +123, ORL -123 (no margin)."
+        "away": 0.4366,
+        "home": 0.5634,
+        "note": "Fair odds: MIN +129, ORL -129 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects MIN 116.1 \u2013 ORL 117.6: ORL by 1.5, 233.7 points in all. That makes ORL 55% to win.",
+            "The model expects MIN 115.8 \u2013 ORL 117.6: ORL by 1.8, 233.4 points in all. That makes ORL 56% to win.",
             "Pace: MIN plays about 104.1 possessions a game against an average team, ORL 104.2.",
             "MIN's offense is +0.7 points per 100 possessions against an average team, meeting ORL's defense at +1.3; ORL's offense -0.5 meets MIN's defense at +0.5 (+ is better than average).",
             "On the injury report \u2014 MIN: D. DiVincenzo out; ORL: A. Black out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has ORL -1.5; the model's line is ORL -1.5, so it gives ORL -1.5 52% to cover.",
-            "The market's total is 234.5 against the model's 233.7: the under, 53%.",
-            "The market (margin removed) gives ORL 50% to win; the model 55%."
+            "The market has ORL -1.5; the model's line is ORL -1.8, so it gives ORL -1.5 52% to cover.",
+            "The market's total is 233.5 against the model's 233.4: the under, 51%.",
+            "The market (margin removed) gives ORL 50% to win; the model 56%."
           ]
         },
         {
@@ -1138,12 +1138,12 @@
           "rows": [
             [
               "MIN to win",
-              "45%",
+              "44%",
               "50%"
             ],
             [
               "ORL to win",
-              "55%",
+              "56%",
               "50%"
             ],
             [
@@ -1157,13 +1157,13 @@
               "\u2014"
             ],
             [
-              "Over 234.5",
-              "47%",
+              "Over 233.5",
+              "49%",
               "\u2014"
             ],
             [
-              "Under 234.5",
-              "53%",
+              "Under 233.5",
+              "51%",
               "\u2014"
             ]
           ],
@@ -1266,22 +1266,22 @@
         "label": "Expected points"
       },
       "win": {
-        "away": 0.7448,
-        "home": 0.2552,
-        "note": "Fair odds: TOR -292, WAS +292 (no margin)."
+        "away": 0.7463,
+        "home": 0.2537,
+        "note": "Fair odds: TOR -294, WAS +294 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects TOR 119.4 \u2013 WAS 111.5: TOR by 7.9, 230.9 points in all. That makes TOR 74% to win.",
+            "The model expects TOR 119.4 \u2013 WAS 111.5: TOR by 7.9, 231.0 points in all. That makes TOR 75% to win.",
             "Pace: TOR plays about 103.7 possessions a game against an average team, WAS 104.1.",
             "TOR's offense is +1.4 points per 100 possessions against an average team, meeting WAS's defense at -1.0; WAS's offense -2.5 meets TOR's defense at +1.9 (+ is better than average).",
             "On the injury report \u2014 TOR: M. Smith out; WAS: A. Dybantsa out, J. Watkins out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has WAS +8.5; the model's line is TOR -7.9, so it gives WAS +8.5 51% to cover.",
-            "The market's total is 236.5 against the model's 230.9: the under, 62%.",
-            "The market (margin removed) gives WAS 27% to win; the model 26%."
+            "The market has WAS +8.5; the model's line is TOR -7.9, so it gives WAS +8.5 52% to cover.",
+            "The market's total is 237.5 against the model's 231.0: the under, 65%.",
+            "The market (margin removed) gives WAS 26% to win; the model 25%."
           ]
         },
         {
@@ -1394,32 +1394,32 @@
           "rows": [
             [
               "TOR to win",
-              "74%",
-              "73%"
+              "75%",
+              "74%"
             ],
             [
               "WAS to win",
-              "26%",
-              "27%"
+              "25%",
+              "26%"
             ],
             [
               "WAS +8.5",
-              "51%",
+              "52%",
               "\u2014"
             ],
             [
               "TOR -8.5",
-              "49%",
+              "48%",
               "\u2014"
             ],
             [
-              "Over 236.5",
-              "38%",
+              "Over 237.5",
+              "35%",
               "\u2014"
             ],
             [
-              "Under 236.5",
-              "62%",
+              "Under 237.5",
+              "65%",
               "\u2014"
             ]
           ],
@@ -1456,6 +1456,17 @@
               "72%",
               {
                 "v": "+3.3%",
+                "tone": "good"
+              }
+            ],
+            [
+              "\u2605 WAS +8.5",
+              "-105",
+              "DraftKings",
+              "52%",
+              "49%",
+              {
+                "v": "+3.0%",
                 "tone": "good"
               }
             ]
@@ -1498,7 +1509,7 @@
       "away": {
         "name": "Detroit Pistons",
         "abbr": "DET",
-        "note": "1\u20130 \u00b7 2 on the injury report"
+        "note": "1\u20130 \u00b7 1 on the injury report"
       },
       "home": {
         "name": "Miami Heat",
@@ -1506,27 +1517,27 @@
         "note": "0\u20131"
       },
       "score": {
-        "away": "118.2",
-        "home": "115.4",
+        "away": "118.4",
+        "home": "115.5",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.5895,
-        "home": 0.4105,
-        "note": "Fair odds: DET -144, MIA +144 (no margin)."
+        "away": 0.593,
+        "home": 0.407,
+        "note": "Fair odds: DET -146, MIA +146 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects DET 118.2 \u2013 MIA 115.4: DET by 2.8, 233.6 points in all. That makes DET 59% to win.",
+            "The model expects DET 118.4 \u2013 MIA 115.5: DET by 2.9, 233.8 points in all. That makes DET 59% to win.",
             "Pace: DET plays about 103.2 possessions a game against an average team, MIA 105.1.",
             "DET's offense is +1.1 points per 100 possessions against an average team, meeting MIA's defense at -0.3; MIA's offense -0.4 meets DET's defense at +0.7 (+ is better than average).",
-            "On the injury report \u2014 DET: T. Prince probable, E. Harkless out; MIA: nobody. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has MIA +1.5; the model's line is DET -2.8, so it gives DET -1.5 55% to cover.",
-            "The market's total is 235.5 against the model's 233.6: the under, 55%.",
-            "The market (margin removed) gives MIA 48% to win; the model 41%."
+            "On the injury report \u2014 DET: E. Harkless out; MIA: nobody. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
+            "The market has MIA +1.5; the model's line is DET -2.9, so it gives DET -1.5 55% to cover.",
+            "The market's total is 235.5 against the model's 233.8: the under, 54%.",
+            "The market (margin removed) gives MIA 47% to win; the model 41%."
           ]
         },
         {
@@ -1640,12 +1651,12 @@
             [
               "DET to win",
               "59%",
-              "52%"
+              "53%"
             ],
             [
               "MIA to win",
               "41%",
-              "48%"
+              "47%"
             ],
             [
               "MIA +1.5",
@@ -1659,12 +1670,12 @@
             ],
             [
               "Over 235.5",
-              "45%",
+              "46%",
               "\u2014"
             ],
             [
               "Under 235.5",
-              "55%",
+              "54%",
               "\u2014"
             ]
           ],
@@ -1763,26 +1774,26 @@
       },
       "score": {
         "away": "110.5",
-        "home": "116.3",
+        "home": "116.6",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.3063,
-        "home": 0.6937,
-        "note": "Fair odds: HOU +226, SAS -226 (no margin)."
+        "away": 0.3007,
+        "home": 0.6993,
+        "note": "Fair odds: HOU +233, SAS -233 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects HOU 110.5 \u2013 SAS 116.3: SAS by 5.8, 226.7 points in all. That makes SAS 69% to win.",
+            "The model expects HOU 110.5 \u2013 SAS 116.6: SAS by 6.1, 227.1 points in all. That makes SAS 70% to win.",
             "Pace: HOU plays about 102.0 possessions a game against an average team, SAS 104.1.",
             "HOU's offense is +0.6 points per 100 possessions against an average team, meeting SAS's defense at +2.2; SAS's offense +1.0 meets HOU's defense at +1.8 (+ is better than average).",
             "On the injury report \u2014 HOU: R. Sheppard questionable, S. Adams questionable; SAS: D. Fox questionable, T. Harris out, K. Johnson questionable, J. Quaintance out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has SAS -5.5; the model's line is SAS -5.8, so it gives SAS -5.5 52% to cover.",
-            "The market's total is 225.5 against the model's 226.7: the over, 52%.",
-            "The market (margin removed) gives SAS 64% to win; the model 69%."
+            "The market has SAS -4.5; the model's line is SAS -6.1, so it gives SAS -4.5 56% to cover.",
+            "The market's total is 224.5 against the model's 227.1: the over, 55%.",
+            "The market (margin removed) gives SAS 63% to win; the model 70%."
           ]
         },
         {
@@ -1895,32 +1906,32 @@
           "rows": [
             [
               "HOU to win",
-              "31%",
-              "36%"
+              "30%",
+              "37%"
             ],
             [
               "SAS to win",
-              "69%",
-              "64%"
+              "70%",
+              "63%"
             ],
             [
-              "SAS -5.5",
-              "52%",
+              "SAS -4.5",
+              "56%",
               "\u2014"
             ],
             [
-              "HOU +5.5",
-              "48%",
+              "HOU +4.5",
+              "44%",
               "\u2014"
             ],
             [
-              "Over 225.5",
-              "52%",
+              "Over 224.5",
+              "55%",
               "\u2014"
             ],
             [
-              "Under 225.5",
-              "48%",
+              "Under 224.5",
+              "45%",
               "\u2014"
             ]
           ],
@@ -2018,26 +2029,26 @@
         "note": "0\u20131 \u00b7 1 on the injury report"
       },
       "score": {
-        "away": "118.8",
-        "home": "119.7",
+        "away": "119.0",
+        "home": "119.9",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.4718,
-        "home": 0.5282,
-        "note": "Fair odds: NOP +112, UTA -112 (no margin)."
+        "away": 0.4681,
+        "home": 0.5319,
+        "note": "Fair odds: NOP +114, UTA -114 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects NOP 118.8 \u2013 UTA 119.7: UTA by 0.9, 238.4 points in all. That makes UTA 53% to win.",
+            "The model expects NOP 119.0 \u2013 UTA 119.9: UTA by 1.0, 238.9 points in all. That makes UTA 53% to win.",
             "Pace: NOP plays about 104.0 possessions a game against an average team, UTA 104.3.",
             "NOP's offense is -0.7 points per 100 possessions against an average team, meeting UTA's defense at -2.4; UTA's offense -0.4 meets NOP's defense at -1.4 (+ is better than average).",
             "On the injury report \u2014 NOP: J. Reese out; UTA: J. Nurki\u0107 out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has UTA +1.5; the model's line is UTA -0.9, so it gives UTA +1.5 55% to cover.",
-            "The market's total is 239.5 against the model's 238.4: the under, 53%.",
+            "The market has UTA -1.5; the model's line is UTA -1.0, so it gives NOP +1.5 50% to cover.",
+            "The market's total is 239.5 against the model's 238.9: the under, 52%.",
             "The market (margin removed) gives UTA 50% to win; the model 53%."
           ]
         },
@@ -2160,23 +2171,23 @@
               "50%"
             ],
             [
-              "UTA +1.5",
-              "55%",
+              "UTA -1.5",
+              "50%",
               "\u2014"
             ],
             [
-              "NOP -1.5",
-              "45%",
+              "NOP +1.5",
+              "50%",
               "\u2014"
             ],
             [
               "Over 239.5",
-              "47%",
+              "48%",
               "\u2014"
             ],
             [
               "Under 239.5",
-              "53%",
+              "52%",
               "\u2014"
             ]
           ],
@@ -2274,27 +2285,27 @@
         "note": "0\u20131 \u00b7 4 on the injury report"
       },
       "score": {
-        "away": "112.5",
-        "home": "117.2",
+        "away": "112.3",
+        "home": "117.3",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.3441,
-        "home": 0.6559,
-        "note": "Fair odds: MEM +191, GSW -191 (no margin)."
+        "away": 0.3368,
+        "home": 0.6632,
+        "note": "Fair odds: MEM +197, GSW -197 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects MEM 112.5 \u2013 GSW 117.2: GSW by 4.6, 229.7 points in all. That makes GSW 66% to win.",
+            "The model expects MEM 112.3 \u2013 GSW 117.3: GSW by 5.0, 229.6 points in all. That makes GSW 66% to win.",
             "Pace: MEM plays about 104.1 possessions a game against an average team, GSW 103.2.",
             "MEM's offense is -1.4 points per 100 possessions against an average team, meeting GSW's defense at +0.7; GSW's offense +1.9 meets MEM's defense at -1.4 (+ is better than average).",
             "On the injury report \u2014 MEM: C. Coward doubtful, I. Stewart questionable; GSW: J. Butler III out, B. Podziemski questionable, M. Moody out, K. Porzi\u0146\u0123is out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has GSW -4.5; the model's line is GSW -4.6, so it gives GSW -4.5 52% to cover.",
-            "The market's total is 236.5 against the model's 229.7: the under, 65%.",
-            "The market (margin removed) gives GSW 62% to win; the model 66%."
+            "The market has GSW -4.5; the model's line is GSW -5.0, so it gives GSW -4.5 53% to cover.",
+            "The market's total is 237.5 against the model's 229.6: the under, 67%.",
+            "The market (margin removed) gives GSW 61% to win; the model 66%."
           ]
         },
         {
@@ -2408,31 +2419,31 @@
             [
               "MEM to win",
               "34%",
-              "38%"
+              "39%"
             ],
             [
               "GSW to win",
               "66%",
-              "62%"
+              "61%"
             ],
             [
               "GSW -4.5",
-              "52%",
+              "53%",
               "\u2014"
             ],
             [
               "MEM +4.5",
-              "48%",
+              "47%",
               "\u2014"
             ],
             [
-              "Over 236.5",
-              "35%",
+              "Over 237.5",
+              "33%",
               "\u2014"
             ],
             [
-              "Under 236.5",
-              "65%",
+              "Under 237.5",
+              "67%",
               "\u2014"
             ]
           ],
@@ -2531,25 +2542,25 @@
       },
       "score": {
         "away": "104.5",
-        "home": "122.2",
+        "home": "122.4",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.0651,
-        "home": 0.9349,
-        "note": "Fair odds: LAC +1436, LAL -1436 (no margin)."
+        "away": 0.0663,
+        "home": 0.9337,
+        "note": "Fair odds: LAC +1408, LAL -1408 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects LAC 104.5 \u2013 LAL 122.2: LAL by 17.7, 226.7 points in all. That makes LAL 93% to win.",
+            "The model expects LAC 104.5 \u2013 LAL 122.4: LAL by 17.9, 227.0 points in all. That makes LAL 93% to win.",
             "Pace: LAC plays about 102.2 possessions a game against an average team, LAL 102.8.",
             "LAC's offense is -4.0 points per 100 possessions against an average team, meeting LAL's defense at +1.0; LAL's offense +4.4 meets LAC's defense at -1.8 (+ is better than average).",
             "On the injury report \u2014 LAC: B. Ingram out, M. Strus out, J. Miller out, B. Beal out; LAL: J. LaRavia questionable. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has LAL -9.5; the model's line is LAL -17.7, so it gives LAL -9.5 73% to cover.",
-            "The market's total is 225.5 against the model's 226.7: the over, 52%.",
+            "The market has LAL -9.5; the model's line is LAL -17.9, so it gives LAL -9.5 73% to cover.",
+            "The market's total is 225.5 against the model's 227.0: the over, 52%.",
             "The market (margin removed) gives LAL 76% to win; the model 93%."
           ]
         },
@@ -2786,27 +2797,27 @@
         "note": "0\u20131 \u00b7 2 on the injury report"
       },
       "score": {
-        "away": "120.2",
-        "home": "110.9",
+        "away": "120.3",
+        "home": "111.1",
         "label": "Expected points"
       },
       "win": {
-        "away": 0.7821,
-        "home": 0.2179,
-        "note": "Fair odds: POR -359, SAC +359 (no margin)."
+        "away": 0.7793,
+        "home": 0.2207,
+        "note": "Fair odds: POR -353, SAC +353 (no margin)."
       },
       "sections": [
         {
           "title": "What drives the projection",
           "kind": "notes",
           "items": [
-            "The model expects POR 120.2 \u2013 SAC 110.9: POR by 9.3, 231.1 points in all. That makes POR 78% to win.",
+            "The model expects POR 120.3 \u2013 SAC 111.1: POR by 9.2, 231.4 points in all. That makes POR 78% to win.",
             "Pace: POR plays about 103.6 possessions a game against an average team, SAC 103.2.",
             "POR's offense is +1.4 points per 100 possessions against an average team, meeting SAC's defense at -2.6; SAC's offense -4.5 meets POR's defense at -0.4 (+ is better than average).",
             "On the injury report \u2014 POR: S. Sharpe out; SAC: M. Raynaud out, B. Simmons out. Each plays with his status's chance, and the minutes he may miss go to his teammates.",
-            "The market has SAC +9.5; the model's line is POR -9.3, so it gives SAC +9.5 51% to cover.",
-            "The market's total is 232.5 against the model's 231.1: the under, 54%.",
-            "The market (margin removed) gives SAC 22% to win; the model 22%."
+            "The market has SAC +10.5; the model's line is POR -9.2, so it gives SAC +10.5 54% to cover.",
+            "The market's total is 233.5 against the model's 231.4: the under, 55%.",
+            "The market (margin removed) gives SAC 21% to win; the model 22%."
           ]
         },
         {
@@ -2920,31 +2931,31 @@
             [
               "POR to win",
               "78%",
-              "78%"
+              "79%"
             ],
             [
               "SAC to win",
               "22%",
-              "22%"
+              "21%"
             ],
             [
-              "SAC +9.5",
-              "51%",
+              "SAC +10.5",
+              "54%",
               "\u2014"
             ],
             [
-              "POR -9.5",
-              "49%",
-              "\u2014"
-            ],
-            [
-              "Over 232.5",
+              "POR -10.5",
               "46%",
               "\u2014"
             ],
             [
-              "Under 232.5",
-              "54%",
+              "Over 233.5",
+              "45%",
+              "\u2014"
+            ],
+            [
+              "Under 233.5",
+              "55%",
               "\u2014"
             ]
           ],
@@ -2962,6 +2973,17 @@
             "Edge"
           ],
           "rows": [
+            [
+              "\u2605 SAC +10.5",
+              "-112",
+              "DraftKings",
+              "54%",
+              "50%",
+              {
+                "v": "+3.5%",
+                "tone": "good"
+              }
+            ],
             [
               "\u2605 POR ML",
               "-355",
