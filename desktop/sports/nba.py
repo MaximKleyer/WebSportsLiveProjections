@@ -90,6 +90,25 @@ def finished_between(since: datetime, now: datetime) -> int:
     return n
 
 
+def live_version() -> str | None:
+    """The model version outputs/model_state.json was fitted for: the one the exporter publishes
+    early looks of."""
+    try:
+        return json.loads((OUT / "model_state.json").read_text(encoding="utf-8"))["model_version"]
+    except (OSError, ValueError, KeyError):
+        return None
+
+
+def early_version() -> str | None:
+    """The model version the latest early look was made with."""
+    files = sorted(EARLY.glob("????-??-??.csv"), key=lambda f: f.stat().st_mtime)
+    try:
+        versions = pd.read_csv(files[-1], usecols=["model_version"])["model_version"] if files else []
+    except (OSError, ValueError, pd.errors.ParserError):
+        return None
+    return str(versions.iloc[-1]) if len(versions) else None
+
+
 def latest_day() -> str | None:
     """The newest day the exporter publishes: one whose day file has a game's prediction as the model
     logged it live - its latest stored on game day before tip-off, by whichever version made it
@@ -131,10 +150,7 @@ def gameday_task() -> tuple[str, str]:
 def need_inputs(p: Plan) -> None:
     """The checklist of what only the user can do for the model (the app's "Your inputs"): injury
     reports, rosters and odds are all pulled by the daily run."""
-    try:
-        live = json.loads((OUT / "model_state.json").read_text(encoding="utf-8"))["model_version"]
-    except (OSError, ValueError, KeyError):
-        live = None
+    live = live_version()
     try:
         out = subprocess.run([str(NBA), "version"], cwd=FOLDER, capture_output=True, text=True, timeout=60,
                              creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
@@ -182,9 +198,12 @@ def plan(history: History, force: bool) -> Plan:
     after = ("today",) if due else ()
 
     written = max((file_time(f) for f in EARLY.glob("????-??-??.csv")), default=None)
-    stale = written is None or now - written >= EARLY_EVERY
+    made_by, live = early_version(), live_version()
+    changed = made_by is not None and live is not None and made_by != live  # the site shows only the live one's
+    stale = written is None or now - written >= EARLY_EVERY or changed
     p.step("early", "Early look", ["early"], due=force or stale, requires=after,
            reason="never run" if written is None else
+           f"made by {made_by}, and the model is now {live}" if changed else
            f"last run {ago(written, now)}" + ("" if stale else f" (refreshes every {span(EARLY_EVERY)})"))
 
     # After the day's run, on its results: whenever a game has finished since they last ran.
