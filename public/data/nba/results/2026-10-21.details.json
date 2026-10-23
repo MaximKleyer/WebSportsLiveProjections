@@ -1,0 +1,3373 @@
+{
+  "games": {
+    "0022600085": {
+      "title": "ATL @ ORL",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "ATL",
+        "abbr": "ATL"
+      },
+      "home": {
+        "name": "ORL",
+        "abbr": "ORL"
+      },
+      "score": {
+        "away": "132",
+        "home": "125",
+        "label": "Final \u00b7 projected 111.8 \u2013 117.6"
+      },
+      "win": {
+        "away": 0.3102,
+        "home": 0.6898,
+        "note": "Before tip-off \u00b7 ATL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected ATL 111.8 \u2013 ORL 117.6 (ORL by 5.8, 229.4 in all); it ended 132\u2013125, ATL by 7.",
+            "Off by 12.8 points on the margin and 27.6 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "ORL 69% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "ORL -2.5 61% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 234.5 62% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 ORL ML \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-130",
+              "2.00 u",
+              "-2.00 u",
+              "-4.0%"
+            ],
+            [
+              {
+                "v": "\u2605 ORL -2.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-108",
+              "2.00 u",
+              "-2.00 u",
+              "-4.5%"
+            ],
+            [
+              {
+                "v": "\u2605 Under 234.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-105",
+              "2.00 u",
+              "-2.00 u",
+              "-4.5%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 111.84,
+                "actual": 132.0
+              },
+              "home": {
+                "proj": 117.6,
+                "actual": 125.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 112.5,
+              "home": 112.5,
+              "awayText": "112",
+              "homeText": "112"
+            },
+            {
+              "label": "Points per 100",
+              "away": 117.33333333333333,
+              "home": 111.11111111111111,
+              "awayText": "117.3",
+              "homeText": "111.1"
+            },
+            {
+              "label": "3-pointers",
+              "away": 14.0,
+              "home": 13.0,
+              "awayText": "14",
+              "homeText": "13"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.3888888888888889,
+              "home": 0.325,
+              "awayText": "39%",
+              "homeText": "32%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 36.0,
+              "home": 39.0,
+              "awayText": "36",
+              "homeText": "39"
+            },
+            {
+              "label": "Turnovers",
+              "away": 17.0,
+              "home": 20.0,
+              "awayText": "17",
+              "homeText": "20",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 11.0,
+              "home": 9.0,
+              "awayText": "11",
+              "homeText": "9"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "ATL",
+              "N. Alexander-Walker",
+              "30",
+              31.0,
+              4.0,
+              3.0,
+              "5/8"
+            ],
+            [
+              "ATL",
+              "J. Johnson",
+              "28",
+              20.0,
+              14.0,
+              6.0,
+              "0/4"
+            ],
+            [
+              "ATL",
+              "D. Daniels",
+              "35",
+              20.0,
+              4.0,
+              3.0,
+              "0/2"
+            ],
+            [
+              "ORL",
+              "P. Banchero",
+              "41",
+              35.0,
+              7.0,
+              10.0,
+              "3/4"
+            ],
+            [
+              "ORL",
+              "W. Carter Jr.",
+              "31",
+              22.0,
+              7.0,
+              0.0,
+              "1/3"
+            ],
+            [
+              "ORL",
+              "F. Wagner",
+              "29",
+              22.0,
+              6.0,
+              5.0,
+              "2/8"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "ATL",
+              "H. Veesaar",
+              "out",
+              "didn't play"
+            ],
+            [
+              "ATL",
+              "M. Gueye",
+              "out",
+              "didn't play"
+            ],
+            [
+              "ATL",
+              "J. Wilson",
+              "questionable",
+              "didn't play"
+            ],
+            [
+              "ATL",
+              "K. Gilbert",
+              "questionable",
+              "didn't play"
+            ],
+            [
+              "ATL",
+              "R. Dennis",
+              "questionable",
+              "didn't play"
+            ],
+            [
+              "ORL",
+              "A. Black",
+              "out",
+              "didn't play"
+            ],
+            [
+              "ORL",
+              "I. Nelson",
+              "out",
+              "didn't play"
+            ],
+            [
+              "ORL",
+              "J. Isaac",
+              "out",
+              "didn't play"
+            ],
+            [
+              "ORL",
+              "N. Penda",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600086": {
+      "title": "MIL @ WAS",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "MIL",
+        "abbr": "MIL"
+      },
+      "home": {
+        "name": "WAS",
+        "abbr": "WAS"
+      },
+      "score": {
+        "away": "116",
+        "home": "128",
+        "label": "Final \u00b7 projected 113.2 \u2013 114.4"
+      },
+      "win": {
+        "away": 0.4609,
+        "home": 0.5391,
+        "note": "Before tip-off \u00b7 WAS won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected MIL 113.2 \u2013 WAS 114.4 (WAS by 1.3, 227.6 in all); it ended 116\u2013128, WAS by 12.",
+            "Off by 10.7 points on the margin and 16.4 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "WAS 54% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "MIL +4.5 59% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 239.5 74% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 MIL ML \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "+145",
+              "2.00 u",
+              "-2.00 u",
+              "-4.3%"
+            ],
+            [
+              {
+                "v": "\u2605 MIL +4.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-115",
+              "2.00 u",
+              "-2.00 u",
+              "-4.5%"
+            ],
+            [
+              {
+                "v": "\u2605 Under 239.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-118",
+              "2.00 u",
+              "-2.00 u",
+              "-4.4%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 113.16,
+                "actual": 116.0
+              },
+              "home": {
+                "proj": 114.42,
+                "actual": 128.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 104.6,
+              "home": 104.6,
+              "awayText": "105",
+              "homeText": "105"
+            },
+            {
+              "label": "Points per 100",
+              "away": 110.89866156787764,
+              "home": 122.37093690248567,
+              "awayText": "110.9",
+              "homeText": "122.4"
+            },
+            {
+              "label": "3-pointers",
+              "away": 15.0,
+              "home": 6.0,
+              "awayText": "15",
+              "homeText": "6"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.36585365853658536,
+              "home": 0.21428571428571427,
+              "awayText": "37%",
+              "homeText": "21%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 23.0,
+              "home": 41.0,
+              "awayText": "23",
+              "homeText": "41"
+            },
+            {
+              "label": "Turnovers",
+              "away": 16.0,
+              "home": 13.0,
+              "awayText": "16",
+              "homeText": "13",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 13.0,
+              "home": 12.0,
+              "awayText": "13",
+              "homeText": "12"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "MIL",
+              "T. Herro",
+              "32",
+              24.0,
+              2.0,
+              9.0,
+              "4/11"
+            ],
+            [
+              "MIL",
+              "J. Jaquez Jr.",
+              "31",
+              22.0,
+              7.0,
+              2.0,
+              "1/3"
+            ],
+            [
+              "MIL",
+              "K. Jaku\u010dionis",
+              "26",
+              15.0,
+              3.0,
+              3.0,
+              "1/3"
+            ],
+            [
+              "WAS",
+              "A. Davis",
+              "34",
+              34.0,
+              12.0,
+              4.0,
+              "1/3"
+            ],
+            [
+              "WAS",
+              "T. Young",
+              "38",
+              20.0,
+              0.0,
+              13.0,
+              "0/6"
+            ],
+            [
+              "WAS",
+              "K. George",
+              "29",
+              18.0,
+              5.0,
+              3.0,
+              "1/6"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "MIL",
+              "N. Ament",
+              "probable",
+              "didn't play"
+            ],
+            [
+              "WAS",
+              "A. Dybantsa",
+              "out",
+              "didn't play"
+            ],
+            [
+              "WAS",
+              "J. Watkins",
+              "out",
+              "didn't play"
+            ],
+            [
+              "WAS",
+              "T. Vukcevic",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600004": {
+      "title": "MIN @ MIA",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "MIN",
+        "abbr": "MIN"
+      },
+      "home": {
+        "name": "MIA",
+        "abbr": "MIA"
+      },
+      "score": {
+        "away": "131",
+        "home": "106",
+        "label": "Final \u00b7 projected 118.8 \u2013 118.4"
+      },
+      "win": {
+        "away": 0.5098,
+        "home": 0.4902,
+        "note": "Before tip-off \u00b7 MIN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected MIN 118.8 \u2013 MIA 118.4 (MIN by 0.4, 237.2 in all); it ended 131\u2013106, MIN by 25.",
+            "Off by 24.6 points on the margin and 0.2 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "MIN 51% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "MIN +1.5 54% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 238.5 54% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 MIN ML \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "+102",
+              "0.88 u",
+              "+0.90 u",
+              "-2.5%"
+            ],
+            [
+              {
+                "v": "\u2605 MIN +1.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-108",
+              "1.20 u",
+              "+1.11 u",
+              "-2.9%"
+            ],
+            [
+              {
+                "v": "\u2605 Under 240.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-115",
+              "2.00 u",
+              "+1.74 u",
+              "-6.5%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 118.81,
+                "actual": 131.0
+              },
+              "home": {
+                "proj": 118.44,
+                "actual": 106.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 108.6,
+              "home": 108.6,
+              "awayText": "109",
+              "homeText": "109"
+            },
+            {
+              "label": "Points per 100",
+              "away": 120.62615101289136,
+              "home": 97.60589318600368,
+              "awayText": "120.6",
+              "homeText": "97.6"
+            },
+            {
+              "label": "3-pointers",
+              "away": 21.0,
+              "home": 8.0,
+              "awayText": "21",
+              "homeText": "8"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.42,
+              "home": 0.24242424242424243,
+              "awayText": "42%",
+              "homeText": "24%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 29.0,
+              "home": 26.0,
+              "awayText": "29",
+              "homeText": "26"
+            },
+            {
+              "label": "Turnovers",
+              "away": 16.0,
+              "home": 19.0,
+              "awayText": "16",
+              "homeText": "19",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 17.0,
+              "home": 4.0,
+              "awayText": "17",
+              "homeText": "4"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "MIN",
+              "A. Edwards",
+              "33",
+              45.0,
+              10.0,
+              3.0,
+              "9/17"
+            ],
+            [
+              "MIN",
+              "L. Ball",
+              "29",
+              21.0,
+              2.0,
+              6.0,
+              "5/13"
+            ],
+            [
+              "MIN",
+              "J. McDaniels",
+              "29",
+              17.0,
+              8.0,
+              1.0,
+              "1/3"
+            ],
+            [
+              "MIA",
+              "G. Antetokounmpo",
+              "30",
+              35.0,
+              6.0,
+              1.0,
+              "0/2"
+            ],
+            [
+              "MIA",
+              "B. Adebayo",
+              "31",
+              15.0,
+              7.0,
+              4.0,
+              "1/5"
+            ],
+            [
+              "MIA",
+              "A. Wiggins",
+              "27",
+              11.0,
+              2.0,
+              1.0,
+              "1/4"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "MIN",
+              "D. DiVincenzo",
+              "out",
+              "didn't play"
+            ],
+            [
+              "MIN",
+              "R. Zikarsky",
+              "out",
+              "didn't play"
+            ],
+            [
+              "MIN",
+              "Z. Pullin",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600087": {
+      "title": "CHA @ BKN",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "CHA",
+        "abbr": "CHA"
+      },
+      "home": {
+        "name": "BKN",
+        "abbr": "BKN"
+      },
+      "score": {
+        "away": "110",
+        "home": "103",
+        "label": "Final \u00b7 projected 113.3 \u2013 109.0"
+      },
+      "win": {
+        "away": 0.6407,
+        "home": 0.3593,
+        "note": "Before tip-off \u00b7 CHA won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected CHA 113.3 \u2013 BKN 109.0 (CHA by 4.2, 222.3 in all); it ended 110\u2013103, CHA by 7.",
+            "Off by 2.8 points on the margin and 9.3 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "CHA 64% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "CHA -1.5 60% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Over 219.5 55% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 CHA ML \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-118",
+              "2.00 u",
+              "+1.69 u",
+              "-1.6%"
+            ],
+            [
+              {
+                "v": "\u2605 CHA +1.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-108",
+              "2.00 u",
+              "+1.85 u",
+              "+7.6%"
+            ],
+            [
+              {
+                "v": "\u2605 Over 219.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-108",
+              "1.61 u",
+              "-1.61 u",
+              "-2.9%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 113.27,
+                "actual": 110.0
+              },
+              "home": {
+                "proj": 109.03,
+                "actual": 103.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 103.8,
+              "home": 103.8,
+              "awayText": "104",
+              "homeText": "104"
+            },
+            {
+              "label": "Points per 100",
+              "away": 105.97302504816956,
+              "home": 99.22928709055877,
+              "awayText": "106.0",
+              "homeText": "99.2"
+            },
+            {
+              "label": "3-pointers",
+              "away": 15.0,
+              "home": 12.0,
+              "awayText": "15",
+              "homeText": "12"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.3125,
+              "home": 0.3870967741935484,
+              "awayText": "31%",
+              "homeText": "39%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 15.0,
+              "home": 25.0,
+              "awayText": "15",
+              "homeText": "25"
+            },
+            {
+              "label": "Turnovers",
+              "away": 21.0,
+              "home": 22.0,
+              "awayText": "21",
+              "homeText": "22",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 15.0,
+              "home": 11.0,
+              "awayText": "15",
+              "homeText": "11"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "CHA",
+              "G. Allen",
+              "29",
+              21.0,
+              3.0,
+              4.0,
+              "5/8"
+            ],
+            [
+              "CHA",
+              "N. Reid",
+              "33",
+              20.0,
+              11.0,
+              7.0,
+              "4/10"
+            ],
+            [
+              "CHA",
+              "D. Schr\u00f6der",
+              "35",
+              19.0,
+              4.0,
+              6.0,
+              "0/3"
+            ],
+            [
+              "BKN",
+              "J. Randle",
+              "38",
+              33.0,
+              8.0,
+              7.0,
+              "3/5"
+            ],
+            [
+              "BKN",
+              "M. Porter Jr.",
+              "34",
+              26.0,
+              7.0,
+              1.0,
+              "5/11"
+            ],
+            [
+              "BKN",
+              "N. Clowney",
+              "22",
+              9.0,
+              3.0,
+              1.0,
+              "1/1"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "CHA",
+              "C. White",
+              "out",
+              "didn't play"
+            ],
+            [
+              "CHA",
+              "G. Williams",
+              "out",
+              "didn't play"
+            ],
+            [
+              "CHA",
+              "K. Boswell",
+              "out",
+              "didn't play"
+            ],
+            [
+              "CHA",
+              "K. Knueppel",
+              "out",
+              "didn't play"
+            ],
+            [
+              "BKN",
+              "T. Bilodeau",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600088": {
+      "title": "CHI @ TOR",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "CHI",
+        "abbr": "CHI"
+      },
+      "home": {
+        "name": "TOR",
+        "abbr": "TOR"
+      },
+      "score": {
+        "away": "92",
+        "home": "135",
+        "label": "Final \u00b7 projected 111.2 \u2013 121.4"
+      },
+      "win": {
+        "away": 0.1931,
+        "home": 0.8069,
+        "note": "Before tip-off \u00b7 TOR won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected CHI 111.2 \u2013 TOR 121.4 (TOR by 10.3, 232.6 in all); it ended 92\u2013135, TOR by 43.",
+            "Off by 32.7 points on the margin and 5.6 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "TOR 81% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "CHI +10.5 50% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 237.5 61% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 CHI +10.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-115",
+              "0.12 u",
+              "-0.12 u",
+              "-7.3%"
+            ],
+            [
+              {
+                "v": "\u2605 Under 237.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-112",
+              "2.00 u",
+              "+1.79 u",
+              "-7.4%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 111.17,
+                "actual": 92.0
+              },
+              "home": {
+                "proj": 121.43,
+                "actual": 135.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 112.5,
+              "home": 112.5,
+              "awayText": "112",
+              "homeText": "112"
+            },
+            {
+              "label": "Points per 100",
+              "away": 81.77777777777777,
+              "home": 120.0,
+              "awayText": "81.8",
+              "homeText": "120.0"
+            },
+            {
+              "label": "3-pointers",
+              "away": 4.0,
+              "home": 10.0,
+              "awayText": "4",
+              "homeText": "10"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.1111111111111111,
+              "home": 0.3225806451612903,
+              "awayText": "11%",
+              "homeText": "32%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 47.0,
+              "home": 46.0,
+              "awayText": "47",
+              "homeText": "46"
+            },
+            {
+              "label": "Turnovers",
+              "away": 27.0,
+              "home": 11.0,
+              "awayText": "27",
+              "homeText": "11",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 21.0,
+              "home": 16.0,
+              "awayText": "21",
+              "homeText": "16"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "CHI",
+              "M. Buzelis",
+              "25",
+              17.0,
+              6.0,
+              0.0,
+              "0/4"
+            ],
+            [
+              "CHI",
+              "C. Wilson",
+              "32",
+              16.0,
+              4.0,
+              0.0,
+              "1/8"
+            ],
+            [
+              "CHI",
+              "N. Powell",
+              "22",
+              15.0,
+              5.0,
+              1.0,
+              "2/6"
+            ],
+            [
+              "TOR",
+              "K. Leonard",
+              "24",
+              23.0,
+              6.0,
+              2.0,
+              "2/6"
+            ],
+            [
+              "TOR",
+              "I. Quickley",
+              "28",
+              23.0,
+              4.0,
+              7.0,
+              "4/9"
+            ],
+            [
+              "TOR",
+              "S. Barnes",
+              "26",
+              23.0,
+              6.0,
+              5.0,
+              "1/3"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "CHI",
+              "D. Swain",
+              "out",
+              "didn't play"
+            ],
+            [
+              "CHI",
+              "J. Hawkins",
+              "out",
+              "didn't play"
+            ],
+            [
+              "CHI",
+              "N. Claxton",
+              "out",
+              "didn't play"
+            ],
+            [
+              "TOR",
+              "M. Smith",
+              "out",
+              "didn't play"
+            ],
+            [
+              "TOR",
+              "N. Bittle",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600089": {
+      "title": "UTA @ MEM",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "UTA",
+        "abbr": "UTA"
+      },
+      "home": {
+        "name": "MEM",
+        "abbr": "MEM"
+      },
+      "score": {
+        "away": "103",
+        "home": "123",
+        "label": "Final \u00b7 projected 119.1 \u2013 120.1"
+      },
+      "win": {
+        "away": 0.4619,
+        "home": 0.5381,
+        "note": "Before tip-off \u00b7 MEM won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected UTA 119.1 \u2013 MEM 120.1 (MEM by 1.0, 239.2 in all); it ended 103\u2013123, MEM by 20.",
+            "Off by 19.0 points on the margin and 13.2 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "MEM 54% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "UTA +2.5 52% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 241.5 56% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 Under 241.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-108",
+              "1.90 u",
+              "+1.76 u",
+              "-1.9%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 119.12,
+                "actual": 103.0
+              },
+              "home": {
+                "proj": 120.11,
+                "actual": 123.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 103.9,
+              "home": 103.9,
+              "awayText": "104",
+              "homeText": "104"
+            },
+            {
+              "label": "Points per 100",
+              "away": 99.13378248315688,
+              "home": 118.38306063522617,
+              "awayText": "99.1",
+              "homeText": "118.4"
+            },
+            {
+              "label": "3-pointers",
+              "away": 11.0,
+              "home": 13.0,
+              "awayText": "11",
+              "homeText": "13"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.34375,
+              "home": 0.38235294117647056,
+              "awayText": "34%",
+              "homeText": "38%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 33.0,
+              "home": 28.0,
+              "awayText": "33",
+              "homeText": "28"
+            },
+            {
+              "label": "Turnovers",
+              "away": 18.0,
+              "home": 15.0,
+              "awayText": "18",
+              "homeText": "15",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 5.0,
+              "home": 15.0,
+              "awayText": "5",
+              "homeText": "15"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "UTA",
+              "K. George",
+              "29",
+              22.0,
+              3.0,
+              5.0,
+              "4/6"
+            ],
+            [
+              "UTA",
+              "L. Markkanen",
+              "36",
+              18.0,
+              9.0,
+              3.0,
+              "1/7"
+            ],
+            [
+              "UTA",
+              "J. Jackson Jr.",
+              "28",
+              15.0,
+              5.0,
+              2.0,
+              "2/4"
+            ],
+            [
+              "MEM",
+              "T. Jerome",
+              "32",
+              45.0,
+              7.0,
+              6.0,
+              "5/10"
+            ],
+            [
+              "MEM",
+              "J. Grant",
+              "24",
+              15.0,
+              2.0,
+              3.0,
+              "2/4"
+            ],
+            [
+              "MEM",
+              "G. Jackson",
+              "19",
+              12.0,
+              8.0,
+              0.0,
+              "2/2"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "UTA",
+              "B. Hinson",
+              "out",
+              "didn't play"
+            ],
+            [
+              "UTA",
+              "J. Nurki\u0107",
+              "out",
+              "didn't play"
+            ],
+            [
+              "UTA",
+              "T. Alexander",
+              "out",
+              "didn't play"
+            ],
+            [
+              "UTA",
+              "T. Bradley",
+              "out",
+              "didn't play"
+            ],
+            [
+              "MEM",
+              "C. Cooper",
+              "out",
+              "didn't play"
+            ],
+            [
+              "MEM",
+              "I. Stewart",
+              "out",
+              "didn't play"
+            ],
+            [
+              "MEM",
+              "J. Small",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600090": {
+      "title": "IND @ NOP",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "IND",
+        "abbr": "IND"
+      },
+      "home": {
+        "name": "NOP",
+        "abbr": "NOP"
+      },
+      "score": {
+        "away": "123",
+        "home": "120",
+        "label": "Final \u00b7 projected 116.9 \u2013 118.2"
+      },
+      "win": {
+        "away": 0.4494,
+        "home": 0.5506,
+        "note": "Before tip-off \u00b7 IND won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected IND 116.9 \u2013 NOP 118.2 (NOP by 1.3, 235.1 in all); it ended 123\u2013120, IND by 3.",
+            "Off by 4.3 points on the margin and 7.9 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "NOP 55% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "NOP +3.5 63% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 239.5 60% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 NOP ML \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "+130",
+              "2.00 u",
+              "-2.00 u",
+              "+0.4%"
+            ],
+            [
+              {
+                "v": "\u2605 NOP +3.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-112",
+              "2.00 u",
+              "+1.79 u",
+              "-3.4%"
+            ],
+            [
+              {
+                "v": "\u2605 Under 239.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-110",
+              "2.00 u",
+              "-2.00 u",
+              "-2.5%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 116.89,
+                "actual": 123.0
+              },
+              "home": {
+                "proj": 118.22,
+                "actual": 120.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 106.5,
+              "home": 106.5,
+              "awayText": "106",
+              "homeText": "106"
+            },
+            {
+              "label": "Points per 100",
+              "away": 115.49295774647888,
+              "home": 112.67605633802818,
+              "awayText": "115.5",
+              "homeText": "112.7"
+            },
+            {
+              "label": "3-pointers",
+              "away": 9.0,
+              "home": 10.0,
+              "awayText": "9",
+              "homeText": "10"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.3,
+              "home": 0.3333333333333333,
+              "awayText": "30%",
+              "homeText": "33%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 29.0,
+              "home": 37.0,
+              "awayText": "29",
+              "homeText": "37"
+            },
+            {
+              "label": "Turnovers",
+              "away": 13.0,
+              "home": 15.0,
+              "awayText": "13",
+              "homeText": "15",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 9.0,
+              "home": 14.0,
+              "awayText": "9",
+              "homeText": "14"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "IND",
+              "P. Siakam",
+              "35",
+              30.0,
+              8.0,
+              1.0,
+              "1/3"
+            ],
+            [
+              "IND",
+              "T. Haliburton",
+              "34",
+              23.0,
+              2.0,
+              12.0,
+              "2/6"
+            ],
+            [
+              "IND",
+              "O. Toppin",
+              "25",
+              20.0,
+              3.0,
+              1.0,
+              "4/9"
+            ],
+            [
+              "NOP",
+              "D. Murray",
+              "34",
+              23.0,
+              3.0,
+              7.0,
+              "2/5"
+            ],
+            [
+              "NOP",
+              "Z. Williamson",
+              "32",
+              22.0,
+              3.0,
+              3.0,
+              "2/4"
+            ],
+            [
+              "NOP",
+              "S. Bey",
+              "24",
+              13.0,
+              5.0,
+              0.0,
+              "2/4"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "IND",
+              "A. Nesmith",
+              "out",
+              "didn't play"
+            ],
+            [
+              "IND",
+              "J. Furphy",
+              "out",
+              "didn't play"
+            ],
+            [
+              "IND",
+              "T. McConnell",
+              "out",
+              "didn't play"
+            ],
+            [
+              "IND",
+              "B. Smith",
+              "doubtful",
+              "didn't play"
+            ],
+            [
+              "IND",
+              "J. Slawson",
+              "probable",
+              "didn't play"
+            ],
+            [
+              "IND",
+              "K. Brown",
+              "probable",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600091": {
+      "title": "DAL @ HOU",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "DAL",
+        "abbr": "DAL"
+      },
+      "home": {
+        "name": "HOU",
+        "abbr": "HOU"
+      },
+      "score": {
+        "away": "110",
+        "home": "128",
+        "label": "Final \u00b7 projected 106.8 \u2013 116.7"
+      },
+      "win": {
+        "away": 0.1974,
+        "home": 0.8026,
+        "note": "Before tip-off \u00b7 HOU won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected DAL 106.8 \u2013 HOU 116.7 (HOU by 9.8, 223.5 in all); it ended 110\u2013128, HOU by 18.",
+            "Off by 8.2 points on the margin and 14.5 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "HOU 80% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "DAL +10.5 52% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 229.5 64% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 Under 229.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-112",
+              "2.00 u",
+              "-2.00 u",
+              "-5.3%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 106.83,
+                "actual": 110.0
+              },
+              "home": {
+                "proj": 116.67,
+                "actual": 128.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 100.7,
+              "home": 100.7,
+              "awayText": "101",
+              "homeText": "101"
+            },
+            {
+              "label": "Points per 100",
+              "away": 109.23535253227408,
+              "home": 127.11022840119165,
+              "awayText": "109.2",
+              "homeText": "127.1"
+            },
+            {
+              "label": "3-pointers",
+              "away": 11.0,
+              "home": 16.0,
+              "awayText": "11",
+              "homeText": "16"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.2972972972972973,
+              "home": 0.4444444444444444,
+              "awayText": "30%",
+              "homeText": "44%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 26.0,
+              "home": 25.0,
+              "awayText": "26",
+              "homeText": "25"
+            },
+            {
+              "label": "Turnovers",
+              "away": 21.0,
+              "home": 16.0,
+              "awayText": "21",
+              "homeText": "16",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 8.0,
+              "home": 17.0,
+              "awayText": "8",
+              "homeText": "17"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "DAL",
+              "C. Flagg",
+              "33",
+              32.0,
+              5.0,
+              2.0,
+              "1/4"
+            ],
+            [
+              "DAL",
+              "M. Sasser",
+              "24",
+              17.0,
+              1.0,
+              1.0,
+              "4/5"
+            ],
+            [
+              "DAL",
+              "N. Marshall",
+              "29",
+              16.0,
+              2.0,
+              6.0,
+              "2/6"
+            ],
+            [
+              "HOU",
+              "K. Durant",
+              "37",
+              30.0,
+              6.0,
+              3.0,
+              "2/4"
+            ],
+            [
+              "HOU",
+              "J. Smith Jr.",
+              "36",
+              30.0,
+              5.0,
+              1.0,
+              "4/8"
+            ],
+            [
+              "HOU",
+              "A. Sengun",
+              "30",
+              23.0,
+              10.0,
+              5.0,
+              "2/2"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "DAL",
+              "C. Martin",
+              "out",
+              "didn't play"
+            ],
+            [
+              "DAL",
+              "D. Lively II",
+              "out",
+              "didn't play"
+            ],
+            [
+              "DAL",
+              "J. Howard",
+              "out",
+              "didn't play"
+            ],
+            [
+              "DAL",
+              "S. Aldama",
+              "out",
+              "didn't play"
+            ],
+            [
+              "DAL",
+              "T. Biberovic",
+              "out",
+              "didn't play"
+            ],
+            [
+              "HOU",
+              "J. Phillips",
+              "questionable",
+              "didn't play"
+            ],
+            [
+              "HOU",
+              "S. Adams",
+              "questionable",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600005": {
+      "title": "GSW @ LAL",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "GSW",
+        "abbr": "GSW"
+      },
+      "home": {
+        "name": "LAL",
+        "abbr": "LAL"
+      },
+      "score": {
+        "away": "105",
+        "home": "127",
+        "label": "Final \u00b7 projected 110.4 \u2013 119.8"
+      },
+      "win": {
+        "away": 0.2134,
+        "home": 0.7866,
+        "note": "Before tip-off \u00b7 LAL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected GSW 110.4 \u2013 LAL 119.8 (LAL by 9.4, 230.3 in all); it ended 105\u2013127, LAL by 22.",
+            "Off by 12.6 points on the margin and 1.7 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "LAL 79% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "LAL -6.5 59% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 234.5 60% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 LAL ML \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-230",
+              "2.00 u",
+              "+0.87 u",
+              "-4.0%"
+            ],
+            [
+              {
+                "v": "\u2605 LAL -6.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-110",
+              "2.00 u",
+              "+1.82 u",
+              "-3.7%"
+            ],
+            [
+              {
+                "v": "\u2605 Under 234.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-108",
+              "2.00 u",
+              "+1.85 u",
+              "-4.5%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 110.42,
+                "actual": 105.0
+              },
+              "home": {
+                "proj": 119.83,
+                "actual": 127.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 102.9,
+              "home": 102.9,
+              "awayText": "103",
+              "homeText": "103"
+            },
+            {
+              "label": "Points per 100",
+              "away": 102.0408163265306,
+              "home": 123.42079689018463,
+              "awayText": "102.0",
+              "homeText": "123.4"
+            },
+            {
+              "label": "3-pointers",
+              "away": 8.0,
+              "home": 11.0,
+              "awayText": "8",
+              "homeText": "11"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.2222222222222222,
+              "home": 0.39285714285714285,
+              "awayText": "22%",
+              "homeText": "39%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 27.0,
+              "home": 27.0,
+              "awayText": "27",
+              "homeText": "27"
+            },
+            {
+              "label": "Turnovers",
+              "away": 16.0,
+              "home": 18.0,
+              "awayText": "16",
+              "homeText": "18",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 15.0,
+              "home": 10.0,
+              "awayText": "15",
+              "homeText": "10"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "GSW",
+              "S. Curry",
+              "21",
+              23.0,
+              2.0,
+              1.0,
+              "2/7"
+            ],
+            [
+              "GSW",
+              "B. Williams",
+              "18",
+              14.0,
+              4.0,
+              3.0,
+              "1/3"
+            ],
+            [
+              "GSW",
+              "G. Santos",
+              "25",
+              12.0,
+              5.0,
+              0.0,
+              "1/3"
+            ],
+            [
+              "LAL",
+              "L. Don\u010di\u0107",
+              "30",
+              28.0,
+              8.0,
+              7.0,
+              "5/12"
+            ],
+            [
+              "LAL",
+              "W. Kessler",
+              "30",
+              26.0,
+              9.0,
+              1.0,
+              "0/0"
+            ],
+            [
+              "LAL",
+              "A. Reaves",
+              "32",
+              23.0,
+              4.0,
+              6.0,
+              "1/3"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "GSW",
+              "B. Podziemski",
+              "out",
+              "didn't play"
+            ],
+            [
+              "GSW",
+              "C. Bassey",
+              "out",
+              "didn't play"
+            ],
+            [
+              "GSW",
+              "J. Butler III",
+              "out",
+              "didn't play"
+            ],
+            [
+              "GSW",
+              "K. Porzi\u0146\u0123is",
+              "out",
+              "didn't play"
+            ],
+            [
+              "GSW",
+              "M. Moody",
+              "out",
+              "didn't play"
+            ],
+            [
+              "GSW",
+              "S. Curry",
+              "probable",
+              "played 21 min"
+            ],
+            [
+              "LAL",
+              "A. Thiero",
+              "out",
+              "didn't play"
+            ],
+            [
+              "LAL",
+              "C. Carr",
+              "out",
+              "didn't play"
+            ],
+            [
+              "LAL",
+              "C. Sexton",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600092": {
+      "title": "PHX @ POR",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "PHX",
+        "abbr": "PHX"
+      },
+      "home": {
+        "name": "POR",
+        "abbr": "POR"
+      },
+      "score": {
+        "away": "83",
+        "home": "124",
+        "label": "Final \u00b7 projected 113.9 \u2013 118.5"
+      },
+      "win": {
+        "away": 0.3466,
+        "home": 0.6534,
+        "note": "Before tip-off \u00b7 POR won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected PHX 113.9 \u2013 POR 118.5 (POR by 4.6, 232.4 in all); it ended 83\u2013124, POR by 41.",
+            "Off by 36.4 points on the margin and 25.4 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "POR 65% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "POR -2.5 57% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Over 231.5 51% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 POR ML \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-142",
+              "2.00 u",
+              "+1.41 u",
+              "-4.0%"
+            ],
+            [
+              {
+                "v": "\u2605 POR -2.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-115",
+              "2.00 u",
+              "+1.74 u",
+              "-5.7%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 113.92,
+                "actual": 83.0
+              },
+              "home": {
+                "proj": 118.48,
+                "actual": 124.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 100.0,
+              "home": 100.0,
+              "awayText": "100",
+              "homeText": "100"
+            },
+            {
+              "label": "Points per 100",
+              "away": 83.0,
+              "home": 124.0,
+              "awayText": "83.0",
+              "homeText": "124.0"
+            },
+            {
+              "label": "3-pointers",
+              "away": 6.0,
+              "home": 19.0,
+              "awayText": "6",
+              "homeText": "19"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.1875,
+              "home": 0.40425531914893614,
+              "awayText": "19%",
+              "homeText": "40%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 23.0,
+              "home": 18.0,
+              "awayText": "23",
+              "homeText": "18"
+            },
+            {
+              "label": "Turnovers",
+              "away": 16.0,
+              "home": 17.0,
+              "awayText": "16",
+              "homeText": "17",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 13.0,
+              "home": 16.0,
+              "awayText": "13",
+              "homeText": "16"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "PHX",
+              "D. Booker",
+              "29",
+              23.0,
+              4.0,
+              2.0,
+              "0/0"
+            ],
+            [
+              "PHX",
+              "D. Brooks",
+              "27",
+              10.0,
+              4.0,
+              0.0,
+              "1/2"
+            ],
+            [
+              "PHX",
+              "J. Green",
+              "25",
+              10.0,
+              2.0,
+              3.0,
+              "2/6"
+            ],
+            [
+              "POR",
+              "D. Lillard",
+              "24",
+              25.0,
+              3.0,
+              6.0,
+              "6/10"
+            ],
+            [
+              "POR",
+              "D. Avdija",
+              "23",
+              18.0,
+              10.0,
+              4.0,
+              "2/4"
+            ],
+            [
+              "POR",
+              "T. Camara",
+              "23",
+              18.0,
+              2.0,
+              3.0,
+              "4/7"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "PHX",
+              "D. Timme",
+              "out",
+              "didn't play"
+            ],
+            [
+              "PHX",
+              "M. Williams",
+              "out",
+              "didn't play"
+            ],
+            [
+              "PHX",
+              "L. Kennard",
+              "questionable",
+              "didn't play"
+            ],
+            [
+              "POR",
+              "B. Carlson",
+              "out",
+              "didn't play"
+            ],
+            [
+              "POR",
+              "C. Youngblood",
+              "out",
+              "didn't play"
+            ],
+            [
+              "POR",
+              "S. Sharpe",
+              "out",
+              "didn't play"
+            ],
+            [
+              "POR",
+              "D. Avdija",
+              "questionable",
+              "played 23 min"
+            ],
+            [
+              "POR",
+              "M. Potter",
+              "probable",
+              "played 12 min"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600093": {
+      "title": "SAC @ LAC",
+      "subtitle": "Wed Oct 21 \u00b7 Final",
+      "away": {
+        "name": "SAC",
+        "abbr": "SAC"
+      },
+      "home": {
+        "name": "LAC",
+        "abbr": "LAC"
+      },
+      "score": {
+        "away": "96",
+        "home": "121",
+        "label": "Final \u00b7 projected 110.0 \u2013 113.0"
+      },
+      "win": {
+        "away": 0.3957,
+        "home": 0.6043,
+        "note": "Before tip-off \u00b7 LAC won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected SAC 110.0 \u2013 LAC 113.0 (LAC by 3.0, 223.0 in all); it ended 96\u2013121, LAC by 25.",
+            "Off by 22.0 points on the margin and 6.0 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "LAC 60% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "SAC +4.5 53% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 227.5 61% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 SAC +4.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-110",
+              "0.65 u",
+              "-0.65 u",
+              "-9.0%"
+            ],
+            [
+              {
+                "v": "\u2605 Under 227.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              },
+              "-110",
+              "2.00 u",
+              "+1.82 u",
+              "-1.3%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 110.02,
+                "actual": 96.0
+              },
+              "home": {
+                "proj": 113.0,
+                "actual": 121.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 103.0,
+              "home": 103.0,
+              "awayText": "103",
+              "homeText": "103"
+            },
+            {
+              "label": "Points per 100",
+              "away": 93.20388349514563,
+              "home": 117.47572815533981,
+              "awayText": "93.2",
+              "homeText": "117.5"
+            },
+            {
+              "label": "3-pointers",
+              "away": 8.0,
+              "home": 14.0,
+              "awayText": "8",
+              "homeText": "14"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.2857142857142857,
+              "home": 0.4,
+              "awayText": "29%",
+              "homeText": "40%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 28.0,
+              "home": 31.0,
+              "awayText": "28",
+              "homeText": "31"
+            },
+            {
+              "label": "Turnovers",
+              "away": 17.0,
+              "home": 18.0,
+              "awayText": "17",
+              "homeText": "18",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 11.0,
+              "home": 11.0,
+              "awayText": "11",
+              "homeText": "11"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "SAC",
+              "Z. LaVine",
+              "34",
+              28.0,
+              4.0,
+              4.0,
+              "3/8"
+            ],
+            [
+              "SAC",
+              "P. Achiuwa",
+              "29",
+              15.0,
+              5.0,
+              2.0,
+              "1/1"
+            ],
+            [
+              "SAC",
+              "D. Sabonis",
+              "34",
+              14.0,
+              18.0,
+              8.0,
+              "0/0"
+            ],
+            [
+              "LAC",
+              "D. Garland",
+              "32",
+              30.0,
+              1.0,
+              4.0,
+              "3/8"
+            ],
+            [
+              "LAC",
+              "B. Lopez",
+              "27",
+              17.0,
+              11.0,
+              1.0,
+              "1/3"
+            ],
+            [
+              "LAC",
+              "K. Wagler",
+              "29",
+              15.0,
+              5.0,
+              5.0,
+              "3/6"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "SAC",
+              "B. Simmons",
+              "out",
+              "didn't play"
+            ],
+            [
+              "SAC",
+              "D. Cardwell",
+              "out",
+              "didn't play"
+            ],
+            [
+              "SAC",
+              "M. Raynaud",
+              "out",
+              "didn't play"
+            ],
+            [
+              "SAC",
+              "M. Monk",
+              "questionable",
+              "didn't play"
+            ],
+            [
+              "LAC",
+              "B. Beal",
+              "out",
+              "didn't play"
+            ],
+            [
+              "LAC",
+              "B. Ingram",
+              "out",
+              "didn't play"
+            ],
+            [
+              "LAC",
+              "J. Miller",
+              "out",
+              "didn't play"
+            ],
+            [
+              "LAC",
+              "M. Strus",
+              "out",
+              "didn't play"
+            ],
+            [
+              "LAC",
+              "Y. Niederh\u00e4user",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    }
+  }
+}

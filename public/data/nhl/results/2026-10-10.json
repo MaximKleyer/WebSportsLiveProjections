@@ -72,6 +72,7 @@
   ],
   "rows": [
     {
+      "id": "2026020071",
       "awayTeam": "VAN",
       "awayScore": "1",
       "sep": "\u2013",
@@ -105,6 +106,7 @@
       "flagged": true
     },
     {
+      "id": "2026020072",
       "awayTeam": "EDM",
       "awayScore": "3",
       "sep": "\u2013",
@@ -133,6 +135,7 @@
       "flagged": false
     },
     {
+      "id": "2026020073",
       "awayTeam": "MIN",
       "awayScore": "4",
       "sep": "\u2013",
@@ -166,6 +169,7 @@
       "flagged": true
     },
     {
+      "id": "2026020074",
       "awayTeam": "UTA",
       "awayScore": "4",
       "sep": "\u2013",
@@ -194,6 +198,7 @@
       "flagged": false
     },
     {
+      "id": "2026020075",
       "awayTeam": "DET",
       "awayScore": "0",
       "sep": "SO",
@@ -222,6 +227,7 @@
       "flagged": false
     },
     {
+      "id": "2026020076",
       "awayTeam": "NSH",
       "awayScore": "2",
       "sep": "SO",
@@ -255,6 +261,7 @@
       "flagged": true
     },
     {
+      "id": "2026020077",
       "awayTeam": "DAL",
       "awayScore": "1",
       "sep": "SO",
@@ -288,6 +295,7 @@
       "flagged": true
     },
     {
+      "id": "2026020078",
       "awayTeam": "CAR",
       "awayScore": "5",
       "sep": "\u2013",
@@ -316,6 +324,7 @@
       "flagged": false
     },
     {
+      "id": "2026020079",
       "awayTeam": "CBJ",
       "awayScore": "3",
       "sep": "\u2013",
@@ -349,6 +358,7 @@
       "flagged": true
     },
     {
+      "id": "2026020080",
       "awayTeam": "TOR",
       "awayScore": "6",
       "sep": "\u2013",
@@ -382,6 +392,7 @@
       "flagged": true
     },
     {
+      "id": "2026020081",
       "awayTeam": "TBL",
       "awayScore": "5",
       "sep": "\u2013",
@@ -415,6 +426,7 @@
       "flagged": true
     },
     {
+      "id": "2026020082",
       "awayTeam": "ANA",
       "awayScore": "4",
       "sep": "\u2013",
@@ -443,6 +455,7 @@
       "flagged": false
     },
     {
+      "id": "2026020083",
       "awayTeam": "LAK",
       "awayScore": "1",
       "sep": "OT",
@@ -475,5 +488,6 @@
       },
       "flagged": true
     }
-  ]
+  ],
+  "details": "2026-10-10.details.json"
 }

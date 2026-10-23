@@ -66,6 +66,7 @@
   ],
   "rows": [
     {
+      "id": "2026020152",
       "awayTeam": "PHI",
       "awayScore": "3",
       "sep": "\u2013",
@@ -94,12 +95,13 @@
       "flagged": false
     },
     {
+      "id": "2026020153",
       "awayTeam": "FLA",
       "awayScore": "1",
       "sep": "\u2013",
       "homeScore": "5",
       "homeTeam": "OTT",
-      "proj": "2.8 \u2013 2.9",
+      "proj": "2.8 \u2013 3.0",
       "pick": {
         "v": "OTT 52% \u2713",
         "tone": "good",
@@ -121,5 +123,6 @@
       },
       "flagged": false
     }
-  ]
+  ],
+  "details": "2026-10-21.details.json"
 }

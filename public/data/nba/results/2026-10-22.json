@@ -78,6 +78,7 @@
   ],
   "rows": [
     {
+      "id": "0022600006",
       "awayTeam": "CLE",
       "awayScore": "106",
       "sep": "\u2013",
@@ -115,6 +116,7 @@
       "flagged": true
     },
     {
+      "id": "0022600007",
       "awayTeam": "DEN",
       "awayScore": "84",
       "sep": "\u2013",
@@ -151,5 +153,6 @@
       },
       "flagged": true
     }
-  ]
+  ],
+  "details": "2026-10-22.details.json"
 }

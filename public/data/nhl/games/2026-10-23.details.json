@@ -32,7 +32,7 @@
             "MTL's offense rates 61 against CHI's defense at 11; CHI's offense rates 9 against MTL's defense at 46 (percentiles: 50 = an average team).",
             "In net: J. Dobes for MTL (72% to start), S. Knight for CHI (72% to start). Goaltending rates 85 for MTL and 35 for CHI.",
             "The widest gap in what the model leaves out: 5v5 play, MTL 74 to CHI 5.",
-            "The market (1 book, margin removed) gives CHI 43% to win; the model 35%.",
+            "The market (1 book, margin removed) gives CHI 40% to win; the model 35%.",
             "Early season: with 9 games played, the ratings still lean on last season."
           ]
         },
@@ -126,12 +126,12 @@
             [
               "MTL to win",
               "65%",
-              "57%"
+              "60%"
             ],
             [
               "CHI to win",
               "35%",
-              "43%"
+              "40%"
             ],
             [
               "MTL \u22121.5",
@@ -155,42 +155,6 @@
             ]
           ],
           "note": "Expected total: 6.27 goals."
-        },
-        {
-          "title": "Flagged bets",
-          "kind": "table",
-          "columns": [
-            "Bet",
-            "Price",
-            "Book",
-            "Model",
-            "Market",
-            "Edge"
-          ],
-          "rows": [
-            [
-              "\u2605 MTL ML",
-              "-148",
-              "DraftKings",
-              "65%",
-              "57%",
-              {
-                "v": "+8.1%",
-                "tone": "good"
-              }
-            ],
-            [
-              "\u2605 MTL -1.5",
-              "+164",
-              "DraftKings",
-              "44%",
-              "36%",
-              {
-                "v": "+7.4%",
-                "tone": "good"
-              }
-            ]
-          ]
         },
         {
           "title": "Season outlook",

@@ -1,0 +1,1826 @@
+{
+  "games": {
+    "2026020141": {
+      "title": "SJS @ MTL",
+      "subtitle": "Tue Oct 20 \u00b7 Final (OT)",
+      "away": {
+        "name": "SJS",
+        "abbr": "SJS"
+      },
+      "home": {
+        "name": "MTL",
+        "abbr": "MTL"
+      },
+      "score": {
+        "away": "4",
+        "home": "3",
+        "label": "Final (OT) \u00b7 projected 2.54 \u2013 3.68"
+      },
+      "win": {
+        "away": 0.3167,
+        "home": 0.6833,
+        "note": "Before puck drop \u00b7 SJS won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected SJS 2.54 \u2013 MTL 3.68 goals (6.22 in all); it ended 4\u20133 in overtime, SJS.",
+            "On chances (expected goals from their shots) it was SJS 3.24 \u2013 MTL 3.48: close to even."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "MTL 68% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 56% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 55% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 2.54,
+                "actual": 4.0
+              },
+              "home": {
+                "proj": 3.676,
+                "actual": 3.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 2.54,
+                "actual": 3.242
+              },
+              "home": {
+                "proj": 3.676,
+                "actual": 3.477
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 30.0
+              },
+              "home": {
+                "actual": 34.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 2.596
+              },
+              "home": {
+                "actual": 3.104
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "SJS",
+              "2 for 3"
+            ],
+            [
+              "MTL",
+              "0 for 2"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "SJS",
+              "A. Nedeljkovic",
+              "A. Nedeljkovic 91%",
+              "31 of 34",
+              "+0.48"
+            ],
+            [
+              "MTL",
+              "J. Dobes",
+              "J. Dobes 70%",
+              "26 of 30",
+              "-0.76"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020142": {
+      "title": "COL @ NJD",
+      "subtitle": "Tue Oct 20 \u00b7 Final",
+      "away": {
+        "name": "COL",
+        "abbr": "COL"
+      },
+      "home": {
+        "name": "NJD",
+        "abbr": "NJD"
+      },
+      "score": {
+        "away": "3",
+        "home": "4",
+        "label": "Final \u00b7 projected 3.33 \u2013 3.19"
+      },
+      "win": {
+        "away": 0.5215,
+        "home": 0.4785,
+        "note": "Before puck drop \u00b7 NJD won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected COL 3.33 \u2013 NJD 3.19 goals (6.52 in all); it ended 3\u20134, NJD.",
+            "On chances (expected goals from their shots) it was COL 2.82 \u2013 NJD 2.78: close to even."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "COL 52% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 61% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "OVER 50% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 3.326,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 3.195,
+                "actual": 4.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 3.326,
+                "actual": 2.823
+              },
+              "home": {
+                "proj": 3.195,
+                "actual": 2.782
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 34.0
+              },
+              "home": {
+                "actual": 41.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 1.898
+              },
+              "home": {
+                "actual": 2.245
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "COL",
+              "0 for 1"
+            ],
+            [
+              "NJD",
+              "0 for 1"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "NJD",
+              "J. Allen",
+              "J. Allen 76%",
+              "31 of 34",
+              "-0.18"
+            ],
+            [
+              "COL",
+              "S. Wedgewood",
+              "S. Wedgewood 91%",
+              "37 of 40",
+              "-0.22"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020143": {
+      "title": "ANA @ NYI",
+      "subtitle": "Tue Oct 20 \u00b7 Final",
+      "away": {
+        "name": "ANA",
+        "abbr": "ANA"
+      },
+      "home": {
+        "name": "NYI",
+        "abbr": "NYI"
+      },
+      "score": {
+        "away": "2",
+        "home": "3",
+        "label": "Final \u00b7 projected 2.67 \u2013 3.38"
+      },
+      "win": {
+        "away": 0.3826,
+        "home": 0.6174,
+        "note": "Before puck drop \u00b7 NYI won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected ANA 2.67 \u2013 NYI 3.38 goals (6.04 in all); it ended 2\u20133, NYI.",
+            "On chances (expected goals from their shots) it was ANA 1.86 \u2013 NYI 4.88: NYI had the better of the play."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "NYI 62% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 53% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 58% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 2.667,
+                "actual": 2.0
+              },
+              "home": {
+                "proj": 3.376,
+                "actual": 3.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 2.667,
+                "actual": 1.864
+              },
+              "home": {
+                "proj": 3.376,
+                "actual": 4.882
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 17.0
+              },
+              "home": {
+                "actual": 25.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 1.563
+              },
+              "home": {
+                "actual": 3.553
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "ANA",
+              "0 for 2"
+            ],
+            [
+              "NYI",
+              "1 for 4"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "NYI",
+              "I. Sorokin",
+              "I. Sorokin 90%",
+              "15 of 17",
+              "-0.14"
+            ],
+            [
+              "ANA",
+              "L. Dostal",
+              "L. Dostal 91%",
+              "22 of 25",
+              "+1.88"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020144": {
+      "title": "LAK @ WSH",
+      "subtitle": "Tue Oct 20 \u00b7 Final",
+      "away": {
+        "name": "LAK",
+        "abbr": "LAK"
+      },
+      "home": {
+        "name": "WSH",
+        "abbr": "WSH"
+      },
+      "score": {
+        "away": "5",
+        "home": "2",
+        "label": "Final \u00b7 projected 2.83 \u2013 3.14"
+      },
+      "win": {
+        "away": 0.4485,
+        "home": 0.5515,
+        "note": "Before puck drop \u00b7 LAK won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected LAK 2.83 \u2013 WSH 3.14 goals (5.97 in all); it ended 5\u20132, LAK.",
+            "On chances (expected goals from their shots) it was LAK 2.69 \u2013 WSH 4.30: WSH had the better of the play."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "WSH 55% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 52% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 59% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 2.833,
+                "actual": 5.0
+              },
+              "home": {
+                "proj": 3.14,
+                "actual": 2.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 2.833,
+                "actual": 2.692
+              },
+              "home": {
+                "proj": 3.14,
+                "actual": 4.302
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 26.0
+              },
+              "home": {
+                "actual": 32.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 2.234
+              },
+              "home": {
+                "actual": 2.931
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "LAK",
+              "1 for 2"
+            ],
+            [
+              "WSH",
+              "1 for 4"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "LAK",
+              "D. Kuemper",
+              "D. Kuemper 51%",
+              "30 of 32",
+              "+2.30"
+            ],
+            [
+              "WSH",
+              "L. Thompson",
+              "L. Thompson 77%",
+              "21 of 25",
+              "-1.31"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020145": {
+      "title": "TOR @ CBJ",
+      "subtitle": "Tue Oct 20 \u00b7 Final",
+      "away": {
+        "name": "TOR",
+        "abbr": "TOR"
+      },
+      "home": {
+        "name": "CBJ",
+        "abbr": "CBJ"
+      },
+      "score": {
+        "away": "6",
+        "home": "2",
+        "label": "Final \u00b7 projected 2.72 \u2013 3.35"
+      },
+      "win": {
+        "away": 0.3959,
+        "home": 0.6041,
+        "note": "Before puck drop \u00b7 TOR won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected TOR 2.72 \u2013 CBJ 3.35 goals (6.07 in all); it ended 6\u20132, TOR.",
+            "On chances (expected goals from their shots) it was TOR 2.70 \u2013 CBJ 3.28: CBJ had the better of the play."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "CBJ 60% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 54% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 57% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 2.721,
+                "actual": 6.0
+              },
+              "home": {
+                "proj": 3.35,
+                "actual": 2.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 2.721,
+                "actual": 2.705
+              },
+              "home": {
+                "proj": 3.35,
+                "actual": 3.277
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 22.0
+              },
+              "home": {
+                "actual": 37.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 1.19
+              },
+              "home": {
+                "actual": 1.946
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "TOR",
+              "1 for 5"
+            ],
+            [
+              "CBJ",
+              "0 for 6"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "TOR",
+              "A. Stolarz",
+              "A. Stolarz 91%",
+              "35 of 37",
+              "+1.28"
+            ],
+            [
+              "CBJ",
+              "J. Greaves",
+              "J. Greaves 85%",
+              "14 of 19",
+              "-2.64"
+            ],
+            [
+              "CBJ",
+              "C. Talbot (relief)",
+              null,
+              "2 of 3",
+              "-0.66"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020146": {
+      "title": "WPG @ STL",
+      "subtitle": "Tue Oct 20 \u00b7 Final",
+      "away": {
+        "name": "WPG",
+        "abbr": "WPG"
+      },
+      "home": {
+        "name": "STL",
+        "abbr": "STL"
+      },
+      "score": {
+        "away": "1",
+        "home": "2",
+        "label": "Final \u00b7 projected 2.93 \u2013 3.22"
+      },
+      "win": {
+        "away": 0.4528,
+        "home": 0.5472,
+        "note": "Before puck drop \u00b7 STL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected WPG 2.93 \u2013 STL 3.22 goals (6.15 in all); it ended 1\u20132, STL.",
+            "On chances (expected goals from their shots) it was WPG 2.66 \u2013 STL 2.97: close to even."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "STL 55% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 55% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 56% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 2.933,
+                "actual": 1.0
+              },
+              "home": {
+                "proj": 3.218,
+                "actual": 2.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 2.933,
+                "actual": 2.664
+              },
+              "home": {
+                "proj": 3.218,
+                "actual": 2.969
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 33.0
+              },
+              "home": {
+                "actual": 28.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 2.1
+              },
+              "home": {
+                "actual": 1.868
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "WPG",
+              "0 for 3"
+            ],
+            [
+              "STL",
+              "1 for 5"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "STL",
+              "J. Hofer",
+              "J. Hofer 59%",
+              "32 of 33",
+              "+1.66"
+            ],
+            [
+              "WPG",
+              "S. Skinner",
+              "S. Skinner 62%",
+              "26 of 28",
+              "+0.97"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020147": {
+      "title": "BOS @ DAL",
+      "subtitle": "Tue Oct 20 \u00b7 Final (OT)",
+      "away": {
+        "name": "BOS",
+        "abbr": "BOS"
+      },
+      "home": {
+        "name": "DAL",
+        "abbr": "DAL"
+      },
+      "score": {
+        "away": "2",
+        "home": "3",
+        "label": "Final (OT) \u00b7 projected 2.77 \u2013 2.86"
+      },
+      "win": {
+        "away": 0.4838,
+        "home": 0.5162,
+        "note": "Before puck drop \u00b7 DAL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected BOS 2.77 \u2013 DAL 2.86 goals (5.63 in all); it ended 2\u20133 in overtime, DAL.",
+            "On chances (expected goals from their shots) it was BOS 2.15 \u2013 DAL 4.09: DAL had the better of the play."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "DAL 52% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "UNDER 54% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 65% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 2.769,
+                "actual": 2.0
+              },
+              "home": {
+                "proj": 2.864,
+                "actual": 3.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 2.769,
+                "actual": 2.152
+              },
+              "home": {
+                "proj": 2.864,
+                "actual": 4.09
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 20.0
+              },
+              "home": {
+                "actual": 25.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 1.472
+              },
+              "home": {
+                "actual": 2.126
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "BOS",
+              "0 for 4"
+            ],
+            [
+              "DAL",
+              "1 for 3"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "BOS",
+              "J. Swayman",
+              "J. Swayman 91%",
+              "22 of 25",
+              "+1.09"
+            ],
+            [
+              "DAL",
+              "J. Oettinger",
+              "J. Oettinger 72%",
+              "18 of 20",
+              "+0.15"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020148": {
+      "title": "MIN @ EDM",
+      "subtitle": "Tue Oct 20 \u00b7 Final (OT)",
+      "away": {
+        "name": "MIN",
+        "abbr": "MIN"
+      },
+      "home": {
+        "name": "EDM",
+        "abbr": "EDM"
+      },
+      "score": {
+        "away": "3",
+        "home": "4",
+        "label": "Final (OT) \u00b7 projected 3.14 \u2013 3.12"
+      },
+      "win": {
+        "away": 0.5044,
+        "home": 0.4956,
+        "note": "Before puck drop \u00b7 EDM won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected MIN 3.14 \u2013 EDM 3.12 goals (6.26 in all); it ended 3\u20134 in overtime, EDM.",
+            "On chances (expected goals from their shots) it was MIN 6.05 \u2013 EDM 4.50: MIN had the better of the play."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "MIN 50% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 57% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 54% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 3.144,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 3.119,
+                "actual": 4.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 3.144,
+                "actual": 6.052
+              },
+              "home": {
+                "proj": 3.119,
+                "actual": 4.499
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 30.0
+              },
+              "home": {
+                "actual": 32.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 5.1
+              },
+              "home": {
+                "actual": 2.637
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "MIN",
+              "0 for 3"
+            ],
+            [
+              "EDM",
+              "3 for 5"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "MIN",
+              "J. Wallstedt",
+              "J. Wallstedt 94%",
+              "28 of 32",
+              "+0.50"
+            ],
+            [
+              "EDM",
+              "D. Levi",
+              "T. Jarry 60%",
+              "27 of 30",
+              "+3.05"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020149": {
+      "title": "DET @ SEA",
+      "subtitle": "Tue Oct 20 \u00b7 Final (SO)",
+      "away": {
+        "name": "DET",
+        "abbr": "DET"
+      },
+      "home": {
+        "name": "SEA",
+        "abbr": "SEA"
+      },
+      "score": {
+        "away": "3",
+        "home": "4",
+        "label": "Final (SO) \u00b7 projected 3.15 \u2013 3.28"
+      },
+      "win": {
+        "away": 0.4801,
+        "home": 0.5199,
+        "note": "Before puck drop \u00b7 SEA won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected DET 3.15 \u2013 SEA 3.28 goals (6.43 in all); it ended 3\u20134 in a shootout, SEA.",
+            "On chances (expected goals from their shots) it was DET 2.57 \u2013 SEA 2.53: close to even."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "SEA 52% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 59% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 51% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 3.153,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 3.275,
+                "actual": 4.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 3.153,
+                "actual": 2.569
+              },
+              "home": {
+                "proj": 3.275,
+                "actual": 2.53
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 25.0
+              },
+              "home": {
+                "actual": 27.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 1.635
+              },
+              "home": {
+                "actual": 1.769
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "DET",
+              "2 for 4"
+            ],
+            [
+              "SEA",
+              "1 for 3"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "SEA",
+              "P. Grubauer",
+              "J. Daccord 56%",
+              "22 of 25",
+              "-0.43"
+            ],
+            [
+              "DET",
+              "D. Tarasov",
+              "J. Gibson 88%",
+              "24 of 27",
+              "-0.47"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020150": {
+      "title": "CAR @ VAN",
+      "subtitle": "Tue Oct 20 \u00b7 Final",
+      "away": {
+        "name": "CAR",
+        "abbr": "CAR"
+      },
+      "home": {
+        "name": "VAN",
+        "abbr": "VAN"
+      },
+      "score": {
+        "away": "6",
+        "home": "3",
+        "label": "Final \u00b7 projected 4.18 \u2013 2.58"
+      },
+      "win": {
+        "away": 0.7439,
+        "home": 0.2561,
+        "note": "Before puck drop \u00b7 CAR won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected CAR 4.18 \u2013 VAN 2.58 goals (6.76 in all); it ended 6\u20133, CAR.",
+            "On chances (expected goals from their shots) it was CAR 4.80 \u2013 VAN 1.83: CAR had the better of the play."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "CAR 74% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 65% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "OVER 54% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 4.179,
+                "actual": 6.0
+              },
+              "home": {
+                "proj": 2.583,
+                "actual": 3.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 4.179,
+                "actual": 4.802
+              },
+              "home": {
+                "proj": 2.583,
+                "actual": 1.833
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 44.0
+              },
+              "home": {
+                "actual": 17.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 2.838
+              },
+              "home": {
+                "actual": 1.433
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "CAR",
+              "0 for 5"
+            ],
+            [
+              "VAN",
+              "1 for 2"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "CAR",
+              "P. Kochetkov",
+              "B. Bussi 68%",
+              "14 of 17",
+              "-1.17"
+            ],
+            [
+              "VAN",
+              "L. Meril\u00e4inen",
+              "K. Lankinen 76%",
+              "38 of 43",
+              "-0.20"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    },
+    "2026020151": {
+      "title": "TBL @ VGK",
+      "subtitle": "Tue Oct 20 \u00b7 Final",
+      "away": {
+        "name": "TBL",
+        "abbr": "TBL"
+      },
+      "home": {
+        "name": "VGK",
+        "abbr": "VGK"
+      },
+      "score": {
+        "away": "6",
+        "home": "2",
+        "label": "Final \u00b7 projected 2.96 \u2013 3.07"
+      },
+      "win": {
+        "away": 0.4813,
+        "home": 0.5187,
+        "note": "Before puck drop \u00b7 TBL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected TBL 2.96 \u2013 VGK 3.07 goals (6.03 in all); it ended 6\u20132, TBL.",
+            "On chances (expected goals from their shots) it was TBL 2.43 \u2013 VGK 4.02: VGK had the better of the play."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "VGK 52% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "O/U 5.5",
+              {
+                "v": "OVER 53% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "O/U 6.5",
+              {
+                "v": "UNDER 58% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Leans: the side of 5.5 and 6.5 goals the model gave over 50%."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Goals",
+              "away": {
+                "proj": 2.958,
+                "actual": 6.0
+              },
+              "home": {
+                "proj": 3.071,
+                "actual": 2.0
+              },
+              "projDigits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Chances (xG)",
+              "away": {
+                "proj": 2.958,
+                "actual": 2.426
+              },
+              "home": {
+                "proj": 3.071,
+                "actual": 4.021
+              },
+              "digits": 2,
+              "delta": "diff"
+            },
+            {
+              "label": "Shots",
+              "away": {
+                "actual": 21.0
+              },
+              "home": {
+                "actual": 34.0
+              }
+            },
+            {
+              "label": "5v5 xG",
+              "away": {
+                "actual": 1.759
+              },
+              "home": {
+                "actual": 2.598
+              },
+              "digits": 2
+            }
+          ],
+          "note": "The tick is the goals the model expected; the bars what each team scored, and the expected goals of the shots it took (the model's own xG). The final counts a shootout winner's goal; the expectation includes overtime."
+        },
+        {
+          "title": "Power play",
+          "kind": "table",
+          "columns": [
+            "",
+            "Goals for chances"
+          ],
+          "rows": [
+            [
+              "TBL",
+              "1 for 3"
+            ],
+            [
+              "VGK",
+              "0 for 4"
+            ]
+          ]
+        },
+        {
+          "title": "In goal",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Goalie",
+            "Model's likeliest",
+            "Saves",
+            "GSAx"
+          ],
+          "rows": [
+            [
+              "TBL",
+              "A. Vasilevskiy",
+              "A. Vasilevskiy 90%",
+              "32 of 34",
+              "+2.02"
+            ],
+            [
+              "VGK",
+              "C. Hart",
+              "C. Hart 65%",
+              "15 of 21",
+              "-3.57"
+            ]
+          ],
+          "note": "GSAx: goals saved above expected - the expected goals of the shots he faced, less the goals he allowed."
+        }
+      ]
+    }
+  }
+}

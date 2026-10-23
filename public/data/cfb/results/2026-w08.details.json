@@ -1,0 +1,990 @@
+{
+  "games": {
+    "401871055": {
+      "title": "Middle Tennessee @ Florida International",
+      "subtitle": "Week 8 \u00b7 Final",
+      "away": {
+        "name": "Middle Tennessee"
+      },
+      "home": {
+        "name": "Florida International"
+      },
+      "score": {
+        "away": "26",
+        "home": "23",
+        "label": "Final \u00b7 projected 19.6 \u2013 29.5"
+      },
+      "win": {
+        "away": 0.2362,
+        "home": 0.7638,
+        "note": "Before kickoff \u00b7 Middle Tennessee won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected Middle Tennessee 19.6 \u2013 Florida International 29.5 (Florida International by 9.9); it ended Middle Tennessee 26 \u2013 Florida International 23, Middle Tennessee by 3.",
+            "The line closed Florida International -10.25, total 46.5: the market expected Florida International by 10.2.",
+            "Off by 12.9 points on the margin and 0.1 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "Florida International \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "Middle Tennessee +10 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 45.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded against the market line the model was projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 19.6,
+                "actual": 26.0
+              },
+              "home": {
+                "proj": 29.5,
+                "actual": 23.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored, the tick what the model projected."
+        },
+        {
+          "title": "Line score",
+          "kind": "table",
+          "columns": [
+            "",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Final"
+          ],
+          "rows": [
+            [
+              "Middle Tennessee",
+              7,
+              6,
+              10,
+              3,
+              26.0
+            ],
+            [
+              "Florida International",
+              8,
+              0,
+              8,
+              7,
+              23.0
+            ]
+          ]
+        },
+        {
+          "title": "How it was played",
+          "kind": "table",
+          "columns": [
+            "",
+            "Middle Tennessee",
+            "Florida International"
+          ],
+          "rows": [
+            [
+              "Plays",
+              "67 (avg 59)",
+              "60 (avg 73)"
+            ],
+            [
+              "Success rate",
+              "46% (avg 38%)",
+              "42% (avg 40%)"
+            ],
+            [
+              "Explosiveness",
+              "1.23 (avg 1.32)",
+              "1.22 (avg 1.13)"
+            ],
+            [
+              "EPA per play",
+              "+0.21 (avg +0.10)",
+              "-0.00 (avg +0.03)"
+            ],
+            [
+              "Rushing success",
+              "46% (avg 40%)",
+              "48% (avg 37%)"
+            ],
+            [
+              "Passing success",
+              "44% (avg 38%)",
+              "38% (avg 43%)"
+            ]
+          ],
+          "note": "CFBD's advanced stats for the game, against each team's average in its earlier games this season. Explosiveness: EPA on successful plays."
+        }
+      ]
+    },
+    "401871069": {
+      "title": "Missouri State @ Delaware",
+      "subtitle": "Week 8 \u00b7 Final",
+      "away": {
+        "name": "Missouri State"
+      },
+      "home": {
+        "name": "Delaware"
+      },
+      "score": {
+        "away": "38",
+        "home": "61",
+        "label": "Final \u00b7 projected 24.5 \u2013 30.6"
+      },
+      "win": {
+        "away": 0.3247,
+        "home": 0.6753,
+        "note": "Before kickoff \u00b7 Delaware won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected Missouri State 24.5 \u2013 Delaware 30.6 (Delaware by 6.1); it ended Missouri State 38 \u2013 Delaware 61, Delaware by 23.",
+            "The line closed Delaware -3, total 54.25: the market expected Delaware by 3.0.",
+            "Off by 16.9 points on the margin and 44.0 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "Delaware \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 Delaware -2.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 52.75 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded against the market line the model was projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 24.5,
+                "actual": 38.0
+              },
+              "home": {
+                "proj": 30.6,
+                "actual": 61.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored, the tick what the model projected."
+        },
+        {
+          "title": "Line score",
+          "kind": "table",
+          "columns": [
+            "",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Final"
+          ],
+          "rows": [
+            [
+              "Missouri State",
+              14,
+              14,
+              7,
+              3,
+              38.0
+            ],
+            [
+              "Delaware",
+              7,
+              17,
+              21,
+              16,
+              61.0
+            ]
+          ]
+        },
+        {
+          "title": "How it was played",
+          "kind": "table",
+          "columns": [
+            "",
+            "Missouri State",
+            "Delaware"
+          ],
+          "rows": [
+            [
+              "Plays",
+              "58 (avg 65)",
+              "75 (avg 65)"
+            ],
+            [
+              "Success rate",
+              "53% (avg 38%)",
+              "55% (avg 38%)"
+            ],
+            [
+              "Explosiveness",
+              "1.26 (avg 1.19)",
+              "1.43 (avg 1.25)"
+            ],
+            [
+              "EPA per play",
+              "+0.20 (avg +0.02)",
+              "+0.54 (avg +0.03)"
+            ],
+            [
+              "Rushing success",
+              "57% (avg 43%)",
+              "55% (avg 41%)"
+            ],
+            [
+              "Passing success",
+              "55% (avg 35%)",
+              "53% (avg 37%)"
+            ]
+          ],
+          "note": "CFBD's advanced stats for the game, against each team's average in its earlier games this season. Explosiveness: EPA on successful plays."
+        }
+      ]
+    },
+    "401871092": {
+      "title": "South Alabama @ Marshall",
+      "subtitle": "Week 8 \u00b7 Final",
+      "away": {
+        "name": "South Alabama"
+      },
+      "home": {
+        "name": "Marshall"
+      },
+      "score": {
+        "away": "13",
+        "home": "20",
+        "label": "Final \u00b7 projected 31.7 \u2013 32.8"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Before kickoff \u00b7 Marshall won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected South Alabama 31.7 \u2013 Marshall 32.8 (Marshall by 1.1); it ended South Alabama 13 \u2013 Marshall 20, Marshall by 7.",
+            "The line closed Marshall +1.5, total 66.25: the market expected South Alabama by 1.5.",
+            "Off by 5.9 points on the margin and 31.5 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "Marshall \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 Marshall +3 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 65.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded against the market line the model was projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 31.7,
+                "actual": 13.0
+              },
+              "home": {
+                "proj": 32.8,
+                "actual": 20.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored, the tick what the model projected."
+        },
+        {
+          "title": "Line score",
+          "kind": "table",
+          "columns": [
+            "",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Final"
+          ],
+          "rows": [
+            [
+              "South Alabama",
+              3,
+              3,
+              0,
+              7,
+              13.0
+            ],
+            [
+              "Marshall",
+              0,
+              6,
+              7,
+              7,
+              20.0
+            ]
+          ]
+        },
+        {
+          "title": "How it was played",
+          "kind": "table",
+          "columns": [
+            "",
+            "South Alabama",
+            "Marshall"
+          ],
+          "rows": [
+            [
+              "Plays",
+              "76 (avg 73)",
+              "68 (avg 72)"
+            ],
+            [
+              "Success rate",
+              "36% (avg 44%)",
+              "50% (avg 43%)"
+            ],
+            [
+              "Explosiveness",
+              "1.32 (avg 1.34)",
+              "0.87 (avg 1.21)"
+            ],
+            [
+              "EPA per play",
+              "-0.06 (avg +0.24)",
+              "+0.11 (avg +0.09)"
+            ],
+            [
+              "Rushing success",
+              "45% (avg 44%)",
+              "61% (avg 45%)"
+            ],
+            [
+              "Passing success",
+              "25% (avg 46%)",
+              "37% (avg 43%)"
+            ]
+          ],
+          "note": "CFBD's advanced stats for the game, against each team's average in its earlier games this season. Explosiveness: EPA on successful plays."
+        }
+      ]
+    },
+    "401871070": {
+      "title": "New Mexico State @ Sam Houston",
+      "subtitle": "Week 8 \u00b7 Final",
+      "away": {
+        "name": "New Mexico State"
+      },
+      "home": {
+        "name": "Sam Houston"
+      },
+      "score": {
+        "away": "30",
+        "home": "24",
+        "label": "Final \u00b7 projected 24.6 \u2013 25.3"
+      },
+      "win": {
+        "away": 0.4793,
+        "home": 0.5207,
+        "note": "Before kickoff \u00b7 New Mexico State won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected New Mexico State 24.6 \u2013 Sam Houston 25.3 (Sam Houston by 0.7); it ended New Mexico State 30 \u2013 Sam Houston 24, New Mexico State by 6.",
+            "The line closed Sam Houston +3, total 46.5: the market expected New Mexico State by 3.0.",
+            "Off by 6.7 points on the margin and 4.0 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "Sam Houston \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 Sam Houston +3 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 44.75 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded against the market line the model was projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 24.6,
+                "actual": 30.0
+              },
+              "home": {
+                "proj": 25.3,
+                "actual": 24.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored, the tick what the model projected."
+        },
+        {
+          "title": "Line score",
+          "kind": "table",
+          "columns": [
+            "",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Final"
+          ],
+          "rows": [
+            [
+              "New Mexico State",
+              0,
+              14,
+              16,
+              0,
+              30.0
+            ],
+            [
+              "Sam Houston",
+              7,
+              3,
+              7,
+              7,
+              24.0
+            ]
+          ]
+        },
+        {
+          "title": "How it was played",
+          "kind": "table",
+          "columns": [
+            "",
+            "New Mexico State",
+            "Sam Houston"
+          ],
+          "rows": [
+            [
+              "Plays",
+              "72 (avg 65)",
+              "55 (avg 66)"
+            ],
+            [
+              "Success rate",
+              "40% (avg 41%)",
+              "27% (avg 38%)"
+            ],
+            [
+              "Explosiveness",
+              "0.98 (avg 1.38)",
+              "2.05 (avg 1.24)"
+            ],
+            [
+              "EPA per play",
+              "-0.10 (avg +0.02)",
+              "-0.06 (avg -0.03)"
+            ],
+            [
+              "Rushing success",
+              "46% (avg 42%)",
+              "22% (avg 41%)"
+            ],
+            [
+              "Passing success",
+              "31% (avg 41%)",
+              "29% (avg 37%)"
+            ]
+          ],
+          "note": "CFBD's advanced stats for the game, against each team's average in its earlier games this season. Explosiveness: EPA on successful plays."
+        }
+      ]
+    },
+    "401869845": {
+      "title": "James Madison @ App State",
+      "subtitle": "Week 8 \u00b7 Final",
+      "away": {
+        "name": "James Madison"
+      },
+      "home": {
+        "name": "App State"
+      },
+      "score": {
+        "away": "31",
+        "home": "34",
+        "label": "Final \u00b7 projected 33.0 \u2013 22.0"
+      },
+      "win": {
+        "away": 0.7222,
+        "home": 0.2778,
+        "note": "Before kickoff \u00b7 App State won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected James Madison 33.0 \u2013 App State 22.0 (James Madison by 11.0); it ended James Madison 31 \u2013 App State 34, App State by 3.",
+            "The line closed App State +12.75, total 56.5: the market expected James Madison by 12.8.",
+            "Off by 14.0 points on the margin and 10.0 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "James Madison \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "App State +11.25 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 56.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded against the market line the model was projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 33.0,
+                "actual": 31.0
+              },
+              "home": {
+                "proj": 22.0,
+                "actual": 34.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored, the tick what the model projected."
+        },
+        {
+          "title": "Line score",
+          "kind": "table",
+          "columns": [
+            "",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "OT",
+            "Final"
+          ],
+          "rows": [
+            [
+              "James Madison",
+              7,
+              7,
+              7,
+              10,
+              0,
+              31.0
+            ],
+            [
+              "App State",
+              0,
+              10,
+              3,
+              18,
+              3,
+              34.0
+            ]
+          ]
+        }
+      ]
+    },
+    "401871056": {
+      "title": "Liberty @ Kennesaw State",
+      "subtitle": "Week 8 \u00b7 Final",
+      "away": {
+        "name": "Liberty"
+      },
+      "home": {
+        "name": "Kennesaw State"
+      },
+      "score": {
+        "away": "34",
+        "home": "6",
+        "label": "Final \u00b7 projected 28.6 \u2013 20.5"
+      },
+      "win": {
+        "away": 0.673,
+        "home": 0.327,
+        "note": "Before kickoff \u00b7 Liberty won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected Liberty 28.6 \u2013 Kennesaw State 20.5 (Liberty by 8.1); it ended Liberty 34 \u2013 Kennesaw State 6, Liberty by 28.",
+            "The line closed Kennesaw State +8.5, total 50.5: the market expected Liberty by 8.5.",
+            "Off by 19.9 points on the margin and 9.2 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "Liberty \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "Kennesaw State +9.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 50.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded against the market line the model was projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 28.6,
+                "actual": 34.0
+              },
+              "home": {
+                "proj": 20.5,
+                "actual": 6.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored, the tick what the model projected."
+        },
+        {
+          "title": "Line score",
+          "kind": "table",
+          "columns": [
+            "",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "Final"
+          ],
+          "rows": [
+            [
+              "Liberty",
+              14,
+              0,
+              10,
+              10,
+              34.0
+            ],
+            [
+              "Kennesaw State",
+              0,
+              3,
+              0,
+              3,
+              6.0
+            ]
+          ]
+        }
+      ]
+    },
+    "401862807": {
+      "title": "East Carolina @ Memphis",
+      "subtitle": "Week 8 \u00b7 Final",
+      "away": {
+        "name": "East Carolina"
+      },
+      "home": {
+        "name": "Memphis"
+      },
+      "score": {
+        "away": "34",
+        "home": "41",
+        "label": "Final \u00b7 projected 22.8 \u2013 33.2"
+      },
+      "win": {
+        "away": 0.2362,
+        "home": 0.7638,
+        "note": "Before kickoff \u00b7 Memphis won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected East Carolina 22.8 \u2013 Memphis 33.2 (Memphis by 10.4); it ended East Carolina 34 \u2013 Memphis 41, Memphis by 7.",
+            "The line closed Memphis -10.5, total 55.5: the market expected Memphis by 10.5.",
+            "Off by 3.4 points on the margin and 19.0 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "Memphis \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "East Carolina +10.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 54.25 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded against the market line the model was projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 22.8,
+                "actual": 34.0
+              },
+              "home": {
+                "proj": 33.2,
+                "actual": 41.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored, the tick what the model projected."
+        },
+        {
+          "title": "Line score",
+          "kind": "table",
+          "columns": [
+            "",
+            "Q1",
+            "Q2",
+            "Q3",
+            "Q4",
+            "OT",
+            "Final"
+          ],
+          "rows": [
+            [
+              "East Carolina",
+              10,
+              6,
+              8,
+              10,
+              0,
+              34.0
+            ],
+            [
+              "Memphis",
+              0,
+              3,
+              17,
+              14,
+              7,
+              41.0
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

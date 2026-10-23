@@ -1,0 +1,1092 @@
+{
+  "games": {
+    "ATL@GB": {
+      "title": "ATL @ GB",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Atlanta Falcons",
+        "abbr": "ATL"
+      },
+      "home": {
+        "name": "Green Bay Packers",
+        "abbr": "GB"
+      },
+      "score": {
+        "away": "35",
+        "home": "14",
+        "label": "Final \u00b7 projected 20.7 \u2013 26.0"
+      },
+      "win": {
+        "away": 0.356,
+        "home": 0.644,
+        "note": "Before kickoff \u00b7 ATL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected ATL 20.7 \u2013 GB 26.0 (GB by 5.3); it ended ATL 35 \u2013 GB 14, ATL by 21.",
+            "Off by 26.3 points on the margin and 2.3 on the total (49 scored against 46.7 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "GB \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "ATL +6 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 43.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "LAC@BUF": {
+      "title": "LAC @ BUF",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Los Angeles Chargers",
+        "abbr": "LAC"
+      },
+      "home": {
+        "name": "Buffalo Bills",
+        "abbr": "BUF"
+      },
+      "score": {
+        "away": "16",
+        "home": "24",
+        "label": "Final \u00b7 projected 19.5 \u2013 28.8"
+      },
+      "win": {
+        "away": 0.258,
+        "home": 0.742,
+        "note": "Before kickoff \u00b7 BUF won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected LAC 19.5 \u2013 BUF 28.8 (BUF by 9.3); it ended LAC 16 \u2013 BUF 24, BUF by 8.",
+            "Off by 1.3 points on the margin and 8.3 on the total (40 scored against 48.3 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "BUF \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 BUF -7 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 50.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "CAR@CLE": {
+      "title": "CAR @ CLE",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Carolina Panthers",
+        "abbr": "CAR"
+      },
+      "home": {
+        "name": "Cleveland Browns",
+        "abbr": "CLE"
+      },
+      "score": {
+        "away": "18",
+        "home": "21",
+        "label": "Final \u00b7 projected 19.3 \u2013 19.8"
+      },
+      "win": {
+        "away": 0.487,
+        "home": 0.513,
+        "note": "Before kickoff \u00b7 CLE won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected CAR 19.3 \u2013 CLE 19.8 (CLE by 0.5); it ended CAR 18 \u2013 CLE 21, CLE by 3.",
+            "Off by 2.5 points on the margin and 0.1 on the total (39 scored against 39.1 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "CLE \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 CLE +2.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 42.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "NYJ@DET": {
+      "title": "NYJ @ DET",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "New York Jets",
+        "abbr": "NYJ"
+      },
+      "home": {
+        "name": "Detroit Lions",
+        "abbr": "DET"
+      },
+      "score": {
+        "away": "24",
+        "home": "31",
+        "label": "Final \u00b7 projected 21.3 \u2013 33.2"
+      },
+      "win": {
+        "away": 0.205,
+        "home": 0.795,
+        "note": "Before kickoff \u00b7 DET won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected NYJ 21.3 \u2013 DET 33.2 (DET by 11.9); it ended NYJ 24 \u2013 DET 31, DET by 7.",
+            "Off by 4.8 points on the margin and 0.5 on the total (55 scored against 54.5 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "DET \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 DET -6.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 48.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "HOU@IND": {
+      "title": "HOU @ IND",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Houston Texans",
+        "abbr": "HOU"
+      },
+      "home": {
+        "name": "Indianapolis Colts",
+        "abbr": "IND"
+      },
+      "score": {
+        "away": "17",
+        "home": "19",
+        "label": "Final \u00b7 projected 24.8 \u2013 21.2"
+      },
+      "win": {
+        "away": 0.599,
+        "home": 0.401,
+        "note": "Before kickoff \u00b7 IND won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected HOU 24.8 \u2013 IND 21.2 (HOU by 3.6); it ended HOU 17 \u2013 IND 19, IND by 2.",
+            "Off by 5.6 points on the margin and 9.9 on the total (36 scored against 46.0 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "HOU \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "HOU -2.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 43.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "NE@JAX": {
+      "title": "NE @ JAX",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "New England Patriots",
+        "abbr": "NE"
+      },
+      "home": {
+        "name": "Jacksonville Jaguars",
+        "abbr": "JAX"
+      },
+      "score": {
+        "away": "6",
+        "home": "35",
+        "label": "Final \u00b7 projected 20.7 \u2013 21.2"
+      },
+      "win": {
+        "away": 0.488,
+        "home": 0.512,
+        "note": "Before kickoff \u00b7 JAX won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected NE 20.7 \u2013 JAX 21.2 (JAX by 0.5); it ended NE 6 \u2013 JAX 35, JAX by 29.",
+            "Off by 28.6 points on the margin and 0.9 on the total (41 scored against 41.9 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "JAX \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 NE +3 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 45.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "KC@MIA": {
+      "title": "KC @ MIA",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Kansas City Chiefs",
+        "abbr": "KC"
+      },
+      "home": {
+        "name": "Miami Dolphins",
+        "abbr": "MIA"
+      },
+      "score": {
+        "away": "24",
+        "home": "10",
+        "label": "Final \u00b7 projected 28.6 \u2013 21.6"
+      },
+      "win": {
+        "away": 0.688,
+        "home": 0.312,
+        "note": "Before kickoff \u00b7 KC won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected KC 28.6 \u2013 MIA 21.6 (KC by 7.0); it ended KC 24 \u2013 MIA 10, KC by 14.",
+            "Off by 7.0 points on the margin and 16.2 on the total (34 scored against 50.2 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "KC \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 MIA +11.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 46.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "TEN@NYG": {
+      "title": "TEN @ NYG",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Tennessee Titans",
+        "abbr": "TEN"
+      },
+      "home": {
+        "name": "New York Giants",
+        "abbr": "NYG"
+      },
+      "score": {
+        "away": "7",
+        "home": "12",
+        "label": "Final \u00b7 projected 13.1 \u2013 19.2"
+      },
+      "win": {
+        "away": 0.334,
+        "home": 0.666,
+        "note": "Before kickoff \u00b7 NYG won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected TEN 13.1 \u2013 NYG 19.2 (NYG by 6.1); it ended TEN 7 \u2013 NYG 12, NYG by 5.",
+            "Off by 1.1 points on the margin and 13.4 on the total (19 scored against 32.3 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NYG \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 NYG -3.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 40.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "CIN@PIT": {
+      "title": "CIN @ PIT",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Cincinnati Bengals",
+        "abbr": "CIN"
+      },
+      "home": {
+        "name": "Pittsburgh Steelers",
+        "abbr": "PIT"
+      },
+      "score": {
+        "away": "27",
+        "home": "30",
+        "label": "Final \u00b7 projected 25.9 \u2013 19.1"
+      },
+      "win": {
+        "away": 0.684,
+        "home": 0.316,
+        "note": "Before kickoff \u00b7 PIT won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected CIN 25.9 \u2013 PIT 19.1 (CIN by 6.8); it ended CIN 27 \u2013 PIT 30, PIT by 3.",
+            "Off by 9.9 points on the margin and 12.0 on the total (57 scored against 45.0 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "CIN \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 CIN -3.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 42.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "SEA@WAS": {
+      "title": "SEA @ WAS",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Seattle Seahawks",
+        "abbr": "SEA"
+      },
+      "home": {
+        "name": "Washington Commanders",
+        "abbr": "WAS"
+      },
+      "score": {
+        "away": "31",
+        "home": "33",
+        "label": "Final \u00b7 projected 24.1 \u2013 18.0"
+      },
+      "win": {
+        "away": 0.666,
+        "home": 0.334,
+        "note": "Before kickoff \u00b7 WAS won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected SEA 24.1 \u2013 WAS 18.0 (SEA by 6.1); it ended SEA 31 \u2013 WAS 33, WAS by 2.",
+            "Off by 8.2 points on the margin and 21.9 on the total (64 scored against 42.1 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "SEA \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "WAS +7 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 40.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "ARI@SF": {
+      "title": "ARI @ SF",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Arizona Cardinals",
+        "abbr": "ARI"
+      },
+      "home": {
+        "name": "San Francisco 49ers",
+        "abbr": "SF"
+      },
+      "score": {
+        "away": "30",
+        "home": "36",
+        "label": "Final \u00b7 projected 17.9 \u2013 27.7"
+      },
+      "win": {
+        "away": 0.247,
+        "home": 0.753,
+        "note": "Before kickoff \u00b7 SF won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected ARI 17.9 \u2013 SF 27.7 (SF by 9.8); it ended ARI 30 \u2013 SF 36, SF by 6.",
+            "Off by 3.8 points on the margin and 20.4 on the total (66 scored against 45.6 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "SF \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "SF -8.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 47.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "MIN@TB": {
+      "title": "MIN @ TB",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Minnesota Vikings",
+        "abbr": "MIN"
+      },
+      "home": {
+        "name": "Tampa Bay Buccaneers",
+        "abbr": "TB"
+      },
+      "score": {
+        "away": "23",
+        "home": "16",
+        "label": "Final \u00b7 projected 22.4 \u2013 22.6"
+      },
+      "win": {
+        "away": 0.495,
+        "home": 0.505,
+        "note": "Before kickoff \u00b7 MIN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected MIN 22.4 \u2013 TB 22.6 (TB by 0.2); it ended MIN 23 \u2013 TB 16, MIN by 7.",
+            "Off by 7.2 points on the margin and 6.1 on the total (39 scored against 45.0 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "TB \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "TB +1.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 42.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "BAL@DAL": {
+      "title": "BAL @ DAL",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Baltimore Ravens",
+        "abbr": "BAL"
+      },
+      "home": {
+        "name": "Dallas Cowboys",
+        "abbr": "DAL"
+      },
+      "score": {
+        "away": "34",
+        "home": "31",
+        "label": "Final \u00b7 projected 32.4 \u2013 23.7"
+      },
+      "win": {
+        "away": 0.726,
+        "home": 0.274,
+        "note": "Before kickoff \u00b7 BAL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected BAL 32.4 \u2013 DAL 23.7 (BAL by 8.7); it ended BAL 34 \u2013 DAL 31, BAL by 3.",
+            "Off by 5.6 points on the margin and 8.9 on the total (65 scored against 56.1 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "BAL \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 BAL -3 (push)",
+                "tone": "muted",
+                "sort": 0.5
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 52.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "LV@NO": {
+      "title": "LV @ NO",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Las Vegas Raiders",
+        "abbr": "LV"
+      },
+      "home": {
+        "name": "New Orleans Saints",
+        "abbr": "NO"
+      },
+      "score": {
+        "away": "35",
+        "home": "27",
+        "label": "Final \u00b7 projected 18.2 \u2013 24.8"
+      },
+      "win": {
+        "away": 0.322,
+        "home": 0.678,
+        "note": "Before kickoff \u00b7 LV won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected LV 18.2 \u2013 NO 24.8 (NO by 6.6); it ended LV 35 \u2013 NO 27, LV by 8.",
+            "Off by 14.6 points on the margin and 19.0 on the total (62 scored against 43.0 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NO \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 NO -3 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 43.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "LAR@DEN": {
+      "title": "LAR @ DEN",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Los Angeles Rams",
+        "abbr": "LAR"
+      },
+      "home": {
+        "name": "Denver Broncos",
+        "abbr": "DEN"
+      },
+      "score": {
+        "away": "26",
+        "home": "30",
+        "label": "Final \u00b7 projected 21.2 \u2013 20.5"
+      },
+      "win": {
+        "away": 0.52,
+        "home": 0.48,
+        "note": "Before kickoff \u00b7 DEN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected LAR 21.2 \u2013 DEN 20.5 (LAR by 0.7); it ended LAR 26 \u2013 DEN 30, DEN by 4.",
+            "Off by 4.7 points on the margin and 14.4 on the total (56 scored against 41.7 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "LAR \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "DEN +2.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 45.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "PHI@CHI": {
+      "title": "PHI @ CHI",
+      "subtitle": "Week 3 \u00b7 Final",
+      "away": {
+        "name": "Philadelphia Eagles",
+        "abbr": "PHI"
+      },
+      "home": {
+        "name": "Chicago Bears",
+        "abbr": "CHI"
+      },
+      "score": {
+        "away": "7",
+        "home": "27",
+        "label": "Final \u00b7 projected 22.7 \u2013 26.2"
+      },
+      "win": {
+        "away": 0.403,
+        "home": 0.597,
+        "note": "Before kickoff \u00b7 CHI won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected PHI 22.7 \u2013 CHI 26.2 (CHI by 3.5); it ended PHI 7 \u2013 CHI 27, CHI by 20.",
+            "Off by 16.5 points on the margin and 15.0 on the total (34 scored against 48.9 projected).",
+            "No player projections were saved for this game."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "CHI \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 CHI +3 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 44.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    }
+  }
+}

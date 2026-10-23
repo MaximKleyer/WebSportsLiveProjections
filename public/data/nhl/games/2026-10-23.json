@@ -1,13 +1,7 @@
 {
-  "subtitle": "Fri Oct 23, 2026\u201327 \u2014 2 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's \u00b7 \u2605 = flagged bet",
+  "subtitle": "Fri Oct 23, 2026\u201327 \u2014 2 games \u00b7 times ET \u00b7 score = expected goals \u00b7 fair ML is the home side's",
   "updated": "2026-10-23",
   "search": "Search teams or goalies",
-  "filters": [
-    {
-      "field": "flagged",
-      "label": "\u2605 bets only"
-    }
-  ],
   "columns": [
     {
       "key": "start",
@@ -89,12 +83,6 @@
       "label": "Mkt Total",
       "align": "right",
       "sortable": true
-    },
-    {
-      "key": "bet",
-      "label": "Bet (edge)",
-      "align": "right",
-      "sortable": true
     }
   ],
   "rows": [
@@ -126,17 +114,13 @@
       },
       "p_over_5.5": 0.5714,
       "p_over_6.5": 0.4606,
-      "mktHome": 0.4279,
+      "mktHome": 0.3962,
       "mktTotal": {
         "v": "6.5: over 46%",
         "sort": 0.4606
       },
       "id": "2026020166",
-      "bet": {
-        "v": "\u2605 MTL ML (+8.1%) +1",
-        "sort": 0.0805
-      },
-      "flagged": true
+      "flagged": false
     },
     {
       "start": {

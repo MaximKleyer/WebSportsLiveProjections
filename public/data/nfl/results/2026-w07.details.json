@@ -1,0 +1,56 @@
+{
+  "games": {
+    "NE@CHI": {
+      "title": "NE @ CHI",
+      "subtitle": "Week 7 \u00b7 Final",
+      "away": {
+        "name": "New England Patriots",
+        "abbr": "NE"
+      },
+      "home": {
+        "name": "Chicago Bears",
+        "abbr": "CHI"
+      },
+      "score": {
+        "away": "24",
+        "home": "30",
+        "label": "Final \u00b7 projected 25.7 \u2013 25.7"
+      },
+      "win": {
+        "away": 0.5,
+        "home": 0.5,
+        "note": "Before kickoff \u00b7 CHI won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected NE 25.7 \u2013 CHI 25.7 (even); it ended NE 24 \u2013 CHI 30, CHI by 6.",
+            "Off by 6.0 points on the margin and 2.5 on the total (54 scored against 51.4 projected).",
+            "Yardage and player lines fill in once week 7's FantasyPoints exports include this game (data/raw/2026/week_07)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NE \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    }
+  }
+}

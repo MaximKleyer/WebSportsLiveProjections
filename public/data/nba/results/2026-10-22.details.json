@@ -1,0 +1,602 @@
+{
+  "games": {
+    "0022600006": {
+      "title": "CLE @ PHI",
+      "subtitle": "Thu Oct 22 \u00b7 Final",
+      "away": {
+        "name": "CLE",
+        "abbr": "CLE"
+      },
+      "home": {
+        "name": "PHI",
+        "abbr": "PHI"
+      },
+      "score": {
+        "away": "106",
+        "home": "114",
+        "label": "Final \u00b7 projected 117.8 \u2013 118.7"
+      },
+      "win": {
+        "away": 0.4741,
+        "home": 0.5259,
+        "note": "Before tip-off \u00b7 PHI won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected CLE 117.8 \u2013 PHI 118.7 (PHI by 0.8, 236.5 in all); it ended 106\u2013114, PHI by 8.",
+            "Off by 7.2 points on the margin and 16.5 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "PHI 53% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "CLE +3.5 57% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Under 237.5 53% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 CLE ML \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "+120",
+              "0.90 u",
+              "-0.90 u",
+              "-4.0%"
+            ],
+            [
+              {
+                "v": "\u2605 CLE +3.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-115",
+              "1.68 u",
+              "-1.68 u",
+              "-4.5%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 117.82,
+                "actual": 106.0
+              },
+              "home": {
+                "proj": 118.65,
+                "actual": 114.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 111.8,
+              "home": 111.8,
+              "awayText": "112",
+              "homeText": "112"
+            },
+            {
+              "label": "Points per 100",
+              "away": 94.81216457960645,
+              "home": 101.96779964221825,
+              "awayText": "94.8",
+              "homeText": "102.0"
+            },
+            {
+              "label": "3-pointers",
+              "away": 7.0,
+              "home": 7.0,
+              "awayText": "7",
+              "homeText": "7"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.2413793103448276,
+              "home": 0.25,
+              "awayText": "24%",
+              "homeText": "25%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 28.0,
+              "home": 30.0,
+              "awayText": "28",
+              "homeText": "30"
+            },
+            {
+              "label": "Turnovers",
+              "away": 21.0,
+              "home": 17.0,
+              "awayText": "21",
+              "homeText": "17",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 10.0,
+              "home": 9.0,
+              "awayText": "10",
+              "homeText": "9"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "CLE",
+              "D. Mitchell",
+              "35",
+              32.0,
+              10.0,
+              3.0,
+              "2/4"
+            ],
+            [
+              "CLE",
+              "E. Mobley",
+              "34",
+              18.0,
+              8.0,
+              2.0,
+              "1/4"
+            ],
+            [
+              "CLE",
+              "J. Harden",
+              "33",
+              16.0,
+              3.0,
+              5.0,
+              "3/6"
+            ],
+            [
+              "PHI",
+              "T. Maxey",
+              "42",
+              32.0,
+              3.0,
+              6.0,
+              "2/7"
+            ],
+            [
+              "PHI",
+              "J. Embiid",
+              "34",
+              24.0,
+              7.0,
+              1.0,
+              "1/4"
+            ],
+            [
+              "PHI",
+              "J. Brown",
+              "38",
+              21.0,
+              8.0,
+              4.0,
+              "1/3"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "CLE",
+              "K. Diop",
+              "out",
+              "didn't play"
+            ],
+            [
+              "CLE",
+              "N. Tomlin",
+              "out",
+              "didn't play"
+            ],
+            [
+              "CLE",
+              "J. Allen",
+              "questionable",
+              "played 28 min"
+            ],
+            [
+              "PHI",
+              "A. Hukporti",
+              "out",
+              "didn't play"
+            ],
+            [
+              "PHI",
+              "D. Barlow",
+              "out",
+              "didn't play"
+            ],
+            [
+              "PHI",
+              "T. Fall",
+              "out",
+              "didn't play"
+            ],
+            [
+              "PHI",
+              "D. Wade",
+              "questionable",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    },
+    "0022600007": {
+      "title": "DEN @ OKC",
+      "subtitle": "Thu Oct 22 \u00b7 Final",
+      "away": {
+        "name": "DEN",
+        "abbr": "DEN"
+      },
+      "home": {
+        "name": "OKC",
+        "abbr": "OKC"
+      },
+      "score": {
+        "away": "84",
+        "home": "96",
+        "label": "Final \u00b7 projected 116.5 \u2013 121.2"
+      },
+      "win": {
+        "away": 0.3461,
+        "home": 0.6539,
+        "note": "Before tip-off \u00b7 OKC won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model expected DEN 116.5 \u2013 OKC 121.2 (OKC by 4.7, 237.7 in all); it ended 84\u201396, OKC by 12.",
+            "Off by 7.3 points on the margin and 57.7 on the total."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Win pick",
+              {
+                "v": "OKC 65% \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "vs Spread",
+              {
+                "v": "DEN +8.5 61% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "vs Total",
+              {
+                "v": "Over 236.5 52% \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "Against the market: the side of the published spread and total the model gave over 50%."
+        },
+        {
+          "title": "Bets",
+          "kind": "table",
+          "columns": [
+            "Bet",
+            "Price",
+            "Stake",
+            "Profit",
+            "CLV"
+          ],
+          "rows": [
+            [
+              {
+                "v": "\u2605 DEN ML \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "+270",
+              "2.00 u",
+              "-2.00 u",
+              "-4.1%"
+            ],
+            [
+              {
+                "v": "\u2605 DEN +8.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              },
+              "-110",
+              "2.00 u",
+              "-2.00 u",
+              "-4.5%"
+            ]
+          ],
+          "note": "CLV: the bet's expected return at DraftKings' closing no-vig odds."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 116.5,
+                "actual": 84.0
+              },
+              "home": {
+                "proj": 121.22,
+                "actual": 96.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "The bar is what each team scored (overtime included), the tick its expected points."
+        },
+        {
+          "title": "How it was played",
+          "kind": "compare",
+          "rows": [
+            {
+              "label": "Possessions",
+              "away": 95.9,
+              "home": 95.9,
+              "awayText": "96",
+              "homeText": "96"
+            },
+            {
+              "label": "Points per 100",
+              "away": 87.5912408759124,
+              "home": 100.10427528675703,
+              "awayText": "87.6",
+              "homeText": "100.1"
+            },
+            {
+              "label": "3-pointers",
+              "away": 8.0,
+              "home": 11.0,
+              "awayText": "8",
+              "homeText": "11"
+            },
+            {
+              "label": "3-point %",
+              "away": 0.26666666666666666,
+              "home": 0.2558139534883721,
+              "awayText": "27%",
+              "homeText": "26%",
+              "max": 1
+            },
+            {
+              "label": "Free throw attempts",
+              "away": 22.0,
+              "home": 14.0,
+              "awayText": "22",
+              "homeText": "14"
+            },
+            {
+              "label": "Turnovers",
+              "away": 22.0,
+              "home": 12.0,
+              "awayText": "22",
+              "homeText": "12",
+              "lower": true
+            },
+            {
+              "label": "Offensive rebounds",
+              "away": 19.0,
+              "home": 16.0,
+              "awayText": "19",
+              "homeText": "16"
+            }
+          ],
+          "note": "From the box score; the brighter number is the better one."
+        },
+        {
+          "title": "Top scorers",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Min",
+            "Pts",
+            "Reb",
+            "Ast",
+            "3PT"
+          ],
+          "rows": [
+            [
+              "DEN",
+              "A. Gordon",
+              "29",
+              20.0,
+              6.0,
+              1.0,
+              "3/4"
+            ],
+            [
+              "DEN",
+              "D. DeRozan",
+              "28",
+              13.0,
+              2.0,
+              0.0,
+              "0/1"
+            ],
+            [
+              "DEN",
+              "N. Joki\u0107",
+              "35",
+              13.0,
+              7.0,
+              5.0,
+              "1/7"
+            ],
+            [
+              "OKC",
+              "J. Williams",
+              "33",
+              21.0,
+              5.0,
+              3.0,
+              "2/6"
+            ],
+            [
+              "OKC",
+              "S. Gilgeous-Alexander",
+              "35",
+              17.0,
+              2.0,
+              3.0,
+              "3/11"
+            ],
+            [
+              "OKC",
+              "C. Holmgren",
+              "28",
+              12.0,
+              17.0,
+              2.0,
+              "0/1"
+            ]
+          ]
+        },
+        {
+          "title": "Injury report",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Listed",
+            "In the game"
+          ],
+          "rows": [
+            [
+              "DEN",
+              "J. Strawther",
+              "out",
+              "didn't play"
+            ],
+            [
+              "DEN",
+              "S. Jones",
+              "out",
+              "didn't play"
+            ],
+            [
+              "OKC",
+              "N. Topi\u0107",
+              "out",
+              "didn't play"
+            ],
+            [
+              "OKC",
+              "O. Oweh",
+              "out",
+              "didn't play"
+            ],
+            [
+              "OKC",
+              "T. Sorber",
+              "out",
+              "didn't play"
+            ]
+          ],
+          "note": "Each player's last status on the NBA's report before the prediction it was graded on."
+        }
+      ]
+    }
+  }
+}

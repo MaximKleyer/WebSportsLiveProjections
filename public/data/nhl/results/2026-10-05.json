@@ -66,6 +66,7 @@
   ],
   "rows": [
     {
+      "id": "2026020040",
       "awayTeam": "PHI",
       "awayScore": "1",
       "sep": "\u2013",
@@ -94,6 +95,7 @@
       "flagged": false
     },
     {
+      "id": "2026020041",
       "awayTeam": "OTT",
       "awayScore": "4",
       "sep": "\u2013",
@@ -122,6 +124,7 @@
       "flagged": false
     },
     {
+      "id": "2026020042",
       "awayTeam": "WPG",
       "awayScore": "3",
       "sep": "\u2013",
@@ -150,6 +153,7 @@
       "flagged": false
     },
     {
+      "id": "2026020043",
       "awayTeam": "SJS",
       "awayScore": "0",
       "sep": "\u2013",
@@ -177,5 +181,6 @@
       },
       "flagged": false
     }
-  ]
+  ],
+  "details": "2026-10-05.details.json"
 }

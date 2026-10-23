@@ -59,6 +59,7 @@
   ],
   "rows": [
     {
+      "id": "NE@SEA",
       "awayTeam": "NE",
       "awayScore": "10",
       "sep": "\u2013",
@@ -83,6 +84,7 @@
       "flagged": true
     },
     {
+      "id": "SF@LAR",
       "awayTeam": "SF",
       "awayScore": "27",
       "sep": "\u2013",
@@ -99,6 +101,7 @@
       "flagged": false
     },
     {
+      "id": "CHI@CAR",
       "awayTeam": "CHI",
       "awayScore": "59",
       "sep": "\u2013",
@@ -123,6 +126,7 @@
       "flagged": false
     },
     {
+      "id": "TB@CIN",
       "awayTeam": "TB",
       "awayScore": "27",
       "sep": "\u2013",
@@ -147,6 +151,7 @@
       "flagged": true
     },
     {
+      "id": "NO@DET",
       "awayTeam": "NO",
       "awayScore": "30",
       "sep": "\u2013",
@@ -171,6 +176,7 @@
       "flagged": false
     },
     {
+      "id": "BUF@HOU",
       "awayTeam": "BUF",
       "awayScore": "36",
       "sep": "\u2013",
@@ -195,6 +201,7 @@
       "flagged": true
     },
     {
+      "id": "BAL@IND",
       "awayTeam": "BAL",
       "awayScore": "41",
       "sep": "\u2013",
@@ -219,6 +226,7 @@
       "flagged": false
     },
     {
+      "id": "CLE@JAX",
       "awayTeam": "CLE",
       "awayScore": "10",
       "sep": "\u2013",
@@ -243,6 +251,7 @@
       "flagged": false
     },
     {
+      "id": "ATL@PIT",
       "awayTeam": "ATL",
       "awayScore": "13",
       "sep": "\u2013",
@@ -267,6 +276,7 @@
       "flagged": true
     },
     {
+      "id": "NYJ@TEN",
       "awayTeam": "NYJ",
       "awayScore": "23",
       "sep": "\u2013",
@@ -291,6 +301,7 @@
       "flagged": true
     },
     {
+      "id": "ARI@LAC",
       "awayTeam": "ARI",
       "awayScore": "26",
       "sep": "\u2013",
@@ -315,6 +326,7 @@
       "flagged": true
     },
     {
+      "id": "MIA@LV",
       "awayTeam": "MIA",
       "awayScore": "13",
       "sep": "\u2013",
@@ -339,6 +351,7 @@
       "flagged": true
     },
     {
+      "id": "GB@MIN",
       "awayTeam": "GB",
       "awayScore": "22",
       "sep": "\u2013",
@@ -363,6 +376,7 @@
       "flagged": true
     },
     {
+      "id": "WAS@PHI",
       "awayTeam": "WAS",
       "awayScore": "22",
       "sep": "\u2013",
@@ -387,6 +401,7 @@
       "flagged": true
     },
     {
+      "id": "DAL@NYG",
       "awayTeam": "DAL",
       "awayScore": "20",
       "sep": "\u2013",
@@ -411,6 +426,7 @@
       "flagged": false
     },
     {
+      "id": "DEN@KC",
       "awayTeam": "DEN",
       "awayScore": "10",
       "sep": "\u2013",
@@ -434,5 +450,6 @@
       },
       "flagged": true
     }
-  ]
+  ],
+  "details": "2026-w01.details.json"
 }

@@ -66,6 +66,7 @@
   ],
   "rows": [
     {
+      "id": "2026020053",
       "awayTeam": "PIT",
       "awayScore": "3",
       "sep": "\u2013",
@@ -94,6 +95,7 @@
       "flagged": false
     },
     {
+      "id": "2026020054",
       "awayTeam": "COL",
       "awayScore": "2",
       "sep": "\u2013",
@@ -122,6 +124,7 @@
       "flagged": false
     },
     {
+      "id": "2026020055",
       "awayTeam": "EDM",
       "awayScore": "5",
       "sep": "\u2013",
@@ -149,5 +152,6 @@
       },
       "flagged": false
     }
-  ]
+  ],
+  "details": "2026-10-07.details.json"
 }

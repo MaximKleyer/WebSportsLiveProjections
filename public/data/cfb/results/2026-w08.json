@@ -60,6 +60,7 @@
   ],
   "rows": [
     {
+      "id": "401871055",
       "awayTeam": "Middle Tennessee",
       "awayScore": "26",
       "sep": "\u2013",
@@ -84,6 +85,7 @@
       "flagged": true
     },
     {
+      "id": "401871069",
       "awayTeam": "Missouri State",
       "awayScore": "38",
       "sep": "\u2013",
@@ -108,6 +110,7 @@
       "flagged": true
     },
     {
+      "id": "401871092",
       "awayTeam": "South Alabama",
       "awayScore": "13",
       "sep": "\u2013",
@@ -132,6 +135,7 @@
       "flagged": true
     },
     {
+      "id": "401871070",
       "awayTeam": "New Mexico State",
       "awayScore": "30",
       "sep": "\u2013",
@@ -156,6 +160,7 @@
       "flagged": true
     },
     {
+      "id": "401869845",
       "awayTeam": "James Madison",
       "awayScore": "31",
       "sep": "\u2013",
@@ -180,6 +185,7 @@
       "flagged": false
     },
     {
+      "id": "401871056",
       "awayTeam": "Liberty",
       "awayScore": "34",
       "sep": "\u2013",
@@ -204,6 +210,7 @@
       "flagged": false
     },
     {
+      "id": "401862807",
       "awayTeam": "East Carolina",
       "awayScore": "34",
       "sep": "\u2013",
@@ -227,5 +234,6 @@
       },
       "flagged": false
     }
-  ]
+  ],
+  "details": "2026-w08.details.json"
 }

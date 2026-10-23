@@ -1,0 +1,956 @@
+{
+  "games": {
+    "SEA@DEN": {
+      "title": "SEA @ DEN",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Seattle Seahawks",
+        "abbr": "SEA"
+      },
+      "home": {
+        "name": "Denver Broncos",
+        "abbr": "DEN"
+      },
+      "score": {
+        "away": "14",
+        "home": "17",
+        "label": "Final \u00b7 projected 23.2 \u2013 21.0"
+      },
+      "win": {
+        "away": 0.56,
+        "home": 0.44,
+        "note": "Before kickoff \u00b7 DEN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected SEA 23.2 \u2013 DEN 21.0 (SEA by 2.2); it ended SEA 14 \u2013 DEN 17, DEN by 3.",
+            "Off by 5.2 points on the margin and 13.2 on the total (31 scored against 44.2 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "SEA \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "DEN +3 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 40.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "HOU@JAX": {
+      "title": "HOU @ JAX",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Houston Texans",
+        "abbr": "HOU"
+      },
+      "home": {
+        "name": "Jacksonville Jaguars",
+        "abbr": "JAX"
+      },
+      "score": {
+        "away": "34",
+        "home": "31",
+        "label": "Final \u00b7 projected 18.3 \u2013 18.6"
+      },
+      "win": {
+        "away": 0.493,
+        "home": 0.507,
+        "note": "Before kickoff \u00b7 HOU won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected HOU 18.3 \u2013 JAX 18.6 (JAX by 0.3); it ended HOU 34 \u2013 JAX 31, HOU by 3.",
+            "Off by 3.3 points on the margin and 28.1 on the total (65 scored against 36.9 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "JAX \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 HOU +3 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 42.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "CHI@ATL": {
+      "title": "CHI @ ATL",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Chicago Bears",
+        "abbr": "CHI"
+      },
+      "home": {
+        "name": "Atlanta Falcons",
+        "abbr": "ATL"
+      },
+      "score": {
+        "away": "31",
+        "home": "23",
+        "label": "Final \u00b7 projected 24.3 \u2013 27.5"
+      },
+      "win": {
+        "away": 0.412,
+        "home": 0.588,
+        "note": "Before kickoff \u00b7 CHI won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected CHI 24.3 \u2013 ATL 27.5 (ATL by 3.2); it ended CHI 31 \u2013 ATL 23, CHI by 8.",
+            "Off by 11.2 points on the margin and 2.2 on the total (54 scored against 51.8 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "ATL \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 ATL +3 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 49.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "BAL@CLE": {
+      "title": "BAL @ CLE",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Baltimore Ravens",
+        "abbr": "BAL"
+      },
+      "home": {
+        "name": "Cleveland Browns",
+        "abbr": "CLE"
+      },
+      "score": {
+        "away": "10",
+        "home": "13",
+        "label": "Final \u00b7 projected 21.1 \u2013 20.8"
+      },
+      "win": {
+        "away": 0.508,
+        "home": 0.492,
+        "note": "Before kickoff \u00b7 CLE won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected BAL 21.1 \u2013 CLE 20.8 (BAL by 0.3); it ended BAL 10 \u2013 CLE 13, CLE by 3.",
+            "Off by 3.3 points on the margin and 19.0 on the total (23 scored against 41.9 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "BAL \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 CLE +4.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 40.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "TEN@IND": {
+      "title": "TEN @ IND",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Tennessee Titans",
+        "abbr": "TEN"
+      },
+      "home": {
+        "name": "Indianapolis Colts",
+        "abbr": "IND"
+      },
+      "score": {
+        "away": "26",
+        "home": "20",
+        "label": "Final \u00b7 projected 19.7 \u2013 24.0"
+      },
+      "win": {
+        "away": 0.382,
+        "home": 0.618,
+        "note": "Before kickoff \u00b7 TEN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected TEN 19.7 \u2013 IND 24.0 (IND by 4.3); it ended TEN 26 \u2013 IND 20, TEN by 6.",
+            "Off by 10.3 points on the margin and 2.2 on the total (46 scored against 43.7 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "IND \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 TEN +7 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 44.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "NYJ@NE": {
+      "title": "NYJ @ NE",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "New York Jets",
+        "abbr": "NYJ"
+      },
+      "home": {
+        "name": "New England Patriots",
+        "abbr": "NE"
+      },
+      "score": {
+        "away": "19",
+        "home": "26",
+        "label": "Final \u00b7 projected 18.2 \u2013 26.3"
+      },
+      "win": {
+        "away": 0.287,
+        "home": 0.713,
+        "note": "Before kickoff \u00b7 NE won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected NYJ 18.2 \u2013 NE 26.3 (NE by 8.1); it ended NYJ 19 \u2013 NE 26, NE by 7.",
+            "Off by 1.1 points on the margin and 0.5 on the total (45 scored against 44.5 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NE \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "NE -7.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 43.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "NO@NYG": {
+      "title": "NO @ NYG",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "New Orleans Saints",
+        "abbr": "NO"
+      },
+      "home": {
+        "name": "New York Giants",
+        "abbr": "NYG"
+      },
+      "score": {
+        "away": "34",
+        "home": "27",
+        "label": "Final \u00b7 projected 20.1 \u2013 27.7"
+      },
+      "win": {
+        "away": 0.298,
+        "home": 0.702,
+        "note": "Before kickoff \u00b7 NO won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected NO 20.1 \u2013 NYG 27.7 (NYG by 7.6); it ended NO 34 \u2013 NYG 27, NO by 7.",
+            "Off by 14.6 points on the margin and 13.2 on the total (61 scored against 47.8 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NYG \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 NYG -1.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 45.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "CAR@PHI": {
+      "title": "CAR @ PHI",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Carolina Panthers",
+        "abbr": "CAR"
+      },
+      "home": {
+        "name": "Philadelphia Eagles",
+        "abbr": "PHI"
+      },
+      "score": {
+        "away": "25",
+        "home": "14",
+        "label": "Final \u00b7 projected 23.7 \u2013 20.2"
+      },
+      "win": {
+        "away": 0.597,
+        "home": 0.403,
+        "note": "Before kickoff \u00b7 CAR won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected CAR 23.7 \u2013 PHI 20.2 (CAR by 3.5); it ended CAR 25 \u2013 PHI 14, CAR by 11.",
+            "Off by 7.5 points on the margin and 4.9 on the total (39 scored against 43.9 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "CAR \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 CAR +1.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 41.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "PIT@TB": {
+      "title": "PIT @ TB",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Pittsburgh Steelers",
+        "abbr": "PIT"
+      },
+      "home": {
+        "name": "Tampa Bay Buccaneers",
+        "abbr": "TB"
+      },
+      "score": {
+        "away": "26",
+        "home": "19",
+        "label": "Final \u00b7 projected 18.9 \u2013 21.8"
+      },
+      "win": {
+        "away": 0.421,
+        "home": 0.579,
+        "note": "Before kickoff \u00b7 PIT won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected PIT 18.9 \u2013 TB 21.8 (TB by 2.9); it ended PIT 26 \u2013 TB 19, PIT by 7.",
+            "Off by 9.9 points on the margin and 4.3 on the total (45 scored against 40.7 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "TB \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 TB +3 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 40.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "ARI@LAR": {
+      "title": "ARI @ LAR",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Arizona Cardinals",
+        "abbr": "ARI"
+      },
+      "home": {
+        "name": "Los Angeles Rams",
+        "abbr": "LAR"
+      },
+      "score": {
+        "away": "18",
+        "home": "16",
+        "label": "Final \u00b7 projected 18.6 \u2013 35.4"
+      },
+      "win": {
+        "away": 0.122,
+        "home": 0.878,
+        "note": "Before kickoff \u00b7 ARI won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected ARI 18.6 \u2013 LAR 35.4 (LAR by 16.8); it ended ARI 18 \u2013 LAR 16, ARI by 2.",
+            "Off by 18.7 points on the margin and 20.0 on the total (34 scored against 54.0 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "LAR \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 LAR -13.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 52.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "LAC@KC": {
+      "title": "LAC @ KC",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Los Angeles Chargers",
+        "abbr": "LAC"
+      },
+      "home": {
+        "name": "Kansas City Chiefs",
+        "abbr": "KC"
+      },
+      "score": {
+        "away": "6",
+        "home": "22",
+        "label": "Final \u00b7 projected 17.7 \u2013 27.8"
+      },
+      "win": {
+        "away": 0.241,
+        "home": 0.759,
+        "note": "Before kickoff \u00b7 KC won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected LAC 17.7 \u2013 KC 27.8 (KC by 10.1); it ended LAC 6 \u2013 KC 22, KC by 16.",
+            "Off by 5.9 points on the margin and 17.5 on the total (28 scored against 45.5 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "KC \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "KC -8.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 42.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "BUF@LV": {
+      "title": "BUF @ LV",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Buffalo Bills",
+        "abbr": "BUF"
+      },
+      "home": {
+        "name": "Las Vegas Raiders",
+        "abbr": "LV"
+      },
+      "score": {
+        "away": "33",
+        "home": "30",
+        "label": "Final \u00b7 projected 30.4 \u2013 24.8"
+      },
+      "win": {
+        "away": 0.65,
+        "home": 0.35,
+        "note": "Before kickoff \u00b7 BUF won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected BUF 30.4 \u2013 LV 24.8 (BUF by 5.6); it ended BUF 33 \u2013 LV 30, BUF by 3.",
+            "Off by 2.5 points on the margin and 7.8 on the total (63 scored against 55.2 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "BUF \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "LV +6 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 53.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "DAL@GB": {
+      "title": "DAL @ GB",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Dallas Cowboys",
+        "abbr": "DAL"
+      },
+      "home": {
+        "name": "Green Bay Packers",
+        "abbr": "GB"
+      },
+      "score": {
+        "away": "13",
+        "home": "23",
+        "label": "Final \u00b7 projected 23.6 \u2013 29.7"
+      },
+      "win": {
+        "away": 0.334,
+        "home": 0.666,
+        "note": "Before kickoff \u00b7 GB won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected DAL 23.6 \u2013 GB 29.7 (GB by 6.1); it ended DAL 13 \u2013 GB 23, GB by 10.",
+            "Off by 3.9 points on the margin and 17.2 on the total (36 scored against 53.3 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "GB \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 GB -1.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 52.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    },
+    "WAS@SF": {
+      "title": "WAS @ SF",
+      "subtitle": "Week 6 \u00b7 Final",
+      "away": {
+        "name": "Washington Commanders",
+        "abbr": "WAS"
+      },
+      "home": {
+        "name": "San Francisco 49ers",
+        "abbr": "SF"
+      },
+      "score": {
+        "away": "17",
+        "home": "23",
+        "label": "Final \u00b7 projected 18.9 \u2013 27.0"
+      },
+      "win": {
+        "away": 0.287,
+        "home": 0.713,
+        "note": "Before kickoff \u00b7 SF won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected WAS 18.9 \u2013 SF 27.0 (SF by 8.1); it ended WAS 17 \u2013 SF 23, SF by 6.",
+            "Off by 2.1 points on the margin and 5.9 on the total (40 scored against 45.9 projected).",
+            "Yardage and player lines fill in once week 6's FantasyPoints exports include this game (data/raw/2026/week_06)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "SF \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "SF -7.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 50.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    }
+  }
+}

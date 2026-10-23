@@ -1,0 +1,4281 @@
+{
+  "games": {
+    "TB@DAL": {
+      "title": "TB @ DAL",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Tampa Bay Buccaneers",
+        "abbr": "TB"
+      },
+      "home": {
+        "name": "Dallas Cowboys",
+        "abbr": "DAL"
+      },
+      "score": {
+        "away": "24",
+        "home": "16",
+        "label": "Final \u00b7 projected 26.4 \u2013 25.1"
+      },
+      "win": {
+        "away": 0.537,
+        "home": 0.463,
+        "note": "Before kickoff \u00b7 TB won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected TB 26.4 \u2013 DAL 25.1 (TB by 1.3); it ended TB 24 \u2013 DAL 16, TB by 8.",
+            "Off by 6.7 points on the margin and 11.5 on the total (40 scored against 51.5 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "TB \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 TB +9.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 47.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 26.4,
+                "actual": 24.0
+              },
+              "home": {
+                "proj": 25.1,
+                "actual": 16.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 245.5,
+                "actual": 189.0
+              },
+              "home": {
+                "proj": 218.2,
+                "actual": 316.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 108.2,
+                "actual": 241.0
+              },
+              "home": {
+                "proj": 88.1,
+                "actual": 50.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 353.7,
+                "actual": 430.0
+              },
+              "home": {
+                "proj": 306.3,
+                "actual": 366.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 32.7,
+                "actual": 25.0
+              },
+              "home": {
+                "proj": 31.0,
+                "actual": 42.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 21.8,
+                "actual": 39.0
+              },
+              "home": {
+                "proj": 22.5,
+                "actual": 13.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 2.0,
+                "actual": 1.0
+              },
+              "home": {
+                "proj": 1.0,
+                "actual": 0.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.66,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.41,
+                "actual": 2.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "TB",
+              "Jalon Daniels",
+              "QB",
+              "Pass yds",
+              "189",
+              "246",
+              "\u25bc 23%"
+            ],
+            [
+              "TB",
+              "Jalon Daniels",
+              "QB",
+              "Rush yds",
+              "23",
+              "11",
+              "\u25b2 12 yds"
+            ],
+            [
+              "TB",
+              "Bucky Irving",
+              "RB",
+              "Rush yds",
+              "165",
+              "84",
+              "\u25b2 97%"
+            ],
+            [
+              "TB",
+              "Kenny Gainwell",
+              "RB",
+              "Rush yds",
+              "18",
+              "13",
+              "\u25b2 5 yds"
+            ],
+            [
+              "TB",
+              "Cade Otton",
+              "TE",
+              "Rec yds",
+              "25 \u00b7 3 rec",
+              "51 \u00b7 4.7 rec",
+              "\u25bc 51%"
+            ],
+            [
+              "TB",
+              "Ted Hurst III",
+              "WR",
+              "Rec yds",
+              "0 \u00b7 0 rec",
+              "43 \u00b7 2.4 rec",
+              "\u25bc 100%"
+            ],
+            [
+              "TB",
+              "Emeka Egbuka",
+              "WR",
+              "Rec yds",
+              "38 \u00b7 6 rec",
+              "42 \u00b7 3.7 rec",
+              "\u25bc 10%"
+            ],
+            [
+              "DAL",
+              "Dak Prescott",
+              "QB",
+              "Pass yds",
+              "316",
+              "218",
+              "\u25b2 45%"
+            ],
+            [
+              "DAL",
+              "Dak Prescott",
+              "QB",
+              "Rush yds",
+              "0",
+              "12",
+              "\u25bc 12 yds"
+            ],
+            [
+              "DAL",
+              "Javonte Williams",
+              "RB",
+              "Rush yds",
+              "45",
+              "36",
+              "\u25b2 24%"
+            ],
+            [
+              "DAL",
+              "Malik Davis",
+              "RB",
+              "Rush yds",
+              null,
+              "22",
+              null
+            ],
+            [
+              "DAL",
+              "CeeDee Lamb",
+              "WR",
+              "Rec yds",
+              "9 \u00b7 2 rec",
+              "65 \u00b7 5.3 rec",
+              "\u25bc 86%"
+            ],
+            [
+              "DAL",
+              "George Pickens",
+              "WR",
+              "Rec yds",
+              "130 \u00b7 9 rec",
+              "42 \u00b7 3.8 rec",
+              "\u25b2 210%"
+            ],
+            [
+              "DAL",
+              "Ryan Flournoy",
+              "WR",
+              "Rec yds",
+              "90 \u00b7 3 rec",
+              "28 \u00b7 3.3 rec",
+              "\u25b2 221%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "PHI@JAX": {
+      "title": "PHI @ JAX",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Philadelphia Eagles",
+        "abbr": "PHI"
+      },
+      "home": {
+        "name": "Jacksonville Jaguars",
+        "abbr": "JAX"
+      },
+      "score": {
+        "away": "17",
+        "home": "19",
+        "label": "Final \u00b7 projected 19.8 \u2013 23.1"
+      },
+      "win": {
+        "away": 0.409,
+        "home": 0.591,
+        "note": "Before kickoff \u00b7 JAX won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected PHI 19.8 \u2013 JAX 23.1 (JAX by 3.3); it ended PHI 17 \u2013 JAX 19, JAX by 2.",
+            "Off by 1.3 points on the margin and 7.0 on the total (36 scored against 42.9 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "JAX \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "JAX -3 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 44.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 19.8,
+                "actual": 17.0
+              },
+              "home": {
+                "proj": 23.1,
+                "actual": 19.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 236.2,
+                "actual": 220.0
+              },
+              "home": {
+                "proj": 230.8,
+                "actual": 331.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 90.7,
+                "actual": 22.0
+              },
+              "home": {
+                "proj": 104.9,
+                "actual": 102.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 326.9,
+                "actual": 242.0
+              },
+              "home": {
+                "proj": 335.7,
+                "actual": 433.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 30.1,
+                "actual": 40.0
+              },
+              "home": {
+                "proj": 29.5,
+                "actual": 39.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 21.8,
+                "actual": 18.0
+              },
+              "home": {
+                "proj": 22.0,
+                "actual": 27.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 2.1,
+                "actual": 1.0
+              },
+              "home": {
+                "proj": 1.3,
+                "actual": 2.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.58,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.89,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "PHI",
+              "Jalen Hurts",
+              "QB",
+              "Pass yds",
+              "220",
+              "236",
+              "\u25bc 7%"
+            ],
+            [
+              "PHI",
+              "Jalen Hurts",
+              "QB",
+              "Rush yds",
+              "2",
+              "16",
+              "\u25bc 14 yds"
+            ],
+            [
+              "PHI",
+              "Saquon Barkley",
+              "RB",
+              "Rush yds",
+              null,
+              "62",
+              null
+            ],
+            [
+              "PHI",
+              "Will Shipley",
+              "RB",
+              "Rush yds",
+              "6",
+              "12",
+              "\u25bc 6 yds"
+            ],
+            [
+              "PHI",
+              "DeVonta Smith",
+              "WR",
+              "Rec yds",
+              null,
+              "77 \u00b7 6.3 rec",
+              null
+            ],
+            [
+              "PHI",
+              "Dontayvion Wicks",
+              "WR",
+              "Rec yds",
+              "63 \u00b7 5 rec",
+              "43 \u00b7 3.0 rec",
+              "\u25b2 46%"
+            ],
+            [
+              "PHI",
+              "Zach Ertz",
+              "TE",
+              "Rec yds",
+              "0 \u00b7 0 rec",
+              "34 \u00b7 3.4 rec",
+              "\u25bc 100%"
+            ],
+            [
+              "JAX",
+              "Trevor Lawrence",
+              "QB",
+              "Pass yds",
+              "331",
+              "231",
+              "\u25b2 43%"
+            ],
+            [
+              "JAX",
+              "Bhayshul Tuten",
+              "RB",
+              "Rush yds",
+              "72",
+              "65",
+              "\u25b2 11%"
+            ],
+            [
+              "JAX",
+              "Chris Rodriguez Jr.",
+              "RB",
+              "Rush yds",
+              "5",
+              "33",
+              "\u25bc 85%"
+            ],
+            [
+              "JAX",
+              "Parker Washington",
+              "WR",
+              "Rec yds",
+              "124 \u00b7 6 rec",
+              "61 \u00b7 4.6 rec",
+              "\u25b2 104%"
+            ],
+            [
+              "JAX",
+              "Jakobi Meyers",
+              "WR",
+              "Rec yds",
+              "37 \u00b7 2 rec",
+              "53 \u00b7 3.1 rec",
+              "\u25bc 30%"
+            ],
+            [
+              "JAX",
+              "Travis Hunter",
+              "WR",
+              "Rec yds",
+              "9 \u00b7 1 rec",
+              "36 \u00b7 2.6 rec",
+              "\u25bc 75%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "CHI@GB": {
+      "title": "CHI @ GB",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Chicago Bears",
+        "abbr": "CHI"
+      },
+      "home": {
+        "name": "Green Bay Packers",
+        "abbr": "GB"
+      },
+      "score": {
+        "away": "7",
+        "home": "31",
+        "label": "Final \u00b7 projected 24.3 \u2013 25.7"
+      },
+      "win": {
+        "away": 0.459,
+        "home": 0.541,
+        "note": "Before kickoff \u00b7 GB won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected CHI 24.3 \u2013 GB 25.7 (GB by 1.4); it ended CHI 7 \u2013 GB 31, GB by 24.",
+            "Off by 22.5 points on the margin and 12.0 on the total (38 scored against 50.0 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "GB \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "CHI +2.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 45.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 24.3,
+                "actual": 7.0
+              },
+              "home": {
+                "proj": 25.7,
+                "actual": 31.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 160.4,
+                "actual": 195.0
+              },
+              "home": {
+                "proj": 275.5,
+                "actual": 367.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 131.5,
+                "actual": 81.0
+              },
+              "home": {
+                "proj": 85.9,
+                "actual": 68.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 291.9,
+                "actual": 276.0
+              },
+              "home": {
+                "proj": 361.4,
+                "actual": 435.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 26.3,
+                "actual": 40.0
+              },
+              "home": {
+                "proj": 38.8,
+                "actual": 31.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 28.1,
+                "actual": 24.0
+              },
+              "home": {
+                "proj": 20.1,
+                "actual": 25.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 0.7,
+                "actual": 4.0
+              },
+              "home": {
+                "proj": 2.2,
+                "actual": 2.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.74,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 0.55,
+                "actual": 0.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "CHI",
+              "Tyson Bagent",
+              "QB",
+              "Pass yds",
+              "87",
+              "160",
+              "\u25bc 46%"
+            ],
+            [
+              "CHI",
+              "Tyson Bagent",
+              "QB",
+              "Rush yds",
+              "17",
+              "18",
+              "\u00b1 0 yds"
+            ],
+            [
+              "CHI",
+              "Case Keenum",
+              "QB",
+              "Pass yds",
+              "108",
+              null,
+              null
+            ],
+            [
+              "CHI",
+              "D'Andre Swift",
+              "RB",
+              "Rush yds",
+              "43",
+              "60",
+              "\u25bc 29%"
+            ],
+            [
+              "CHI",
+              "Kyle Monangai",
+              "RB",
+              "Rush yds",
+              null,
+              "42",
+              null
+            ],
+            [
+              "CHI",
+              "Kalif Raymond",
+              "WR",
+              "Rec yds",
+              "6 \u00b7 3 rec",
+              "39 \u00b7 3.2 rec",
+              "\u25bc 84%"
+            ],
+            [
+              "CHI",
+              "Rome Odunze",
+              "WR",
+              "Rec yds",
+              "40 \u00b7 3 rec",
+              "32 \u00b7 1.8 rec",
+              "\u25b2 23%"
+            ],
+            [
+              "CHI",
+              "Luther Burden III",
+              "WR",
+              "Rec yds",
+              "47 \u00b7 4 rec",
+              "31 \u00b7 2.9 rec",
+              "\u25b2 52%"
+            ],
+            [
+              "GB",
+              "Jordan Love",
+              "QB",
+              "Pass yds",
+              "367",
+              "276",
+              "\u25b2 33%"
+            ],
+            [
+              "GB",
+              "Josh Jacobs",
+              "RB",
+              "Rush yds",
+              null,
+              "35",
+              null
+            ],
+            [
+              "GB",
+              "Chris Brooks",
+              "RB",
+              "Rush yds",
+              null,
+              "26",
+              null
+            ],
+            [
+              "GB",
+              "Christian Watson",
+              "WR",
+              "Rec yds",
+              "143 \u00b7 6 rec",
+              "81 \u00b7 5.0 rec",
+              "\u25b2 76%"
+            ],
+            [
+              "GB",
+              "Matthew Golden",
+              "WR",
+              "Rec yds",
+              "123 \u00b7 6 rec",
+              "72 \u00b7 4.6 rec",
+              "\u25b2 72%"
+            ],
+            [
+              "GB",
+              "Tucker Kraft",
+              "TE",
+              "Rec yds",
+              "64 \u00b7 5 rec",
+              "35 \u00b7 3.2 rec",
+              "\u25b2 83%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "CIN@MIA": {
+      "title": "CIN @ MIA",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Cincinnati Bengals",
+        "abbr": "CIN"
+      },
+      "home": {
+        "name": "Miami Dolphins",
+        "abbr": "MIA"
+      },
+      "score": {
+        "away": "31",
+        "home": "24",
+        "label": "Final \u00b7 projected 27.4 \u2013 25.2"
+      },
+      "win": {
+        "away": 0.562,
+        "home": 0.438,
+        "note": "Before kickoff \u00b7 CIN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected CIN 27.4 \u2013 MIA 25.2 (CIN by 2.2); it ended CIN 31 \u2013 MIA 24, CIN by 7.",
+            "Off by 4.8 points on the margin and 2.4 on the total (55 scored against 52.6 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "CIN \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 MIA +8.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 46.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 27.4,
+                "actual": 31.0
+              },
+              "home": {
+                "proj": 25.2,
+                "actual": 24.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 291.0,
+                "actual": 190.0
+              },
+              "home": {
+                "proj": 209.9,
+                "actual": 137.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 91.5,
+                "actual": 117.0
+              },
+              "home": {
+                "proj": 118.8,
+                "actual": 217.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 382.5,
+                "actual": 307.0
+              },
+              "home": {
+                "proj": 328.7,
+                "actual": 354.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 35.7,
+                "actual": 32.0
+              },
+              "home": {
+                "proj": 23.9,
+                "actual": 27.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 19.1,
+                "actual": 31.0
+              },
+              "home": {
+                "proj": 23.6,
+                "actual": 34.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 2.1,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 2.9,
+                "actual": 3.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.47,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.48,
+                "actual": 2.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "CIN",
+              "Joe Burrow",
+              "QB",
+              "Pass yds",
+              "190",
+              "291",
+              "\u25bc 35%"
+            ],
+            [
+              "CIN",
+              "Chase Brown",
+              "RB",
+              "Rush yds",
+              "39",
+              "66",
+              "\u25bc 41%"
+            ],
+            [
+              "CIN",
+              "Samaje Perine",
+              "RB",
+              "Rush yds",
+              "68",
+              "18",
+              "\u25b2 50 yds"
+            ],
+            [
+              "CIN",
+              "Tee Higgins",
+              "WR",
+              "Rec yds",
+              "22 \u00b7 2 rec",
+              "85 \u00b7 5.6 rec",
+              "\u25bc 74%"
+            ],
+            [
+              "CIN",
+              "Ja'Marr Chase",
+              "WR",
+              "Rec yds",
+              "77 \u00b7 6 rec",
+              "79 \u00b7 7.0 rec",
+              "\u25bc 2%"
+            ],
+            [
+              "CIN",
+              "Mike Gesicki",
+              "TE",
+              "Rec yds",
+              "4 \u00b7 1 rec",
+              "33 \u00b7 3.1 rec",
+              "\u25bc 88%"
+            ],
+            [
+              "MIA",
+              "Malik Willis",
+              "QB",
+              "Pass yds",
+              "137",
+              "210",
+              "\u25bc 35%"
+            ],
+            [
+              "MIA",
+              "Malik Willis",
+              "QB",
+              "Rush yds",
+              "74",
+              "23",
+              "\u25b2 222%"
+            ],
+            [
+              "MIA",
+              "De'Von Achane",
+              "RB",
+              "Rush yds",
+              null,
+              "61",
+              null
+            ],
+            [
+              "MIA",
+              "DJ Herman",
+              "RB",
+              "Rush yds",
+              null,
+              "12",
+              null
+            ],
+            [
+              "MIA",
+              "Caleb Douglas",
+              "WR",
+              "Rec yds",
+              null,
+              "48 \u00b7 3.4 rec",
+              null
+            ],
+            [
+              "MIA",
+              "Malik Washington",
+              "WR",
+              "Rec yds",
+              "43 \u00b7 6 rec",
+              "35 \u00b7 4.1 rec",
+              "\u25b2 21%"
+            ],
+            [
+              "MIA",
+              "Greg Dulcich",
+              "TE",
+              "Rec yds",
+              "37 \u00b7 4 rec",
+              "30 \u00b7 3.2 rec",
+              "\u25b2 23%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "LV@NE": {
+      "title": "LV @ NE",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Las Vegas Raiders",
+        "abbr": "LV"
+      },
+      "home": {
+        "name": "New England Patriots",
+        "abbr": "NE"
+      },
+      "score": {
+        "away": "17",
+        "home": "45",
+        "label": "Final \u00b7 projected 18.6 \u2013 23.1"
+      },
+      "win": {
+        "away": 0.376,
+        "home": 0.624,
+        "note": "Before kickoff \u00b7 NE won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected LV 18.6 \u2013 NE 23.1 (NE by 4.5); it ended LV 17 \u2013 NE 45, NE by 28.",
+            "Off by 23.5 points on the margin and 20.3 on the total (62 scored against 41.7 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NE \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "NE -3.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "UNDER 44.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 18.6,
+                "actual": 17.0
+              },
+              "home": {
+                "proj": 23.1,
+                "actual": 45.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 190.3,
+                "actual": 291.0
+              },
+              "home": {
+                "proj": 206.8,
+                "actual": 374.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 107.1,
+                "actual": 38.0
+              },
+              "home": {
+                "proj": 109.4,
+                "actual": 165.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 297.4,
+                "actual": 329.0
+              },
+              "home": {
+                "proj": 316.2,
+                "actual": 539.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 32.0,
+                "actual": 36.0
+              },
+              "home": {
+                "proj": 30.1,
+                "actual": 34.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 26.5,
+                "actual": 18.0
+              },
+              "home": {
+                "proj": 23.3,
+                "actual": 31.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 1.8,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 4.1,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 1.05,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 1.78,
+                "actual": 0.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "LV",
+              "Kirk Cousins",
+              "QB",
+              "Pass yds",
+              "243",
+              "190",
+              "\u25b2 28%"
+            ],
+            [
+              "LV",
+              "Ashton Jeanty",
+              "RB",
+              "Rush yds",
+              "27",
+              "69",
+              "\u25bc 61%"
+            ],
+            [
+              "LV",
+              "Mike Washington Jr.",
+              "RB",
+              "Rush yds",
+              "5",
+              "32",
+              "\u25bc 84%"
+            ],
+            [
+              "LV",
+              "Brock Bowers",
+              "TE",
+              "Rec yds",
+              "110 \u00b7 8 rec",
+              "52 \u00b7 5.6 rec",
+              "\u25b2 111%"
+            ],
+            [
+              "LV",
+              "Tre Tucker",
+              "WR",
+              "Rec yds",
+              "41 \u00b7 4 rec",
+              "41 \u00b7 2.9 rec",
+              "\u00b1 0%"
+            ],
+            [
+              "LV",
+              "Michael Mayer",
+              "TE",
+              "Rec yds",
+              "2 \u00b7 1 rec",
+              "28 \u00b7 3.0 rec",
+              "\u25bc 93%"
+            ],
+            [
+              "NE",
+              "Drake Maye",
+              "QB",
+              "Pass yds",
+              "374",
+              "207",
+              "\u25b2 81%"
+            ],
+            [
+              "NE",
+              "Drake Maye",
+              "QB",
+              "Rush yds",
+              "25",
+              "21",
+              "\u25b2 18%"
+            ],
+            [
+              "NE",
+              "Rhamondre Stevenson",
+              "RB",
+              "Rush yds",
+              "64",
+              "42",
+              "\u25b2 51%"
+            ],
+            [
+              "NE",
+              "TreVeyon Henderson",
+              "RB",
+              "Rush yds",
+              "22",
+              "30",
+              "\u25bc 28%"
+            ],
+            [
+              "NE",
+              "Romeo Doubs",
+              "WR",
+              "Rec yds",
+              "16 \u00b7 1 rec",
+              "47 \u00b7 2.5 rec",
+              "\u25bc 66%"
+            ],
+            [
+              "NE",
+              "Mack Hollins",
+              "WR",
+              "Rec yds",
+              null,
+              "36 \u00b7 3.0 rec",
+              null
+            ],
+            [
+              "NE",
+              "A.J. Brown",
+              "WR",
+              "Rec yds",
+              null,
+              "32 \u00b7 2.8 rec",
+              null
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "MIN@NO": {
+      "title": "MIN @ NO",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Minnesota Vikings",
+        "abbr": "MIN"
+      },
+      "home": {
+        "name": "New Orleans Saints",
+        "abbr": "NO"
+      },
+      "score": {
+        "away": "23",
+        "home": "13",
+        "label": "Final \u00b7 projected 19.5 \u2013 21.8"
+      },
+      "win": {
+        "away": 0.435,
+        "home": 0.565,
+        "note": "Before kickoff \u00b7 MIN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected MIN 19.5 \u2013 NO 21.8 (NO by 2.3); it ended MIN 23 \u2013 NO 13, MIN by 10.",
+            "Off by 12.4 points on the margin and 5.3 on the total (36 scored against 41.3 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NO \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 NO +2.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 44.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 19.5,
+                "actual": 23.0
+              },
+              "home": {
+                "proj": 21.8,
+                "actual": 13.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 151.4,
+                "actual": 229.0
+              },
+              "home": {
+                "proj": 242.1,
+                "actual": 96.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 113.8,
+                "actual": 153.0
+              },
+              "home": {
+                "proj": 100.5,
+                "actual": 55.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 265.2,
+                "actual": 382.0
+              },
+              "home": {
+                "proj": 342.6,
+                "actual": 151.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 28.6,
+                "actual": 30.0
+              },
+              "home": {
+                "proj": 39.8,
+                "actual": 25.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 26.2,
+                "actual": 36.0
+              },
+              "home": {
+                "proj": 26.3,
+                "actual": 17.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 2.7,
+                "actual": 2.0
+              },
+              "home": {
+                "proj": 3.9,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.99,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 1.04,
+                "actual": 2.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "MIN",
+              "Kyler Murray",
+              "QB",
+              "Pass yds",
+              "229",
+              "151",
+              "\u25b2 51%"
+            ],
+            [
+              "MIN",
+              "Kyler Murray",
+              "QB",
+              "Rush yds",
+              "51",
+              "14",
+              "\u25b2 36 yds"
+            ],
+            [
+              "MIN",
+              "Aaron Jones Sr.",
+              "RB",
+              "Rush yds",
+              "113",
+              "58",
+              "\u25b2 93%"
+            ],
+            [
+              "MIN",
+              "Jordan Mason",
+              "RB",
+              "Rush yds",
+              null,
+              "29",
+              null
+            ],
+            [
+              "MIN",
+              "Justin Jefferson",
+              "WR",
+              "Rec yds",
+              "79 \u00b7 6 rec",
+              "58 \u00b7 4.1 rec",
+              "\u25b2 36%"
+            ],
+            [
+              "MIN",
+              "Jordan Addison",
+              "WR",
+              "Rec yds",
+              null,
+              "20 \u00b7 1.5 rec",
+              null
+            ],
+            [
+              "MIN",
+              "T.J. Hockenson",
+              "TE",
+              "Rec yds",
+              "7 \u00b7 1 rec",
+              "18 \u00b7 2.4 rec",
+              "\u25bc 11 yds"
+            ],
+            [
+              "NO",
+              "Tyler Shough",
+              "QB",
+              "Pass yds",
+              "96",
+              "242",
+              "\u25bc 60%"
+            ],
+            [
+              "NO",
+              "Tyler Shough",
+              "QB",
+              "Rush yds",
+              "0",
+              "12",
+              "\u25bc 12 yds"
+            ],
+            [
+              "NO",
+              "Travis Etienne Jr.",
+              "RB",
+              "Rush yds",
+              null,
+              "38",
+              null
+            ],
+            [
+              "NO",
+              "Alvin Kamara",
+              "RB",
+              "Rush yds",
+              "12",
+              "30",
+              "\u25bc 60%"
+            ],
+            [
+              "NO",
+              "Chris Olave",
+              "WR",
+              "Rec yds",
+              "46 \u00b7 4 rec",
+              "82 \u00b7 6.1 rec",
+              "\u25bc 44%"
+            ],
+            [
+              "NO",
+              "Juwan Johnson",
+              "TE",
+              "Rec yds",
+              "16 \u00b7 4 rec",
+              "39 \u00b7 3.0 rec",
+              "\u25bc 59%"
+            ],
+            [
+              "NO",
+              "Devaughn Vele",
+              "WR",
+              "Rec yds",
+              "26 \u00b7 4 rec",
+              "35 \u00b7 3.1 rec",
+              "\u25bc 26%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "CLE@NYJ": {
+      "title": "CLE @ NYJ",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Cleveland Browns",
+        "abbr": "CLE"
+      },
+      "home": {
+        "name": "New York Jets",
+        "abbr": "NYJ"
+      },
+      "score": {
+        "away": "12",
+        "home": "17",
+        "label": "Final \u00b7 projected 9.1 \u2013 14.5"
+      },
+      "win": {
+        "away": 0.352,
+        "home": 0.648,
+        "note": "Before kickoff \u00b7 NYJ won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected CLE 9.1 \u2013 NYJ 14.5 (NYJ by 5.4); it ended CLE 12 \u2013 NYJ 17, NYJ by 5.",
+            "Off by 0.4 points on the margin and 5.4 on the total (29 scored against 23.6 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "NYJ \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 NYJ -1.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 40.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 9.1,
+                "actual": 12.0
+              },
+              "home": {
+                "proj": 14.5,
+                "actual": 17.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 171.3,
+                "actual": 155.0
+              },
+              "home": {
+                "proj": 237.3,
+                "actual": 182.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 81.4,
+                "actual": 96.0
+              },
+              "home": {
+                "proj": 145.8,
+                "actual": 134.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 252.7,
+                "actual": 251.0
+              },
+              "home": {
+                "proj": 383.1,
+                "actual": 316.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 26.1,
+                "actual": 33.0
+              },
+              "home": {
+                "proj": 32.5,
+                "actual": 30.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 18.9,
+                "actual": 23.0
+              },
+              "home": {
+                "proj": 26.7,
+                "actual": 32.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 3.1,
+                "actual": 8.0
+              },
+              "home": {
+                "proj": 2.5,
+                "actual": 4.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.38,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.59,
+                "actual": 0.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "CLE",
+              "Deshaun Watson",
+              "QB",
+              "Pass yds",
+              "155",
+              "171",
+              "\u25bc 10%"
+            ],
+            [
+              "CLE",
+              "Deshaun Watson",
+              "QB",
+              "Rush yds",
+              "40",
+              "17",
+              "\u25b2 23 yds"
+            ],
+            [
+              "CLE",
+              "Quinshon Judkins",
+              "RB",
+              "Rush yds",
+              "44",
+              "33",
+              "\u25b2 34%"
+            ],
+            [
+              "CLE",
+              "Dylan Sampson",
+              "RB",
+              "Rush yds",
+              null,
+              "16",
+              null
+            ],
+            [
+              "CLE",
+              "Denzel Boston",
+              "WR",
+              "Rec yds",
+              "46 \u00b7 3 rec",
+              "46 \u00b7 2.1 rec",
+              "\u00b1 0%"
+            ],
+            [
+              "CLE",
+              "Harold Fannin Jr.",
+              "TE",
+              "Rec yds",
+              "4 \u00b7 1 rec",
+              "32 \u00b7 2.9 rec",
+              "\u25bc 87%"
+            ],
+            [
+              "CLE",
+              "KC Concepcion",
+              "WR",
+              "Rec yds",
+              "5 \u00b7 1 rec",
+              "23 \u00b7 3.2 rec",
+              "\u25bc 79%"
+            ],
+            [
+              "NYJ",
+              "Geno Smith",
+              "QB",
+              "Pass yds",
+              "182",
+              "237",
+              "\u25bc 23%"
+            ],
+            [
+              "NYJ",
+              "Geno Smith",
+              "QB",
+              "Rush yds",
+              "7",
+              "12",
+              "\u25bc 5 yds"
+            ],
+            [
+              "NYJ",
+              "Breece Hall",
+              "RB",
+              "Rush yds",
+              null,
+              "72",
+              null
+            ],
+            [
+              "NYJ",
+              "Isaiah Davis",
+              "RB",
+              "Rush yds",
+              "8",
+              "25",
+              "\u25bc 68%"
+            ],
+            [
+              "NYJ",
+              "Garrett Wilson",
+              "WR",
+              "Rec yds",
+              "104 \u00b7 7 rec",
+              "60 \u00b7 6.3 rec",
+              "\u25b2 74%"
+            ],
+            [
+              "NYJ",
+              "Kenyon Sadiq",
+              "TE",
+              "Rec yds",
+              "3 \u00b7 2 rec",
+              "42 \u00b7 4.2 rec",
+              "\u25bc 93%"
+            ],
+            [
+              "NYJ",
+              "Adonai Mitchell",
+              "WR",
+              "Rec yds",
+              null,
+              "33 \u00b7 2.9 rec",
+              null
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "IND@PIT": {
+      "title": "IND @ PIT",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Indianapolis Colts",
+        "abbr": "IND"
+      },
+      "home": {
+        "name": "Pittsburgh Steelers",
+        "abbr": "PIT"
+      },
+      "score": {
+        "away": "22",
+        "home": "34",
+        "label": "Final \u00b7 projected 17.5 \u2013 20.0"
+      },
+      "win": {
+        "away": 0.432,
+        "home": 0.568,
+        "note": "Before kickoff \u00b7 PIT won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected IND 17.5 \u2013 PIT 20.0 (PIT by 2.5); it ended IND 22 \u2013 PIT 34, PIT by 12.",
+            "Off by 9.5 points on the margin and 18.5 on the total (56 scored against 37.5 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "PIT \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 17.5,
+                "actual": 22.0
+              },
+              "home": {
+                "proj": 20.0,
+                "actual": 34.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 206.1,
+                "actual": 267.0
+              },
+              "home": {
+                "proj": 252.2,
+                "actual": 235.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 102.0,
+                "actual": 65.0
+              },
+              "home": {
+                "proj": 94.6,
+                "actual": 126.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 308.1,
+                "actual": 332.0
+              },
+              "home": {
+                "proj": 346.8,
+                "actual": 361.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 27.6,
+                "actual": 44.0
+              },
+              "home": {
+                "proj": 35.4,
+                "actual": 31.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 22.0,
+                "actual": 23.0
+              },
+              "home": {
+                "proj": 20.5,
+                "actual": 21.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 2.1,
+                "actual": 1.0
+              },
+              "home": {
+                "proj": 2.5,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.8,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.58,
+                "actual": 0.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "IND",
+              "Daniel Jones",
+              "QB",
+              "Pass yds",
+              "267",
+              "206",
+              "\u25b2 30%"
+            ],
+            [
+              "IND",
+              "Jonathan Taylor",
+              "RB",
+              "Rush yds",
+              "45",
+              "92",
+              "\u25bc 51%"
+            ],
+            [
+              "IND",
+              "Josh Downs",
+              "WR",
+              "Rec yds",
+              "47 \u00b7 3 rec",
+              "54 \u00b7 4.0 rec",
+              "\u25bc 12%"
+            ],
+            [
+              "IND",
+              "Alec Pierce",
+              "WR",
+              "Rec yds",
+              null,
+              "32 \u00b7 2.3 rec",
+              null
+            ],
+            [
+              "IND",
+              "Keenan Allen",
+              "WR",
+              "Rec yds",
+              "45 \u00b7 5 rec",
+              "31 \u00b7 3.7 rec",
+              "\u25b2 43%"
+            ],
+            [
+              "PIT",
+              "Aaron Rodgers",
+              "QB",
+              "Pass yds",
+              "235",
+              "252",
+              "\u25bc 7%"
+            ],
+            [
+              "PIT",
+              "Jaylen Warren",
+              "RB",
+              "Rush yds",
+              "101",
+              "58",
+              "\u25b2 73%"
+            ],
+            [
+              "PIT",
+              "Rico Dowdle",
+              "RB",
+              "Rush yds",
+              null,
+              "20",
+              null
+            ],
+            [
+              "PIT",
+              "DK Metcalf",
+              "WR",
+              "Rec yds",
+              "12 \u00b7 3 rec",
+              "54 \u00b7 4.2 rec",
+              "\u25bc 78%"
+            ],
+            [
+              "PIT",
+              "Michael Pittman Jr.",
+              "WR",
+              "Rec yds",
+              null,
+              "46 \u00b7 3.9 rec",
+              null
+            ],
+            [
+              "PIT",
+              "Pat Freiermuth",
+              "TE",
+              "Rec yds",
+              "44 \u00b7 5 rec",
+              "36 \u00b7 3.4 rec",
+              "\u25b2 23%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "HOU@TEN": {
+      "title": "HOU @ TEN",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Houston Texans",
+        "abbr": "HOU"
+      },
+      "home": {
+        "name": "Tennessee Titans",
+        "abbr": "TEN"
+      },
+      "score": {
+        "away": "26",
+        "home": "3",
+        "label": "Final \u00b7 projected 20.9 \u2013 19.1"
+      },
+      "win": {
+        "away": 0.55,
+        "home": 0.45,
+        "note": "Before kickoff \u00b7 HOU won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected HOU 20.9 \u2013 TEN 19.1 (HOU by 1.8); it ended HOU 26 \u2013 TEN 3, HOU by 23.",
+            "Off by 21.2 points on the margin and 11.0 on the total (29 scored against 40.0 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "HOU \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 TEN +6.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 39.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 20.9,
+                "actual": 26.0
+              },
+              "home": {
+                "proj": 19.1,
+                "actual": 3.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 264.4,
+                "actual": 261.0
+              },
+              "home": {
+                "proj": 215.7,
+                "actual": 170.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 84.0,
+                "actual": 79.0
+              },
+              "home": {
+                "proj": 90.2,
+                "actual": 57.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 348.4,
+                "actual": 340.0
+              },
+              "home": {
+                "proj": 305.9,
+                "actual": 227.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 38.9,
+                "actual": 34.0
+              },
+              "home": {
+                "proj": 32.3,
+                "actual": 36.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 24.9,
+                "actual": 27.0
+              },
+              "home": {
+                "proj": 21.6,
+                "actual": 18.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 2.6,
+                "actual": 2.0
+              },
+              "home": {
+                "proj": 2.9,
+                "actual": 4.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.82,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.27,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "HOU",
+              "C.J. Stroud",
+              "QB",
+              "Pass yds",
+              "261",
+              "264",
+              "\u25bc 1%"
+            ],
+            [
+              "HOU",
+              "C.J. Stroud",
+              "QB",
+              "Rush yds",
+              "5",
+              "11",
+              "\u25bc 6 yds"
+            ],
+            [
+              "HOU",
+              "David Montgomery",
+              "RB",
+              "Rush yds",
+              "11",
+              "35",
+              "\u25bc 69%"
+            ],
+            [
+              "HOU",
+              "Woody Marks",
+              "RB",
+              "Rush yds",
+              "62",
+              "33",
+              "\u25b2 87%"
+            ],
+            [
+              "HOU",
+              "Dalton Schultz",
+              "TE",
+              "Rec yds",
+              "30 \u00b7 3 rec",
+              "45 \u00b7 3.4 rec",
+              "\u25bc 34%"
+            ],
+            [
+              "HOU",
+              "Tank Dell",
+              "WR",
+              "Rec yds",
+              null,
+              "42 \u00b7 2.6 rec",
+              null
+            ],
+            [
+              "HOU",
+              "Jayden Higgins",
+              "WR",
+              "Rec yds",
+              null,
+              "41 \u00b7 2.5 rec",
+              null
+            ],
+            [
+              "TEN",
+              "Cam Ward",
+              "QB",
+              "Pass yds",
+              "170",
+              "216",
+              "\u25bc 21%"
+            ],
+            [
+              "TEN",
+              "Cam Ward",
+              "QB",
+              "Rush yds",
+              "2",
+              "11",
+              "\u25bc 9 yds"
+            ],
+            [
+              "TEN",
+              "Tony Pollard",
+              "RB",
+              "Rush yds",
+              "52",
+              "40",
+              "\u25b2 32%"
+            ],
+            [
+              "TEN",
+              "Michael Carter",
+              "RB",
+              "Rush yds",
+              null,
+              "26",
+              null
+            ],
+            [
+              "TEN",
+              "Wan'Dale Robinson",
+              "WR",
+              "Rec yds",
+              "53 \u00b7 6 rec",
+              "45 \u00b7 5.1 rec",
+              "\u25b2 18%"
+            ],
+            [
+              "TEN",
+              "Carnell Tate",
+              "WR",
+              "Rec yds",
+              "6 \u00b7 1 rec",
+              "38 \u00b7 4.0 rec",
+              "\u25bc 84%"
+            ],
+            [
+              "TEN",
+              "Elic Ayomanor",
+              "WR",
+              "Rec yds",
+              "17 \u00b7 1 rec",
+              "36 \u00b7 1.9 rec",
+              "\u25bc 53%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "NYG@WAS": {
+      "title": "NYG @ WAS",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "New York Giants",
+        "abbr": "NYG"
+      },
+      "home": {
+        "name": "Washington Commanders",
+        "abbr": "WAS"
+      },
+      "score": {
+        "away": "27",
+        "home": "27",
+        "label": "Final \u00b7 projected 11.5 \u2013 12.3"
+      },
+      "win": {
+        "away": 0.476,
+        "home": 0.524,
+        "note": "Before kickoff \u00b7 a tie"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected NYG 11.5 \u2013 WAS 12.3 (WAS by 0.8); it ended NYG 27 \u2013 WAS 27, a tie.",
+            "Off by 0.9 points on the margin and 30.2 on the total (54 scored against 23.8 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "WAS (tie)",
+                "tone": "muted",
+                "sort": 0.5
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 11.5,
+                "actual": 27.0
+              },
+              "home": {
+                "proj": 12.3,
+                "actual": 27.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 221.1,
+                "actual": 326.0
+              },
+              "home": {
+                "proj": 125.6,
+                "actual": 199.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 114.4,
+                "actual": 103.0
+              },
+              "home": {
+                "proj": 139.1,
+                "actual": 202.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 335.5,
+                "actual": 429.0
+              },
+              "home": {
+                "proj": 264.7,
+                "actual": 401.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 28.3,
+                "actual": 54.0
+              },
+              "home": {
+                "proj": 25.2,
+                "actual": 25.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 30.3,
+                "actual": 28.0
+              },
+              "home": {
+                "proj": 32.4,
+                "actual": 30.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 2.2,
+                "actual": 2.0
+              },
+              "home": {
+                "proj": 1.5,
+                "actual": 5.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 1.06,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.56,
+                "actual": 0.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "NYG",
+              "Jameis Winston",
+              "QB",
+              "Pass yds",
+              "326",
+              "221",
+              "\u25b2 47%"
+            ],
+            [
+              "NYG",
+              "Cam Skattebo",
+              "RB",
+              "Rush yds",
+              "59",
+              "47",
+              "\u25b2 25%"
+            ],
+            [
+              "NYG",
+              "Tyrone Tracy Jr.",
+              "RB",
+              "Rush yds",
+              "6",
+              "39",
+              "\u25bc 85%"
+            ],
+            [
+              "NYG",
+              "Malik Nabers",
+              "WR",
+              "Rec yds",
+              "121 \u00b7 11 rec",
+              "41 \u00b7 4.4 rec",
+              "\u25b2 196%"
+            ],
+            [
+              "NYG",
+              "Isaiah Likely",
+              "TE",
+              "Rec yds",
+              "94 \u00b7 11 rec",
+              "40 \u00b7 3.8 rec",
+              "\u25b2 136%"
+            ],
+            [
+              "NYG",
+              "Darnell Mooney",
+              "WR",
+              "Rec yds",
+              "14 \u00b7 2 rec",
+              "37 \u00b7 2.9 rec",
+              "\u25bc 62%"
+            ],
+            [
+              "WAS",
+              "Jayden Daniels",
+              "QB",
+              "Pass yds",
+              "199",
+              "126",
+              "\u25b2 58%"
+            ],
+            [
+              "WAS",
+              "Jayden Daniels",
+              "QB",
+              "Rush yds",
+              "103",
+              "32",
+              "\u25b2 225%"
+            ],
+            [
+              "WAS",
+              "Jacory Croskey-Merritt",
+              "RB",
+              "Rush yds",
+              "82",
+              "41",
+              "\u25b2 99%"
+            ],
+            [
+              "WAS",
+              "Rachaad White",
+              "RB",
+              "Rush yds",
+              "18",
+              "30",
+              "\u25bc 41%"
+            ],
+            [
+              "WAS",
+              "Terry McLaurin",
+              "WR",
+              "Rec yds",
+              "62 \u00b7 4 rec",
+              "28 \u00b7 2.1 rec",
+              "\u25b2 121%"
+            ],
+            [
+              "WAS",
+              "Stefon Diggs",
+              "WR",
+              "Rec yds",
+              null,
+              "25 \u00b7 2.2 rec",
+              null
+            ],
+            [
+              "WAS",
+              "Luke McCaffrey",
+              "WR",
+              "Rec yds",
+              null,
+              "14 \u00b7 0.8 rec",
+              null
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "DEN@LAC": {
+      "title": "DEN @ LAC",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Denver Broncos",
+        "abbr": "DEN"
+      },
+      "home": {
+        "name": "Los Angeles Chargers",
+        "abbr": "LAC"
+      },
+      "score": {
+        "away": "23",
+        "home": "17",
+        "label": "Final \u00b7 projected 22.6 \u2013 21.9"
+      },
+      "win": {
+        "away": 0.519,
+        "home": 0.481,
+        "note": "Before kickoff \u00b7 DEN won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected DEN 22.6 \u2013 LAC 21.9 (DEN by 0.7); it ended DEN 23 \u2013 LAC 17, DEN by 6.",
+            "Off by 5.3 points on the margin and 4.4 on the total (40 scored against 44.5 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "DEN \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "LAC +2.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 43.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 22.6,
+                "actual": 23.0
+              },
+              "home": {
+                "proj": 21.9,
+                "actual": 17.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 255.9,
+                "actual": 123.0
+              },
+              "home": {
+                "proj": 183.9,
+                "actual": 121.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 82.2,
+                "actual": 106.0
+              },
+              "home": {
+                "proj": 109.3,
+                "actual": 155.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 338.1,
+                "actual": 229.0
+              },
+              "home": {
+                "proj": 293.2,
+                "actual": 276.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 34.6,
+                "actual": 27.0
+              },
+              "home": {
+                "proj": 31.4,
+                "actual": 24.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 20.9,
+                "actual": 29.0
+              },
+              "home": {
+                "proj": 24.0,
+                "actual": 34.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 1.5,
+                "actual": 1.0
+              },
+              "home": {
+                "proj": 3.7,
+                "actual": 5.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.77,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 1.03,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "DEN",
+              "Bo Nix",
+              "QB",
+              "Pass yds",
+              "123",
+              "256",
+              "\u25bc 52%"
+            ],
+            [
+              "DEN",
+              "J.K. Dobbins",
+              "RB",
+              "Rush yds",
+              "68",
+              "35",
+              "\u25b2 93%"
+            ],
+            [
+              "DEN",
+              "RJ Harvey",
+              "RB",
+              "Rush yds",
+              "7",
+              "18",
+              "\u25bc 12 yds"
+            ],
+            [
+              "DEN",
+              "Jaylen Waddle",
+              "WR",
+              "Rec yds",
+              "19 \u00b7 2 rec",
+              "39 \u00b7 3.8 rec",
+              "\u25bc 51%"
+            ],
+            [
+              "DEN",
+              "Courtland Sutton",
+              "WR",
+              "Rec yds",
+              "18 \u00b7 2 rec",
+              "38 \u00b7 3.9 rec",
+              "\u25bc 52%"
+            ],
+            [
+              "DEN",
+              "Evan Engram",
+              "TE",
+              "Rec yds",
+              "55 \u00b7 4 rec",
+              "32 \u00b7 2.8 rec",
+              "\u25b2 72%"
+            ],
+            [
+              "LAC",
+              "Justin Herbert",
+              "QB",
+              "Pass yds",
+              "121",
+              "184",
+              "\u25bc 34%"
+            ],
+            [
+              "LAC",
+              "Justin Herbert",
+              "QB",
+              "Rush yds",
+              "54",
+              "20",
+              "\u25b2 34 yds"
+            ],
+            [
+              "LAC",
+              "Omarion Hampton",
+              "RB",
+              "Rush yds",
+              "33",
+              "40",
+              "\u25bc 17%"
+            ],
+            [
+              "LAC",
+              "Kimani Vidal",
+              "RB",
+              "Rush yds",
+              "57",
+              "24",
+              "\u25b2 139%"
+            ],
+            [
+              "LAC",
+              "Ladd McConkey",
+              "WR",
+              "Rec yds",
+              null,
+              "54 \u00b7 3.9 rec",
+              null
+            ],
+            [
+              "LAC",
+              "Tre' Harris",
+              "WR",
+              "Rec yds",
+              "16 \u00b7 2 rec",
+              "35 \u00b7 2.5 rec",
+              "\u25bc 55%"
+            ],
+            [
+              "LAC",
+              "Quentin Johnston",
+              "WR",
+              "Rec yds",
+              null,
+              "23 \u00b7 2.3 rec",
+              null
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "DET@ARI": {
+      "title": "DET @ ARI",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Detroit Lions",
+        "abbr": "DET"
+      },
+      "home": {
+        "name": "Arizona Cardinals",
+        "abbr": "ARI"
+      },
+      "score": {
+        "away": "45",
+        "home": "21",
+        "label": "Final \u00b7 projected 36.3 \u2013 23.8"
+      },
+      "win": {
+        "away": 0.808,
+        "home": 0.192,
+        "note": "Before kickoff \u00b7 DET won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected DET 36.3 \u2013 ARI 23.8 (DET by 12.5); it ended DET 45 \u2013 ARI 21, DET by 24.",
+            "Off by 11.5 points on the margin and 5.9 on the total (66 scored against 60.1 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "DET \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 DET -5.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 OVER 52.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 36.3,
+                "actual": 45.0
+              },
+              "home": {
+                "proj": 23.8,
+                "actual": 21.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 322.6,
+                "actual": 271.0
+              },
+              "home": {
+                "proj": 239.4,
+                "actual": 292.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 148.3,
+                "actual": 163.0
+              },
+              "home": {
+                "proj": 86.1,
+                "actual": 56.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 470.9,
+                "actual": 434.0
+              },
+              "home": {
+                "proj": 325.5,
+                "actual": 348.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 36.7,
+                "actual": 30.0
+              },
+              "home": {
+                "proj": 36.2,
+                "actual": 47.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 30.2,
+                "actual": 32.0
+              },
+              "home": {
+                "proj": 23.7,
+                "actual": 18.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 1.8,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 2.6,
+                "actual": 5.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.28,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.47,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "DET",
+              "Jared Goff",
+              "QB",
+              "Pass yds",
+              "271",
+              "323",
+              "\u25bc 16%"
+            ],
+            [
+              "DET",
+              "Jahmyr Gibbs",
+              "RB",
+              "Rush yds",
+              "151",
+              "93",
+              "\u25b2 63%"
+            ],
+            [
+              "DET",
+              "Isiah Pacheco",
+              "RB",
+              "Rush yds",
+              null,
+              "37",
+              null
+            ],
+            [
+              "DET",
+              "Amon-Ra St. Brown",
+              "WR",
+              "Rec yds",
+              "69 \u00b7 6 rec",
+              "88 \u00b7 8.4 rec",
+              "\u25bc 22%"
+            ],
+            [
+              "DET",
+              "Sam LaPorta",
+              "TE",
+              "Rec yds",
+              "88 \u00b7 5 rec",
+              "60 \u00b7 5.4 rec",
+              "\u25b2 47%"
+            ],
+            [
+              "DET",
+              "Jameson Williams",
+              "WR",
+              "Rec yds",
+              "47 \u00b7 2 rec",
+              "56 \u00b7 4.2 rec",
+              "\u25bc 17%"
+            ],
+            [
+              "ARI",
+              "Jacoby Brissett",
+              "QB",
+              "Pass yds",
+              "292",
+              "239",
+              "\u25b2 22%"
+            ],
+            [
+              "ARI",
+              "Jeremiyah Love",
+              "RB",
+              "Rush yds",
+              "22",
+              "28",
+              "\u25bc 23%"
+            ],
+            [
+              "ARI",
+              "Trey Benson",
+              "RB",
+              "Rush yds",
+              null,
+              "21",
+              null
+            ],
+            [
+              "ARI",
+              "Trey McBride",
+              "TE",
+              "Rec yds",
+              "66 \u00b7 9 rec",
+              "62 \u00b7 7.4 rec",
+              "\u25b2 6%"
+            ],
+            [
+              "ARI",
+              "Michael Wilson",
+              "WR",
+              "Rec yds",
+              "30 \u00b7 4 rec",
+              "57 \u00b7 4.6 rec",
+              "\u25bc 47%"
+            ],
+            [
+              "ARI",
+              "Kendrick Bourne",
+              "WR",
+              "Rec yds",
+              "70 \u00b7 5 rec",
+              "24 \u00b7 3.0 rec",
+              "\u25b2 186%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "SF@SEA": {
+      "title": "SF @ SEA",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "San Francisco 49ers",
+        "abbr": "SF"
+      },
+      "home": {
+        "name": "Seattle Seahawks",
+        "abbr": "SEA"
+      },
+      "score": {
+        "away": "32",
+        "home": "29",
+        "label": "Final \u00b7 projected 19.4 \u2013 24.3"
+      },
+      "win": {
+        "away": 0.366,
+        "home": 0.634,
+        "note": "Before kickoff \u00b7 SF won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected SF 19.4 \u2013 SEA 24.3 (SEA by 4.9); it ended SF 32 \u2013 SEA 29, SF by 3.",
+            "Off by 7.9 points on the margin and 17.3 on the total (61 scored against 43.7 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "SEA \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "SEA -3 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "\u2605 UNDER 47.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 19.4,
+                "actual": 32.0
+              },
+              "home": {
+                "proj": 24.3,
+                "actual": 29.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 208.4,
+                "actual": 189.0
+              },
+              "home": {
+                "proj": 240.7,
+                "actual": 195.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 96.8,
+                "actual": 94.0
+              },
+              "home": {
+                "proj": 122.3,
+                "actual": 89.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 305.2,
+                "actual": 283.0
+              },
+              "home": {
+                "proj": 363.0,
+                "actual": 284.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 28.0,
+                "actual": 29.0
+              },
+              "home": {
+                "proj": 32.9,
+                "actual": 29.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 23.6,
+                "actual": 24.0
+              },
+              "home": {
+                "proj": 31.3,
+                "actual": 26.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 0.9,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 1.7,
+                "actual": 5.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.66,
+                "actual": 1.0
+              },
+              "home": {
+                "proj": 0.61,
+                "actual": 2.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "SF",
+              "Brock Purdy",
+              "QB",
+              "Pass yds",
+              "189",
+              "208",
+              "\u25bc 9%"
+            ],
+            [
+              "SF",
+              "Brock Purdy",
+              "QB",
+              "Rush yds",
+              "6",
+              "14",
+              "\u25bc 8 yds"
+            ],
+            [
+              "SF",
+              "Christian McCaffrey",
+              "RB",
+              "Rush yds",
+              "68",
+              "37",
+              "\u25b2 83%"
+            ],
+            [
+              "SF",
+              "Isaac Guerendo",
+              "RB",
+              "Rush yds",
+              null,
+              "23",
+              null
+            ],
+            [
+              "SF",
+              "Mike Evans",
+              "WR",
+              "Rec yds",
+              "113 \u00b7 7 rec",
+              "35 \u00b7 2.5 rec",
+              "\u25b2 219%"
+            ],
+            [
+              "SF",
+              "Brandon Aiyuk",
+              "WR",
+              "Rec yds",
+              null,
+              "34 \u00b7 2.0 rec",
+              null
+            ],
+            [
+              "SF",
+              "George Kittle",
+              "TE",
+              "Rec yds",
+              "24 \u00b7 5 rec",
+              "29 \u00b7 2.2 rec",
+              "\u25bc 17%"
+            ],
+            [
+              "SEA",
+              "Sam Darnold",
+              "QB",
+              "Pass yds",
+              "195",
+              "241",
+              "\u25bc 19%"
+            ],
+            [
+              "SEA",
+              "Zach Charbonnet",
+              "RB",
+              "Rush yds",
+              null,
+              "47",
+              null
+            ],
+            [
+              "SEA",
+              "Jadarian Price",
+              "RB",
+              "Rush yds",
+              null,
+              "35",
+              null
+            ],
+            [
+              "SEA",
+              "Jaxon Smith-Njigba",
+              "WR",
+              "Rec yds",
+              "102 \u00b7 5 rec",
+              "86 \u00b7 6.5 rec",
+              "\u25b2 18%"
+            ],
+            [
+              "SEA",
+              "Cooper Kupp",
+              "WR",
+              "Rec yds",
+              "15 \u00b7 2 rec",
+              "46 \u00b7 3.8 rec",
+              "\u25bc 68%"
+            ],
+            [
+              "SEA",
+              "AJ Barner",
+              "TE",
+              "Rec yds",
+              "20 \u00b7 3 rec",
+              "25 \u00b7 2.6 rec",
+              "\u25bc 20%"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "BAL@ATL": {
+      "title": "BAL @ ATL",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Baltimore Ravens",
+        "abbr": "BAL"
+      },
+      "home": {
+        "name": "Atlanta Falcons",
+        "abbr": "ATL"
+      },
+      "score": {
+        "away": "30",
+        "home": "23",
+        "label": "Final \u00b7 projected 27.3 \u2013 23.8"
+      },
+      "win": {
+        "away": 0.595,
+        "home": 0.405,
+        "note": "Before kickoff \u00b7 BAL won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected BAL 27.3 \u2013 ATL 23.8 (BAL by 3.5); it ended BAL 30 \u2013 ATL 23, BAL by 7.",
+            "Off by 3.5 points on the margin and 1.9 on the total (53 scored against 51.1 projected)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "BAL \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "\u2605 ATL +6 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 49.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        },
+        {
+          "title": "Projected against actual",
+          "kind": "versus",
+          "rows": [
+            {
+              "label": "Points",
+              "away": {
+                "proj": 27.3,
+                "actual": 30.0
+              },
+              "home": {
+                "proj": 23.8,
+                "actual": 23.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Passing yards",
+              "away": {
+                "proj": 234.3,
+                "actual": 201.0
+              },
+              "home": {
+                "proj": 205.5,
+                "actual": 274.0
+              }
+            },
+            {
+              "label": "Rushing yards",
+              "away": {
+                "proj": 131.4,
+                "actual": 208.0
+              },
+              "home": {
+                "proj": 143.7,
+                "actual": 110.0
+              }
+            },
+            {
+              "label": "Total yards",
+              "away": {
+                "proj": 365.7,
+                "actual": 409.0
+              },
+              "home": {
+                "proj": 349.2,
+                "actual": 384.0
+              }
+            },
+            {
+              "label": "Pass attempts",
+              "away": {
+                "proj": 24.9,
+                "actual": 32.0
+              },
+              "home": {
+                "proj": 27.8,
+                "actual": 35.0
+              }
+            },
+            {
+              "label": "Carries",
+              "away": {
+                "proj": 29.5,
+                "actual": 35.0
+              },
+              "home": {
+                "proj": 33.3,
+                "actual": 26.0
+              }
+            },
+            {
+              "label": "Sacks taken",
+              "away": {
+                "proj": 1.8,
+                "actual": 3.0
+              },
+              "home": {
+                "proj": 0.9,
+                "actual": 3.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            },
+            {
+              "label": "Interceptions",
+              "away": {
+                "proj": 0.56,
+                "actual": 0.0
+              },
+              "home": {
+                "proj": 0.37,
+                "actual": 1.0
+              },
+              "projDigits": 1,
+              "delta": "diff"
+            }
+          ],
+          "note": "Each bar is what the team did, the tick what the model projected: its players' lines added up (rushing includes the quarterbacks')."
+        },
+        {
+          "title": "Key players",
+          "kind": "table",
+          "columns": [
+            "Team",
+            "Player",
+            "Pos",
+            "Stat",
+            "Actual",
+            "Proj.",
+            "\u00b1"
+          ],
+          "rows": [
+            [
+              "BAL",
+              "Lamar Jackson",
+              "QB",
+              "Pass yds",
+              null,
+              "234",
+              null
+            ],
+            [
+              "BAL",
+              "Lamar Jackson",
+              "QB",
+              "Rush yds",
+              null,
+              "15",
+              null
+            ],
+            [
+              "BAL",
+              "Tyler Huntley",
+              "QB",
+              "Pass yds",
+              "201",
+              null,
+              null
+            ],
+            [
+              "BAL",
+              "Derrick Henry",
+              "RB",
+              "Rush yds",
+              "102",
+              "88",
+              "\u25b2 16%"
+            ],
+            [
+              "BAL",
+              "Justice Hill",
+              "RB",
+              "Rush yds",
+              "73",
+              "12",
+              "\u25b2 61 yds"
+            ],
+            [
+              "BAL",
+              "Zay Flowers",
+              "WR",
+              "Rec yds",
+              "53 \u00b7 8 rec",
+              "99 \u00b7 5.1 rec",
+              "\u25bc 46%"
+            ],
+            [
+              "BAL",
+              "Mark Andrews",
+              "TE",
+              "Rec yds",
+              "28 \u00b7 4 rec",
+              "36 \u00b7 3.8 rec",
+              "\u25bc 22%"
+            ],
+            [
+              "BAL",
+              "Rashod Bateman",
+              "WR",
+              "Rec yds",
+              "62 \u00b7 5 rec",
+              "24 \u00b7 2.0 rec",
+              "\u25b2 154%"
+            ],
+            [
+              "ATL",
+              "Michael Penix Jr.",
+              "QB",
+              "Pass yds",
+              "240",
+              "206",
+              "\u25b2 17%"
+            ],
+            [
+              "ATL",
+              "Bijan Robinson",
+              "RB",
+              "Rush yds",
+              "86",
+              "82",
+              "\u25b2 5%"
+            ],
+            [
+              "ATL",
+              "Brian Robinson Jr.",
+              "RB",
+              "Rush yds",
+              "16",
+              "38",
+              "\u25bc 58%"
+            ],
+            [
+              "ATL",
+              "Drake London",
+              "WR",
+              "Rec yds",
+              "118 \u00b7 7 rec",
+              "89 \u00b7 5.6 rec",
+              "\u25b2 33%"
+            ],
+            [
+              "ATL",
+              "Kyle Pitts Sr.",
+              "TE",
+              "Rec yds",
+              "42 \u00b7 5 rec",
+              "22 \u00b7 2.1 rec",
+              "\u25b2 88%"
+            ],
+            [
+              "ATL",
+              "Jahan Dotson",
+              "WR",
+              "Rec yds",
+              "54 \u00b7 2 rec",
+              "14 \u00b7 1.6 rec",
+              "\u25b2 40 yds"
+            ]
+          ],
+          "note": "\u2014 with no actual: no line in the exports (he didn't record the stat, or sat)."
+        }
+      ]
+    },
+    "BUF@LAR": {
+      "title": "BUF @ LAR",
+      "subtitle": "Week 5 \u00b7 Final",
+      "away": {
+        "name": "Buffalo Bills",
+        "abbr": "BUF"
+      },
+      "home": {
+        "name": "Los Angeles Rams",
+        "abbr": "LAR"
+      },
+      "score": {
+        "away": "37",
+        "home": "34",
+        "label": "Final \u00b7 projected 25.5 \u2013 28.5"
+      },
+      "win": {
+        "away": 0.419,
+        "home": 0.581,
+        "note": "Before kickoff \u00b7 BUF won"
+      },
+      "sections": [
+        {
+          "title": "How it went",
+          "kind": "notes",
+          "items": [
+            "The model projected BUF 25.5 \u2013 LAR 28.5 (LAR by 3.0); it ended BUF 37 \u2013 LAR 34, BUF by 3.",
+            "Off by 5.9 points on the margin and 17.0 on the total (71 scored against 54.0 projected).",
+            "Yardage and player lines fill in once week 5's FantasyPoints exports include this game (data/raw/2026/week_05)."
+          ]
+        },
+        {
+          "title": "The picks",
+          "kind": "table",
+          "columns": [
+            "",
+            "Pick"
+          ],
+          "rows": [
+            [
+              "Straight up",
+              {
+                "v": "LAR \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Against the spread",
+              {
+                "v": "LAR -2.5 \u2717",
+                "tone": "bad",
+                "sort": 0
+              }
+            ],
+            [
+              "Over / under",
+              {
+                "v": "OVER 52.5 \u2713",
+                "tone": "good",
+                "sort": 1
+              }
+            ]
+          ],
+          "note": "\u2605 a flagged play; graded at the closing line the model projected against."
+        }
+      ]
+    }
+  }
+}

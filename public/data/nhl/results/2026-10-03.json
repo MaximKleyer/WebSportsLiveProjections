@@ -66,6 +66,7 @@
   ],
   "rows": [
     {
+      "id": "2026020029",
       "awayTeam": "NJD",
       "awayScore": "0",
       "sep": "\u2013",
@@ -94,6 +95,7 @@
       "flagged": false
     },
     {
+      "id": "2026020030",
       "awayTeam": "DAL",
       "awayScore": "1",
       "sep": "\u2013",
@@ -122,6 +124,7 @@
       "flagged": false
     },
     {
+      "id": "2026020031",
       "awayTeam": "BOS",
       "awayScore": "1",
       "sep": "\u2013",
@@ -150,6 +153,7 @@
       "flagged": false
     },
     {
+      "id": "2026020032",
       "awayTeam": "STL",
       "awayScore": "1",
       "sep": "\u2013",
@@ -178,6 +182,7 @@
       "flagged": false
     },
     {
+      "id": "2026020033",
       "awayTeam": "CGY",
       "awayScore": "1",
       "sep": "\u2013",
@@ -206,6 +211,7 @@
       "flagged": false
     },
     {
+      "id": "2026020034",
       "awayTeam": "LAK",
       "awayScore": "4",
       "sep": "OT",
@@ -233,5 +239,6 @@
       },
       "flagged": false
     }
-  ]
+  ],
+  "details": "2026-10-03.details.json"
 }
