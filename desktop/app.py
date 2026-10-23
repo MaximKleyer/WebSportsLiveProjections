@@ -4,6 +4,9 @@ results, and the models that are due run in the background (runner.py).
   pythonw desktop\\app.py              what the desktop shortcut runs
   pythonw desktop\\app.py --background what the hourly scheduled task runs: what's due,
                                       no window, then exit (install-schedule.ps1)
+  python desktop\\app.py --background --force
+                                      every step of every model now, as Run everything now
+                                      does (in the open app's window, if it's up)
   python desktop\\app.py --no-window   server only: open http://127.0.0.1:5190/
   python desktop\\app.py --no-run      open without running anything
 
@@ -54,13 +57,16 @@ def main() -> int:
     ap.add_argument("--no-run", action="store_true", help="don't run the models on start")
     ap.add_argument("--background", action="store_true",
                     help="run what's due without a window, then exit (the hourly scheduled task)")
+    ap.add_argument("--force", action="store_true",
+                    help="run every step now, not only what's due (as Run everything now)")
     args = ap.parse_args()
     setup_logging()
 
     running = existing_app()
     if running and args.background:
-        log.info("background run: the app is up on port %s, so it runs what's due", running)
-        ask_to_run(running)
+        log.info("background run: the app is up on port %s, so it runs %s", running,
+                 "everything" if args.force else "what's due")
+        ask_to_run(running, args.force)
         return 0
     if running:
         log.info("already running on port %s; opening a window", running)
@@ -79,10 +85,10 @@ def main() -> int:
 
     threading.Thread(target=prepare_ui, args=(ui,), daemon=True, name="ui").start()
     if not args.no_run:
-        runner.start()
+        runner.start(force=args.force)
     try:
         if args.background:
-            log.info("background run: running what's due")
+            log.info("background run: running %s", "everything" if args.force else "what's due")
             runner.wait()
             if not window_joined(app):
                 log.info("background run done")
@@ -183,9 +189,11 @@ def window_joined(app: App) -> bool:
         time.sleep(0.5)
 
 
-def ask_to_run(port: int) -> None:
-    """Have the app that's already up run what's due (it shows the run in its window)."""
-    request = urllib.request.Request(f"http://127.0.0.1:{port}/api/run", data=b"{}", method="POST",
+def ask_to_run(port: int, force: bool = False) -> None:
+    """Have the app that's already up run what's due, or (`force`) everything; it shows the run
+    in its window."""
+    request = urllib.request.Request(f"http://127.0.0.1:{port}/api/run", data=json.dumps({"force": force}).encode(),
+                                     method="POST",
                                      headers={"Content-Type": "application/json", "X-Sports-Models": "1"})
     try:
         with urllib.request.urlopen(request, timeout=10) as response:

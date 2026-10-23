@@ -6,10 +6,10 @@ One command to refresh the site's model data ("call both models").
   .\scripts\update-data.ps1 -Predict -Week 3             # run every model (football for week 3), then export
   .\scripts\update-data.ps1 -Sport cfb -Predict -Week 3  # one sport only
   .\scripts\update-data.ps1 -Sport nhl -Predict          # NHL: today's games, season sim, power rankings
-  .\scripts\update-data.ps1 -Sport nba -Predict          # NBA: season sim, power rankings, the early look (the day's
-                                                         #   games are the model's "NBA gameday" task's)
-  .\scripts\update-data.ps1 -Sport cbb -Predict          # CBB: rankings, season sim, NCAA sim once the bracket is out,
-                                                         #   the early look (the day's games are the "CBB gameday" task's)
+  .\scripts\update-data.ps1 -Sport nba -Predict          # NBA: grade and predict today, the early look, season sim,
+                                                         #   power rankings
+  .\scripts\update-data.ps1 -Sport cbb -Predict          # CBB: grade and predict today, the early look, rankings,
+                                                         #   season sim, NCAA sim once the bracket is out
   .\scripts\update-data.ps1 -Grade                       # grade the football models' finished games first
   .\scripts\update-data.ps1 -Grade -Predict -Week 5      # the weekly routine: grade, project week 5, export
 
@@ -17,8 +17,8 @@ One command to refresh the site's model data ("call both models").
 Football needs -Week with -Predict; the NHL predicts the next game day on its own.
 -Grade runs each football model's own grader over every saved week (re-grading
 a finished week reproduces it; a week in progress counts the games played so
-far), before any -Predict. The NHL needs no grading step: its daily run pulls
-in results and settles bets, and its adapter grades from them.
+far), before any -Predict. The NHL, NBA and CBB need no grading step: their
+daily runs pull in results and settle bets, and their adapters grade from them.
 Each model command runs through the desktop app's protected step
 (desktop\sports\<sport>.py step ...): a game that kicked off before the run keeps
 its earlier projection (the kickoff freeze), the rewritten file is backed up
@@ -64,7 +64,7 @@ function Get-ExportArgs([string]$SportId) {
     return $exportArgs
 }
 
-if ($Predict -and -not $Week -and $Sport -notin 'nhl', 'nba') { throw '-Predict requires -Week <n> for football' }
+if ($Predict -and -not $Week -and $Sport -notin 'nhl', 'nba', 'cbb') { throw '-Predict requires -Week <n> for football' }
 
 if ($Sport -eq 'nfl' -or $Sport -eq 'all') {
     $py = Join-Path $NflRepo '.venv\Scripts\python.exe'
@@ -105,10 +105,11 @@ if ($Sport -eq 'nhl' -or $Sport -eq 'all') {
 if ($Sport -eq 'nba' -or $Sport -eq 'all') {
     $py = Join-Path $NbaRepo '.venv\Scripts\python.exe'
     if ($Predict) {
-        # The day's predictions are the model's own "NBA gameday" scheduled task's (desktop\sports\nba.py).
+        # Today first (results, settled bets, predictions, new bets), then what runs on its results.
+        Invoke-Step 'NBA: grade and predict today' $py @("$Steps\nba.py", 'step', 'today') $NbaRepo
+        Invoke-Step 'NBA: early look' $py @("$Steps\nba.py", 'step', 'early') $NbaRepo
         Invoke-Step 'NBA: season sim' $py @("$Steps\nba.py", 'step', 'season') $NbaRepo
         Invoke-Step 'NBA: power rankings' $py @("$Steps\nba.py", 'step', 'power') $NbaRepo
-        Invoke-Step 'NBA: early look' $py @("$Steps\nba.py", 'step', 'early') $NbaRepo
     }
     Invoke-Step 'NBA: export to site' $py @((Join-Path $PSScriptRoot 'exporters\nba.py')) $NbaRepo
 }
@@ -116,11 +117,12 @@ if ($Sport -eq 'nba' -or $Sport -eq 'all') {
 if ($Sport -eq 'cbb' -or $Sport -eq 'all') {
     $py = Join-Path $CbbRepo '.venv\Scripts\python.exe'
     if ($Predict) {
-        # The day's predictions are the model's own "CBB gameday" scheduled task's (desktop\sports\cbb.py).
+        # Today first (results, settled bets, predictions, new bets), then what runs on its results.
+        Invoke-Step 'CBB: grade and predict today' $py @("$Steps\cbb.py", 'step', 'today') $CbbRepo
+        Invoke-Step 'CBB: early look' $py @("$Steps\cbb.py", 'step', 'early') $CbbRepo
         Invoke-Step 'CBB: rankings' $py @("$Steps\cbb.py", 'step', 'rankings') $CbbRepo
         Invoke-Step 'CBB: season sim' $py @("$Steps\cbb.py", 'step', 'season') $CbbRepo
         Invoke-Step 'CBB: NCAA tournament' $py @("$Steps\cbb.py", 'step', 'ncaa') $CbbRepo
-        Invoke-Step 'CBB: early look' $py @("$Steps\cbb.py", 'step', 'early') $CbbRepo
     }
     Invoke-Step 'CBB: export to site' $py @((Join-Path $PSScriptRoot 'exporters\cbb.py')) $CbbRepo
 }
